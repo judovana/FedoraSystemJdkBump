@@ -29,7 +29,7 @@ Steps and tools to bump system JDK in Fedora
 now time should be taken to Fesco and RCM have spoken, then it is announced by them and work can start
 
 # fesco action
-* Wait for change submitted - eg: https://fedoraproject.org/…690
-* Wait for cahge approved - eg: https://fedoraproject.org/…279
-* Wait for trackers: https://fedoraproject.org/…847
+* Wait for change submitted - eg: https://fedoraproject.org/w/index.php?title=Changes%2FJava17&type=revision&diff=630279&oldid=629690
+* Wait for cahge approved - eg: https://fedoraproject.org/w/index.php?title=Changes%2FJava17&type=revision&diff=630847&oldid=630279
+* Wait for trackers: https://fedoraproject.org/w/index.php?title=Changes%2FJava17&type=revision&diff=630849&oldid=630847
 
