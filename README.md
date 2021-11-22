@@ -66,4 +66,23 @@ now time should be taken to Fesco and RCM have spoken, then it is announced by t
     * only then, it have snese to publish the copr
 
 # prepare copr repository
-* use https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/listPkgs/listJavaDependentPkgs.sh and https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/listPkgs/nvfrsToNames.sh to find all packages you wish to include in your copr
+* install copr client
+  * sudo dnf install copr-cli
+* create copr repo
+  * log into https://copr.fedorainfracloud.org/
+  * click "new project"
+  * use reasonbale description, eg: *This repo serves as initial research for bumping system jdk from jdk11 to jdk17.*
+  * it is enough to build only for "fedora-rawhide-x86_64" (single build checkbox selected)
+  * if the last fedora was already branched (jdk17 was done for f36, so f35 was already branched) deselect "Follow Fedora branching".  We will be done before "our" release (f36 for jdk17) branches, and we want the repo to continue working on rawhide in all cases.
+  * disable  "Mock bootstrap" (No longer remember why, sorry)
+  * done
+* add the crucial, modified packages, from theirs forks/branches
+  *  pr1
+  *  pr2
+  * ...
+* manually via gui, one by one
+* or via the adapted script of:
+* ensure thsoe built and resullts are correct
+* add one your well known package, which you know will be afffected by bump.
+  * verify
+* use https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/listPkgs/listJavaDependentPkgs.sh and https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/listPkgs/nvfrsToNames.sh to find all packages you wish to include in your copr. It is good idea to exclude orphans
