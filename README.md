@@ -12,6 +12,8 @@ Steps and tools to bump system JDK in Fedora
   * eg https://fedoraproject.org/wiki/Changes/Java17#Dependencies
   *  You can use: https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/listPkgs/listJavaDependentPkgs.sh
 * discusse coopeartion with ***javapackages-tools*** and ***maven***
+  * javapackges-tools are usually that simple: https://src.fedoraproject.org/rpms/javapackages-tools/c/637e4be9a46812a99645521530770ce2d10115bd?branch=rawhide
+  * maven honor above, but more severe patches, eg: https://src.fedoraproject.org/rpms/javapackages-tools/c/8fe665f78ac8eab03dd57f4936ca379f6ad573bd?branch=rawhide are necessary. But that can be done on the fly ahead of time
 * create proposal
   * eg: https://fedoraproject.org/wiki/Changes/Java17#Other
   * it is always ```[[Category:SystemWideChange]]```
@@ -51,10 +53,15 @@ now time should be taken to Fesco and RCM have spoken, then it is announced by t
 * in your fork of current system jdk (11 this time) create a branch,and in that, stop this jdk to be system one
   * eg:
 * Adapt any other necessary packages, so future jdk will indeed become system jdk
-  * javapackage-tools: 
+  * javapackages-tools and maven: 
+    * https://src.fedoraproject.org/rpms/javapackages-tools/pull-request/8
+    * https://src.fedoraproject.org/rpms/maven/pull-request/32
+    * https://src.fedoraproject.org/rpms/xmvn/pull-request/9
   * **double check** that it is indeed systemjdk and that no other packages need modification to it actually take effect
     * verify java/java-headless/javac and other versionless provides
     * full listing should be readable from spec when chekcing usages of the systemJdk macro
+    * verify the packages are actually built by it
+    * only then, it have snese to publish the copr
 
 # prepare copr repository
 * use https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/listPkgs/listJavaDependentPkgs.sh and https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/listPkgs/nvfrsToNames.sh to find all packages you wish to include in your copr
