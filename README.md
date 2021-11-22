@@ -42,16 +42,16 @@ now time should be taken to Fesco and RCM have spoken, then it is announced by t
   * and
   * https://bugzilla.redhat.com/show_bug.cgi?id=2024881 - Bug 2024881 - Review Request: java-17-openjdk - The OpenJDK 17 runtime and development environment.
 * Your new bug, should block the bug assigned by fesco, eg:
-  * https://bugzilla.redhat.com/show_bug.cgi?id=2024265 - Bug 2024265 - java-17-openjdk as system JDK in F36 (edit)
+  * https://bugzilla.redhat.com/show_bug.cgi?id=2024265 - Bug 2024265 - java-17-openjdk as system JDK in F36
 * The review, the copr and the fesco should go in semi parallel. If not the fesco aproavls, then at least copr and review. 
 
 # system jdk package
 * you have review in progress
-* the package in reviw is usually **not** system jdk, to keep rawhide usable, and prvent brekage if package goes to older Fedora (which usually ahppnes)
+* the package in reviw is **not** system jdk, to keep rawhide usable, and prvent brekage if/once package goes to older Fedora (which usually happnes)
 * in your fork of java-latest-openjdk/or freshly created java-futureSystemJdkVersion-openjdk (17 this time), create branch, and there set this package to system jdks
-  *  eg:
+  *  eg: https://src.fedoraproject.org/rpms/java-11-openjdk/c/0ba272cf2229deadf4c3f27d67dd0295c0515f18?branch=rawhide
 * in your fork of current system jdk (11 this time) create a branch,and in that, stop this jdk to be system one
-  * eg:
+  * eg: https://src.fedoraproject.org/rpms/java-1.8.0-openjdk/c/6b38e01a0e5aea56e80c2115cc839e2582f160e1?branch=rawhide
 * Adapt any other necessary packages, so future jdk will indeed become system jdk
   * javapackages-tools and maven: 
     * https://src.fedoraproject.org/rpms/javapackages-tools/pull-request/8
