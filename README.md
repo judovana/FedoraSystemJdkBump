@@ -70,7 +70,7 @@ now time should be taken to Fesco and RCM have spoken, then it is announced by t
 
 # prepare copr repository
 * install copr client
-  * sudo dnf install copr-cli
+  * sudo ```dnf install copr-cli```
 * create copr repo
   * log into https://copr.fedorainfracloud.org/
   * click "new project"
