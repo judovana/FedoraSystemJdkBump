@@ -80,7 +80,7 @@ now time should be taken to Fesco and RCM have spoken, then it is announced by t
   * disable  "Mock bootstrap" (No longer remember why, sorry)
   * done
 * add the crucial, modified packages, from theirs forks/branches
-  * See PRs in https://github.com/judovana/FedoraSystemJdkBump/blob/main/README.md#branches-with-changed-systyem-jdk
+  * See PRs in https://github.com/judovana/FedoraSystemJdkBump#branches-with-changed-systyem-jdk
 * manually via gui, one by one
 * or via the adapted script of:
   * todo
