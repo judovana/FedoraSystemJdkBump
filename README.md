@@ -83,8 +83,10 @@ now time should be taken to Fesco and RCM have spoken, then it is announced by t
   * See PRs in https://github.com/judovana/FedoraSystemJdkBump#branches-with-changed-systyem-jdk
 * manually via gui, one by one
 * or via the adapted script of:
-  * todo
+  *  enable copr api key (```man  copr-cli``` will tell)
   *  again, see the coleration with PRs in https://github.com/judovana/FedoraSystemJdkBump/blob/main/README.md#branches-with-changed-systyem-jdk
+  *  check the content and execute addCrucialPackages.sh (https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/fillCopr/addCrucialPackages.sh)
+  *  **in this prelmiary stage** the packages arefrom various forks or whereabouts, **later**, after merge, they will bemoved to ones from normla repos
 * ensure thsoe built and resullts are correct
 * add one your well known package, which you know will be afffected by bump.
   * verify
