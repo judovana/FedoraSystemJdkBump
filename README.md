@@ -49,9 +49,12 @@ now time should be taken to Fesco and RCM have spoken, then it is announced by t
 * you have review in progress
 * the package in reviw is **not** system jdk, to keep rawhide usable, and prvent brekage if/once package goes to older Fedora (which usually happnes)
 * in your fork of java-latest-openjdk/or freshly created java-futureSystemJdkVersion-openjdk (17 this time), create branch, and there set this package to system jdks
+## Branches with changed systyem JDK
+* future system jdk becoming system JDK:
   *  eg: https://src.fedoraproject.org/rpms/java-11-openjdk/c/0ba272cf2229deadf4c3f27d67dd0295c0515f18?branch=rawhide
   *  It is good to have tracking, bever merged, PR: https://src.fedoraproject.org/rpms/java-latest-openjdk/pull-request/88
-* in your fork of current system jdk (11 this time) create a branch,and in that, stop this jdk to be system one
+* previou system one no longer system JDK:
+  * in your fork of current system jdk (11 this time) create a branch,and in that, stop this jdk to be system one
   * eg: https://src.fedoraproject.org/rpms/java-1.8.0-openjdk/c/6b38e01a0e5aea56e80c2115cc839e2582f160e1?branch=rawhide
   *  It is good to have tracking, marged very very late, PR: https://src.fedoraproject.org/rpms/java-11-openjdk/pull-request/138
 * Adapt any other necessary packages, so future jdk will indeed become system jdk
@@ -77,9 +80,7 @@ now time should be taken to Fesco and RCM have spoken, then it is announced by t
   * disable  "Mock bootstrap" (No longer remember why, sorry)
   * done
 * add the crucial, modified packages, from theirs forks/branches
-  *  pr1
-  *  pr2
-  * ...
+  * See PRs in 
 * manually via gui, one by one
 * or via the adapted script of:
 * ensure thsoe built and resullts are correct
