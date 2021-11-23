@@ -79,15 +79,16 @@ now time should be taken to Fesco and RCM have spoken, then it is announced by t
   * if the last fedora was already branched (jdk17 was done for f36, so f35 was already branched) deselect "Follow Fedora branching".  We will be done before "our" release (f36 for jdk17) branches, and we want the repo to continue working on rawhide in all cases.
   * disable  "Mock bootstrap" (No longer remember why, sorry)
   * done
-* add the crucial, modified packages, from theirs forks/branches
-  * See PRs in https://github.com/judovana/FedoraSystemJdkBump#branches-with-changed-systyem-jdk
+## add the crucial, modified packages, from theirs forks/branches
+* See PRs in https://github.com/judovana/FedoraSystemJdkBump#branches-with-changed-systyem-jdk
 * manually via gui, one by one
 * or via the adapted script of:
   *  enable copr api key (```man  copr-cli``` will tell)
   *  again, see the coleration with PRs in https://github.com/judovana/FedoraSystemJdkBump/blob/main/README.md#branches-with-changed-systyem-jdk
   *  check the content and execute addCrucialPackages.sh (https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/fillCopr/addCrucialPackages.sh)
-  *  **in this prelmiary stage** the packages arefrom various forks or whereabouts, **later**, after merge, they will bemoved to ones from normla repos
-* ensure thsoe built and resullts are correct
+  *  **in this prelmiary stage** the packages are from various forks or whereabouts, **later**, after merge, they will bemoved to ones from normal repos
+* ensure thsoe built and resulls are correct
 * add one your well known package, which you know will be afffected by bump.
   * verify
+## add the whole swarm of packages depnding on jdks
 * use https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/listPkgs/listJavaDependentPkgs.sh and https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/listPkgs/nvfrsToNames.sh to find all packages you wish to include in your copr. It is good idea to exclude orphans
