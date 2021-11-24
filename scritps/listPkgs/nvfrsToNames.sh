@@ -20,7 +20,12 @@ else
   while IFS= read -r line; do
     wget -S --spider https://src.fedoraproject.org/rpms/$line 2>&1 | grep -q 'HTTP/1.. 200 OK'
     if [ $? -eq 0 ]; then
-      echo $line
+      wget -S --spider https://src.fedoraproject.org/rpms/$line/raw/rawhide/f/dead.package 2>&1 | grep -q 'HTTP/1.. 200 OK'
+      if [ $? -eq 0 ]; then
+        echo "  skipping $line - dead package" >&2
+      else
+        echo $line
+      fi
     else
       echo "  skipping $line - subpkg" >&2
     fi
