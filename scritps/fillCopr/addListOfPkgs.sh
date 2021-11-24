@@ -44,7 +44,9 @@ if [ "x$INCLUDE_ORPHANS" == "x" ] ; then
   # -> https://pagure.io/fedora-misc-package-utilities/raw/master/f/find-package-maintainers
   # the find-orphaned-packages have weird requires, so using find-package-maintainers
   if [ "x$MAINTAINERS_FILE" == "x" ] ; then
-    # wget https://pagure.io/fedora-misc-package-utilities/raw/master/f/find-package-maintainers -O find-package-maintainers
+    if [ ! -e find-package-maintainers ] ; then
+      wget https://pagure.io/fedora-misc-package-utilities/raw/master/f/find-package-maintainers -O find-package-maintainers
+    fi
     MAINTAINERS_FILE=maintainers.jbump
     python find-package-maintainers ${NVRA_FILE} > $MAINTAINERS_FILE
     ORPHANS="`cat $MAINTAINERS_FILE | grep  "^orphan\s\+" | sed "s/^orphan\s\+//"`"
