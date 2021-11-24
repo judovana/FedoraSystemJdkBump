@@ -1,0 +1,881 @@
+Maintainers by package:
+BareBonesBrowserLaunch gil orion
+CFR                  jvanek ohrdlick
+CardManager          jvanek
+DecodeIR             leamas
+HdrHistogram         acaringi almac hhorak jvanek orphan
+IPAddress            jvanek
+Java-WebSocket       orphan
+Mars                 mikep scottt
+OpenStego            rebus
+R                    spot
+Singular             pcpa rdieter
+aalto-xml            java-sig orphan
+ant                  akurtakov jcapik mizdebsk
+ant-antunit          cipherboy dmoluguw jmagne mizdebsk orion orphan
+ant-contrib          mizdebsk orphan
+antlr                mizdebsk
+antlr-maven-plugin   lef spot
+antlr3               dchen jjames lef mizdebsk mjakubicek walters
+antlr32              mbooth
+antlr4-project       jjames
+antlrworks           melmorabity
+aopalliance          korkeala mizdebsk
+apache-commons-beanutils mizdebsk spike
+apache-commons-cli   mizdebsk spike
+apache-commons-codec mbooth mizdebsk
+apache-commons-collections mizdebsk
+apache-commons-collections4 jjelen mizdebsk
+apache-commons-compress mizdebsk mkoncek
+apache-commons-daemon cipherboy dmoluguw jmagne mizdebsk orphan spike
+apache-commons-digester mbooth mizdebsk sbluhm
+apache-commons-exec  melmorabity
+apache-commons-fileupload jerboaa jjelen mizdebsk spike
+apache-commons-io    mizdebsk sdgathman spike
+apache-commons-jxpath mizdebsk
+apache-commons-lang  cipherboy dmoluguw jmagne mizdebsk orphan spike
+apache-commons-lang3 mizdebsk sdgathman
+apache-commons-logging kdaniel mizdebsk sdgathman spike
+apache-commons-math  melmorabity spike
+apache-commons-modeler mizdebsk spike
+apache-commons-net   blackfile mizdebsk spike
+apache-commons-parent mizdebsk
+apache-commons-pool  mizdebsk spike
+apache-ivy           didiksupriadi41 mizdebsk
+apache-parent        mizdebsk
+apache-rat           didiksupriadi41 mizdebsk
+apache-resource-bundles mizdebsk
+apache-sshd          gil mbooth
+apiguardian          mizdebsk
+apron                jjames
+aqute-bnd            mizdebsk
+arduino              orphan patches thozza
+arduino-listSerialPortsC spot
+args4j               cfu jmagne mbooth mharmsen mizdebsk
+assertj-core         mizdebsk
+astyle               sharkcz
+atinject             mizdebsk
+auto                 mbooth
+automake             fjanus jjanco kasal odubaj panovotn praiskup ttomecek
+automaton            orphan
+batik                jvanek mbooth mizdebsk
+bcel                 mizdebsk
+beansbinding         omajid
+beust-jcommander     jvanek mizdebsk
+bigloo               jjames salimma
+bolzplatz2006        jwrdegoede
+bouncycastle         ellert gil jjohnstn mbooth rgrunber
+brazil               mbooth
+brltty               jskarvad limb olysonek
+bsf                  mizdebsk
+bsh                  jwrdegoede mizdebsk
+buildnumber-maven-plugin jjelen
+byte-buddy           mizdebsk
+bytelist             lef orphan
+byteman              jerboaa jhuttana
+caffeine             acaringi hhorak
+cal10n               mizdebsk orphan
+cambozola            kni
+canl-java            ellert
+capstone             drago01 rebus ret2libc
+cbi-plugins          kdaniel mbooth orphan rgrunber
+cdi-api              mizdebsk
+ceph                 adeza branto dmick ke4qqq kkeithle ktdreyer steve stingray
+cglib                jerboaa mef mizdebsk
+chromium             spot tpopela
+classloader-leak-test-framework hhorak odubaj praiskup
+classpathless-compiler jvanek mkoncek
+clojure              korkeala kushal s4504kr walters
+clojure-core-specs-alpha korkeala
+clojure-maven-plugin korkeala
+clojure-spec-alpha   korkeala
+cocoalib             jjames
+codehaus-parent      mizdebsk orion
+collectd             fab kevin mhlavink ruben xaeth
+colossus             bruno
+compile-command-annotations acaringi hhorak
+concurrent-trees     hhorak orphan
+console-image-viewer jvanek
+cortado              jwrdegoede
+cryptlib             senderek
+crypto-policies      asosedkin rrelyea tmraz
+csound               pbrobinson sdz
+cvc4                 brouhaha jjames
+dain-snappy          mizdebsk orphan
+decentxml            cipherboy mbooth mizdebsk
+diffoscope           halfie zbyszek
+directory-maven-plugin almac kni sasiddiq
+dirgra               didiksupriadi41
+disruptor            mizdebsk sergiomb
+ditaa                terjeros
+dl_poly              loveshack
+dogtag-pki           abbra cdorney cfu cipherboy ckelley dmoluguw edewata jmagne kwright mharmsen vakwetu
+dom4j                dbhole jwrdegoede mizdebsk sdgathman
+easymock             akurtakov mizdebsk
+ecj                  akurtakov dbhole omajid sbluhm
+eclipse              dbhole jerboaa jjohnstn lef mbooth oliver orphan rgrunber
+eclipse-cdt          akurtakov jjohnstn kdaniel orphan rgrunber
+eclipse-findbugs     richardfearn
+eclipse-m2e-core     galileo mbooth mizdebsk orphan
+eclipse-m2e-workspace mbooth mizdebsk orphan
+eclipse-webtools     galileo mbooth orphan
+ed25519-java         mbooth
+ee4j-parent          orphan
+enjarify             zbyszek
+erlang               gemi jeckersb ndim peter rjones skottler
+erlang-corba         peter
+exec-maven-plugin    deamn mizdebsk
+fastbit              pkfed
+fasterxml-oss-parent cdorney cfu ckelley edewata jmagne mharmsen
+felix-bundlerepository mizdebsk orphan
+felix-gogo-command   orphan
+felix-gogo-parent    mizdebsk orphan
+felix-gogo-runtime   mizdebsk orphan
+felix-gogo-shell     mizdebsk orphan
+felix-parent         mizdebsk
+felix-scr            jerboaa mbooth orphan
+felix-utils          mizdebsk
+fernflower           jvanek
+filedrop             brouhaha
+findbugs             gil richardfearn
+findbugs-bcel        gil richardfearn
+findbugs-contrib     richardfearn
+flute                caolanm
+fop                  mizdebsk peter ttorling
+forbidden-apis       jvanek orphan
+forge-parent         huwang jjelen mizdebsk
+freecol              jwrdegoede vtrefny
+freemarker           didiksupriadi41
+freerouting          dwrobel lkundrak
+freewrl              spot stevetraylen
+frysk                cagney kasal pmuldoon
+fusesource-pom       mizdebsk
+gdal                 alexlan devrim jmlich neteler oliver orion pali praiskup smani volter
+gdl                  orion
+genders              dmlb2000 treydock
+geronimo-jcdi-1.1-api orphan
+geronimo-osgi-support mizdebsk orphan
+geronimo-validation  orphan
+glite-jobid-api-java valtri
+gnu-getopt           dwalluck mizdebsk orphan
+gnulib               moceap zbyszek
+google-gson          mizdebsk sergiomb
+google-guice         mizdebsk
+graphviz             alexlan jskarvad
+guava                mizdebsk
+hamcrest             akurtakov jerboaa mizdebsk
+hamcrest2            orphan
+hawtjni              deamn mizdebsk
+hdf                  orion sagitter
+hdf5                 deji ignatenkobrain orion sagitter
+healpix              limb lupinix
+hibernate-jpa-2.0-api jjelen
+hibernate-jpa-2.1-api jjelen lef
+hid4java             jonny
+hsqldb               fnasser mizdebsk orphan
+httpcomponents-client jerboaa kdaniel mizdebsk sdgathman
+httpcomponents-core  jerboaa kdaniel mizdebsk sdgathman
+httpcomponents-project mizdebsk
+httpunit             fnasser mizdebsk orphan
+hyperestraier        mtasaka
+icecat               jenslody kengert sagitter
+icedtea-web          dbhole jvanek omajid
+icu4j                fnasser jjames kdaniel mbooth mizdebsk
+idm-console-framework cfu cipherboy dmoluguw jmagne mharmsen mreynolds nhosoi nkinder rmeggins
+imagej               verdurin
+isorelax             mizdebsk orphan
+jFormatString        richardfearn
+jabrt                orphan
+jackson-annotations  cdorney cfu ckelley edewata jmagne mharmsen
+jackson-bom          cdorney cfu ckelley edewata jmagne mharmsen
+jackson-core         cdorney cfu ckelley edewata jmagne mharmsen
+jackson-databind     cdorney cfu ckelley edewata jmagne mharmsen
+jackson-dataformats-binary mbooth
+jackson-dataformats-text mbooth
+jackson-jaxrs-providers cdorney cfu cipherboy ckelley edewata jmagne mharmsen
+jackson-modules-base cdorney cfu cipherboy ckelley edewata jmagne mharmsen
+jackson-parent       cdorney cfu ckelley edewata jmagne mharmsen
+jacoco               didiksupriadi41 jvanek kdaniel lef
+jacop                pcpa
+jakarta-activation   mizdebsk sbluhm
+jakarta-annotations  mizdebsk
+jakarta-commons-httpclient mizdebsk orphan
+jakarta-el           mbooth
+jakarta-interceptors korkeala
+jakarta-json         jjames
+jakarta-mail         kni mizdebsk
+jakarta-messaging    orphan
+jakarta-oro          mizdebsk
+jakarta-persistence  orphan
+jakarta-saaj         sergiomb
+jakarta-server-pages korkeala
+jakarta-servlet      mizdebsk
+jakarta-ws-rs        jjames
+jakarta-xml-rpc      orphan
+jakarta-xml-ws       sergiomb
+janino               orphan
+jansi                mizdebsk
+jansi-native         jwrdegoede mizdebsk
+jansi1               jjames jwrdegoede
+jargs                ellert guidograzioli
+java-1.8.0-openjdk   ahughes dbhole jerboaa jvanek michalvala omajid
+java-11-openjdk      ahughes jerboaa jvanek
+java-atk-wrapper     omajid orphan
+java-diff-utils      jjames
+java-dirq            lcons
+java-gnome           abo
+java-mersenne-twister jgu
+java-runtime-decompiler jvanek pmikova
+java-scrypt          jonny
+java-sleep           orion
+java-wakeonlan       leamas
+java_cup             mizdebsk
+javacc               jwrdegoede mizdebsk
+javacc-maven-plugin  jjames mizdebsk
+javadocofflinesearch jvanek
+javaewah             galileo mbooth
+javahelp2            omajid
+javamail             jkang mizdebsk sdgathman
+javapackages-bootstrap mizdebsk mkoncek
+javaparser           cdorney cfu jmagne korkeala mharmsen
+javapoet             mbooth
+javassist            cipherboy dmoluguw jmagne john5342 mizdebsk sergiomb
+jaxb                 cdorney cfu didiksupriadi41 jmagne mharmsen
+jaxb-api             jwrdegoede sbluhm
+jaxb-dtd-parser      cdorney cfu didiksupriadi41 jmagne mharmsen
+jaxb-fi              cdorney cfu didiksupriadi41 jmagne mharmsen
+jaxb-istack-commons  cdorney cfu didiksupriadi41 jmagne mharmsen
+jaxb-stax-ex         cdorney cfu didiksupriadi41 jmagne mharmsen
+jaxen                jwrdegoede mizdebsk
+jblas                zbyszek
+jboss-annotations-1.2-api cfu dmoluguw jmagne mharmsen orphan
+jboss-el-2.2-api     orphan
+jboss-el-3.0-api     orphan
+jboss-jaxrs-2.0-api  cdorney cfu cipherboy ckelley edewata jmagne mharmsen
+jboss-jms-1.1-api    cipherboy dmoluguw jmagne lef orphan
+jboss-jsp-2.2-api    orphan
+jboss-jsp-2.3-api    orphan
+jboss-jstl-1.2-api   orphan
+jboss-logging        cdorney cfu cipherboy ckelley dmoluguw edewata jmagne mharmsen
+jboss-logging-tools  cdorney cfu cipherboy ckelley dmoluguw edewata jmagne mharmsen
+jboss-logmanager     dmoluguw gil jmagne lef orphan
+jboss-modules        mizdebsk orphan
+jboss-parent         cdorney cfu cipherboy ckelley dmoluguw edewata gil jmagne mharmsen mizdebsk
+jboss-servlet-3.0-api orphan
+jboss-servlet-3.1-api orphan
+jchardet             mbooth mizdebsk orion
+jcip-annotations     richardfearn
+jcodings             lef mmorsi
+jcommon              caolanm jerboaa
+jcommon-serializer   caolanm
+jctools              sergiomb
+jcuber               loveshack
+jdeparser            cdorney cfu cipherboy ckelley dmoluguw edewata jmagne mharmsen
+jdepend              mizdebsk
+jdependency          mizdebsk sergiomb
+jdom                 kdaniel mbooth mizdebsk
+jdom2                mizdebsk
+jericho-html         terjeros
+jetty                kdaniel mbooth mizdebsk
+jffi                 mmorsi
+jflex                mizdebsk
+jfreechart           jerboaa lkundrak
+jgit                 mbooth
+jglobus              ellert
+jgoodies-common      melmorabity
+jgoodies-forms       melmorabity
+jgoodies-looks       melmorabity
+jgrapht              gil mmorsi
+jhdf5                zbyszek
+jigawatts            jvanek
+jlems                orphan
+jline                jerboaa jjames mizdebsk msimacek
+jline2               jjames jwrdegoede
+jmc                  almac orphan sasiddiq
+jmc-core             almac orphan sasiddiq
+jmdns                mizdebsk orphan
+jmock                sergiomb
+jmol                 jjames jussilehtola
+jna                  hhorak mizdebsk odubaj zmiklank
+jneuroml-core        ankursinha
+jni-inchi            jjames
+jnr-constants        mmorsi
+jnr-enxio            jjohnstn orphan rgrunber
+jnr-ffi              mmorsi
+jnr-netdb            mmorsi
+jnr-posix            mmorsi
+jnr-unixsocket       jjohnstn orphan rgrunber
+jnr-x86asm           mmorsi
+jol                  jjames
+jolokia-jvm-agent    jerboaa
+joni                 didiksupriadi41
+jopt-simple          lef mbooth mizdebsk
+jorbis               jwrdegoede
+jpanoramamaker       jvanek
+jpcap                dignan
+jpype                raphgro
+jsap                 orphan
+jsch                 jerboaa korkeala mizdebsk
+jsch-agent-proxy     mbooth mizdebsk
+jsemver              orphan
+json_simple          jjelen mizdebsk stevetraylen
+jsoup                mizdebsk
+jsr-305              mizdebsk richardfearn
+jss                  cdorney cfu cipherboy ckelley dmoluguw edewata emaldonado jmagne mharmsen
+jssc                 dwrobel giallu
+jtidy                dbhole mizdebsk spike
+junit                mizdebsk
+junit5               mizdebsk
+juniversalchardet    jjames
+jython               dmalcolm jmatthews lkundrak orphan pmackinn
+jzlib                mbooth mizdebsk
+kawa                 korkeala
+kernel-tools         acaringi jforbes jwboyer lgoncalv patrickt pbrobinson
+laf-plugin           mycae
+lancer               willb
+lasso                jhrozek rcritten simo
+lcm                  dcallagh mrunge nmarques orphan
+ldapjdk              cdorney cfu cipherboy ckelley dmoluguw edewata jmagne mharmsen nkinder rmeggins
+libbase              caolanm sbergmann
+libbluray            rathann slaanesh xavierb
+libfonts             caolanm sbergmann
+libformula           caolanm sbergmann
+libgda               decathorpe lkundrak
+libidn               gil mlichvar
+libkml               smani
+liblayout            caolanm
+libloader            caolanm sbergmann
+libphidget           rmattes
+libreoffice          caolanm dtardon erack sbergmann
+librepository        caolanm sbergmann
+libserializer        caolanm sbergmann
+libsvm               besser82 jjames
+libvirt-java         bkearney veillard
+libwebp              smani
+link-grammar         devos fabiand limb
+log4j                mizdebsk sergiomb
+log4j12              mizdebsk orphan
+lucene               dchen jerboaa lef msimacek orphan rgrunber
+lz4-java             orphan
+mapserver            devrim jujens oliver pali smani
+mariadb-java-client  hhorak jjanco mkulik mschorm odubaj zmiklank
+maven                mizdebsk
+maven-antrun-plugin  mizdebsk
+maven-archetype      mbooth mizdebsk
+maven-archiver       mizdebsk
+maven-artifact-resolver mizdebsk orphan
+maven-artifact-transfer mizdebsk
+maven-assembly-plugin jcapik mizdebsk
+maven-clean-plugin   hhorak mizdebsk mkulik odubaj zmiklank
+maven-common-artifact-filters mizdebsk
+maven-compiler-plugin mizdebsk
+maven-dependency-analyzer mizdebsk
+maven-dependency-plugin mizdebsk
+maven-dependency-tree mizdebsk
+maven-doxia          jjames mizdebsk
+maven-doxia-sitetools jjames mizdebsk
+maven-enforcer       mizdebsk
+maven-file-management mizdebsk
+maven-filtering      mizdebsk
+maven-indexer        galileo mizdebsk orphan
+maven-install-plugin mizdebsk orphan
+maven-invoker        korkeala mizdebsk
+maven-invoker-plugin korkeala mizdebsk
+maven-jar-plugin     mizdebsk
+maven-javadoc-plugin mizdebsk orphan
+maven-license-plugin orphan
+maven-mapping        korkeala mizdebsk
+maven-native         deamn
+maven-parent         mizdebsk
+maven-patch-plugin   ellert
+maven-plugin-build-helper mizdebsk
+maven-plugin-bundle  mizdebsk
+maven-plugin-testing mizdebsk
+maven-plugin-tools   mizdebsk
+maven-remote-resources-plugin mizdebsk
+maven-reporting-api  jjames mizdebsk
+maven-reporting-impl jjames mizdebsk
+maven-resolver       mizdebsk
+maven-resources-plugin mizdebsk pingou
+maven-scm            guidograzioli jcapik mizdebsk msimacek
+maven-script-interpreter korkeala mizdebsk
+maven-shade-plugin   deamn mizdebsk
+maven-shared-incremental mizdebsk
+maven-shared-io      mizdebsk
+maven-shared-utils   mizdebsk
+maven-source-plugin  mizdebsk
+maven-surefire       akurtakov mizdebsk
+maven-verifier       mizdebsk
+maven-verifier-plugin jerboaa
+maven-wagon          mizdebsk
+maven2               dbhole yyang
+mecab-java           mtasaka
+miglayout            brouhaha
+mockito              jerboaa mizdebsk omajid raphgro sdgathman
+moconti              orion
+modello              mizdebsk
+mojo-executor        jjames
+mojo-parent          mizdebsk
+mp                   pcpa sagitter
+msv                  mizdebsk orphan
+munge-maven-plugin   mizdebsk
+mvel                 orphan
+mxparser             didiksupriadi41
+mysql-connector-java hhorak java-sig jjanco ljavorsk mjakubicek mkulik mschorm odubaj zmiklank
+naga                 jjames jussilehtola
+nailgun              mmorsi
+nekohtml             fnasser mizdebsk sbluhm
+netty                mizdebsk orphan
+nom-tam-fits         gil lupinix zbyszek
+objectweb-anttask    mizdebsk orphan
+objectweb-asm        mizdebsk
+objectweb-pom        mizdebsk orphan
+objenesis            guidograzioli jvanek mizdebsk
+ocaml-atd            salimma
+octave               alexlan jcapik jussilehtola konradm orion rakesh
+ongres-scram         acaringi jjanco odubaj praiskup
+openas2              sdgathman
+opencv               hguemar hhorak jkucera jmlich jridky kwizart sergiomb vjancik
+openjdk-asmtools     jhuttana jvanek
+openjfx              deamn
+openjfx8             deamn
+openmpi              deji dledford jhladky orion pkfed
+openni               cottsay jkastner rmattes
+openstack-java-sdk   dominik fsimonce
+opentest4j           mizdebsk
+options              didiksupriadi41
+os-maven-plugin      mizdebsk orphan
+osgi-annotation      mbooth mizdebsk
+osgi-compendium      mizdebsk
+osgi-core            mizdebsk
+osmpbf               mayorga tomh
+osslsigncode         atim dcavalca
+owasp-java-encoder   almac orphan sasiddiq
+papaki               orphan
+paranamer            cipherboy jmagne orphan
+pcfi                 orion
+pdfbox               java-sig sergiomb
+pdftk-java           robert
+pentaho-libxml       caolanm sbergmann
+pentaho-reporting-flow-engine caolanm
+picocli              didiksupriadi41
+pki-core             abbra cdorney cfu cipherboy ckelley dmoluguw edewata jmagne kwright mharmsen vakwetu
+pl                   bagnara jjames mef
+plantuml             gil orphan
+plexus-active-collections yyang
+plexus-archiver      mizdebsk
+plexus-build-api     mizdebsk
+plexus-cipher        mizdebsk
+plexus-classworlds   mizdebsk
+plexus-compiler      mizdebsk
+plexus-component-api yyang
+plexus-components-pom mizdebsk
+plexus-containers    mizdebsk
+plexus-i18n          mizdebsk suanand
+plexus-interactivity mizdebsk orphan
+plexus-interpolation mizdebsk
+plexus-io            mizdebsk
+plexus-languages     mizdebsk
+plexus-pom           mizdebsk
+plexus-resources     mizdebsk
+plexus-sec-dispatcher mizdebsk
+plexus-utils         mizdebsk
+plexus-velocity      korkeala mizdebsk
+plplot               orion
+pomchecker           didiksupriadi41
+portals-pom          orphan
+portlet-2.0-api      jjelen
+portmidi             mjg xavierb
+postgresql-jdbc      hhorak jjanco jmlich mkulik odubaj praiskup zmiklank
+powermock            jerboaa lef neugens orphan
+ppl                  bagnara pcpa
+procyon              jvanek
+proguard             filiperosset
+prometheus-jmx-exporter jerboaa
+prometheus-simpleclient-java jerboaa
+protobuf             abbot ignatenkobrain mizdebsk
+py4j                 raphgro
+python-javabridge    raphgro
+python-javaobj       fab
+python-jep           raphgro
+python-jnius         raphgro
+qdbm                 mtasaka
+qdox                 mizdebsk
+rachota              wilqu
+rdkit                orphan
+reflections          didiksupriadi41 sergiomb
+regexp               mizdebsk
+replacer             hhorak odubaj
+resteasy             cdorney cfu cipherboy ckelley dmoluguw edewata jmagne mharmsen vakwetu
+rhino                didiksupriadi41 ebaron
+rstudio              iucar
+rsyntaxtextarea      jvanek
+rundoc               leamas
+sac                  caolanm
+sat4j                akurtakov jjohnstn
+saxpath              akurtakov mizdebsk orphan
+sblim-cim-client     vcrhonek
+sblim-cim-client2    vcrhonek
+scala                geoff jjames mizdebsk
+scalacheck           jjames
+scalpel              rebus
+scannotation         goldmann kashyapc
+sdljava              jwrdegoede mizdebsk
+seqan                sagitter
+seqan2               sagitter
+sequence-library     mbooth
+serp                 jjelen
+shaman               mohammedisam
+shrinkwrap           orphan
+simple-jndi          orphan
+sisu                 mizdebsk
+sisu-mojos           mizdebsk
+slf4j                cipherboy dmoluguw jmagne mizdebsk
+snakeyaml            jerboaa mizdebsk
+snappy-java          orphan
+snip                 leamas
+sonatype-oss-parent  mizdebsk sdgathman
+spec-version-maven-plugin jjames
+sphinx               brandfbb cdamian sarroutb
+spice-parent         korkeala mizdebsk
+sqljet               filiperosset mbooth
+stax2-api            cfu jmagne mharmsen mizdebsk orphan
+string-template-maven-plugin jjames
+stringtemplate       lef mjakubicek walters
+stringtemplate4      jjames mizdebsk mjakubicek
+subversion           jorton
+sunflow              orphan
+svgsalamander        orphan
+svnkit               dbhole jfilak mbooth
+swing-layout         jandrlik java-sig
+systemtap            amerey drsmith2 fche jistone lberk mcermak mjw scox smakarov wcohen
+t-digest             gil jvanek
+taggle               louizatakk
+tagsoup              jvanek mizdebsk
+takari-polyglot      mbooth orphan
+test-interface       willb
+testng               mizdebsk
+testng-remote        mbooth
+tomcat               coolsvap csutherl gzaronikas huwang van
+tomcat-native        csutherl gzaronikas lorenzodalrio
+tomcat-taglibs-parent abbra
+tomcat-taglibs-standard abbra gil lef
+tomcatjss            cdorney cfu cipherboy ckelley dmoluguw edewata jmagne kwright mharmsen vakwetu
+treelayout           jjames lef
+trilead-ssh2         mbooth
+tuxguitar            oget
+tycho                kdaniel mbooth mizdebsk orphan
+tzdata               mcermak pfrankli pmachata
+uddi4j               galileo mbooth
+univocity-output-tester orphan
+univocity-parsers    mizdebsk
+uom-parent           lberk mgoodwin nathans
+vecmath              orphan
+vecmath1.2           jwrdegoede
+velocity             mizdebsk
+voms-api-java        ellert
+voms-clients-java    ellert
+vtk                  jgu mrceresa orion
+weld-parent          korkeala
+will-crash           mfabik mgrabovs
+woodstox-core        cfu jmagne mharmsen mizdebsk orphan
+writer2latex         caolanm sbergmann
+ws-commons-util      green kdaniel mizdebsk
+wsdl4j               akurtakov mbooth mizdebsk
+wsil4j               galileo mbooth
+xalan-j2             mizdebsk
+xbean                mizdebsk
+xemacs-packages-extra jjames stevetraylen
+xerces-j2            mizdebsk
+xjparse              bashton
+xml-commons-apis     mizdebsk
+xml-commons-resolver mizdebsk
+xml-maven-plugin     ke4qqq mbooth mizdebsk
+xmlgraphics-commons  rlandmann
+xmlpull              didiksupriadi41
+xmlrpc               kdaniel mizdebsk orphan
+xmlstreambuffer      cdorney cfu didiksupriadi41 jmagne mharmsen
+xmltool              guidograzioli
+xmlunit              bubeck mizdebsk
+xmpcore              cquad jjelen
+xmvn                 mizdebsk
+xpp3                 jerboaa mizdebsk sbluhm
+xstream              didiksupriadi41 mizdebsk msimacek
+xz-java              mizdebsk
+yecht                orphan
+yuicompressor        ellert
+yydebug              orphan
+z3                   jjames
+zbar                 firemanxbr limb mchehab slaanesh
+
+Packages by maintainer:
+abbot      protobuf
+abbra      dogtag-pki pki-core tomcat-taglibs-parent tomcat-taglibs-standard
+abo        java-gnome
+acaringi   HdrHistogram caffeine compile-command-annotations kernel-tools ongres-scram
+adeza      ceph
+ahughes    java-1.8.0-openjdk java-11-openjdk
+akurtakov  ant easymock ecj eclipse-cdt hamcrest maven-surefire sat4j saxpath wsdl4j
+alexlan    gdal graphviz octave
+almac      HdrHistogram directory-maven-plugin jmc jmc-core owasp-java-encoder
+amerey     systemtap
+ankursinha jneuroml-core
+asosedkin  crypto-policies
+atim       osslsigncode
+bagnara    pl ppl
+bashton    xjparse
+besser82   libsvm
+bkearney   libvirt-java
+blackfile  apache-commons-net
+brandfbb   sphinx
+branto     ceph
+brouhaha   cvc4 filedrop miglayout
+bruno      colossus
+bubeck     xmlunit
+cagney     frysk
+caolanm    flute jcommon jcommon-serializer libbase libfonts libformula liblayout libloader libreoffice librepository libserializer pentaho-libxml pentaho-reporting-flow-engine sac writer2latex
+cdamian    sphinx
+cdorney    dogtag-pki fasterxml-oss-parent jackson-annotations jackson-bom jackson-core jackson-databind jackson-jaxrs-providers jackson-modules-base jackson-parent javaparser jaxb jaxb-dtd-parser jaxb-fi jaxb-istack-commons jaxb-stax-ex jboss-jaxrs-2.0-api jboss-logging jboss-logging-tools jboss-parent jdeparser jss ldapjdk pki-core resteasy tomcatjss xmlstreambuffer
+cfu        args4j dogtag-pki fasterxml-oss-parent idm-console-framework jackson-annotations jackson-bom jackson-core jackson-databind jackson-jaxrs-providers jackson-modules-base jackson-parent javaparser jaxb jaxb-dtd-parser jaxb-fi jaxb-istack-commons jaxb-stax-ex jboss-annotations-1.2-api jboss-jaxrs-2.0-api jboss-logging jboss-logging-tools jboss-parent jdeparser jss ldapjdk pki-core resteasy stax2-api tomcatjss woodstox-core xmlstreambuffer
+cipherboy  ant-antunit apache-commons-daemon apache-commons-lang decentxml dogtag-pki idm-console-framework jackson-jaxrs-providers jackson-modules-base javassist jboss-jaxrs-2.0-api jboss-jms-1.1-api jboss-logging jboss-logging-tools jboss-parent jdeparser jss ldapjdk paranamer pki-core resteasy slf4j tomcatjss
+ckelley    dogtag-pki fasterxml-oss-parent jackson-annotations jackson-bom jackson-core jackson-databind jackson-jaxrs-providers jackson-modules-base jackson-parent jboss-jaxrs-2.0-api jboss-logging jboss-logging-tools jboss-parent jdeparser jss ldapjdk pki-core resteasy tomcatjss
+coolsvap   tomcat
+cottsay    openni
+cquad      xmpcore
+csutherl   tomcat tomcat-native
+dbhole     dom4j ecj eclipse icedtea-web java-1.8.0-openjdk jtidy maven2 svnkit
+dcallagh   lcm
+dcavalca   osslsigncode
+dchen      antlr3 lucene
+deamn      exec-maven-plugin hawtjni maven-native maven-shade-plugin openjfx openjfx8
+decathorpe libgda
+deji       hdf5 openmpi
+devos      link-grammar
+devrim     gdal mapserver
+didiksupriadi41 apache-ivy apache-rat dirgra freemarker jacoco jaxb jaxb-dtd-parser jaxb-fi jaxb-istack-commons jaxb-stax-ex joni mxparser options picocli pomchecker reflections rhino xmlpull xmlstreambuffer xstream
+dignan     jpcap
+dledford   openmpi
+dmalcolm   jython
+dmick      ceph
+dmlb2000   genders
+dmoluguw   ant-antunit apache-commons-daemon apache-commons-lang dogtag-pki idm-console-framework javassist jboss-annotations-1.2-api jboss-jms-1.1-api jboss-logging jboss-logging-tools jboss-logmanager jboss-parent jdeparser jss ldapjdk pki-core resteasy slf4j tomcatjss
+dominik    openstack-java-sdk
+drago01    capstone
+drsmith2   systemtap
+dtardon    libreoffice
+dwalluck   gnu-getopt
+dwrobel    freerouting jssc
+ebaron     rhino
+edewata    dogtag-pki fasterxml-oss-parent jackson-annotations jackson-bom jackson-core jackson-databind jackson-jaxrs-providers jackson-modules-base jackson-parent jboss-jaxrs-2.0-api jboss-logging jboss-logging-tools jboss-parent jdeparser jss ldapjdk pki-core resteasy tomcatjss
+ellert     bouncycastle canl-java jargs jglobus maven-patch-plugin voms-api-java voms-clients-java yuicompressor
+emaldonado jss
+erack      libreoffice
+fab        collectd python-javaobj
+fabiand    link-grammar
+fche       systemtap
+filiperosset proguard sqljet
+firemanxbr zbar
+fjanus     automake
+fnasser    hsqldb httpunit icu4j nekohtml
+fsimonce   openstack-java-sdk
+galileo    eclipse-m2e-core eclipse-webtools javaewah maven-indexer uddi4j wsil4j
+gemi       erlang
+geoff      scala
+giallu     jssc
+gil        BareBonesBrowserLaunch apache-sshd bouncycastle findbugs findbugs-bcel jboss-logmanager jboss-parent jgrapht libidn nom-tam-fits plantuml t-digest tomcat-taglibs-standard
+goldmann   scannotation
+green      ws-commons-util
+guidograzioli jargs maven-scm objenesis xmltool
+gzaronikas tomcat tomcat-native
+halfie     diffoscope
+hguemar    opencv
+hhorak     HdrHistogram caffeine classloader-leak-test-framework compile-command-annotations concurrent-trees jna mariadb-java-client maven-clean-plugin mysql-connector-java opencv postgresql-jdbc replacer
+huwang     forge-parent tomcat
+ignatenkobrain hdf5 protobuf
+iucar      rstudio
+jandrlik   swing-layout
+java-sig   aalto-xml mysql-connector-java pdfbox swing-layout
+jcapik     ant maven-assembly-plugin maven-scm octave
+jeckersb   erlang
+jenslody   icecat
+jerboaa    apache-commons-fileupload byteman cglib eclipse felix-scr hamcrest httpcomponents-client httpcomponents-core java-1.8.0-openjdk java-11-openjdk jcommon jfreechart jline jolokia-jvm-agent jsch lucene maven-verifier-plugin mockito powermock prometheus-jmx-exporter prometheus-simpleclient-java snakeyaml xpp3
+jfilak     svnkit
+jforbes    kernel-tools
+jgu        java-mersenne-twister vtk
+jhladky    openmpi
+jhrozek    lasso
+jhuttana   byteman openjdk-asmtools
+jistone    systemtap
+jjames     antlr3 antlr4-project apron bigloo cocoalib cvc4 icu4j jakarta-json jakarta-ws-rs jansi1 java-diff-utils javacc-maven-plugin jline jline2 jmol jni-inchi jol juniversalchardet libsvm maven-doxia maven-doxia-sitetools maven-reporting-api maven-reporting-impl mojo-executor naga pl scala scalacheck spec-version-maven-plugin string-template-maven-plugin stringtemplate4 treelayout xemacs-packages-extra z3
+jjanco     automake mariadb-java-client mysql-connector-java ongres-scram postgresql-jdbc
+jjelen     apache-commons-collections4 apache-commons-fileupload buildnumber-maven-plugin forge-parent hibernate-jpa-2.0-api hibernate-jpa-2.1-api json_simple portlet-2.0-api serp xmpcore
+jjohnstn   bouncycastle eclipse eclipse-cdt jnr-enxio jnr-unixsocket sat4j
+jkang      javamail
+jkastner   openni
+jkucera    opencv
+jmagne     ant-antunit apache-commons-daemon apache-commons-lang args4j dogtag-pki fasterxml-oss-parent idm-console-framework jackson-annotations jackson-bom jackson-core jackson-databind jackson-jaxrs-providers jackson-modules-base jackson-parent javaparser javassist jaxb jaxb-dtd-parser jaxb-fi jaxb-istack-commons jaxb-stax-ex jboss-annotations-1.2-api jboss-jaxrs-2.0-api jboss-jms-1.1-api jboss-logging jboss-logging-tools jboss-logmanager jboss-parent jdeparser jss ldapjdk paranamer pki-core resteasy slf4j stax2-api tomcatjss woodstox-core xmlstreambuffer
+jmatthews  jython
+jmlich     gdal opencv postgresql-jdbc
+john5342   javassist
+jonny      hid4java java-scrypt
+jorton     subversion
+jridky     opencv
+jskarvad   brltty graphviz
+jujens     mapserver
+jussilehtola jmol naga octave
+jvanek     CFR CardManager HdrHistogram IPAddress batik beust-jcommander classpathless-compiler console-image-viewer fernflower forbidden-apis icedtea-web jacoco java-1.8.0-openjdk java-11-openjdk java-runtime-decompiler javadocofflinesearch jigawatts jpanoramamaker objenesis openjdk-asmtools procyon rsyntaxtextarea t-digest tagsoup
+jwboyer    kernel-tools
+jwrdegoede bolzplatz2006 bsh cortado dom4j freecol jansi-native jansi1 javacc jaxb-api jaxen jline2 jorbis sdljava vecmath1.2
+kasal      automake frysk
+kashyapc   scannotation
+kdaniel    apache-commons-logging cbi-plugins eclipse-cdt httpcomponents-client httpcomponents-core icu4j jacoco jdom jetty tycho ws-commons-util xmlrpc
+ke4qqq     ceph xml-maven-plugin
+kengert    icecat
+kevin      collectd
+kkeithle   ceph
+kni        cambozola directory-maven-plugin jakarta-mail
+konradm    octave
+korkeala   aopalliance clojure clojure-core-specs-alpha clojure-maven-plugin clojure-spec-alpha jakarta-interceptors jakarta-server-pages javaparser jsch kawa maven-invoker maven-invoker-plugin maven-mapping maven-script-interpreter plexus-velocity spice-parent weld-parent
+ktdreyer   ceph
+kushal     clojure
+kwizart    opencv
+kwright    dogtag-pki pki-core tomcatjss
+lberk      systemtap uom-parent
+lcons      java-dirq
+leamas     DecodeIR java-wakeonlan rundoc snip
+lef        antlr-maven-plugin antlr3 bytelist eclipse hibernate-jpa-2.1-api jacoco jboss-jms-1.1-api jboss-logmanager jcodings jopt-simple lucene powermock stringtemplate tomcat-taglibs-standard treelayout
+lgoncalv   kernel-tools
+limb       brltty healpix link-grammar zbar
+ljavorsk   mysql-connector-java
+lkundrak   freerouting jfreechart jython libgda
+lorenzodalrio tomcat-native
+louizatakk taggle
+loveshack  dl_poly jcuber
+lupinix    healpix nom-tam-fits
+mayorga    osmpbf
+mbooth     antlr32 apache-commons-codec apache-commons-digester apache-sshd args4j auto batik bouncycastle brazil cbi-plugins decentxml eclipse eclipse-m2e-core eclipse-m2e-workspace eclipse-webtools ed25519-java felix-scr icu4j jackson-dataformats-binary jackson-dataformats-text jakarta-el javaewah javapoet jchardet jdom jetty jgit jopt-simple jsch-agent-proxy jzlib maven-archetype osgi-annotation sequence-library sqljet svnkit takari-polyglot testng-remote trilead-ssh2 tycho uddi4j wsdl4j wsil4j xml-maven-plugin
+mcermak    systemtap tzdata
+mchehab    zbar
+mef        cglib pl
+melmorabity antlrworks apache-commons-exec apache-commons-math jgoodies-common jgoodies-forms jgoodies-looks
+mfabik     will-crash
+mgoodwin   uom-parent
+mgrabovs   will-crash
+mharmsen   args4j dogtag-pki fasterxml-oss-parent idm-console-framework jackson-annotations jackson-bom jackson-core jackson-databind jackson-jaxrs-providers jackson-modules-base jackson-parent javaparser jaxb jaxb-dtd-parser jaxb-fi jaxb-istack-commons jaxb-stax-ex jboss-annotations-1.2-api jboss-jaxrs-2.0-api jboss-logging jboss-logging-tools jboss-parent jdeparser jss ldapjdk pki-core resteasy stax2-api tomcatjss woodstox-core xmlstreambuffer
+mhlavink   collectd
+michalvala java-1.8.0-openjdk
+mikep      Mars
+mizdebsk   ant ant-antunit ant-contrib antlr antlr3 aopalliance apache-commons-beanutils apache-commons-cli apache-commons-codec apache-commons-collections apache-commons-collections4 apache-commons-compress apache-commons-daemon apache-commons-digester apache-commons-fileupload apache-commons-io apache-commons-jxpath apache-commons-lang apache-commons-lang3 apache-commons-logging apache-commons-modeler apache-commons-net apache-commons-parent apache-commons-pool apache-ivy apache-parent apache-rat apache-resource-bundles apiguardian aqute-bnd args4j assertj-core atinject batik bcel beust-jcommander bsf bsh byte-buddy cal10n cdi-api cglib codehaus-parent dain-snappy decentxml disruptor dom4j easymock eclipse-m2e-core eclipse-m2e-workspace exec-maven-plugin felix-bundlerepository felix-gogo-parent felix-gogo-runtime felix-gogo-shell felix-parent felix-utils fop forge-parent fusesource-pom geronimo-osgi-support gnu-getopt google-gson google-guice guava hamcrest hawtjni hsqldb httpcomponents-client httpcomponents-core httpcomponents-project httpunit icu4j isorelax jakarta-activation jakarta-annotations jakarta-commons-httpclient jakarta-mail jakarta-oro jakarta-servlet jansi jansi-native java_cup javacc javacc-maven-plugin javamail javapackages-bootstrap javassist jaxen jboss-modules jboss-parent jchardet jdepend jdependency jdom jdom2 jetty jflex jline jmdns jna jopt-simple jsch jsch-agent-proxy json_simple jsoup jsr-305 jtidy junit junit5 jzlib log4j log4j12 maven maven-antrun-plugin maven-archetype maven-archiver maven-artifact-resolver maven-artifact-transfer maven-assembly-plugin maven-clean-plugin maven-common-artifact-filters maven-compiler-plugin maven-dependency-analyzer maven-dependency-plugin maven-dependency-tree maven-doxia maven-doxia-sitetools maven-enforcer maven-file-management maven-filtering maven-indexer maven-install-plugin maven-invoker maven-invoker-plugin maven-jar-plugin maven-javadoc-plugin maven-mapping maven-parent maven-plugin-build-helper maven-plugin-bundle maven-plugin-testing maven-plugin-tools maven-remote-resources-plugin maven-reporting-api maven-reporting-impl maven-resolver maven-resources-plugin maven-scm maven-script-interpreter maven-shade-plugin maven-shared-incremental maven-shared-io maven-shared-utils maven-source-plugin maven-surefire maven-verifier maven-wagon mockito modello mojo-parent msv munge-maven-plugin nekohtml netty objectweb-anttask objectweb-asm objectweb-pom objenesis opentest4j os-maven-plugin osgi-annotation osgi-compendium osgi-core plexus-archiver plexus-build-api plexus-cipher plexus-classworlds plexus-compiler plexus-components-pom plexus-containers plexus-i18n plexus-interactivity plexus-interpolation plexus-io plexus-languages plexus-pom plexus-resources plexus-sec-dispatcher plexus-utils plexus-velocity protobuf qdox regexp saxpath scala sdljava sisu sisu-mojos slf4j snakeyaml sonatype-oss-parent spice-parent stax2-api stringtemplate4 tagsoup testng tycho univocity-parsers velocity woodstox-core ws-commons-util wsdl4j xalan-j2 xbean xerces-j2 xml-commons-apis xml-commons-resolver xml-maven-plugin xmlrpc xmlunit xmvn xpp3 xstream xz-java
+mjakubicek antlr3 mysql-connector-java stringtemplate stringtemplate4
+mjg        portmidi
+mjw        systemtap
+mkoncek    apache-commons-compress classpathless-compiler javapackages-bootstrap
+mkulik     mariadb-java-client maven-clean-plugin mysql-connector-java postgresql-jdbc
+mlichvar   libidn
+mmorsi     jcodings jffi jgrapht jnr-constants jnr-ffi jnr-netdb jnr-posix jnr-x86asm nailgun
+moceap     gnulib
+mohammedisam shaman
+mrceresa   vtk
+mreynolds  idm-console-framework
+mrunge     lcm
+mschorm    mariadb-java-client mysql-connector-java
+msimacek   jline lucene maven-scm xstream
+mtasaka    hyperestraier mecab-java qdbm
+mycae      laf-plugin
+nathans    uom-parent
+ndim       erlang
+neteler    gdal
+neugens    powermock
+nhosoi     idm-console-framework
+nkinder    idm-console-framework ldapjdk
+nmarques   lcm
+odubaj     automake classloader-leak-test-framework jna mariadb-java-client maven-clean-plugin mysql-connector-java ongres-scram postgresql-jdbc replacer
+oget       tuxguitar
+ohrdlick   CFR
+oliver     eclipse gdal mapserver
+olysonek   brltty
+omajid     beansbinding ecj icedtea-web java-1.8.0-openjdk java-atk-wrapper javahelp2 mockito
+orion      BareBonesBrowserLaunch ant-antunit codehaus-parent gdal gdl hdf hdf5 java-sleep jchardet moconti octave openmpi pcfi plplot vtk
+orphan     HdrHistogram Java-WebSocket aalto-xml ant-antunit ant-contrib apache-commons-daemon apache-commons-lang arduino automaton bytelist cal10n cbi-plugins concurrent-trees dain-snappy eclipse eclipse-cdt eclipse-m2e-core eclipse-m2e-workspace eclipse-webtools ee4j-parent felix-bundlerepository felix-gogo-command felix-gogo-parent felix-gogo-runtime felix-gogo-shell felix-scr forbidden-apis geronimo-jcdi-1.1-api geronimo-osgi-support geronimo-validation gnu-getopt hamcrest2 hsqldb httpunit isorelax jabrt jakarta-commons-httpclient jakarta-messaging jakarta-persistence jakarta-xml-rpc janino java-atk-wrapper jboss-annotations-1.2-api jboss-el-2.2-api jboss-el-3.0-api jboss-jms-1.1-api jboss-jsp-2.2-api jboss-jsp-2.3-api jboss-jstl-1.2-api jboss-logmanager jboss-modules jboss-servlet-3.0-api jboss-servlet-3.1-api jlems jmc jmc-core jmdns jnr-enxio jnr-unixsocket jsap jsemver jython lcm log4j12 lucene lz4-java maven-artifact-resolver maven-indexer maven-install-plugin maven-javadoc-plugin maven-license-plugin msv mvel netty objectweb-anttask objectweb-pom os-maven-plugin owasp-java-encoder papaki paranamer plantuml plexus-interactivity portals-pom powermock rdkit saxpath shrinkwrap simple-jndi snappy-java stax2-api sunflow svgsalamander takari-polyglot tycho univocity-output-tester vecmath woodstox-core xmlrpc yecht yydebug
+pali       gdal mapserver
+panovotn   automake
+patches    arduino
+patrickt   kernel-tools
+pbrobinson csound kernel-tools
+pcpa       Singular jacop mp ppl
+peter      erlang erlang-corba fop
+pfrankli   tzdata
+pingou     maven-resources-plugin
+pkfed      fastbit openmpi
+pmachata   tzdata
+pmackinn   jython
+pmikova    java-runtime-decompiler
+pmuldoon   frysk
+praiskup   automake classloader-leak-test-framework gdal ongres-scram postgresql-jdbc
+rakesh     octave
+raphgro    jpype mockito py4j python-javabridge python-jep python-jnius
+rathann    libbluray
+rcritten   lasso
+rdieter    Singular
+rebus      OpenStego capstone scalpel
+ret2libc   capstone
+rgrunber   bouncycastle cbi-plugins eclipse eclipse-cdt jnr-enxio jnr-unixsocket lucene
+richardfearn eclipse-findbugs findbugs findbugs-bcel findbugs-contrib jFormatString jcip-annotations jsr-305
+rjones     erlang
+rlandmann  xmlgraphics-commons
+rmattes    libphidget openni
+rmeggins   idm-console-framework ldapjdk
+robert     pdftk-java
+rrelyea    crypto-policies
+ruben      collectd
+s4504kr    clojure
+sagitter   hdf hdf5 icecat mp seqan seqan2
+salimma    bigloo ocaml-atd
+sarroutb   sphinx
+sasiddiq   directory-maven-plugin jmc jmc-core owasp-java-encoder
+sbergmann  libbase libfonts libformula libloader libreoffice librepository libserializer pentaho-libxml writer2latex
+sbluhm     apache-commons-digester ecj jakarta-activation jaxb-api nekohtml xpp3
+scottt     Mars
+scox       systemtap
+sdgathman  apache-commons-io apache-commons-lang3 apache-commons-logging dom4j httpcomponents-client httpcomponents-core javamail mockito openas2 sonatype-oss-parent
+sdz        csound
+senderek   cryptlib
+sergiomb   disruptor google-gson jakarta-saaj jakarta-xml-ws javassist jctools jdependency jmock log4j opencv pdfbox reflections
+sharkcz    astyle
+simo       lasso
+skottler   erlang
+slaanesh   libbluray zbar
+smakarov   systemtap
+smani      gdal libkml libwebp mapserver
+spike      apache-commons-beanutils apache-commons-cli apache-commons-daemon apache-commons-fileupload apache-commons-io apache-commons-lang apache-commons-logging apache-commons-math apache-commons-modeler apache-commons-net apache-commons-pool jtidy
+spot       R antlr-maven-plugin arduino-listSerialPortsC chromium freewrl
+steve      ceph
+stevetraylen freewrl json_simple xemacs-packages-extra
+stingray   ceph
+suanand    plexus-i18n
+terjeros   ditaa jericho-html
+thozza     arduino
+tmraz      crypto-policies
+tomh       osmpbf
+tpopela    chromium
+treydock   genders
+ttomecek   automake
+ttorling   fop
+vakwetu    dogtag-pki pki-core resteasy tomcatjss
+valtri     glite-jobid-api-java
+van        tomcat
+vcrhonek   sblim-cim-client sblim-cim-client2
+veillard   libvirt-java
+verdurin   imagej
+vjancik    opencv
+volter     gdal
+vtrefny    freecol
+walters    antlr3 clojure stringtemplate
+wcohen     systemtap
+willb      lancer test-interface
+wilqu      rachota
+xaeth      collectd
+xavierb    libbluray portmidi
+yyang      maven2 plexus-active-collections plexus-component-api
+zbyszek    diffoscope enjarify gnulib jblas jhdf5 nom-tam-fits
+zmiklank   jna mariadb-java-client maven-clean-plugin mysql-connector-java postgresql-jdbc
