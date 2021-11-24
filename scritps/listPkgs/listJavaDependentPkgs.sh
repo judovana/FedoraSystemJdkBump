@@ -2,7 +2,7 @@
 
 binRepos="fedora fedora-modular updates updates-modular"
 srcRepos="fedora-modular-source fedora-source updates-modular-source updates-source"
-interestingDeps="java-headless java java-devel java-1.8.0-openjdk-headless java-1.8.0-openjdk java-1.8.0-openjdk-devel java-11-openjdk-headless java-11-openjdk java-11-openjdk-devel ant maven-local maven mvn xmvn "
+interestingDeps="java-headless java java-devel java-1.8.0-openjdk-headless java-1.8.0-openjdk java-1.8.0-openjdk-devel java-11-openjdk-headless java-11-openjdk java-11-openjdk-devel ant maven-local maven mvn xmvn ivy-local"
 
 #to allow work with repos with spaces in names, IFS is affected manytimes
 IFS_BACKUP="$IFS"
@@ -100,4 +100,9 @@ echo -n " total: " ; cat all.jbump | wc -l
 echo "see all.jbump (or one of build/runtime ball.jbump/rall.jbump)."
 echo "Use that full listing, or at least build listing for initial import to copr repo!"
 
+echo
+
+echo "Warning: If include only build (b*.jbump) depndencies, then ou are safe. Those are packages"
+echo "Warning: If you include also runtime dependencies, then you have to double check it is  not subpkg"
+echo "Warning: nvfrsToNames.sh have flag for this."
 
