@@ -64,7 +64,7 @@ for pkg in `cat $NVRA_FILE`; do
     echo "skipping $pkg, crucial pacakge"
     continue
   fi
-  branch=master
+  branch=rawhide
   url=https://src.fedoraproject.org/rpms/${pkg}.git
   sh ${SCRIPT_DIR}/repoToCopr.sh ${pkg} ${url} ${branch}
 done
