@@ -86,6 +86,9 @@ now time should be taken to Fesco and RCM have spoken, then it is announced by t
   *  enable copr api key (```man  copr-cli``` will tell)
   *  again, see the coleration with PRs in https://github.com/judovana/FedoraSystemJdkBump/blob/main/README.md#branches-with-changed-systyem-jdk
   *  check the content and execute addCrucialPackages.sh (https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/fillCopr/addCrucialPackages.sh)
+    * If you included frok+branch of java-latest-openjdk, with rename to java-XYZ-openjdk and perhaps with move to system JDK
+    * then be aware, that this PKG may be imported as java-latest-openjdk, but later a duplciate, java-XYZ-oepnjdk will apear. 
+      * Feel free to remove the latest duplicate
   *  **in this prelmiary stage** the packages are from various forks or whereabouts, **later**, after merge, they will bemoved to ones from normal repos
 * ensure thsoe built and resulls are correct
 * add one your well known package, which you know will be afffected by bump.
