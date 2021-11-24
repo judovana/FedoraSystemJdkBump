@@ -40,7 +40,7 @@ dogtag-pki-0:10.10.5-3.fc34.src
 dogtag-pki-0:10.10.6-1.fc34.src
 eclipse-findbugs-0:3.0.1-23.fc34.src
 erlang-0:23.3.1-1.fc34.src
-erlang-0:23.3.4.8-1.fc34.src
+erlang-0:23.3.4.9-1.fc34.src
 erlang-corba-1:5.0.2-1.fc34.src
 erlang-corba-1:5.0-2.fc34.src
 fastbit-0:2.0.3-20.fc34.src
@@ -188,7 +188,7 @@ sphinx-0:2.2.11-18.fc34.src
 svgsalamander-0:1.1.2-9.fc34.src
 swing-layout-0:1.0.4-21.fc34.src
 systemtap-0:4.5-0.202102101544git8d5e0abc542c.fc34.src
-systemtap-0:4.5-1.fc34.src
+systemtap-0:4.6-1.fc34.src
 taggle-0:1.0-20.fc34.src
 test-interface-0:1.0-17.fc34.src
 tomcat-1:9.0.44-1.fc34.src
@@ -721,7 +721,7 @@ paranamer-0:2.8-16.fc34.src
 pcfi-0:2010.08.09-20.20111103gitbd245c9.fc34.src
 pdfbox-0:2.0.23-1.fc34.src
 pdfbox-0:2.0.24-1.fc34.src
-picocli-0:4.6.2-1.fc34.src
+picocli-0:4.6.2-2.fc34.src
 plexus-active-collections-0:1.0-0.30.beta2.fc34.src
 plexus-archiver-0:4.2.4-1.fc34.src
 plexus-build-api-0:0.0.7-31.fc34.src
@@ -817,3 +817,11 @@ icedtea-web-0:2.0.0-pre.0.3.alpha16.patched1.1.fc34.src
 icedtea-web-0:2.0.0-pre.0.3.alpha16.patched1.fc34.3.src
 plexus-utils-0:3.3.0-5.fc34.src
 xmvn-0:3.1.0-8.fc34.src
+ant-antunit-0:1.4-3.fc34.src
+ant-contrib-0:1.0-0.40.b3.fc34.src
+apache-ivy-0:2.5.0-2.fc34.src
+forbidden-apis-0:2.5-10.fc34.src
+freemarker-0:2.3.30-3.fc34.src
+icu4j-1:68.2-1.fc34.src
+lucene-0:8.6.3-2.fc34.src
+lz4-java-0:1.7.1-12.fc34.src

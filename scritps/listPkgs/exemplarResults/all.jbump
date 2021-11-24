@@ -381,7 +381,7 @@ ee4j-parent-0:1.0.1-1.module_f34+10052+be252076.src
 ee4j-parent-0:1.0.1-1.module_f34+10061+b833aff1.src
 enjarify-0:1.0.3-16.fc34.src
 erlang-0:23.3.1-1.fc34.src
-erlang-0:23.3.4.8-1.fc34.src
+erlang-0:23.3.4.9-1.fc34.src
 erlang-corba-1:5.0.2-1.fc34.src
 erlang-corba-1:5.0-2.fc34.src
 exec-maven-plugin-0:1.6.0-11.fc34.noarch
@@ -1576,11 +1576,11 @@ pentaho-reporting-flow-engine-1:0.9.4-22.fc34.noarch
 pentaho-reporting-flow-engine-1:0.9.4-22.fc34.src
 pentaho-reporting-flow-engine-1:0.9.4-23.fc34.noarch
 pentaho-reporting-flow-engine-1:0.9.4-23.fc34.src
-picocli-0:4.6.2-1.fc34.noarch
-picocli-0:4.6.2-1.fc34.src
-picocli-codegen-0:4.6.2-1.fc34.noarch
-picocli-shell-jline2-0:4.6.2-1.fc34.noarch
-picocli-shell-jline3-0:4.6.2-1.fc34.noarch
+picocli-0:4.6.2-2.fc34.noarch
+picocli-0:4.6.2-2.fc34.src
+picocli-codegen-0:4.6.2-2.fc34.noarch
+picocli-shell-jline2-0:4.6.2-2.fc34.noarch
+picocli-shell-jline3-0:4.6.2-2.fc34.noarch
 pki-base-java-0:10.10.5-6.fc34.noarch
 pki-base-java-0:10.10.6-1.fc34.noarch
 pki-core-0:10.10.5-6.fc34.src
@@ -1852,9 +1852,9 @@ swing-layout-0:1.0.4-21.fc34.noarch
 swing-layout-0:1.0.4-21.fc34.src
 swt-chart-0:0.12.0-4.fc33.noarch
 systemtap-0:4.5-0.202102101544git8d5e0abc542c.fc34.src
-systemtap-0:4.5-1.fc34.src
+systemtap-0:4.6-1.fc34.src
 systemtap-runtime-java-0:4.5-0.202102101544git8d5e0abc542c.fc34.x86_64
-systemtap-runtime-java-0:4.5-1.fc34.x86_64
+systemtap-runtime-java-0:4.6-1.fc34.x86_64
 taggle-0:1.0-20.fc34.noarch
 taggle-0:1.0-20.fc34.src
 taggle-server-0:1.0-20.fc34.noarch

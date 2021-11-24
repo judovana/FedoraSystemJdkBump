@@ -176,7 +176,7 @@ ee4j-parent-0:1.0.1-1.module_f34+10052+be252076.src
 ee4j-parent-0:1.0.1-1.module_f34+10061+b833aff1.src
 enjarify-0:1.0.3-16.fc34.src
 erlang-0:23.3.1-1.fc34.src
-erlang-0:23.3.4.8-1.fc34.src
+erlang-0:23.3.4.9-1.fc34.src
 erlang-corba-1:5.0.2-1.fc34.src
 erlang-corba-1:5.0-2.fc34.src
 exec-maven-plugin-0:1.6.0-11.fc34.src
@@ -675,7 +675,7 @@ pentaho-libxml-0:1.1.3-27.fc34.src
 pentaho-libxml-0:1.1.3-29.fc34.src
 pentaho-reporting-flow-engine-1:0.9.4-22.fc34.src
 pentaho-reporting-flow-engine-1:0.9.4-23.fc34.src
-picocli-0:4.6.2-1.fc34.src
+picocli-0:4.6.2-2.fc34.src
 pki-core-0:10.10.5-6.fc34.src
 pki-core-0:10.10.6-1.fc34.src
 pl-0:8.2.4-1.fc34.src
@@ -799,7 +799,7 @@ svgsalamander-0:1.1.2-9.fc34.src
 svnkit-1:1.8.12-10.fc34.src
 swing-layout-0:1.0.4-21.fc34.src
 systemtap-0:4.5-0.202102101544git8d5e0abc542c.fc34.src
-systemtap-0:4.5-1.fc34.src
+systemtap-0:4.6-1.fc34.src
 taggle-0:1.0-20.fc34.src
 tagsoup-0:1.2.1-23.fc34.src
 takari-polyglot-0:0.4.6-1.fc34.src
