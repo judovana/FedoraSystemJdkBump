@@ -96,4 +96,24 @@ now time should be taken to Fesco and RCM have spoken, then it is announced by t
 * add one your well known package, which you know will be afffected by bump.
   * verify
 ## add the whole swarm of packages depnding on jdks
+### Manual way:
 * use https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/listPkgs/listJavaDependentPkgs.sh and https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/listPkgs/nvfrsToNames.sh to find all packages you wish to include in your copr. It is good idea to exclude orphans
+* it is recomended to exclude orphans (see also https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/fillCopr/find-package-maintainers)
+* it have no sense to process subpkgs
+* **do not include crucial packages**
+  * otherwise your custom setup for them will be lost
+* upload them to your copr one by, by https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/fillCopr/repoToCopr.sh
+### Automated way:
+* execute https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/fillCopr/addListOfPkgs.sh
+  * It expects one parameter, file with list of packages to upload
+    * by default, script removes VRA, and continue with name only
+    * be careful in case of runtime depndencies to filter out subpackages
+  * it can use default (https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/listPkgs/exemplarResults/ball.jbump)
+  * and is filtering out orphans and crucial packages
+  * canbe used to fix the repos
+
+* Once you are done, go to your copr packages tab
+  * eg https://copr.fedorainfracloud.org/coprs/jvanek/java17/packages/
+  * click rebuild all
+  * click ok
+  * go sleep
