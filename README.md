@@ -3,6 +3,8 @@ Steps and tools to bump system JDK in Fedora
 
 # pre
 * read https://docs.fedoraproject.org/en-US/program_management/changes_policy/
+* write proposal. Eg https://fedoraproject.org/wiki/Changes/Java17 or https://fedoraproject.org/wiki/Changes/Java11
+  * target it to exact fedora
 * gather requirements, on how much packages is affected 
   * runtime:
     * ```repoquery -q --whatrequires mvn...java-devel...java-headless...java-... {various subsets} // for runtime```
