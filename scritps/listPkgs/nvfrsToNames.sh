@@ -9,14 +9,10 @@ for file in "$@" ; do
   done < "$file"
 done  | sort | uniq > $tmp
 
-# if jsut build dependencies were scanned, then all should be ok
-# if also runtime depndencies were scanned, then the below check should be used
-# otherwise a subpkg may thenbe tried to be forced to copr/searched for maintainer
+# the check ensures, that only live packages, not ded pkgs nor subpkgs, got to the list
+# the check for orphans is done later
 
-
-if [ "x$FORCE_CHECK" == "x" ] ; then
-  cat "$tmp"
-else
+if [ "x$SKIP_CHECK" == "x" ] ; then
   while IFS= read -r line; do
     wget -S --spider https://src.fedoraproject.org/rpms/$line 2>&1 | grep -q 'HTTP/1.. 200 OK'
     if [ $? -eq 0 ]; then
@@ -30,5 +26,7 @@ else
       echo "  skipping $line - subpkg" >&2
     fi
   done < "$tmp"
+else
+  cat "$tmp"
 fi
 
