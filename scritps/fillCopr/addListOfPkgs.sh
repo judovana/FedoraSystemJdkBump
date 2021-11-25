@@ -11,31 +11,21 @@ while [ -h "$SCRIPT_SOURCE" ]; do # resolve $SOURCE until the file is no longer 
 done
 readonly SCRIPT_DIR="$( cd -P "$( dirname "$SCRIPT_SOURCE" )" && pwd )"
 
-# to list packages which have to be skiped from listing
-source ${SCRIPT_DIR}/getCrucialPackages.sh
-
-defaultFile="$SCRIPT_DIR/../listPkgs/exemplarResults/ball.jbump"
+defaultFile="$SCRIPT_DIR/exemplarResults/depndent-packages.jbump"
 if [ "x$1" == "x" ] ; then
   if [ -e "$defaultFile" ] ; then
     echo "using default file $defaultFile" >&2
-    NVRA_FILE=${defaultFile}
+    PKGS_FILE=${defaultFile}
   else
     echo "list of nvrs  not present"
-    echo "use: ../listPkgs/listJavaDependentPkgs.sh"
+    echo "use: ../listPkgs/listJavaDependentPkgs.sh | ../listPkgs/nvfrsToNames.sh"
     echo "to generate one"
     exit 1
   fi
 else
-  NVRA_FILE=${1}
+  PKGS_FILE=${1}
 fi
 
-
-
-if [ "x$STRIP_VR" == x ] ; then
-  tmpf=`mktemp`
-  sh ${SCRIPT_DIR}/../listPkgs/nvfrsToNames.sh ${NVRA_FILE} > ${tmpf}
-  NVRA_FILE=${tmpf}
-fi
 
 if [ "x$INCLUDE_ORPHANS" == "x" ] ; then
   # Stolen from:
@@ -48,15 +38,18 @@ if [ "x$INCLUDE_ORPHANS" == "x" ] ; then
       wget https://pagure.io/fedora-misc-package-utilities/raw/master/f/find-package-maintainers -O find-package-maintainers
     fi
     MAINTAINERS_FILE=maintainers.jbump
-    python find-package-maintainers ${NVRA_FILE} > $MAINTAINERS_FILE
+    python find-package-maintainers ${PKGS_FILE} > $MAINTAINERS_FILE
     ORPHANS="`cat $MAINTAINERS_FILE | grep  "^orphan\s\+" | sed "s/^orphan\s\+//"`"
   fi
 else
   ORPHANS=""
 fi
 
-# pkgs are from sourced getCrucialPackages.sh
-for pkg in `cat $NVRA_FILE`; do
+# to list packages which have to be skiped from listing
+source ${SCRIPT_DIR}/getCrucialPackages.sh
+
+# pkgs are from above sourced getCrucialPackages.sh
+for pkg in `cat $PKGS_FILE`; do
   echo " * $pkg * "
   if echo " $ORPHANS " | grep -q " $pkg "; then
     echo "skipping $pkg, orphan"
