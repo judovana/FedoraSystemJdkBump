@@ -18,7 +18,7 @@ if [ "x$1" == "x" ] ; then
     PKGS_FILE=${defaultFile}
   else
     echo "list of nvrs  not present"
-    echo "use: ../listPkgs/listJavaDependentPkgs.sh | ../listPkgs/nvfrsToNames.sh"
+    echo "use: ../listPkgs/listJavaDependentPkgs.sh | ../listPkgs/nvfrsToNames.sh > depndent-packages.jbump"
     echo "to generate one"
     exit 1
   fi
