@@ -1,5 +1,9 @@
 # FedoraSystemJdkBump
 Steps and tools to bump system JDK in Fedora
+1. gather prerequisites, notify lists, write proposal
+1. fill fesco and rcm tickets
+1. fill copr and run mass rebuild
+1. report results and notify maintainers (repeat few times)
 
 # pre
 * read https://docs.fedoraproject.org/en-US/program_management/changes_policy/
@@ -97,23 +101,22 @@ now time should be taken to Fesco and RCM have spoken, then it is announced by t
   * verify
 ## add the whole swarm of packages depnding on jdks
 ### Manual way:
-* use https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/listPkgs/listJavaDependentPkgs.sh and https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/listPkgs/nvfrsToNames.sh to find all packages you wish to include in your copr. It is good idea to exclude orphans
+* use https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/listPkgs/listJavaDependentPkgs.sh and https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/listPkgs/nvfrsToNames.sh to find all packages you wish to include in your copr.
 * it is recomended to exclude orphans (see also https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/fillCopr/find-package-maintainers)
-* it have no sense to process subpkgs
+* it have no sense to process subpkgs or dead packages (see https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/listPkgs/nvfrsToNames.sh)
 * **do not include crucial packages**
-  * otherwise your custom setup for them will be lost
+  * otherwise your custom setup for them will be lost (the https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/fillCopr/addListOfPkgs.sh is handling that by default)
 * upload them to your copr one by, by https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/fillCopr/repoToCopr.sh
 ### Automated way:
 * execute https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/fillCopr/addListOfPkgs.sh
   * It expects one parameter, file with list of packages to upload
-    * by default, script removes VRA, and continue with name only
-    * be careful in case of runtime depndencies to filter out subpackages
-  * it can use default (https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/listPkgs/exemplarResults/ball.jbump)
+  * the file must be pkgs only - filter dead.packages and subpakcages before
+  * it can use default (https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/listPkgs/exemplarResults/all.jbump)
   * and is filtering out orphans and crucial packages
-  * canbe used to fix the repos
+  * canbe used also to fix/modify the repo(s)
 
 * Once you are done, go to your copr packages tab
   * eg https://copr.fedorainfracloud.org/coprs/jvanek/java17/packages/
   * click rebuild all
-  * click ok
+  * click build
   * go sleep
