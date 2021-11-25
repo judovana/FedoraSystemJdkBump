@@ -41,18 +41,18 @@ function disableAllEnableGiven() {
 }
 
 function doMain() {
-  echo $TITLE
+  echo $TITLE >&2
   rm $FILE
   for x in $interestingDeps ; do
-    echo -n " $x "
+    echo -n " $x " >&2
     local repos=`disableAllEnableGiven $REPOS`
     IFS="
 "
     repoquery $RS1 $RS2 $repos -q --whatrequires $x | sort >> $FILE
-    cat $FILE | wc -l
+    cat $FILE | wc -l >&2
     IFS="$IFS_BACKUP"
   done
-  echo -n "total: " ; cat $FILE | sort | uniq | wc -l
+  echo -n "total: " ; cat $FILE | sort | uniq | wc -l >&2
   echo ""
 }
 
@@ -87,22 +87,23 @@ RS2="--arch
 noarch" # IFS ammended
 doMain
 
-echo "although each pair should return same, they do not. Feel free to compare b1.jbump x b2.jbump and r1.jbump and r2.jbump."
-echo "Do not join them, but mix them. '2' is subset of '1'."
+echo "although each pair should return same, they do not. Feel free to compare b1.jbump x b2.jbump and r1.jbump and r2.jbump." >&2
+echo "Do not join them, but mix them. '2' is subset of '1'." >&2
 
 cat b1.jbump b2.jbump | sort | uniq > ball.jbump
-echo -n " total build: " ; cat ball.jbump | wc -l
+echo -n " total build: " >&2 ; cat ball.jbump | wc -l >&2
 cat r1.jbump r2.jbump | sort | uniq > rall.jbump
-echo -n " total runtime: " ; cat rall.jbump | wc -l
+echo -n " total runtime: " >&2 ; cat rall.jbump | wc -l >&2
 cat ball.jbump rall.jbump | sort | uniq > all.jbump
-echo -n " total: " ; cat all.jbump | wc -l 
+echo -n " total: " >&2 ; cat all.jbump | wc -l  >&2
 
-echo "see all.jbump (or one of build/runtime ball.jbump/rall.jbump)."
-echo "Use that full listing, or at least build listing for initial import to copr repo!"
+cat all.jbump # the only thing whcich shold go to stdout
 
-echo
-
-echo "Warning: If include only build (b*.jbump) depndencies, then ou are safe. Those are packages"
-echo "Warning: If you include also runtime dependencies, then you have to double check it is  not subpkg"
-echo "Warning: nvfrsToNames.sh have flag for this."
+echo "see all.jbump (or one of build/runtime ball.jbump/rall.jbump)." >&2
+echo "Use that full listing, or at least build listing for initial import to copr repo!" >&2
+echo "" >&2
+echo "Warning: If include only build (b*.jbump) depndencies, then ou are safe. Those are packages" >&2
+echo "Warning: If you include also runtime dependencies, then you have to double check it is  not subpkg" >&2
+echo "Warning: In all cases you should verify it is not dead package" >&2
+echo "Warning: by default, nvfrsToNames.sh have are checking the subpkg AND if the pkg is not dead package" >&2
 
