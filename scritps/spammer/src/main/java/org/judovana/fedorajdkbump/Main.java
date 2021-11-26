@@ -6,6 +6,23 @@ package org.judovana.fedorajdkbump;
 
     public class Main {
 
+        public static void howToGetOAuthTicket() {
+            System.err.println("   Follow: ");
+            System.err.println("https://developers.google.com/identity/protocols/oauth2");
+            System.err.println("https://support.google.com/cloud/answer/9110914");
+            System.err.println("https://support.google.com/googleapi/answer/6158849?hl=en#zippy=");
+            System.err.println("https://developers.google.com/identity/protocols/oauth2#2.-obtain-an-access-token-from-the-google-authorization-server.");
+            System.err.println("   Use: ");
+            System.err.println("https://console.cloud.google.com/apis/credentials/oauthclient/");
+            System.err.println("create project, create client for it");
+            System.err.println("in client you need client id and client secret forfollowing page, that will guide you");
+            System.err.println("https://developers.google.com/oauthplayground");
+            System.err.println("will be able to eat client id secret and whatever");
+            System.err.println("authorise gmail - https://mail.google.com/");
+            System.err.println("   Now it will generate temporary token, whch you can use with your emial id!");
+            System.err.println("There are libraries which can do it moreover for you, but afiak you cannto avoid the buyrocracy, so the same verbosity as above wil be reached with libs");
+        }
+
         public static void main(String[] args) throws Exception {
             System.err.println("Current spammer is configured to run with OAuth 2.0 secured gmail");
             System.err.println("If you need to use different email server or different authentification, you have to go with new implementation");
@@ -19,6 +36,8 @@ package org.judovana.fedorajdkbump;
             if (args.length != 2) {
                 System.err.println("Usage: OAuth2Authenticator <email> <oauthToken>  template? list_of_owners? list_of_statuses?");
                 System.err.println("eg: jvanek@rh.com ya29.a0...  some/file other/file copypasted/file");
+                System.err.println();
+                howToGetOAuthTicket();
                 return;
             }
             Messagable messagable = com.google.code.samples.oauth2.OAuth2Authenticator.connect(args[0], args[1]);

@@ -154,6 +154,7 @@ public class OAuth2Authenticator {
    */
   public static Messagable connect(String email, String oauthToken) throws Exception {
     System.err.println("...gmail.com  OAUTH 2.0!");
+    System.err.println(".based on https://github.com/google/gmail-oauth2-tools/blob/downloads/oauth2-java-sample-20120904.zip");
     initialize();
     //this is just for playing, and have no usage in our spammer
     boolean read = false;
