@@ -3,13 +3,35 @@ package org.judovana.fedorajdkbump.templates;
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
+import java.util.Properties;
 
 public class TemplateLoader {
 
     private final String template;
+    private final Properties staticMacros;
 
-    public  TemplateLoader(File template) throws IOException {
-        this.template = Files.readString(template.toPath());
+    public TemplateLoader(File template) throws IOException {
+        this.staticMacros = new Properties();
+        staticMacros.load(this.getClass().getResourceAsStream("/macros"));
+        this.template = process(Files.readString(template.toPath()));
+    }
+
+    private String process(String readString) {
+        while (true) {
+            String orig = readString;
+            for (Object o : staticMacros.keySet()) {
+                String s = (String) o;
+                if (s.contains("_START")) { //todo, only if no failures!
+                    readString = readString.replaceAll("(?s)"+s+".*"+s.replace("_START", "_END"), staticMacros.getProperty(s));
+                } else {
+                    readString = readString.replace(s, staticMacros.getProperty(s));
+                }
+            }
+            if (readString.equals(orig)) {
+                break;
+            }
+        }
+        return readString;
     }
 
     public String getTemplate() {

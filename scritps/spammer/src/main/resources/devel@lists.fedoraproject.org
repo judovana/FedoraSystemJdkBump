@@ -20,7 +20,7 @@ We ran a preliminary mass rebuild of javastack in copr repo  <COPR_URL> (select 
 
 I would kindly ask you to search yourself in this list: <PEOPLE_LIST_URL>
 If you are here, please check status of your package in <COPR_PLAIN> (pain text of <COPR_URL>). 
- * If your package is "succeeded",  congratulations nothing to do, and just keep en eye on JDK bump
+ * If all your packages are "succeeded",  congratulations nothing to do, and just keep en eye on JDK bump
  * If there is "failed" but contains "- 	-" then even srpm built failes. If you wish to resurrect it, please ensure it runs against <JDK_TO> (see lower)
  * If there is "failed" but failed in "seconds", then those packages failed so quickly, that the build was in initial phases. That usually mean that you build with source/target/release lower then <MIN_BYTECODE>. <JDK_TO> supports <MIN_BYTECODE> and up. We recommend to bump the source/target to <RECOMEND_BYTECODE>, to allow existence of compact <RECOMEND_BYTECODE> packages alongside main javastack. See <PROPOSAL_URL>#<WRONG_SOURCETARGETRELEASE>. Don't forget to upstream the patch, or maybe it is enough to update to more fresh upstream release which supports <JDK_TO>? it may happen, that after the fix, your build will fail in more terrible way (see below)
  * If there is "failed", and its none of above, then your package simply failed. Very often the scary error may be fixed by bump to latest upstream version. <JDK_TO> is out shortly, but changes against <JDK_FROM> are minimal, and upstreams keep an track. Please, try to fix the package. Don't hesitate to ask on devel@fedoraproject.org or java-devel@fedoraproject.org or directly to me <FROM_MAIL>. If you fix the fail, feel free to share your fix, it may help others. 
