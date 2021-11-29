@@ -73,18 +73,18 @@ public class TemplateLoader {
                 List<String> slowFail = dist(failed, quickfailed);
                 List<String> missing = dist(itsPkgs, allFound);
                 readString = readString.replace("<ITS_PKG_COUNT>", allFound.size()+ "");
-                readString = readString.replace("<ITS_PKGS_LIST>", allFound.stream().collect(Collectors.joining(", ")));
+                readString = readString.replace("<ITS_PKGS_LIST>", nonEmpty(allFound.stream().collect(Collectors.joining(", "))));
                 readString = readString.replace("<ITS_PASSED>", passed.size()+ "");
-                readString = readString.replace("<ITS_PASSED_LIST>", passed.stream().collect(Collectors.joining(", ")));
+                readString = readString.replace("<ITS_PASSED_LIST>", nonEmpty(passed.stream().collect(Collectors.joining(", "))));
                 readString = readString.replace("<ITS_BORKED>", borked.size() + "");
-                readString = readString.replace("<ITS_BORKED_LIST>", borked.stream().collect(Collectors.joining(", ")));
+                readString = readString.replace("<ITS_BORKED_LIST>", nonEmpty(borked.stream().collect(Collectors.joining(", "))));
                 readString = readString.replace("<ITS_FAILED>", failed.size() + "");
-                readString = readString.replace("<ITS_FAILED_LIST>", failed.stream().collect(Collectors.joining(", ")));
+                readString = readString.replace("<ITS_FAILED_LIST>", nonEmpty(failed.stream().collect(Collectors.joining(", "))));
                 readString = readString.replace("<ITS_QUICK>", quickfailed.size() + "");
-                readString = readString.replace("<ITS_QUICK_LIST>", quickfailed.stream().collect(Collectors.joining(", ")));
+                readString = readString.replace("<ITS_QUICK_LIST>", nonEmpty(quickfailed.stream().collect(Collectors.joining(", "))));
                 readString = readString.replace("<ITS_FAILED_SLOW_LIST>", slowFail.stream().collect(Collectors.joining(", ")));
                 readString = readString.replace("<ITS_MISSING>", missing.size() + "");
-                readString = readString.replace("<ITS_MISSING_LIST>", missing.stream().collect(Collectors.joining(", ")));
+                readString = readString.replace("<ITS_MISSING_LIST>", nonEmpty(missing.stream().collect(Collectors.joining(", "))));
                 readString = readString.replace("<LATEST_STATUSES_WITH_LOGS>", getLogs(builds.getFailedNonBorked(Optional.of(itsPkgs))));
             }
 
@@ -93,6 +93,14 @@ public class TemplateLoader {
             }
         }
         return readString;
+    }
+
+    private String nonEmpty(String collect) {
+        if (collect.trim().isEmpty()){
+            return "N/A";
+        } else {
+            return collect;
+        }
     }
 
     private String getLogs(List<Package> failed) {
