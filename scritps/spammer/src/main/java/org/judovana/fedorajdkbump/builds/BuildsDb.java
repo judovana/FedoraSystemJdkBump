@@ -5,7 +5,10 @@ import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -100,5 +103,44 @@ public class BuildsDb {
             return 1;
         }
         return Integer.parseInt(amount);
+    }
+
+    public Collection<Package> getPackages() {
+        return packagesWithBuilds.values();
+    }
+
+    public List<Package> getFailedPackages() {
+        return getPackages().stream().filter(a->a.getNewestBuild().getStatus()!=BuildStatus.succeeded).collect(Collectors.toList());
+    }
+
+    public List<Package> getQuickFailedPackages() {
+        return getFailedPackages().stream().filter(a->a.getNewestBuild().isQuick()).collect(Collectors.toList());
+    }
+
+    public List<Package> getPassedPackages() {
+        return getPackages().stream().filter(a->a.getNewestBuild().getStatus()==BuildStatus.succeeded).collect(Collectors.toList());
+    }
+
+    public List<Package> getErrorPackages() {
+        return getPackages().stream().filter(a->!a.getNewestBuild().srpmPassed()).collect(Collectors.toList());
+    }
+
+    public int totalErrorPackages() {
+        return getErrorPackages().size();
+    }
+    public int totalPassedPackages() {
+        return getPassedPackages().size();
+    }
+
+    public int totalFailedPackages() {
+        return getFailedPackages().size();
+    }
+
+    public int totalQuickFailedPackages() {
+        return getQuickFailedPackages().size();
+    }
+
+    public int totalPackages() {
+        return getPackages().size();
     }
 }

@@ -10,8 +10,10 @@
 <<ALL_PASSED_START>>=Congratulations! All your packages built whith java-11-openjdk! Please keep an eye on the mass rebuild anyway.
 <MIN_BYTECODE>=1.7
 <RECOMEND_BYTECODE>=1.8
+<PEOPLE_LIST_URL>=https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/fillCopr/exemplarResults/maintainers.jbump
 <CHROOT>=fedora-rawhide-x86_64
+<COPR_CHROOT>=jvanek-java17-fedora-rawhide-x86_64
 <COPR_ID>=jvanek/java17
-<COPR_CFG>=TODO. Attachemnt?
-<PEOPLE_LIST_URL>=TODO. Attachemnt?
-<COPR_PLAIN>=TODO. Attachemnt?
+<COPR_CFG>=https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/spammer/exemplarResults/<COPR_CHROOT>.cfg
+<COPR_CFG_RAW>=https://raw.githubusercontent.com/judovana/FedoraSystemJdkBump/main/scritps/spammer/exemplarResults/<COPR_CHROOT>.cfg
+<COPR_PLAIN>=https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/spammer/exemplarResults/coprBuildTable.jbump

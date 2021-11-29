@@ -13,6 +13,10 @@ public class Package {
         this.name = name;
     }
 
+    public Build getNewestBuild() {
+        return builds.get(0);
+    }
+
     public void add(Build build) {
         builds.add(build);
         builds.sort((b1, b2) -> {

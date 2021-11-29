@@ -59,12 +59,17 @@ public class Build {
             return "error";
         }
     }
-    private boolean srpmPassed() {
+
+    public  boolean srpmPassed() {
         if (vr.equals("-")) {
             return false;
         } else {
             return true;
         }
+    }
+
+    public boolean isQuick() {
+        return tookSeconds < 60;
     }
 }
 

@@ -10,11 +10,11 @@ Short Story:
  * If you do not want Fedora rotten with <JDK_FROM> for ever, continue reading
 
 Long Story:
-We ran a preliminary mass rebuild of javastack in copr repo  <COPR_URL> (select "all" instead of "25" at the bottom), on packages requiring java,javac, java-devel, maven-local, ant, ivy & comp. for build. You can see, the result was quite dramatic:
+We ran a preliminary mass rebuild of javastack in copr repo  <COPR_URL> (select "all" instead of "25" at the bottom), on packages requiring java,javac, java-devel, maven-local, ant, ivy & comp. for build. You can see, the result was quite interesting:
 <TOTAL_ATTEMPT>  total; attempted to rebuild
 <TOTAL_FAILED>  failed; from those <QUICK_FAIL> are trivial failures (but if you fix it, there is no guarantee real troubles are not hidden behind that)
 <TOTAL_OK>  succeeded
-<TOTAL_ERROR>  not even srpm rebuilt - orphan? dead? <but orpahns and dead ones should be already excluded)
+<TOTAL_ERROR>  not even srpm rebuilt - orphan? dead? (but orpahns and dead ones should be already excluded)
 
 From those you (co)own following: <ITS_PKGS_LIST>
 
@@ -46,15 +46,16 @@ The copr repo we maintain, contains builds of <JDK_TO> as system JDK, javapackag
  ** It is the best approach. If you can fix your package in rawhide directly, without breaking the rawhide too much, go for it
  ** If yo need to experiment, I have a mock config for you (generated from  copr-cli mock-config <COPR_ID> <CHROOT>) which you can copy to your /etc/mock and use - <COPR_CFG> .  Eg:
 
-TODO_NOROOT APPRACH
-
- sudo cp downloaded-fedora-xy-x86_64.cfg /etc/mock/jvanek-javaab-fedora-xy-x86_64.cfg
+ # as root, globally
+ sudo wget <COPR_CFG_RAW> -O /etc/mock/<COPR_CHROOT>.cfg
+ # or as user, locally (after creating  ~/.config/mock/)
+ wget <COPR_CFG_RAW>  -O ~/.config/mock/<COPR_CHROOT>.cfg
  # change spec, bump sources, apply patches
  fedpkg srpm
- mock -r jvanek-javaab-fedora-xy-x86_64  *.src.rpm
+ mock -r <COPR_CHROOT>  *.src.rpm
 
 Or any other packaging workflow you use, and you can use against the copr repo.
-Thank you very much for your help, there are <TOTAL_FAIERR> failures, and <TOTAL_PACKAGERS> java packagers, but only 2 active members of java sig. Without your help, the JDK bump will be very hard.
+Thank you very much for your help, there are <TOTAL_FAILED> failures, and <TOTAL_PACKAGERS> java packagers, but only 2 active members of java sig. Without your help, the JDK bump will be very hard.
 
 Thank You!
   J.
