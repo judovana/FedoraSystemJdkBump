@@ -43,3 +43,5 @@ The copr repo we maintain, contains builds of <JDK_TO> as system JDK, javapackag
 \n\
 Or any other packaging workflow you use, and you can use against the copr repo.\n\
 Thank you very much for your help, there are <TOTAL_FAILED_AND_ERRORED> failures, and <TOTAL_PACKAGERS> java packagers, but only 2 active members of java sig. Without your help, the JDK bump will be very hard.\n\
+
+<TITLE>=We are planning to bump the JDK from <JDK_FROM> to <JDK_TO> for <AFFECTED_FC>. Please see <PROPOSAL_URL>

@@ -2,7 +2,7 @@ for: devel@lists.fedoraproject.org
 
 Hello fellow java package maintainers!
 
-We are planning to bump the JDK from <JDK_FROM> to <JDK_TO> for <AFFECTED_FC>. Please see <PROPOSAL_URL>
+<TITLE>
 
 Short Story:
  * if you have some java package, be aware that we are bumping JDK in rawhide

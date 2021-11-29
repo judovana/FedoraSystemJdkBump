@@ -1,6 +1,6 @@
 Hello fellow java package maintainer <PACKAGER_NAME>!
 
-We are planning to bump the JDK from <JDK_FROM> to <JDK_TO> for <AFFECTED_FC>. Please see <PROPOSAL_URL>
+<TITLE>
 
 Short Story:
  * according to package database, you (co)maintain at least <ITS_PKG_COUNT> java packages, be aware that we are bumping JDK in rawhide
