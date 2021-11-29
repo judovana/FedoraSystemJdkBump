@@ -7,7 +7,7 @@
 <PRELIMINARY_INFO>=copr_preliminary_rebuild
 <WRONG_SOURCETARGETRELEASE>=Wrong_source.2Ftarget_version
 <COMMON_ISSUES>=common_issues_packagers_can_face_and_gathered_solutions
-<<ALL_PASSED_START>>=Congratulations! All your packages built whith java-11-openjdk! Please keep an eye on the mass rebuild anyway.
+<<ALL_PASSED_START>>=Congratulations! All your packages built whith <JDK_TO>! Please keep an eye on the mass rebuild anyway.
 <MIN_BYTECODE>=1.7
 <RECOMEND_BYTECODE>=1.8
 <PEOPLE_LIST_URL>=https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/fillCopr/exemplarResults/maintainers.jbump

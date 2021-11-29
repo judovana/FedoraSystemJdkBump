@@ -20,17 +20,19 @@ From those you (co)own following: <ITS_PKGS_LIST>
 
 If some of your packages is missing here at all, and you think it should be included, don't hesitate to email/ping me or the mailing lists. It could happen you have some very indirect requires or you require namely <JDK_FROM>(-devel). In that case yo should bump it according to packaging guidelines to java(-devel), verify you run against <JDK_TO> in my copr. Feel free to ask me to include such an package in my copr. I will gladly do so.
 
-
 <<ALL_PASSED_START>>
 Your summary is:
 <ITS_PASSED> passed
-<ITS_BORKED> are missing, delete, retired or somehow else utterly missing in action (see lower)
+<ITS_BORKED> even srpm failed - are missing, delete, retired or somehow else utterly missing in action (see lower)
+<ITS_MISSING> found, but missingin in copr?
 <ITS_FAILED> failed, from those <ITS_QUICK> failed very quickly (see lower)
 
 Details:
 * Passed: <ITS_PASSED_LIST>
 * Missing: <ITS_BORKED_LIST>
-is/are probably orphan dead or really borked. If it is intentional, you may ignore it. If it is error, you  should resurrect the package and if in that, ensure it runs against <JDK_TO> (see failed)
+  is/are probably orphan dead or really borked. If it is intentional, you may ignore it. If it is error, you  should resurrect the package and if in that, ensure it runs against <JDK_TO> (see failed)
+* no-copr: <ITS_MISSING_LIST>
+  is/are probably orphan dead or really borked. If it is intentional, you may ignore it. If it is error, you  should resurrect the package and if in that, ensure it runs against <JDK_TO> (see failed)
 * Failed, suspiciously quickly: <ITS_QUICK_LIST>
 those packages failed so quickly, that the build was in initial phases. That usually mean that you build with source/target lower then  <MIN_BYTECODE> <JDK_TO> supports  <MIN_BYTECODE> and up. We recommend to bump the source/target to <RECOMEND_BYTECODE>, to allow existence of compact <RECOMEND_BYTECODE> packages alongside main javastack. See <PROPOSAL_URL>#<WRONG_SOURCETARGETRELEASE>. Don't forget to upstream the patch, or maybe it is enough to update to more fresh upstream release which supports <JDK_TO>? it may happen, that after the fix, your build will fail in more terrible way (see bellow)
 * Failed: <ITS_FAILED_SLOW_LIST>
@@ -44,7 +46,7 @@ The copr repo we maintain, contains builds of <JDK_TO> as system JDK, javapackag
  ** Click its number, select chroot (currently  <CHROOT> ) and check the logs. Main log is build.log.gz.
  * anything you push to rawhide, will automatically rebuild here in <CHROOT> chroot.
  ** It is the best approach. If you can fix your package in rawhide directly, without breaking the rawhide too much, go for it
- ** If yo need to experiment, I have a mock config for you (generated from  copr-cli mock-config <COPR_ID> <CHROOT>) which you can copy to your /etc/mock and use - <COPR_CFG> .  Eg:
+ ** If you need to experiment, I have a mock config for you (generated from  copr-cli mock-config <COPR_ID> <CHROOT>) which you can copy to your /etc/mock and use - <COPR_CFG> .  Eg:
 
  # as root, globally
  sudo wget <COPR_CFG_RAW> -O /etc/mock/<COPR_CHROOT>.cfg
@@ -55,7 +57,7 @@ The copr repo we maintain, contains builds of <JDK_TO> as system JDK, javapackag
  mock -r <COPR_CHROOT>  *.src.rpm
 
 Or any other packaging workflow you use, and you can use against the copr repo.
-Thank you very much for your help, there are <TOTAL_FAILED> failures, and <TOTAL_PACKAGERS> java packagers, but only 2 active members of java sig. Without your help, the JDK bump will be very hard.
+Thank you very much for your help, there are <TOTAL_FAILED_AND_ERRORED> failures, and <TOTAL_PACKAGERS> java packagers, but only 2 active members of java sig. Without your help, the JDK bump will be very hard.
 
 Thank You!
   J.

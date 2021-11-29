@@ -1,5 +1,7 @@
 package org.judovana.fedorajdkbump.builds;
 
+import org.judovana.fedorajdkbump.people.PeopleDb;
+
 import java.io.File;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
@@ -10,6 +12,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -105,42 +108,56 @@ public class BuildsDb {
         return Integer.parseInt(amount);
     }
 
-    public Collection<Package> getPackages() {
-        return packagesWithBuilds.values();
+    public List<Package> getPackages(Optional<List<String>> subset) {
+        return packagesWithBuilds.values().stream().filter(a -> {
+            if (subset.isPresent()) {
+                return subset.get().contains(a.getName());
+            } else {
+                return true;
+            }
+        }).collect(Collectors.toList());
     }
 
-    public List<Package> getFailedPackages() {
-        return getPackages().stream().filter(a->a.getNewestBuild().getStatus()!=BuildStatus.succeeded).collect(Collectors.toList());
+    public List<Package> getFailedPackages(Optional<List<String>> subset) {
+        return getPackages(subset).stream().filter(a -> a.getNewestBuild().getStatus() != BuildStatus.succeeded).collect(Collectors.toList());
+    }
+    public List<Package> getFailedNonBorked(Optional<List<String>> subset) {
+        return getFailedPackages(subset).stream().filter(a -> a.getNewestBuild().srpmPassed()).collect(Collectors.toList());
     }
 
-    public List<Package> getQuickFailedPackages() {
-        return getFailedPackages().stream().filter(a->a.getNewestBuild().isQuick()).collect(Collectors.toList());
+    public List<Package> getQuickFailedPackages(Optional<List<String>> subset) {
+        return getFailedPackages(subset).stream().filter(a -> a.getNewestBuild().isQuick()).collect(Collectors.toList());
     }
 
-    public List<Package> getPassedPackages() {
-        return getPackages().stream().filter(a->a.getNewestBuild().getStatus()==BuildStatus.succeeded).collect(Collectors.toList());
+    public List<Package> getPassedPackages(Optional<List<String>> subset) {
+        return getPackages(subset).stream().filter(a -> a.getNewestBuild().getStatus() == BuildStatus.succeeded).collect(Collectors.toList());
     }
 
-    public List<Package> getErrorPackages() {
-        return getPackages().stream().filter(a->!a.getNewestBuild().srpmPassed()).collect(Collectors.toList());
+    public List<Package> getErrorPackages(Optional<List<String>> subset) {
+        return getPackages(subset).stream().filter(a -> !a.getNewestBuild().srpmPassed()).collect(Collectors.toList());
     }
 
-    public int totalErrorPackages() {
-        return getErrorPackages().size();
-    }
-    public int totalPassedPackages() {
-        return getPassedPackages().size();
+    public int totalErrorPackages(Optional<List<String>> subset) {
+        return getErrorPackages(subset).size();
     }
 
-    public int totalFailedPackages() {
-        return getFailedPackages().size();
+    public int totalPassedPackages(Optional<List<String>> subset) {
+        return getPassedPackages(subset).size();
     }
 
-    public int totalQuickFailedPackages() {
-        return getQuickFailedPackages().size();
+    public int totalFailedPackages(Optional<List<String>> subset) {
+        return getFailedPackages(subset).size();
     }
 
-    public int totalPackages() {
-        return getPackages().size();
+    public int totalQuickFailedPackages(Optional<List<String>> subset) {
+        return getQuickFailedPackages(subset).size();
+    }
+
+    public int totalPackages(Optional<List<String>> subset) {
+        return getPackages(subset).size();
+    }
+
+    public int totalFailedNonBorkedPackages(Optional<List<String>> empty) {
+        return getFailedNonBorked(empty).size();
     }
 }
