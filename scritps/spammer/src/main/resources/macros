@@ -17,3 +17,29 @@
 <COPR_CFG>=https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/spammer/exemplarResults/<COPR_CHROOT>.cfg
 <COPR_CFG_RAW>=https://raw.githubusercontent.com/judovana/FedoraSystemJdkBump/main/scritps/spammer/exemplarResults/<COPR_CHROOT>.cfg
 <COPR_PLAIN>=https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/spammer/exemplarResults/coprBuildTable.jbump
+
+<LONG_STORY>=Long Story:\n\
+We ran a preliminary mass rebuild of javastack in copr repo  <COPR_URL> (select "all" instead of "25" at the bottom), on packages requiring java,javac, java-devel, maven-local, ant, ivy & comp. for build. You can see, the result was quite interesting:\n\
+<TOTAL_ATTEMPT>  total; attempted to rebuild\n\
+<TOTAL_FAILED>  failed; from those <QUICK_FAIL> are trivial failures (but if you fix it, there is no guarantee real troubles are not hidden behind that)\n\
+<TOTAL_OK>  succeeded\n\
+<TOTAL_ERROR>  not even srpm rebuilt - orphan? dead? (but orpahns and dead ones should be already excluded)
+
+<DEBUGGING>=Debugging Your failures.\n\
+The copr repo we maintain, contains builds of <JDK_TO> as system JDK, javapackages-tools, maven & comp. honoring that, and <JDK_FROM> as non system JDK. Also it contains successfully rebuilt packages. You can directly use this copr repo in several ways.\n\
+ * first glance on error. On <COPR_URL> find your build  (select "all" instead of "25" at the bottom),\n\
+ ** Click its number, select chroot (currently  <CHROOT> ) and check the logs. Main log is build.log.gz.\n\
+ * anything you push to rawhide, will automatically rebuild here in <CHROOT> chroot.\n\
+ ** It is the best approach. If you can fix your package in rawhide directly, without breaking the rawhide too much, go for it\n\
+ ** If you need to experiment, I have a mock config for you (generated from  copr-cli mock-config <COPR_ID> <CHROOT>) which you can copy to your /etc/mock and use - <COPR_CFG> .  Eg:\n\
+\n\
+ # as root, globally\n\
+ sudo wget <COPR_CFG_RAW> -O /etc/mock/<COPR_CHROOT>.cfg\n\
+ # or as user, locally (after creating  ~/.config/mock/)\n\
+ wget <COPR_CFG_RAW>  -O ~/.config/mock/<COPR_CHROOT>.cfg\n\
+ # change spec, bump sources, apply patches\n\
+ fedpkg srpm\n\
+ mock -r <COPR_CHROOT>  *.src.rpm\n\
+\n\
+Or any other packaging workflow you use, and you can use against the copr repo.\n\
+Thank you very much for your help, there are <TOTAL_FAILED_AND_ERRORED> failures, and <TOTAL_PACKAGERS> java packagers, but only 2 active members of java sig. Without your help, the JDK bump will be very hard.\n\
