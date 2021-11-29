@@ -35,5 +35,19 @@ public class Package {
                 ", builds:\n    " + builds.stream().map(a -> a.toString()).collect(Collectors.joining("\n    ")) +
                 '}';
     }
+
+    public String toLink(String copr/*jvanek/java17*/, String chroot /*fedora-rawhide-x86_64*/) {
+        Build b = getNewestBuild();
+        String buildId = preZero(b.getBuildId(),8);//02988253
+        return " " + b.getStatus()+ " https://download.copr.fedorainfracloud.org/results/"+copr+"/"+chroot+"/"+buildId+"-"+getName()+"/builder-live.log.gz";
+    }
+
+    private String preZero(Long buildId, int i) {
+        String s = Long.toString(buildId);
+        while (s.length()< i){
+            s = "0"+s;
+        }
+        return s;
+    }
 }
 

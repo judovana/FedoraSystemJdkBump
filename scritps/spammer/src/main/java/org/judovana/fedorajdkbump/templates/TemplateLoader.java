@@ -98,7 +98,7 @@ public class TemplateLoader {
     private String getLogs(List<Package> failed) {
         StringBuilder sb = new StringBuilder();
         for (Package pkg : failed) {
-            sb.append(" * ").append(pkg.getName()).append("\n");
+            sb.append(pkg.toLink(staticMacros.getProperty("<COPR_ID>"),staticMacros.getProperty("<CHROOT>") )).append("\n");
         }
         return sb.toString();
     }
