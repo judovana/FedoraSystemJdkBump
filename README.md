@@ -120,3 +120,17 @@ now time should be taken to Fesco and RCM have spoken, then it is announced by t
   * click rebuild all
   * click build
   * go sleep
+
+## Reporting failures
+### devel@lists.fedoraproject.org
+* Adapt scritps/spammer/src/main/resources/macros (https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/spammer/src/main/resources/macros)
+* Double chheck that tempalte scritps/spammer/src/main/resources/devel@lists.fedoraproject.org is sane (https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/spammer/src/main/resources/devel@lists.fedoraproject.org)
+* in ```scritps/spammer``` (cwd sensitive) run  ```java -cp target/spammer-1.0-jar-with-dependencies.jar org.judovana.fedorajdkbump.templates.Main``` 
+  * or from IDE
+* That, assuming you refreshed all encessary files, provides you by statistics-full email for devel@lists.fedoraproject.org
+  * scritps/spammer/src/main/resources/devel@lists.fedoraproject.org
+  * scritps/fillCopr/exemplarResults//maintainers.jbump
+  * scritps/spammer/exemplarResults/coprBuildTable.jbump
+* send this email to devel@lists.fedoraproject.org
+  * eg: 
+
