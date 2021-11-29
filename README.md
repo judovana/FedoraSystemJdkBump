@@ -132,5 +132,5 @@ now time should be taken to Fesco and RCM have spoken, then it is announced by t
   * scritps/fillCopr/exemplarResults//maintainers.jbump
   * scritps/spammer/exemplarResults/coprBuildTable.jbump
 * send this email to devel@lists.fedoraproject.org
-  * eg: 
+  * eg: https://lists.fedoraproject.org/archives/list/devel@lists.fedoraproject.org/thread/KE7EAY6HKXNQV6PPCEAJAYL2MU7IXKHN/
 
