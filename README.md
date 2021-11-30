@@ -136,9 +136,9 @@ now time should be taken to Fesco and RCM have spoken, then it is announced by t
 ### individual maintainers
 * keep the email on devel for a while and watch responses
 * once fixing rate drops, spam individual packagers
-  *  alias **some_packager@fedoraproject.org** is to be used
-*  If you do not want to write each of aprox 200 maintainers (see https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/fillCopr/exemplarResults/maintainers.jbump) one by one
-*  use **spam tool**
+  * alias **some_packager@fedoraproject.org** is to be used
+* If you do not want to write each of aprox 200 maintainers (see https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/fillCopr/exemplarResults/maintainers.jbump) one by one
+* use **spam tool**
   * https://github.com/judovana/FedoraSystemJdkBump/tree/main/scritps/spammer
   * now impelmented for OAuth2 gmail.  (read https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/spammer/src/main/java/org/judovana/fedorajdkbump/Main.java#L16)
   * it requires 
