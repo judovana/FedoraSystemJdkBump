@@ -154,6 +154,6 @@ now time should be taken to Fesco and RCM have spoken, then it is announced by t
 your@email.com ya29.gmail...token  src/main/resources/maintainer@fedoraproject.org   ../fillCopr/exemplarResults//maintainers.jbump   ./exemplarResults/coprBuildTable.jbump```
     * where DO is empty, *maintainers|regex*, or *true*
     * empty will save all future emails for check. **do this!!!**
-    * maintainers|regex will send email only to matching maintainers. **test this on yourself and on your fried or two**
+    * maintainers|regex will send email only to matching maintainers. **test this on yourself and on your friend or two**
       * gmail is not showing emials to yourself in innbox. They end in its sendbox. See: https://github.com/judovana/FedoraSystemJdkBump/commit/ebc049960ca93cefb812267f15e5ee46ec954bb8#diff-b74c70db11edf66327b5141f9620fde367914ef9c1cc33e613b6d3e59dde694aR72
     * true will send email to all maintainers in given maintainers file      
