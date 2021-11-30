@@ -3,17 +3,17 @@ Hello fellow java package maintainer <PACKAGER_NAME>!
 <TITLE>
 
 Short Story:
- * according to package database, you (co)maintain at least <ITS_PKG_COUNT> java packages, be aware that we are bumping JDK in rawhide
+ * according to the package database, you (co)maintain at least <ITS_PKG_COUNT> java packages, be aware that we are bumping JDK in rawhide
  * Ensure your package builds and runs fine with <JDK_TO> (see the <COPR_URL> )
- * there is special tooling ready for this, before mass rebuild is launched
+ * there is special tooling ready for this, before the mass rebuild is launched
  ** See <PROPOSAL_URL>#<PRELIMINARY_INFO>
- * If you do not want Fedora rotten with <JDK_FROM> for ever, continue reading
+ * If you do not want Fedora to rot with <JDK_FROM> for ever, continue reading
 
 <LONG_STORY>
 
 From those you (co)own following: <ITS_PKGS_LIST>
 
-If some of your packages is missing here at all, and you think it should be included, don't hesitate to email/ping me or the mailing lists. It could happen you have some very indirect requires or you require namely <JDK_FROM>(-devel). In that case yo should bump it according to packaging guidelines to java(-devel), verify you run against <JDK_TO> in my copr. Feel free to ask me to include such an package in my copr. I will gladly do so.
+If some of your packages are missing here, and you think thwy should be included, don't hesitate to email/ping me or the mailing lists(devel or users @lists.fedoraproject.org). It could happen you have some very indirect requires or you require namely <JDK_FROM>(-devel). In that case yo should bump it according to packaging guidelines to java(-devel), verify you run against <JDK_TO> in my copr. Feel free to ask me to include such an package in my copr. I will gladly do so.
 
 <<ALL_PASSED_START>>
 Your summary is:
@@ -43,6 +43,9 @@ Thank You!
 Those should be links to build logs:
 <LATEST_STATUSES_WITH_LOGS>
 MISSING:  <ITS_BORKED_LIST>
+
+Links to all your known java packages:
+<FEDORA_REPOS>
 
 --
 Jiri Vanek

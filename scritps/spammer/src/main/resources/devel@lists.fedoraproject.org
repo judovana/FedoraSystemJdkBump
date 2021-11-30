@@ -7,9 +7,9 @@ Hello fellow java package maintainers!
 Short Story:
  * if you have some java package, be aware that we are bumping JDK in rawhide
  * Ensure your package builds and runs fine with <JDK_TO> (see the <COPR_URL> )
- * there is special tooling ready for this, before mass rebuild is launched
+ * there is special tooling ready for this, before the mass rebuild is launched
  ** See <PROPOSAL_URL>#<PRELIMINARY_INFO>
- * If you do not want Fedora rotten with <JDK_FROM> for ever, continue reading
+ * If you do not want Fedora to rot with <JDK_FROM> for ever, continue reading
 
 <LONG_STORY>
 

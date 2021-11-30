@@ -7,7 +7,7 @@
 <PRELIMINARY_INFO>=copr_preliminary_rebuild
 <WRONG_SOURCETARGETRELEASE>=Wrong_source.2Ftarget_version
 <COMMON_ISSUES>=common_issues_packagers_can_face_and_gathered_solutions
-<<ALL_PASSED_START>>=Congratulations! All your packages built whith <JDK_TO>! Please keep an eye on the mass rebuild anyway.
+<<ALL_PASSED_START>>=Congratulations! All your packages built with <JDK_TO>! Please keep an eye on the mass rebuild anyway.
 <MIN_BYTECODE>=1.7
 <RECOMEND_BYTECODE>=1.8
 <PEOPLE_LIST_URL>=https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/fillCopr/exemplarResults/maintainers.jbump
@@ -19,7 +19,7 @@
 <COPR_PLAIN>=https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/spammer/exemplarResults/coprBuildTable.jbump
 
 <LONG_STORY>=Long Story:\n\
-We ran a preliminary mass rebuild of javastack in copr repo  <COPR_URL> (select "all" instead of "25" at the bottom), on packages requiring java,javac, java-devel, maven-local, ant, ivy & comp. for build. You can see, the result was quite interesting:\n\
+We ran a preliminary mass rebuild of javastack in copr repo  <COPR_URL> (select "all" instead of "25" at the bottom), on packages requiring java,javac, java-devel, maven-local, ant, ivy & comp. for build. You can see the result was quite interesting:\n\
 <TOTAL_ATTEMPT>  total; attempted to rebuild\n\
 <TOTAL_FAILED>  failed; from those <QUICK_FAIL> are trivial failures (but if you fix it, there is no guarantee real troubles are not hidden behind that)\n\
 <TOTAL_OK>  succeeded\n\

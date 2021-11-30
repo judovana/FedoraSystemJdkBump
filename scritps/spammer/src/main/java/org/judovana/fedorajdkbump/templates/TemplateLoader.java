@@ -86,6 +86,7 @@ public class TemplateLoader {
                 readString = readString.replace("<ITS_MISSING>", missing.size() + "");
                 readString = readString.replace("<ITS_MISSING_LIST>", nonEmpty(missing.stream().collect(Collectors.joining(", "))));
                 readString = readString.replace("<LATEST_STATUSES_WITH_LOGS>", getLogs(builds.getFailedNonBorked(Optional.of(itsPkgs))));
+                readString = readString.replace("<FEDORA_REPOS>", getRepos(itsPkgs));
             }
 
             if (readString.equals(orig)) {
@@ -93,6 +94,11 @@ public class TemplateLoader {
             }
         }
         return readString;
+    }
+
+    private String getRepos(List<String> itsPkgs) {
+        String url = "https://src.fedoraproject.org/rpms/";
+        return url+itsPkgs.stream().collect(Collectors.joining("\n"+url));
     }
 
     private String nonEmpty(String collect) {
