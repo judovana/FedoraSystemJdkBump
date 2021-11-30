@@ -15,7 +15,7 @@ import java.util.stream.Collectors;
 
 public class TemplateLoader {
 
-    private final String template;
+    private final String expandedTemplate;
     private final Properties staticMacros;
     private final PeopleDb packagers;
     private final String recipient;
@@ -27,7 +27,7 @@ public class TemplateLoader {
         this.packagers = packagers;
         this.staticMacros = new Properties();
         staticMacros.load(this.getClass().getResourceAsStream("/macros"));
-        this.template = process(Files.readString(template.toPath()));
+        this.expandedTemplate = process(Files.readString(template.toPath()));
     }
 
     private String process(String readString) {
@@ -121,15 +121,18 @@ public class TemplateLoader {
         return r;
     }
 
-    public String getTemplate() {
-        return template;
+    public String getExpandedTemplate() {
+        return expandedTemplate;
     }
 
     public static void main(String... args) throws IOException {
         TemplateLoader t1 = new TemplateLoader(new File("src/main/resources/devel@lists.fedoraproject.org"), null, null, null);
         TemplateLoader t2 = new TemplateLoader(new File("src/main/resources/maintainer@fedoraproject.org"), null, null, null);
-        System.out.println(t1.getTemplate());
-        System.out.println(t2.getTemplate());
+        System.out.println(t1.getExpandedTemplate());
+        System.out.println(t2.getExpandedTemplate());
     }
 
+    public String getMacro(String s) {
+        return staticMacros.getProperty(s);
+    }
 }

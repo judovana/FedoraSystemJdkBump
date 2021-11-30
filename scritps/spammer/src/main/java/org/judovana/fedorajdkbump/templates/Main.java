@@ -13,11 +13,11 @@ public class Main {
         PeopleDb people = new PeopleDb(new File("../fillCopr/exemplarResults//maintainers.jbump"));
         if (args.length == 0) {
             TemplateLoader t1 = new TemplateLoader(new File("src/main/resources/devel@lists.fedoraproject.org"), builds, people, null);
-            System.out.println(t1.getTemplate());
+            System.out.println(t1.getExpandedTemplate());
         } else {
             String exemplarAuthor = args[0];
             TemplateLoader t1 = new TemplateLoader(new File("src/main/resources/maintainer@fedoraproject.org"), builds, people, exemplarAuthor);
-            System.out.println(t1.getTemplate());
+            System.out.println(t1.getExpandedTemplate());
         }
     }
 }
