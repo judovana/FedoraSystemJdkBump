@@ -58,7 +58,7 @@ public class Main {
         String templatePath = args[2]; //src/main/resources/maintainer@fedoraproject.org
         PeopleDb people = new PeopleDb(new File(args[3]));//../fillCopr/exemplarResults//maintainers.jbump
         BuildsDb builds = new BuildsDb(new File(args[4]));//./exemplarResults/coprBuildTable.jbump
-        if (DO == null) {
+        if (DO == null || DO.trim().isEmpty()) {
             for (String maintainer : people.getMaintainers()) {
                 if (maintainer.matches(".*")) {
                     TemplateLoader email = new TemplateLoader(new File(templatePath), builds, people, maintainer);
