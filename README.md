@@ -133,4 +133,27 @@ now time should be taken to Fesco and RCM have spoken, then it is announced by t
   * scritps/spammer/exemplarResults/coprBuildTable.jbump
 * send this email to devel@lists.fedoraproject.org
   * eg: https://lists.fedoraproject.org/archives/list/devel@lists.fedoraproject.org/thread/KE7EAY6HKXNQV6PPCEAJAYL2MU7IXKHN/
-
+### individual maintainers
+* keep the email on devel for a while and watch responses
+* once fixing rate drops, spam individual packagers
+  * alias **some_packager@fedoraproject.org** is to be used
+* If you do not want to write each of aprox 200 maintainers (see https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/fillCopr/exemplarResults/maintainers.jbump) one by one
+* use **spam tool**
+  * https://github.com/judovana/FedoraSystemJdkBump/tree/main/scritps/spammer
+  * now impelmented for OAuth2 gmail.  (read https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/spammer/src/main/java/org/judovana/fedorajdkbump/Main.java#L16)
+  * it requires 
+    * senders emial - eg jvanek@redhat.com
+    * token - eg: ya29.a0A...-XYQ
+    * template file - https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/spammer/src/main/resources/maintainer@fedoraproject.org
+    * list of maintainers - https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/fillCopr/exemplarResults/maintainers.jbump
+    * statuses of builds - https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/spammer/exemplarResults/coprBuildTable.jbump
+    * sytem variable of **"DO"**
+  * adapt https://github.com/judovana/FedoraSystemJdkBump/commit/ebc049960ca93cefb812267f15e5ee46ec954bb8#diff-b74c70db11edf66327b5141f9620fde367914ef9c1cc33e613b6d3e59dde694aR91
+  * adapt template (eg: maintainer@fedoraproject.org)
+  * in ```scritps/spammer``` (cwd sensitive) run ```DO="" java -cp target/spammer-1.0-jar-with-dependencies.jar org.judovana.fedorajdkbump.Main
+"your@email.com" ya29.gmail...token  "src/main/resources/maintainer@fedoraproject.org"   ../fillCopr/exemplarResults//maintainers.jbump   ./exemplarResults/coprBuildTable.jbump```
+    * where DO is empty, *maintainers|regex*, or *true*
+    * empty will save all future emails for check. **do this!!!**
+    * maintainers|regex will send email only to matching maintainers. **test this on yourself and on your friend or two**
+      * gmail is not showing emials to yourself in innbox. They end in its sendbox. See: https://github.com/judovana/FedoraSystemJdkBump/commit/ebc049960ca93cefb812267f15e5ee46ec954bb8#diff-b74c70db11edf66327b5141f9620fde367914ef9c1cc33e613b6d3e59dde694aR72
+    * true will send email to all maintainers in given maintainers file      
