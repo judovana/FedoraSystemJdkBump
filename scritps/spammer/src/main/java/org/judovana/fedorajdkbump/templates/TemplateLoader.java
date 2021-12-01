@@ -132,10 +132,14 @@ public class TemplateLoader {
     }
 
     public static void main(String... args) throws IOException {
-        TemplateLoader t1 = new TemplateLoader(new File("src/main/resources/devel@lists.fedoraproject.org"), null, null, null);
-        TemplateLoader t2 = new TemplateLoader(new File("src/main/resources/maintainer@fedoraproject.org"), null, null, null);
-        System.out.println(t1.getExpandedTemplate());
-        System.out.println(t2.getExpandedTemplate());
+        PeopleDb people = new PeopleDb(new File("../fillCopr/exemplarResults//maintainers.jbump"));
+        BuildsDb builds = new BuildsDb(new File("exemplarResults/coprBuildTable.jbump"));
+        TemplateLoader header = new TemplateLoader(new File("src/main/resources/logHeader.template"), builds, people, null);
+        System.out.println(header.getExpandedTemplate());
+        for (String maintainer : people.getMaintainers()) {
+            TemplateLoader log = new TemplateLoader(new File("src/main/resources/fullLog.template"), builds, people, maintainer);
+            System.out.println(log.getExpandedTemplate());
+        }
     }
 
     public String getMacro(String s) {

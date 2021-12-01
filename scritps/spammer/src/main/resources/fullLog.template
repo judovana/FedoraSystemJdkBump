@@ -1,0 +1,23 @@
+*****************************
+<PACKAGER_NAME>
+*****************************
+according to the package database, you (co)maintain at least <ITS_PKG_COUNT> java packages, be aware that we are bumping JDK in rawhide
+<<ALL_PASSED_START>>
+--
+  <ITS_PASSED> passed
+  <ITS_BORKED> even srpm failed
+  <ITS_MISSING> found, but missingin in copr?
+  <ITS_FAILED> failed, from those <ITS_QUICK> failed very quickly
+  Details:
+    Passed: <ITS_PASSED_LIST>
+    Missing: <ITS_BORKED_LIST>
+    no-copr: <ITS_MISSING_LIST>
+    Failed, quickly: <ITS_QUICK_LIST>
+    Failed: <ITS_FAILED_SLOW_LIST>
+  Your logs:
+<LATEST_STATUSES_WITH_LOGS>
+<<ALL_PASSED_END>>
+  MISSING:  <ITS_BORKED_LIST>
+  Links to all your known java packages:
+<FEDORA_REPOS>
+
