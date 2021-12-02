@@ -133,6 +133,7 @@ now time should be taken to Fesco and RCM have spoken, then it is announced by t
   * scritps/spammer/exemplarResults/coprBuildTable.jbump
 * send this email to devel@lists.fedoraproject.org
   * eg: https://lists.fedoraproject.org/archives/list/devel@lists.fedoraproject.org/thread/KE7EAY6HKXNQV6PPCEAJAYL2MU7IXKHN/
+  * **take care of the thread!**
 ### individual maintainers
 * keep the email on devel for a while and watch responses
 * once fixing rate drops, spam individual packagers
@@ -157,3 +158,6 @@ now time should be taken to Fesco and RCM have spoken, then it is announced by t
     * maintainers|regex will send email only to matching maintainers. **test this on yourself and on your friend or two**
       * gmail is not showing emials to yourself in innbox. They end in its sendbox. See: https://github.com/judovana/FedoraSystemJdkBump/commit/ebc049960ca93cefb812267f15e5ee46ec954bb8#diff-b74c70db11edf66327b5141f9620fde367914ef9c1cc33e613b6d3e59dde694aR72
     * true will send email to all maintainers in given maintainers file      
+### big blame file
+* Based on all files above, hardcoded in src, you can generate huge blame file: https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/spammer/exemplarResults/verboseResults.txt
+* in ```scritps/spammer``` (cwd sensitive) run ```java -cp target/spammer-1.0-jar-with-dependencies.jar org.judovana.fedorajdkbump.templates.TemplateLoader```
