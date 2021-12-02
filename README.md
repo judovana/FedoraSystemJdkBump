@@ -133,6 +133,7 @@ now time should be taken to Fesco and RCM have spoken, then it is announced by t
   * scritps/spammer/exemplarResults/coprBuildTable.jbump
 * send this email to devel@lists.fedoraproject.org
   * eg: https://lists.fedoraproject.org/archives/list/devel@lists.fedoraproject.org/thread/KE7EAY6HKXNQV6PPCEAJAYL2MU7IXKHN/
+  * **take care of the thread!**
 ### individual maintainers
 * keep the email on devel for a while and watch responses
 * once fixing rate drops, spam individual packagers
