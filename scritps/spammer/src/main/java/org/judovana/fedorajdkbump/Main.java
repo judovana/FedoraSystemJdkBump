@@ -88,7 +88,7 @@ public class Main {
                     TemplateLoader email = new TemplateLoader(new File(templatePath), builds, people, maintainer);
                     System.out.println("Sending to " + toFedoraEmail(maintainer));
                     sendMessage(args[0], toFedoraEmail(maintainer), getSubject(email), email.getExpandedTemplate(), messagable);
-                    Thread.sleep(1000);
+                    Thread.sleep(2000);
                 } else {
                     System.out.println("Skipping: " + toFedoraEmail(maintainer) + " already spammed according to curent antispam list");
                 }
