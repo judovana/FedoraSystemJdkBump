@@ -4,9 +4,13 @@ import org.judovana.fedorajdkbump.builds.BuildsDb;
 import org.judovana.fedorajdkbump.people.PeopleDb;
 import org.judovana.fedorajdkbump.templates.TemplateLoader;
 
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.InputStreamReader;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.util.Date;
+import java.util.stream.Collectors;
 
 import javax.mail.*;
 import javax.mail.internet.*;
@@ -80,12 +84,41 @@ public class Main {
             }
         } else {
             for (String maintainer : people.getMaintainers()) {
-                TemplateLoader email = new TemplateLoader(new File(templatePath), builds, people, maintainer);
-                System.out.println("Sending to " + toFedoraEmail(maintainer));
-                sendMessage(args[0], toFedoraEmail(maintainer), getSubject(email), email.getExpandedTemplate(), messagable);
+                if (antispam(maintainer)) {
+                    TemplateLoader email = new TemplateLoader(new File(templatePath), builds, people, maintainer);
+                    System.out.println("Sending to " + toFedoraEmail(maintainer));
+                    sendMessage(args[0], toFedoraEmail(maintainer), getSubject(email), email.getExpandedTemplate(), messagable);
+                    Thread.sleep(1000);
+                } else {
+                    System.out.println("Skipping: " + toFedoraEmail(maintainer) + " already spammed according to curent antispam list");
+                }
             }
         }
 
+    }
+
+    private static String antispam = null;
+
+    private static boolean antispam(String maintainer) {
+        //Even with sleep, gmail can kick you off. IN that case, populate resources/antispam
+        //with - from terminal copypasted:
+        //...gmail.com  OAUTH 2.0!
+        //.based on https://github.com/google/gmail-oauth2-tools/blob/downloads/oauth2-java-sample-20120904.zip
+        //Successfully authenticated to SMTP.
+        //Sending to ebaron@fedoraproject.org
+        //Sent to: ebaron@fedoraproject.org
+        //Sending to lorenzodalrio@fedoraproject.org
+        //...
+        //Sent to: oget@fedoraproject.org
+        //Sending to lupinix@fedoraproject.org
+        //Exception in thread "main" com.sun.mail.smtp.SMTPSendFailedException: 421 4.7.0 Try again later, closing connection. (MAIL) sb8sm1568893ejc.51 - gsmtp
+        //
+        //The maintainers antispam file is then checked here, and if hman was already notifirf, they are not spammed again
+        if (antispam == null) {
+            antispam = "startword " + new BufferedReader(new InputStreamReader(Main.class.getResourceAsStream("/antispam"), StandardCharsets.UTF_8))
+                    .lines().collect(Collectors.joining(" ")) + " stopword";
+        }
+        return (!antispam.contains(" " + toFedoraEmail(maintainer) + " "));
     }
 
     private static String getSubject(TemplateLoader tl) {
