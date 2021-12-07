@@ -170,3 +170,11 @@ now time should be taken to Fesco and RCM have spoken, then it is announced by t
 * Based on all files above, hardcoded in src, you can generate huge blame file: https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/spammer/exemplarResults/verboseResults.txt
 * in ```scritps/spammer``` (cwd sensitive) run ```java -cp target/spammer-1.0-jar-with-dependencies.jar org.judovana.fedorajdkbump.templates.TemplateLoader```
 * you may add it to the thread(s) on devel list from time to time
+
+# new main JDK package
+* once the review of forked java-latestr-openjdk is finished
+  * create branch PR to forked JDK, where it is already main jdk
+  * delete PR to java-latest-oepnjdk
+  * adjust copr
+    * latest from normal rahide
+    * forked jdk from systemJdk branch
