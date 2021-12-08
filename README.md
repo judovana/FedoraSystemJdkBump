@@ -178,3 +178,9 @@ now time should be taken to Fesco and RCM have spoken, then it is announced by t
   * adjust copr
     * latest from normal rahide
     * forked jdk from systemJdk branch
+* here you are nearly done with alfa
+  * fix all issues which rise
+  * fix as many packages as you can
+  * verify that thet desired jdk is still used for builds
+  * run few mass rebuilds of copr
+  * **keep an eye on those builds**
