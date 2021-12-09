@@ -1,5 +1,6 @@
 #!/bin/bash
 COPR_REPO=java17
+FULL_REPO=jvanek/$COPR_REPO
 
 sep="#"
 if [ "x$1" == "x" ]; then
@@ -38,3 +39,14 @@ for pkg in "${!pkgWithBuilds[@]}"; do
     fi
   done
 done
+
+echo "regeneratng. If it is not working, there is button on mainpage of your copr (but have same lag)"
+set -x
+copr regenerate-repos $COPR_REPO
+set +x
+echo "Unluckily this is not immedaite. Check by: "
+echo "dnf -q --refresh --repofrompath j17,https://copr-be.cloud.fedoraproject.org/results/$FULL_REPO/fedora-rawhide-x86_64 --repo j17 repoquery --qf '%{name}-%{version}-%{release} %{buildtime}' SOME_PKG"
+echo "You should see only one occurence of each pkg: "
+
+
+
