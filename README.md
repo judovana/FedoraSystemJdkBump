@@ -189,3 +189,5 @@ now time should be taken to Fesco and RCM have spoken, then it is announced by t
 * So it is good idea to remove  old passed builds. That is automated by: https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/fillCopr/purgeCopr.sh
 * Run it from time to time, especially if you run seveal mass rebuilds, then lets say between each
 * we keep failures, as failures are reported to maintainers, so we do not want to lost logs
+* Keep your PRs with new system jdk and old system jdk **rebased**, up to date, and with **higher** NVR then the versions in real koji
+  *  otherwise the versions from real koji will take precedence!!
