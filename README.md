@@ -188,6 +188,7 @@ now time should be taken to Fesco and RCM have spoken, then it is announced by t
 * Copr have one wird function. If you mass rebuild, then you will see several same NVR of package. Unluckily, Copr keeps them all, and if you build, **random** one is selected to satisfy depndencies.
 * So it is good idea to remove  old passed builds. That is automated by: https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/fillCopr/purgeCopr.sh
 * Run it from time to time, especially if you run seveal mass rebuilds, then lets say between each
+  *  it may take even hour to regenerate the repo, so verify and wait before mass reuilding
 * we keep failures, as failures are reported to maintainers, so we do not want to lost logs
 * Keep your PRs with new system jdk and old system jdk **rebased**, up to date, and with **higher** NVR then the versions in real koji
   *  otherwise the versions from real koji will take precedence!!
