@@ -22,7 +22,7 @@ public class BuildsDb {
 
     public BuildsDb(File file) throws IOException {
         try (Stream<String> lines = Files.lines(Paths.get(file.toString()), StandardCharsets.UTF_8)) {
-            lines.forEachOrdered(line -> process(line));
+            lines.forEachOrdered(line -> {/*System.err.println(line);*/ process(line);});
         }
     }
 
