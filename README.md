@@ -122,6 +122,11 @@ now time should be taken to Fesco and RCM have spoken, then it is announced by t
   * go sleep
 
 ## Reporting failures
+it is super helpfull to have mock config generated and published and sent in below emails
+```
+copr mock-config  jvanek/java17 fedora-rawhide-x86_64
+```
+=> https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/spammer/exemplarResults/jvanek-java17-fedora-rawhide-x86_64.cfg
 ### devel@lists.fedoraproject.org
 * Adapt scritps/spammer/src/main/resources/macros (https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/spammer/src/main/resources/macros)
 * Double chheck that tempalte scritps/spammer/src/main/resources/devel@lists.fedoraproject.org is sane (https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/spammer/src/main/resources/devel@lists.fedoraproject.org)
@@ -194,6 +199,9 @@ now time should be taken to Fesco and RCM have spoken, then it is announced by t
 * Keep your PRs with new system jdk and old system jdk **rebased**, up to date, and with **higher** NVR then the versions in real koji
   *  otherwise the versions from real koji will take precedence!!
 # Another rounds of mass rebuilds in copr
-* do as many aspossioble (but no more thennecessary)
+* do as many aspossioble (but no more then necessary)
 *  spam as you feel reasonable
   *  eg: https://lists.fedoraproject.org/archives/list/devel@lists.fedoraproject.org/thread/XX3ELUUUIJM7AONVE7GW2XMDT2YJRQ7K/
+* fix what you can, grap some students to help you.
+* Make a race game or simialrly.
+
