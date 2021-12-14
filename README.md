@@ -202,6 +202,8 @@ copr mock-config  jvanek/java17 fedora-rawhide-x86_64
 * do as many aspossioble (but no more then necessary)
 *  spam as you feel reasonable
   *  eg: https://lists.fedoraproject.org/archives/list/devel@lists.fedoraproject.org/thread/XX3ELUUUIJM7AONVE7GW2XMDT2YJRQ7K/
+  * do not forget to adjust subject in both evel@ or forindividual users!
+  * eg mass rebuld I-> mass rebuild II or simialrly..
 * fix what you can, grap some students to help you.
 * Make a race game or simialrly.
 
