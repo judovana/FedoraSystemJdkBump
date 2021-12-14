@@ -193,3 +193,7 @@ now time should be taken to Fesco and RCM have spoken, then it is announced by t
 * we keep failures, as failures are reported to maintainers, so we do not want to lost logs
 * Keep your PRs with new system jdk and old system jdk **rebased**, up to date, and with **higher** NVR then the versions in real koji
   *  otherwise the versions from real koji will take precedence!!
+# Another rounds of mass rebuilds in copr
+* do as many aspossioble (but no more thennecessary)
+*  spam as you feel reasonable
+  *  eg: https://lists.fedoraproject.org/archives/list/devel@lists.fedoraproject.org/thread/XX3ELUUUIJM7AONVE7GW2XMDT2YJRQ7K/
