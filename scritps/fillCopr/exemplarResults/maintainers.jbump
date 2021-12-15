@@ -432,7 +432,7 @@ objectweb-asm        mizdebsk
 objectweb-pom        mizdebsk orphan
 objenesis            guidograzioli jvanek mizdebsk
 ocaml-atd            salimma
-octave               alexlan jcapik jussilehtola konradm orion rakesh
+octave               alexlan jcapik jussilehtola orion rakesh
 ongres-scram         acaringi jjanco odubaj praiskup
 openas2              sdgathman
 opencv               hguemar hhorak jkucera jmlich jridky kwizart sergiomb vjancik
@@ -734,7 +734,6 @@ kengert    icecat
 kevin      collectd
 kkeithle   ceph
 kni        cambozola directory-maven-plugin jakarta-mail
-konradm    octave
 korkeala   aopalliance clojure clojure-core-specs-alpha clojure-maven-plugin clojure-spec-alpha jakarta-interceptors jakarta-server-pages javaparser jsch kawa maven-invoker maven-invoker-plugin maven-mapping maven-script-interpreter plexus-velocity spice-parent weld-parent
 ktdreyer   ceph
 kushal     clojure
