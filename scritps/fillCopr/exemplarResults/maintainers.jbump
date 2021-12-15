@@ -487,7 +487,6 @@ portals-pom          orphan
 portlet-2.0-api      jjelen
 portmidi             mjg xavierb
 postgresql-jdbc      hhorak jjanco jmlich mkulik odubaj praiskup zmiklank
-powermock            jerboaa lef neugens orphan
 ppl                  bagnara pcpa
 procyon              jvanek
 proguard             filiperosset
@@ -784,7 +783,6 @@ mycae      laf-plugin
 nathans    uom-parent
 ndim       erlang
 neteler    gdal
-neugens    powermock
 nhosoi     idm-console-framework
 nkinder    idm-console-framework ldapjdk
 nmarques   lcm
