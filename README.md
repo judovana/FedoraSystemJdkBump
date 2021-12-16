@@ -206,4 +206,4 @@ copr mock-config  jvanek/java17 fedora-rawhide-x86_64
   * eg mass rebuld I-> mass rebuild II or simialrly..
 * fix what you can, grap some students to help you.
 * Make a race game or simialrly.
-
+* if somebody pings that they are no longer in game, drop them from maintainers.jbump. eg: https://github.com/judovana/FedoraSystemJdkBump/commit/7fa2483ae423a7b6ecc6b17f8a798864d5470e78
