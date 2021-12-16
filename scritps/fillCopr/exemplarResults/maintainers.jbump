@@ -1,5 +1,5 @@
 Maintainers by package:
-BareBonesBrowserLaunch gil orion
+BareBonesBrowserLaunch orion
 CFR                  jvanek ohrdlick
 CardManager          jvanek
 DecodeIR             leamas
@@ -45,7 +45,7 @@ apache-ivy           didiksupriadi41 mizdebsk
 apache-parent        mizdebsk
 apache-rat           didiksupriadi41 mizdebsk
 apache-resource-bundles mizdebsk
-apache-sshd          gil mbooth
+apache-sshd          mbooth
 apiguardian          mizdebsk
 apron                jjames
 aqute-bnd            mizdebsk
@@ -64,7 +64,7 @@ beansbinding         omajid
 beust-jcommander     jvanek mizdebsk
 bigloo               jjames salimma
 bolzplatz2006        jwrdegoede
-bouncycastle         ellert gil jjohnstn mbooth rgrunber
+bouncycastle         ellert jjohnstn mbooth rgrunber
 brazil               mbooth
 brltty               jskarvad limb olysonek
 bsf                  mizdebsk
@@ -137,8 +137,8 @@ felix-scr            jerboaa mbooth orphan
 felix-utils          mizdebsk
 fernflower           jvanek
 filedrop             brouhaha
-findbugs             gil richardfearn
-findbugs-bcel        gil richardfearn
+findbugs             richardfearn
+findbugs-bcel        richardfearn
 findbugs-contrib     richardfearn
 flute                caolanm
 fop                  mizdebsk peter ttorling
@@ -258,9 +258,9 @@ jboss-jsp-2.3-api    orphan
 jboss-jstl-1.2-api   orphan
 jboss-logging        cdorney cfu cipherboy ckelley dmoluguw edewata jmagne mharmsen
 jboss-logging-tools  cdorney cfu cipherboy ckelley dmoluguw edewata jmagne mharmsen
-jboss-logmanager     dmoluguw gil jmagne lef orphan
+jboss-logmanager     dmoluguw jmagne lef orphan
 jboss-modules        mizdebsk orphan
-jboss-parent         cdorney cfu cipherboy ckelley dmoluguw edewata gil jmagne mharmsen mizdebsk
+jboss-parent         cdorney cfu cipherboy ckelley dmoluguw edewata jmagne mharmsen mizdebsk
 jboss-servlet-3.0-api orphan
 jboss-servlet-3.1-api orphan
 jchardet             mbooth mizdebsk orion
@@ -285,7 +285,7 @@ jglobus              ellert
 jgoodies-common      melmorabity
 jgoodies-forms       melmorabity
 jgoodies-looks       melmorabity
-jgrapht              gil mmorsi
+jgrapht              mmorsi
 jhdf5                zbyszek
 jigawatts            jvanek
 jlems                orphan
@@ -341,7 +341,7 @@ libbluray            rathann slaanesh xavierb
 libfonts             caolanm sbergmann
 libformula           caolanm sbergmann
 libgda               decathorpe lkundrak
-libidn               gil mlichvar
+libidn               mlichvar
 libkml               smani
 liblayout            caolanm
 libloader            caolanm sbergmann
@@ -426,7 +426,7 @@ naga                 jjames jussilehtola
 nailgun              mmorsi
 nekohtml             fnasser mizdebsk sbluhm
 netty                mizdebsk orphan
-nom-tam-fits         gil lupinix zbyszek
+nom-tam-fits         lupinix zbyszek
 objectweb-anttask    mizdebsk orphan
 objectweb-asm        mizdebsk
 objectweb-pom        mizdebsk orphan
@@ -461,7 +461,7 @@ pentaho-reporting-flow-engine caolanm
 picocli              didiksupriadi41
 pki-core             abbra cdorney cfu cipherboy ckelley dmoluguw edewata jmagne kwright mharmsen vakwetu
 pl                   bagnara jjames mef
-plantuml             gil orphan
+plantuml             orphan
 plexus-active-collections yyang
 plexus-archiver      mizdebsk
 plexus-build-api     mizdebsk
@@ -548,7 +548,7 @@ svgsalamander        orphan
 svnkit               dbhole jfilak mbooth
 swing-layout         jandrlik java-sig
 systemtap            amerey drsmith2 fche jistone lberk mcermak mjw scox smakarov wcohen
-t-digest             gil jvanek
+t-digest             jvanek
 taggle               louizatakk
 tagsoup              jvanek mizdebsk
 takari-polyglot      mbooth orphan
@@ -558,7 +558,7 @@ testng-remote        mbooth
 tomcat               coolsvap csutherl gzaronikas huwang van
 tomcat-native        csutherl gzaronikas lorenzodalrio
 tomcat-taglibs-parent abbra
-tomcat-taglibs-standard abbra gil lef
+tomcat-taglibs-standard abbra lef
 tomcatjss            cdorney cfu cipherboy ckelley dmoluguw edewata jmagne kwright mharmsen vakwetu
 treelayout           jjames lef
 trilead-ssh2         mbooth
@@ -681,7 +681,6 @@ galileo    eclipse-m2e-core eclipse-webtools javaewah maven-indexer uddi4j wsil4
 gemi       erlang
 geoff      scala
 giallu     jssc
-gil        BareBonesBrowserLaunch apache-sshd bouncycastle findbugs findbugs-bcel jboss-logmanager jboss-parent jgrapht libidn nom-tam-fits plantuml t-digest tomcat-taglibs-standard
 goldmann   scannotation
 green      ws-commons-util
 guidograzioli jargs maven-scm objenesis xmltool
