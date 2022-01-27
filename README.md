@@ -223,3 +223,5 @@ It may happen, that crucial pakcage i rawhide will get rebased while your copr i
 Eg maven did: https://koji.fedoraproject.org/koji/taskinfo?taskID=81231044
 
 In that case all affected packages have to be completly removed from copr, and started from scratch
+
+So for that particualr tree: javapackages-tools ->  maven-artifact-transfer -> maven-common-artifact-filters -> maven-plugin-testing -> maven-resolver -> maven -> xmvn   had to be reimported and built in that order
