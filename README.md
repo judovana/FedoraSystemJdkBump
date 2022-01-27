@@ -216,3 +216,10 @@ Are you keeping your forks:
  ```
 Up to date? 
 As there is CPU for sure in meantime, you reallyhave to.
+
+# broken buildchain
+It may happen, that crucial pakcage i rawhide will get rebased while your copr is alive.
+
+Eg maven did: https://koji.fedoraproject.org/koji/taskinfo?taskID=81231044
+
+In that case all affected packages have to be completly removed from copr, and started from scratch
