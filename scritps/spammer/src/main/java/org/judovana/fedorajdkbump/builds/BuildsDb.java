@@ -60,13 +60,17 @@ public class BuildsDb {
             throw new RuntimeException("Invalid timestamp: " + timestamps + " from " + line);
         }
         String[] whenHow = timestamps.split("ago");
-        long secondsAgo = toSeconds(whenHow[0].trim());
-        long tookSeconds = toSeconds(whenHow[1].trim());
+        long secondsAgo = toSeconds(whenHow[0].trim(), line);
+        long tookSeconds = toSeconds(whenHow[1].trim(), line);
         return new Build(buildId, pkg, vr, BuildStatus.fromString(status), secondsAgo, tookSeconds);
 
     }
 
-    private long toSeconds(String s) {
+    private long toSeconds(String s, String original) {
+        if (s.equals("-")) {
+            System.err.println("Unknown time - for " + original + " returning 1");
+            return 1;
+        }
         //feel free to add more
         if (s.contains("years")) {
             return 356 * 24 * 60 * 60 * toAmount(s);
@@ -97,7 +101,7 @@ public class BuildsDb {
         } else if (s.contains("second")) {
             return toAmount(s);
         }
-        throw new RuntimeException("unknown time in: " + s);
+        throw new RuntimeException("unknown time in: " + s + " in " + original);
     }
 
     private int toAmount(String s) {
