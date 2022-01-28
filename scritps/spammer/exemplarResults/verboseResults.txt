@@ -1,4 +1,3 @@
-/usr/lib/jvm/java-11-openjdk/bin/java -javaagent:/home/jvanek/idea-IC-211.7628.21/lib/idea_rt.jar=35313:/home/jvanek/idea-IC-211.7628.21/bin -Dfile.encoding=UTF-8 -classpath /home/jvanek/git/FedoraSystemJdkBump/scritps/spammer/target/classes:/home/jvanek/.m2/repository/javax/mail/mail/1.5.0-b01/mail-1.5.0-b01.jar:/home/jvanek/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar org.judovana.fedorajdkbump.templates.TemplateLoader
 We are planning to bump the JDK from java-11-openjdk to java-17-openjdk for f36. Please see https://fedoraproject.org/wiki/Changes/Java17
 
 Read the soap opera below, and then search you results in this file
@@ -12,10 +11,10 @@ Short Story:
 
 Long Story:
 We ran a preliminary mass rebuild of javastack in copr repo  https://copr.fedorainfracloud.org/coprs/jvanek/java17/builds/ (select "all" instead of "25" at the bottom), on packages requiring java,javac, java-devel, maven-local, ant, ivy & comp. for build. You can see the result was quite interesting:
-499  total; attempted to rebuild
-77  failed; from those 44 are trivial failures (but if you fix it, there is no guarantee real troubles are not hidden behind that)
-419  succeeded
-3  not even srpm rebuilt - orphan? dead? (but orpahns and dead ones should be already excluded)
+498  total; attempted to rebuild
+64  failed; from those 44 are trivial failures (but if you fix it, there is no guarantee real troubles are not hidden behind that)
+425  succeeded
+9  not even srpm rebuilt - orphan? dead? (but orpahns and dead ones should be already excluded)
 
  * consult https://copr.fedorainfracloud.org/coprs/jvanek/java17/builds/ ( or its plaintext version of: https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/spammer/exemplarResults/coprBuildTable.jbump)
  * If all your packages are "succeeded",  congratulations nothing to do, and just keep en eye on JDK bump
@@ -43,7 +42,7 @@ fedpkg srpm
 mock -r jvanek-java17-fedora-rawhide-x86_64  *.src.rpm
 
 Or any other packaging workflow you use, and you can use against the copr repo.
-Thank you very much for your help, there are 80 failures, and 270 java packagers, but only 2 active members of java sig. Without your help, the JDK bump will be very hard.
+Thank you very much for your help, there are 73 failures, and 267 java packagers, but only 2 active members of java sig. Without your help, the JDK bump will be very hard.
 
 
 Follows th list of packagers with packages and failures an logs:
@@ -72,20 +71,20 @@ dbhole
 *****************************
 according to the package database, you (co)maintain at least 7 java packages, be aware that we are bumping JDK in rawhide
 --
-  6 passed
-  0 even srpm failed
+  5 passed
+  1 even srpm failed
   1 found, but missingin in copr?
-  1 failed, from those 0 failed very quickly
+  1 failed, from those 1 failed very quickly
   Details:
-    Passed: dom4j, ecj, java-1.8.0-openjdk, jtidy, maven2, svnkit
-    Missing: N/A
+    Passed: dom4j, ecj, jtidy, maven2, svnkit
+    Missing: icedtea-web
     no-copr: eclipse
-    Failed, quickly: N/A
-    Failed: icedtea-web
+    Failed, quickly: icedtea-web
+    Failed: java-1.8.0-openjdk
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036069-icedtea-web/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256456-java-1.8.0-openjdk/builder-live.log.gz
 
-MISSING:  N/A
+MISSING:  icedtea-web
   Links to all your known java packages:
 https://src.fedoraproject.org/rpms/dom4j
 https://src.fedoraproject.org/rpms/ecj
@@ -105,15 +104,15 @@ according to the package database, you (co)maintain at least 2 java packages, be
   1 passed
   0 even srpm failed
   0 found, but missingin in copr?
-  1 failed, from those 0 failed very quickly
+  1 failed, from those 1 failed very quickly
   Details:
     Passed: systemtap
     Missing: N/A
     no-copr: N/A
-    Failed, quickly: N/A
-    Failed: uom-parent
+    Failed, quickly: uom-parent
+    Failed: 
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036447-uom-parent/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256726-uom-parent/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -167,7 +166,7 @@ according to the package database, you (co)maintain at least 1 java packages, be
     Failed, quickly: N/A
     Failed: libgda
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036177-libgda/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256467-libgda/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -179,20 +178,19 @@ lef
 *****************************
 according to the package database, you (co)maintain at least 8 java packages, be aware that we are bumping JDK in rawhide
 --
-  5 passed
+  6 passed
   0 even srpm failed
   7 found, but missingin in copr?
-  3 failed, from those 1 failed very quickly
+  2 failed, from those 1 failed very quickly
   Details:
-    Passed: antlr-maven-plugin, antlr3, jopt-simple, stringtemplate, treelayout
+    Passed: antlr-maven-plugin, antlr3, jacoco, jopt-simple, stringtemplate, treelayout
     Missing: N/A
     no-copr: bytelist, eclipse, jboss-jms-1.1-api, jboss-logmanager, lucene, powermock, tomcat-taglibs-standard
-    Failed, quickly: jacoco
-    Failed: hibernate-jpa-2.1-api, jcodings
+    Failed, quickly: hibernate-jpa-2.1-api
+    Failed: jcodings
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036144-jacoco/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036271-jcodings/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036145-hibernate-jpa-2.1-api/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256558-jcodings/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256436-hibernate-jpa-2.1-api/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -228,21 +226,19 @@ didiksupriadi41
 *****************************
 according to the package database, you (co)maintain at least 20 java packages, be aware that we are bumping JDK in rawhide
 --
-  18 passed
-  0 even srpm failed
+  19 passed
+  1 even srpm failed
   0 found, but missingin in copr?
-  2 failed, from those 2 failed very quickly
+  0 failed, from those 1 failed very quickly
   Details:
-    Passed: apache-ivy, dirgra, freemarker, jaxb, jaxb-dtd-parser, jaxb-fi, jaxb-istack-commons, jaxb-stax-ex, joni, mxparser, options, picocli, pomchecker, reflections, rhino, xmlpull, xmlstreambuffer, xstream
-    Missing: N/A
+    Passed: apache-ivy, dirgra, freemarker, jacoco, jaxb, jaxb-dtd-parser, jaxb-fi, jaxb-istack-commons, jaxb-stax-ex, joni, mxparser, options, picocli, pomchecker, reflections, rhino, xmlpull, xmlstreambuffer, xstream
+    Missing: apache-rat
     no-copr: N/A
-    Failed, quickly: apache-rat, jacoco
+    Failed, quickly: apache-rat
     Failed: 
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036094-apache-rat/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036144-jacoco/builder-live.log.gz
 
-MISSING:  N/A
+MISSING:  apache-rat
   Links to all your known java packages:
 https://src.fedoraproject.org/rpms/apache-ivy
 https://src.fedoraproject.org/rpms/apache-rat
@@ -281,18 +277,19 @@ deamn
 *****************************
 according to the package database, you (co)maintain at least 6 java packages, be aware that we are bumping JDK in rawhide
 --
-  5 passed
+  4 passed
   0 even srpm failed
   0 found, but missingin in copr?
-  1 failed, from those 0 failed very quickly
+  2 failed, from those 0 failed very quickly
   Details:
-    Passed: exec-maven-plugin, hawtjni, maven-native, maven-shade-plugin, openjfx
+    Passed: exec-maven-plugin, hawtjni, maven-native, maven-shade-plugin
     Missing: N/A
     no-copr: N/A
     Failed, quickly: N/A
-    Failed: openjfx8
+    Failed: openjfx, openjfx8
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036380-openjfx8/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256630-openjfx/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256661-openjfx8/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -320,7 +317,7 @@ according to the package database, you (co)maintain at least 1 java packages, be
     Failed, quickly: N/A
     Failed: ceph
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036056-ceph/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256349-ceph/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -343,7 +340,7 @@ according to the package database, you (co)maintain at least 1 java packages, be
     Failed, quickly: N/A
     Failed: ceph
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036056-ceph/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256349-ceph/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -358,15 +355,15 @@ according to the package database, you (co)maintain at least 1 java packages, be
   0 passed
   0 even srpm failed
   0 found, but missingin in copr?
-  1 failed, from those 0 failed very quickly
+  1 failed, from those 1 failed very quickly
   Details:
     Passed: N/A
     Missing: N/A
     no-copr: N/A
-    Failed, quickly: N/A
-    Failed: uom-parent
+    Failed, quickly: uom-parent
+    Failed: 
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036447-uom-parent/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256726-uom-parent/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -457,8 +454,21 @@ https://src.fedoraproject.org/rpms/arduino
 ahughes
 *****************************
 according to the package database, you (co)maintain at least 2 java packages, be aware that we are bumping JDK in rawhide
-Congratulations! All your packages built with java-17-openjdk! Please keep an eye on the mass rebuild anyway.
-  MISSING:  N/A
+--
+  1 passed
+  0 even srpm failed
+  0 found, but missingin in copr?
+  1 failed, from those 0 failed very quickly
+  Details:
+    Passed: java-11-openjdk
+    Missing: N/A
+    no-copr: N/A
+    Failed, quickly: N/A
+    Failed: java-1.8.0-openjdk
+  Your logs:
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256456-java-1.8.0-openjdk/builder-live.log.gz
+
+MISSING:  N/A
   Links to all your known java packages:
 https://src.fedoraproject.org/rpms/java-1.8.0-openjdk
 https://src.fedoraproject.org/rpms/java-11-openjdk
@@ -467,20 +477,20 @@ https://src.fedoraproject.org/rpms/java-11-openjdk
 *****************************
 cipherboy
 *****************************
-according to the package database, you (co)maintain at least 15 java packages, be aware that we are bumping JDK in rawhide
+according to the package database, you (co)maintain at least 16 java packages, be aware that we are bumping JDK in rawhide
 --
-  14 passed
+  15 passed
   0 even srpm failed
-  7 found, but missingin in copr?
+  6 found, but missingin in copr?
   1 failed, from those 0 failed very quickly
   Details:
-    Passed: decentxml, dogtag-pki, jackson-jaxrs-providers, jackson-modules-base, jboss-jaxrs-2.0-api, jboss-logging, jboss-logging-tools, jboss-parent, jdeparser, jss, ldapjdk, resteasy, slf4j, tomcatjss
+    Passed: ant-antunit, decentxml, dogtag-pki, jackson-jaxrs-providers, jackson-modules-base, jboss-jaxrs-2.0-api, jboss-logging, jboss-logging-tools, jboss-parent, jdeparser, jss, ldapjdk, resteasy, slf4j, tomcatjss
     Missing: N/A
-    no-copr: ant-antunit, apache-commons-daemon, apache-commons-lang, idm-console-framework, jboss-jms-1.1-api, paranamer, pki-core
+    no-copr: apache-commons-daemon, apache-commons-lang, idm-console-framework, jboss-jms-1.1-api, paranamer, pki-core
     Failed, quickly: N/A
     Failed: javassist
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03040041-javassist/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256500-javassist/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -506,16 +516,6 @@ https://src.fedoraproject.org/rpms/pki-core
 https://src.fedoraproject.org/rpms/resteasy
 https://src.fedoraproject.org/rpms/slf4j
 https://src.fedoraproject.org/rpms/tomcatjss
-
-
-*****************************
-neugens
-*****************************
-according to the package database, you (co)maintain at least 0 java packages, be aware that we are bumping JDK in rawhide
-You do not have any packages?
-  MISSING:  N/A
-  Links to all your known java packages:
-https://src.fedoraproject.org/rpms/powermock
 
 
 *****************************
@@ -548,19 +548,19 @@ according to the package database, you (co)maintain at least 10 java packages, b
   5 passed
   0 even srpm failed
   0 found, but missingin in copr?
-  5 failed, from those 4 failed very quickly
+  5 failed, from those 5 failed very quickly
   Details:
     Passed: apache-commons-collections4, buildnumber-maven-plugin, forge-parent, hibernate-jpa-2.0-api, json_simple
     Missing: N/A
     no-copr: N/A
-    Failed, quickly: apache-commons-fileupload, portlet-2.0-api, serp, xmpcore
-    Failed: hibernate-jpa-2.1-api
+    Failed, quickly: apache-commons-fileupload, hibernate-jpa-2.1-api, portlet-2.0-api, serp, xmpcore
+    Failed: 
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036394-serp/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036145-hibernate-jpa-2.1-api/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036382-portlet-2.0-api/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036432-xmpcore/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036092-apache-commons-fileupload/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256675-serp/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256436-hibernate-jpa-2.1-api/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256663-portlet-2.0-api/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256712-xmpcore/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256385-apache-commons-fileupload/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -647,15 +647,15 @@ according to the package database, you (co)maintain at least 4 java packages, be
   3 passed
   0 even srpm failed
   1 found, but missingin in copr?
-  1 failed, from those 1 failed very quickly
+  1 failed, from those 0 failed very quickly
   Details:
     Passed: caffeine, kernel-tools, ongres-scram
     Missing: N/A
     no-copr: HdrHistogram
-    Failed, quickly: compile-command-annotations
-    Failed: 
+    Failed, quickly: N/A
+    Failed: compile-command-annotations
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036028-compile-command-annotations/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256322-compile-command-annotations/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -701,22 +701,21 @@ melmorabity
 *****************************
 according to the package database, you (co)maintain at least 6 java packages, be aware that we are bumping JDK in rawhide
 --
-  1 passed
+  2 passed
   0 even srpm failed
   0 found, but missingin in copr?
-  5 failed, from those 3 failed very quickly
+  4 failed, from those 2 failed very quickly
   Details:
-    Passed: antlrworks
+    Passed: antlrworks, apache-commons-math
     Missing: N/A
     no-copr: N/A
-    Failed, quickly: jgoodies-common, jgoodies-forms, jgoodies-looks
-    Failed: apache-commons-exec, apache-commons-math
+    Failed, quickly: jgoodies-forms, jgoodies-looks
+    Failed: apache-commons-exec, jgoodies-common
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036018-apache-commons-exec/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036286-jgoodies-forms/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036216-jgoodies-looks/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036019-apache-commons-math/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036285-jgoodies-common/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256312-apache-commons-exec/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256573-jgoodies-forms/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256505-jgoodies-looks/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256572-jgoodies-common/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -754,7 +753,7 @@ according to the package database, you (co)maintain at least 1 java packages, be
     Failed, quickly: tzdata
     Failed: 
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036446-tzdata/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256725-tzdata/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -798,7 +797,7 @@ according to the package database, you (co)maintain at least 2 java packages, be
     Failed, quickly: ditaa
     Failed: 
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036061-ditaa/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256354-ditaa/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -819,20 +818,20 @@ https://src.fedoraproject.org/rpms/openmpi
 *****************************
 dmoluguw
 *****************************
-according to the package database, you (co)maintain at least 11 java packages, be aware that we are bumping JDK in rawhide
+according to the package database, you (co)maintain at least 12 java packages, be aware that we are bumping JDK in rawhide
 --
-  10 passed
+  11 passed
   0 even srpm failed
-  8 found, but missingin in copr?
+  7 found, but missingin in copr?
   1 failed, from those 0 failed very quickly
   Details:
-    Passed: dogtag-pki, jboss-logging, jboss-logging-tools, jboss-parent, jdeparser, jss, ldapjdk, resteasy, slf4j, tomcatjss
+    Passed: ant-antunit, dogtag-pki, jboss-logging, jboss-logging-tools, jboss-parent, jdeparser, jss, ldapjdk, resteasy, slf4j, tomcatjss
     Missing: N/A
-    no-copr: ant-antunit, apache-commons-daemon, apache-commons-lang, idm-console-framework, jboss-annotations-1.2-api, jboss-jms-1.1-api, jboss-logmanager, pki-core
+    no-copr: apache-commons-daemon, apache-commons-lang, idm-console-framework, jboss-annotations-1.2-api, jboss-jms-1.1-api, jboss-logmanager, pki-core
     Failed, quickly: N/A
     Failed: javassist
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03040041-javassist/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256500-javassist/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -871,8 +870,21 @@ https://src.fedoraproject.org/rpms/systemtap
 peter
 *****************************
 according to the package database, you (co)maintain at least 3 java packages, be aware that we are bumping JDK in rawhide
-Congratulations! All your packages built with java-17-openjdk! Please keep an eye on the mass rebuild anyway.
-  MISSING:  N/A
+--
+  2 passed
+  0 even srpm failed
+  0 found, but missingin in copr?
+  1 failed, from those 0 failed very quickly
+  Details:
+    Passed: erlang, erlang-corba
+    Missing: N/A
+    no-copr: N/A
+    Failed, quickly: N/A
+    Failed: fop
+  Your logs:
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256420-fop/builder-live.log.gz
+
+MISSING:  N/A
   Links to all your known java packages:
 https://src.fedoraproject.org/rpms/erlang
 https://src.fedoraproject.org/rpms/erlang-corba
@@ -906,7 +918,7 @@ according to the package database, you (co)maintain at least 3 java packages, be
     Failed, quickly: plexus-component-api
     Failed: 
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036353-plexus-component-api/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256636-plexus-component-api/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -930,8 +942,21 @@ https://src.fedoraproject.org/rpms/zbar
 fjanus
 *****************************
 according to the package database, you (co)maintain at least 1 java packages, be aware that we are bumping JDK in rawhide
-Congratulations! All your packages built with java-17-openjdk! Please keep an eye on the mass rebuild anyway.
-  MISSING:  N/A
+--
+  0 passed
+  0 even srpm failed
+  0 found, but missingin in copr?
+  1 failed, from those 0 failed very quickly
+  Details:
+    Passed: N/A
+    Missing: N/A
+    no-copr: N/A
+    Failed, quickly: N/A
+    Failed: automake
+  Your logs:
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256345-automake/builder-live.log.gz
+
+MISSING:  N/A
   Links to all your known java packages:
 https://src.fedoraproject.org/rpms/automake
 
@@ -942,20 +967,19 @@ leamas
 according to the package database, you (co)maintain at least 4 java packages, be aware that we are bumping JDK in rawhide
 --
   2 passed
-  0 even srpm failed
+  1 even srpm failed
   0 found, but missingin in copr?
-  2 failed, from those 0 failed very quickly
+  1 failed, from those 1 failed very quickly
   Details:
     Passed: rundoc, snip
-    Missing: N/A
+    Missing: java-wakeonlan
     no-copr: N/A
-    Failed, quickly: N/A
-    Failed: DecodeIR, java-wakeonlan
+    Failed, quickly: java-wakeonlan
+    Failed: DecodeIR
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036264-java-wakeonlan/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036122-DecodeIR/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256413-DecodeIR/builder-live.log.gz
 
-MISSING:  N/A
+MISSING:  java-wakeonlan
   Links to all your known java packages:
 https://src.fedoraproject.org/rpms/DecodeIR
 https://src.fedoraproject.org/rpms/java-wakeonlan
@@ -978,23 +1002,19 @@ jerboaa
 *****************************
 according to the package database, you (co)maintain at least 18 java packages, be aware that we are bumping JDK in rawhide
 --
-  12 passed
+  16 passed
   0 even srpm failed
   5 found, but missingin in copr?
-  6 failed, from those 5 failed very quickly
+  2 failed, from those 1 failed very quickly
   Details:
-    Passed: byteman, cglib, hamcrest, httpcomponents-client, httpcomponents-core, java-1.8.0-openjdk, java-11-openjdk, jline, jsch, maven-verifier-plugin, mockito, snakeyaml
+    Passed: byteman, cglib, hamcrest, httpcomponents-client, httpcomponents-core, java-11-openjdk, jcommon, jfreechart, jline, jolokia-jvm-agent, jsch, maven-verifier-plugin, mockito, prometheus-jmx-exporter, prometheus-simpleclient-java, snakeyaml
     Missing: N/A
     no-copr: eclipse, felix-scr, lucene, powermock, xpp3
-    Failed, quickly: apache-commons-fileupload, jcommon, jfreechart, prometheus-jmx-exporter, prometheus-simpleclient-java
-    Failed: jolokia-jvm-agent
+    Failed, quickly: apache-commons-fileupload
+    Failed: java-1.8.0-openjdk
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036214-jcommon/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036383-prometheus-jmx-exporter/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036406-prometheus-simpleclient-java/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036189-jolokia-jvm-agent/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036092-apache-commons-fileupload/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036239-jfreechart/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256456-java-1.8.0-openjdk/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256385-apache-commons-fileupload/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -1021,16 +1041,6 @@ https://src.fedoraproject.org/rpms/prometheus-jmx-exporter
 https://src.fedoraproject.org/rpms/prometheus-simpleclient-java
 https://src.fedoraproject.org/rpms/snakeyaml
 https://src.fedoraproject.org/rpms/xpp3
-
-
-*****************************
-konradm
-*****************************
-according to the package database, you (co)maintain at least 1 java packages, be aware that we are bumping JDK in rawhide
-Congratulations! All your packages built with java-17-openjdk! Please keep an eye on the mass rebuild anyway.
-  MISSING:  N/A
-  Links to all your known java packages:
-https://src.fedoraproject.org/rpms/octave
 
 
 *****************************
@@ -1069,7 +1079,7 @@ according to the package database, you (co)maintain at least 2 java packages, be
     Failed, quickly: lancer
     Failed: 
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036191-lancer/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256481-lancer/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -1085,15 +1095,15 @@ according to the package database, you (co)maintain at least 1 java packages, be
   0 passed
   0 even srpm failed
   0 found, but missingin in copr?
-  1 failed, from those 1 failed very quickly
+  1 failed, from those 0 failed very quickly
   Details:
     Passed: N/A
     Missing: N/A
     no-copr: N/A
-    Failed, quickly: java-gnome
-    Failed: 
+    Failed, quickly: N/A
+    Failed: java-gnome
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036149-java-gnome/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256440-java-gnome/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -1160,21 +1170,21 @@ omajid
 *****************************
 according to the package database, you (co)maintain at least 6 java packages, be aware that we are bumping JDK in rawhide
 --
-  4 passed
-  0 even srpm failed
+  3 passed
+  1 even srpm failed
   1 found, but missingin in copr?
   2 failed, from those 1 failed very quickly
   Details:
-    Passed: beansbinding, ecj, java-1.8.0-openjdk, mockito
-    Missing: N/A
+    Passed: beansbinding, ecj, mockito
+    Missing: icedtea-web
     no-copr: java-atk-wrapper
-    Failed, quickly: javahelp2
-    Failed: icedtea-web
+    Failed, quickly: icedtea-web
+    Failed: java-1.8.0-openjdk, javahelp2
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036069-icedtea-web/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036150-javahelp2/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256456-java-1.8.0-openjdk/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256441-javahelp2/builder-live.log.gz
 
-MISSING:  N/A
+MISSING:  icedtea-web
   Links to all your known java packages:
 https://src.fedoraproject.org/rpms/beansbinding
 https://src.fedoraproject.org/rpms/ecj
@@ -1231,8 +1241,21 @@ https://src.fedoraproject.org/rpms/systemtap
 jjanco
 *****************************
 according to the package database, you (co)maintain at least 5 java packages, be aware that we are bumping JDK in rawhide
-Congratulations! All your packages built with java-17-openjdk! Please keep an eye on the mass rebuild anyway.
-  MISSING:  N/A
+--
+  4 passed
+  0 even srpm failed
+  0 found, but missingin in copr?
+  1 failed, from those 0 failed very quickly
+  Details:
+    Passed: mariadb-java-client, mysql-connector-java, ongres-scram, postgresql-jdbc
+    Missing: N/A
+    no-copr: N/A
+    Failed, quickly: N/A
+    Failed: automake
+  Your logs:
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256345-automake/builder-live.log.gz
+
+MISSING:  N/A
   Links to all your known java packages:
 https://src.fedoraproject.org/rpms/automake
 https://src.fedoraproject.org/rpms/mariadb-java-client
@@ -1348,19 +1371,18 @@ lkundrak
 *****************************
 according to the package database, you (co)maintain at least 3 java packages, be aware that we are bumping JDK in rawhide
 --
-  1 passed
+  2 passed
   0 even srpm failed
   1 found, but missingin in copr?
-  2 failed, from those 1 failed very quickly
+  1 failed, from those 0 failed very quickly
   Details:
-    Passed: freerouting
+    Passed: freerouting, jfreechart
     Missing: N/A
     no-copr: jython
-    Failed, quickly: jfreechart
+    Failed, quickly: N/A
     Failed: libgda
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036177-libgda/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036239-jfreechart/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256467-libgda/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -1404,19 +1426,18 @@ spike
 *****************************
 according to the package database, you (co)maintain at least 10 java packages, be aware that we are bumping JDK in rawhide
 --
-  8 passed
+  9 passed
   0 even srpm failed
   2 found, but missingin in copr?
-  2 failed, from those 1 failed very quickly
+  1 failed, from those 1 failed very quickly
   Details:
-    Passed: apache-commons-beanutils, apache-commons-cli, apache-commons-io, apache-commons-logging, apache-commons-modeler, apache-commons-net, apache-commons-pool, jtidy
+    Passed: apache-commons-beanutils, apache-commons-cli, apache-commons-io, apache-commons-logging, apache-commons-math, apache-commons-modeler, apache-commons-net, apache-commons-pool, jtidy
     Missing: N/A
     no-copr: apache-commons-daemon, apache-commons-lang
     Failed, quickly: apache-commons-fileupload
-    Failed: apache-commons-math
+    Failed: 
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036019-apache-commons-math/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036092-apache-commons-fileupload/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256385-apache-commons-fileupload/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -1458,8 +1479,20 @@ https://src.fedoraproject.org/rpms/collectd
 galileo
 *****************************
 according to the package database, you (co)maintain at least 3 java packages, be aware that we are bumping JDK in rawhide
-Congratulations! All your packages built with java-17-openjdk! Please keep an eye on the mass rebuild anyway.
-  MISSING:  N/A
+--
+  1 passed
+  2 even srpm failed
+  3 found, but missingin in copr?
+  0 failed, from those 2 failed very quickly
+  Details:
+    Passed: javaewah
+    Missing: uddi4j, wsil4j
+    no-copr: eclipse-m2e-core, eclipse-webtools, maven-indexer
+    Failed, quickly: uddi4j, wsil4j
+    Failed: 
+  Your logs:
+
+MISSING:  uddi4j, wsil4j
   Links to all your known java packages:
 https://src.fedoraproject.org/rpms/eclipse-m2e-core
 https://src.fedoraproject.org/rpms/eclipse-webtools
@@ -1485,8 +1518,8 @@ according to the package database, you (co)maintain at least 2 java packages, be
     Failed, quickly: N/A
     Failed: hdf5, protobuf
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036358-protobuf/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036139-hdf5/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256640-protobuf/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256430-hdf5/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -1498,21 +1531,8 @@ https://src.fedoraproject.org/rpms/protobuf
 ohrdlick
 *****************************
 according to the package database, you (co)maintain at least 1 java packages, be aware that we are bumping JDK in rawhide
---
-  0 passed
-  0 even srpm failed
-  0 found, but missingin in copr?
-  1 failed, from those 1 failed very quickly
-  Details:
-    Passed: N/A
-    Missing: N/A
-    no-copr: N/A
-    Failed, quickly: CFR
-    Failed: 
-  Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036083-CFR/builder-live.log.gz
-
-MISSING:  N/A
+Congratulations! All your packages built with java-17-openjdk! Please keep an eye on the mass rebuild anyway.
+  MISSING:  N/A
   Links to all your known java packages:
 https://src.fedoraproject.org/rpms/CFR
 
@@ -1588,22 +1608,20 @@ sergiomb
 *****************************
 according to the package database, you (co)maintain at least 12 java packages, be aware that we are bumping JDK in rawhide
 --
-  7 passed
+  9 passed
   0 even srpm failed
   0 found, but missingin in copr?
-  5 failed, from those 2 failed very quickly
+  3 failed, from those 1 failed very quickly
   Details:
-    Passed: disruptor, jakarta-saaj, jakarta-xml-ws, jdependency, log4j, opencv, reflections
+    Passed: disruptor, jakarta-saaj, jakarta-xml-ws, jdependency, jmock, log4j, opencv, pdfbox, reflections
     Missing: N/A
     no-copr: N/A
-    Failed, quickly: google-gson, jctools
-    Failed: javassist, jmock, pdfbox
+    Failed, quickly: google-gson
+    Failed: javassist, jctools
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036273-jctools/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036187-jmock/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036310-pdfbox/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036133-google-gson/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03040041-javassist/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256560-jctools/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256424-google-gson/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256500-javassist/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -1646,8 +1664,21 @@ https://src.fedoraproject.org/rpms/ppl
 panovotn
 *****************************
 according to the package database, you (co)maintain at least 1 java packages, be aware that we are bumping JDK in rawhide
-Congratulations! All your packages built with java-17-openjdk! Please keep an eye on the mass rebuild anyway.
-  MISSING:  N/A
+--
+  0 passed
+  0 even srpm failed
+  0 found, but missingin in copr?
+  1 failed, from those 0 failed very quickly
+  Details:
+    Passed: N/A
+    Missing: N/A
+    no-copr: N/A
+    Failed, quickly: N/A
+    Failed: automake
+  Your logs:
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256345-automake/builder-live.log.gz
+
+MISSING:  N/A
   Links to all your known java packages:
 https://src.fedoraproject.org/rpms/automake
 
@@ -1679,7 +1710,7 @@ according to the package database, you (co)maintain at least 1 java packages, be
     Failed, quickly: N/A
     Failed: tuxguitar
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036445-tuxguitar/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256724-tuxguitar/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -1694,16 +1725,16 @@ according to the package database, you (co)maintain at least 2 java packages, be
   0 passed
   0 even srpm failed
   0 found, but missingin in copr?
-  2 failed, from those 0 failed very quickly
+  2 failed, from those 1 failed very quickly
   Details:
     Passed: N/A
     Missing: N/A
     no-copr: N/A
-    Failed, quickly: N/A
-    Failed: healpix, nom-tam-fits
+    Failed, quickly: nom-tam-fits
+    Failed: healpix
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036376-nom-tam-fits/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036067-healpix/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256657-nom-tam-fits/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256360-healpix/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -1759,15 +1790,15 @@ according to the package database, you (co)maintain at least 4 java packages, be
   3 passed
   0 even srpm failed
   0 found, but missingin in copr?
-  1 failed, from those 0 failed very quickly
+  1 failed, from those 1 failed very quickly
   Details:
     Passed: ant, maven-assembly-plugin, octave
     Missing: N/A
     no-copr: N/A
-    Failed, quickly: N/A
-    Failed: maven-scm
+    Failed, quickly: maven-scm
+    Failed: 
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036255-maven-scm/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256542-maven-scm/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -1803,21 +1834,8 @@ https://src.fedoraproject.org/rpms/lcm
 sbluhm
 *****************************
 according to the package database, you (co)maintain at least 5 java packages, be aware that we are bumping JDK in rawhide
---
-  4 passed
-  0 even srpm failed
-  1 found, but missingin in copr?
-  1 failed, from those 1 failed very quickly
-  Details:
-    Passed: ecj, jakarta-activation, jaxb-api, nekohtml
-    Missing: N/A
-    no-copr: xpp3
-    Failed, quickly: apache-commons-digester
-    Failed: 
-  Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036073-apache-commons-digester/builder-live.log.gz
-
-MISSING:  N/A
+Congratulations! All your packages built with java-17-openjdk! Please keep an eye on the mass rebuild anyway.
+  MISSING:  N/A
   Links to all your known java packages:
 https://src.fedoraproject.org/rpms/apache-commons-digester
 https://src.fedoraproject.org/rpms/ecj
@@ -1853,7 +1871,7 @@ according to the package database, you (co)maintain at least 1 java packages, be
     Failed, quickly: N/A
     Failed: ceph
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036056-ceph/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256349-ceph/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -1868,16 +1886,16 @@ according to the package database, you (co)maintain at least 5 java packages, be
   3 passed
   0 even srpm failed
   1 found, but missingin in copr?
-  2 failed, from those 0 failed very quickly
+  2 failed, from those 1 failed very quickly
   Details:
     Passed: diffoscope, enjarify, jblas
     Missing: N/A
     no-copr: jhdf5
-    Failed, quickly: N/A
-    Failed: gnulib, nom-tam-fits
+    Failed, quickly: nom-tam-fits
+    Failed: gnulib
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036376-nom-tam-fits/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036066-gnulib/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256657-nom-tam-fits/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256359-gnulib/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -1917,8 +1935,21 @@ https://src.fedoraproject.org/rpms/rstudio
 ttomecek
 *****************************
 according to the package database, you (co)maintain at least 1 java packages, be aware that we are bumping JDK in rawhide
-Congratulations! All your packages built with java-17-openjdk! Please keep an eye on the mass rebuild anyway.
-  MISSING:  N/A
+--
+  0 passed
+  0 even srpm failed
+  0 found, but missingin in copr?
+  1 failed, from those 0 failed very quickly
+  Details:
+    Passed: N/A
+    Missing: N/A
+    no-copr: N/A
+    Failed, quickly: N/A
+    Failed: automake
+  Your logs:
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256345-automake/builder-live.log.gz
+
+MISSING:  N/A
   Links to all your known java packages:
 https://src.fedoraproject.org/rpms/automake
 
@@ -1927,8 +1958,20 @@ https://src.fedoraproject.org/rpms/automake
 stevetraylen
 *****************************
 according to the package database, you (co)maintain at least 3 java packages, be aware that we are bumping JDK in rawhide
-Congratulations! All your packages built with java-17-openjdk! Please keep an eye on the mass rebuild anyway.
-  MISSING:  N/A
+--
+  2 passed
+  1 even srpm failed
+  0 found, but missingin in copr?
+  0 failed, from those 1 failed very quickly
+  Details:
+    Passed: freewrl, json_simple
+    Missing: xemacs-packages-extra
+    no-copr: N/A
+    Failed, quickly: xemacs-packages-extra
+    Failed: 
+  Your logs:
+
+MISSING:  xemacs-packages-extra
   Links to all your known java packages:
 https://src.fedoraproject.org/rpms/freewrl
 https://src.fedoraproject.org/rpms/json_simple
@@ -1948,21 +1991,20 @@ https://src.fedoraproject.org/rpms/collectd
 *****************************
 jgu
 *****************************
-according to the package database, you (co)maintain at least 2 java packages, be aware that we are bumping JDK in rawhide
+according to the package database, you (co)maintain at least 1 java packages, be aware that we are bumping JDK in rawhide
 --
   0 passed
   0 even srpm failed
-  0 found, but missingin in copr?
-  2 failed, from those 1 failed very quickly
+  1 found, but missingin in copr?
+  1 failed, from those 1 failed very quickly
   Details:
     Passed: N/A
     Missing: N/A
-    no-copr: N/A
+    no-copr: vtk
     Failed, quickly: java-mersenne-twister
-    Failed: vtk
+    Failed: 
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036370-vtk/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036235-java-mersenne-twister/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256524-java-mersenne-twister/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -1974,8 +2016,21 @@ https://src.fedoraproject.org/rpms/vtk
 kasal
 *****************************
 according to the package database, you (co)maintain at least 2 java packages, be aware that we are bumping JDK in rawhide
-Congratulations! All your packages built with java-17-openjdk! Please keep an eye on the mass rebuild anyway.
-  MISSING:  N/A
+--
+  1 passed
+  0 even srpm failed
+  0 found, but missingin in copr?
+  1 failed, from those 0 failed very quickly
+  Details:
+    Passed: frysk
+    Missing: N/A
+    no-copr: N/A
+    Failed, quickly: N/A
+    Failed: automake
+  Your logs:
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256345-automake/builder-live.log.gz
+
+MISSING:  N/A
   Links to all your known java packages:
 https://src.fedoraproject.org/rpms/automake
 https://src.fedoraproject.org/rpms/frysk
@@ -2007,7 +2062,7 @@ according to the package database, you (co)maintain at least 1 java packages, be
     Failed, quickly: N/A
     Failed: ceph
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036056-ceph/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256349-ceph/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -2030,8 +2085,8 @@ according to the package database, you (co)maintain at least 8 java packages, be
     Failed, quickly: jargs, yuicompressor
     Failed: 
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036165-jargs/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036459-yuicompressor/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256455-jargs/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256738-yuicompressor/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -2094,8 +2149,21 @@ https://src.fedoraproject.org/rpms/ws-commons-util
 ttorling
 *****************************
 according to the package database, you (co)maintain at least 1 java packages, be aware that we are bumping JDK in rawhide
-Congratulations! All your packages built with java-17-openjdk! Please keep an eye on the mass rebuild anyway.
-  MISSING:  N/A
+--
+  0 passed
+  0 even srpm failed
+  0 found, but missingin in copr?
+  1 failed, from those 0 failed very quickly
+  Details:
+    Passed: N/A
+    Missing: N/A
+    no-copr: N/A
+    Failed, quickly: N/A
+    Failed: fop
+  Your logs:
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256420-fop/builder-live.log.gz
+
+MISSING:  N/A
   Links to all your known java packages:
 https://src.fedoraproject.org/rpms/fop
 
@@ -2136,8 +2204,21 @@ https://src.fedoraproject.org/rpms/libidn
 michalvala
 *****************************
 according to the package database, you (co)maintain at least 1 java packages, be aware that we are bumping JDK in rawhide
-Congratulations! All your packages built with java-17-openjdk! Please keep an eye on the mass rebuild anyway.
-  MISSING:  N/A
+--
+  0 passed
+  0 even srpm failed
+  0 found, but missingin in copr?
+  1 failed, from those 0 failed very quickly
+  Details:
+    Passed: N/A
+    Missing: N/A
+    no-copr: N/A
+    Failed, quickly: N/A
+    Failed: java-1.8.0-openjdk
+  Your logs:
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256456-java-1.8.0-openjdk/builder-live.log.gz
+
+MISSING:  N/A
   Links to all your known java packages:
 https://src.fedoraproject.org/rpms/java-1.8.0-openjdk
 
@@ -2157,23 +2238,22 @@ mbooth
 *****************************
 according to the package database, you (co)maintain at least 34 java packages, be aware that we are bumping JDK in rawhide
 --
-  29 passed
-  1 even srpm failed
+  28 passed
+  3 even srpm failed
   9 found, but missingin in copr?
-  4 failed, from those 4 failed very quickly
+  3 failed, from those 5 failed very quickly
   Details:
-    Passed: antlr32, apache-commons-codec, apache-sshd, args4j, auto, batik, bouncycastle, decentxml, ed25519-java, jackson-dataformats-binary, jackson-dataformats-text, jakarta-el, javaewah, javapoet, jchardet, jdom, jetty, jgit, jopt-simple, jsch-agent-proxy, jzlib, maven-archetype, osgi-annotation, sequence-library, sqljet, svnkit, trilead-ssh2, uddi4j, wsil4j
-    Missing: icu4j
+    Passed: antlr32, apache-commons-codec, apache-commons-digester, apache-sshd, args4j, auto, batik, bouncycastle, decentxml, ed25519-java, jackson-dataformats-binary, jackson-dataformats-text, jakarta-el, javaewah, javapoet, jchardet, jdom, jetty, jgit, jopt-simple, jsch-agent-proxy, jzlib, maven-archetype, osgi-annotation, sequence-library, sqljet, svnkit, trilead-ssh2
+    Missing: icu4j, uddi4j, wsil4j
     no-copr: cbi-plugins, eclipse, eclipse-m2e-core, eclipse-m2e-workspace, eclipse-webtools, felix-scr, takari-polyglot, testng-remote, tycho
-    Failed, quickly: apache-commons-digester, brazil, icu4j, wsdl4j
-    Failed: xml-maven-plugin
+    Failed, quickly: icu4j, uddi4j, wsdl4j, wsil4j, xml-maven-plugin
+    Failed: brazil
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036073-apache-commons-digester/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036080-brazil/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036475-wsdl4j/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036431-xml-maven-plugin/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256373-brazil/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256753-wsdl4j/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256711-xml-maven-plugin/builder-live.log.gz
 
-MISSING:  icu4j
+MISSING:  icu4j, uddi4j, wsil4j
   Links to all your known java packages:
 https://src.fedoraproject.org/rpms/antlr32
 https://src.fedoraproject.org/rpms/apache-commons-codec
@@ -2246,7 +2326,7 @@ according to the package database, you (co)maintain at least 1 java packages, be
     Failed, quickly: N/A
     Failed: gnulib
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036066-gnulib/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256359-gnulib/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -2341,7 +2421,7 @@ according to the package database, you (co)maintain at least 2 java packages, be
     Failed, quickly: tzdata
     Failed: 
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036446-tzdata/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256725-tzdata/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -2367,18 +2447,19 @@ praiskup
 *****************************
 according to the package database, you (co)maintain at least 5 java packages, be aware that we are bumping JDK in rawhide
 --
-  4 passed
+  3 passed
   0 even srpm failed
   0 found, but missingin in copr?
-  1 failed, from those 0 failed very quickly
+  2 failed, from those 0 failed very quickly
   Details:
-    Passed: automake, gdal, ongres-scram, postgresql-jdbc
+    Passed: gdal, ongres-scram, postgresql-jdbc
     Missing: N/A
     no-copr: N/A
     Failed, quickly: N/A
-    Failed: classloader-leak-test-framework
+    Failed: automake, classloader-leak-test-framework
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036026-classloader-leak-test-framework/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256345-automake/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256320-classloader-leak-test-framework/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -2397,16 +2478,16 @@ according to the package database, you (co)maintain at least 4 java packages, be
   2 passed
   0 even srpm failed
   0 found, but missingin in copr?
-  2 failed, from those 1 failed very quickly
+  2 failed, from those 2 failed very quickly
   Details:
     Passed: objenesis, xmltool
     Missing: N/A
     no-copr: N/A
-    Failed, quickly: jargs
-    Failed: maven-scm
+    Failed, quickly: jargs, maven-scm
+    Failed: 
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036165-jargs/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036255-maven-scm/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256455-jargs/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256542-maven-scm/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -2419,22 +2500,9 @@ https://src.fedoraproject.org/rpms/xmltool
 *****************************
 mrceresa
 *****************************
-according to the package database, you (co)maintain at least 1 java packages, be aware that we are bumping JDK in rawhide
---
-  0 passed
-  0 even srpm failed
-  0 found, but missingin in copr?
-  1 failed, from those 0 failed very quickly
-  Details:
-    Passed: N/A
-    Missing: N/A
-    no-copr: N/A
-    Failed, quickly: N/A
-    Failed: vtk
-  Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036370-vtk/builder-live.log.gz
-
-MISSING:  N/A
+according to the package database, you (co)maintain at least 0 java packages, be aware that we are bumping JDK in rawhide
+You do not have any packages?
+  MISSING:  N/A
   Links to all your known java packages:
 https://src.fedoraproject.org/rpms/vtk
 
@@ -2444,19 +2512,18 @@ orion
 *****************************
 according to the package database, you (co)maintain at least 12 java packages, be aware that we are bumping JDK in rawhide
 --
-  10 passed
+  11 passed
   0 even srpm failed
   3 found, but missingin in copr?
-  2 failed, from those 0 failed very quickly
+  1 failed, from those 0 failed very quickly
   Details:
-    Passed: BareBonesBrowserLaunch, codehaus-parent, gdal, gdl, hdf, jchardet, octave, openmpi, pcfi, plplot
+    Passed: BareBonesBrowserLaunch, ant-antunit, codehaus-parent, gdal, gdl, hdf, jchardet, octave, openmpi, pcfi, plplot
     Missing: N/A
-    no-copr: ant-antunit, java-sleep, moconti
+    no-copr: java-sleep, moconti, vtk
     Failed, quickly: N/A
-    Failed: hdf5, vtk
+    Failed: hdf5
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036370-vtk/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036139-hdf5/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256430-hdf5/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -2576,7 +2643,7 @@ according to the package database, you (co)maintain at least 1 java packages, be
     Failed, quickly: N/A
     Failed: icecat
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036141-icecat/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256432-icecat/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -2611,16 +2678,16 @@ according to the package database, you (co)maintain at least 10 java packages, b
   8 passed
   0 even srpm failed
   2 found, but missingin in copr?
-  2 failed, from those 1 failed very quickly
+  2 failed, from those 0 failed very quickly
   Details:
     Passed: caffeine, jna, mariadb-java-client, maven-clean-plugin, mysql-connector-java, opencv, postgresql-jdbc, replacer
     Missing: N/A
     no-copr: HdrHistogram, concurrent-trees
-    Failed, quickly: compile-command-annotations
-    Failed: classloader-leak-test-framework
+    Failed, quickly: N/A
+    Failed: classloader-leak-test-framework, compile-command-annotations
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036028-compile-command-annotations/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036026-classloader-leak-test-framework/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256322-compile-command-annotations/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256320-classloader-leak-test-framework/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -2643,23 +2710,24 @@ mmorsi
 *****************************
 according to the package database, you (co)maintain at least 9 java packages, be aware that we are bumping JDK in rawhide
 --
-  3 passed
+  2 passed
   0 even srpm failed
   0 found, but missingin in copr?
-  6 failed, from those 4 failed very quickly
+  7 failed, from those 6 failed very quickly
   Details:
-    Passed: jffi, jnr-constants, nailgun
+    Passed: jnr-constants, nailgun
     Missing: N/A
     no-copr: N/A
-    Failed, quickly: jgrapht, jnr-netdb, jnr-posix, jnr-x86asm
-    Failed: jcodings, jnr-ffi
+    Failed, quickly: jffi, jgrapht, jnr-ffi, jnr-netdb, jnr-posix, jnr-x86asm
+    Failed: jcodings
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036186-jgrapht/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036290-jnr-ffi/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036271-jcodings/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036220-jnr-x86asm/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036219-jnr-netdb/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036291-jnr-posix/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256476-jgrapht/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256577-jnr-ffi/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256558-jcodings/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256509-jnr-x86asm/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256475-jffi/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256508-jnr-netdb/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256578-jnr-posix/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -2677,20 +2745,20 @@ https://src.fedoraproject.org/rpms/nailgun
 *****************************
 jmagne
 *****************************
-according to the package database, you (co)maintain at least 28 java packages, be aware that we are bumping JDK in rawhide
+according to the package database, you (co)maintain at least 29 java packages, be aware that we are bumping JDK in rawhide
 --
-  27 passed
+  28 passed
   0 even srpm failed
-  11 found, but missingin in copr?
+  10 found, but missingin in copr?
   1 failed, from those 0 failed very quickly
   Details:
-    Passed: args4j, dogtag-pki, fasterxml-oss-parent, jackson-annotations, jackson-bom, jackson-core, jackson-databind, jackson-jaxrs-providers, jackson-modules-base, jackson-parent, javaparser, jaxb, jaxb-dtd-parser, jaxb-fi, jaxb-istack-commons, jaxb-stax-ex, jboss-jaxrs-2.0-api, jboss-logging, jboss-logging-tools, jboss-parent, jdeparser, jss, ldapjdk, resteasy, slf4j, tomcatjss, xmlstreambuffer
+    Passed: ant-antunit, args4j, dogtag-pki, fasterxml-oss-parent, jackson-annotations, jackson-bom, jackson-core, jackson-databind, jackson-jaxrs-providers, jackson-modules-base, jackson-parent, javaparser, jaxb, jaxb-dtd-parser, jaxb-fi, jaxb-istack-commons, jaxb-stax-ex, jboss-jaxrs-2.0-api, jboss-logging, jboss-logging-tools, jboss-parent, jdeparser, jss, ldapjdk, resteasy, slf4j, tomcatjss, xmlstreambuffer
     Missing: N/A
-    no-copr: ant-antunit, apache-commons-daemon, apache-commons-lang, idm-console-framework, jboss-annotations-1.2-api, jboss-jms-1.1-api, jboss-logmanager, paranamer, pki-core, stax2-api, woodstox-core
+    no-copr: apache-commons-daemon, apache-commons-lang, idm-console-framework, jboss-annotations-1.2-api, jboss-jms-1.1-api, jboss-logmanager, paranamer, pki-core, stax2-api, woodstox-core
     Failed, quickly: N/A
     Failed: javassist
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03040041-javassist/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256500-javassist/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -2784,7 +2852,7 @@ according to the package database, you (co)maintain at least 1 java packages, be
     Failed, quickly: tzdata
     Failed: 
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036446-tzdata/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256725-tzdata/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -2799,15 +2867,15 @@ according to the package database, you (co)maintain at least 3 java packages, be
   2 passed
   0 even srpm failed
   1 found, but missingin in copr?
-  1 failed, from those 0 failed very quickly
+  1 failed, from those 1 failed very quickly
   Details:
     Passed: jline, xstream
     Missing: N/A
     no-copr: lucene
-    Failed, quickly: N/A
-    Failed: maven-scm
+    Failed, quickly: maven-scm
+    Failed: 
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036255-maven-scm/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256542-maven-scm/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -2833,7 +2901,7 @@ according to the package database, you (co)maintain at least 8 java packages, be
     Failed, quickly: openas2
     Failed: 
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036261-openas2/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256548-openas2/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -2852,22 +2920,9 @@ https://src.fedoraproject.org/rpms/sonatype-oss-parent
 *****************************
 spot
 *****************************
-according to the package database, you (co)maintain at least 5 java packages, be aware that we are bumping JDK in rawhide
---
-  4 passed
-  0 even srpm failed
-  0 found, but missingin in copr?
-  1 failed, from those 0 failed very quickly
-  Details:
-    Passed: R, antlr-maven-plugin, arduino-listSerialPortsC, freewrl
-    Missing: N/A
-    no-copr: N/A
-    Failed, quickly: N/A
-    Failed: chromium
-  Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036113-chromium/builder-live.log.gz
-
-MISSING:  N/A
+according to the package database, you (co)maintain at least 4 java packages, be aware that we are bumping JDK in rawhide
+Congratulations! All your packages built with java-17-openjdk! Please keep an eye on the mass rebuild anyway.
+  MISSING:  N/A
   Links to all your known java packages:
 https://src.fedoraproject.org/rpms/R
 https://src.fedoraproject.org/rpms/antlr-maven-plugin
@@ -2924,7 +2979,7 @@ according to the package database, you (co)maintain at least 7 java packages, be
     Failed, quickly: wsdl4j
     Failed: 
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036475-wsdl4j/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256753-wsdl4j/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -2996,7 +3051,7 @@ according to the package database, you (co)maintain at least 1 java packages, be
     Failed, quickly: N/A
     Failed: ceph
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036056-ceph/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256349-ceph/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -3028,25 +3083,22 @@ jvanek
 *****************************
 according to the package database, you (co)maintain at least 22 java packages, be aware that we are bumping JDK in rawhide
 --
-  16 passed
-  0 even srpm failed
+  18 passed
+  1 even srpm failed
   2 found, but missingin in copr?
-  6 failed, from those 3 failed very quickly
+  3 failed, from those 3 failed very quickly
   Details:
-    Passed: CardManager, IPAddress, batik, beust-jcommander, classpathless-compiler, fernflower, java-1.8.0-openjdk, java-11-openjdk, java-runtime-decompiler, jigawatts, jpanoramamaker, objenesis, openjdk-asmtools, procyon, rsyntaxtextarea, tagsoup
-    Missing: N/A
+    Passed: CFR, CardManager, IPAddress, batik, beust-jcommander, classpathless-compiler, console-image-viewer, fernflower, jacoco, java-11-openjdk, java-runtime-decompiler, jigawatts, jpanoramamaker, objenesis, openjdk-asmtools, procyon, rsyntaxtextarea, tagsoup
+    Missing: icedtea-web
     no-copr: HdrHistogram, forbidden-apis
-    Failed, quickly: CFR, console-image-viewer, jacoco
-    Failed: icedtea-web, javadocofflinesearch, t-digest
+    Failed, quickly: icedtea-web, javadocofflinesearch, t-digest
+    Failed: java-1.8.0-openjdk
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036083-CFR/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036144-jacoco/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036069-icedtea-web/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036366-t-digest/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036208-javadocofflinesearch/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036059-console-image-viewer/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256456-java-1.8.0-openjdk/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256648-t-digest/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256498-javadocofflinesearch/builder-live.log.gz
 
-MISSING:  N/A
+MISSING:  icedtea-web
   Links to all your known java packages:
 https://src.fedoraproject.org/rpms/CFR
 https://src.fedoraproject.org/rpms/CardManager
@@ -3090,7 +3142,7 @@ according to the package database, you (co)maintain at least 9 java packages, be
     Failed, quickly: N/A
     Failed: libreoffice
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03040123-libreoffice/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256606-libreoffice/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -3118,30 +3170,29 @@ https://src.fedoraproject.org/rpms/subversion
 *****************************
 mizdebsk
 *****************************
-according to the package database, you (co)maintain at least 186 java packages, be aware that we are bumping JDK in rawhide
+according to the package database, you (co)maintain at least 187 java packages, be aware that we are bumping JDK in rawhide
 --
-  176 passed
-  1 even srpm failed
-  39 found, but missingin in copr?
-  9 failed, from those 6 failed very quickly
+  177 passed
+  2 even srpm failed
+  38 found, but missingin in copr?
+  8 failed, from those 7 failed very quickly
   Details:
-    Passed: ant, antlr, antlr3, aopalliance, apache-commons-beanutils, apache-commons-cli, apache-commons-codec, apache-commons-collections, apache-commons-collections4, apache-commons-compress, apache-commons-io, apache-commons-jxpath, apache-commons-lang3, apache-commons-logging, apache-commons-modeler, apache-commons-net, apache-commons-parent, apache-commons-pool, apache-ivy, apache-parent, apache-resource-bundles, apiguardian, aqute-bnd, args4j, assertj-core, atinject, batik, bcel, beust-jcommander, bsf, bsh, byte-buddy, cdi-api, cglib, codehaus-parent, decentxml, disruptor, dom4j, easymock, exec-maven-plugin, felix-parent, felix-utils, fop, forge-parent, fusesource-pom, google-guice, guava, hamcrest, hawtjni, httpcomponents-client, httpcomponents-core, httpcomponents-project, jakarta-activation, jakarta-annotations, jakarta-mail, jakarta-oro, jakarta-servlet, jansi, jansi-native, java_cup, javacc, javacc-maven-plugin, javapackages-bootstrap, jaxen, jboss-parent, jchardet, jdepend, jdependency, jdom, jdom2, jetty, jflex, jline, jna, jopt-simple, jsch, jsch-agent-proxy, json_simple, jsoup, jsr-305, jtidy, junit, junit5, jzlib, log4j, maven, maven-antrun-plugin, maven-archetype, maven-archiver, maven-artifact-transfer, maven-assembly-plugin, maven-clean-plugin, maven-common-artifact-filters, maven-compiler-plugin, maven-dependency-analyzer, maven-dependency-plugin, maven-dependency-tree, maven-doxia, maven-doxia-sitetools, maven-enforcer, maven-file-management, maven-filtering, maven-invoker, maven-invoker-plugin, maven-jar-plugin, maven-mapping, maven-parent, maven-plugin-build-helper, maven-plugin-bundle, maven-plugin-testing, maven-plugin-tools, maven-remote-resources-plugin, maven-reporting-api, maven-reporting-impl, maven-resolver, maven-resources-plugin, maven-script-interpreter, maven-shade-plugin, maven-shared-incremental, maven-shared-io, maven-shared-utils, maven-source-plugin, maven-surefire, maven-verifier, maven-wagon, mockito, modello, mojo-parent, munge-maven-plugin, nekohtml, objectweb-asm, objenesis, opentest4j, osgi-annotation, osgi-compendium, osgi-core, plexus-archiver, plexus-build-api, plexus-cipher, plexus-classworlds, plexus-compiler, plexus-components-pom, plexus-containers, plexus-i18n, plexus-interpolation, plexus-io, plexus-languages, plexus-pom, plexus-resources, plexus-sec-dispatcher, plexus-utils, plexus-velocity, qdox, regexp, scala, sdljava, sisu, sisu-mojos, slf4j, snakeyaml, spice-parent, stringtemplate4, tagsoup, testng, univocity-parsers, velocity, ws-commons-util, xalan-j2, xbean, xerces-j2, xml-commons-apis, xml-commons-resolver, xmlunit, xmvn, xstream, xz-java
-    Missing: icu4j
-    no-copr: ant-antunit, ant-contrib, apache-commons-daemon, apache-commons-lang, cal10n, dain-snappy, eclipse-m2e-core, eclipse-m2e-workspace, felix-bundlerepository, felix-gogo-parent, felix-gogo-runtime, felix-gogo-shell, geronimo-osgi-support, gnu-getopt, hsqldb, httpunit, isorelax, jakarta-commons-httpclient, javamail, jboss-modules, jmdns, log4j12, maven-artifact-resolver, maven-indexer, maven-install-plugin, maven-javadoc-plugin, msv, netty, objectweb-anttask, objectweb-pom, os-maven-plugin, plexus-interactivity, saxpath, sonatype-oss-parent, stax2-api, tycho, woodstox-core, xmlrpc, xpp3
-    Failed, quickly: apache-commons-digester, apache-commons-fileupload, apache-rat, google-gson, icu4j, wsdl4j
-    Failed: javassist, maven-scm, protobuf, xml-maven-plugin
+    Passed: ant, ant-antunit, antlr, antlr3, aopalliance, apache-commons-beanutils, apache-commons-cli, apache-commons-codec, apache-commons-collections, apache-commons-collections4, apache-commons-compress, apache-commons-digester, apache-commons-io, apache-commons-jxpath, apache-commons-lang3, apache-commons-logging, apache-commons-modeler, apache-commons-net, apache-commons-parent, apache-commons-pool, apache-ivy, apache-parent, apache-resource-bundles, apiguardian, aqute-bnd, args4j, assertj-core, atinject, batik, bcel, beust-jcommander, bsf, bsh, byte-buddy, cdi-api, cglib, codehaus-parent, decentxml, disruptor, dom4j, easymock, exec-maven-plugin, felix-parent, felix-utils, forge-parent, fusesource-pom, google-guice, guava, hamcrest, hawtjni, httpcomponents-client, httpcomponents-core, httpcomponents-project, jakarta-activation, jakarta-annotations, jakarta-mail, jakarta-oro, jakarta-servlet, jansi, jansi-native, java_cup, javacc, javacc-maven-plugin, javapackages-bootstrap, jaxen, jboss-parent, jchardet, jdepend, jdependency, jdom, jdom2, jetty, jflex, jline, jna, jopt-simple, jsch, jsch-agent-proxy, json_simple, jsoup, jsr-305, jtidy, junit, junit5, jzlib, log4j, maven, maven-antrun-plugin, maven-archetype, maven-archiver, maven-artifact-transfer, maven-assembly-plugin, maven-clean-plugin, maven-common-artifact-filters, maven-compiler-plugin, maven-dependency-analyzer, maven-dependency-plugin, maven-dependency-tree, maven-doxia, maven-doxia-sitetools, maven-enforcer, maven-file-management, maven-filtering, maven-invoker, maven-invoker-plugin, maven-jar-plugin, maven-mapping, maven-parent, maven-plugin-build-helper, maven-plugin-bundle, maven-plugin-testing, maven-plugin-tools, maven-remote-resources-plugin, maven-reporting-api, maven-reporting-impl, maven-resolver, maven-resources-plugin, maven-script-interpreter, maven-shade-plugin, maven-shared-incremental, maven-shared-io, maven-shared-utils, maven-source-plugin, maven-surefire, maven-verifier, maven-wagon, mockito, modello, mojo-parent, munge-maven-plugin, nekohtml, objectweb-asm, objenesis, opentest4j, osgi-annotation, osgi-compendium, osgi-core, plexus-archiver, plexus-build-api, plexus-cipher, plexus-classworlds, plexus-compiler, plexus-components-pom, plexus-containers, plexus-i18n, plexus-interpolation, plexus-io, plexus-languages, plexus-pom, plexus-resources, plexus-sec-dispatcher, plexus-utils, plexus-velocity, qdox, regexp, scala, sdljava, sisu, sisu-mojos, slf4j, snakeyaml, spice-parent, stringtemplate4, tagsoup, testng, univocity-parsers, velocity, ws-commons-util, xalan-j2, xbean, xerces-j2, xml-commons-apis, xml-commons-resolver, xmlunit, xmvn, xstream, xz-java
+    Missing: apache-rat, icu4j
+    no-copr: ant-contrib, apache-commons-daemon, apache-commons-lang, cal10n, dain-snappy, eclipse-m2e-core, eclipse-m2e-workspace, felix-bundlerepository, felix-gogo-parent, felix-gogo-runtime, felix-gogo-shell, geronimo-osgi-support, gnu-getopt, hsqldb, httpunit, isorelax, jakarta-commons-httpclient, javamail, jboss-modules, jmdns, log4j12, maven-artifact-resolver, maven-indexer, maven-install-plugin, maven-javadoc-plugin, msv, netty, objectweb-anttask, objectweb-pom, os-maven-plugin, plexus-interactivity, saxpath, sonatype-oss-parent, stax2-api, tycho, woodstox-core, xmlrpc, xpp3
+    Failed, quickly: apache-commons-fileupload, apache-rat, google-gson, icu4j, maven-scm, wsdl4j, xml-maven-plugin
+    Failed: fop, javassist, protobuf
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036094-apache-rat/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036073-apache-commons-digester/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036358-protobuf/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036255-maven-scm/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036092-apache-commons-fileupload/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036475-wsdl4j/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036133-google-gson/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03040041-javassist/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036431-xml-maven-plugin/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256420-fop/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256640-protobuf/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256542-maven-scm/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256385-apache-commons-fileupload/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256753-wsdl4j/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256424-google-gson/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256500-javassist/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256711-xml-maven-plugin/builder-live.log.gz
 
-MISSING:  icu4j
+MISSING:  apache-rat, icu4j
   Links to all your known java packages:
 https://src.fedoraproject.org/rpms/ant
 https://src.fedoraproject.org/rpms/ant-antunit
@@ -3397,7 +3448,7 @@ according to the package database, you (co)maintain at least 1 java packages, be
     Failed, quickly: N/A
     Failed: ceph
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036056-ceph/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256349-ceph/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -3433,8 +3484,8 @@ according to the package database, you (co)maintain at least 2 java packages, be
     Failed, quickly: hid4java, java-scrypt
     Failed: 
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036146-hid4java/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036181-java-scrypt/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256437-hid4java/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256471-java-scrypt/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -3458,7 +3509,7 @@ according to the package database, you (co)maintain at least 1 java packages, be
     Failed, quickly: N/A
     Failed: ceph
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036056-ceph/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256349-ceph/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -3520,16 +3571,16 @@ https://src.fedoraproject.org/rpms/erlang
 *****************************
 orphan
 *****************************
-according to the package database, you (co)maintain at least 1 java packages, be aware that we are bumping JDK in rawhide
+according to the package database, you (co)maintain at least 2 java packages, be aware that we are bumping JDK in rawhide
 --
-  0 passed
+  1 passed
   1 even srpm failed
-  99 found, but missingin in copr?
+  98 found, but missingin in copr?
   0 failed, from those 1 failed very quickly
   Details:
-    Passed: N/A
+    Passed: ant-antunit
     Missing: lcm
-    no-copr: HdrHistogram, Java-WebSocket, aalto-xml, ant-antunit, ant-contrib, apache-commons-daemon, apache-commons-lang, arduino, automaton, bytelist, cal10n, cbi-plugins, concurrent-trees, dain-snappy, eclipse, eclipse-cdt, eclipse-m2e-core, eclipse-m2e-workspace, eclipse-webtools, ee4j-parent, felix-bundlerepository, felix-gogo-command, felix-gogo-parent, felix-gogo-runtime, felix-gogo-shell, felix-scr, forbidden-apis, geronimo-jcdi-1.1-api, geronimo-osgi-support, geronimo-validation, gnu-getopt, hamcrest2, hsqldb, httpunit, isorelax, jabrt, jakarta-commons-httpclient, jakarta-messaging, jakarta-persistence, jakarta-xml-rpc, janino, java-atk-wrapper, jboss-annotations-1.2-api, jboss-el-2.2-api, jboss-el-3.0-api, jboss-jms-1.1-api, jboss-jsp-2.2-api, jboss-jsp-2.3-api, jboss-jstl-1.2-api, jboss-logmanager, jboss-modules, jboss-servlet-3.0-api, jboss-servlet-3.1-api, jlems, jmc, jmc-core, jmdns, jnr-enxio, jnr-unixsocket, jsap, jsemver, jython, log4j12, lucene, lz4-java, maven-artifact-resolver, maven-indexer, maven-install-plugin, maven-javadoc-plugin, maven-license-plugin, msv, mvel, netty, objectweb-anttask, objectweb-pom, os-maven-plugin, owasp-java-encoder, papaki, paranamer, plantuml, plexus-interactivity, portals-pom, powermock, rdkit, saxpath, shrinkwrap, simple-jndi, snappy-java, stax2-api, sunflow, svgsalamander, takari-polyglot, tycho, univocity-output-tester, vecmath, woodstox-core, xmlrpc, yecht, yydebug
+    no-copr: HdrHistogram, Java-WebSocket, aalto-xml, ant-contrib, apache-commons-daemon, apache-commons-lang, arduino, automaton, bytelist, cal10n, cbi-plugins, concurrent-trees, dain-snappy, eclipse, eclipse-cdt, eclipse-m2e-core, eclipse-m2e-workspace, eclipse-webtools, ee4j-parent, felix-bundlerepository, felix-gogo-command, felix-gogo-parent, felix-gogo-runtime, felix-gogo-shell, felix-scr, forbidden-apis, geronimo-jcdi-1.1-api, geronimo-osgi-support, geronimo-validation, gnu-getopt, hamcrest2, hsqldb, httpunit, isorelax, jabrt, jakarta-commons-httpclient, jakarta-messaging, jakarta-persistence, jakarta-xml-rpc, janino, java-atk-wrapper, jboss-annotations-1.2-api, jboss-el-2.2-api, jboss-el-3.0-api, jboss-jms-1.1-api, jboss-jsp-2.2-api, jboss-jsp-2.3-api, jboss-jstl-1.2-api, jboss-logmanager, jboss-modules, jboss-servlet-3.0-api, jboss-servlet-3.1-api, jlems, jmc, jmc-core, jmdns, jnr-enxio, jnr-unixsocket, jsap, jsemver, jython, log4j12, lucene, lz4-java, maven-artifact-resolver, maven-indexer, maven-install-plugin, maven-javadoc-plugin, maven-license-plugin, msv, mvel, netty, objectweb-anttask, objectweb-pom, os-maven-plugin, owasp-java-encoder, papaki, paranamer, plantuml, plexus-interactivity, portals-pom, powermock, rdkit, saxpath, shrinkwrap, simple-jndi, snappy-java, stax2-api, sunflow, svgsalamander, takari-polyglot, tycho, univocity-output-tester, vecmath, woodstox-core, xmlrpc, yecht, yydebug
     Failed, quickly: lcm
     Failed: 
   Your logs:
@@ -3696,7 +3747,7 @@ according to the package database, you (co)maintain at least 1 java packages, be
     Failed, quickly: N/A
     Failed: libreoffice
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03040123-libreoffice/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256606-libreoffice/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -3729,9 +3780,9 @@ according to the package database, you (co)maintain at least 6 java packages, be
     Failed, quickly: N/A
     Failed: jpype, py4j, python-javabridge
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036384-py4j/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036295-jpype/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036417-python-javabridge/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256665-py4j/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256582-jpype/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256697-python-javabridge/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -3759,7 +3810,7 @@ according to the package database, you (co)maintain at least 1 java packages, be
     Failed, quickly: N/A
     Failed: protobuf
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036358-protobuf/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256640-protobuf/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -3782,7 +3833,7 @@ according to the package database, you (co)maintain at least 1 java packages, be
     Failed, quickly: xmpcore
     Failed: 
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036432-xmpcore/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256712-xmpcore/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -3836,7 +3887,7 @@ according to the package database, you (co)maintain at least 1 java packages, be
     Failed, quickly: N/A
     Failed: javassist
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03040041-javassist/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256500-javassist/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -3889,7 +3940,7 @@ according to the package database, you (co)maintain at least 1 java packages, be
     Failed, quickly: N/A
     Failed: libreoffice
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03040123-libreoffice/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256606-libreoffice/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -3932,19 +3983,18 @@ caolanm
 *****************************
 according to the package database, you (co)maintain at least 15 java packages, be aware that we are bumping JDK in rawhide
 --
-  13 passed
+  14 passed
   0 even srpm failed
   0 found, but missingin in copr?
-  2 failed, from those 1 failed very quickly
+  1 failed, from those 0 failed very quickly
   Details:
-    Passed: flute, jcommon-serializer, libbase, libfonts, libformula, liblayout, libloader, librepository, libserializer, pentaho-libxml, pentaho-reporting-flow-engine, sac, writer2latex
+    Passed: flute, jcommon, jcommon-serializer, libbase, libfonts, libformula, liblayout, libloader, librepository, libserializer, pentaho-libxml, pentaho-reporting-flow-engine, sac, writer2latex
     Missing: N/A
     no-copr: N/A
-    Failed, quickly: jcommon
+    Failed, quickly: N/A
     Failed: libreoffice
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036214-jcommon/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03040123-libreoffice/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256606-libreoffice/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -4038,8 +4088,8 @@ according to the package database, you (co)maintain at least 2 java packages, be
     Failed, quickly: sblim-cim-client, sblim-cim-client2
     Failed: 
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036391-sblim-cim-client2/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036361-sblim-cim-client/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256672-sblim-cim-client2/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256643-sblim-cim-client/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -4052,18 +4102,17 @@ kdaniel
 *****************************
 according to the package database, you (co)maintain at least 8 java packages, be aware that we are bumping JDK in rawhide
 --
-  6 passed
+  7 passed
   1 even srpm failed
   4 found, but missingin in copr?
-  1 failed, from those 2 failed very quickly
+  0 failed, from those 1 failed very quickly
   Details:
-    Passed: apache-commons-logging, httpcomponents-client, httpcomponents-core, jdom, jetty, ws-commons-util
+    Passed: apache-commons-logging, httpcomponents-client, httpcomponents-core, jacoco, jdom, jetty, ws-commons-util
     Missing: icu4j
     no-copr: cbi-plugins, eclipse-cdt, tycho, xmlrpc
-    Failed, quickly: icu4j, jacoco
+    Failed, quickly: icu4j
     Failed: 
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036144-jacoco/builder-live.log.gz
 
 MISSING:  icu4j
   Links to all your known java packages:
@@ -4129,7 +4178,7 @@ according to the package database, you (co)maintain at least 2 java packages, be
     Failed, quickly: N/A
     Failed: hdf5
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036139-hdf5/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256430-hdf5/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -4286,7 +4335,7 @@ according to the package database, you (co)maintain at least 1 java packages, be
     Failed, quickly: rachota
     Failed: 
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036387-rachota/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256668-rachota/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -4369,15 +4418,15 @@ according to the package database, you (co)maintain at least 1 java packages, be
   0 passed
   0 even srpm failed
   0 found, but missingin in copr?
-  1 failed, from those 0 failed very quickly
+  1 failed, from those 1 failed very quickly
   Details:
     Passed: N/A
     Missing: N/A
     no-copr: N/A
-    Failed, quickly: N/A
-    Failed: uom-parent
+    Failed, quickly: uom-parent
+    Failed: 
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036447-uom-parent/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256726-uom-parent/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -4405,58 +4454,21 @@ according to the package database, you (co)maintain at least 2 java packages, be
   0 passed
   0 even srpm failed
   0 found, but missingin in copr?
-  2 failed, from those 0 failed very quickly
+  2 failed, from those 1 failed very quickly
   Details:
     Passed: N/A
     Missing: N/A
     no-copr: N/A
-    Failed, quickly: N/A
-    Failed: ceph, xml-maven-plugin
+    Failed, quickly: xml-maven-plugin
+    Failed: ceph
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036056-ceph/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036431-xml-maven-plugin/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256349-ceph/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256711-xml-maven-plugin/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
 https://src.fedoraproject.org/rpms/ceph
 https://src.fedoraproject.org/rpms/xml-maven-plugin
-
-
-*****************************
-gil
-*****************************
-according to the package database, you (co)maintain at least 8 java packages, be aware that we are bumping JDK in rawhide
---
-  5 passed
-  0 even srpm failed
-  5 found, but missingin in copr?
-  3 failed, from those 1 failed very quickly
-  Details:
-    Passed: BareBonesBrowserLaunch, apache-sshd, bouncycastle, jboss-parent, libidn
-    Missing: N/A
-    no-copr: findbugs, findbugs-bcel, jboss-logmanager, plantuml, tomcat-taglibs-standard
-    Failed, quickly: jgrapht
-    Failed: nom-tam-fits, t-digest
-  Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036186-jgrapht/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036376-nom-tam-fits/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036366-t-digest/builder-live.log.gz
-
-MISSING:  N/A
-  Links to all your known java packages:
-https://src.fedoraproject.org/rpms/BareBonesBrowserLaunch
-https://src.fedoraproject.org/rpms/apache-sshd
-https://src.fedoraproject.org/rpms/bouncycastle
-https://src.fedoraproject.org/rpms/findbugs
-https://src.fedoraproject.org/rpms/findbugs-bcel
-https://src.fedoraproject.org/rpms/jboss-logmanager
-https://src.fedoraproject.org/rpms/jboss-parent
-https://src.fedoraproject.org/rpms/jgrapht
-https://src.fedoraproject.org/rpms/libidn
-https://src.fedoraproject.org/rpms/nom-tam-fits
-https://src.fedoraproject.org/rpms/plantuml
-https://src.fedoraproject.org/rpms/t-digest
-https://src.fedoraproject.org/rpms/tomcat-taglibs-standard
 
 
 *****************************
@@ -4567,7 +4579,7 @@ according to the package database, you (co)maintain at least 1 java packages, be
     Failed, quickly: N/A
     Failed: icecat
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036141-icecat/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256432-icecat/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -4665,22 +4677,9 @@ https://src.fedoraproject.org/rpms/vecmath1.2
 *****************************
 tpopela
 *****************************
-according to the package database, you (co)maintain at least 1 java packages, be aware that we are bumping JDK in rawhide
---
-  0 passed
-  0 even srpm failed
-  0 found, but missingin in copr?
-  1 failed, from those 0 failed very quickly
-  Details:
-    Passed: N/A
-    Missing: N/A
-    no-copr: N/A
-    Failed, quickly: N/A
-    Failed: chromium
-  Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036113-chromium/builder-live.log.gz
-
-MISSING:  N/A
+according to the package database, you (co)maintain at least 0 java packages, be aware that we are bumping JDK in rawhide
+You do not have any packages?
+  MISSING:  N/A
   Links to all your known java packages:
 https://src.fedoraproject.org/rpms/chromium
 
@@ -4701,7 +4700,7 @@ according to the package database, you (co)maintain at least 4 java packages, be
     Failed, quickly: N/A
     Failed: healpix
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036067-healpix/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256360-healpix/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -4725,21 +4724,8 @@ https://src.fedoraproject.org/rpms/tomcat
 java-sig
 *****************************
 according to the package database, you (co)maintain at least 3 java packages, be aware that we are bumping JDK in rawhide
---
-  2 passed
-  0 even srpm failed
-  1 found, but missingin in copr?
-  1 failed, from those 0 failed very quickly
-  Details:
-    Passed: mysql-connector-java, swing-layout
-    Missing: N/A
-    no-copr: aalto-xml
-    Failed, quickly: N/A
-    Failed: pdfbox
-  Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036310-pdfbox/builder-live.log.gz
-
-MISSING:  N/A
+Congratulations! All your packages built with java-17-openjdk! Please keep an eye on the mass rebuild anyway.
+  MISSING:  N/A
   Links to all your known java packages:
 https://src.fedoraproject.org/rpms/aalto-xml
 https://src.fedoraproject.org/rpms/mysql-connector-java
@@ -4752,18 +4738,19 @@ odubaj
 *****************************
 according to the package database, you (co)maintain at least 9 java packages, be aware that we are bumping JDK in rawhide
 --
-  8 passed
+  7 passed
   0 even srpm failed
   0 found, but missingin in copr?
-  1 failed, from those 0 failed very quickly
+  2 failed, from those 0 failed very quickly
   Details:
-    Passed: automake, jna, mariadb-java-client, maven-clean-plugin, mysql-connector-java, ongres-scram, postgresql-jdbc, replacer
+    Passed: jna, mariadb-java-client, maven-clean-plugin, mysql-connector-java, ongres-scram, postgresql-jdbc, replacer
     Missing: N/A
     no-copr: N/A
     Failed, quickly: N/A
-    Failed: classloader-leak-test-framework
+    Failed: automake, classloader-leak-test-framework
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036026-classloader-leak-test-framework/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256345-automake/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256320-classloader-leak-test-framework/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -4872,8 +4859,8 @@ according to the package database, you (co)maintain at least 6 java packages, be
     Failed, quickly: N/A
     Failed: hdf5, icecat
   Your logs:
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036141-icecat/builder-live.log.gz
- failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03036139-hdf5/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256432-icecat/builder-live.log.gz
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256430-hdf5/builder-live.log.gz
 
 MISSING:  N/A
   Links to all your known java packages:
@@ -4900,19 +4887,20 @@ jjames
 *****************************
 according to the package database, you (co)maintain at least 33 java packages, be aware that we are bumping JDK in rawhide
 --
-  32 passed
-  1 even srpm failed
+  30 passed
+  2 even srpm failed
   1 found, but missingin in copr?
-  0 failed, from those 1 failed very quickly
+  1 failed, from those 2 failed very quickly
   Details:
-    Passed: antlr3, antlr4-project, apron, bigloo, cocoalib, cvc4, jakarta-json, jansi1, java-diff-utils, javacc-maven-plugin, jline, jline2, jmol, jni-inchi, jol, juniversalchardet, libsvm, maven-doxia, maven-doxia-sitetools, maven-reporting-api, maven-reporting-impl, mojo-executor, naga, pl, scala, scalacheck, spec-version-maven-plugin, string-template-maven-plugin, stringtemplate4, treelayout, xemacs-packages-extra, z3
-    Missing: icu4j
+    Passed: antlr3, antlr4-project, apron, bigloo, cocoalib, cvc4, jakarta-json, jansi1, java-diff-utils, javacc-maven-plugin, jline, jline2, jmol, jol, juniversalchardet, libsvm, maven-doxia, maven-doxia-sitetools, maven-reporting-api, maven-reporting-impl, mojo-executor, naga, pl, scala, scalacheck, spec-version-maven-plugin, string-template-maven-plugin, stringtemplate4, treelayout, z3
+    Missing: icu4j, xemacs-packages-extra
     no-copr: jakarta-ws-rs
-    Failed, quickly: icu4j
-    Failed: 
+    Failed, quickly: icu4j, xemacs-packages-extra
+    Failed: jni-inchi
   Your logs:
+ failed https://download.copr.fedorainfracloud.org/results/jvanek/java17/fedora-rawhide-x86_64/03256478-jni-inchi/builder-live.log.gz
 
-MISSING:  icu4j
+MISSING:  icu4j, xemacs-packages-extra
   Links to all your known java packages:
 https://src.fedoraproject.org/rpms/antlr3
 https://src.fedoraproject.org/rpms/antlr4-project
@@ -4949,7 +4937,4 @@ https://src.fedoraproject.org/rpms/treelayout
 https://src.fedoraproject.org/rpms/xemacs-packages-extra
 https://src.fedoraproject.org/rpms/z3
 
-
-
-Process finished with exit code 0
 
