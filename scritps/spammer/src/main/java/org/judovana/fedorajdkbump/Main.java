@@ -122,7 +122,7 @@ public class Main {
     }
 
     private static String getSubject(TemplateLoader tl) {
-        return tl.getMacro("<AFFECTED_FC>") + " mass rebuild for " + tl.getMacro("<JDK_TO>") + " in copr I. Your personal summary.";
+        return tl.getMacro("<AFFECTED_FC>") + " mass rebuild for " + tl.getMacro("<JDK_TO>") + " in copr III (last). Your personal summary.";
     }
 
     private static String toFedoraEmail(String maintainer) {

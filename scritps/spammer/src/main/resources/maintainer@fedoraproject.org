@@ -2,6 +2,20 @@ Hello fellow java package maintainer <PACKAGER_NAME>!
 
 <TITLE>
 
+
+I had run last kopr mass rebuild for JDK from java-11-openjdk to java-17-openjdk for f36. Please see https://fedoraproject.org/wiki/Changes/Java17.
+Full report is: https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/spammer...
+Diff against rerun II: https://github.com/judovana/FedoraSystemJdkBump/commit/671d5aa1c1e7355f13...
+There is still some ~70 failures.
+This was the last rebuild in copr. Next week or two, I will do my best to run the mass rebuild in Koji, FTBFS will be filled, and unless it goes terribly wrong, the side tag will be merged, and all would be settled.
+
+Thanx a lot to everybody who helped to fix the failures. It was some work, and is highly appreciated.
+Also common issues grown a bit; https://fedoraproject.org/wiki/Changes/Java17#common_issues_packagers_can...
+
+  J.
+
+Old long Story and how to debug:
+
 Short Story:
  * according to the package database, you (co)maintain at least <ITS_PKG_COUNT> java packages, be aware that we are bumping JDK in rawhide
  * Ensure your package builds and runs fine with <JDK_TO> (see the <COPR_URL> )
