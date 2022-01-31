@@ -225,3 +225,18 @@ Eg maven did: https://koji.fedoraproject.org/koji/taskinfo?taskID=81231044
 In that case all affected packages have to be completly removed from copr, and started from scratch
 
 So for that particualr tree: javapackages-tools ->  maven-artifact-transfer -> maven-common-artifact-filters -> maven-plugin-testing -> maven-resolver -> maven -> xmvn   had to be reimported and built in that order
+
+
+# sidetag
+* Request sidetag in fedora rcm
+  * https://docs.fedoraproject.org/en-US/package-maintainers/Package_Update_Guide/#creating_a_side_tag
+  * originally, you had to create ticket, and wait for rcm to create the side tag. Eg: https://pagure.io/releng/issue/9574
+  * nodays you can request anonymous sidetag on your own  eg: `fedpkg request-side-tag --base-tag  f36-build `
+    *  dont forget to `koji wait-repo ...`
+  * if it goes wrong `#fedora-buildsys` is here to help
+  * Yo will be then using it as value for `fedpkg build --target`
+  * You may ask named sidetag from rcm.
+    * create ticket. Eg.: https://pagure.io/releng/issue/10607 
+* Once you have side tag, import crucial packages
+  * usually java X and X-1 (eg 17 already system jdk, and 11 no longer system jdk)
+  * then jpackage tools andmavens and so on (see crucial packages https://github.com/judovana/FedoraSystemJdkBump#add-the-crucial-modified-packages-from-theirs-forksbranches)
