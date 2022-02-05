@@ -6,6 +6,8 @@ if [ "x$ALL_MERGED" == "x" ] ; then
   pkgs[$k]="https://src.fedoraproject.org/forks/jvanek/rpms/$k.git java-17-openjdk"
   k=java-11-openjdk
   pkgs[$k]="https://src.fedoraproject.org/forks/jvanek/rpms/$k.git nolongerSystemJDk"
+  k=java-17-openjdk
+  pkgs[$k]="https://src.fedoraproject.org/forks/jvanek/rpms/$k.git systemJDk"
   k=javapackages-tools
   pkgs[$k]="https://src.fedoraproject.org/forks/mizdebsk/rpms/$k.git jdk17-as-default"
   k=maven
