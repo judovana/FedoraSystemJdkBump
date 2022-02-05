@@ -69,7 +69,7 @@ https://fedoraproject.org/wiki/Changes/Java17
       fedpkg build  --target $TAG --fail-fast --nowait --background 2>&1 | tee -a $RESULTS_DIR/${pkg}.log
       TASK=`cat $RESULTS_DIR/${pkg}.log  | grep "Created task: " | sed "s/.*: //"`
       koji watch-task $TASK >> $RESULTS_DIR/${pkg}.log &
-      sleep 60
+      sleep 20
     else
       fedpkg srpm | tee -a $RESULTS_DIR/${pkg}.log
       rpmbuild --rebuild $pkg*.src.rpm 2>&1 | tee -a $RESULTS_DIR/${pkg}.log # this is nearly irrelevant, as it do not even use sidetag but good enough to verify commit and so
@@ -77,7 +77,7 @@ https://fedoraproject.org/wiki/Changes/Java17
   popd
   rm -rf $pkg
   processes=`ps | wc -l`
-  while [ $processes -gt 20 ] ; do 
+  while [ $processes -gt 60 ] ; do 
     processes=`ps | wc -l`
     echo "to much processes - $processes, waiting"
     sleep 10
