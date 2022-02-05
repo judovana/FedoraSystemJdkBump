@@ -213,18 +213,20 @@ Are you keeping your forks:
 ```
  jdkX noLongerSystemjdk 
  jdkY systemjdk 
- ```
+```
 Up to date? 
-As there is CPU for sure in meantime, you reallyhave to.
+As there is CPU for sure in meantime, you really have to.
 
 # broken buildchain
-It may happen, that crucial pakcage i rawhide will get rebased while your copr is alive.
+It may happen, that crucial package i rawhide will get rebased while your copr is alive.
 
 Eg maven did: https://koji.fedoraproject.org/koji/taskinfo?taskID=81231044
 
-In that case all affected packages have to be completly removed from copr, and started from scratch
+In that case all affected packages have to be completely removed from copr, and started from scratch
 
-So for that particualr tree: javapackages-tools ->  maven-artifact-transfer -> maven-common-artifact-filters -> maven-plugin-testing -> maven-resolver -> maven -> xmvn   had to be reimported and built in that order
+So for that particular tree: javapackages-tools ->  maven-artifact-transfer -> maven-common-artifact-filters -> maven-plugin-testing -> maven-resolver -> maven -> xmvn   had to be reimported and built in that order
+
+Annother issue may be if eg jdk stop building o some architecture. Then it have to be fixed before anything else. Reach to FESCO asap, as it may be ultimate blocker to you, and they are unlikly to delay fedora to much.
 
 
 # sidetag
@@ -234,9 +236,29 @@ So for that particualr tree: javapackages-tools ->  maven-artifact-transfer -> m
   * nodays you can request anonymous sidetag on your own  eg: `fedpkg request-side-tag --base-tag  f36-build `
     *  dont forget to `koji wait-repo ...`
   * if it goes wrong `#fedora-buildsys` is here to help
-  * Yo will be then using it as value for `fedpkg build --target`
+  * You will be then using it as value for `fedpkg build --target <yourSpecialTag>`
   * You may ask named sidetag from rcm.
     * create ticket. Eg.: https://pagure.io/releng/issue/10607 
+    * for system wide change is always better named tag
 * Once you have side tag, import crucial packages
   * usually java X and X-1 (eg 17 already system jdk, and 11 no longer system jdk)
   * then jpackage tools andmavens and so on (see crucial packages https://github.com/judovana/FedoraSystemJdkBump#add-the-crucial-modified-packages-from-theirs-forksbranches)
+  * It is good idea to exlude a long running packages and to build them mamnualy. 
+  * the https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/massRebuild/massBuild.sh is doing all of that
+    * read it!
+    * there are two variables
+      * targettedSelection - to allow you to run only selected packages
+      * DO - while not true, will not push nor koji build anything
+      * TAG - which keeps the tag rcm gave you
+  * Once you have all crucial dependencies, try that some java package of yours behave correctly
+    * builds by system JDK
+    * is in side tag
+    * have proper commit and changelog messages
+    * work
+  * once you are happy, adapt DO and targettedSelection (and amybe TAG)
+    * run https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/massRebuild/massBuild.sh
+    * go to sleep. It usually takes some 10-20 hours
+  * KEEP LOGS!!! You will need them for FTBFS bug reporting
+
+# FTBFS bug creation and side tag merging
+

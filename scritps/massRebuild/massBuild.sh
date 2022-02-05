@@ -16,6 +16,9 @@ readonly SCRIPT_DIR="$( cd -P "$( dirname "$SCRIPT_SOURCE" )" && pwd )"
 set -e
 set -o pipefail
 TAG=f36-java17
+targettedSelection="jpanoramamaker"
+DO="true"
+
 FILE_WITH_PKGS="$SCRIPT_DIR/../fillCopr/exemplarResults/depndent-packages.jbump"
 
 # this gives us aray of packages which needs manual treatment.
@@ -37,33 +40,47 @@ echo -n " * "
 cat $FILE_WITH_PKGS | wc -l
 echo "total known packages afer exclusion: "
 echo -n " * "
-cat $FILE_WITH_PKGS | grep  -v $regex | wc -l
+cat $FILE_WITH_PKGS | grep  -v $regex | grep "$targettedSelection" | wc -l
 echo "dont forget to handle following packages manually!"
 echo " * " ${!pkgs[@]}
 RESULTS_DIR="$PWD/results"
-echo "press yes and enter. If you are not proven packager, it will fail. This will discard all old results $RESULTS_DIR"
+echo "DO=$DO targettedSelection=$targettedSelection TAG=$TAG"
+echo "Are you kinit into FEDORAPROJECT.ORG? Are you proven packager?"
+echo "type yes and enter. If you are not proven packager, it will fail on foreign pkgs. This will discard all old results $RESULTS_DIR"
 read
 if [ ! "x${REPLY}" = "xyes" ] ; then exit 1 ; fi
 rm -rf "$RESULTS_DIR"
 mkdir  "$RESULTS_DIR"
 echo "starting mass rebuild for $TAG"
+set +e # disputable... but yo do not want to lost 24h long script becasue of minute network issue i second hour
 #inspired by https://github.com/hroncok/mini-mass-rebuild ... fedpkg-bump-build.sh I think
-for pkg in `cat $FILE_WITH_PKGS | grep  -v $regex ` ; do 
+for pkg in `cat $FILE_WITH_PKGS | grep  -v $regex  | grep "$targettedSelection"` ; do 
   fedpkg clone $pkg  2>&1 | tee $RESULTS_DIR/${pkg}.log
   pushd $pkg
-    MSG="Rebuilt for java-17-openjdk as system jdk"
-    DO="false"
-    rpmdev-bumpspec -c "$MSG" $pkg.spec | tee -a $RESULTS_DIR/${pkg}.log
-    git commit ${pkg}.spec -m "$MSG" | tee -a $RESULTS_DIR/${pkg}.log
+    MSG_TITLE="Rebuilt for java-17-openjdk as system jdk"
+    MSG="$MSG_TITLE
+
+https://fedoraproject.org/wiki/Changes/Java17
+"
+    rpmdev-bumpspec -c "$MSG_TITLE" $pkg.spec | tee -a $RESULTS_DIR/${pkg}.log
+    git commit --allow-empty ${pkg}.spec -m "$MSG" | tee -a $RESULTS_DIR/${pkg}.log
     if [ "x$DO" == "xtrue" ] ; then
       git push | tee -a $RESULTS_DIR/${pkg}.log
       fedpkg build  --target $TAG --fail-fast --nowait --background 2>&1 | tee -a $RESULTS_DIR/${pkg}.log
+      TASK=`cat $RESULTS_DIR/${pkg}.log  | grep "Created task: " | sed "s/.*: //"`
+      koji watch-task $TASK >> $RESULTS_DIR/${pkg}.log &
       sleep 60
     else
       fedpkg srpm | tee -a $RESULTS_DIR/${pkg}.log
-      rpmbuild --rebuild $pkg*.src.rpm 2>&1 | tee -a $RESULTS_DIR/${pkg}.log
+      rpmbuild --rebuild $pkg*.src.rpm 2>&1 | tee -a $RESULTS_DIR/${pkg}.log # this is nearly irrelevant, as it do not even use sidetag but good enough to verify commit and so
     fi
   popd
   rm -rf $pkg
+  processes=`ps | wc -l`
+  while [ $processes -gt 20 ] ; do 
+    processes=`ps | wc -l`
+    echo "to much processes - $processes, waiting"
+    sleep 10
+  done
 done
 
