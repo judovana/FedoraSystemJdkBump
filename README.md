@@ -229,7 +229,10 @@ So for that particular tree: javapackages-tools ->  maven-artifact-transfer -> m
 Annother issue may be if eg jdk stop building o some architecture. Then it have to be fixed before anything else. Reach to FESCO asap, as it may be ultimate blocker to you, and they are unlikly to delay fedora to much.
 
 
-# sidetag
+# sidetag and mas rebuild
+* dounle check the massBuild.sh processResults.sh submitBug.py
+  * for hardcoded tag and others!
+  * I was tryng to keep it on one palce.. but...
 * Request sidetag in fedora rcm
   * https://docs.fedoraproject.org/en-US/package-maintainers/Package_Update_Guide/#creating_a_side_tag
   * originally, you had to create ticket, and wait for rcm to create the side tag. Eg: https://pagure.io/releng/issue/9574
@@ -242,23 +245,50 @@ Annother issue may be if eg jdk stop building o some architecture. Then it have 
     * for system wide change is always better named tag
 * Once you have side tag, import crucial packages
   * usually java X and X-1 (eg 17 already system jdk, and 11 no longer system jdk)
-  * then jpackage tools andmavens and so on (see crucial packages https://github.com/judovana/FedoraSystemJdkBump#add-the-crucial-modified-packages-from-theirs-forksbranches)
+  * then jpackage tools and mavens and so on (see crucial packages https://github.com/judovana/FedoraSystemJdkBump#add-the-crucial-modified-packages-from-theirs-forksbranches)
   * It is good idea to exlude a long running packages and to build them mamnualy. 
   * the https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/massRebuild/massBuild.sh is doing all of that
     * read it!
-    * there are two variables
+    * there are three hardcoded variables
       * targettedSelection - to allow you to run only selected packages
       * DO - while not true, will not push nor koji build anything
       * TAG - which keeps the tag rcm gave you
   * Once you have all crucial dependencies, try that some java package of yours behave correctly
-    * builds by system JDK
+    * really does build by system JDK
     * is in side tag
     * have proper commit and changelog messages
-    * work
+    * works
   * once you are happy, adapt DO and targettedSelection (and amybe TAG)
     * run https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/massRebuild/massBuild.sh
+    *  in paralel with execute copy of massBuild.sh with selected, super log running packages excluded from massBuild.sh (https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/massRebuild/massBuild.sh#L33 )
+      * They would kill the main builder for several days if used frongly
+      * merge the results of this manual rerun to man results once also done
     * go to sleep. It usually takes some 10-20 hours
   * KEEP LOGS!!! You will need them for FTBFS bug reporting
 
 # FTBFS bug creation and side tag merging
+* once the mass rebuild finishes
+  * you now have directory results full of logs
+  * execute https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/massRebuild/processResults.sh dir/with/above/results
+  * (or any other dir as you need)
+  * it can print both intermediate and final results
+  * fix what you wish, rebuild whats necessary
+* once you are happy with state ofyour results, sumit FTBFS bugs:
+  * sh   https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/massRebuild/processResults.sh results  dir/with/results  "bzApiKey"    systemWideChnageBzId
+  * eg: sh   processResults.sh results  "pC....Q7"    2024265
+    * There are some control variables in it, just read it
+  * the above calls python script to submit bugzillas: https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/massRebuild/submitBug.py
+    *  is usable on its own.. but why...
+    *  Still you may need to fix it
 
+# final steps
+* keep en eye on bugs
+* if a reasonable small number only failed, chat to fesco and rcm
+  * Merge the tag and you are don
+* help to fix the bugs
+* fix them
+* if to much (unfixable number) of pkgs failed
+  *  consult with fesco and java engineerging, whether to withdraw the delay the change
+
+
+Once you have merged the side tag and fixed all the FTBFS bugs, you are done
