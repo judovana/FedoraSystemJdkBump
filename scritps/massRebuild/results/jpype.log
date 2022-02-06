@@ -1,0 +1,45 @@
+Cloning into 'jpype'...
+[rawhide 23914db] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building jpype-1.3.0-3.fc36 for f36-java17
+Created task: 82430049
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82430049
+Watching tasks (this may be safely interrupted)...
+82430049 build (f36-java17, /rpms/jpype.git:23914dbe81259f9377f9e4e6bec10ee03328faed): free
+82430049 build (f36-java17, /rpms/jpype.git:23914dbe81259f9377f9e4e6bec10ee03328faed): free -> open (buildvm-ppc64le-27.iad2.fedoraproject.org)
+  82430086 buildSRPMFromSCM (/rpms/jpype.git:23914dbe81259f9377f9e4e6bec10ee03328faed): free
+  82430086 buildSRPMFromSCM (/rpms/jpype.git:23914dbe81259f9377f9e4e6bec10ee03328faed): free -> open (buildvm-ppc64le-09.iad2.fedoraproject.org)
+  82430086 buildSRPMFromSCM (/rpms/jpype.git:23914dbe81259f9377f9e4e6bec10ee03328faed): open (buildvm-ppc64le-09.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82430220 buildArch (jpype-1.3.0-3.fc36.src.rpm, i686): free
+  82430221 buildArch (jpype-1.3.0-3.fc36.src.rpm, x86_64): free
+  82430222 buildArch (jpype-1.3.0-3.fc36.src.rpm, aarch64): free
+  82430223 buildArch (jpype-1.3.0-3.fc36.src.rpm, ppc64le): free
+  82430224 buildArch (jpype-1.3.0-3.fc36.src.rpm, s390x): open (buildvm-s390x-03.s390.fedoraproject.org)
+  82430219 buildArch (jpype-1.3.0-3.fc36.src.rpm, armv7hl): open (buildvm-a32-23.iad2.fedoraproject.org)
+  82430222 buildArch (jpype-1.3.0-3.fc36.src.rpm, aarch64): free -> open (buildvm-a64-13.iad2.fedoraproject.org)
+  82430220 buildArch (jpype-1.3.0-3.fc36.src.rpm, i686): free -> open (buildhw-x86-14.iad2.fedoraproject.org)
+  82430221 buildArch (jpype-1.3.0-3.fc36.src.rpm, x86_64): free -> open (buildvm-x86-27.iad2.fedoraproject.org)
+  82430223 buildArch (jpype-1.3.0-3.fc36.src.rpm, ppc64le): free -> open (buildvm-ppc64le-35.iad2.fedoraproject.org)
+  82430224 buildArch (jpype-1.3.0-3.fc36.src.rpm, s390x): open (buildvm-s390x-03.s390.fedoraproject.org) -> closed
+  0 free  6 open  2 done  0 failed
+  82430221 buildArch (jpype-1.3.0-3.fc36.src.rpm, x86_64): open (buildvm-x86-27.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch x86_64), mock exited with status 1; see build.log or root.log for more information
+  Relevant logs:
+  https://kojipkgs.fedoraproject.org/work/tasks/221/82430221/mock_output.log
+  https://kojipkgs.fedoraproject.org/work/tasks/221/82430221/hw_info.log
+  https://kojipkgs.fedoraproject.org/work/tasks/221/82430221/state.log
+  https://kojipkgs.fedoraproject.org/work/tasks/221/82430221/build.log
+  https://kojipkgs.fedoraproject.org/work/tasks/221/82430221/root.log
+  0 free  5 open  2 done  1 failed
+  82430222 buildArch (jpype-1.3.0-3.fc36.src.rpm, aarch64): open (buildvm-a64-13.iad2.fedoraproject.org) -> canceled
+  0 free  4 open  3 done  1 failed
+  82430223 buildArch (jpype-1.3.0-3.fc36.src.rpm, ppc64le): open (buildvm-ppc64le-35.iad2.fedoraproject.org) -> canceled
+  0 free  3 open  4 done  1 failed
+  82430219 buildArch (jpype-1.3.0-3.fc36.src.rpm, armv7hl): open (buildvm-a32-23.iad2.fedoraproject.org) -> canceled
+  0 free  2 open  5 done  1 failed
+82430049 build (f36-java17, /rpms/jpype.git:23914dbe81259f9377f9e4e6bec10ee03328faed): open (buildvm-ppc64le-27.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch x86_64), mock exited with status 1; see build.log or root.log for more information
+  0 free  1 open  5 done  2 failed
+  82430220 buildArch (jpype-1.3.0-3.fc36.src.rpm, i686): open (buildhw-x86-14.iad2.fedoraproject.org) -> canceled
+  0 free  0 open  6 done  2 failed
+
+82430049 build (f36-java17, /rpms/jpype.git:23914dbe81259f9377f9e4e6bec10ee03328faed) failed

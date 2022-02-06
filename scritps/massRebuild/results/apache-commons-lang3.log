@@ -1,0 +1,21 @@
+Cloning into 'apache-commons-lang3'...
+[rawhide a46dbb7] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building apache-commons-lang3-3.12.0-5.fc36 for f36-java17
+Created task: 82423345
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82423345
+Watching tasks (this may be safely interrupted)...
+82423345 build (f36-java17, /rpms/apache-commons-lang3.git:a46dbb72a95240468681a3a616d01466429bbfe7): free
+82423345 build (f36-java17, /rpms/apache-commons-lang3.git:a46dbb72a95240468681a3a616d01466429bbfe7): free -> open (buildvm-x86-18.iad2.fedoraproject.org)
+  82423347 buildSRPMFromSCM (/rpms/apache-commons-lang3.git:a46dbb72a95240468681a3a616d01466429bbfe7): free
+  82423347 buildSRPMFromSCM (/rpms/apache-commons-lang3.git:a46dbb72a95240468681a3a616d01466429bbfe7): free -> open (buildvm-x86-15.iad2.fedoraproject.org)
+  82423347 buildSRPMFromSCM (/rpms/apache-commons-lang3.git:a46dbb72a95240468681a3a616d01466429bbfe7): open (buildvm-x86-15.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82423426 buildArch (apache-commons-lang3-3.12.0-5.fc36.src.rpm, noarch): open (buildvm-ppc64le-33.iad2.fedoraproject.org)
+  82423426 buildArch (apache-commons-lang3-3.12.0-5.fc36.src.rpm, noarch): open (buildvm-ppc64le-33.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  82423510 tagBuild (noarch): closed
+82423345 build (f36-java17, /rpms/apache-commons-lang3.git:a46dbb72a95240468681a3a616d01466429bbfe7): open (buildvm-x86-18.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+82423345 build (f36-java17, /rpms/apache-commons-lang3.git:a46dbb72a95240468681a3a616d01466429bbfe7) completed successfully

@@ -1,0 +1,23 @@
+Cloning into 'libserializer'...
+[rawhide 2e58754] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building libserializer-1.1.2-33.fc36 for f36-java17
+Created task: 82430719
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82430719
+Watching tasks (this may be safely interrupted)...
+82430719 build (f36-java17, /rpms/libserializer.git:2e58754b6a4f7cd31c15f3a9301915b253cfd6ae): free
+82430719 build (f36-java17, /rpms/libserializer.git:2e58754b6a4f7cd31c15f3a9301915b253cfd6ae): free -> open (buildvm-a64-12.iad2.fedoraproject.org)
+  82430736 buildSRPMFromSCM (/rpms/libserializer.git:2e58754b6a4f7cd31c15f3a9301915b253cfd6ae): free
+  82430736 buildSRPMFromSCM (/rpms/libserializer.git:2e58754b6a4f7cd31c15f3a9301915b253cfd6ae): free -> open (buildvm-ppc64le-21.iad2.fedoraproject.org)
+  82430736 buildSRPMFromSCM (/rpms/libserializer.git:2e58754b6a4f7cd31c15f3a9301915b253cfd6ae): open (buildvm-ppc64le-21.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82430796 buildArch (libserializer-1.1.2-33.fc36.src.rpm, noarch): open (buildvm-x86-19.iad2.fedoraproject.org)
+  82430796 buildArch (libserializer-1.1.2-33.fc36.src.rpm, noarch): open (buildvm-x86-19.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  82430816 tagBuild (noarch): open (buildvm-ppc64le-07.iad2.fedoraproject.org)
+  82430816 tagBuild (noarch): open (buildvm-ppc64le-07.iad2.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+82430719 build (f36-java17, /rpms/libserializer.git:2e58754b6a4f7cd31c15f3a9301915b253cfd6ae): open (buildvm-a64-12.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+82430719 build (f36-java17, /rpms/libserializer.git:2e58754b6a4f7cd31c15f3a9301915b253cfd6ae) completed successfully

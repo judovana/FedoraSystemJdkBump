@@ -1,0 +1,22 @@
+Cloning into 'javaewah'...
+[rawhide 7b651f6] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building javaewah-1.1.13-3.fc36 for f36-java17
+Created task: 82428125
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82428125
+Watching tasks (this may be safely interrupted)...
+82428125 build (f36-java17, /rpms/javaewah.git:7b651f60df8f50f9d5dcf6186ea6139c001aa582): free
+82428125 build (f36-java17, /rpms/javaewah.git:7b651f60df8f50f9d5dcf6186ea6139c001aa582): free -> open (buildvm-a32-27.iad2.fedoraproject.org)
+  82428134 buildSRPMFromSCM (/rpms/javaewah.git:7b651f60df8f50f9d5dcf6186ea6139c001aa582): free
+  82428134 buildSRPMFromSCM (/rpms/javaewah.git:7b651f60df8f50f9d5dcf6186ea6139c001aa582): free -> open (buildvm-ppc64le-04.iad2.fedoraproject.org)
+  82428134 buildSRPMFromSCM (/rpms/javaewah.git:7b651f60df8f50f9d5dcf6186ea6139c001aa582): open (buildvm-ppc64le-04.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82428298 buildArch (javaewah-1.1.13-3.fc36.src.rpm, noarch): free
+  82428298 buildArch (javaewah-1.1.13-3.fc36.src.rpm, noarch): free -> open (buildvm-ppc64le-06.iad2.fedoraproject.org)
+  82428298 buildArch (javaewah-1.1.13-3.fc36.src.rpm, noarch): open (buildvm-ppc64le-06.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  82428530 tagBuild (noarch): closed
+82428125 build (f36-java17, /rpms/javaewah.git:7b651f60df8f50f9d5dcf6186ea6139c001aa582): open (buildvm-a32-27.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+82428125 build (f36-java17, /rpms/javaewah.git:7b651f60df8f50f9d5dcf6186ea6139c001aa582) completed successfully

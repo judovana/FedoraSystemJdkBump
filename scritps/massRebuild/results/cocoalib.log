@@ -1,0 +1,43 @@
+Cloning into 'cocoalib'...
+[rawhide 1cffe9a] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building cocoalib-0.99717-3.fc36 for f36-java17
+Created task: 82424699
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82424699
+Watching tasks (this may be safely interrupted)...
+82424699 build (f36-java17, /rpms/cocoalib.git:1cffe9ad3249bab1307f9048f3d0ae2ecea61352): free
+82424699 build (f36-java17, /rpms/cocoalib.git:1cffe9ad3249bab1307f9048f3d0ae2ecea61352): free -> open (buildvm-a32-23.iad2.fedoraproject.org)
+  82424702 buildSRPMFromSCM (/rpms/cocoalib.git:1cffe9ad3249bab1307f9048f3d0ae2ecea61352): free
+  82424702 buildSRPMFromSCM (/rpms/cocoalib.git:1cffe9ad3249bab1307f9048f3d0ae2ecea61352): free -> open (buildvm-ppc64le-12.iad2.fedoraproject.org)
+  82424702 buildSRPMFromSCM (/rpms/cocoalib.git:1cffe9ad3249bab1307f9048f3d0ae2ecea61352): open (buildvm-ppc64le-12.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82424978 buildArch (cocoalib-0.99717-3.fc36.src.rpm, s390x): free
+  82424971 buildArch (cocoalib-0.99717-3.fc36.src.rpm, armv7hl): free
+  82424973 buildArch (cocoalib-0.99717-3.fc36.src.rpm, i686): free
+  82424975 buildArch (cocoalib-0.99717-3.fc36.src.rpm, x86_64): free
+  82424977 buildArch (cocoalib-0.99717-3.fc36.src.rpm, ppc64le): free
+  82424976 buildArch (cocoalib-0.99717-3.fc36.src.rpm, aarch64): open (buildhw-a64-23.iad2.fedoraproject.org)
+  82424978 buildArch (cocoalib-0.99717-3.fc36.src.rpm, s390x): free -> open (buildvm-s390x-04.s390.fedoraproject.org)
+  82424971 buildArch (cocoalib-0.99717-3.fc36.src.rpm, armv7hl): free -> open (buildvm-a32-17.iad2.fedoraproject.org)
+  82424973 buildArch (cocoalib-0.99717-3.fc36.src.rpm, i686): free -> open (buildhw-x86-01.iad2.fedoraproject.org)
+  82424975 buildArch (cocoalib-0.99717-3.fc36.src.rpm, x86_64): free -> open (buildvm-x86-30.iad2.fedoraproject.org)
+  82424977 buildArch (cocoalib-0.99717-3.fc36.src.rpm, ppc64le): free -> open (buildvm-ppc64le-13.iad2.fedoraproject.org)
+  82424973 buildArch (cocoalib-0.99717-3.fc36.src.rpm, i686): open (buildhw-x86-01.iad2.fedoraproject.org) -> closed
+  0 free  6 open  2 done  0 failed
+  82424976 buildArch (cocoalib-0.99717-3.fc36.src.rpm, aarch64): open (buildhw-a64-23.iad2.fedoraproject.org) -> closed
+  0 free  5 open  3 done  0 failed
+  82424975 buildArch (cocoalib-0.99717-3.fc36.src.rpm, x86_64): open (buildvm-x86-30.iad2.fedoraproject.org) -> closed
+  0 free  4 open  4 done  0 failed
+  82424977 buildArch (cocoalib-0.99717-3.fc36.src.rpm, ppc64le): open (buildvm-ppc64le-13.iad2.fedoraproject.org) -> closed
+  0 free  3 open  5 done  0 failed
+  82424978 buildArch (cocoalib-0.99717-3.fc36.src.rpm, s390x): open (buildvm-s390x-04.s390.fedoraproject.org) -> closed
+  0 free  2 open  6 done  0 failed
+  82429048 tagBuild (noarch): free
+  82424971 buildArch (cocoalib-0.99717-3.fc36.src.rpm, armv7hl): open (buildvm-a32-17.iad2.fedoraproject.org) -> closed
+  1 free  1 open  7 done  0 failed
+  82429048 tagBuild (noarch): free -> closed
+  0 free  1 open  8 done  0 failed
+82424699 build (f36-java17, /rpms/cocoalib.git:1cffe9ad3249bab1307f9048f3d0ae2ecea61352): open (buildvm-a32-23.iad2.fedoraproject.org) -> closed
+  0 free  0 open  9 done  0 failed
+
+82424699 build (f36-java17, /rpms/cocoalib.git:1cffe9ad3249bab1307f9048f3d0ae2ecea61352) completed successfully

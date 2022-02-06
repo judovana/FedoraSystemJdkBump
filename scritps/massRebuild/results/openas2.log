@@ -1,0 +1,27 @@
+Cloning into 'openas2'...
+[rawhide 58d26c9] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building openas2-2.10.0-12.fc36 for f36-java17
+Created task: 82432475
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82432475
+Watching tasks (this may be safely interrupted)...
+82432475 build (f36-java17, /rpms/openas2.git:58d26c9e4618ec774a8aa821a4b0bf96e76d9946): free
+82432475 build (f36-java17, /rpms/openas2.git:58d26c9e4618ec774a8aa821a4b0bf96e76d9946): free -> open (buildvm-x86-11.iad2.fedoraproject.org)
+  82432535 buildSRPMFromSCM (/rpms/openas2.git:58d26c9e4618ec774a8aa821a4b0bf96e76d9946): free
+  82432535 buildSRPMFromSCM (/rpms/openas2.git:58d26c9e4618ec774a8aa821a4b0bf96e76d9946): free -> open (buildvm-x86-06.iad2.fedoraproject.org)
+  82432653 buildArch (openas2-2.10.0-12.fc36.src.rpm, noarch): free
+  82432535 buildSRPMFromSCM (/rpms/openas2.git:58d26c9e4618ec774a8aa821a4b0bf96e76d9946): open (buildvm-x86-06.iad2.fedoraproject.org) -> closed
+  1 free  1 open  1 done  0 failed
+  82432653 buildArch (openas2-2.10.0-12.fc36.src.rpm, noarch): free -> open (buildvm-ppc64le-05.iad2.fedoraproject.org)
+82432475 build (f36-java17, /rpms/openas2.git:58d26c9e4618ec774a8aa821a4b0bf96e76d9946): open (buildvm-x86-11.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 30; see root.log for more information
+  0 free  1 open  1 done  1 failed
+  82432653 buildArch (openas2-2.10.0-12.fc36.src.rpm, noarch): open (buildvm-ppc64le-05.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 30; see root.log for more information
+  Relevant logs:
+  https://kojipkgs.fedoraproject.org/work/tasks/2653/82432653/mock_output.log
+  https://kojipkgs.fedoraproject.org/work/tasks/2653/82432653/hw_info.log
+  https://kojipkgs.fedoraproject.org/work/tasks/2653/82432653/state.log
+  https://kojipkgs.fedoraproject.org/work/tasks/2653/82432653/build.log
+  https://kojipkgs.fedoraproject.org/work/tasks/2653/82432653/root.log
+  0 free  0 open  1 done  2 failed
+
+82432475 build (f36-java17, /rpms/openas2.git:58d26c9e4618ec774a8aa821a4b0bf96e76d9946) failed

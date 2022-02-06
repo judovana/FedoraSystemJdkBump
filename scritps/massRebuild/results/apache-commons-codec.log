@@ -1,0 +1,19 @@
+Cloning into 'apache-commons-codec'...
+[rawhide 77bac45] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building apache-commons-codec-1.15-6.fc36 for f36-java17
+Created task: 82423267
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82423267
+Watching tasks (this may be safely interrupted)...
+82423267 build (f36-java17, /rpms/apache-commons-codec.git:77bac452581000068d18f2eee51ee40c4f635d46): open (buildvm-ppc64le-21.iad2.fedoraproject.org)
+  82423269 buildSRPMFromSCM (/rpms/apache-commons-codec.git:77bac452581000068d18f2eee51ee40c4f635d46): open (buildvm-ppc64le-38.iad2.fedoraproject.org)
+  82423269 buildSRPMFromSCM (/rpms/apache-commons-codec.git:77bac452581000068d18f2eee51ee40c4f635d46): open (buildvm-ppc64le-38.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82423282 buildArch (apache-commons-codec-1.15-6.fc36.src.rpm, noarch): open (buildvm-ppc64le-21.iad2.fedoraproject.org)
+  82423282 buildArch (apache-commons-codec-1.15-6.fc36.src.rpm, noarch): open (buildvm-ppc64le-21.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  82423371 tagBuild (noarch): closed
+82423267 build (f36-java17, /rpms/apache-commons-codec.git:77bac452581000068d18f2eee51ee40c4f635d46): open (buildvm-ppc64le-21.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+82423267 build (f36-java17, /rpms/apache-commons-codec.git:77bac452581000068d18f2eee51ee40c4f635d46) completed successfully

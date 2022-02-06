@@ -1,0 +1,26 @@
+Cloning into 'test-interface'...
+[rawhide 2b7cf10] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+warning: extra tokens at the end of %else directive in line 49:  %else # building without sbt
+
+warning: extra tokens at the end of %else directive in line 63:  %else # building without sbt
+
+
+Building test-interface-1.0-20.fc36 for f36-java17
+Created task: 82435140
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82435140
+Watching tasks (this may be safely interrupted)...
+82435140 build (f36-java17, /rpms/test-interface.git:2b7cf1029a8eae3fa58fef7c1ea2094660a35eef): free
+82435140 build (f36-java17, /rpms/test-interface.git:2b7cf1029a8eae3fa58fef7c1ea2094660a35eef): free -> open (buildvm-ppc64le-26.iad2.fedoraproject.org)
+  82435144 buildSRPMFromSCM (/rpms/test-interface.git:2b7cf1029a8eae3fa58fef7c1ea2094660a35eef): open (buildvm-ppc64le-40.iad2.fedoraproject.org)
+  82435144 buildSRPMFromSCM (/rpms/test-interface.git:2b7cf1029a8eae3fa58fef7c1ea2094660a35eef): open (buildvm-ppc64le-40.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82435178 buildArch (test-interface-1.0-20.fc36.src.rpm, noarch): free
+  82435178 buildArch (test-interface-1.0-20.fc36.src.rpm, noarch): free -> open (buildvm-ppc64le-20.iad2.fedoraproject.org)
+  82435178 buildArch (test-interface-1.0-20.fc36.src.rpm, noarch): open (buildvm-ppc64le-20.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  82435201 tagBuild (noarch): closed
+82435140 build (f36-java17, /rpms/test-interface.git:2b7cf1029a8eae3fa58fef7c1ea2094660a35eef): open (buildvm-ppc64le-26.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+82435140 build (f36-java17, /rpms/test-interface.git:2b7cf1029a8eae3fa58fef7c1ea2094660a35eef) completed successfully

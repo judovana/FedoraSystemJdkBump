@@ -1,0 +1,23 @@
+Cloning into 'xjparse'...
+[rawhide 09a1a4e] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building xjparse-1.0-27.fc36 for f36-java17
+Created task: 82435679
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82435679
+Watching tasks (this may be safely interrupted)...
+82435679 build (f36-java17, /rpms/xjparse.git:09a1a4ea4367f56ec67e16ac97e0d8f77943f80f): free
+82435679 build (f36-java17, /rpms/xjparse.git:09a1a4ea4367f56ec67e16ac97e0d8f77943f80f): free -> open (buildvm-ppc64le-32.iad2.fedoraproject.org)
+  82435692 buildSRPMFromSCM (/rpms/xjparse.git:09a1a4ea4367f56ec67e16ac97e0d8f77943f80f): free
+  82435692 buildSRPMFromSCM (/rpms/xjparse.git:09a1a4ea4367f56ec67e16ac97e0d8f77943f80f): free -> open (buildvm-ppc64le-32.iad2.fedoraproject.org)
+  82435692 buildSRPMFromSCM (/rpms/xjparse.git:09a1a4ea4367f56ec67e16ac97e0d8f77943f80f): open (buildvm-ppc64le-32.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82435742 buildArch (xjparse-1.0-27.fc36.src.rpm, noarch): open (buildvm-ppc64le-32.iad2.fedoraproject.org)
+  82435742 buildArch (xjparse-1.0-27.fc36.src.rpm, noarch): open (buildvm-ppc64le-32.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  82435788 tagBuild (noarch): free
+82435679 build (f36-java17, /rpms/xjparse.git:09a1a4ea4367f56ec67e16ac97e0d8f77943f80f): open (buildvm-ppc64le-32.iad2.fedoraproject.org) -> closed
+  1 free  0 open  3 done  0 failed
+  82435788 tagBuild (noarch): free -> closed
+  0 free  0 open  4 done  0 failed
+
+82435679 build (f36-java17, /rpms/xjparse.git:09a1a4ea4367f56ec67e16ac97e0d8f77943f80f) completed successfully

@@ -1,0 +1,21 @@
+Cloning into 'maven-reporting-api'...
+[rawhide 99cdd6d] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building maven-reporting-api-3.0-24.fc36 for f36-java17
+Created task: 82431664
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82431664
+Watching tasks (this may be safely interrupted)...
+82431664 build (f36-java17, /rpms/maven-reporting-api.git:99cdd6d7cddce98bae6b0994200b6cab0a87e791): free
+82431664 build (f36-java17, /rpms/maven-reporting-api.git:99cdd6d7cddce98bae6b0994200b6cab0a87e791): free -> open (buildvm-x86-15.iad2.fedoraproject.org)
+  82431665 buildSRPMFromSCM (/rpms/maven-reporting-api.git:99cdd6d7cddce98bae6b0994200b6cab0a87e791): free
+  82431665 buildSRPMFromSCM (/rpms/maven-reporting-api.git:99cdd6d7cddce98bae6b0994200b6cab0a87e791): free -> open (buildvm-x86-15.iad2.fedoraproject.org)
+  82431665 buildSRPMFromSCM (/rpms/maven-reporting-api.git:99cdd6d7cddce98bae6b0994200b6cab0a87e791): open (buildvm-x86-15.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82431730 buildArch (maven-reporting-api-3.0-24.fc36.src.rpm, noarch): open (buildvm-ppc64le-35.iad2.fedoraproject.org)
+  82431730 buildArch (maven-reporting-api-3.0-24.fc36.src.rpm, noarch): open (buildvm-ppc64le-35.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  82431804 tagBuild (noarch): closed
+82431664 build (f36-java17, /rpms/maven-reporting-api.git:99cdd6d7cddce98bae6b0994200b6cab0a87e791): open (buildvm-x86-15.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+82431664 build (f36-java17, /rpms/maven-reporting-api.git:99cdd6d7cddce98bae6b0994200b6cab0a87e791) completed successfully

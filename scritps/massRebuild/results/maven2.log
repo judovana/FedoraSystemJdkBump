@@ -1,0 +1,20 @@
+Cloning into 'maven2'...
+[rawhide 71fe06f] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building maven2-2.2.1-70.fc36 for f36-java17
+Created task: 82430906
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82430906
+Watching tasks (this may be safely interrupted)...
+82430906 build (f36-java17, /rpms/maven2.git:71fe06fd44720d28d06444def65dd846eb1c073f): free
+82430906 build (f36-java17, /rpms/maven2.git:71fe06fd44720d28d06444def65dd846eb1c073f): free -> open (buildvm-ppc64le-37.iad2.fedoraproject.org)
+  82430914 buildSRPMFromSCM (/rpms/maven2.git:71fe06fd44720d28d06444def65dd846eb1c073f): open (buildvm-ppc64le-37.iad2.fedoraproject.org)
+  82430914 buildSRPMFromSCM (/rpms/maven2.git:71fe06fd44720d28d06444def65dd846eb1c073f): open (buildvm-ppc64le-37.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82430965 buildArch (maven2-2.2.1-70.fc36.src.rpm, noarch): open (buildvm-x86-28.iad2.fedoraproject.org)
+  82430965 buildArch (maven2-2.2.1-70.fc36.src.rpm, noarch): open (buildvm-x86-28.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  82431038 tagBuild (noarch): closed
+82430906 build (f36-java17, /rpms/maven2.git:71fe06fd44720d28d06444def65dd846eb1c073f): open (buildvm-ppc64le-37.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+82430906 build (f36-java17, /rpms/maven2.git:71fe06fd44720d28d06444def65dd846eb1c073f) completed successfully

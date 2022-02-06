@@ -1,0 +1,41 @@
+Cloning into 'bigloo'...
+[rawhide a9b6762] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building bigloo-4.4c-3.2.fc36 for f36-java17
+Created task: 82423917
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82423917
+Watching tasks (this may be safely interrupted)...
+82423917 build (f36-java17, /rpms/bigloo.git:a9b676242e3cdf62b0a4045abac3edb57e6712a5): free
+82423917 build (f36-java17, /rpms/bigloo.git:a9b676242e3cdf62b0a4045abac3edb57e6712a5): free -> open (buildhw-a64-20.iad2.fedoraproject.org)
+  82423967 buildSRPMFromSCM (/rpms/bigloo.git:a9b676242e3cdf62b0a4045abac3edb57e6712a5): free
+  82423967 buildSRPMFromSCM (/rpms/bigloo.git:a9b676242e3cdf62b0a4045abac3edb57e6712a5): free -> open (buildvm-ppc64le-21.iad2.fedoraproject.org)
+  82423967 buildSRPMFromSCM (/rpms/bigloo.git:a9b676242e3cdf62b0a4045abac3edb57e6712a5): open (buildvm-ppc64le-21.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82424229 buildArch (bigloo-4.4c-3.2.fc36.src.rpm, s390x): open (buildvm-s390x-34.s390.fedoraproject.org)
+  82424226 buildArch (bigloo-4.4c-3.2.fc36.src.rpm, x86_64): free
+  82424224 buildArch (bigloo-4.4c-3.2.fc36.src.rpm, armv7hl): open (buildvm-a32-06.iad2.fedoraproject.org)
+  82424228 buildArch (bigloo-4.4c-3.2.fc36.src.rpm, ppc64le): free
+  82424225 buildArch (bigloo-4.4c-3.2.fc36.src.rpm, i686): free
+  82424227 buildArch (bigloo-4.4c-3.2.fc36.src.rpm, aarch64): open (buildhw-a64-19.iad2.fedoraproject.org)
+  82424225 buildArch (bigloo-4.4c-3.2.fc36.src.rpm, i686): free -> open (buildhw-x86-04.iad2.fedoraproject.org)
+  82424226 buildArch (bigloo-4.4c-3.2.fc36.src.rpm, x86_64): free -> open (buildhw-x86-06.iad2.fedoraproject.org)
+  82424228 buildArch (bigloo-4.4c-3.2.fc36.src.rpm, ppc64le): free -> open (buildvm-ppc64le-36.iad2.fedoraproject.org)
+  82424226 buildArch (bigloo-4.4c-3.2.fc36.src.rpm, x86_64): open (buildhw-x86-06.iad2.fedoraproject.org) -> closed
+  0 free  6 open  2 done  0 failed
+  82424229 buildArch (bigloo-4.4c-3.2.fc36.src.rpm, s390x): open (buildvm-s390x-34.s390.fedoraproject.org) -> closed
+  0 free  5 open  3 done  0 failed
+  82424225 buildArch (bigloo-4.4c-3.2.fc36.src.rpm, i686): open (buildhw-x86-04.iad2.fedoraproject.org) -> closed
+  0 free  4 open  4 done  0 failed
+  82424227 buildArch (bigloo-4.4c-3.2.fc36.src.rpm, aarch64): open (buildhw-a64-19.iad2.fedoraproject.org) -> closed
+  0 free  3 open  5 done  0 failed
+  82424228 buildArch (bigloo-4.4c-3.2.fc36.src.rpm, ppc64le): open (buildvm-ppc64le-36.iad2.fedoraproject.org) -> closed
+  0 free  2 open  6 done  0 failed
+  82424224 buildArch (bigloo-4.4c-3.2.fc36.src.rpm, armv7hl): open (buildvm-a32-06.iad2.fedoraproject.org) -> closed
+  0 free  1 open  7 done  0 failed
+  82426159 tagBuild (noarch): free
+  82426159 tagBuild (noarch): free -> closed
+  0 free  1 open  8 done  0 failed
+82423917 build (f36-java17, /rpms/bigloo.git:a9b676242e3cdf62b0a4045abac3edb57e6712a5): open (buildhw-a64-20.iad2.fedoraproject.org) -> closed
+  0 free  0 open  9 done  0 failed
+
+82423917 build (f36-java17, /rpms/bigloo.git:a9b676242e3cdf62b0a4045abac3edb57e6712a5) completed successfully

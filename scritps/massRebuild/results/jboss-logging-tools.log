@@ -1,0 +1,24 @@
+Cloning into 'jboss-logging-tools'...
+[rawhide 30ab021] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building jboss-logging-tools-2.2.1-8.fc36 for f36-java17
+Created task: 82429006
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82429006
+Watching tasks (this may be safely interrupted)...
+82429006 build (f36-java17, /rpms/jboss-logging-tools.git:30ab021a193e5a76adf8b305881a7c4f048b3af9): free
+82429006 build (f36-java17, /rpms/jboss-logging-tools.git:30ab021a193e5a76adf8b305881a7c4f048b3af9): free -> open (buildhw-a64-24.iad2.fedoraproject.org)
+  82429013 buildSRPMFromSCM (/rpms/jboss-logging-tools.git:30ab021a193e5a76adf8b305881a7c4f048b3af9): free
+  82429013 buildSRPMFromSCM (/rpms/jboss-logging-tools.git:30ab021a193e5a76adf8b305881a7c4f048b3af9): free -> open (buildvm-x86-15.iad2.fedoraproject.org)
+  82429074 buildArch (jboss-logging-tools-2.2.1-8.fc36.src.rpm, noarch): free
+  82429013 buildSRPMFromSCM (/rpms/jboss-logging-tools.git:30ab021a193e5a76adf8b305881a7c4f048b3af9): open (buildvm-x86-15.iad2.fedoraproject.org) -> closed
+  1 free  1 open  1 done  0 failed
+  82429074 buildArch (jboss-logging-tools-2.2.1-8.fc36.src.rpm, noarch): free -> open (buildvm-ppc64le-11.iad2.fedoraproject.org)
+  82429074 buildArch (jboss-logging-tools-2.2.1-8.fc36.src.rpm, noarch): open (buildvm-ppc64le-11.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  82429148 tagBuild (noarch): free
+  82429148 tagBuild (noarch): free -> closed
+  0 free  1 open  3 done  0 failed
+82429006 build (f36-java17, /rpms/jboss-logging-tools.git:30ab021a193e5a76adf8b305881a7c4f048b3af9): open (buildhw-a64-24.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+82429006 build (f36-java17, /rpms/jboss-logging-tools.git:30ab021a193e5a76adf8b305881a7c4f048b3af9) completed successfully

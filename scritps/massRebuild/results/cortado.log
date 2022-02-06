@@ -1,0 +1,21 @@
+Cloning into 'cortado'...
+[rawhide 5b9099b] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building cortado-0.6.0-25.fc36 for f36-java17
+Created task: 82424778
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82424778
+Watching tasks (this may be safely interrupted)...
+82424778 build (f36-java17, /rpms/cortado.git:5b9099bb26e6aec7e3d2f09f60d6bd51c86ec642): open (buildvm-s390x-29.s390.fedoraproject.org)
+  82424779 buildSRPMFromSCM (/rpms/cortado.git:5b9099bb26e6aec7e3d2f09f60d6bd51c86ec642): free
+  82424779 buildSRPMFromSCM (/rpms/cortado.git:5b9099bb26e6aec7e3d2f09f60d6bd51c86ec642): free -> open (buildvm-ppc64le-29.iad2.fedoraproject.org)
+  82424779 buildSRPMFromSCM (/rpms/cortado.git:5b9099bb26e6aec7e3d2f09f60d6bd51c86ec642): open (buildvm-ppc64le-29.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82425066 buildArch (cortado-0.6.0-25.fc36.src.rpm, noarch): free
+  82425066 buildArch (cortado-0.6.0-25.fc36.src.rpm, noarch): free -> open (buildvm-s390x-01.s390.fedoraproject.org)
+  82425066 buildArch (cortado-0.6.0-25.fc36.src.rpm, noarch): open (buildvm-s390x-01.s390.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  82425150 tagBuild (noarch): closed
+82424778 build (f36-java17, /rpms/cortado.git:5b9099bb26e6aec7e3d2f09f60d6bd51c86ec642): open (buildvm-s390x-29.s390.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+82424778 build (f36-java17, /rpms/cortado.git:5b9099bb26e6aec7e3d2f09f60d6bd51c86ec642) completed successfully

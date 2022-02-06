@@ -1,0 +1,21 @@
+Cloning into 'json_simple'...
+[rawhide 8b2a559] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building json_simple-1.1.1-27.fc36 for f36-java17
+Created task: 82430158
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82430158
+Watching tasks (this may be safely interrupted)...
+82430158 build (f36-java17, /rpms/json_simple.git:8b2a5596406ed727b6ea3da641630b71dd03b205): free
+82430158 build (f36-java17, /rpms/json_simple.git:8b2a5596406ed727b6ea3da641630b71dd03b205): free -> open (buildvm-ppc64le-31.iad2.fedoraproject.org)
+  82430188 buildSRPMFromSCM (/rpms/json_simple.git:8b2a5596406ed727b6ea3da641630b71dd03b205): free
+  82430188 buildSRPMFromSCM (/rpms/json_simple.git:8b2a5596406ed727b6ea3da641630b71dd03b205): free -> open (buildvm-ppc64le-11.iad2.fedoraproject.org)
+  82430188 buildSRPMFromSCM (/rpms/json_simple.git:8b2a5596406ed727b6ea3da641630b71dd03b205): open (buildvm-ppc64le-11.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82430273 buildArch (json_simple-1.1.1-27.fc36.src.rpm, noarch): open (buildvm-x86-13.iad2.fedoraproject.org)
+  82430273 buildArch (json_simple-1.1.1-27.fc36.src.rpm, noarch): open (buildvm-x86-13.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  82430310 tagBuild (noarch): closed
+82430158 build (f36-java17, /rpms/json_simple.git:8b2a5596406ed727b6ea3da641630b71dd03b205): open (buildvm-ppc64le-31.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+82430158 build (f36-java17, /rpms/json_simple.git:8b2a5596406ed727b6ea3da641630b71dd03b205) completed successfully

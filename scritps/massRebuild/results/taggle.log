@@ -1,0 +1,24 @@
+Cloning into 'taggle'...
+[rawhide f811f15] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building taggle-1.0-23.fc36 for f36-java17
+Created task: 82435106
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82435106
+Watching tasks (this may be safely interrupted)...
+82435106 build (f36-java17, /rpms/taggle.git:f811f15a3a6560125f80d3c9c11192da57a5cf59): free
+82435106 build (f36-java17, /rpms/taggle.git:f811f15a3a6560125f80d3c9c11192da57a5cf59): free -> open (buildvm-a32-04.iad2.fedoraproject.org)
+  82435109 buildSRPMFromSCM (/rpms/taggle.git:f811f15a3a6560125f80d3c9c11192da57a5cf59): free
+  82435109 buildSRPMFromSCM (/rpms/taggle.git:f811f15a3a6560125f80d3c9c11192da57a5cf59): free -> open (buildvm-ppc64le-32.iad2.fedoraproject.org)
+  82435109 buildSRPMFromSCM (/rpms/taggle.git:f811f15a3a6560125f80d3c9c11192da57a5cf59): open (buildvm-ppc64le-32.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82435162 buildArch (taggle-1.0-23.fc36.src.rpm, noarch): free
+  82435162 buildArch (taggle-1.0-23.fc36.src.rpm, noarch): free -> open (buildvm-ppc64le-19.iad2.fedoraproject.org)
+  82435162 buildArch (taggle-1.0-23.fc36.src.rpm, noarch): open (buildvm-ppc64le-19.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  82435186 tagBuild (noarch): open (buildvm-x86-11.iad2.fedoraproject.org)
+  82435186 tagBuild (noarch): open (buildvm-x86-11.iad2.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+82435106 build (f36-java17, /rpms/taggle.git:f811f15a3a6560125f80d3c9c11192da57a5cf59): open (buildvm-a32-04.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+82435106 build (f36-java17, /rpms/taggle.git:f811f15a3a6560125f80d3c9c11192da57a5cf59) completed successfully

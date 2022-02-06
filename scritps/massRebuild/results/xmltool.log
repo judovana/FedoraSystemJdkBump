@@ -1,0 +1,23 @@
+Cloning into 'xmltool'...
+[rawhide 972abf9] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building xmltool-3.3-32.fc36 for f36-java17
+Created task: 82435772
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82435772
+Watching tasks (this may be safely interrupted)...
+82435772 build (f36-java17, /rpms/xmltool.git:972abf93f53995c4bd46dff6941bbd5c5cb7d694): free
+82435772 build (f36-java17, /rpms/xmltool.git:972abf93f53995c4bd46dff6941bbd5c5cb7d694): free -> open (buildvm-s390x-22.s390.fedoraproject.org)
+  82435773 buildSRPMFromSCM (/rpms/xmltool.git:972abf93f53995c4bd46dff6941bbd5c5cb7d694): open (buildvm-ppc64le-16.iad2.fedoraproject.org)
+  82435773 buildSRPMFromSCM (/rpms/xmltool.git:972abf93f53995c4bd46dff6941bbd5c5cb7d694): open (buildvm-ppc64le-16.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82435836 buildArch (xmltool-3.3-32.fc36.src.rpm, noarch): open (buildvm-ppc64le-39.iad2.fedoraproject.org)
+  82435836 buildArch (xmltool-3.3-32.fc36.src.rpm, noarch): open (buildvm-ppc64le-39.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  82435958 tagBuild (noarch): free
+  82435958 tagBuild (noarch): free -> open (buildvm-s390x-18.s390.fedoraproject.org)
+82435772 build (f36-java17, /rpms/xmltool.git:972abf93f53995c4bd46dff6941bbd5c5cb7d694): open (buildvm-s390x-22.s390.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+  82435958 tagBuild (noarch): open (buildvm-s390x-18.s390.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+82435772 build (f36-java17, /rpms/xmltool.git:972abf93f53995c4bd46dff6941bbd5c5cb7d694) completed successfully

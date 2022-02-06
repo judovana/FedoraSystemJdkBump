@@ -1,0 +1,41 @@
+Cloning into 'subversion'...
+[rawhide 55cb565] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building subversion-1.14.1-11.fc36 for f36-java17
+Created task: 82435029
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82435029
+Watching tasks (this may be safely interrupted)...
+82435029 build (f36-java17, /rpms/subversion.git:55cb5655267236b99592cb12be454bc87dda4705): free
+82435029 build (f36-java17, /rpms/subversion.git:55cb5655267236b99592cb12be454bc87dda4705): free -> open (buildvm-s390x-34.s390.fedoraproject.org)
+  82435052 buildSRPMFromSCM (/rpms/subversion.git:55cb5655267236b99592cb12be454bc87dda4705): free
+  82435052 buildSRPMFromSCM (/rpms/subversion.git:55cb5655267236b99592cb12be454bc87dda4705): free -> open (buildvm-x86-07.iad2.fedoraproject.org)
+  82435052 buildSRPMFromSCM (/rpms/subversion.git:55cb5655267236b99592cb12be454bc87dda4705): open (buildvm-x86-07.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82435097 buildArch (subversion-1.14.1-11.fc36.src.rpm, armv7hl): open (buildvm-a32-12.iad2.fedoraproject.org)
+  82435099 buildArch (subversion-1.14.1-11.fc36.src.rpm, x86_64): free
+  82435100 buildArch (subversion-1.14.1-11.fc36.src.rpm, aarch64): free
+  82435102 buildArch (subversion-1.14.1-11.fc36.src.rpm, s390x): free
+  82435101 buildArch (subversion-1.14.1-11.fc36.src.rpm, ppc64le): open (buildvm-ppc64le-05.iad2.fedoraproject.org)
+  82435098 buildArch (subversion-1.14.1-11.fc36.src.rpm, i686): open (buildvm-x86-24.iad2.fedoraproject.org)
+  82435099 buildArch (subversion-1.14.1-11.fc36.src.rpm, x86_64): free -> open (buildvm-x86-23.iad2.fedoraproject.org)
+  82435102 buildArch (subversion-1.14.1-11.fc36.src.rpm, s390x): free -> open (buildvm-s390x-29.s390.fedoraproject.org)
+  82435100 buildArch (subversion-1.14.1-11.fc36.src.rpm, aarch64): free -> open (buildvm-a64-30.iad2.fedoraproject.org)
+  82435099 buildArch (subversion-1.14.1-11.fc36.src.rpm, x86_64): open (buildvm-x86-23.iad2.fedoraproject.org) -> closed
+  0 free  6 open  2 done  0 failed
+  82435101 buildArch (subversion-1.14.1-11.fc36.src.rpm, ppc64le): open (buildvm-ppc64le-05.iad2.fedoraproject.org) -> closed
+  0 free  5 open  3 done  0 failed
+  82435098 buildArch (subversion-1.14.1-11.fc36.src.rpm, i686): open (buildvm-x86-24.iad2.fedoraproject.org) -> closed
+  0 free  4 open  4 done  0 failed
+  82435102 buildArch (subversion-1.14.1-11.fc36.src.rpm, s390x): open (buildvm-s390x-29.s390.fedoraproject.org) -> closed
+  0 free  3 open  5 done  0 failed
+  82435100 buildArch (subversion-1.14.1-11.fc36.src.rpm, aarch64): open (buildvm-a64-30.iad2.fedoraproject.org) -> closed
+  0 free  2 open  6 done  0 failed
+  82435097 buildArch (subversion-1.14.1-11.fc36.src.rpm, armv7hl): open (buildvm-a32-12.iad2.fedoraproject.org) -> closed
+  0 free  1 open  7 done  0 failed
+  82437758 tagBuild (noarch): free
+  82437758 tagBuild (noarch): free -> closed
+  0 free  1 open  8 done  0 failed
+82435029 build (f36-java17, /rpms/subversion.git:55cb5655267236b99592cb12be454bc87dda4705): open (buildvm-s390x-34.s390.fedoraproject.org) -> closed
+  0 free  0 open  9 done  0 failed
+
+82435029 build (f36-java17, /rpms/subversion.git:55cb5655267236b99592cb12be454bc87dda4705) completed successfully

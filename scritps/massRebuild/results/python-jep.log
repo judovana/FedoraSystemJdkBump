@@ -1,0 +1,41 @@
+Cloning into 'python-jep'...
+[rawhide 103494e] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building python-jep-3.9.1-5.fc36 for f36-java17
+Created task: 82434027
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82434027
+Watching tasks (this may be safely interrupted)...
+82434027 build (f36-java17, /rpms/python-jep.git:103494e8277c8a30a72bc7c8fca20ee399579f28): free
+82434027 build (f36-java17, /rpms/python-jep.git:103494e8277c8a30a72bc7c8fca20ee399579f28): free -> open (buildvm-s390x-22.s390.fedoraproject.org)
+  82434028 buildSRPMFromSCM (/rpms/python-jep.git:103494e8277c8a30a72bc7c8fca20ee399579f28): free
+  82434028 buildSRPMFromSCM (/rpms/python-jep.git:103494e8277c8a30a72bc7c8fca20ee399579f28): free -> open (buildvm-ppc64le-39.iad2.fedoraproject.org)
+  82434028 buildSRPMFromSCM (/rpms/python-jep.git:103494e8277c8a30a72bc7c8fca20ee399579f28): open (buildvm-ppc64le-39.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82434098 buildArch (python-jep-3.9.1-5.fc36.src.rpm, armv7hl): open (buildvm-a32-17.iad2.fedoraproject.org)
+  82434102 buildArch (python-jep-3.9.1-5.fc36.src.rpm, ppc64le): open (buildvm-ppc64le-31.iad2.fedoraproject.org)
+  82434099 buildArch (python-jep-3.9.1-5.fc36.src.rpm, i686): free
+  82434100 buildArch (python-jep-3.9.1-5.fc36.src.rpm, x86_64): free
+  82434101 buildArch (python-jep-3.9.1-5.fc36.src.rpm, aarch64): open (buildvm-a64-28.iad2.fedoraproject.org)
+  82434103 buildArch (python-jep-3.9.1-5.fc36.src.rpm, s390x): free
+  82434099 buildArch (python-jep-3.9.1-5.fc36.src.rpm, i686): free -> open (buildvm-x86-11.iad2.fedoraproject.org)
+  82434103 buildArch (python-jep-3.9.1-5.fc36.src.rpm, s390x): free -> open (buildvm-s390x-23.s390.fedoraproject.org)
+  82434100 buildArch (python-jep-3.9.1-5.fc36.src.rpm, x86_64): free -> open (buildvm-x86-27.iad2.fedoraproject.org)
+  82434103 buildArch (python-jep-3.9.1-5.fc36.src.rpm, s390x): open (buildvm-s390x-23.s390.fedoraproject.org) -> closed
+  0 free  6 open  2 done  0 failed
+  82434100 buildArch (python-jep-3.9.1-5.fc36.src.rpm, x86_64): open (buildvm-x86-27.iad2.fedoraproject.org) -> closed
+  0 free  5 open  3 done  0 failed
+  82434102 buildArch (python-jep-3.9.1-5.fc36.src.rpm, ppc64le): open (buildvm-ppc64le-31.iad2.fedoraproject.org) -> closed
+  0 free  4 open  4 done  0 failed
+  82434099 buildArch (python-jep-3.9.1-5.fc36.src.rpm, i686): open (buildvm-x86-11.iad2.fedoraproject.org) -> closed
+  0 free  3 open  5 done  0 failed
+  82434101 buildArch (python-jep-3.9.1-5.fc36.src.rpm, aarch64): open (buildvm-a64-28.iad2.fedoraproject.org) -> closed
+  0 free  2 open  6 done  0 failed
+  82434098 buildArch (python-jep-3.9.1-5.fc36.src.rpm, armv7hl): open (buildvm-a32-17.iad2.fedoraproject.org) -> closed
+  0 free  1 open  7 done  0 failed
+  82434364 tagBuild (noarch): free
+  82434364 tagBuild (noarch): free -> closed
+  0 free  1 open  8 done  0 failed
+82434027 build (f36-java17, /rpms/python-jep.git:103494e8277c8a30a72bc7c8fca20ee399579f28): open (buildvm-s390x-22.s390.fedoraproject.org) -> closed
+  0 free  0 open  9 done  0 failed
+
+82434027 build (f36-java17, /rpms/python-jep.git:103494e8277c8a30a72bc7c8fca20ee399579f28) completed successfully

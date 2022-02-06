@@ -1,0 +1,24 @@
+Cloning into 'plexus-utils'...
+[rawhide ef1515b] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building plexus-utils-3.3.0-9.fc36 for f36-java17
+Created task: 82433355
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82433355
+Watching tasks (this may be safely interrupted)...
+82433355 build (f36-java17, /rpms/plexus-utils.git:ef1515b3fbebc89be9a0818f85ca78a7bd2ab9fa): free
+82433355 build (f36-java17, /rpms/plexus-utils.git:ef1515b3fbebc89be9a0818f85ca78a7bd2ab9fa): free -> open (buildvm-a32-32.iad2.fedoraproject.org)
+  82433370 buildSRPMFromSCM (/rpms/plexus-utils.git:ef1515b3fbebc89be9a0818f85ca78a7bd2ab9fa): free
+  82433370 buildSRPMFromSCM (/rpms/plexus-utils.git:ef1515b3fbebc89be9a0818f85ca78a7bd2ab9fa): free -> open (buildvm-ppc64le-11.iad2.fedoraproject.org)
+  82433370 buildSRPMFromSCM (/rpms/plexus-utils.git:ef1515b3fbebc89be9a0818f85ca78a7bd2ab9fa): open (buildvm-ppc64le-11.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82433527 buildArch (plexus-utils-3.3.0-9.fc36.src.rpm, noarch): free
+  82433527 buildArch (plexus-utils-3.3.0-9.fc36.src.rpm, noarch): free -> open (buildhw-x86-16.iad2.fedoraproject.org)
+  82433527 buildArch (plexus-utils-3.3.0-9.fc36.src.rpm, noarch): open (buildhw-x86-16.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  82433645 tagBuild (noarch): free
+  82433645 tagBuild (noarch): free -> closed
+  0 free  1 open  3 done  0 failed
+82433355 build (f36-java17, /rpms/plexus-utils.git:ef1515b3fbebc89be9a0818f85ca78a7bd2ab9fa): open (buildvm-a32-32.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+82433355 build (f36-java17, /rpms/plexus-utils.git:ef1515b3fbebc89be9a0818f85ca78a7bd2ab9fa) completed successfully

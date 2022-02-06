@@ -1,0 +1,45 @@
+Cloning into 'dl_poly'...
+[rawhide 848bdd4] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+tar: /home/jvanek/git/FedoraSystemJdkBump/scritps/massRebuild/dl_poly/dl_poly-1.10.tar.gz: Cannot open: No such file or directory
+tar: Error is not recoverable: exiting now
+error: line 112: Bad %setup option -n: missing argument
+
+Building dl_poly-1.10-13.fc36 for f36-java17
+Created task: 82425717
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82425717
+Watching tasks (this may be safely interrupted)...
+82425717 build (f36-java17, /rpms/dl_poly.git:848bdd46406abeccfd40253a4e7adf53bee9ae3f): free
+82425717 build (f36-java17, /rpms/dl_poly.git:848bdd46406abeccfd40253a4e7adf53bee9ae3f): free -> open (buildvm-x86-28.iad2.fedoraproject.org)
+  82425728 buildSRPMFromSCM (/rpms/dl_poly.git:848bdd46406abeccfd40253a4e7adf53bee9ae3f): open (buildvm-ppc64le-38.iad2.fedoraproject.org)
+  82425728 buildSRPMFromSCM (/rpms/dl_poly.git:848bdd46406abeccfd40253a4e7adf53bee9ae3f): open (buildvm-ppc64le-38.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82425755 buildArch (dl_poly-1.10-13.fc36.src.rpm, aarch64): free
+  82425753 buildArch (dl_poly-1.10-13.fc36.src.rpm, i686): free
+  82425754 buildArch (dl_poly-1.10-13.fc36.src.rpm, x86_64): free
+  82425756 buildArch (dl_poly-1.10-13.fc36.src.rpm, ppc64le): free
+  82425752 buildArch (dl_poly-1.10-13.fc36.src.rpm, armv7hl): open (buildvm-a32-19.iad2.fedoraproject.org)
+  82425757 buildArch (dl_poly-1.10-13.fc36.src.rpm, s390x): open (buildvm-s390x-30.s390.fedoraproject.org)
+  82425755 buildArch (dl_poly-1.10-13.fc36.src.rpm, aarch64): free -> open (buildhw-a64-20.iad2.fedoraproject.org)
+  82425753 buildArch (dl_poly-1.10-13.fc36.src.rpm, i686): free -> open (buildvm-x86-11.iad2.fedoraproject.org)
+  82425756 buildArch (dl_poly-1.10-13.fc36.src.rpm, ppc64le): free -> open (buildvm-ppc64le-39.iad2.fedoraproject.org)
+  82425754 buildArch (dl_poly-1.10-13.fc36.src.rpm, x86_64): free -> open (buildvm-x86-27.iad2.fedoraproject.org)
+  82425754 buildArch (dl_poly-1.10-13.fc36.src.rpm, x86_64): open (buildvm-x86-27.iad2.fedoraproject.org) -> closed
+  0 free  6 open  2 done  0 failed
+  82425757 buildArch (dl_poly-1.10-13.fc36.src.rpm, s390x): open (buildvm-s390x-30.s390.fedoraproject.org) -> closed
+  0 free  5 open  3 done  0 failed
+  82425756 buildArch (dl_poly-1.10-13.fc36.src.rpm, ppc64le): open (buildvm-ppc64le-39.iad2.fedoraproject.org) -> closed
+  0 free  4 open  4 done  0 failed
+  82425753 buildArch (dl_poly-1.10-13.fc36.src.rpm, i686): open (buildvm-x86-11.iad2.fedoraproject.org) -> closed
+  0 free  3 open  5 done  0 failed
+  82425755 buildArch (dl_poly-1.10-13.fc36.src.rpm, aarch64): open (buildhw-a64-20.iad2.fedoraproject.org) -> closed
+  0 free  2 open  6 done  0 failed
+  82425752 buildArch (dl_poly-1.10-13.fc36.src.rpm, armv7hl): open (buildvm-a32-19.iad2.fedoraproject.org) -> closed
+  0 free  1 open  7 done  0 failed
+  82426136 tagBuild (noarch): free
+  82426136 tagBuild (noarch): free -> closed
+  0 free  1 open  8 done  0 failed
+82425717 build (f36-java17, /rpms/dl_poly.git:848bdd46406abeccfd40253a4e7adf53bee9ae3f): open (buildvm-x86-28.iad2.fedoraproject.org) -> closed
+  0 free  0 open  9 done  0 failed
+
+82425717 build (f36-java17, /rpms/dl_poly.git:848bdd46406abeccfd40253a4e7adf53bee9ae3f) completed successfully

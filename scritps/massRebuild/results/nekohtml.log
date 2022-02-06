@@ -1,0 +1,23 @@
+Cloning into 'nekohtml'...
+[rawhide 3cab7e9] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building nekohtml-1.9.22-19.fc36 for f36-java17
+Created task: 82432273
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82432273
+Watching tasks (this may be safely interrupted)...
+82432273 build (f36-java17, /rpms/nekohtml.git:3cab7e9c723225d35c0636aa764993612bf34f11): free
+82432273 build (f36-java17, /rpms/nekohtml.git:3cab7e9c723225d35c0636aa764993612bf34f11): free -> open (buildvm-ppc64le-37.iad2.fedoraproject.org)
+  82432275 buildSRPMFromSCM (/rpms/nekohtml.git:3cab7e9c723225d35c0636aa764993612bf34f11): open (buildvm-ppc64le-22.iad2.fedoraproject.org)
+  82432275 buildSRPMFromSCM (/rpms/nekohtml.git:3cab7e9c723225d35c0636aa764993612bf34f11): open (buildvm-ppc64le-22.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82432395 buildArch (nekohtml-1.9.22-19.fc36.src.rpm, noarch): free
+  82432395 buildArch (nekohtml-1.9.22-19.fc36.src.rpm, noarch): free -> open (buildvm-s390x-34.s390.fedoraproject.org)
+  82432395 buildArch (nekohtml-1.9.22-19.fc36.src.rpm, noarch): open (buildvm-s390x-34.s390.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  82432528 tagBuild (noarch): free
+  82432528 tagBuild (noarch): free -> closed
+  0 free  1 open  3 done  0 failed
+82432273 build (f36-java17, /rpms/nekohtml.git:3cab7e9c723225d35c0636aa764993612bf34f11): open (buildvm-ppc64le-37.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+82432273 build (f36-java17, /rpms/nekohtml.git:3cab7e9c723225d35c0636aa764993612bf34f11) completed successfully

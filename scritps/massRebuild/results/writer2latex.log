@@ -1,0 +1,44 @@
+Cloning into 'writer2latex'...
+[rawhide 1e83c1a] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building writer2latex-1.0.2-36.fc36 for f36-java17
+Created task: 82435454
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82435454
+Watching tasks (this may be safely interrupted)...
+82435454 build (f36-java17, /rpms/writer2latex.git:1e83c1afea0e927c47aa3966f5d07462632f700f): free
+82435454 build (f36-java17, /rpms/writer2latex.git:1e83c1afea0e927c47aa3966f5d07462632f700f): free -> open (buildvm-ppc64le-08.iad2.fedoraproject.org)
+  82435470 buildSRPMFromSCM (/rpms/writer2latex.git:1e83c1afea0e927c47aa3966f5d07462632f700f): free
+  82435470 buildSRPMFromSCM (/rpms/writer2latex.git:1e83c1afea0e927c47aa3966f5d07462632f700f): free -> open (buildvm-x86-11.iad2.fedoraproject.org)
+  82435470 buildSRPMFromSCM (/rpms/writer2latex.git:1e83c1afea0e927c47aa3966f5d07462632f700f): open (buildvm-x86-11.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82435546 buildArch (writer2latex-1.0.2-36.fc36.src.rpm, armv7hl): free
+  82435549 buildArch (writer2latex-1.0.2-36.fc36.src.rpm, aarch64): free
+  82435550 buildArch (writer2latex-1.0.2-36.fc36.src.rpm, ppc64le): free
+  82435547 buildArch (writer2latex-1.0.2-36.fc36.src.rpm, i686): free
+  82435548 buildArch (writer2latex-1.0.2-36.fc36.src.rpm, x86_64): free
+  82435551 buildArch (writer2latex-1.0.2-36.fc36.src.rpm, s390x): free
+  82435546 buildArch (writer2latex-1.0.2-36.fc36.src.rpm, armv7hl): free -> open (buildvm-a32-19.iad2.fedoraproject.org)
+  82435549 buildArch (writer2latex-1.0.2-36.fc36.src.rpm, aarch64): free -> open (buildvm-a64-04.iad2.fedoraproject.org)
+  82435550 buildArch (writer2latex-1.0.2-36.fc36.src.rpm, ppc64le): free -> open (buildvm-ppc64le-08.iad2.fedoraproject.org)
+  82435547 buildArch (writer2latex-1.0.2-36.fc36.src.rpm, i686): free -> open (buildvm-x86-25.iad2.fedoraproject.org)
+  82435551 buildArch (writer2latex-1.0.2-36.fc36.src.rpm, s390x): free -> open (buildvm-s390x-18.s390.fedoraproject.org)
+  82435548 buildArch (writer2latex-1.0.2-36.fc36.src.rpm, x86_64): free -> open (buildvm-x86-15.iad2.fedoraproject.org)
+  82435551 buildArch (writer2latex-1.0.2-36.fc36.src.rpm, s390x): open (buildvm-s390x-18.s390.fedoraproject.org) -> closed
+  0 free  6 open  2 done  0 failed
+  82435548 buildArch (writer2latex-1.0.2-36.fc36.src.rpm, x86_64): open (buildvm-x86-15.iad2.fedoraproject.org) -> closed
+  0 free  5 open  3 done  0 failed
+  82435549 buildArch (writer2latex-1.0.2-36.fc36.src.rpm, aarch64): open (buildvm-a64-04.iad2.fedoraproject.org) -> closed
+  0 free  4 open  4 done  0 failed
+  82435550 buildArch (writer2latex-1.0.2-36.fc36.src.rpm, ppc64le): open (buildvm-ppc64le-08.iad2.fedoraproject.org) -> closed
+  0 free  3 open  5 done  0 failed
+  82435547 buildArch (writer2latex-1.0.2-36.fc36.src.rpm, i686): open (buildvm-x86-25.iad2.fedoraproject.org) -> closed
+  0 free  2 open  6 done  0 failed
+  82435546 buildArch (writer2latex-1.0.2-36.fc36.src.rpm, armv7hl): open (buildvm-a32-19.iad2.fedoraproject.org) -> closed
+  0 free  1 open  7 done  0 failed
+  82435733 tagBuild (noarch): free
+  82435733 tagBuild (noarch): free -> closed
+  0 free  1 open  8 done  0 failed
+82435454 build (f36-java17, /rpms/writer2latex.git:1e83c1afea0e927c47aa3966f5d07462632f700f): open (buildvm-ppc64le-08.iad2.fedoraproject.org) -> closed
+  0 free  0 open  9 done  0 failed
+
+82435454 build (f36-java17, /rpms/writer2latex.git:1e83c1afea0e927c47aa3966f5d07462632f700f) completed successfully

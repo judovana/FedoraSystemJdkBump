@@ -1,0 +1,22 @@
+Cloning into 'junit'...
+[rawhide e22e0bf] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+warning: bogus date in %changelog: Tue Sep 15 2021 Didik Supriadi <didiksupriadi41@gmail.com> - 1:4.13.1-4
+
+Building junit-4.13.1-7.fc36 for f36-java17
+Created task: 82430282
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82430282
+Watching tasks (this may be safely interrupted)...
+82430282 build (f36-java17, /rpms/junit.git:e22e0bf350a706c12a69c41fd5ae1b6196a75198): free
+82430282 build (f36-java17, /rpms/junit.git:e22e0bf350a706c12a69c41fd5ae1b6196a75198): free -> open (buildvm-ppc64le-37.iad2.fedoraproject.org)
+  82430296 buildSRPMFromSCM (/rpms/junit.git:e22e0bf350a706c12a69c41fd5ae1b6196a75198): open (buildvm-ppc64le-06.iad2.fedoraproject.org)
+  82430317 buildArch (junit-4.13.1-7.fc36.src.rpm, noarch): open (buildvm-ppc64le-37.iad2.fedoraproject.org)
+  82430296 buildSRPMFromSCM (/rpms/junit.git:e22e0bf350a706c12a69c41fd5ae1b6196a75198): open (buildvm-ppc64le-06.iad2.fedoraproject.org) -> closed
+  0 free  2 open  1 done  0 failed
+  82430317 buildArch (junit-4.13.1-7.fc36.src.rpm, noarch): open (buildvm-ppc64le-37.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  82430362 tagBuild (noarch): closed
+82430282 build (f36-java17, /rpms/junit.git:e22e0bf350a706c12a69c41fd5ae1b6196a75198): open (buildvm-ppc64le-37.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+82430282 build (f36-java17, /rpms/junit.git:e22e0bf350a706c12a69c41fd5ae1b6196a75198) completed successfully

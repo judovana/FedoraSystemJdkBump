@@ -1,0 +1,38 @@
+Cloning into 'jigawatts'...
+[rawhide 07caeb4] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building jigawatts-0.2-0.6.202108276c78499.fc36 for f36-java17
+Created task: 82429574
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82429574
+Watching tasks (this may be safely interrupted)...
+82429574 build (f36-java17, /rpms/jigawatts.git:07caeb47e0ebc32c1296a37440ab531e6c578800): free
+82429574 build (f36-java17, /rpms/jigawatts.git:07caeb47e0ebc32c1296a37440ab531e6c578800): free -> open (buildvm-s390x-12.s390.fedoraproject.org)
+  82429575 buildSRPMFromSCM (/rpms/jigawatts.git:07caeb47e0ebc32c1296a37440ab531e6c578800): free
+  82429575 buildSRPMFromSCM (/rpms/jigawatts.git:07caeb47e0ebc32c1296a37440ab531e6c578800): free -> open (buildvm-ppc64le-36.iad2.fedoraproject.org)
+  82429575 buildSRPMFromSCM (/rpms/jigawatts.git:07caeb47e0ebc32c1296a37440ab531e6c578800): open (buildvm-ppc64le-36.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82429687 buildArch (jigawatts-0.2-0.6.202108276c78499.fc36.src.rpm, armv7hl): open (buildvm-a32-30.iad2.fedoraproject.org)
+  82429688 buildArch (jigawatts-0.2-0.6.202108276c78499.fc36.src.rpm, x86_64): free
+  82429689 buildArch (jigawatts-0.2-0.6.202108276c78499.fc36.src.rpm, aarch64): free
+  82429690 buildArch (jigawatts-0.2-0.6.202108276c78499.fc36.src.rpm, ppc64le): free
+  82429691 buildArch (jigawatts-0.2-0.6.202108276c78499.fc36.src.rpm, s390x): open (buildvm-s390x-07.s390.fedoraproject.org)
+  82429689 buildArch (jigawatts-0.2-0.6.202108276c78499.fc36.src.rpm, aarch64): free -> open (buildvm-a64-25.iad2.fedoraproject.org)
+  82429688 buildArch (jigawatts-0.2-0.6.202108276c78499.fc36.src.rpm, x86_64): free -> open (buildhw-x86-09.iad2.fedoraproject.org)
+  82429691 buildArch (jigawatts-0.2-0.6.202108276c78499.fc36.src.rpm, s390x): open (buildvm-s390x-07.s390.fedoraproject.org) -> closed
+  1 free  4 open  2 done  0 failed
+  82429690 buildArch (jigawatts-0.2-0.6.202108276c78499.fc36.src.rpm, ppc64le): free -> open (buildvm-ppc64le-04.iad2.fedoraproject.org)
+  82429688 buildArch (jigawatts-0.2-0.6.202108276c78499.fc36.src.rpm, x86_64): open (buildhw-x86-09.iad2.fedoraproject.org) -> closed
+  0 free  4 open  3 done  0 failed
+  82429689 buildArch (jigawatts-0.2-0.6.202108276c78499.fc36.src.rpm, aarch64): open (buildvm-a64-25.iad2.fedoraproject.org) -> closed
+  0 free  3 open  4 done  0 failed
+  82429687 buildArch (jigawatts-0.2-0.6.202108276c78499.fc36.src.rpm, armv7hl): open (buildvm-a32-30.iad2.fedoraproject.org) -> closed
+  0 free  2 open  5 done  0 failed
+  82429690 buildArch (jigawatts-0.2-0.6.202108276c78499.fc36.src.rpm, ppc64le): open (buildvm-ppc64le-04.iad2.fedoraproject.org) -> closed
+  0 free  1 open  6 done  0 failed
+  82429828 tagBuild (noarch): free
+  82429828 tagBuild (noarch): free -> closed
+  0 free  1 open  7 done  0 failed
+82429574 build (f36-java17, /rpms/jigawatts.git:07caeb47e0ebc32c1296a37440ab531e6c578800): open (buildvm-s390x-12.s390.fedoraproject.org) -> closed
+  0 free  0 open  8 done  0 failed
+
+82429574 build (f36-java17, /rpms/jigawatts.git:07caeb47e0ebc32c1296a37440ab531e6c578800) completed successfully

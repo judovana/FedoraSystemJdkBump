@@ -1,0 +1,41 @@
+Cloning into 'brltty'...
+[rawhide 24da57f] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building brltty-6.4-6.fc36 for f36-java17
+Created task: 82424031
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82424031
+Watching tasks (this may be safely interrupted)...
+82424031 build (f36-java17, /rpms/brltty.git:24da57f0ed723e07faae59ae0a78f2883d01d6e5): free
+82424031 build (f36-java17, /rpms/brltty.git:24da57f0ed723e07faae59ae0a78f2883d01d6e5): free -> open (buildvm-a32-19.iad2.fedoraproject.org)
+  82424044 buildSRPMFromSCM (/rpms/brltty.git:24da57f0ed723e07faae59ae0a78f2883d01d6e5): free
+  82424044 buildSRPMFromSCM (/rpms/brltty.git:24da57f0ed723e07faae59ae0a78f2883d01d6e5): free -> open (buildvm-x86-19.iad2.fedoraproject.org)
+  82424044 buildSRPMFromSCM (/rpms/brltty.git:24da57f0ed723e07faae59ae0a78f2883d01d6e5): open (buildvm-x86-19.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82424265 buildArch (brltty-6.4-6.fc36.src.rpm, s390x): open (buildvm-s390x-01.s390.fedoraproject.org)
+  82424260 buildArch (brltty-6.4-6.fc36.src.rpm, armv7hl): open (buildvm-a32-19.iad2.fedoraproject.org)
+  82424261 buildArch (brltty-6.4-6.fc36.src.rpm, i686): free
+  82424262 buildArch (brltty-6.4-6.fc36.src.rpm, x86_64): free
+  82424263 buildArch (brltty-6.4-6.fc36.src.rpm, aarch64): open (buildhw-a64-23.iad2.fedoraproject.org)
+  82424264 buildArch (brltty-6.4-6.fc36.src.rpm, ppc64le): free
+  82424261 buildArch (brltty-6.4-6.fc36.src.rpm, i686): free -> open (buildhw-x86-14.iad2.fedoraproject.org)
+  82424262 buildArch (brltty-6.4-6.fc36.src.rpm, x86_64): free -> open (buildhw-x86-11.iad2.fedoraproject.org)
+  82424264 buildArch (brltty-6.4-6.fc36.src.rpm, ppc64le): free -> open (buildvm-ppc64le-39.iad2.fedoraproject.org)
+  82424265 buildArch (brltty-6.4-6.fc36.src.rpm, s390x): open (buildvm-s390x-01.s390.fedoraproject.org) -> closed
+  0 free  6 open  2 done  0 failed
+  82424262 buildArch (brltty-6.4-6.fc36.src.rpm, x86_64): open (buildhw-x86-11.iad2.fedoraproject.org) -> closed
+  0 free  5 open  3 done  0 failed
+  82424261 buildArch (brltty-6.4-6.fc36.src.rpm, i686): open (buildhw-x86-14.iad2.fedoraproject.org) -> closed
+  0 free  4 open  4 done  0 failed
+  82424263 buildArch (brltty-6.4-6.fc36.src.rpm, aarch64): open (buildhw-a64-23.iad2.fedoraproject.org) -> closed
+  0 free  3 open  5 done  0 failed
+  82424264 buildArch (brltty-6.4-6.fc36.src.rpm, ppc64le): open (buildvm-ppc64le-39.iad2.fedoraproject.org) -> closed
+  0 free  2 open  6 done  0 failed
+  82424260 buildArch (brltty-6.4-6.fc36.src.rpm, armv7hl): open (buildvm-a32-19.iad2.fedoraproject.org) -> closed
+  0 free  1 open  7 done  0 failed
+  82425035 tagBuild (noarch): free
+  82425035 tagBuild (noarch): free -> closed
+  0 free  1 open  8 done  0 failed
+82424031 build (f36-java17, /rpms/brltty.git:24da57f0ed723e07faae59ae0a78f2883d01d6e5): open (buildvm-a32-19.iad2.fedoraproject.org) -> closed
+  0 free  0 open  9 done  0 failed
+
+82424031 build (f36-java17, /rpms/brltty.git:24da57f0ed723e07faae59ae0a78f2883d01d6e5) completed successfully

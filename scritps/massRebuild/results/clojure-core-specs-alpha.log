@@ -1,0 +1,24 @@
+Cloning into 'clojure-core-specs-alpha'...
+[rawhide 359b437] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building clojure-core-specs-alpha-0.2.56-4.fc36 for f36-java17
+Created task: 82424474
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82424474
+Watching tasks (this may be safely interrupted)...
+82424474 build (f36-java17, /rpms/clojure-core-specs-alpha.git:359b4375229de1b8938fb735cb4a5871da769c67): free
+82424474 build (f36-java17, /rpms/clojure-core-specs-alpha.git:359b4375229de1b8938fb735cb4a5871da769c67): free -> open (buildvm-ppc64le-08.iad2.fedoraproject.org)
+  82424489 buildSRPMFromSCM (/rpms/clojure-core-specs-alpha.git:359b4375229de1b8938fb735cb4a5871da769c67): free
+  82424489 buildSRPMFromSCM (/rpms/clojure-core-specs-alpha.git:359b4375229de1b8938fb735cb4a5871da769c67): free -> open (buildvm-ppc64le-12.iad2.fedoraproject.org)
+  82424725 buildArch (clojure-core-specs-alpha-0.2.56-4.fc36.src.rpm, noarch): free
+  82424489 buildSRPMFromSCM (/rpms/clojure-core-specs-alpha.git:359b4375229de1b8938fb735cb4a5871da769c67): open (buildvm-ppc64le-12.iad2.fedoraproject.org) -> closed
+  1 free  1 open  1 done  0 failed
+  82424725 buildArch (clojure-core-specs-alpha-0.2.56-4.fc36.src.rpm, noarch): free -> open (buildhw-a64-20.iad2.fedoraproject.org)
+  82424725 buildArch (clojure-core-specs-alpha-0.2.56-4.fc36.src.rpm, noarch): open (buildhw-a64-20.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  82424774 tagBuild (noarch): free
+  82424774 tagBuild (noarch): free -> closed
+  0 free  1 open  3 done  0 failed
+82424474 build (f36-java17, /rpms/clojure-core-specs-alpha.git:359b4375229de1b8938fb735cb4a5871da769c67): open (buildvm-ppc64le-08.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+82424474 build (f36-java17, /rpms/clojure-core-specs-alpha.git:359b4375229de1b8938fb735cb4a5871da769c67) completed successfully

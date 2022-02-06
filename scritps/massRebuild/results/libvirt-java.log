@@ -1,0 +1,25 @@
+Cloning into 'libvirt-java'...
+[rawhide ac611e6] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+warning: Macro expanded in comment on line 29: %{java_home} macro
+
+
+Building libvirt-java-0.4.9-22.fc36 for f36-java17
+Created task: 82430753
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82430753
+Watching tasks (this may be safely interrupted)...
+82430753 build (f36-java17, /rpms/libvirt-java.git:ac611e61ea52ec284243c734a5a2e8a64764e97d): free
+82430753 build (f36-java17, /rpms/libvirt-java.git:ac611e61ea52ec284243c734a5a2e8a64764e97d): free -> open (buildvm-x86-13.iad2.fedoraproject.org)
+  82430755 buildSRPMFromSCM (/rpms/libvirt-java.git:ac611e61ea52ec284243c734a5a2e8a64764e97d): free
+  82430755 buildSRPMFromSCM (/rpms/libvirt-java.git:ac611e61ea52ec284243c734a5a2e8a64764e97d): free -> open (buildvm-ppc64le-10.iad2.fedoraproject.org)
+  82430755 buildSRPMFromSCM (/rpms/libvirt-java.git:ac611e61ea52ec284243c734a5a2e8a64764e97d): open (buildvm-ppc64le-10.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82430795 buildArch (libvirt-java-0.4.9-22.fc36.src.rpm, noarch): free
+  82430795 buildArch (libvirt-java-0.4.9-22.fc36.src.rpm, noarch): free -> open (buildvm-ppc64le-05.iad2.fedoraproject.org)
+  82430814 tagBuild (noarch): closed
+  82430795 buildArch (libvirt-java-0.4.9-22.fc36.src.rpm, noarch): open (buildvm-ppc64le-05.iad2.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+82430753 build (f36-java17, /rpms/libvirt-java.git:ac611e61ea52ec284243c734a5a2e8a64764e97d): open (buildvm-x86-13.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+82430753 build (f36-java17, /rpms/libvirt-java.git:ac611e61ea52ec284243c734a5a2e8a64764e97d) completed successfully

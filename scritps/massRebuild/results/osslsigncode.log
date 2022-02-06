@@ -1,0 +1,38 @@
+Cloning into 'osslsigncode'...
+[rawhide c1c89c3] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building osslsigncode-2.2-4.fc36 for f36-java17
+Created task: 82432758
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82432758
+Watching tasks (this may be safely interrupted)...
+82432758 build (f36-java17, /rpms/osslsigncode.git:c1c89c3a0c6c9aa96544bd628faf52a36250bb81): open (buildvm-x86-23.iad2.fedoraproject.org)
+  82432760 buildSRPMFromSCM (/rpms/osslsigncode.git:c1c89c3a0c6c9aa96544bd628faf52a36250bb81): free
+  82432760 buildSRPMFromSCM (/rpms/osslsigncode.git:c1c89c3a0c6c9aa96544bd628faf52a36250bb81): free -> open (buildvm-x86-23.iad2.fedoraproject.org)
+  82432760 buildSRPMFromSCM (/rpms/osslsigncode.git:c1c89c3a0c6c9aa96544bd628faf52a36250bb81): open (buildvm-x86-23.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82432839 buildArch (osslsigncode-2.2-4.fc36.src.rpm, x86_64): free
+  82432837 buildArch (osslsigncode-2.2-4.fc36.src.rpm, armv7hl): open (buildvm-a32-12.iad2.fedoraproject.org)
+  82432842 buildArch (osslsigncode-2.2-4.fc36.src.rpm, s390x): open (buildvm-s390x-03.s390.fedoraproject.org)
+  82432838 buildArch (osslsigncode-2.2-4.fc36.src.rpm, i686): open (buildvm-x86-23.iad2.fedoraproject.org)
+  82432841 buildArch (osslsigncode-2.2-4.fc36.src.rpm, ppc64le): open (buildvm-ppc64le-21.iad2.fedoraproject.org)
+  82432840 buildArch (osslsigncode-2.2-4.fc36.src.rpm, aarch64): open (buildvm-a64-20.iad2.fedoraproject.org)
+  82432839 buildArch (osslsigncode-2.2-4.fc36.src.rpm, x86_64): free -> open (buildvm-x86-16.iad2.fedoraproject.org)
+  82432842 buildArch (osslsigncode-2.2-4.fc36.src.rpm, s390x): open (buildvm-s390x-03.s390.fedoraproject.org) -> closed
+  0 free  6 open  2 done  0 failed
+  82432839 buildArch (osslsigncode-2.2-4.fc36.src.rpm, x86_64): open (buildvm-x86-16.iad2.fedoraproject.org) -> closed
+  0 free  5 open  3 done  0 failed
+  82432838 buildArch (osslsigncode-2.2-4.fc36.src.rpm, i686): open (buildvm-x86-23.iad2.fedoraproject.org) -> closed
+  0 free  4 open  4 done  0 failed
+  82432840 buildArch (osslsigncode-2.2-4.fc36.src.rpm, aarch64): open (buildvm-a64-20.iad2.fedoraproject.org) -> closed
+  0 free  3 open  5 done  0 failed
+  82432841 buildArch (osslsigncode-2.2-4.fc36.src.rpm, ppc64le): open (buildvm-ppc64le-21.iad2.fedoraproject.org) -> closed
+  0 free  2 open  6 done  0 failed
+  82432837 buildArch (osslsigncode-2.2-4.fc36.src.rpm, armv7hl): open (buildvm-a32-12.iad2.fedoraproject.org) -> closed
+  0 free  1 open  7 done  0 failed
+  82433010 tagBuild (noarch): free
+82432758 build (f36-java17, /rpms/osslsigncode.git:c1c89c3a0c6c9aa96544bd628faf52a36250bb81): open (buildvm-x86-23.iad2.fedoraproject.org) -> closed
+  1 free  0 open  8 done  0 failed
+  82433010 tagBuild (noarch): free -> closed
+  0 free  0 open  9 done  0 failed
+
+82432758 build (f36-java17, /rpms/osslsigncode.git:c1c89c3a0c6c9aa96544bd628faf52a36250bb81) completed successfully

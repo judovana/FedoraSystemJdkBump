@@ -1,0 +1,24 @@
+Cloning into 'antlr32'...
+[rawhide b8243a8] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building antlr32-3.2-32.fc36 for f36-java17
+Created task: 82423180
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82423180
+Watching tasks (this may be safely interrupted)...
+82423180 build (f36-java17, /rpms/antlr32.git:b8243a819f134ccae3cf85684ee6af3b2cb61add): free
+82423180 build (f36-java17, /rpms/antlr32.git:b8243a819f134ccae3cf85684ee6af3b2cb61add): free -> open (buildvm-s390x-21.s390.fedoraproject.org)
+  82423207 buildSRPMFromSCM (/rpms/antlr32.git:b8243a819f134ccae3cf85684ee6af3b2cb61add): free
+  82423207 buildSRPMFromSCM (/rpms/antlr32.git:b8243a819f134ccae3cf85684ee6af3b2cb61add): free -> open (buildvm-ppc64le-09.iad2.fedoraproject.org)
+  82423207 buildSRPMFromSCM (/rpms/antlr32.git:b8243a819f134ccae3cf85684ee6af3b2cb61add): open (buildvm-ppc64le-09.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82423252 buildArch (antlr32-3.2-32.fc36.src.rpm, noarch): free
+  82423252 buildArch (antlr32-3.2-32.fc36.src.rpm, noarch): free -> open (buildvm-ppc64le-37.iad2.fedoraproject.org)
+  82423252 buildArch (antlr32-3.2-32.fc36.src.rpm, noarch): open (buildvm-ppc64le-37.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  82423279 tagBuild (noarch): open (buildvm-x86-13.iad2.fedoraproject.org)
+  82423279 tagBuild (noarch): open (buildvm-x86-13.iad2.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+82423180 build (f36-java17, /rpms/antlr32.git:b8243a819f134ccae3cf85684ee6af3b2cb61add): open (buildvm-s390x-21.s390.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+82423180 build (f36-java17, /rpms/antlr32.git:b8243a819f134ccae3cf85684ee6af3b2cb61add) completed successfully

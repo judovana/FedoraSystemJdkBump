@@ -1,0 +1,20 @@
+Cloning into 'trilead-ssh2'...
+[rawhide 47ae1b5] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building trilead-ssh2-217.21-7.fc36 for f36-java17
+Created task: 82435188
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82435188
+Watching tasks (this may be safely interrupted)...
+82435188 build (f36-java17, /rpms/trilead-ssh2.git:47ae1b5dcfc4c5288d9deb38e7d25c3dd3f85a93): open (buildvm-x86-19.iad2.fedoraproject.org)
+  82435189 buildSRPMFromSCM (/rpms/trilead-ssh2.git:47ae1b5dcfc4c5288d9deb38e7d25c3dd3f85a93): free
+  82435189 buildSRPMFromSCM (/rpms/trilead-ssh2.git:47ae1b5dcfc4c5288d9deb38e7d25c3dd3f85a93): free -> open (buildvm-x86-11.iad2.fedoraproject.org)
+  82435189 buildSRPMFromSCM (/rpms/trilead-ssh2.git:47ae1b5dcfc4c5288d9deb38e7d25c3dd3f85a93): open (buildvm-x86-11.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82435205 buildArch (trilead-ssh2-217.21-7.fc36.src.rpm, noarch): open (buildvm-ppc64le-11.iad2.fedoraproject.org)
+  82435205 buildArch (trilead-ssh2-217.21-7.fc36.src.rpm, noarch): open (buildvm-ppc64le-11.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  82435257 tagBuild (noarch): closed
+82435188 build (f36-java17, /rpms/trilead-ssh2.git:47ae1b5dcfc4c5288d9deb38e7d25c3dd3f85a93): open (buildvm-x86-19.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+82435188 build (f36-java17, /rpms/trilead-ssh2.git:47ae1b5dcfc4c5288d9deb38e7d25c3dd3f85a93) completed successfully

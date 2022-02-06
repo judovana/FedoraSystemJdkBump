@@ -1,0 +1,25 @@
+Cloning into 'naga'...
+[rawhide bce1331] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building naga-3.0-19.20200930git6f1e95d.fc36 for f36-java17
+Created task: 82432220
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82432220
+Watching tasks (this may be safely interrupted)...
+82432220 build (f36-java17, /rpms/naga.git:bce1331f3ddf47187818bb9bd0e1e37e6399587e): free
+82432220 build (f36-java17, /rpms/naga.git:bce1331f3ddf47187818bb9bd0e1e37e6399587e): free -> open (buildvm-x86-19.iad2.fedoraproject.org)
+  82432223 buildSRPMFromSCM (/rpms/naga.git:bce1331f3ddf47187818bb9bd0e1e37e6399587e): free
+  82432223 buildSRPMFromSCM (/rpms/naga.git:bce1331f3ddf47187818bb9bd0e1e37e6399587e): free -> open (buildvm-ppc64le-07.iad2.fedoraproject.org)
+  82432223 buildSRPMFromSCM (/rpms/naga.git:bce1331f3ddf47187818bb9bd0e1e37e6399587e): open (buildvm-ppc64le-07.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82432311 buildArch (naga-3.0-19.20200930git6f1e95d.fc36.src.rpm, noarch): free
+  82432311 buildArch (naga-3.0-19.20200930git6f1e95d.fc36.src.rpm, noarch): free -> open (buildvm-ppc64le-31.iad2.fedoraproject.org)
+  82432311 buildArch (naga-3.0-19.20200930git6f1e95d.fc36.src.rpm, noarch): open (buildvm-ppc64le-31.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  82432458 tagBuild (noarch): free
+  82432458 tagBuild (noarch): free -> open (buildvm-ppc64le-07.iad2.fedoraproject.org)
+  82432458 tagBuild (noarch): open (buildvm-ppc64le-07.iad2.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+82432220 build (f36-java17, /rpms/naga.git:bce1331f3ddf47187818bb9bd0e1e37e6399587e): open (buildvm-x86-19.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+82432220 build (f36-java17, /rpms/naga.git:bce1331f3ddf47187818bb9bd0e1e37e6399587e) completed successfully

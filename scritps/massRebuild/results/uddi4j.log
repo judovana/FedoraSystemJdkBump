@@ -1,0 +1,4 @@
+Cloning into 'uddi4j'...
+This package or module is retired. The action has stopped.
+Note: You can skip NVR construction & NVR check with --skip-nvr-check. See help for more info.
+Could not execute build: Cannot continue without properly constructed NVR.

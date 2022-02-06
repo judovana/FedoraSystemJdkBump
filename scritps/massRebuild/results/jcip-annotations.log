@@ -1,0 +1,24 @@
+Cloning into 'jcip-annotations'...
+[rawhide b62c121] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building jcip-annotations-1-35.20060626.fc36 for f36-java17
+Created task: 82429053
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82429053
+Watching tasks (this may be safely interrupted)...
+82429053 build (f36-java17, /rpms/jcip-annotations.git:b62c12137305bec664789770d2270fd4f0d01914): free
+82429053 build (f36-java17, /rpms/jcip-annotations.git:b62c12137305bec664789770d2270fd4f0d01914): free -> open (buildvm-s390x-29.s390.fedoraproject.org)
+  82429068 buildSRPMFromSCM (/rpms/jcip-annotations.git:b62c12137305bec664789770d2270fd4f0d01914): free
+  82429068 buildSRPMFromSCM (/rpms/jcip-annotations.git:b62c12137305bec664789770d2270fd4f0d01914): free -> open (buildvm-ppc64le-39.iad2.fedoraproject.org)
+  82429068 buildSRPMFromSCM (/rpms/jcip-annotations.git:b62c12137305bec664789770d2270fd4f0d01914): open (buildvm-ppc64le-39.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82429141 buildArch (jcip-annotations-1-35.20060626.fc36.src.rpm, noarch): free
+  82429141 buildArch (jcip-annotations-1-35.20060626.fc36.src.rpm, noarch): free -> open (buildvm-x86-25.iad2.fedoraproject.org)
+  82429141 buildArch (jcip-annotations-1-35.20060626.fc36.src.rpm, noarch): open (buildvm-x86-25.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  82429236 tagBuild (noarch): free
+  82429236 tagBuild (noarch): free -> closed
+  0 free  1 open  3 done  0 failed
+82429053 build (f36-java17, /rpms/jcip-annotations.git:b62c12137305bec664789770d2270fd4f0d01914): open (buildvm-s390x-29.s390.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+82429053 build (f36-java17, /rpms/jcip-annotations.git:b62c12137305bec664789770d2270fd4f0d01914) completed successfully

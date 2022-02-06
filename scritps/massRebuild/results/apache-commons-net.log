@@ -1,0 +1,23 @@
+Cloning into 'apache-commons-net'...
+[rawhide 43a28d1] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building apache-commons-net-3.6-16.fc36 for f36-java17
+Created task: 82423450
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82423450
+Watching tasks (this may be safely interrupted)...
+82423450 build (f36-java17, /rpms/apache-commons-net.git:43a28d15f5ff7f9230ee75b9e2f0542b041256a8): open (buildvm-ppc64le-37.iad2.fedoraproject.org)
+  82423452 buildSRPMFromSCM (/rpms/apache-commons-net.git:43a28d15f5ff7f9230ee75b9e2f0542b041256a8): free
+  82423452 buildSRPMFromSCM (/rpms/apache-commons-net.git:43a28d15f5ff7f9230ee75b9e2f0542b041256a8): free -> open (buildvm-x86-04.iad2.fedoraproject.org)
+  82423452 buildSRPMFromSCM (/rpms/apache-commons-net.git:43a28d15f5ff7f9230ee75b9e2f0542b041256a8): open (buildvm-x86-04.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82423493 buildArch (apache-commons-net-3.6-16.fc36.src.rpm, noarch): free
+  82423493 buildArch (apache-commons-net-3.6-16.fc36.src.rpm, noarch): free -> open (buildvm-x86-05.iad2.fedoraproject.org)
+  82423493 buildArch (apache-commons-net-3.6-16.fc36.src.rpm, noarch): open (buildvm-x86-05.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  82423520 tagBuild (noarch): free
+  82423520 tagBuild (noarch): free -> closed
+  0 free  1 open  3 done  0 failed
+82423450 build (f36-java17, /rpms/apache-commons-net.git:43a28d15f5ff7f9230ee75b9e2f0542b041256a8): open (buildvm-ppc64le-37.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+82423450 build (f36-java17, /rpms/apache-commons-net.git:43a28d15f5ff7f9230ee75b9e2f0542b041256a8) completed successfully

@@ -1,0 +1,27 @@
+Cloning into 'forbidden-apis'...
+[rawhide 28c0764] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building forbidden-apis-3.2-3.fc36 for f36-java17
+Created task: 82426052
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82426052
+Watching tasks (this may be safely interrupted)...
+82426052 build (f36-java17, /rpms/forbidden-apis.git:28c076433ae9bbdd90b0e71dc95293a4bcd2ca8d): free
+82426052 build (f36-java17, /rpms/forbidden-apis.git:28c076433ae9bbdd90b0e71dc95293a4bcd2ca8d): free -> open (buildvm-s390x-28.s390.fedoraproject.org)
+  82426069 buildSRPMFromSCM (/rpms/forbidden-apis.git:28c076433ae9bbdd90b0e71dc95293a4bcd2ca8d): free
+  82426069 buildSRPMFromSCM (/rpms/forbidden-apis.git:28c076433ae9bbdd90b0e71dc95293a4bcd2ca8d): free -> open (buildvm-ppc64le-30.iad2.fedoraproject.org)
+  82426069 buildSRPMFromSCM (/rpms/forbidden-apis.git:28c076433ae9bbdd90b0e71dc95293a4bcd2ca8d): open (buildvm-ppc64le-30.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82426131 buildArch (forbidden-apis-3.2-3.fc36.src.rpm, noarch): free
+  82426131 buildArch (forbidden-apis-3.2-3.fc36.src.rpm, noarch): free -> open (buildvm-x86-30.iad2.fedoraproject.org)
+  82426131 buildArch (forbidden-apis-3.2-3.fc36.src.rpm, noarch): open (buildvm-x86-30.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 30; see root.log for more information
+  Relevant logs:
+  https://kojipkgs.fedoraproject.org/work/tasks/6131/82426131/mock_output.log
+  https://kojipkgs.fedoraproject.org/work/tasks/6131/82426131/hw_info.log
+  https://kojipkgs.fedoraproject.org/work/tasks/6131/82426131/state.log
+  https://kojipkgs.fedoraproject.org/work/tasks/6131/82426131/build.log
+  https://kojipkgs.fedoraproject.org/work/tasks/6131/82426131/root.log
+  0 free  1 open  1 done  1 failed
+82426052 build (f36-java17, /rpms/forbidden-apis.git:28c076433ae9bbdd90b0e71dc95293a4bcd2ca8d): open (buildvm-s390x-28.s390.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 30; see root.log for more information
+  0 free  0 open  1 done  2 failed
+
+82426052 build (f36-java17, /rpms/forbidden-apis.git:28c076433ae9bbdd90b0e71dc95293a4bcd2ca8d) failed
