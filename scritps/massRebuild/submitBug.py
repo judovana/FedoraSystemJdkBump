@@ -70,7 +70,7 @@ We'd appreciate help from the people who know this package best, but if you don'
       summary = summary,
 #      short_desc = summary,
 #      blocked = 'Java17',
-      blocks = [2024265],
+      blocks = [int(parentBug)],
       product = 'Fedora',
       version = 'rawhide',
       component = package,
