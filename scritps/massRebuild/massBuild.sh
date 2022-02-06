@@ -16,8 +16,8 @@ readonly SCRIPT_DIR="$( cd -P "$( dirname "$SCRIPT_SOURCE" )" && pwd )"
 set -e
 set -o pipefail
 TAG=f36-java17
-targettedSelection=".*"
-DO="true"
+targettedSelection="jpanoramamaker"
+DO="false"
 
 FILE_WITH_PKGS="$SCRIPT_DIR/../fillCopr/exemplarResults/depndent-packages.jbump"
 
@@ -54,6 +54,7 @@ mkdir  "$RESULTS_DIR"
 echo "starting mass rebuild for $TAG"
 set +e # disputable... but yo do not want to lost 24h long script becasue of minute network issue i second hour
 #inspired by https://github.com/hroncok/mini-mass-rebuild ... fedpkg-bump-build.sh I think
+# if you wish to run it on some set of pkgs - eg on the keys from above - copy this script, and replace below `cat...` by hardcoded list
 for pkg in `cat $FILE_WITH_PKGS | grep  -v $regex  | grep "$targettedSelection"` ; do 
   fedpkg clone $pkg  2>&1 | tee $RESULTS_DIR/${pkg}.log
   pushd $pkg
