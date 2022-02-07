@@ -289,6 +289,22 @@ Annother issue may be if eg jdk stop building o some architecture. Then it have 
 * fix them
 * if to much (unfixable number) of pkgs failed
   *  consult with fesco and java engineerging, whether to withdraw the delay the change
+*  Once sidetag is merged,wait for main repo to regenerate
+  *   can take quite a couple of hours (even day if relengs are lazy)
 
 
-Once you have merged the side tag and fixed all the FTBFS bugs, you are done
+Once you have merged the side tag, repo for rawhide regenerated and fixed all the FTBFS bugs, you are done
+
+# cleanup
+* disable the copr.
+  * worthy to keep it archived
+  * to do so, iterate all jobs and disable pulling
+  * you can use modified  repoToCopr.sh (https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/fillCopr/repoToCopr.sh) to do so
+    * just `--webhook-rebuild on` change temorarily to `--webhook-rebuild off`
+    * and excute:
+      * sh addListOfPkgs.sh
+      * ALL_MERGED=true sh addCrucialPackages.sh
+    * revert the webhook change
+  * in your copr, verify (in packages tab), by sorting by `Automatic build`, that
+    * all packages have it **disabled**
+    * manually disable rest
