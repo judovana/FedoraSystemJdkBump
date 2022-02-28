@@ -25,6 +25,7 @@ Steps and tools to bump system JDK in Fedora
   * it is always ```[[Category:SystemWideChange]]```
   * at first it is ```[[Category:ChangePageIncomplete]]```, later it is ```[[Category:ChangeReadyForWrangler]]```  then it is ```[[Category:ChangeReadyForFesco]]``` and thenlater ```[[Category:ChangeAnnounced]]``` at the end it is  ```[[Category:ChangeAcceptedFxy]]```
     * where xy is of course fedora verion
+    * you need to care only about ```[[Category:ChangePageIncomplete]]``` and ```[[Category:ChangeReadyForWrangler]]```, (and maybe ```[[Category:ChangeReadyForFesco]]``` :) rest should be automatic
   * do it early, it needs whole future fedora development cycle
     * usual deadline is shortly before branching (so 3 months to finsih it)
   * disucss it in users@lists.fedoraproject.org (brace for weird comment, later it is officially announced in devel@lists.fedoraproject.org)
