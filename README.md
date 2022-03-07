@@ -34,6 +34,7 @@ Steps and tools to bump system JDK in Fedora
 * fill rcm ticket
   * eg https://pagure.io/releng/issue/10364
   * they should be linked together
+  * they should be linked from change proposal page
 * discusse it on devel@lists.fedoraproject.org
 
 now time should be taken to Fesco and RCM have spoken, then it is announced by them and work can start
