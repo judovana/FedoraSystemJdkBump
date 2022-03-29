@@ -17,6 +17,7 @@ Steps and tools to bump system JDK in Fedora
     *  ```repoquery --arch src -q --whatrequires mvn...java-devel...java-headless...java-... {various subsets} // for build time```
   * eg https://fedoraproject.org/wiki/Changes/Java17#Dependencies
   *  You can use: https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/listPkgs/listJavaDependentPkgs.sh
+    *  there is recursiveGlue.sh which is able to scan recursive dependencies, but it is not finished notbullet proof. I do not recomed it to be used
 * discusse coopeartion with ***javapackages-tools*** and ***maven***
   * javapackges-tools are usually that simple: https://src.fedoraproject.org/rpms/javapackages-tools/c/637e4be9a46812a99645521530770ce2d10115bd?branch=rawhide
   * maven honor above, but more severe patches, eg: https://src.fedoraproject.org/rpms/javapackages-tools/c/8fe665f78ac8eab03dd57f4936ca379f6ad573bd?branch=rawhide are necessary. But that can be done on the fly ahead of time
