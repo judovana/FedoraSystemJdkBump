@@ -54,5 +54,5 @@ for x in `seq 1 11` ; do
   for x in `seq 0 $base` ; do
     filter2by1 tier$y.names tier$x.names
   done
-  cp all.jbump  >  all$x.names # jsut for case...
+  cp all.jbump all$x.names # jsut for case...
 done
