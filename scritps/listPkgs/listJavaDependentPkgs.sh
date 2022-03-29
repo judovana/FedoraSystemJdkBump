@@ -2,7 +2,7 @@
 
 binRepos="fedora fedora-modular updates updates-modular"
 srcRepos="fedora-modular-source fedora-source updates-modular-source updates-source"
-interestingDeps="java-headless java java-devel java-1.8.0-openjdk-headless java-1.8.0-openjdk java-1.8.0-openjdk-devel java-11-openjdk-headless java-11-openjdk java-11-openjdk-devel ant maven-local maven mvn xmvn ivy-local"
+interestingDeps="java-headless java java-devel java-1.8.0-openjdk-headless java-1.8.0-openjdk java-1.8.0-openjdk-devel java-11-openjdk-headless java-11-openjdk java-11-openjdk-devel ant maven-local maven mvn xmvn ivy-local java-17-openjdk-headless java-17-openjdk java-17-openjdk-devel"
 
 #to allow work with repos with spaces in names, IFS is affected manytimes
 IFS_BACKUP="$IFS"
