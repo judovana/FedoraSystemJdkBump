@@ -64,7 +64,7 @@ function doMain() {
     IFS="
 "
     local dfile=mktemp
-    repoquery $RS1 $RS2 $repos -q --whatrequires $x | sort > $dfile
+    repoquery $RS1 $RS11 $RS2 $repos -q --whatrequires $x | sort > $dfile
     if [ ! "x$CHART" == "x" ] ; then
       cp $dfile $dfile-backup
       cat $dfile-backup | sh $SCRIPT_DIR/nvfrsToNames.sh > $dfile
@@ -72,8 +72,8 @@ function doMain() {
         line=`echo $line | sh $SCRIPT_DIR/nvfrsToNames.sh`
         local edgeFile=$CHART/$x~is~req~by~$line
         if [ ! -e $edgeFile ] ; then
-          local from=`cat all.nvras | grep -vF ".src" | grep -F "$x."`    | sed "s/.*\.//g"
-          local   to=`cat all.nvras | grep -vF ".src" | grep -F "$line."` | sed "s/.*\.//g"
+          local from=`cat all.nvras | grep -vF ".src" | grep -F "$x."    | sed "s/.*\.//g"`
+          local   to=`cat all.nvras | grep -vF ".src" | grep -F "$line." | sed "s/.*\.//g"`
           if [ -z "$from" ] ; then  from="i686" ; fi #virtual provide
           if [ -z "$to" ] ; then  to="???" ; fi #should not happen
           echo "$from~is~req~by~$to" >> $edgeFile
@@ -94,6 +94,7 @@ TITLE="Buildtime depndencies (src repos, all arches): "
 CHARTID="sa"
 FILE=b1.jbump
 RS1=
+RS11=
 RS2=
 REPOS="$srcRepos"
 doMain
@@ -103,6 +104,7 @@ CHARTID="ba"
 FILE=r1.jbump
 REPOS="$binRepos"
 RS1=
+RS11=
 RS2=
 doMain
 
@@ -112,6 +114,7 @@ FILE=b2.jbump
 REPOS="$srcRepos $binRepos"
 RS1="--arch
 src" # IFS ammended
+RS11=
 RS2=
 doMain
 
@@ -121,6 +124,8 @@ FILE=r2.jbump
 REPOS="$srcRepos $binRepos"
 RS1="--arch
 x86_64" # IFS ammended
+RS11="--arch
+i686" # IFS ammended
 RS2="--arch
 noarch" # IFS ammended
 doMain
