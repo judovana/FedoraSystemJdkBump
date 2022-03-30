@@ -69,7 +69,6 @@ function doMain() {
       cp $dfile $dfile-backup
       cat $dfile-backup | sh $SCRIPT_DIR/nvfrsToNames.sh > $dfile
       for line in `cat $dfile` ; do
-        line=`echo $line | sh $SCRIPT_DIR/nvfrsToNames.sh`
         local edgeFile=$CHART/$x~is~req~by~$line
         if [ ! -e $edgeFile ] ; then
           local from=`cat all.nvras | grep -v ".src$" | grep  "^$x\."    | sed "s/.*\.//g"`
