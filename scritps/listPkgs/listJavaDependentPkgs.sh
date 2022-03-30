@@ -52,7 +52,21 @@ function doMain() {
     local repos=`disableAllEnableGiven $REPOS`
     IFS="
 "
-    repoquery $RS1 $RS2 $repos -q --whatrequires $x | sort >> $FILE
+    local dfile=mktemp
+    repoquery $RS1 $RS2 $repos -q --whatrequires $x | sort > $dfile
+    if [ ! "x$CHART" == "x" ] ; then
+      for line in `cat $dfile` ; do
+        local edgeFile=$CHART/$x~is~req~by~$line
+        if [ ! -e $edgeFile ] ; then
+          local from=`cat all.nvras | grep -vF ".src" | grep -F "$x."`    | sed "s/.*\.//g"
+          local   to=`cat all.nvras | grep -vF ".src" | grep -F "$line."` | sed "s/.*\.//g"
+          echo "$from~is~req~by~$to" >> $edgeFile
+          echo "#tier reqOrigin1 reqOrigin2" >> $edgeFile
+        fi
+        echo $CHART_TIER $CHARTID $FILE >> $edgeFile
+      done
+    fi
+    cat $dfile >> $FILE
     cat $FILE | wc -l >&2
     IFS="$IFS_BACKUP"
   done
@@ -61,6 +75,7 @@ function doMain() {
 }
 
 TITLE="Buildtime depndencies (src repos, all arches): "
+CHARTID="sa"
 FILE=b1.jbump
 RS1=
 RS2=
@@ -68,6 +83,7 @@ REPOS="$srcRepos"
 doMain
 
 TITLE="Runtime depndencies (bin repos, all arches): "
+CHARTID="ba"
 FILE=r1.jbump
 REPOS="$binRepos"
 RS1=
@@ -75,6 +91,7 @@ RS2=
 doMain
 
 TITLE="Buildtime depndencies (all repos, src arch): "
+CHARTID="as"
 FILE=b2.jbump
 REPOS="$srcRepos $binRepos"
 RS1="--arch
@@ -83,6 +100,7 @@ RS2=
 doMain
 
 TITLE="Runtime depndencies (all repos, bin arches): "
+CHARTID="ab"
 FILE=r2.jbump
 REPOS="$srcRepos $binRepos"
 RS1="--arch
