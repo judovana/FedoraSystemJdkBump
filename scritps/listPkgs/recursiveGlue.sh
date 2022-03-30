@@ -141,12 +141,11 @@ java-1.8.0-src" >  tier0.names
     base=$(($x-1))
     export CHART_TIER=$x
     sh $SCRIPT_DIR/listJavaDependentPkgs.sh tier$base.names
-    cat all.jbump | sh $SCRIPT_DIR/nvfrsToNames.sh >  tier$x.names
+    cp all.jbump tier$x.names
     cp tier$x.names tier$x-all.names # jsut for case...
     # now  remove all already walked through guys. On tier 1 it do nearly nothing (but eg removal of ant and java put next walk to less then half).As conseqence, on two and up it removes huge numbers
     for y in `seq 0 $base` ; do
       filter2by1 tier$y.names tier$x.names
     done
-    cp all.jbump all$x.names # jsut for case...
   done
 fi

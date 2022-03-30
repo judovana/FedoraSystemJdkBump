@@ -55,11 +55,16 @@ function doMain() {
     local dfile=mktemp
     repoquery $RS1 $RS2 $repos -q --whatrequires $x | sort > $dfile
     if [ ! "x$CHART" == "x" ] ; then
+      cp $dfile $dfile-backup
+      cat $dfile-backup | sh $SCRIPT_DIR/nvfrsToNames.sh > $dfile
       for line in `cat $dfile` ; do
+        line=`echo $line | sh $SCRIPT_DIR/nvfrsToNames.sh`
         local edgeFile=$CHART/$x~is~req~by~$line
         if [ ! -e $edgeFile ] ; then
           local from=`cat all.nvras | grep -vF ".src" | grep -F "$x."`    | sed "s/.*\.//g"
           local   to=`cat all.nvras | grep -vF ".src" | grep -F "$line."` | sed "s/.*\.//g"
+          if [ -z "$from" ] ; then  from="i686" ; fi #virtual provide
+          if [ -z "$to" ] ; then  to="???" ; fi #should not happen
           echo "$from~is~req~by~$to" >> $edgeFile
           echo "#tier reqOrigin1 reqOrigin2" >> $edgeFile
         fi
