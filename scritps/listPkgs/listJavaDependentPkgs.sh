@@ -72,8 +72,8 @@ function doMain() {
         line=`echo $line | sh $SCRIPT_DIR/nvfrsToNames.sh`
         local edgeFile=$CHART/$x~is~req~by~$line
         if [ ! -e $edgeFile ] ; then
-          local from=`cat all.nvras | grep -vF ".src" | grep -F "$x."    | sed "s/.*\.//g"`
-          local   to=`cat all.nvras | grep -vF ".src" | grep -F "$line." | sed "s/.*\.//g"`
+          local from=`cat all.nvras | grep -v ".src$" | grep  "^$x\."    | sed "s/.*\.//g"`
+          local   to=`cat all.nvras | grep -v ".src$" | grep  "^$line\." | sed "s/.*\.//g"`
           if [ -z "$from" ] ; then  from="i686" ; fi #virtual provide
           if [ -z "$to" ] ; then  to="???" ; fi #should not happen
           echo "$from~is~req~by~$to" >> $edgeFile
