@@ -71,8 +71,8 @@ function doMain() {
       for line in `cat $dfile` ; do
         local edgeFile=$CHART/$x~is~req~by~$line
         if [ ! -e $edgeFile ] ; then
-          local from=`cat all.nvras | grep -v ".src$" | grep  "^$x\."    | sed "s/.*\.//g"`
-          local   to=`cat all.nvras | grep -v ".src$" | grep  "^$line\." | sed "s/.*\.//g"`
+          local from=`cat all.nvras | grep -v ".src$" | grep  "^$x\."    | sed "s/.*\.//g" | head -n 1`
+          local   to=`cat all.nvras | grep -v ".src$" | grep  "^$line\." | sed "s/.*\.//g" | head -n 1`
           if [ -z "$from" ] ; then  from="i686" ; fi #virtual provide
           if [ -z "$to" ] ; then  to="???" ; fi #should not happen
           echo "$from~is~req~by~$to" >> $edgeFile
