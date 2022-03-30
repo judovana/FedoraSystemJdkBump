@@ -63,7 +63,7 @@ function doMain() {
     local repos=`disableAllEnableGiven $REPOS`
     IFS="
 "
-    local dfile=mktemp
+    local dfile=`mktemp`
     repoquery $RS1 $RS11 $RS2 $repos -q --whatrequires $x | sort > $dfile
     if [ ! "x$CHART" == "x" ] ; then
       cp $dfile $dfile-backup
@@ -82,6 +82,7 @@ function doMain() {
       done
     fi
     cat $dfile >> $FILE
+    rm $dfile
     cat $FILE | wc -l >&2
     IFS="$IFS_BACKUP"
   done
