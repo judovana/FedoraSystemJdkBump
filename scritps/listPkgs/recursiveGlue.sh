@@ -40,9 +40,11 @@ else
   # will skip check on dead packages and subpackages in nvfrsToNames.sh
   export SKIP_CHECK=true;
   export CHART=$PWD/edges;
+  export SKIP_NOARCH_BR=$PWD/br_noarchs; # note that this works only in chart mode
 
   rm -rf $CHART
   mkdir  $CHART
+  rm $SKIP_NOARCH_BR
 
   # initial load, all what depends on java, mvn and friends in 
   # build or runtime. result is all.jbump
