@@ -78,7 +78,7 @@ function doMain() {
           if [ "$CHARTID" == "sa" -o "x$CHARTID" == "as" ] ; then
             if [ "$to" == "noarch" ] ; then
               echo "  will skip $line, is $to and buildtime only and thus harmless" >&2
-              echo "$line" > $SKIP_NOARCH_BR
+              echo "$line" >> $SKIP_NOARCH_BR
               skipnoarchbr=true
               grep -v -x -f $SKIP_NOARCH_BR $dfile > $dfile-backup2 #this is slow, and not nice, but file was already read  and I started to ahte bash again. Stil the slowest hting around is repoquery
               cp $dfile-backup2 $dfile
