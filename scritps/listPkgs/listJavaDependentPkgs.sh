@@ -66,21 +66,22 @@ function doMain() {
     local dfile=`mktemp`
     repoquery $RS1 $RS11 $RS2 $repos -q --whatrequires $x | sort > $dfile
     if [ ! "x$CHART" == "x" ] ; then
-      cp $dfile $dfile-backup
-      cat $dfile-backup | sh $SCRIPT_DIR/nvfrsToNames.sh > $dfile
+      cp $dfile $dfile-backup1
+      cat $dfile-backup1 | sh $SCRIPT_DIR/nvfrsToNames.sh > $dfile
       for line in `cat $dfile` ; do
         local from=`cat all.nvras | grep -v ".src$" | grep  "^$x\."    | sed "s/.*\.//g" | head -n 1`
         local   to=`cat all.nvras | grep -v ".src$" | grep  "^$line\." | sed "s/.*\.//g" | head -n 1`
         if [ -z "$from" ] ; then  from="i686" ; fi #virtual provide
         if [ -z "$to" ] ; then  to="???" ; fi #should not happen
         local skipnoarchbr=false
-        if [ "x$SKIP_NOARCH_BR" == "x" ] ; then
+        if [ ! "x$SKIP_NOARCH_BR" == "x" ] ; then
           if [ "$CHARTID" == "sa" -o "x$CHARTID" == "as" ] ; then
             if [ "$to" == "noarch" ] ; then
               echo "  will skip $line, is $to and buildtime only and thus harmless" >&2
               echo "$line" > $SKIP_NOARCH_BR
               skipnoarchbr=true
-              grep -v -x -f $SKIP_NOARCH_BR $dfile  #this is slow, and not nice, but file was already read  and I started to ahte bash again. Stil the slowest hting around is repoquery
+              grep -v -x -f $SKIP_NOARCH_BR $dfile > $dfile-backup2 #this is slow, and not nice, but file was already read  and I started to ahte bash again. Stil the slowest hting around is repoquery
+              cp $dfile-backup2 $dfile
             fi
           fi
         fi
@@ -93,6 +94,7 @@ function doMain() {
           echo $CHART_TIER $CHARTID $FILE >> $edgeFile
         fi
       done
+    rm $dfile-backup1 $dfile-backup1
     fi
     cat $dfile >> $FILE
     rm $dfile
