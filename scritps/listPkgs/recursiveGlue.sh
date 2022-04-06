@@ -41,6 +41,8 @@ else
   export SKIP_CHECK=true;
   export CHART=$PWD/edges;
   export SKIP_NOARCH_BR=$PWD/br_noarchs; # note that this works only in chart mode
+  # if you will be running this script for general java bump, you will need SKIP_NOARCH_BR to be empty. But You will also not need 10 tiers, but just two or three. 
+  # Generally, simply run listJavaDependentPkgs with default (adapted to bump) values, and do not use this recursive. But this oen can help if it really goes wild.
 
   rm -rf $CHART
   mkdir  $CHART
