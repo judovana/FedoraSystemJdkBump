@@ -135,7 +135,8 @@ java-1.8.0-openjdk-jmods
 java-1.8.0-openjdk-src
 java-1.8.0-src" >  tier0.names
 
-echo "automake" > blacklist
+echo "automake
+autoconf" > blacklist
 
   # it may happen, that (eg by incorrect spec file) that also transitive depndence is included as top level depndence
   # eg something requires ant and java. However and already requires java, so suddenly we will have java deps listed in all tier, which we do not want
