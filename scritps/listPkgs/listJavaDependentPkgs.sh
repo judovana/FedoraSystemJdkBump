@@ -94,7 +94,7 @@ function doMain() {
           echo $CHART_TIER $CHARTID $FILE >> $edgeFile
         fi
       done
-    rm $dfile-backup1 $dfile-backup1
+    rm -f $dfile-backup1 $dfile-backup1
     fi
     cat $dfile >> $FILE
     rm $dfile
