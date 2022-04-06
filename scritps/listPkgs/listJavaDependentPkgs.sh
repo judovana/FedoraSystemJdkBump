@@ -75,7 +75,7 @@ function doMain() {
         if [ -z "$to" ] ; then  to="???" ; fi #should not happen
         local skipnoarchbr=false
         if [ ! "x$SKIP_NOARCH_BR" == "x" ] ; then
-          if [ "$CHARTID" == "sa" -o "x$CHARTID" == "as" ] ; then
+          if [ "$CHARTID" == "sa" -o "$CHARTID" == "as" ] ; then
             if [ "$to" == "noarch" ] ; then
               echo "  will skip $line, is $to and buildtime only and thus harmless" >&2
               echo "$line" >> $SKIP_NOARCH_BR
