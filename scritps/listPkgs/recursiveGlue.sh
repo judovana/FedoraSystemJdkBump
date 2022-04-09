@@ -139,7 +139,60 @@ java-1.8.0-openjdk-jmods
 java-1.8.0-openjdk-src
 java-1.8.0-src" >  tier0.names
 
-echo "right_now_nothing" > blacklist
+echo "autoconf
+automake
+bash
+cairo
+cargo
+cmake
+coreutils
+desktop-file-utils
+findutils
+gcc
+gcc-c++
+gdk-pixbuf2
+gettext
+ghc-base
+ghc-base-devel
+ghc-compiler
+glib2
+glib2-devel
+glibc
+gmp
+go-rpm-macros
+gtk3
+hicolor-icon-theme
+libappstream-glib
+libstdc++
+libtool
+libX11
+make
+openssl-devel
+openssl-libs
+pango
+perl-Carp
+perl-constant
+perl-Exporter
+perl-generators
+perl-interpreter
+perl-libs
+perl-PathTools
+perl-Scalar-List-Utils
+php-common
+pkgconf-pkg-config
+python3
+python3-devel
+python3-pytest
+python3-setuptools
+qt5-qtbase
+qt5-qtbase-gui
+rust-packaging
+rust-web-sys-devel
+systemd
+texlive-base
+texlive-kpathsea
+zlib
+zlib-devel" > blacklist
 
   # it may happen, that (eg by incorrect spec file) that also transitive depndence is included as top level depndence
   # eg something requires ant and java. However and already requires java, so suddenly we will have java deps listed in all tier, which we do not want
