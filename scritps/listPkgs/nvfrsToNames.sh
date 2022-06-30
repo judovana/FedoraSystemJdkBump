@@ -29,6 +29,8 @@ if [ "x$SKIP_CHECK" == "x" ] ; then
         echo $line
       fi
     else
+	  # it may be good idea to remove last -string (dashString eg perl-coomons -> perl)
+	  # and proceed recursively, to see if the remain maybe is also package needing eyball
       echo "  skipping $line - subpkg" >&2
     fi
   done < "$tmp"
