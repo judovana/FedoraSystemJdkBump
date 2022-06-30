@@ -26,12 +26,29 @@ if [ "x$SKIP_CHECK" == "x" ] ; then
       if [ $? -eq 0 ]; then
         echo "  skipping $line - dead package" >&2
       else
-        echo $line
+		if [ "x$PRINT_ARCH" = "xtrue" ] ; then
+          echo -n $line 
+		  a=""
+          a=`curl  -s https://src.fedoraproject.org/rpms/$line/raw/rawhide/f/$line.spec`
+		  ea=""
+		  ea=`echo "$a" | grep ExclusiveArch`
+		  echo "$a" | grep ExclusiveArch | grep -q noarch
+		  if [ $? -eq 0 ] ; then
+			  echo " noarch ($ea)"
+		  else
+			  echo " archful ($ea)"
+		  fi
+		else
+		  echo $line
+		fi
       fi
     else
 	  # it may be good idea to remove last -string (dashString eg perl-coomons -> perl)
 	  # and proceed recursively, to see if the remain maybe is also package needing eyball
       echo "  skipping $line - subpkg" >&2
+	  if [ ! "x$SUBPKGS_FILE" == "x" ] ; then
+		  echo $line >> $SUBPKGS_FILE
+      fi
     fi
   done < "$tmp"
 else
