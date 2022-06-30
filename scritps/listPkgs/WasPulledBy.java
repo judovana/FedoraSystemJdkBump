@@ -18,11 +18,32 @@ import java.util.stream.Collectors;
 
 public class WasPulledBy {
 
-    private static final HashMap<String, List<String>> keyIsRequiredBy = new HashMap();
-    private static final HashMap<String, List<String>> keyRequiresVal = new HashMap();
+    private static HashMap<String, List<String>> keyIsRequiredBy = new HashMap();
+    private static HashMap<String, List<String>> keyRequiresVal = new HashMap();
 
     public static void main(String... args) throws IOException {
-        readDb(new File("/home/jvanek/git/FedoraSystemJdkBump/scritps/listPkgs/edges/edges"));
+        String dbs=System.getenv("DBS");
+        if (dbs == null || dbs.trim().isEmpty()) {
+            System.err.println("Set $DBS to space separated lsit of dirs withedges. Set NWDBS if you do not want to merge them (slower). Using some weird default");
+			dbs="/home/jvanek/git/FedoraSystemJdkBump/scritps/listPkgs/edges/edges";
+        }
+        String nwdbs =System.getenv("NWDBS");
+        if (nwdbs == null){
+            for(String s: dbs.split("\\s+")) {
+                 readDb(new File(s));
+            }
+            mainRun(args);
+        } else {
+           for(String s: dbs.split("\\s+")) {
+                 keyIsRequiredBy = new HashMap();
+                 keyRequiresVal = new HashMap();
+                 readDb(new File(s));
+                 mainRun(args);
+            }
+        }
+    }
+
+    private static void mainRun(String[] args) throws IOException {
         if (args.length == 0) {
             try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
                 readPkgsFromStream(br);
@@ -61,6 +82,7 @@ public class WasPulledBy {
     }
 
     private static void readDb(File dir) {
+        System.err.println("Scanning: " + dir.getAbsolutePath());
         //dir with thousands of .X~is~req~by~Y. files
         String[] edges = dir.list();
         for (String edge : edges) {
