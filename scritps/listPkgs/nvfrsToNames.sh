@@ -6,6 +6,10 @@ else
   DEFAULT_INPUT_FILE=
 fi
 
+if [ ! "x$SUBPKGS_FILE" == "x" ] ; then
+    rm $SUBPKGS_FILE
+fi
+
 tmp=`mktemp`
 for file in "$@" $DEFAULT_INPUT_FILE ; do
   while IFS= read -r line; do
@@ -26,28 +30,39 @@ if [ "x$SKIP_CHECK" == "x" ] ; then
       if [ $? -eq 0 ]; then
         echo "  skipping $line - dead package" >&2
       else
-		if [ "x$PRINT_ARCH" = "xtrue" ] ; then
+        if [ "x$PRINT_ARCH" = "xtrue" ] ; then
           echo -n $line 
-		  a=""
-          a=`curl  -s https://src.fedoraproject.org/rpms/$line/raw/rawhide/f/$line.spec`
-		  ea=""
-		  ea=`echo "$a" | grep ExclusiveArch`
-		  echo "$a" | grep ExclusiveArch | grep -q noarch
-		  if [ $? -eq 0 ] ; then
-			  echo " noarch ($ea)"
-		  else
-			  echo " archful ($ea)"
-		  fi
-		else
-		  echo $line
-		fi
+          spec=""
+          spec=`curl  -s "https://src.fedoraproject.org/rpms/$line/raw/rawhide/f/$line.spec"`
+          echo "$spec" | grep -qe "^%package\\s" -B 1000000000 -m 1 #this is trying to limit usecase, when just subpkg is noarch
+          if [ $? -eq 0  ] ; then
+            a=`echo "$spec" | grep -e "^%package\\s" -B 1000000000 -m 1`
+          else
+            a="$spec"
+          fi
+          ea=""
+          ea=`echo "$a" | grep "^ExclusiveArch:"`
+          ba=""
+          ba=`echo "$a" | grep  "^BuildArch:"`
+          echo "$a" | grep "^ExclusiveArch:" | grep -q noarch
+          x1=$?
+          echo "$a" | grep "^BuildArch:" | grep -q noarch
+          x2=$?
+          if [ $x1 -eq 0 -o $x2 -eq 0 ] ; then
+              echo " noarch (`echo $ea | head -n 1`)(`echo $ba| head -n 1`)"
+          else
+              echo " archful (`echo $ea | head -n 1`)(`echo $ba| head -n 1`)"
+          fi
+        else
+          echo $line
+        fi
       fi
     else
-	  # it may be good idea to remove last -string (dashString eg perl-coomons -> perl)
-	  # and proceed recursively, to see if the remain maybe is also package needing eyball
+      # it may be good idea to remove last -string (dashString eg perl-coomons -> perl)
+      # and proceed recursively, to see if the remain maybe is also package needing eyball
       echo "  skipping $line - subpkg" >&2
-	  if [ ! "x$SUBPKGS_FILE" == "x" ] ; then
-		  echo $line >> $SUBPKGS_FILE
+      if [ ! "x$SUBPKGS_FILE" == "x" ] ; then
+          echo $line >> $SUBPKGS_FILE
       fi
     fi
   done < "$tmp"
