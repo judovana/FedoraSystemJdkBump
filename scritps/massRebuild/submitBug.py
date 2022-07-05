@@ -14,7 +14,7 @@ def main(argv):
     if 'BUGZILLA_API_KEY' in os.environ:
       apiKey = os.environ['BUGZILLA_API_KEY']
     else:
-      print("BZ_API_KEY environment variable is mandatory")
+      print("BUGZILLA_API_KEY environment variable is mandatory")
       quit()
     b = bugzilla.Bugzilla(url="https://bugzilla.redhat.com//rest/", api_key=apiKey)
     if len(argv) == 1:
