@@ -114,7 +114,8 @@ now time should be taken to Fesco and RCM have spoken, then it is announced by t
 * execute https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/fillCopr/addListOfPkgs.sh
   * It expects one parameter, file with list of packages to upload
   * the file must be pkgs only - filter dead.packages and subpakcages before
-  * it can use default (https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/listPkgs/exemplarResults/all.jbump)
+  * it can use default (https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/listPkgs/exemplarResults/all.jbump), but shouldnt 
+  * you can use scripts from manual way - either pipe them both or execute: listJavaDependentPkgs.sh, redirect output into a txt file and then use that txt file as an argument for nvfrsToNames.sh and then manually remove all already pre-set repos in your copr
   * and is filtering out orphans and crucial packages
   * canbe used also to fix/modify the repo(s)
 
@@ -231,6 +232,26 @@ So for that particular tree: javapackages-tools ->  maven-artifact-transfer -> m
 
 Annother issue may be if eg jdk stop building o some architecture. Then it have to be fixed before anything else. Reach to FESCO asap, as it may be ultimate blocker to you, and they are unlikly to delay fedora to much.
 
+
+# Maven rebuilding bootstrap hell
+
+* get someone from maven people (mkoncek - if dead, then mizdebsk) to help you
+* you need them to update maven stack 
+   * you will need *at least* javapackages-tools, javapackages-bootstrap, xmvn, xmvn-generator (and probably many others)
+   * they have their own build pipeline, so they are able to rebuild the mavenstack to see what breaks
+   * it will take several days - weeks to fix everything
+* once they tell you they are done, fill your copr with their forks/branches with the changes
+* get one of them to explain to you their bootstrapping hell 
+   * you will need to build several of their packages multiple times
+   * build each with and without bootstrap macro on 
+   * these packages also need to be built in paticular order (https://github.com/mizdebsk/mbici-config/blob/master/plan/bootstrap-all-rawhide.xml)
+   * e.g.
+   * with bootstrap copr
+       * jpt + jpb 
+       * build all packages with bootstrap (without order)
+   * then delete with bootstrap copr macro
+       * build some packages without bootstrap (without order)
+       * build rest in order (maven, xmvn, ant...) until you get at the end of the file
 
 # sidetag and mas rebuild
 * dounle check the massBuild.sh processResults.sh submitBug.py
