@@ -15,7 +15,7 @@ readonly SCRIPT_DIR="$( cd -P "$( dirname "$SCRIPT_SOURCE" )" && pwd )"
 
 set -e
 set -o pipefail
-TAG=f36-java17
+TAG=f41-build-side-84507
 targettedSelection="jpanoramamaker"
 DO="false"
 
