@@ -58,10 +58,10 @@ set +e # disputable... but yo do not want to lost 24h long script becasue of min
 for pkg in `cat $FILE_WITH_PKGS | grep  -v $regex  | grep "$targettedSelection"` ; do 
   fedpkg clone $pkg  2>&1 | tee $RESULTS_DIR/${pkg}.log
   pushd $pkg
-    MSG_TITLE="Rebuilt for java-17-openjdk as system jdk"
+    MSG_TITLE="Rebuilt for java-21-openjdk as system jdk"
     MSG="$MSG_TITLE
 
-https://fedoraproject.org/wiki/Changes/Java17
+https://fedoraproject.org/wiki/Changes/Java21
 "
     rpmdev-bumpspec -c "$MSG_TITLE" $pkg.spec | tee -a $RESULTS_DIR/${pkg}.log
     git commit --allow-empty ${pkg}.spec -m "$MSG" | tee -a $RESULTS_DIR/${pkg}.log
