@@ -16,7 +16,7 @@ readonly SCRIPT_DIR="$( cd -P "$( dirname "$SCRIPT_SOURCE" )" && pwd )"
 set -e
 set -o pipefail
 TAG=f41-build-side-84507
-targettedSelection="jpanoramamaker"
+targettedSelection="CFR"
 DO="false"
 
 FILE_WITH_PKGS="$SCRIPT_DIR/../fillCopr/exemplarResults/depndent-packages.jbump"
