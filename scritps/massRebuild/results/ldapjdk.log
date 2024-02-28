@@ -1,0 +1,27 @@
+Cloning into 'ldapjdk'...
+[rawhide e9a91ab] Rebuilt for java-21-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building ldapjdk-5.5.0-1.fc41.1 for f41-build-side-84507
+Created task: 114136803
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114136803
+Watching tasks (this may be safely interrupted)...
+114136803 build (f41-build-side-84507, /rpms/ldapjdk.git:e9a91ab3faf9cfb344f3f90e1bb3405bf2c3dead): free
+114136803 build (f41-build-side-84507, /rpms/ldapjdk.git:e9a91ab3faf9cfb344f3f90e1bb3405bf2c3dead): free -> open (buildvm-s390x-07.s390.fedoraproject.org)
+  114136838 buildSRPMFromSCM (/rpms/ldapjdk.git:e9a91ab3faf9cfb344f3f90e1bb3405bf2c3dead): free
+  114136838 buildSRPMFromSCM (/rpms/ldapjdk.git:e9a91ab3faf9cfb344f3f90e1bb3405bf2c3dead): free -> assigned
+  114136838 buildSRPMFromSCM (/rpms/ldapjdk.git:e9a91ab3faf9cfb344f3f90e1bb3405bf2c3dead): assigned -> open (buildvm-a64-23.iad2.fedoraproject.org)
+  114136838 buildSRPMFromSCM (/rpms/ldapjdk.git:e9a91ab3faf9cfb344f3f90e1bb3405bf2c3dead): open (buildvm-a64-23.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  114137011 buildArch (ldapjdk-5.5.0-1.fc41.1.src.rpm, noarch): free
+  114137011 buildArch (ldapjdk-5.5.0-1.fc41.1.src.rpm, noarch): free -> assigned
+  114137011 buildArch (ldapjdk-5.5.0-1.fc41.1.src.rpm, noarch): assigned -> open (buildvm-ppc64le-06.iad2.fedoraproject.org)
+  114137011 buildArch (ldapjdk-5.5.0-1.fc41.1.src.rpm, noarch): open (buildvm-ppc64le-06.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  114137212 tagBuild (noarch): free
+  114137212 tagBuild (noarch): free -> assigned
+  114137212 tagBuild (noarch): assigned -> closed
+  0 free  1 open  3 done  0 failed
+114136803 build (f41-build-side-84507, /rpms/ldapjdk.git:e9a91ab3faf9cfb344f3f90e1bb3405bf2c3dead): open (buildvm-s390x-07.s390.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+114136803 build (f41-build-side-84507, /rpms/ldapjdk.git:e9a91ab3faf9cfb344f3f90e1bb3405bf2c3dead) completed successfully

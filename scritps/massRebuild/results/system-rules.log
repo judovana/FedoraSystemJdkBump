@@ -1,0 +1,30 @@
+Cloning into 'system-rules'...
+[rawhide 1f3519c] Rebuilt for java-21-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building system-rules-1.19.0-8.fc41 for f41-build-side-84507
+Created task: 114141598
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114141598
+Watching tasks (this may be safely interrupted)...
+114141598 build (f41-build-side-84507, /rpms/system-rules.git:1f3519c2fdc0344c7ee132d59887c3d1166f36ce): free
+114141598 build (f41-build-side-84507, /rpms/system-rules.git:1f3519c2fdc0344c7ee132d59887c3d1166f36ce): free -> assigned
+114141598 build (f41-build-side-84507, /rpms/system-rules.git:1f3519c2fdc0344c7ee132d59887c3d1166f36ce): assigned -> open (buildvm-ppc64le-21.iad2.fedoraproject.org)
+  114141650 buildSRPMFromSCM (/rpms/system-rules.git:1f3519c2fdc0344c7ee132d59887c3d1166f36ce): free
+  114141650 buildSRPMFromSCM (/rpms/system-rules.git:1f3519c2fdc0344c7ee132d59887c3d1166f36ce): free -> assigned
+  114141650 buildSRPMFromSCM (/rpms/system-rules.git:1f3519c2fdc0344c7ee132d59887c3d1166f36ce): assigned -> open (buildvm-a64-21.iad2.fedoraproject.org)
+  114141650 buildSRPMFromSCM (/rpms/system-rules.git:1f3519c2fdc0344c7ee132d59887c3d1166f36ce): open (buildvm-a64-21.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  114141916 buildArch (system-rules-1.19.0-8.fc41.src.rpm, noarch): free
+  114141916 buildArch (system-rules-1.19.0-8.fc41.src.rpm, noarch): free -> assigned
+  114141916 buildArch (system-rules-1.19.0-8.fc41.src.rpm, noarch): assigned -> open (buildhw-x86-13.iad2.fedoraproject.org)
+  114141916 buildArch (system-rules-1.19.0-8.fc41.src.rpm, noarch): open (buildhw-x86-13.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
+  Relevant logs:
+  https://kojipkgs.fedoraproject.org/work/tasks/1916/114141916/state.log
+  https://kojipkgs.fedoraproject.org/work/tasks/1916/114141916/build.log
+  https://kojipkgs.fedoraproject.org/work/tasks/1916/114141916/root.log
+  https://kojipkgs.fedoraproject.org/work/tasks/1916/114141916/mock_output.log
+  https://kojipkgs.fedoraproject.org/work/tasks/1916/114141916/hw_info.log
+  0 free  1 open  1 done  1 failed
+114141598 build (f41-build-side-84507, /rpms/system-rules.git:1f3519c2fdc0344c7ee132d59887c3d1166f36ce): open (buildvm-ppc64le-21.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
+  0 free  0 open  1 done  2 failed
+
+114141598 build (f41-build-side-84507, /rpms/system-rules.git:1f3519c2fdc0344c7ee132d59887c3d1166f36ce) failed

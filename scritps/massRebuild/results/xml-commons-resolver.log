@@ -1,0 +1,31 @@
+Cloning into 'xml-commons-resolver'...
+[rawhide 9cd11b0] Rebuilt for java-21-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Found a gating.yaml file in the repo and it is properly configured
+warning: %patchN is deprecated (2 usages found), use %patch N (or %patch -P N)
+
+Building xml-commons-resolver-1.2-43.fc41 for f41-build-side-84507
+Created task: 114142494
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114142494
+Watching tasks (this may be safely interrupted)...
+114142494 build (f41-build-side-84507, /rpms/xml-commons-resolver.git:9cd11b0e2301efcdba7245c82ba73f61dc5385e9): free
+114142494 build (f41-build-side-84507, /rpms/xml-commons-resolver.git:9cd11b0e2301efcdba7245c82ba73f61dc5385e9): free -> assigned
+114142494 build (f41-build-side-84507, /rpms/xml-commons-resolver.git:9cd11b0e2301efcdba7245c82ba73f61dc5385e9): assigned -> open (buildhw-x86-07.iad2.fedoraproject.org)
+  114142573 buildSRPMFromSCM (/rpms/xml-commons-resolver.git:9cd11b0e2301efcdba7245c82ba73f61dc5385e9): free
+  114142573 buildSRPMFromSCM (/rpms/xml-commons-resolver.git:9cd11b0e2301efcdba7245c82ba73f61dc5385e9): free -> assigned
+  114142573 buildSRPMFromSCM (/rpms/xml-commons-resolver.git:9cd11b0e2301efcdba7245c82ba73f61dc5385e9): assigned -> open (buildvm-a64-19.iad2.fedoraproject.org)
+  114142573 buildSRPMFromSCM (/rpms/xml-commons-resolver.git:9cd11b0e2301efcdba7245c82ba73f61dc5385e9): open (buildvm-a64-19.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  114142814 buildArch (xml-commons-resolver-1.2-43.fc41.src.rpm, noarch): free
+  114142814 buildArch (xml-commons-resolver-1.2-43.fc41.src.rpm, noarch): free -> assigned
+  114142814 buildArch (xml-commons-resolver-1.2-43.fc41.src.rpm, noarch): assigned -> open (buildvm-s390x-10.s390.fedoraproject.org)
+  114142814 buildArch (xml-commons-resolver-1.2-43.fc41.src.rpm, noarch): open (buildvm-s390x-10.s390.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  114142903 tagBuild (noarch): free
+  114142903 tagBuild (noarch): free -> assigned
+  114142903 tagBuild (noarch): assigned -> closed
+  0 free  1 open  3 done  0 failed
+114142494 build (f41-build-side-84507, /rpms/xml-commons-resolver.git:9cd11b0e2301efcdba7245c82ba73f61dc5385e9): open (buildhw-x86-07.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+114142494 build (f41-build-side-84507, /rpms/xml-commons-resolver.git:9cd11b0e2301efcdba7245c82ba73f61dc5385e9) completed successfully

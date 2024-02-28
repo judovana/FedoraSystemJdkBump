@@ -1,0 +1,27 @@
+Cloning into 'colossus'...
+[rawhide 0c60418] Rebuilt for java-21-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building colossus-0.14.0-27.fc41 for f41-build-side-84507
+Created task: 114132961
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114132961
+Watching tasks (this may be safely interrupted)...
+114132961 build (f41-build-side-84507, /rpms/colossus.git:0c6041837482f8511b27dc9cd0d2fb0915352ecc): free
+114132961 build (f41-build-side-84507, /rpms/colossus.git:0c6041837482f8511b27dc9cd0d2fb0915352ecc): free -> assigned
+114132961 build (f41-build-side-84507, /rpms/colossus.git:0c6041837482f8511b27dc9cd0d2fb0915352ecc): assigned -> open (buildvm-ppc64le-21.iad2.fedoraproject.org)
+  114132972 buildSRPMFromSCM (/rpms/colossus.git:0c6041837482f8511b27dc9cd0d2fb0915352ecc): free
+  114132972 buildSRPMFromSCM (/rpms/colossus.git:0c6041837482f8511b27dc9cd0d2fb0915352ecc): free -> open (buildvm-a64-37.iad2.fedoraproject.org)
+  114133066 buildArch (colossus-0.14.0-27.fc41.src.rpm, noarch): free
+  114132972 buildSRPMFromSCM (/rpms/colossus.git:0c6041837482f8511b27dc9cd0d2fb0915352ecc): open (buildvm-a64-37.iad2.fedoraproject.org) -> closed
+  1 free  1 open  1 done  0 failed
+  114133066 buildArch (colossus-0.14.0-27.fc41.src.rpm, noarch): free -> assigned
+  114133066 buildArch (colossus-0.14.0-27.fc41.src.rpm, noarch): assigned -> open (buildvm-s390x-03.s390.fedoraproject.org)
+  114133066 buildArch (colossus-0.14.0-27.fc41.src.rpm, noarch): open (buildvm-s390x-03.s390.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  114133181 tagBuild (noarch): free
+  114133181 tagBuild (noarch): free -> assigned
+  114133181 tagBuild (noarch): assigned -> closed
+  0 free  1 open  3 done  0 failed
+114132961 build (f41-build-side-84507, /rpms/colossus.git:0c6041837482f8511b27dc9cd0d2fb0915352ecc): open (buildvm-ppc64le-21.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+114132961 build (f41-build-side-84507, /rpms/colossus.git:0c6041837482f8511b27dc9cd0d2fb0915352ecc) completed successfully

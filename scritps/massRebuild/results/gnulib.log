@@ -1,0 +1,5 @@
+Cloning into 'gnulib'...
+[rawhide 778f7b6] Rebuilt for java-21-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Could not execute build: There are unpushed changes in your repo
+Try option --srpm to make scratch build from local changes.

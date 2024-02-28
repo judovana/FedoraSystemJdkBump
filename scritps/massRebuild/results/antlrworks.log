@@ -1,0 +1,26 @@
+Cloning into 'antlrworks'...
+[rawhide 5ad5dda] Rebuilt for java-21-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building antlrworks-1.5.2-29.fc41 for f41-build-side-84507
+Created task: 114131018
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114131018
+Watching tasks (this may be safely interrupted)...
+114131018 build (f41-build-side-84507, /rpms/antlrworks.git:5ad5dda2012e93c35ca56327cca03cbfc74e9ce2): free
+114131018 build (f41-build-side-84507, /rpms/antlrworks.git:5ad5dda2012e93c35ca56327cca03cbfc74e9ce2): free -> assigned
+  114131046 buildSRPMFromSCM (/rpms/antlrworks.git:5ad5dda2012e93c35ca56327cca03cbfc74e9ce2): free
+114131018 build (f41-build-side-84507, /rpms/antlrworks.git:5ad5dda2012e93c35ca56327cca03cbfc74e9ce2): assigned -> open (buildvm-ppc64le-10.iad2.fedoraproject.org)
+  114131046 buildSRPMFromSCM (/rpms/antlrworks.git:5ad5dda2012e93c35ca56327cca03cbfc74e9ce2): free -> assigned
+  114131046 buildSRPMFromSCM (/rpms/antlrworks.git:5ad5dda2012e93c35ca56327cca03cbfc74e9ce2): assigned -> open (buildvm-x86-21.iad2.fedoraproject.org)
+  114131235 buildArch (antlrworks-1.5.2-29.fc41.src.rpm, noarch): free
+  114131046 buildSRPMFromSCM (/rpms/antlrworks.git:5ad5dda2012e93c35ca56327cca03cbfc74e9ce2): open (buildvm-x86-21.iad2.fedoraproject.org) -> closed
+  1 free  1 open  1 done  0 failed
+  114131235 buildArch (antlrworks-1.5.2-29.fc41.src.rpm, noarch): free -> open (buildvm-a64-14.iad2.fedoraproject.org)
+  114131235 buildArch (antlrworks-1.5.2-29.fc41.src.rpm, noarch): open (buildvm-a64-14.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  114131441 tagBuild (noarch): free
+  114131441 tagBuild (noarch): free -> closed
+  0 free  1 open  3 done  0 failed
+114131018 build (f41-build-side-84507, /rpms/antlrworks.git:5ad5dda2012e93c35ca56327cca03cbfc74e9ce2): open (buildvm-ppc64le-10.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+114131018 build (f41-build-side-84507, /rpms/antlrworks.git:5ad5dda2012e93c35ca56327cca03cbfc74e9ce2) completed successfully

@@ -1,0 +1,40 @@
+Cloning into 'dogtag-pki'...
+[rawhide 155eb5f] Rebuilt for java-21-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building dogtag-pki-11.5.0-1.fc41.1 for f41-build-side-84507
+Created task: 114133262
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114133262
+Watching tasks (this may be safely interrupted)...
+114133262 build (f41-build-side-84507, /rpms/dogtag-pki.git:155eb5fcd41b9ab1cfefc05db61dc462cd650e60): free
+114133262 build (f41-build-side-84507, /rpms/dogtag-pki.git:155eb5fcd41b9ab1cfefc05db61dc462cd650e60): free -> assigned
+114133262 build (f41-build-side-84507, /rpms/dogtag-pki.git:155eb5fcd41b9ab1cfefc05db61dc462cd650e60): assigned -> open (buildvm-ppc64le-03.iad2.fedoraproject.org)
+  114133404 buildSRPMFromSCM (/rpms/dogtag-pki.git:155eb5fcd41b9ab1cfefc05db61dc462cd650e60): free
+  114133404 buildSRPMFromSCM (/rpms/dogtag-pki.git:155eb5fcd41b9ab1cfefc05db61dc462cd650e60): free -> assigned
+  114133404 buildSRPMFromSCM (/rpms/dogtag-pki.git:155eb5fcd41b9ab1cfefc05db61dc462cd650e60): assigned -> open (buildvm-a64-21.iad2.fedoraproject.org)
+  114133429 buildArch (dogtag-pki-11.5.0-1.fc41.1.src.rpm, s390x): assigned
+  114133426 buildArch (dogtag-pki-11.5.0-1.fc41.1.src.rpm, x86_64): assigned
+  114133427 buildArch (dogtag-pki-11.5.0-1.fc41.1.src.rpm, aarch64): assigned
+  114133428 buildArch (dogtag-pki-11.5.0-1.fc41.1.src.rpm, ppc64le): assigned
+  114133404 buildSRPMFromSCM (/rpms/dogtag-pki.git:155eb5fcd41b9ab1cfefc05db61dc462cd650e60): open (buildvm-a64-21.iad2.fedoraproject.org) -> closed
+  0 free  5 open  1 done  0 failed
+  114133429 buildArch (dogtag-pki-11.5.0-1.fc41.1.src.rpm, s390x): assigned -> open (buildvm-s390x-08.s390.fedoraproject.org)
+  114133426 buildArch (dogtag-pki-11.5.0-1.fc41.1.src.rpm, x86_64): assigned -> open (buildhw-x86-12.iad2.fedoraproject.org)
+  114133427 buildArch (dogtag-pki-11.5.0-1.fc41.1.src.rpm, aarch64): assigned -> open (buildvm-a64-08.iad2.fedoraproject.org)
+  114133428 buildArch (dogtag-pki-11.5.0-1.fc41.1.src.rpm, ppc64le): assigned -> open (buildvm-ppc64le-29.iad2.fedoraproject.org)
+  114133429 buildArch (dogtag-pki-11.5.0-1.fc41.1.src.rpm, s390x): open (buildvm-s390x-08.s390.fedoraproject.org) -> closed
+  0 free  4 open  2 done  0 failed
+  114133427 buildArch (dogtag-pki-11.5.0-1.fc41.1.src.rpm, aarch64): open (buildvm-a64-08.iad2.fedoraproject.org) -> closed
+  0 free  3 open  3 done  0 failed
+  114133426 buildArch (dogtag-pki-11.5.0-1.fc41.1.src.rpm, x86_64): open (buildhw-x86-12.iad2.fedoraproject.org) -> closed
+  0 free  2 open  4 done  0 failed
+  114133428 buildArch (dogtag-pki-11.5.0-1.fc41.1.src.rpm, ppc64le): open (buildvm-ppc64le-29.iad2.fedoraproject.org) -> closed
+  0 free  1 open  5 done  0 failed
+  114133742 tagBuild (noarch): free
+  114133742 tagBuild (noarch): free -> assigned
+  114133742 tagBuild (noarch): assigned -> open (buildhw-x86-07.iad2.fedoraproject.org)
+114133262 build (f41-build-side-84507, /rpms/dogtag-pki.git:155eb5fcd41b9ab1cfefc05db61dc462cd650e60): open (buildvm-ppc64le-03.iad2.fedoraproject.org) -> closed
+  0 free  1 open  6 done  0 failed
+  114133742 tagBuild (noarch): open (buildhw-x86-07.iad2.fedoraproject.org) -> closed
+  0 free  0 open  7 done  0 failed
+
+114133262 build (f41-build-side-84507, /rpms/dogtag-pki.git:155eb5fcd41b9ab1cfefc05db61dc462cd650e60) completed successfully

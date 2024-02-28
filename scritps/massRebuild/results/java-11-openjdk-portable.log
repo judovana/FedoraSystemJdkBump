@@ -1,0 +1,45 @@
+Cloning into 'java-11-openjdk-portable'...
+[rawhide 828f3cb] Rebuilt for java-21-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building java-11-openjdk-portable-11.0.22.0.7-1.fc41.1 for f41-build-side-84507
+Created task: 114135041
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114135041
+Watching tasks (this may be safely interrupted)...
+114135041 build (f41-build-side-84507, /rpms/java-11-openjdk-portable.git:828f3cb957a341dcec4322bd1ae26813a6404af1): free
+114135041 build (f41-build-side-84507, /rpms/java-11-openjdk-portable.git:828f3cb957a341dcec4322bd1ae26813a6404af1): free -> assigned
+114135041 build (f41-build-side-84507, /rpms/java-11-openjdk-portable.git:828f3cb957a341dcec4322bd1ae26813a6404af1): assigned -> open (buildvm-ppc64le-23.iad2.fedoraproject.org)
+  114135051 buildSRPMFromSCM (/rpms/java-11-openjdk-portable.git:828f3cb957a341dcec4322bd1ae26813a6404af1): free
+  114135051 buildSRPMFromSCM (/rpms/java-11-openjdk-portable.git:828f3cb957a341dcec4322bd1ae26813a6404af1): free -> assigned
+  114135051 buildSRPMFromSCM (/rpms/java-11-openjdk-portable.git:828f3cb957a341dcec4322bd1ae26813a6404af1): assigned -> open (buildvm-x86-31.iad2.fedoraproject.org)
+  114135051 buildSRPMFromSCM (/rpms/java-11-openjdk-portable.git:828f3cb957a341dcec4322bd1ae26813a6404af1): open (buildvm-x86-31.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  114135281 buildArch (java-11-openjdk-portable-11.0.22.0.7-1.fc41.1.src.rpm, aarch64): free
+  114135282 buildArch (java-11-openjdk-portable-11.0.22.0.7-1.fc41.1.src.rpm, ppc64le): free
+  114135280 buildArch (java-11-openjdk-portable-11.0.22.0.7-1.fc41.1.src.rpm, x86_64): free
+  114135283 buildArch (java-11-openjdk-portable-11.0.22.0.7-1.fc41.1.src.rpm, s390x): free
+  114135281 buildArch (java-11-openjdk-portable-11.0.22.0.7-1.fc41.1.src.rpm, aarch64): free -> assigned
+  114135282 buildArch (java-11-openjdk-portable-11.0.22.0.7-1.fc41.1.src.rpm, ppc64le): free -> assigned
+  114135280 buildArch (java-11-openjdk-portable-11.0.22.0.7-1.fc41.1.src.rpm, x86_64): free -> assigned
+  114135283 buildArch (java-11-openjdk-portable-11.0.22.0.7-1.fc41.1.src.rpm, s390x): free -> assigned
+  114135282 buildArch (java-11-openjdk-portable-11.0.22.0.7-1.fc41.1.src.rpm, ppc64le): assigned -> open (buildvm-ppc64le-04.iad2.fedoraproject.org)
+  114135280 buildArch (java-11-openjdk-portable-11.0.22.0.7-1.fc41.1.src.rpm, x86_64): assigned -> open (buildhw-x86-09.iad2.fedoraproject.org)
+  114135283 buildArch (java-11-openjdk-portable-11.0.22.0.7-1.fc41.1.src.rpm, s390x): assigned -> open (buildvm-s390x-09.s390.fedoraproject.org)
+  114135281 buildArch (java-11-openjdk-portable-11.0.22.0.7-1.fc41.1.src.rpm, aarch64): assigned -> free
+  114135281 buildArch (java-11-openjdk-portable-11.0.22.0.7-1.fc41.1.src.rpm, aarch64): free -> assigned
+  114135281 buildArch (java-11-openjdk-portable-11.0.22.0.7-1.fc41.1.src.rpm, aarch64): assigned -> open (buildvm-a64-13.iad2.fedoraproject.org)
+  114135280 buildArch (java-11-openjdk-portable-11.0.22.0.7-1.fc41.1.src.rpm, x86_64): open (buildhw-x86-09.iad2.fedoraproject.org) -> closed
+  0 free  4 open  2 done  0 failed
+  114135281 buildArch (java-11-openjdk-portable-11.0.22.0.7-1.fc41.1.src.rpm, aarch64): open (buildvm-a64-13.iad2.fedoraproject.org) -> closed
+  0 free  3 open  3 done  0 failed
+  114135283 buildArch (java-11-openjdk-portable-11.0.22.0.7-1.fc41.1.src.rpm, s390x): open (buildvm-s390x-09.s390.fedoraproject.org) -> closed
+  0 free  2 open  4 done  0 failed
+  114149964 tagBuild (noarch): free
+  114135282 buildArch (java-11-openjdk-portable-11.0.22.0.7-1.fc41.1.src.rpm, ppc64le): open (buildvm-ppc64le-04.iad2.fedoraproject.org) -> closed
+  1 free  1 open  5 done  0 failed
+  114149964 tagBuild (noarch): free -> assigned
+  114149964 tagBuild (noarch): assigned -> closed
+  0 free  1 open  6 done  0 failed
+114135041 build (f41-build-side-84507, /rpms/java-11-openjdk-portable.git:828f3cb957a341dcec4322bd1ae26813a6404af1): open (buildvm-ppc64le-23.iad2.fedoraproject.org) -> closed
+  0 free  0 open  7 done  0 failed
+
+114135041 build (f41-build-side-84507, /rpms/java-11-openjdk-portable.git:828f3cb957a341dcec4322bd1ae26813a6404af1) completed successfully

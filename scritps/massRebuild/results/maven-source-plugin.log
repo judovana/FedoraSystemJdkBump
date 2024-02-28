@@ -1,0 +1,29 @@
+Cloning into 'maven-source-plugin'...
+[rawhide f255917] Rebuilt for java-21-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Found a gating.yaml file in the repo and it is properly configured
+Building maven-source-plugin-3.3.0-6.fc41 for f41-build-side-84507
+Created task: 114137864
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114137864
+Watching tasks (this may be safely interrupted)...
+114137864 build (f41-build-side-84507, /rpms/maven-source-plugin.git:f255917cd1c0d25ff80eba807f2813aebad18d7e): free
+114137864 build (f41-build-side-84507, /rpms/maven-source-plugin.git:f255917cd1c0d25ff80eba807f2813aebad18d7e): free -> assigned
+114137864 build (f41-build-side-84507, /rpms/maven-source-plugin.git:f255917cd1c0d25ff80eba807f2813aebad18d7e): assigned -> open (buildvm-ppc64le-20.iad2.fedoraproject.org)
+  114137971 buildSRPMFromSCM (/rpms/maven-source-plugin.git:f255917cd1c0d25ff80eba807f2813aebad18d7e): free
+  114137971 buildSRPMFromSCM (/rpms/maven-source-plugin.git:f255917cd1c0d25ff80eba807f2813aebad18d7e): free -> assigned
+  114137971 buildSRPMFromSCM (/rpms/maven-source-plugin.git:f255917cd1c0d25ff80eba807f2813aebad18d7e): assigned -> open (buildvm-a64-35.iad2.fedoraproject.org)
+  114138223 buildArch (maven-source-plugin-3.3.0-6.fc41.src.rpm, noarch): free
+  114137971 buildSRPMFromSCM (/rpms/maven-source-plugin.git:f255917cd1c0d25ff80eba807f2813aebad18d7e): open (buildvm-a64-35.iad2.fedoraproject.org) -> closed
+  1 free  1 open  1 done  0 failed
+  114138223 buildArch (maven-source-plugin-3.3.0-6.fc41.src.rpm, noarch): free -> assigned
+  114138223 buildArch (maven-source-plugin-3.3.0-6.fc41.src.rpm, noarch): assigned -> open (buildvm-ppc64le-13.iad2.fedoraproject.org)
+  114138223 buildArch (maven-source-plugin-3.3.0-6.fc41.src.rpm, noarch): open (buildvm-ppc64le-13.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  114138556 tagBuild (noarch): free
+  114138556 tagBuild (noarch): free -> assigned
+  114138556 tagBuild (noarch): assigned -> closed
+  0 free  1 open  3 done  0 failed
+114137864 build (f41-build-side-84507, /rpms/maven-source-plugin.git:f255917cd1c0d25ff80eba807f2813aebad18d7e): open (buildvm-ppc64le-20.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+114137864 build (f41-build-side-84507, /rpms/maven-source-plugin.git:f255917cd1c0d25ff80eba807f2813aebad18d7e) completed successfully

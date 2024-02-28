@@ -1,0 +1,25 @@
+Cloning into 'jcip-annotations'...
+[rawhide 80f62bc] Rebuilt for java-21-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building jcip-annotations-1-43.20060626.fc41 for f41-build-side-84507
+Created task: 114135760
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114135760
+Watching tasks (this may be safely interrupted)...
+114135760 build (f41-build-side-84507, /rpms/jcip-annotations.git:80f62bc1119240c21d6abd2282eb5a05a3671138): free
+114135760 build (f41-build-side-84507, /rpms/jcip-annotations.git:80f62bc1119240c21d6abd2282eb5a05a3671138): free -> open (buildvm-x86-19.iad2.fedoraproject.org)
+  114135765 buildSRPMFromSCM (/rpms/jcip-annotations.git:80f62bc1119240c21d6abd2282eb5a05a3671138): free
+  114135765 buildSRPMFromSCM (/rpms/jcip-annotations.git:80f62bc1119240c21d6abd2282eb5a05a3671138): free -> assigned
+  114135765 buildSRPMFromSCM (/rpms/jcip-annotations.git:80f62bc1119240c21d6abd2282eb5a05a3671138): assigned -> open (buildvm-x86-08.iad2.fedoraproject.org)
+  114135765 buildSRPMFromSCM (/rpms/jcip-annotations.git:80f62bc1119240c21d6abd2282eb5a05a3671138): open (buildvm-x86-08.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  114135818 buildArch (jcip-annotations-1-43.20060626.fc41.src.rpm, noarch): free
+  114135818 buildArch (jcip-annotations-1-43.20060626.fc41.src.rpm, noarch): free -> open (buildvm-ppc64le-12.iad2.fedoraproject.org)
+  114135950 tagBuild (noarch): free
+  114135818 buildArch (jcip-annotations-1-43.20060626.fc41.src.rpm, noarch): open (buildvm-ppc64le-12.iad2.fedoraproject.org) -> closed
+  1 free  1 open  2 done  0 failed
+  114135950 tagBuild (noarch): free -> closed
+  0 free  1 open  3 done  0 failed
+114135760 build (f41-build-side-84507, /rpms/jcip-annotations.git:80f62bc1119240c21d6abd2282eb5a05a3671138): open (buildvm-x86-19.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+114135760 build (f41-build-side-84507, /rpms/jcip-annotations.git:80f62bc1119240c21d6abd2282eb5a05a3671138) completed successfully

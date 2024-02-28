@@ -1,0 +1,44 @@
+Cloning into 'gdl'...
+[rawhide 0578cb0] Rebuilt for java-21-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+warning: line 107: Possible unexpanded macro in: Requires:       hdf5 = %{_hdf5_version}
+
+Building gdl-1.0.4-5.fc41 for f41-build-side-84507
+Created task: 114133943
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114133943
+Watching tasks (this may be safely interrupted)...
+114133943 build (f41-build-side-84507, /rpms/gdl.git:0578cb014f5a0c8bdf8f1c6e354ba2f4e1181704): free
+114133943 build (f41-build-side-84507, /rpms/gdl.git:0578cb014f5a0c8bdf8f1c6e354ba2f4e1181704): free -> assigned
+114133943 build (f41-build-side-84507, /rpms/gdl.git:0578cb014f5a0c8bdf8f1c6e354ba2f4e1181704): assigned -> open (buildvm-a64-15.iad2.fedoraproject.org)
+  114133954 buildSRPMFromSCM (/rpms/gdl.git:0578cb014f5a0c8bdf8f1c6e354ba2f4e1181704): free
+  114133954 buildSRPMFromSCM (/rpms/gdl.git:0578cb014f5a0c8bdf8f1c6e354ba2f4e1181704): free -> assigned
+  114133954 buildSRPMFromSCM (/rpms/gdl.git:0578cb014f5a0c8bdf8f1c6e354ba2f4e1181704): assigned -> open (buildvm-x86-32.iad2.fedoraproject.org)
+  114133954 buildSRPMFromSCM (/rpms/gdl.git:0578cb014f5a0c8bdf8f1c6e354ba2f4e1181704): open (buildvm-x86-32.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  114133975 buildArch (gdl-1.0.4-5.fc41.src.rpm, x86_64): free
+  114133976 buildArch (gdl-1.0.4-5.fc41.src.rpm, aarch64): free
+  114133977 buildArch (gdl-1.0.4-5.fc41.src.rpm, ppc64le): free
+  114133978 buildArch (gdl-1.0.4-5.fc41.src.rpm, s390x): free
+  114133975 buildArch (gdl-1.0.4-5.fc41.src.rpm, x86_64): free -> assigned
+  114133976 buildArch (gdl-1.0.4-5.fc41.src.rpm, aarch64): free -> assigned
+  114133977 buildArch (gdl-1.0.4-5.fc41.src.rpm, ppc64le): free -> assigned
+  114133978 buildArch (gdl-1.0.4-5.fc41.src.rpm, s390x): free -> assigned
+  114133975 buildArch (gdl-1.0.4-5.fc41.src.rpm, x86_64): assigned -> open (buildvm-x86-20.iad2.fedoraproject.org)
+  114133976 buildArch (gdl-1.0.4-5.fc41.src.rpm, aarch64): assigned -> open (buildhw-a64-19.iad2.fedoraproject.org)
+  114133977 buildArch (gdl-1.0.4-5.fc41.src.rpm, ppc64le): assigned -> open (buildvm-ppc64le-25.iad2.fedoraproject.org)
+  114133978 buildArch (gdl-1.0.4-5.fc41.src.rpm, s390x): assigned -> open (buildvm-s390x-01.s390.fedoraproject.org)
+  114133978 buildArch (gdl-1.0.4-5.fc41.src.rpm, s390x): open (buildvm-s390x-01.s390.fedoraproject.org) -> closed
+  0 free  4 open  2 done  0 failed
+  114133975 buildArch (gdl-1.0.4-5.fc41.src.rpm, x86_64): open (buildvm-x86-20.iad2.fedoraproject.org) -> closed
+  0 free  3 open  3 done  0 failed
+  114133977 buildArch (gdl-1.0.4-5.fc41.src.rpm, ppc64le): open (buildvm-ppc64le-25.iad2.fedoraproject.org) -> closed
+  0 free  2 open  4 done  0 failed
+  114133976 buildArch (gdl-1.0.4-5.fc41.src.rpm, aarch64): open (buildhw-a64-19.iad2.fedoraproject.org) -> closed
+  0 free  1 open  5 done  0 failed
+  114137551 tagBuild (noarch): free
+114133943 build (f41-build-side-84507, /rpms/gdl.git:0578cb014f5a0c8bdf8f1c6e354ba2f4e1181704): open (buildvm-a64-15.iad2.fedoraproject.org) -> closed
+  1 free  0 open  6 done  0 failed
+  114137551 tagBuild (noarch): free -> closed
+  0 free  0 open  7 done  0 failed
+
+114133943 build (f41-build-side-84507, /rpms/gdl.git:0578cb014f5a0c8bdf8f1c6e354ba2f4e1181704) completed successfully

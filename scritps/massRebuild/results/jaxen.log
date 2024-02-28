@@ -1,0 +1,27 @@
+Cloning into 'jaxen'...
+[rawhide 3a44847] Rebuilt for java-21-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building jaxen-1.2.0-17.fc41 for f41-build-side-84507
+Created task: 114135674
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114135674
+Watching tasks (this may be safely interrupted)...
+114135674 build (f41-build-side-84507, /rpms/jaxen.git:3a44847d08d61b6c623feb22393cdf9bab490974): free
+114135674 build (f41-build-side-84507, /rpms/jaxen.git:3a44847d08d61b6c623feb22393cdf9bab490974): free -> assigned
+114135674 build (f41-build-side-84507, /rpms/jaxen.git:3a44847d08d61b6c623feb22393cdf9bab490974): assigned -> open (buildhw-x86-12.iad2.fedoraproject.org)
+  114135688 buildSRPMFromSCM (/rpms/jaxen.git:3a44847d08d61b6c623feb22393cdf9bab490974): free
+  114135688 buildSRPMFromSCM (/rpms/jaxen.git:3a44847d08d61b6c623feb22393cdf9bab490974): free -> assigned
+  114135688 buildSRPMFromSCM (/rpms/jaxen.git:3a44847d08d61b6c623feb22393cdf9bab490974): assigned -> open (buildvm-a64-15.iad2.fedoraproject.org)
+  114135726 buildArch (jaxen-1.2.0-17.fc41.src.rpm, noarch): free
+  114135688 buildSRPMFromSCM (/rpms/jaxen.git:3a44847d08d61b6c623feb22393cdf9bab490974): open (buildvm-a64-15.iad2.fedoraproject.org) -> closed
+  1 free  1 open  1 done  0 failed
+  114135726 buildArch (jaxen-1.2.0-17.fc41.src.rpm, noarch): free -> assigned
+  114135726 buildArch (jaxen-1.2.0-17.fc41.src.rpm, noarch): assigned -> open (buildvm-s390x-07.s390.fedoraproject.org)
+  114135780 tagBuild (noarch): free
+  114135726 buildArch (jaxen-1.2.0-17.fc41.src.rpm, noarch): open (buildvm-s390x-07.s390.fedoraproject.org) -> closed
+  1 free  1 open  2 done  0 failed
+  114135780 tagBuild (noarch): free -> closed
+  0 free  1 open  3 done  0 failed
+114135674 build (f41-build-side-84507, /rpms/jaxen.git:3a44847d08d61b6c623feb22393cdf9bab490974): open (buildhw-x86-12.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+114135674 build (f41-build-side-84507, /rpms/jaxen.git:3a44847d08d61b6c623feb22393cdf9bab490974) completed successfully

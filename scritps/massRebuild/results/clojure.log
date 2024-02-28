@@ -1,0 +1,10 @@
+Cloning into 'clojure'...
+Error during lookup request: status: 502
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Could not execute clone: Failed to execute command.
+Failed to get repository name from Git url or pushurl
+Failed to get ns from Git url or pushurl
+Could not execute build: Spec file is not available

@@ -1,0 +1,28 @@
+Cloning into 'maven-archetype'...
+[rawhide 0f77873] Rebuilt for java-21-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+warning: %patchN is deprecated (3 usages found), use %patch N (or %patch -P N)
+
+Building maven-archetype-3.2.0-13.fc41 for f41-build-side-84507
+Created task: 114137186
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114137186
+Watching tasks (this may be safely interrupted)...
+114137186 build (f41-build-side-84507, /rpms/maven-archetype.git:0f7787377f4d42d4131cfc0924d2e05391a26ec5): free
+114137186 build (f41-build-side-84507, /rpms/maven-archetype.git:0f7787377f4d42d4131cfc0924d2e05391a26ec5): free -> assigned
+114137186 build (f41-build-side-84507, /rpms/maven-archetype.git:0f7787377f4d42d4131cfc0924d2e05391a26ec5): assigned -> open (buildvm-x86-07.iad2.fedoraproject.org)
+  114137189 buildSRPMFromSCM (/rpms/maven-archetype.git:0f7787377f4d42d4131cfc0924d2e05391a26ec5): free
+  114137189 buildSRPMFromSCM (/rpms/maven-archetype.git:0f7787377f4d42d4131cfc0924d2e05391a26ec5): free -> assigned
+  114137189 buildSRPMFromSCM (/rpms/maven-archetype.git:0f7787377f4d42d4131cfc0924d2e05391a26ec5): assigned -> open (buildvm-a64-24.iad2.fedoraproject.org)
+  114137189 buildSRPMFromSCM (/rpms/maven-archetype.git:0f7787377f4d42d4131cfc0924d2e05391a26ec5): open (buildvm-a64-24.iad2.fedoraproject.org) -> FAILED: BuildError: Error running GIT command "git clone -n https://src.fedoraproject.org/rpms/maven-archetype.git /var/lib/mock/f41-build-side-84507-49320717-5865213/root/chroot_tmpdir/scmroot/maven-archetype", see checkout.log for details
+  Relevant logs:
+  https://kojipkgs.fedoraproject.org/work/tasks/7189/114137189/state.log
+  https://kojipkgs.fedoraproject.org/work/tasks/7189/114137189/build.log
+  https://kojipkgs.fedoraproject.org/work/tasks/7189/114137189/root.log
+  https://kojipkgs.fedoraproject.org/work/tasks/7189/114137189/mock_output.log
+  https://kojipkgs.fedoraproject.org/work/tasks/7189/114137189/hw_info.log
+  https://kojipkgs.fedoraproject.org/work/tasks/7189/114137189/checkout.log
+  0 free  1 open  0 done  1 failed
+114137186 build (f41-build-side-84507, /rpms/maven-archetype.git:0f7787377f4d42d4131cfc0924d2e05391a26ec5): open (buildvm-x86-07.iad2.fedoraproject.org) -> FAILED: BuildError: Error running GIT command "git clone -n https://src.fedoraproject.org/rpms/maven-archetype.git /var/lib/mock/f41-build-side-84507-49320717-5865213/root/chroot_tmpdir/scmroot/maven-archetype", see checkout.log for details
+  0 free  0 open  0 done  2 failed
+
+114137186 build (f41-build-side-84507, /rpms/maven-archetype.git:0f7787377f4d42d4131cfc0924d2e05391a26ec5) failed

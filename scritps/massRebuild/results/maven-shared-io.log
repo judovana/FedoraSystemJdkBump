@@ -1,0 +1,29 @@
+Cloning into 'maven-shared-io'...
+[rawhide 024b3cd] Rebuilt for java-21-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Found a gating.yaml file in the repo and it is properly configured
+Building maven-shared-io-3.0.0-25.fc41 for f41-build-side-84507
+Created task: 114137831
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114137831
+Watching tasks (this may be safely interrupted)...
+114137831 build (f41-build-side-84507, /rpms/maven-shared-io.git:024b3cdcdf2fe651a1e64102c01c72c8a5198f27): free
+114137831 build (f41-build-side-84507, /rpms/maven-shared-io.git:024b3cdcdf2fe651a1e64102c01c72c8a5198f27): free -> assigned
+114137831 build (f41-build-side-84507, /rpms/maven-shared-io.git:024b3cdcdf2fe651a1e64102c01c72c8a5198f27): assigned -> open (buildvm-a64-23.iad2.fedoraproject.org)
+  114137861 buildSRPMFromSCM (/rpms/maven-shared-io.git:024b3cdcdf2fe651a1e64102c01c72c8a5198f27): free
+  114137861 buildSRPMFromSCM (/rpms/maven-shared-io.git:024b3cdcdf2fe651a1e64102c01c72c8a5198f27): free -> assigned
+  114137861 buildSRPMFromSCM (/rpms/maven-shared-io.git:024b3cdcdf2fe651a1e64102c01c72c8a5198f27): assigned -> open (buildvm-x86-21.iad2.fedoraproject.org)
+  114137861 buildSRPMFromSCM (/rpms/maven-shared-io.git:024b3cdcdf2fe651a1e64102c01c72c8a5198f27): open (buildvm-x86-21.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  114138108 buildArch (maven-shared-io-3.0.0-25.fc41.src.rpm, noarch): free
+  114138108 buildArch (maven-shared-io-3.0.0-25.fc41.src.rpm, noarch): free -> assigned
+  114138108 buildArch (maven-shared-io-3.0.0-25.fc41.src.rpm, noarch): assigned -> open (buildvm-ppc64le-06.iad2.fedoraproject.org)
+  114138108 buildArch (maven-shared-io-3.0.0-25.fc41.src.rpm, noarch): open (buildvm-ppc64le-06.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  114138268 tagBuild (noarch): free
+  114138268 tagBuild (noarch): free -> assigned
+  114138268 tagBuild (noarch): assigned -> closed
+  0 free  1 open  3 done  0 failed
+114137831 build (f41-build-side-84507, /rpms/maven-shared-io.git:024b3cdcdf2fe651a1e64102c01c72c8a5198f27): open (buildvm-a64-23.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+114137831 build (f41-build-side-84507, /rpms/maven-shared-io.git:024b3cdcdf2fe651a1e64102c01c72c8a5198f27) completed successfully

@@ -1,0 +1,27 @@
+Cloning into 'maven-dependency-tree'...
+[rawhide be88903] Rebuilt for java-21-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Found a gating.yaml file in the repo and it is properly configured
+Building maven-dependency-tree-3.2.1-6.fc41 for f41-build-side-84507
+Created task: 114137247
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114137247
+Watching tasks (this may be safely interrupted)...
+114137247 build (f41-build-side-84507, /rpms/maven-dependency-tree.git:be8890335781dfc1513a05b8c4f92e52a22bd421): free
+114137247 build (f41-build-side-84507, /rpms/maven-dependency-tree.git:be8890335781dfc1513a05b8c4f92e52a22bd421): free -> assigned
+114137247 build (f41-build-side-84507, /rpms/maven-dependency-tree.git:be8890335781dfc1513a05b8c4f92e52a22bd421): assigned -> open (buildvm-a64-37.iad2.fedoraproject.org)
+  114137265 buildSRPMFromSCM (/rpms/maven-dependency-tree.git:be8890335781dfc1513a05b8c4f92e52a22bd421): free
+  114137265 buildSRPMFromSCM (/rpms/maven-dependency-tree.git:be8890335781dfc1513a05b8c4f92e52a22bd421): free -> assigned
+  114137265 buildSRPMFromSCM (/rpms/maven-dependency-tree.git:be8890335781dfc1513a05b8c4f92e52a22bd421): assigned -> open (buildvm-a64-35.iad2.fedoraproject.org)
+  114137265 buildSRPMFromSCM (/rpms/maven-dependency-tree.git:be8890335781dfc1513a05b8c4f92e52a22bd421): open (buildvm-a64-35.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  114137301 buildArch (maven-dependency-tree-3.2.1-6.fc41.src.rpm, noarch): free
+  114137301 buildArch (maven-dependency-tree-3.2.1-6.fc41.src.rpm, noarch): free -> open (buildvm-ppc64le-03.iad2.fedoraproject.org)
+  114137346 tagBuild (noarch): assigned
+  114137301 buildArch (maven-dependency-tree-3.2.1-6.fc41.src.rpm, noarch): open (buildvm-ppc64le-03.iad2.fedoraproject.org) -> closed
+  0 free  2 open  2 done  0 failed
+  114137346 tagBuild (noarch): assigned -> closed
+  0 free  1 open  3 done  0 failed
+114137247 build (f41-build-side-84507, /rpms/maven-dependency-tree.git:be8890335781dfc1513a05b8c4f92e52a22bd421): open (buildvm-a64-37.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+114137247 build (f41-build-side-84507, /rpms/maven-dependency-tree.git:be8890335781dfc1513a05b8c4f92e52a22bd421) completed successfully

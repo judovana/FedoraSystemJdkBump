@@ -1,0 +1,28 @@
+Cloning into 'apache-commons-beanutils'...
+[rawhide b4ecdbb] Rebuilt for java-21-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Found a gating.yaml file in the repo and it is properly configured
+Building apache-commons-beanutils-1.9.4-19.fc41 for f41-build-side-84507
+Created task: 114131071
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114131071
+Watching tasks (this may be safely interrupted)...
+114131071 build (f41-build-side-84507, /rpms/apache-commons-beanutils.git:b4ecdbb9982eb0cafaed8cfcbe44fac20358626d): free
+114131071 build (f41-build-side-84507, /rpms/apache-commons-beanutils.git:b4ecdbb9982eb0cafaed8cfcbe44fac20358626d): free -> open (buildvm-x86-26.iad2.fedoraproject.org)
+  114131105 buildSRPMFromSCM (/rpms/apache-commons-beanutils.git:b4ecdbb9982eb0cafaed8cfcbe44fac20358626d): free
+  114131105 buildSRPMFromSCM (/rpms/apache-commons-beanutils.git:b4ecdbb9982eb0cafaed8cfcbe44fac20358626d): free -> assigned
+  114131105 buildSRPMFromSCM (/rpms/apache-commons-beanutils.git:b4ecdbb9982eb0cafaed8cfcbe44fac20358626d): assigned -> open (buildvm-a64-13.iad2.fedoraproject.org)
+  114131105 buildSRPMFromSCM (/rpms/apache-commons-beanutils.git:b4ecdbb9982eb0cafaed8cfcbe44fac20358626d): open (buildvm-a64-13.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  114131262 buildArch (apache-commons-beanutils-1.9.4-19.fc41.src.rpm, noarch): free
+  114131262 buildArch (apache-commons-beanutils-1.9.4-19.fc41.src.rpm, noarch): free -> assigned
+  114131262 buildArch (apache-commons-beanutils-1.9.4-19.fc41.src.rpm, noarch): assigned -> open (buildvm-s390x-02.s390.fedoraproject.org)
+  114131262 buildArch (apache-commons-beanutils-1.9.4-19.fc41.src.rpm, noarch): open (buildvm-s390x-02.s390.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  114131492 tagBuild (noarch): free
+  114131492 tagBuild (noarch): free -> assigned
+  114131492 tagBuild (noarch): assigned -> closed
+  0 free  1 open  3 done  0 failed
+114131071 build (f41-build-side-84507, /rpms/apache-commons-beanutils.git:b4ecdbb9982eb0cafaed8cfcbe44fac20358626d): open (buildvm-x86-26.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+114131071 build (f41-build-side-84507, /rpms/apache-commons-beanutils.git:b4ecdbb9982eb0cafaed8cfcbe44fac20358626d) completed successfully

@@ -1,0 +1,28 @@
+Cloning into 'fishbowl'...
+[rawhide 55284cb] Rebuilt for java-21-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building fishbowl-1.4.1-9.fc41 for f41-build-side-84507
+Created task: 114133782
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114133782
+Watching tasks (this may be safely interrupted)...
+114133782 build (f41-build-side-84507, /rpms/fishbowl.git:55284cb231cd12bfe11b01b41986f5c23f642ae8): free
+114133782 build (f41-build-side-84507, /rpms/fishbowl.git:55284cb231cd12bfe11b01b41986f5c23f642ae8): free -> assigned
+114133782 build (f41-build-side-84507, /rpms/fishbowl.git:55284cb231cd12bfe11b01b41986f5c23f642ae8): assigned -> open (buildhw-x86-09.iad2.fedoraproject.org)
+  114133836 buildSRPMFromSCM (/rpms/fishbowl.git:55284cb231cd12bfe11b01b41986f5c23f642ae8): free
+  114133836 buildSRPMFromSCM (/rpms/fishbowl.git:55284cb231cd12bfe11b01b41986f5c23f642ae8): free -> assigned
+  114133836 buildSRPMFromSCM (/rpms/fishbowl.git:55284cb231cd12bfe11b01b41986f5c23f642ae8): assigned -> open (buildvm-x86-08.iad2.fedoraproject.org)
+  114133836 buildSRPMFromSCM (/rpms/fishbowl.git:55284cb231cd12bfe11b01b41986f5c23f642ae8): open (buildvm-x86-08.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  114133908 buildArch (fishbowl-1.4.1-9.fc41.src.rpm, noarch): free
+  114133908 buildArch (fishbowl-1.4.1-9.fc41.src.rpm, noarch): free -> assigned
+  114133908 buildArch (fishbowl-1.4.1-9.fc41.src.rpm, noarch): assigned -> open (buildvm-ppc64le-08.iad2.fedoraproject.org)
+  114133945 tagBuild (noarch): free
+  114133908 buildArch (fishbowl-1.4.1-9.fc41.src.rpm, noarch): open (buildvm-ppc64le-08.iad2.fedoraproject.org) -> closed
+  1 free  1 open  2 done  0 failed
+  114133945 tagBuild (noarch): free -> assigned
+  114133945 tagBuild (noarch): assigned -> closed
+  0 free  1 open  3 done  0 failed
+114133782 build (f41-build-side-84507, /rpms/fishbowl.git:55284cb231cd12bfe11b01b41986f5c23f642ae8): open (buildhw-x86-09.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+114133782 build (f41-build-side-84507, /rpms/fishbowl.git:55284cb231cd12bfe11b01b41986f5c23f642ae8) completed successfully

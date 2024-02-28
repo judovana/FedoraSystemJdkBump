@@ -1,0 +1,27 @@
+Cloning into 'plantuml'...
+RPMAutoSpec usage detected, not changing the spec file.
+[rawhide ef5d97e] Rebuilt for java-21-openjdk as system jdk
+Building plantuml-1.2024.3-3.fc41 for f41-build-side-84507
+Created task: 114139636
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114139636
+Watching tasks (this may be safely interrupted)...
+114139636 build (f41-build-side-84507, /rpms/plantuml.git:ef5d97ee5fb47387b9fb02ef87b0eba260d8b1c0): free
+114139636 build (f41-build-side-84507, /rpms/plantuml.git:ef5d97ee5fb47387b9fb02ef87b0eba260d8b1c0): free -> open (buildhw-x86-11.iad2.fedoraproject.org)
+  114139749 buildSRPMFromSCM (/rpms/plantuml.git:ef5d97ee5fb47387b9fb02ef87b0eba260d8b1c0): free
+  114139749 buildSRPMFromSCM (/rpms/plantuml.git:ef5d97ee5fb47387b9fb02ef87b0eba260d8b1c0): free -> assigned
+  114139749 buildSRPMFromSCM (/rpms/plantuml.git:ef5d97ee5fb47387b9fb02ef87b0eba260d8b1c0): assigned -> open (buildvm-a64-09.iad2.fedoraproject.org)
+  114139749 buildSRPMFromSCM (/rpms/plantuml.git:ef5d97ee5fb47387b9fb02ef87b0eba260d8b1c0): open (buildvm-a64-09.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  114139819 buildArch (plantuml-1.2024.3-3.fc41.src.rpm, noarch): free
+  114139819 buildArch (plantuml-1.2024.3-3.fc41.src.rpm, noarch): free -> assigned
+  114139819 buildArch (plantuml-1.2024.3-3.fc41.src.rpm, noarch): assigned -> open (buildhw-x86-08.iad2.fedoraproject.org)
+  114139819 buildArch (plantuml-1.2024.3-3.fc41.src.rpm, noarch): open (buildhw-x86-08.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  114140036 tagBuild (noarch): free
+  114140036 tagBuild (noarch): free -> assigned
+114139636 build (f41-build-side-84507, /rpms/plantuml.git:ef5d97ee5fb47387b9fb02ef87b0eba260d8b1c0): open (buildhw-x86-11.iad2.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+  114140036 tagBuild (noarch): assigned -> closed
+  0 free  0 open  4 done  0 failed
+
+114139636 build (f41-build-side-84507, /rpms/plantuml.git:ef5d97ee5fb47387b9fb02ef87b0eba260d8b1c0) completed successfully

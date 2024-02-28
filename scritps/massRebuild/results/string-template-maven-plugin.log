@@ -1,0 +1,28 @@
+Cloning into 'string-template-maven-plugin'...
+[rawhide a0036eb] Rebuilt for java-21-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building string-template-maven-plugin-1.1-13.fc41 for f41-build-side-84507
+Created task: 114141294
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114141294
+Watching tasks (this may be safely interrupted)...
+114141294 build (f41-build-side-84507, /rpms/string-template-maven-plugin.git:a0036eb9d5f009e8063f40ba3717ebc01e48ef77): free
+114141294 build (f41-build-side-84507, /rpms/string-template-maven-plugin.git:a0036eb9d5f009e8063f40ba3717ebc01e48ef77): free -> assigned
+114141294 build (f41-build-side-84507, /rpms/string-template-maven-plugin.git:a0036eb9d5f009e8063f40ba3717ebc01e48ef77): assigned -> open (buildvm-ppc64le-25.iad2.fedoraproject.org)
+  114141330 buildSRPMFromSCM (/rpms/string-template-maven-plugin.git:a0036eb9d5f009e8063f40ba3717ebc01e48ef77): free
+  114141330 buildSRPMFromSCM (/rpms/string-template-maven-plugin.git:a0036eb9d5f009e8063f40ba3717ebc01e48ef77): free -> assigned
+  114141330 buildSRPMFromSCM (/rpms/string-template-maven-plugin.git:a0036eb9d5f009e8063f40ba3717ebc01e48ef77): assigned -> open (buildvm-a64-29.iad2.fedoraproject.org)
+  114141330 buildSRPMFromSCM (/rpms/string-template-maven-plugin.git:a0036eb9d5f009e8063f40ba3717ebc01e48ef77): open (buildvm-a64-29.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  114141695 buildArch (string-template-maven-plugin-1.1-13.fc41.src.rpm, noarch): free
+  114141695 buildArch (string-template-maven-plugin-1.1-13.fc41.src.rpm, noarch): free -> assigned
+  114141695 buildArch (string-template-maven-plugin-1.1-13.fc41.src.rpm, noarch): assigned -> open (buildvm-a64-27.iad2.fedoraproject.org)
+  114141695 buildArch (string-template-maven-plugin-1.1-13.fc41.src.rpm, noarch): open (buildvm-a64-27.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  114141841 tagBuild (noarch): free
+  114141841 tagBuild (noarch): free -> assigned
+  114141841 tagBuild (noarch): assigned -> closed
+  0 free  1 open  3 done  0 failed
+114141294 build (f41-build-side-84507, /rpms/string-template-maven-plugin.git:a0036eb9d5f009e8063f40ba3717ebc01e48ef77): open (buildvm-ppc64le-25.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+114141294 build (f41-build-side-84507, /rpms/string-template-maven-plugin.git:a0036eb9d5f009e8063f40ba3717ebc01e48ef77) completed successfully

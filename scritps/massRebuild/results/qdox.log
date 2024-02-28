@@ -1,0 +1,28 @@
+Cloning into 'qdox'...
+[rawhide 4f13583] Rebuilt for java-21-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Found a gating.yaml file in the repo and it is properly configured
+Building qdox-2.1.0-3.fc41 for f41-build-side-84507
+Created task: 114140467
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114140467
+Watching tasks (this may be safely interrupted)...
+114140467 build (f41-build-side-84507, /rpms/qdox.git:4f13583c67e68a3d12306795a0922659130b6d2f): free
+114140467 build (f41-build-side-84507, /rpms/qdox.git:4f13583c67e68a3d12306795a0922659130b6d2f): free -> assigned
+114140467 build (f41-build-side-84507, /rpms/qdox.git:4f13583c67e68a3d12306795a0922659130b6d2f): assigned -> open (buildvm-a64-22.iad2.fedoraproject.org)
+  114140512 buildSRPMFromSCM (/rpms/qdox.git:4f13583c67e68a3d12306795a0922659130b6d2f): free
+  114140512 buildSRPMFromSCM (/rpms/qdox.git:4f13583c67e68a3d12306795a0922659130b6d2f): free -> open (buildvm-x86-15.iad2.fedoraproject.org)
+  114140512 buildSRPMFromSCM (/rpms/qdox.git:4f13583c67e68a3d12306795a0922659130b6d2f): open (buildvm-x86-15.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  114140567 buildArch (qdox-2.1.0-3.fc41.src.rpm, noarch): free
+  114140567 buildArch (qdox-2.1.0-3.fc41.src.rpm, noarch): free -> assigned
+  114140567 buildArch (qdox-2.1.0-3.fc41.src.rpm, noarch): assigned -> open (buildvm-ppc64le-29.iad2.fedoraproject.org)
+  114140567 buildArch (qdox-2.1.0-3.fc41.src.rpm, noarch): open (buildvm-ppc64le-29.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  114140841 tagBuild (noarch): free
+  114140841 tagBuild (noarch): free -> assigned
+  114140841 tagBuild (noarch): assigned -> closed
+  0 free  1 open  3 done  0 failed
+114140467 build (f41-build-side-84507, /rpms/qdox.git:4f13583c67e68a3d12306795a0922659130b6d2f): open (buildvm-a64-22.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+114140467 build (f41-build-side-84507, /rpms/qdox.git:4f13583c67e68a3d12306795a0922659130b6d2f) completed successfully

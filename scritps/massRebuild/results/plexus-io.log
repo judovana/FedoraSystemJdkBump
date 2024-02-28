@@ -1,0 +1,29 @@
+Cloning into 'plexus-io'...
+[rawhide a06deb3] Rebuilt for java-21-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Found a gating.yaml file in the repo and it is properly configured
+Building plexus-io-3.4.2-3.fc41 for f41-build-side-84507
+Created task: 114140059
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114140059
+Watching tasks (this may be safely interrupted)...
+114140059 build (f41-build-side-84507, /rpms/plexus-io.git:a06deb3afa70606b481991a8ceaab7966eb4f48c): free
+114140059 build (f41-build-side-84507, /rpms/plexus-io.git:a06deb3afa70606b481991a8ceaab7966eb4f48c): free -> assigned
+114140059 build (f41-build-side-84507, /rpms/plexus-io.git:a06deb3afa70606b481991a8ceaab7966eb4f48c): assigned -> open (buildvm-ppc64le-03.iad2.fedoraproject.org)
+  114140129 buildSRPMFromSCM (/rpms/plexus-io.git:a06deb3afa70606b481991a8ceaab7966eb4f48c): free
+  114140129 buildSRPMFromSCM (/rpms/plexus-io.git:a06deb3afa70606b481991a8ceaab7966eb4f48c): free -> assigned
+  114140129 buildSRPMFromSCM (/rpms/plexus-io.git:a06deb3afa70606b481991a8ceaab7966eb4f48c): assigned -> open (buildvm-a64-34.iad2.fedoraproject.org)
+  114140129 buildSRPMFromSCM (/rpms/plexus-io.git:a06deb3afa70606b481991a8ceaab7966eb4f48c): open (buildvm-a64-34.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  114140189 buildArch (plexus-io-3.4.2-3.fc41.src.rpm, noarch): free
+  114140189 buildArch (plexus-io-3.4.2-3.fc41.src.rpm, noarch): free -> assigned
+  114140189 buildArch (plexus-io-3.4.2-3.fc41.src.rpm, noarch): assigned -> open (buildvm-x86-14.iad2.fedoraproject.org)
+  114140311 tagBuild (noarch): free
+  114140189 buildArch (plexus-io-3.4.2-3.fc41.src.rpm, noarch): open (buildvm-x86-14.iad2.fedoraproject.org) -> closed
+  1 free  1 open  2 done  0 failed
+  114140311 tagBuild (noarch): free -> assigned
+  114140311 tagBuild (noarch): assigned -> closed
+  0 free  1 open  3 done  0 failed
+114140059 build (f41-build-side-84507, /rpms/plexus-io.git:a06deb3afa70606b481991a8ceaab7966eb4f48c): open (buildvm-ppc64le-03.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+114140059 build (f41-build-side-84507, /rpms/plexus-io.git:a06deb3afa70606b481991a8ceaab7966eb4f48c) completed successfully

@@ -1,0 +1,42 @@
+Cloning into 'jss'...
+[rawhide d77787f] Rebuilt for java-21-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building jss-5.5.0-1.fc41.1 for f41-build-side-84507
+Created task: 114136466
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114136466
+Watching tasks (this may be safely interrupted)...
+114136466 build (f41-build-side-84507, /rpms/jss.git:d77787f82372d5b7a2707b4bc070d8444b508455): free
+114136466 build (f41-build-side-84507, /rpms/jss.git:d77787f82372d5b7a2707b4bc070d8444b508455): free -> assigned
+114136466 build (f41-build-side-84507, /rpms/jss.git:d77787f82372d5b7a2707b4bc070d8444b508455): assigned -> open (buildvm-x86-14.iad2.fedoraproject.org)
+  114136507 buildSRPMFromSCM (/rpms/jss.git:d77787f82372d5b7a2707b4bc070d8444b508455): free
+  114136507 buildSRPMFromSCM (/rpms/jss.git:d77787f82372d5b7a2707b4bc070d8444b508455): free -> assigned
+  114136507 buildSRPMFromSCM (/rpms/jss.git:d77787f82372d5b7a2707b4bc070d8444b508455): assigned -> open (buildvm-a64-24.iad2.fedoraproject.org)
+  114136507 buildSRPMFromSCM (/rpms/jss.git:d77787f82372d5b7a2707b4bc070d8444b508455): open (buildvm-a64-24.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  114136641 buildArch (jss-5.5.0-1.fc41.1.src.rpm, x86_64): free
+  114136643 buildArch (jss-5.5.0-1.fc41.1.src.rpm, ppc64le): free
+  114136644 buildArch (jss-5.5.0-1.fc41.1.src.rpm, s390x): free
+  114136642 buildArch (jss-5.5.0-1.fc41.1.src.rpm, aarch64): free
+  114136641 buildArch (jss-5.5.0-1.fc41.1.src.rpm, x86_64): free -> assigned
+  114136643 buildArch (jss-5.5.0-1.fc41.1.src.rpm, ppc64le): free -> assigned
+  114136644 buildArch (jss-5.5.0-1.fc41.1.src.rpm, s390x): free -> open (buildvm-s390x-07.s390.fedoraproject.org)
+  114136642 buildArch (jss-5.5.0-1.fc41.1.src.rpm, aarch64): free -> assigned
+  114136641 buildArch (jss-5.5.0-1.fc41.1.src.rpm, x86_64): assigned -> open (buildhw-x86-03.iad2.fedoraproject.org)
+  114136642 buildArch (jss-5.5.0-1.fc41.1.src.rpm, aarch64): assigned -> open (buildvm-a64-32.iad2.fedoraproject.org)
+  114136643 buildArch (jss-5.5.0-1.fc41.1.src.rpm, ppc64le): assigned -> open (buildvm-ppc64le-06.iad2.fedoraproject.org)
+  114136641 buildArch (jss-5.5.0-1.fc41.1.src.rpm, x86_64): open (buildhw-x86-03.iad2.fedoraproject.org) -> closed
+  0 free  4 open  2 done  0 failed
+  114136642 buildArch (jss-5.5.0-1.fc41.1.src.rpm, aarch64): open (buildvm-a64-32.iad2.fedoraproject.org) -> closed
+  0 free  3 open  3 done  0 failed
+  114136644 buildArch (jss-5.5.0-1.fc41.1.src.rpm, s390x): open (buildvm-s390x-07.s390.fedoraproject.org) -> closed
+  0 free  2 open  4 done  0 failed
+  114136643 buildArch (jss-5.5.0-1.fc41.1.src.rpm, ppc64le): open (buildvm-ppc64le-06.iad2.fedoraproject.org) -> closed
+  0 free  1 open  5 done  0 failed
+  114137020 tagBuild (noarch): free
+  114137020 tagBuild (noarch): free -> assigned
+  114137020 tagBuild (noarch): assigned -> closed
+  0 free  1 open  6 done  0 failed
+114136466 build (f41-build-side-84507, /rpms/jss.git:d77787f82372d5b7a2707b4bc070d8444b508455): open (buildvm-x86-14.iad2.fedoraproject.org) -> closed
+  0 free  0 open  7 done  0 failed
+
+114136466 build (f41-build-side-84507, /rpms/jss.git:d77787f82372d5b7a2707b4bc070d8444b508455) completed successfully

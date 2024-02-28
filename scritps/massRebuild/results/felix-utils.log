@@ -1,0 +1,28 @@
+Cloning into 'felix-utils'...
+[rawhide f01aad5] Rebuilt for java-21-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Found a gating.yaml file in the repo and it is properly configured
+Building felix-utils-1.11.8-9.fc41 for f41-build-side-84507
+Created task: 114133658
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114133658
+Watching tasks (this may be safely interrupted)...
+114133658 build (f41-build-side-84507, /rpms/felix-utils.git:f01aad56923fd7a6d4c66a916860f125853eb71a): free
+114133658 build (f41-build-side-84507, /rpms/felix-utils.git:f01aad56923fd7a6d4c66a916860f125853eb71a): free -> open (buildvm-a64-26.iad2.fedoraproject.org)
+  114133671 buildSRPMFromSCM (/rpms/felix-utils.git:f01aad56923fd7a6d4c66a916860f125853eb71a): free
+  114133671 buildSRPMFromSCM (/rpms/felix-utils.git:f01aad56923fd7a6d4c66a916860f125853eb71a): free -> assigned
+  114133671 buildSRPMFromSCM (/rpms/felix-utils.git:f01aad56923fd7a6d4c66a916860f125853eb71a): assigned -> open (buildvm-x86-20.iad2.fedoraproject.org)
+  114133671 buildSRPMFromSCM (/rpms/felix-utils.git:f01aad56923fd7a6d4c66a916860f125853eb71a): open (buildvm-x86-20.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  114133827 buildArch (felix-utils-1.11.8-9.fc41.src.rpm, noarch): free
+  114133827 buildArch (felix-utils-1.11.8-9.fc41.src.rpm, noarch): free -> assigned
+  114133827 buildArch (felix-utils-1.11.8-9.fc41.src.rpm, noarch): assigned -> open (buildvm-a64-06.iad2.fedoraproject.org)
+  114133827 buildArch (felix-utils-1.11.8-9.fc41.src.rpm, noarch): open (buildvm-a64-06.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  114133906 tagBuild (noarch): free
+  114133906 tagBuild (noarch): free -> assigned
+  114133906 tagBuild (noarch): assigned -> closed
+  0 free  1 open  3 done  0 failed
+114133658 build (f41-build-side-84507, /rpms/felix-utils.git:f01aad56923fd7a6d4c66a916860f125853eb71a): open (buildvm-a64-26.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+114133658 build (f41-build-side-84507, /rpms/felix-utils.git:f01aad56923fd7a6d4c66a916860f125853eb71a) completed successfully

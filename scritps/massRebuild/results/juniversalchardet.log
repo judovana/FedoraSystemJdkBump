@@ -1,0 +1,30 @@
+Cloning into 'juniversalchardet'...
+[rawhide cc4bce5] Rebuilt for java-21-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building juniversalchardet-2.4.0-12.fc41 for f41-build-side-84507
+Created task: 114136639
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114136639
+Watching tasks (this may be safely interrupted)...
+114136639 build (f41-build-side-84507, /rpms/juniversalchardet.git:cc4bce564933d81c707b43c5ce48a12caf2cccb4): free
+114136639 build (f41-build-side-84507, /rpms/juniversalchardet.git:cc4bce564933d81c707b43c5ce48a12caf2cccb4): free -> assigned
+114136639 build (f41-build-side-84507, /rpms/juniversalchardet.git:cc4bce564933d81c707b43c5ce48a12caf2cccb4): assigned -> open (buildvm-a64-31.iad2.fedoraproject.org)
+  114136698 buildSRPMFromSCM (/rpms/juniversalchardet.git:cc4bce564933d81c707b43c5ce48a12caf2cccb4): free
+  114136698 buildSRPMFromSCM (/rpms/juniversalchardet.git:cc4bce564933d81c707b43c5ce48a12caf2cccb4): free -> assigned
+  114136698 buildSRPMFromSCM (/rpms/juniversalchardet.git:cc4bce564933d81c707b43c5ce48a12caf2cccb4): assigned -> open (buildvm-x86-08.iad2.fedoraproject.org)
+  114136698 buildSRPMFromSCM (/rpms/juniversalchardet.git:cc4bce564933d81c707b43c5ce48a12caf2cccb4): open (buildvm-x86-08.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  114136787 buildArch (juniversalchardet-2.4.0-12.fc41.src.rpm, noarch): free
+  114136787 buildArch (juniversalchardet-2.4.0-12.fc41.src.rpm, noarch): free -> assigned
+  114136787 buildArch (juniversalchardet-2.4.0-12.fc41.src.rpm, noarch): assigned -> open (buildvm-a64-28.iad2.fedoraproject.org)
+  114136787 buildArch (juniversalchardet-2.4.0-12.fc41.src.rpm, noarch): open (buildvm-a64-28.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
+  Relevant logs:
+  https://kojipkgs.fedoraproject.org/work/tasks/6787/114136787/state.log
+  https://kojipkgs.fedoraproject.org/work/tasks/6787/114136787/build.log
+  https://kojipkgs.fedoraproject.org/work/tasks/6787/114136787/root.log
+  https://kojipkgs.fedoraproject.org/work/tasks/6787/114136787/mock_output.log
+  https://kojipkgs.fedoraproject.org/work/tasks/6787/114136787/hw_info.log
+  0 free  1 open  1 done  1 failed
+114136639 build (f41-build-side-84507, /rpms/juniversalchardet.git:cc4bce564933d81c707b43c5ce48a12caf2cccb4): open (buildvm-a64-31.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
+  0 free  0 open  1 done  2 failed
+
+114136639 build (f41-build-side-84507, /rpms/juniversalchardet.git:cc4bce564933d81c707b43c5ce48a12caf2cccb4) failed

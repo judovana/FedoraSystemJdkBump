@@ -1,0 +1,28 @@
+Cloning into 'filedrop'...
+[rawhide b4867d7] Rebuilt for java-21-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building filedrop-1.1-24.fc41 for f41-build-side-84507
+Created task: 114133718
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114133718
+Watching tasks (this may be safely interrupted)...
+114133718 build (f41-build-side-84507, /rpms/filedrop.git:b4867d76e079fb7c5fbb6a75a013ee102e3dc2db): free
+114133718 build (f41-build-side-84507, /rpms/filedrop.git:b4867d76e079fb7c5fbb6a75a013ee102e3dc2db): free -> assigned
+114133718 build (f41-build-side-84507, /rpms/filedrop.git:b4867d76e079fb7c5fbb6a75a013ee102e3dc2db): assigned -> open (buildvm-a64-16.iad2.fedoraproject.org)
+  114133751 buildSRPMFromSCM (/rpms/filedrop.git:b4867d76e079fb7c5fbb6a75a013ee102e3dc2db): free
+  114133751 buildSRPMFromSCM (/rpms/filedrop.git:b4867d76e079fb7c5fbb6a75a013ee102e3dc2db): free -> assigned
+  114133751 buildSRPMFromSCM (/rpms/filedrop.git:b4867d76e079fb7c5fbb6a75a013ee102e3dc2db): assigned -> open (buildvm-x86-14.iad2.fedoraproject.org)
+  114133751 buildSRPMFromSCM (/rpms/filedrop.git:b4867d76e079fb7c5fbb6a75a013ee102e3dc2db): open (buildvm-x86-14.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  114133850 buildArch (filedrop-1.1-24.fc41.src.rpm, noarch): free
+  114133850 buildArch (filedrop-1.1-24.fc41.src.rpm, noarch): free -> assigned
+  114133850 buildArch (filedrop-1.1-24.fc41.src.rpm, noarch): assigned -> open (buildvm-s390x-08.s390.fedoraproject.org)
+  114133850 buildArch (filedrop-1.1-24.fc41.src.rpm, noarch): open (buildvm-s390x-08.s390.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  114133899 tagBuild (noarch): free
+  114133899 tagBuild (noarch): free -> assigned
+  114133899 tagBuild (noarch): assigned -> closed
+  0 free  1 open  3 done  0 failed
+114133718 build (f41-build-side-84507, /rpms/filedrop.git:b4867d76e079fb7c5fbb6a75a013ee102e3dc2db): open (buildvm-a64-16.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+114133718 build (f41-build-side-84507, /rpms/filedrop.git:b4867d76e079fb7c5fbb6a75a013ee102e3dc2db) completed successfully

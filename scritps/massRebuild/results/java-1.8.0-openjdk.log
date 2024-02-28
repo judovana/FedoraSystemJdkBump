@@ -1,0 +1,42 @@
+Cloning into 'java-1.8.0-openjdk'...
+[rawhide 5b052cb] Rebuilt for java-21-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building java-1.8.0-openjdk-1.8.0.402.b06-1.fc41.1 for f41-build-side-84507
+Created task: 114135083
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114135083
+Watching tasks (this may be safely interrupted)...
+114135083 build (f41-build-side-84507, /rpms/java-1.8.0-openjdk.git:5b052cb2168cadf37556cf602a6380c3477c6064): free
+114135083 build (f41-build-side-84507, /rpms/java-1.8.0-openjdk.git:5b052cb2168cadf37556cf602a6380c3477c6064): free -> assigned
+114135083 build (f41-build-side-84507, /rpms/java-1.8.0-openjdk.git:5b052cb2168cadf37556cf602a6380c3477c6064): assigned -> open (buildhw-x86-07.iad2.fedoraproject.org)
+  114135200 buildSRPMFromSCM (/rpms/java-1.8.0-openjdk.git:5b052cb2168cadf37556cf602a6380c3477c6064): free
+  114135200 buildSRPMFromSCM (/rpms/java-1.8.0-openjdk.git:5b052cb2168cadf37556cf602a6380c3477c6064): free -> assigned
+  114135200 buildSRPMFromSCM (/rpms/java-1.8.0-openjdk.git:5b052cb2168cadf37556cf602a6380c3477c6064): assigned -> open (buildvm-x86-29.iad2.fedoraproject.org)
+  114135200 buildSRPMFromSCM (/rpms/java-1.8.0-openjdk.git:5b052cb2168cadf37556cf602a6380c3477c6064): open (buildvm-x86-29.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  114135479 buildArch (java-1.8.0-openjdk-1.8.0.402.b06-1.fc41.1.src.rpm, ppc64le): free
+  114135480 buildArch (java-1.8.0-openjdk-1.8.0.402.b06-1.fc41.1.src.rpm, s390x): free
+  114135477 buildArch (java-1.8.0-openjdk-1.8.0.402.b06-1.fc41.1.src.rpm, x86_64): free
+  114135478 buildArch (java-1.8.0-openjdk-1.8.0.402.b06-1.fc41.1.src.rpm, aarch64): free
+  114135479 buildArch (java-1.8.0-openjdk-1.8.0.402.b06-1.fc41.1.src.rpm, ppc64le): free -> assigned
+  114135480 buildArch (java-1.8.0-openjdk-1.8.0.402.b06-1.fc41.1.src.rpm, s390x): free -> assigned
+  114135477 buildArch (java-1.8.0-openjdk-1.8.0.402.b06-1.fc41.1.src.rpm, x86_64): free -> assigned
+  114135478 buildArch (java-1.8.0-openjdk-1.8.0.402.b06-1.fc41.1.src.rpm, aarch64): free -> open (buildvm-a64-10.iad2.fedoraproject.org)
+  114135480 buildArch (java-1.8.0-openjdk-1.8.0.402.b06-1.fc41.1.src.rpm, s390x): assigned -> open (buildvm-s390x-04.s390.fedoraproject.org)
+  114135477 buildArch (java-1.8.0-openjdk-1.8.0.402.b06-1.fc41.1.src.rpm, x86_64): assigned -> open (buildvm-x86-04.iad2.fedoraproject.org)
+  114135479 buildArch (java-1.8.0-openjdk-1.8.0.402.b06-1.fc41.1.src.rpm, ppc64le): assigned -> open (buildvm-ppc64le-10.iad2.fedoraproject.org)
+  114135478 buildArch (java-1.8.0-openjdk-1.8.0.402.b06-1.fc41.1.src.rpm, aarch64): open (buildvm-a64-10.iad2.fedoraproject.org) -> closed
+  0 free  4 open  2 done  0 failed
+  114135477 buildArch (java-1.8.0-openjdk-1.8.0.402.b06-1.fc41.1.src.rpm, x86_64): open (buildvm-x86-04.iad2.fedoraproject.org) -> closed
+  0 free  3 open  3 done  0 failed
+  114135480 buildArch (java-1.8.0-openjdk-1.8.0.402.b06-1.fc41.1.src.rpm, s390x): open (buildvm-s390x-04.s390.fedoraproject.org) -> closed
+  0 free  2 open  4 done  0 failed
+  114135479 buildArch (java-1.8.0-openjdk-1.8.0.402.b06-1.fc41.1.src.rpm, ppc64le): open (buildvm-ppc64le-10.iad2.fedoraproject.org) -> closed
+  0 free  1 open  5 done  0 failed
+  114136476 tagBuild (noarch): free
+  114136476 tagBuild (noarch): free -> assigned
+  114136476 tagBuild (noarch): assigned -> closed
+  0 free  1 open  6 done  0 failed
+114135083 build (f41-build-side-84507, /rpms/java-1.8.0-openjdk.git:5b052cb2168cadf37556cf602a6380c3477c6064): open (buildhw-x86-07.iad2.fedoraproject.org) -> closed
+  0 free  0 open  7 done  0 failed
+
+114135083 build (f41-build-side-84507, /rpms/java-1.8.0-openjdk.git:5b052cb2168cadf37556cf602a6380c3477c6064) completed successfully

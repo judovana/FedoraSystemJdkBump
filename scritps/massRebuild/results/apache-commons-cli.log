@@ -1,0 +1,27 @@
+Cloning into 'apache-commons-cli'...
+[rawhide a6b99c7] Rebuilt for java-21-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Found a gating.yaml file in the repo and it is properly configured
+Building apache-commons-cli-1.6.0-5.fc41 for f41-build-side-84507
+Created task: 114131170
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114131170
+Watching tasks (this may be safely interrupted)...
+114131170 build (f41-build-side-84507, /rpms/apache-commons-cli.git:a6b99c7d9809115b1e0d2065a1dca7b5a2792394): free
+114131170 build (f41-build-side-84507, /rpms/apache-commons-cli.git:a6b99c7d9809115b1e0d2065a1dca7b5a2792394): free -> assigned
+114131170 build (f41-build-side-84507, /rpms/apache-commons-cli.git:a6b99c7d9809115b1e0d2065a1dca7b5a2792394): assigned -> open (buildvm-ppc64le-23.iad2.fedoraproject.org)
+  114131238 buildSRPMFromSCM (/rpms/apache-commons-cli.git:a6b99c7d9809115b1e0d2065a1dca7b5a2792394): free
+  114131238 buildSRPMFromSCM (/rpms/apache-commons-cli.git:a6b99c7d9809115b1e0d2065a1dca7b5a2792394): free -> assigned
+  114131238 buildSRPMFromSCM (/rpms/apache-commons-cli.git:a6b99c7d9809115b1e0d2065a1dca7b5a2792394): assigned -> open (buildvm-a64-16.iad2.fedoraproject.org)
+  114131238 buildSRPMFromSCM (/rpms/apache-commons-cli.git:a6b99c7d9809115b1e0d2065a1dca7b5a2792394): open (buildvm-a64-16.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  114131327 buildArch (apache-commons-cli-1.6.0-5.fc41.src.rpm, noarch): free
+  114131327 buildArch (apache-commons-cli-1.6.0-5.fc41.src.rpm, noarch): free -> open (buildvm-ppc64le-32.iad2.fedoraproject.org)
+  114131327 buildArch (apache-commons-cli-1.6.0-5.fc41.src.rpm, noarch): open (buildvm-ppc64le-32.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  114131541 tagBuild (noarch): free
+  114131541 tagBuild (noarch): free -> closed
+  0 free  1 open  3 done  0 failed
+114131170 build (f41-build-side-84507, /rpms/apache-commons-cli.git:a6b99c7d9809115b1e0d2065a1dca7b5a2792394): open (buildvm-ppc64le-23.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+114131170 build (f41-build-side-84507, /rpms/apache-commons-cli.git:a6b99c7d9809115b1e0d2065a1dca7b5a2792394) completed successfully

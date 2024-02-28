@@ -1,0 +1,29 @@
+Cloning into 'apiguardian'...
+[rawhide 6d07e28] Rebuilt for java-21-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Found a gating.yaml file in the repo and it is properly configured
+Building apiguardian-1.1.2-12.fc41 for f41-build-side-84507
+Created task: 114131982
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114131982
+Watching tasks (this may be safely interrupted)...
+114131982 build (f41-build-side-84507, /rpms/apiguardian.git:6d07e28f63d7f5a23ce02df2fce2f5cda6d27da1): free
+114131982 build (f41-build-side-84507, /rpms/apiguardian.git:6d07e28f63d7f5a23ce02df2fce2f5cda6d27da1): free -> assigned
+114131982 build (f41-build-side-84507, /rpms/apiguardian.git:6d07e28f63d7f5a23ce02df2fce2f5cda6d27da1): assigned -> open (buildhw-x86-02.iad2.fedoraproject.org)
+  114131992 buildSRPMFromSCM (/rpms/apiguardian.git:6d07e28f63d7f5a23ce02df2fce2f5cda6d27da1): free
+  114131992 buildSRPMFromSCM (/rpms/apiguardian.git:6d07e28f63d7f5a23ce02df2fce2f5cda6d27da1): free -> assigned
+  114131992 buildSRPMFromSCM (/rpms/apiguardian.git:6d07e28f63d7f5a23ce02df2fce2f5cda6d27da1): assigned -> open (buildvm-a64-13.iad2.fedoraproject.org)
+  114131992 buildSRPMFromSCM (/rpms/apiguardian.git:6d07e28f63d7f5a23ce02df2fce2f5cda6d27da1): open (buildvm-a64-13.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  114132035 buildArch (apiguardian-1.1.2-12.fc41.src.rpm, noarch): free
+  114132035 buildArch (apiguardian-1.1.2-12.fc41.src.rpm, noarch): free -> assigned
+  114132035 buildArch (apiguardian-1.1.2-12.fc41.src.rpm, noarch): assigned -> open (buildhw-a64-21.iad2.fedoraproject.org)
+  114132035 buildArch (apiguardian-1.1.2-12.fc41.src.rpm, noarch): open (buildhw-a64-21.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  114132087 tagBuild (noarch): free
+  114132087 tagBuild (noarch): free -> assigned
+  114132087 tagBuild (noarch): assigned -> closed
+  0 free  1 open  3 done  0 failed
+114131982 build (f41-build-side-84507, /rpms/apiguardian.git:6d07e28f63d7f5a23ce02df2fce2f5cda6d27da1): open (buildhw-x86-02.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+114131982 build (f41-build-side-84507, /rpms/apiguardian.git:6d07e28f63d7f5a23ce02df2fce2f5cda6d27da1) completed successfully

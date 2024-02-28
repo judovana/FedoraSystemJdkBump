@@ -1,0 +1,27 @@
+Cloning into 'jackson-bom'...
+[rawhide 81d5eb4] Rebuilt for java-21-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building jackson-bom-2.16.1-3.fc41 for f41-build-side-84507
+Created task: 114134323
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114134323
+Watching tasks (this may be safely interrupted)...
+114134323 build (f41-build-side-84507, /rpms/jackson-bom.git:81d5eb4483874d08f9cb886a90c0565a785556e1): free
+114134323 build (f41-build-side-84507, /rpms/jackson-bom.git:81d5eb4483874d08f9cb886a90c0565a785556e1): free -> assigned
+114134323 build (f41-build-side-84507, /rpms/jackson-bom.git:81d5eb4483874d08f9cb886a90c0565a785556e1): assigned -> open (buildvm-a64-32.iad2.fedoraproject.org)
+  114134362 buildSRPMFromSCM (/rpms/jackson-bom.git:81d5eb4483874d08f9cb886a90c0565a785556e1): free
+  114134362 buildSRPMFromSCM (/rpms/jackson-bom.git:81d5eb4483874d08f9cb886a90c0565a785556e1): free -> open (buildvm-a64-14.iad2.fedoraproject.org)
+  114134362 buildSRPMFromSCM (/rpms/jackson-bom.git:81d5eb4483874d08f9cb886a90c0565a785556e1): open (buildvm-a64-14.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  114134403 buildArch (jackson-bom-2.16.1-3.fc41.src.rpm, noarch): free
+  114134403 buildArch (jackson-bom-2.16.1-3.fc41.src.rpm, noarch): free -> assigned
+  114134403 buildArch (jackson-bom-2.16.1-3.fc41.src.rpm, noarch): assigned -> open (buildvm-ppc64le-06.iad2.fedoraproject.org)
+  114134403 buildArch (jackson-bom-2.16.1-3.fc41.src.rpm, noarch): open (buildvm-ppc64le-06.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  114134547 tagBuild (noarch): free
+  114134547 tagBuild (noarch): free -> open (buildvm-ppc64le-21.iad2.fedoraproject.org)
+  114134547 tagBuild (noarch): open (buildvm-ppc64le-21.iad2.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+114134323 build (f41-build-side-84507, /rpms/jackson-bom.git:81d5eb4483874d08f9cb886a90c0565a785556e1): open (buildvm-a64-32.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+114134323 build (f41-build-side-84507, /rpms/jackson-bom.git:81d5eb4483874d08f9cb886a90c0565a785556e1) completed successfully
