@@ -259,6 +259,7 @@ Annother issue may be if eg jdk stop building o some architecture. Then it have 
   * I was tryng to keep it on one palce.. but...
 * Request sidetag in fedora rcm
   * https://docs.fedoraproject.org/en-US/package-maintainers/Package_Update_Guide/#creating_a_side_tag
+  * https://docs.fedoraproject.org/en-US/package-maintainers/Package_Update_Guide/#multiple_packages
   * originally, you had to create ticket, and wait for rcm to create the side tag. Eg: https://pagure.io/releng/issue/9574
   * nodays you can request anonymous sidetag on your own  eg: `fedpkg request-side-tag --base-tag  f36-build `
     *  dont forget to `koji wait-repo ...`
@@ -304,6 +305,12 @@ Annother issue may be if eg jdk stop building o some architecture. Then it have 
   * the above calls python script to submit bugzillas: https://github.com/judovana/FedoraSystemJdkBump/blob/main/scritps/massRebuild/submitBug.py
     *  is usable on its own.. but why...
     *  Still you may need to fix it
+
+# Side tag merge
+* once reasonable number of builds is passing, merge your sidetag
+  * if your side tag was created by you - you can merge it in bodhi yourself
+  * if your side tag was created by a releng - you need to ask them to merge it for you
+  * https://docs.fedoraproject.org/en-US/package-maintainers/Package_Update_Guide/#bodhi_update_for_builds_in_a_side_tag is a lifesaver
 
 # final steps
 * keep en eye on bugs
