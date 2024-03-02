@@ -31,7 +31,7 @@ echo "type yes and enter"
 read
 if [ ! "x${REPLY}" = "xyes" ] ; then exit 1 ; fi
 #lets add few more which builds to long. You will handle them manually alter
-for k in icecat rstudio ceph hdf5 libreoffice  py4j chromium ; do
+for k in icecat rstudio ceph hdf5 libreoffice chromium ; do
   pkgs[$k]=unused_now
 done
 regex=`echo "${!pkgs[@]}" | sed  's;\s\+;$ -e ^;g'`
