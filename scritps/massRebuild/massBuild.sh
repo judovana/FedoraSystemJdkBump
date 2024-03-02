@@ -15,7 +15,8 @@ readonly SCRIPT_DIR="$( cd -P "$( dirname "$SCRIPT_SOURCE" )" && pwd )"
 
 set -e
 set -o pipefail
-TAG=f41-build-side-84507
+branch=f40
+TAG=f40-build-side-84857
 targettedSelection="CFR"
 DO="false"
 
@@ -45,7 +46,7 @@ echo "dont forget to handle following packages manually!"
 echo " * " ${!pkgs[@]}
 RESULTS_DIR="$PWD/results"
 echo "DO=$DO targettedSelection=$targettedSelection TAG=$TAG"
-echo "Are you kinit into FEDORAPROJECT.ORG? Are you proven packager?"
+echo "Are you kinit into FEDORAPROJECT.ORG? Are you proven packager? Do you really wish to run in branch $branch?"
 echo "type yes and enter. If you are not proven packager, it will fail on foreign pkgs. This will discard all old results $RESULTS_DIR"
 read
 if [ ! "x${REPLY}" = "xyes" ] ; then exit 1 ; fi
@@ -58,6 +59,7 @@ set +e # disputable... but yo do not want to lost 24h long script becasue of min
 for pkg in `cat $FILE_WITH_PKGS | grep  -v $regex  | grep "$targettedSelection"` ; do 
   fedpkg clone $pkg  2>&1 | tee $RESULTS_DIR/${pkg}.log
   pushd $pkg
+    git checkout $branch
     MSG_TITLE="Rebuilt for java-21-openjdk as system jdk"
     MSG="$MSG_TITLE
 
