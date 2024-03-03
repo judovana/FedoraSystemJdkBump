@@ -1,5 +1,7 @@
-Cloning into 'jFormatString'...
-[f40 2010a41] Rebuilt for java-21-openjdk as system jdk
- 1 file changed, 4 insertions(+), 1 deletion(-)
-Could not execute build: There are unpushed changes in your repo
-Try option --srpm to make scratch build from local changes.
+Watching tasks (this may be safely interrupted)...
+114377754 build (f40-build-side-84857, /rpms/jFormatString.git:1ceb72025b9bd3f43f7eea9d47ee1347f37e7edf): closed
+  114377845 tagBuild (noarch): closed
+  114377762 buildSRPMFromSCM (/rpms/jFormatString.git:1ceb72025b9bd3f43f7eea9d47ee1347f37e7edf): closed
+  114377813 buildArch (jFormatString-0-0.49.20131227gitf159b88.fc40.src.rpm, noarch): closed
+
+114377754 build (f40-build-side-84857, /rpms/jFormatString.git:1ceb72025b9bd3f43f7eea9d47ee1347f37e7edf) completed successfully

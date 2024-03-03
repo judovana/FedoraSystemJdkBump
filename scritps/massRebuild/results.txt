@@ -183,7 +183,7 @@ jdom                           passed!
 jericho-html                   passed!
 jetty                          passed!
 jflex                          passed!
-jFormatString                  running?
+jFormatString                  passed!
 jfreechart                     passed!
 jgit                           passed!
 jglobus                        passed!
@@ -311,7 +311,7 @@ plexus-build-api               passed!
 plexus-cipher                  passed!
 plexus-classworlds             passed!
 plexus-compiler                FAILED
-plexus-component-api           running?
+plexus-component-api           retired
 plexus-components-pom          passed!
 plexus-containers              passed!
 plexus-i18n                    passed!
