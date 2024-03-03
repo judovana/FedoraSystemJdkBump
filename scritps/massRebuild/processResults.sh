@@ -3,6 +3,8 @@ RESULTS_DIR=${1}
 export BUGZILLA_API_KEY=${2}
 export FEATURE_BUG_ID=${3}
 # see also variable URLS true/false
+# see TASK_URL for usage. Tahat one is good with grep -A1
+#   to double check runing tasks: TASK_URL=true sh processResults.sh  results  | grep running -A1
 
 ## resolve folder of this script, following all symlinks,
 ## http://stackoverflow.com/questions/59895/can-a-bash-script-tell-what-directory-its-stored-in
@@ -62,6 +64,10 @@ for logFile in `ls ${RESULTS_DIR} | sort ` ; do
     fi
   else
     pout "$pkg" "running?" 30
+    if [ ! "x$TASK_URL" == "x" ] ;  then
+      a=`cat $log | grep "Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID="`
+      pout "  $a"  "" 0
+    fi
   fi
   if [ "x$URLS" = "xtrue" ] ; then
     echo "$urls"
