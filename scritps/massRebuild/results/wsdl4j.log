@@ -1,27 +1,29 @@
 Cloning into 'wsdl4j'...
-[rawhide 13d182a] Rebuilt for java-21-openjdk as system jdk
+[f40 6414099] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building wsdl4j-1.6.3-30.fc41 for f41-build-side-84507
-Created task: 114142324
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114142324
+Building wsdl4j-1.6.3-30.fc40 for f40-build-side-84857
+Created task: 114356096
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114356096
 Watching tasks (this may be safely interrupted)...
-114142324 build (f41-build-side-84507, /rpms/wsdl4j.git:13d182a01df95f244f5b59dc6ba5d3bc8cafa900): free
-114142324 build (f41-build-side-84507, /rpms/wsdl4j.git:13d182a01df95f244f5b59dc6ba5d3bc8cafa900): free -> open (buildvm-a64-39.iad2.fedoraproject.org)
-  114142354 buildSRPMFromSCM (/rpms/wsdl4j.git:13d182a01df95f244f5b59dc6ba5d3bc8cafa900): free
-  114142354 buildSRPMFromSCM (/rpms/wsdl4j.git:13d182a01df95f244f5b59dc6ba5d3bc8cafa900): free -> assigned
-  114142354 buildSRPMFromSCM (/rpms/wsdl4j.git:13d182a01df95f244f5b59dc6ba5d3bc8cafa900): assigned -> open (buildvm-a64-08.iad2.fedoraproject.org)
-  114142354 buildSRPMFromSCM (/rpms/wsdl4j.git:13d182a01df95f244f5b59dc6ba5d3bc8cafa900): open (buildvm-a64-08.iad2.fedoraproject.org) -> closed
-  0 free  1 open  1 done  0 failed
-  114142484 buildArch (wsdl4j-1.6.3-30.fc41.src.rpm, noarch): free
-  114142484 buildArch (wsdl4j-1.6.3-30.fc41.src.rpm, noarch): free -> assigned
-  114142484 buildArch (wsdl4j-1.6.3-30.fc41.src.rpm, noarch): assigned -> open (buildvm-s390x-03.s390.fedoraproject.org)
-  114142484 buildArch (wsdl4j-1.6.3-30.fc41.src.rpm, noarch): open (buildvm-s390x-03.s390.fedoraproject.org) -> closed
+114356096 build (f40-build-side-84857, /rpms/wsdl4j.git:6414099074035ed8b4b72a3463e7d383eb05aa97): free
+114356096 build (f40-build-side-84857, /rpms/wsdl4j.git:6414099074035ed8b4b72a3463e7d383eb05aa97): free -> assigned
+114356096 build (f40-build-side-84857, /rpms/wsdl4j.git:6414099074035ed8b4b72a3463e7d383eb05aa97): assigned -> open (buildhw-x86-04.iad2.fedoraproject.org)
+  114356171 buildSRPMFromSCM (/rpms/wsdl4j.git:6414099074035ed8b4b72a3463e7d383eb05aa97): free
+  114356171 buildSRPMFromSCM (/rpms/wsdl4j.git:6414099074035ed8b4b72a3463e7d383eb05aa97): free -> assigned
+  114356171 buildSRPMFromSCM (/rpms/wsdl4j.git:6414099074035ed8b4b72a3463e7d383eb05aa97): assigned -> open (buildvm-a64-05.iad2.fedoraproject.org)
+  114356392 buildArch (wsdl4j-1.6.3-30.fc40.src.rpm, noarch): free
+  114356171 buildSRPMFromSCM (/rpms/wsdl4j.git:6414099074035ed8b4b72a3463e7d383eb05aa97): open (buildvm-a64-05.iad2.fedoraproject.org) -> closed
+  1 free  1 open  1 done  0 failed
+  114356392 buildArch (wsdl4j-1.6.3-30.fc40.src.rpm, noarch): free -> assigned
+  114356392 buildArch (wsdl4j-1.6.3-30.fc40.src.rpm, noarch): assigned -> open (buildvm-ppc64le-10.iad2.fedoraproject.org)
+  114356392 buildArch (wsdl4j-1.6.3-30.fc40.src.rpm, noarch): open (buildvm-ppc64le-10.iad2.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  114142945 tagBuild (noarch): free
-  114142945 tagBuild (noarch): free -> assigned
-  114142945 tagBuild (noarch): assigned -> closed
+  114356588 tagBuild (noarch): free
+  114356588 tagBuild (noarch): free -> assigned
+  114356588 tagBuild (noarch): assigned -> open (buildvm-ppc64le-21.iad2.fedoraproject.org)
+  114356588 tagBuild (noarch): open (buildvm-ppc64le-21.iad2.fedoraproject.org) -> closed
   0 free  1 open  3 done  0 failed
-114142324 build (f41-build-side-84507, /rpms/wsdl4j.git:13d182a01df95f244f5b59dc6ba5d3bc8cafa900): open (buildvm-a64-39.iad2.fedoraproject.org) -> closed
+114356096 build (f40-build-side-84857, /rpms/wsdl4j.git:6414099074035ed8b4b72a3463e7d383eb05aa97): open (buildhw-x86-04.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-114142324 build (f41-build-side-84507, /rpms/wsdl4j.git:13d182a01df95f244f5b59dc6ba5d3bc8cafa900) completed successfully
+114356096 build (f40-build-side-84857, /rpms/wsdl4j.git:6414099074035ed8b4b72a3463e7d383eb05aa97) completed successfully

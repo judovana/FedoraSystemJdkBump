@@ -1,29 +1,28 @@
 Cloning into 'jopt-simple'...
-[rawhide 69d287c] Rebuilt for java-21-openjdk as system jdk
+[f40 95d4c03] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building jopt-simple-5.0.4-20.fc41 for f41-build-side-84507
-Created task: 114136389
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114136389
+Building jopt-simple-5.0.4-20.fc40 for f40-build-side-84857
+Created task: 114352667
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114352667
 Watching tasks (this may be safely interrupted)...
-114136389 build (f41-build-side-84507, /rpms/jopt-simple.git:69d287ccad66efc5132d303b67ee2171bd326f99): free
-114136389 build (f41-build-side-84507, /rpms/jopt-simple.git:69d287ccad66efc5132d303b67ee2171bd326f99): free -> assigned
-114136389 build (f41-build-side-84507, /rpms/jopt-simple.git:69d287ccad66efc5132d303b67ee2171bd326f99): assigned -> open (buildhw-x86-03.iad2.fedoraproject.org)
-  114136406 buildSRPMFromSCM (/rpms/jopt-simple.git:69d287ccad66efc5132d303b67ee2171bd326f99): free
-  114136406 buildSRPMFromSCM (/rpms/jopt-simple.git:69d287ccad66efc5132d303b67ee2171bd326f99): free -> assigned
-  114136406 buildSRPMFromSCM (/rpms/jopt-simple.git:69d287ccad66efc5132d303b67ee2171bd326f99): assigned -> open (buildvm-a64-25.iad2.fedoraproject.org)
-  114136406 buildSRPMFromSCM (/rpms/jopt-simple.git:69d287ccad66efc5132d303b67ee2171bd326f99): open (buildvm-a64-25.iad2.fedoraproject.org) -> closed
+114352667 build (f40-build-side-84857, /rpms/jopt-simple.git:95d4c039d3b586296c046d34ab993ee09d6ef626): free
+114352667 build (f40-build-side-84857, /rpms/jopt-simple.git:95d4c039d3b586296c046d34ab993ee09d6ef626): free -> assigned
+114352667 build (f40-build-side-84857, /rpms/jopt-simple.git:95d4c039d3b586296c046d34ab993ee09d6ef626): assigned -> open (buildvm-x86-06.iad2.fedoraproject.org)
+  114352672 buildSRPMFromSCM (/rpms/jopt-simple.git:95d4c039d3b586296c046d34ab993ee09d6ef626): free
+  114352672 buildSRPMFromSCM (/rpms/jopt-simple.git:95d4c039d3b586296c046d34ab993ee09d6ef626): free -> open (buildvm-a64-17.iad2.fedoraproject.org)
+  114352672 buildSRPMFromSCM (/rpms/jopt-simple.git:95d4c039d3b586296c046d34ab993ee09d6ef626): open (buildvm-a64-17.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  114136451 buildArch (jopt-simple-5.0.4-20.fc41.src.rpm, noarch): assigned
-  114136451 buildArch (jopt-simple-5.0.4-20.fc41.src.rpm, noarch): assigned -> open (buildvm-ppc64le-05.iad2.fedoraproject.org)
-  114136451 buildArch (jopt-simple-5.0.4-20.fc41.src.rpm, noarch): open (buildvm-ppc64le-05.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
+  114352699 buildArch (jopt-simple-5.0.4-20.fc40.src.rpm, noarch): free
+  114352699 buildArch (jopt-simple-5.0.4-20.fc40.src.rpm, noarch): free -> open (buildvm-x86-22.iad2.fedoraproject.org)
+  114352699 buildArch (jopt-simple-5.0.4-20.fc40.src.rpm, noarch): open (buildvm-x86-22.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
   Relevant logs:
-  https://kojipkgs.fedoraproject.org/work/tasks/6451/114136451/mock_output.log
-  https://kojipkgs.fedoraproject.org/work/tasks/6451/114136451/state.log
-  https://kojipkgs.fedoraproject.org/work/tasks/6451/114136451/build.log
-  https://kojipkgs.fedoraproject.org/work/tasks/6451/114136451/root.log
-  https://kojipkgs.fedoraproject.org/work/tasks/6451/114136451/hw_info.log
+  https://kojipkgs.fedoraproject.org/work/tasks/2699/114352699/mock_output.log
+  https://kojipkgs.fedoraproject.org/work/tasks/2699/114352699/state.log
+  https://kojipkgs.fedoraproject.org/work/tasks/2699/114352699/build.log
+  https://kojipkgs.fedoraproject.org/work/tasks/2699/114352699/root.log
+  https://kojipkgs.fedoraproject.org/work/tasks/2699/114352699/hw_info.log
   0 free  1 open  1 done  1 failed
-114136389 build (f41-build-side-84507, /rpms/jopt-simple.git:69d287ccad66efc5132d303b67ee2171bd326f99): open (buildhw-x86-03.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
+114352667 build (f40-build-side-84857, /rpms/jopt-simple.git:95d4c039d3b586296c046d34ab993ee09d6ef626): open (buildvm-x86-06.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
   0 free  0 open  1 done  2 failed
 
-114136389 build (f41-build-side-84507, /rpms/jopt-simple.git:69d287ccad66efc5132d303b67ee2171bd326f99) failed
+114352667 build (f40-build-side-84857, /rpms/jopt-simple.git:95d4c039d3b586296c046d34ab993ee09d6ef626) failed

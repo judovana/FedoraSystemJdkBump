@@ -1,28 +1,8 @@
 Cloning into 'python-javaobj'...
-[rawhide 55cca83] Rebuilt for java-21-openjdk as system jdk
+[f40 bad4241] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building python-javaobj-0.4.3-12.fc41 for f41-build-side-84507
-Created task: 114140387
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114140387
+Building python-javaobj-0.4.3-12.fc40 for f40-build-side-84857
+Created task: 114355571
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355571
 Watching tasks (this may be safely interrupted)...
-114140387 build (f41-build-side-84507, /rpms/python-javaobj.git:55cca83b3fbad370b306b86ded16c310807580da): free
-114140387 build (f41-build-side-84507, /rpms/python-javaobj.git:55cca83b3fbad370b306b86ded16c310807580da): free -> assigned
-114140387 build (f41-build-side-84507, /rpms/python-javaobj.git:55cca83b3fbad370b306b86ded16c310807580da): assigned -> open (buildvm-x86-30.iad2.fedoraproject.org)
-  114140428 buildSRPMFromSCM (/rpms/python-javaobj.git:55cca83b3fbad370b306b86ded16c310807580da): free
-  114140428 buildSRPMFromSCM (/rpms/python-javaobj.git:55cca83b3fbad370b306b86ded16c310807580da): free -> assigned
-  114140428 buildSRPMFromSCM (/rpms/python-javaobj.git:55cca83b3fbad370b306b86ded16c310807580da): assigned -> open (buildvm-a64-17.iad2.fedoraproject.org)
-  114140428 buildSRPMFromSCM (/rpms/python-javaobj.git:55cca83b3fbad370b306b86ded16c310807580da): open (buildvm-a64-17.iad2.fedoraproject.org) -> closed
-  0 free  1 open  1 done  0 failed
-  114140541 buildArch (python-javaobj-0.4.3-12.fc41.src.rpm, noarch): free
-  114140541 buildArch (python-javaobj-0.4.3-12.fc41.src.rpm, noarch): free -> assigned
-  114140541 buildArch (python-javaobj-0.4.3-12.fc41.src.rpm, noarch): assigned -> open (buildvm-s390x-06.s390.fedoraproject.org)
-  114140541 buildArch (python-javaobj-0.4.3-12.fc41.src.rpm, noarch): open (buildvm-s390x-06.s390.fedoraproject.org) -> closed
-  0 free  1 open  2 done  0 failed
-  114140592 tagBuild (noarch): free
-  114140592 tagBuild (noarch): free -> assigned
-114140387 build (f41-build-side-84507, /rpms/python-javaobj.git:55cca83b3fbad370b306b86ded16c310807580da): open (buildvm-x86-30.iad2.fedoraproject.org) -> closed
-  0 free  1 open  3 done  0 failed
-  114140592 tagBuild (noarch): assigned -> closed
-  0 free  0 open  4 done  0 failed
-
-114140387 build (f41-build-side-84507, /rpms/python-javaobj.git:55cca83b3fbad370b306b86ded16c310807580da) completed successfully
+114355571 build (f40-build-side-84857, /rpms/python-javaobj.git:bad4241d74206351164bc276264ad69d46f85e83): free

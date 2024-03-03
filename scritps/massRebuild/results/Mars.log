@@ -1,27 +1,27 @@
 Cloning into 'Mars'...
-[rawhide 367fbe6] Rebuilt for java-21-openjdk as system jdk
+[f40 cb90f7d] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building Mars-4.5-26.fc41 for f41-build-side-84507
-Created task: 114137167
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114137167
+Building Mars-4.5-26.fc40 for f40-build-side-84857
+Created task: 114353276
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114353276
 Watching tasks (this may be safely interrupted)...
-114137167 build (f41-build-side-84507, /rpms/Mars.git:367fbe67b8602a3327360a3f5c3ca94e9831dc5a): free
-114137167 build (f41-build-side-84507, /rpms/Mars.git:367fbe67b8602a3327360a3f5c3ca94e9831dc5a): free -> assigned
-114137167 build (f41-build-side-84507, /rpms/Mars.git:367fbe67b8602a3327360a3f5c3ca94e9831dc5a): assigned -> open (buildvm-x86-22.iad2.fedoraproject.org)
-  114137175 buildSRPMFromSCM (/rpms/Mars.git:367fbe67b8602a3327360a3f5c3ca94e9831dc5a): free
-  114137175 buildSRPMFromSCM (/rpms/Mars.git:367fbe67b8602a3327360a3f5c3ca94e9831dc5a): free -> assigned
-  114137175 buildSRPMFromSCM (/rpms/Mars.git:367fbe67b8602a3327360a3f5c3ca94e9831dc5a): assigned -> open (buildvm-x86-15.iad2.fedoraproject.org)
-  114137175 buildSRPMFromSCM (/rpms/Mars.git:367fbe67b8602a3327360a3f5c3ca94e9831dc5a): open (buildvm-x86-15.iad2.fedoraproject.org) -> closed
+114353276 build (f40-build-side-84857, /rpms/Mars.git:cb90f7da92e663b2358d1aa1771058707c47bac6): free
+114353276 build (f40-build-side-84857, /rpms/Mars.git:cb90f7da92e663b2358d1aa1771058707c47bac6): free -> assigned
+114353276 build (f40-build-side-84857, /rpms/Mars.git:cb90f7da92e663b2358d1aa1771058707c47bac6): assigned -> open (buildvm-a64-28.iad2.fedoraproject.org)
+  114353286 buildSRPMFromSCM (/rpms/Mars.git:cb90f7da92e663b2358d1aa1771058707c47bac6): free
+  114353286 buildSRPMFromSCM (/rpms/Mars.git:cb90f7da92e663b2358d1aa1771058707c47bac6): free -> assigned
+  114353286 buildSRPMFromSCM (/rpms/Mars.git:cb90f7da92e663b2358d1aa1771058707c47bac6): assigned -> open (buildvm-a64-07.iad2.fedoraproject.org)
+  114353286 buildSRPMFromSCM (/rpms/Mars.git:cb90f7da92e663b2358d1aa1771058707c47bac6): open (buildvm-a64-07.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  114137202 buildArch (Mars-4.5-26.fc41.src.rpm, noarch): free
-  114137202 buildArch (Mars-4.5-26.fc41.src.rpm, noarch): free -> assigned
-  114137202 buildArch (Mars-4.5-26.fc41.src.rpm, noarch): assigned -> open (buildvm-ppc64le-03.iad2.fedoraproject.org)
-  114137202 buildArch (Mars-4.5-26.fc41.src.rpm, noarch): open (buildvm-ppc64le-03.iad2.fedoraproject.org) -> closed
-  0 free  1 open  2 done  0 failed
-  114137233 tagBuild (noarch): assigned
-  114137233 tagBuild (noarch): assigned -> closed
-  0 free  1 open  3 done  0 failed
-114137167 build (f41-build-side-84507, /rpms/Mars.git:367fbe67b8602a3327360a3f5c3ca94e9831dc5a): open (buildvm-x86-22.iad2.fedoraproject.org) -> closed
+  114353332 buildArch (Mars-4.5-26.fc40.src.rpm, noarch): free
+  114353332 buildArch (Mars-4.5-26.fc40.src.rpm, noarch): free -> assigned
+  114353332 buildArch (Mars-4.5-26.fc40.src.rpm, noarch): assigned -> open (buildhw-a64-20.iad2.fedoraproject.org)
+  114353439 tagBuild (noarch): free
+  114353332 buildArch (Mars-4.5-26.fc40.src.rpm, noarch): open (buildhw-a64-20.iad2.fedoraproject.org) -> closed
+  1 free  1 open  2 done  0 failed
+114353276 build (f40-build-side-84857, /rpms/Mars.git:cb90f7da92e663b2358d1aa1771058707c47bac6): open (buildvm-a64-28.iad2.fedoraproject.org) -> closed
+  1 free  0 open  3 done  0 failed
+  114353439 tagBuild (noarch): free -> closed
   0 free  0 open  4 done  0 failed
 
-114137167 build (f41-build-side-84507, /rpms/Mars.git:367fbe67b8602a3327360a3f5c3ca94e9831dc5a) completed successfully
+114353276 build (f40-build-side-84857, /rpms/Mars.git:cb90f7da92e663b2358d1aa1771058707c47bac6) completed successfully

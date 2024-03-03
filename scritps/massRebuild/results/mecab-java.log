@@ -1,40 +1,39 @@
 Cloning into 'mecab-java'...
-[rawhide d3af61f] Rebuilt for java-21-openjdk as system jdk
+[f40 ff74b87] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building mecab-java-0.996-8.fc41 for f41-build-side-84507
-Created task: 114138171
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114138171
+Building mecab-java-0.996-8.fc40 for f40-build-side-84857
+Created task: 114354445
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114354445
 Watching tasks (this may be safely interrupted)...
-114138171 build (f41-build-side-84507, /rpms/mecab-java.git:d3af61f2dc8730538c3c7a40f2f1b41e5e0c2ae1): free
-114138171 build (f41-build-side-84507, /rpms/mecab-java.git:d3af61f2dc8730538c3c7a40f2f1b41e5e0c2ae1): free -> open (buildhw-x86-11.iad2.fedoraproject.org)
-  114138203 buildSRPMFromSCM (/rpms/mecab-java.git:d3af61f2dc8730538c3c7a40f2f1b41e5e0c2ae1): free
-  114138203 buildSRPMFromSCM (/rpms/mecab-java.git:d3af61f2dc8730538c3c7a40f2f1b41e5e0c2ae1): free -> assigned
-  114138203 buildSRPMFromSCM (/rpms/mecab-java.git:d3af61f2dc8730538c3c7a40f2f1b41e5e0c2ae1): assigned -> open (buildvm-x86-07.iad2.fedoraproject.org)
-  114138203 buildSRPMFromSCM (/rpms/mecab-java.git:d3af61f2dc8730538c3c7a40f2f1b41e5e0c2ae1): open (buildvm-x86-07.iad2.fedoraproject.org) -> closed
-  0 free  1 open  1 done  0 failed
-  114138365 buildArch (mecab-java-0.996-8.fc41.src.rpm, s390x): free
-  114138363 buildArch (mecab-java-0.996-8.fc41.src.rpm, aarch64): free
-  114138362 buildArch (mecab-java-0.996-8.fc41.src.rpm, x86_64): free
-  114138364 buildArch (mecab-java-0.996-8.fc41.src.rpm, ppc64le): free
-  114138365 buildArch (mecab-java-0.996-8.fc41.src.rpm, s390x): free -> open (buildvm-s390x-08.s390.fedoraproject.org)
-  114138363 buildArch (mecab-java-0.996-8.fc41.src.rpm, aarch64): free -> open (buildvm-a64-34.iad2.fedoraproject.org)
-  114138362 buildArch (mecab-java-0.996-8.fc41.src.rpm, x86_64): free -> assigned
-  114138364 buildArch (mecab-java-0.996-8.fc41.src.rpm, ppc64le): free -> assigned
-  114138362 buildArch (mecab-java-0.996-8.fc41.src.rpm, x86_64): assigned -> open (buildhw-x86-04.iad2.fedoraproject.org)
-  114138364 buildArch (mecab-java-0.996-8.fc41.src.rpm, ppc64le): assigned -> open (buildvm-ppc64le-08.iad2.fedoraproject.org)
-  114138363 buildArch (mecab-java-0.996-8.fc41.src.rpm, aarch64): open (buildvm-a64-34.iad2.fedoraproject.org) -> closed
+114354445 build (f40-build-side-84857, /rpms/mecab-java.git:ff74b87adb2c730c16fe3765ba7acf4cdeeac50f): free
+114354445 build (f40-build-side-84857, /rpms/mecab-java.git:ff74b87adb2c730c16fe3765ba7acf4cdeeac50f): free -> open (buildvm-x86-19.iad2.fedoraproject.org)
+  114354483 buildSRPMFromSCM (/rpms/mecab-java.git:ff74b87adb2c730c16fe3765ba7acf4cdeeac50f): free
+  114354483 buildSRPMFromSCM (/rpms/mecab-java.git:ff74b87adb2c730c16fe3765ba7acf4cdeeac50f): free -> open (buildvm-a64-17.iad2.fedoraproject.org)
+  114354569 buildArch (mecab-java-0.996-8.fc40.src.rpm, s390x): free
+  114354563 buildArch (mecab-java-0.996-8.fc40.src.rpm, x86_64): free
+  114354565 buildArch (mecab-java-0.996-8.fc40.src.rpm, aarch64): free
+  114354567 buildArch (mecab-java-0.996-8.fc40.src.rpm, ppc64le): free
+  114354483 buildSRPMFromSCM (/rpms/mecab-java.git:ff74b87adb2c730c16fe3765ba7acf4cdeeac50f): open (buildvm-a64-17.iad2.fedoraproject.org) -> closed
+  4 free  1 open  1 done  0 failed
+  114354569 buildArch (mecab-java-0.996-8.fc40.src.rpm, s390x): free -> open (buildvm-s390x-01.s390.fedoraproject.org)
+  114354563 buildArch (mecab-java-0.996-8.fc40.src.rpm, x86_64): free -> assigned
+  114354565 buildArch (mecab-java-0.996-8.fc40.src.rpm, aarch64): free -> assigned
+  114354567 buildArch (mecab-java-0.996-8.fc40.src.rpm, ppc64le): free -> assigned
+  114354563 buildArch (mecab-java-0.996-8.fc40.src.rpm, x86_64): assigned -> open (buildvm-x86-28.iad2.fedoraproject.org)
+  114354565 buildArch (mecab-java-0.996-8.fc40.src.rpm, aarch64): assigned -> open (buildvm-a64-17.iad2.fedoraproject.org)
+  114354567 buildArch (mecab-java-0.996-8.fc40.src.rpm, ppc64le): assigned -> open (buildvm-ppc64le-03.iad2.fedoraproject.org)
+  114354569 buildArch (mecab-java-0.996-8.fc40.src.rpm, s390x): open (buildvm-s390x-01.s390.fedoraproject.org) -> closed
   0 free  4 open  2 done  0 failed
-  114138365 buildArch (mecab-java-0.996-8.fc41.src.rpm, s390x): open (buildvm-s390x-08.s390.fedoraproject.org) -> closed
+  114354565 buildArch (mecab-java-0.996-8.fc40.src.rpm, aarch64): open (buildvm-a64-17.iad2.fedoraproject.org) -> closed
   0 free  3 open  3 done  0 failed
-  114138362 buildArch (mecab-java-0.996-8.fc41.src.rpm, x86_64): open (buildhw-x86-04.iad2.fedoraproject.org) -> closed
+  114354563 buildArch (mecab-java-0.996-8.fc40.src.rpm, x86_64): open (buildvm-x86-28.iad2.fedoraproject.org) -> closed
   0 free  2 open  4 done  0 failed
-  114138568 tagBuild (noarch): free
-  114138364 buildArch (mecab-java-0.996-8.fc41.src.rpm, ppc64le): open (buildvm-ppc64le-08.iad2.fedoraproject.org) -> closed
-  1 free  1 open  5 done  0 failed
-  114138568 tagBuild (noarch): free -> assigned
-  114138568 tagBuild (noarch): assigned -> closed
+  114354567 buildArch (mecab-java-0.996-8.fc40.src.rpm, ppc64le): open (buildvm-ppc64le-03.iad2.fedoraproject.org) -> closed
+  0 free  1 open  5 done  0 failed
+  114354602 tagBuild (noarch): free
+  114354602 tagBuild (noarch): free -> closed
   0 free  1 open  6 done  0 failed
-114138171 build (f41-build-side-84507, /rpms/mecab-java.git:d3af61f2dc8730538c3c7a40f2f1b41e5e0c2ae1): open (buildhw-x86-11.iad2.fedoraproject.org) -> closed
+114354445 build (f40-build-side-84857, /rpms/mecab-java.git:ff74b87adb2c730c16fe3765ba7acf4cdeeac50f): open (buildvm-x86-19.iad2.fedoraproject.org) -> closed
   0 free  0 open  7 done  0 failed
 
-114138171 build (f41-build-side-84507, /rpms/mecab-java.git:d3af61f2dc8730538c3c7a40f2f1b41e5e0c2ae1) completed successfully
+114354445 build (f40-build-side-84857, /rpms/mecab-java.git:ff74b87adb2c730c16fe3765ba7acf4cdeeac50f) completed successfully

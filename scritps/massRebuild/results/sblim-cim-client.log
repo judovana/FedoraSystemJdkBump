@@ -1,29 +1,8 @@
 Cloning into 'sblim-cim-client'...
-[rawhide 5e72a21] Rebuilt for java-21-openjdk as system jdk
+[f40 d883428] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-warning: Patch number not specified: %patch -p1 -b .fix-for-java-11-openjdk
-
-
-Building sblim-cim-client-1.3.9.3-33.fc41 for f41-build-side-84507
-Created task: 114140722
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114140722
+Building sblim-cim-client-1.3.9.3-34.fc40 for f40-build-side-84857
+Created task: 114355592
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355592
 Watching tasks (this may be safely interrupted)...
-114140722 build (f41-build-side-84507, /rpms/sblim-cim-client.git:5e72a2155a394d15b1e0b049e003c519a6c1d53e): free
-114140722 build (f41-build-side-84507, /rpms/sblim-cim-client.git:5e72a2155a394d15b1e0b049e003c519a6c1d53e): free -> assigned
-114140722 build (f41-build-side-84507, /rpms/sblim-cim-client.git:5e72a2155a394d15b1e0b049e003c519a6c1d53e): assigned -> open (buildhw-x86-08.iad2.fedoraproject.org)
-  114140832 buildSRPMFromSCM (/rpms/sblim-cim-client.git:5e72a2155a394d15b1e0b049e003c519a6c1d53e): free
-  114140832 buildSRPMFromSCM (/rpms/sblim-cim-client.git:5e72a2155a394d15b1e0b049e003c519a6c1d53e): free -> assigned
-  114140832 buildSRPMFromSCM (/rpms/sblim-cim-client.git:5e72a2155a394d15b1e0b049e003c519a6c1d53e): assigned -> open (buildvm-x86-21.iad2.fedoraproject.org)
-114140722 build (f41-build-side-84507, /rpms/sblim-cim-client.git:5e72a2155a394d15b1e0b049e003c519a6c1d53e): open (buildhw-x86-08.iad2.fedoraproject.org) -> FAILED: BuildError: error building srpm, mock exited with status 1; see build.log or root.log for more information
-  0 free  1 open  0 done  1 failed
-  114140832 buildSRPMFromSCM (/rpms/sblim-cim-client.git:5e72a2155a394d15b1e0b049e003c519a6c1d53e): open (buildvm-x86-21.iad2.fedoraproject.org) -> FAILED: BuildError: error building srpm, mock exited with status 1; see build.log or root.log for more information
-  Relevant logs:
-  https://kojipkgs.fedoraproject.org/work/tasks/832/114140832/mock_output.log
-  https://kojipkgs.fedoraproject.org/work/tasks/832/114140832/state.log
-  https://kojipkgs.fedoraproject.org/work/tasks/832/114140832/build.log
-  https://kojipkgs.fedoraproject.org/work/tasks/832/114140832/root.log
-  https://kojipkgs.fedoraproject.org/work/tasks/832/114140832/hw_info.log
-  https://kojipkgs.fedoraproject.org/work/tasks/832/114140832/checkout.log
-  0 free  0 open  0 done  2 failed
-
-114140722 build (f41-build-side-84507, /rpms/sblim-cim-client.git:5e72a2155a394d15b1e0b049e003c519a6c1d53e) failed
+114355592 build (f40-build-side-84857, /rpms/sblim-cim-client.git:d8834288549cd2b95f4da5fcf17d6c1b89f39e1a): free

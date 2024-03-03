@@ -1,28 +1,27 @@
 Cloning into 'jsr-305'...
-[rawhide 67393b7] Rebuilt for java-21-openjdk as system jdk
+[f40 d9fc5d1] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
 Found a gating.yaml file in the repo and it is properly configured
-Building jsr-305-3.0.2-15.fc41 for f41-build-side-84507
-Created task: 114136459
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114136459
+Building jsr-305-3.0.2-15.fc40 for f40-build-side-84857
+Created task: 114352711
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114352711
 Watching tasks (this may be safely interrupted)...
-114136459 build (f41-build-side-84507, /rpms/jsr-305.git:67393b76a1314b1d922c104a2f0a154a8b8fc6b7): free
-114136459 build (f41-build-side-84507, /rpms/jsr-305.git:67393b76a1314b1d922c104a2f0a154a8b8fc6b7): free -> assigned
-114136459 build (f41-build-side-84507, /rpms/jsr-305.git:67393b76a1314b1d922c104a2f0a154a8b8fc6b7): assigned -> open (buildvm-a64-24.iad2.fedoraproject.org)
-  114136470 buildSRPMFromSCM (/rpms/jsr-305.git:67393b76a1314b1d922c104a2f0a154a8b8fc6b7): free
-  114136470 buildSRPMFromSCM (/rpms/jsr-305.git:67393b76a1314b1d922c104a2f0a154a8b8fc6b7): free -> assigned
-  114136470 buildSRPMFromSCM (/rpms/jsr-305.git:67393b76a1314b1d922c104a2f0a154a8b8fc6b7): assigned -> open (buildvm-x86-12.iad2.fedoraproject.org)
-  114136470 buildSRPMFromSCM (/rpms/jsr-305.git:67393b76a1314b1d922c104a2f0a154a8b8fc6b7): open (buildvm-x86-12.iad2.fedoraproject.org) -> closed
+114352711 build (f40-build-side-84857, /rpms/jsr-305.git:d9fc5d17f45d6dcc740493699811770042e5c664): free
+114352711 build (f40-build-side-84857, /rpms/jsr-305.git:d9fc5d17f45d6dcc740493699811770042e5c664): free -> open (buildvm-ppc64le-06.iad2.fedoraproject.org)
+  114352712 buildSRPMFromSCM (/rpms/jsr-305.git:d9fc5d17f45d6dcc740493699811770042e5c664): free
+  114352712 buildSRPMFromSCM (/rpms/jsr-305.git:d9fc5d17f45d6dcc740493699811770042e5c664): free -> open (buildvm-a64-04.iad2.fedoraproject.org)
+  114352712 buildSRPMFromSCM (/rpms/jsr-305.git:d9fc5d17f45d6dcc740493699811770042e5c664): open (buildvm-a64-04.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  114136571 buildArch (jsr-305-3.0.2-15.fc41.src.rpm, noarch): free
-  114136571 buildArch (jsr-305-3.0.2-15.fc41.src.rpm, noarch): free -> assigned
-  114136571 buildArch (jsr-305-3.0.2-15.fc41.src.rpm, noarch): assigned -> open (buildvm-ppc64le-10.iad2.fedoraproject.org)
-  114136571 buildArch (jsr-305-3.0.2-15.fc41.src.rpm, noarch): open (buildvm-ppc64le-10.iad2.fedoraproject.org) -> closed
+  114352760 buildArch (jsr-305-3.0.2-15.fc40.src.rpm, noarch): free
+  114352760 buildArch (jsr-305-3.0.2-15.fc40.src.rpm, noarch): free -> assigned
+  114352760 buildArch (jsr-305-3.0.2-15.fc40.src.rpm, noarch): assigned -> open (buildvm-s390x-05.s390.fedoraproject.org)
+  114352760 buildArch (jsr-305-3.0.2-15.fc40.src.rpm, noarch): open (buildvm-s390x-05.s390.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  114136763 tagBuild (noarch): assigned
-114136459 build (f41-build-side-84507, /rpms/jsr-305.git:67393b76a1314b1d922c104a2f0a154a8b8fc6b7): open (buildvm-a64-24.iad2.fedoraproject.org) -> closed
+  114352834 tagBuild (noarch): free
+  114352834 tagBuild (noarch): free -> open (buildvm-a64-35.iad2.fedoraproject.org)
+  114352834 tagBuild (noarch): open (buildvm-a64-35.iad2.fedoraproject.org) -> closed
   0 free  1 open  3 done  0 failed
-  114136763 tagBuild (noarch): assigned -> closed
+114352711 build (f40-build-side-84857, /rpms/jsr-305.git:d9fc5d17f45d6dcc740493699811770042e5c664): open (buildvm-ppc64le-06.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-114136459 build (f41-build-side-84507, /rpms/jsr-305.git:67393b76a1314b1d922c104a2f0a154a8b8fc6b7) completed successfully
+114352711 build (f40-build-side-84857, /rpms/jsr-305.git:d9fc5d17f45d6dcc740493699811770042e5c664) completed successfully

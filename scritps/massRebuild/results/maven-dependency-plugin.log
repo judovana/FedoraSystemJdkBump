@@ -1,28 +1,28 @@
 Cloning into 'maven-dependency-plugin'...
-[rawhide 6c4e904] Rebuilt for java-21-openjdk as system jdk
+[f40 56a45a3] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
 Found a gating.yaml file in the repo and it is properly configured
-Building maven-dependency-plugin-3.6.1-3.fc41 for f41-build-side-84507
-Created task: 114137245
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114137245
+Building maven-dependency-plugin-3.6.1-3.fc40 for f40-build-side-84857
+Created task: 114353535
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114353535
 Watching tasks (this may be safely interrupted)...
-114137245 build (f41-build-side-84507, /rpms/maven-dependency-plugin.git:6c4e90474e4cd5da5388e3541209090686574fc9): free
-114137245 build (f41-build-side-84507, /rpms/maven-dependency-plugin.git:6c4e90474e4cd5da5388e3541209090686574fc9): free -> assigned
-114137245 build (f41-build-side-84507, /rpms/maven-dependency-plugin.git:6c4e90474e4cd5da5388e3541209090686574fc9): assigned -> open (buildvm-a64-29.iad2.fedoraproject.org)
-  114137250 buildSRPMFromSCM (/rpms/maven-dependency-plugin.git:6c4e90474e4cd5da5388e3541209090686574fc9): free
-  114137250 buildSRPMFromSCM (/rpms/maven-dependency-plugin.git:6c4e90474e4cd5da5388e3541209090686574fc9): free -> assigned
-  114137250 buildSRPMFromSCM (/rpms/maven-dependency-plugin.git:6c4e90474e4cd5da5388e3541209090686574fc9): assigned -> open (buildvm-a64-32.iad2.fedoraproject.org)
-  114137250 buildSRPMFromSCM (/rpms/maven-dependency-plugin.git:6c4e90474e4cd5da5388e3541209090686574fc9): open (buildvm-a64-32.iad2.fedoraproject.org) -> closed
-  0 free  1 open  1 done  0 failed
-  114137280 buildArch (maven-dependency-plugin-3.6.1-3.fc41.src.rpm, noarch): free
-  114137280 buildArch (maven-dependency-plugin-3.6.1-3.fc41.src.rpm, noarch): free -> open (buildhw-x86-04.iad2.fedoraproject.org)
-  114137315 tagBuild (noarch): free
-  114137280 buildArch (maven-dependency-plugin-3.6.1-3.fc41.src.rpm, noarch): open (buildhw-x86-04.iad2.fedoraproject.org) -> closed
-  1 free  1 open  2 done  0 failed
-  114137315 tagBuild (noarch): free -> assigned
-  114137315 tagBuild (noarch): assigned -> closed
+114353535 build (f40-build-side-84857, /rpms/maven-dependency-plugin.git:56a45a30570edca48345e58624c392a69faa763b): free
+114353535 build (f40-build-side-84857, /rpms/maven-dependency-plugin.git:56a45a30570edca48345e58624c392a69faa763b): free -> assigned
+114353535 build (f40-build-side-84857, /rpms/maven-dependency-plugin.git:56a45a30570edca48345e58624c392a69faa763b): assigned -> open (buildvm-x86-22.iad2.fedoraproject.org)
+  114353592 buildSRPMFromSCM (/rpms/maven-dependency-plugin.git:56a45a30570edca48345e58624c392a69faa763b): free
+  114353592 buildSRPMFromSCM (/rpms/maven-dependency-plugin.git:56a45a30570edca48345e58624c392a69faa763b): free -> assigned
+  114353592 buildSRPMFromSCM (/rpms/maven-dependency-plugin.git:56a45a30570edca48345e58624c392a69faa763b): assigned -> open (buildvm-a64-38.iad2.fedoraproject.org)
+  114353668 buildArch (maven-dependency-plugin-3.6.1-3.fc40.src.rpm, noarch): free
+  114353592 buildSRPMFromSCM (/rpms/maven-dependency-plugin.git:56a45a30570edca48345e58624c392a69faa763b): open (buildvm-a64-38.iad2.fedoraproject.org) -> closed
+  1 free  1 open  1 done  0 failed
+  114353668 buildArch (maven-dependency-plugin-3.6.1-3.fc40.src.rpm, noarch): free -> assigned
+  114353668 buildArch (maven-dependency-plugin-3.6.1-3.fc40.src.rpm, noarch): assigned -> open (buildvm-x86-17.iad2.fedoraproject.org)
+  114353668 buildArch (maven-dependency-plugin-3.6.1-3.fc40.src.rpm, noarch): open (buildvm-x86-17.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  114353709 tagBuild (noarch): free
+  114353709 tagBuild (noarch): free -> closed
   0 free  1 open  3 done  0 failed
-114137245 build (f41-build-side-84507, /rpms/maven-dependency-plugin.git:6c4e90474e4cd5da5388e3541209090686574fc9): open (buildvm-a64-29.iad2.fedoraproject.org) -> closed
+114353535 build (f40-build-side-84857, /rpms/maven-dependency-plugin.git:56a45a30570edca48345e58624c392a69faa763b): open (buildvm-x86-22.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-114137245 build (f41-build-side-84507, /rpms/maven-dependency-plugin.git:6c4e90474e4cd5da5388e3541209090686574fc9) completed successfully
+114353535 build (f40-build-side-84857, /rpms/maven-dependency-plugin.git:56a45a30570edca48345e58624c392a69faa763b) completed successfully

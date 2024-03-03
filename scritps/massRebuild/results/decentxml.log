@@ -1,28 +1,28 @@
 Cloning into 'decentxml'...
-[rawhide d362370] Rebuilt for java-21-openjdk as system jdk
+[f40 32dd8e8] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building decentxml-1.4-35.fc41 for f41-build-side-84507
-Created task: 114133081
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114133081
+Building decentxml-1.4-35.fc40 for f40-build-side-84857
+Created task: 114348134
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114348134
 Watching tasks (this may be safely interrupted)...
-114133081 build (f41-build-side-84507, /rpms/decentxml.git:d36237092d27fe33cfceb7cf0db75e85de25f40f): free
-114133081 build (f41-build-side-84507, /rpms/decentxml.git:d36237092d27fe33cfceb7cf0db75e85de25f40f): free -> assigned
-114133081 build (f41-build-side-84507, /rpms/decentxml.git:d36237092d27fe33cfceb7cf0db75e85de25f40f): assigned -> open (buildvm-x86-29.iad2.fedoraproject.org)
-  114133104 buildSRPMFromSCM (/rpms/decentxml.git:d36237092d27fe33cfceb7cf0db75e85de25f40f): free
-  114133104 buildSRPMFromSCM (/rpms/decentxml.git:d36237092d27fe33cfceb7cf0db75e85de25f40f): free -> assigned
-  114133104 buildSRPMFromSCM (/rpms/decentxml.git:d36237092d27fe33cfceb7cf0db75e85de25f40f): assigned -> open (buildvm-a64-39.iad2.fedoraproject.org)
-  114133104 buildSRPMFromSCM (/rpms/decentxml.git:d36237092d27fe33cfceb7cf0db75e85de25f40f): open (buildvm-a64-39.iad2.fedoraproject.org) -> closed
-  0 free  1 open  1 done  0 failed
-  114133212 buildArch (decentxml-1.4-35.fc41.src.rpm, noarch): free
-  114133212 buildArch (decentxml-1.4-35.fc41.src.rpm, noarch): free -> assigned
-  114133212 buildArch (decentxml-1.4-35.fc41.src.rpm, noarch): assigned -> open (buildhw-a64-23.iad2.fedoraproject.org)
-  114133411 tagBuild (noarch): free
-  114133212 buildArch (decentxml-1.4-35.fc41.src.rpm, noarch): open (buildhw-a64-23.iad2.fedoraproject.org) -> closed
+114348134 build (f40-build-side-84857, /rpms/decentxml.git:32dd8e88824c4e2b11cc39d7eaefe9f903c75674): free
+114348134 build (f40-build-side-84857, /rpms/decentxml.git:32dd8e88824c4e2b11cc39d7eaefe9f903c75674): free -> assigned
+114348134 build (f40-build-side-84857, /rpms/decentxml.git:32dd8e88824c4e2b11cc39d7eaefe9f903c75674): assigned -> open (buildvm-x86-09.iad2.fedoraproject.org)
+  114348165 buildSRPMFromSCM (/rpms/decentxml.git:32dd8e88824c4e2b11cc39d7eaefe9f903c75674): free
+  114348165 buildSRPMFromSCM (/rpms/decentxml.git:32dd8e88824c4e2b11cc39d7eaefe9f903c75674): free -> assigned
+  114348165 buildSRPMFromSCM (/rpms/decentxml.git:32dd8e88824c4e2b11cc39d7eaefe9f903c75674): assigned -> open (buildvm-x86-22.iad2.fedoraproject.org)
+  114348319 buildArch (decentxml-1.4-35.fc40.src.rpm, noarch): free
+  114348165 buildSRPMFromSCM (/rpms/decentxml.git:32dd8e88824c4e2b11cc39d7eaefe9f903c75674): open (buildvm-x86-22.iad2.fedoraproject.org) -> closed
+  1 free  1 open  1 done  0 failed
+  114348319 buildArch (decentxml-1.4-35.fc40.src.rpm, noarch): free -> assigned
+  114348319 buildArch (decentxml-1.4-35.fc40.src.rpm, noarch): assigned -> open (buildvm-a64-11.iad2.fedoraproject.org)
+  114348679 tagBuild (noarch): free
+  114348319 buildArch (decentxml-1.4-35.fc40.src.rpm, noarch): open (buildvm-a64-11.iad2.fedoraproject.org) -> closed
   1 free  1 open  2 done  0 failed
-  114133411 tagBuild (noarch): free -> assigned
-  114133411 tagBuild (noarch): assigned -> closed
+  114348679 tagBuild (noarch): free -> assigned
+114348134 build (f40-build-side-84857, /rpms/decentxml.git:32dd8e88824c4e2b11cc39d7eaefe9f903c75674): open (buildvm-x86-09.iad2.fedoraproject.org) -> closed
   0 free  1 open  3 done  0 failed
-114133081 build (f41-build-side-84507, /rpms/decentxml.git:d36237092d27fe33cfceb7cf0db75e85de25f40f): open (buildvm-x86-29.iad2.fedoraproject.org) -> closed
+  114348679 tagBuild (noarch): assigned -> closed
   0 free  0 open  4 done  0 failed
 
-114133081 build (f41-build-side-84507, /rpms/decentxml.git:d36237092d27fe33cfceb7cf0db75e85de25f40f) completed successfully
+114348134 build (f40-build-side-84857, /rpms/decentxml.git:32dd8e88824c4e2b11cc39d7eaefe9f903c75674) completed successfully

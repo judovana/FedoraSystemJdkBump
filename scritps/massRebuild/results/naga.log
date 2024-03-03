@@ -1,27 +1,26 @@
 Cloning into 'naga'...
-[rawhide 14149eb] Rebuilt for java-21-openjdk as system jdk
+[f40 f3e4453] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building naga-3.0-26.20200930git6f1e95d.fc41 for f41-build-side-84507
-Created task: 114138565
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114138565
+Building naga-3.0-26.20200930git6f1e95d.fc40 for f40-build-side-84857
+Created task: 114354670
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114354670
 Watching tasks (this may be safely interrupted)...
-114138565 build (f41-build-side-84507, /rpms/naga.git:14149eb515fb9f1e968acadce0a2b6e1d80bc922): free
-114138565 build (f41-build-side-84507, /rpms/naga.git:14149eb515fb9f1e968acadce0a2b6e1d80bc922): free -> open (buildvm-ppc64le-03.iad2.fedoraproject.org)
-  114138616 buildSRPMFromSCM (/rpms/naga.git:14149eb515fb9f1e968acadce0a2b6e1d80bc922): free
-  114138616 buildSRPMFromSCM (/rpms/naga.git:14149eb515fb9f1e968acadce0a2b6e1d80bc922): free -> assigned
-  114138616 buildSRPMFromSCM (/rpms/naga.git:14149eb515fb9f1e968acadce0a2b6e1d80bc922): assigned -> open (buildvm-a64-15.iad2.fedoraproject.org)
-  114138616 buildSRPMFromSCM (/rpms/naga.git:14149eb515fb9f1e968acadce0a2b6e1d80bc922): open (buildvm-a64-15.iad2.fedoraproject.org) -> closed
+114354670 build (f40-build-side-84857, /rpms/naga.git:f3e445393984d2ac083793ffd4601bf06bd50ed2): free
+114354670 build (f40-build-side-84857, /rpms/naga.git:f3e445393984d2ac083793ffd4601bf06bd50ed2): free -> assigned
+114354670 build (f40-build-side-84857, /rpms/naga.git:f3e445393984d2ac083793ffd4601bf06bd50ed2): assigned -> open (buildvm-a64-28.iad2.fedoraproject.org)
+  114354697 buildSRPMFromSCM (/rpms/naga.git:f3e445393984d2ac083793ffd4601bf06bd50ed2): free
+  114354697 buildSRPMFromSCM (/rpms/naga.git:f3e445393984d2ac083793ffd4601bf06bd50ed2): free -> open (buildvm-a64-11.iad2.fedoraproject.org)
+  114354697 buildSRPMFromSCM (/rpms/naga.git:f3e445393984d2ac083793ffd4601bf06bd50ed2): open (buildvm-a64-11.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  114138910 buildArch (naga-3.0-26.20200930git6f1e95d.fc41.src.rpm, noarch): free
-  114138910 buildArch (naga-3.0-26.20200930git6f1e95d.fc41.src.rpm, noarch): free -> assigned
-  114138910 buildArch (naga-3.0-26.20200930git6f1e95d.fc41.src.rpm, noarch): assigned -> open (buildvm-s390x-07.s390.fedoraproject.org)
-  114138910 buildArch (naga-3.0-26.20200930git6f1e95d.fc41.src.rpm, noarch): open (buildvm-s390x-07.s390.fedoraproject.org) -> closed
-  0 free  1 open  2 done  0 failed
-  114139084 tagBuild (noarch): free
-  114139084 tagBuild (noarch): free -> assigned
-  114139084 tagBuild (noarch): assigned -> closed
+  114354809 buildArch (naga-3.0-26.20200930git6f1e95d.fc40.src.rpm, noarch): free
+  114354809 buildArch (naga-3.0-26.20200930git6f1e95d.fc40.src.rpm, noarch): free -> assigned
+  114354809 buildArch (naga-3.0-26.20200930git6f1e95d.fc40.src.rpm, noarch): assigned -> open (buildvm-a64-23.iad2.fedoraproject.org)
+  114354866 tagBuild (noarch): free
+  114354809 buildArch (naga-3.0-26.20200930git6f1e95d.fc40.src.rpm, noarch): open (buildvm-a64-23.iad2.fedoraproject.org) -> closed
+  1 free  1 open  2 done  0 failed
+  114354866 tagBuild (noarch): free -> closed
   0 free  1 open  3 done  0 failed
-114138565 build (f41-build-side-84507, /rpms/naga.git:14149eb515fb9f1e968acadce0a2b6e1d80bc922): open (buildvm-ppc64le-03.iad2.fedoraproject.org) -> closed
+114354670 build (f40-build-side-84857, /rpms/naga.git:f3e445393984d2ac083793ffd4601bf06bd50ed2): open (buildvm-a64-28.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-114138565 build (f41-build-side-84507, /rpms/naga.git:14149eb515fb9f1e968acadce0a2b6e1d80bc922) completed successfully
+114354670 build (f40-build-side-84857, /rpms/naga.git:f3e445393984d2ac083793ffd4601bf06bd50ed2) completed successfully

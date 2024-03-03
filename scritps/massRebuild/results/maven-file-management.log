@@ -1,28 +1,29 @@
 Cloning into 'maven-file-management'...
-[rawhide a800855] Rebuilt for java-21-openjdk as system jdk
+[f40 5b0a8e5] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
 Found a gating.yaml file in the repo and it is properly configured
-Building maven-file-management-3.1.0-6.fc41 for f41-build-side-84507
-Created task: 114137292
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114137292
+Building maven-file-management-3.1.0-6.fc40 for f40-build-side-84857
+Created task: 114353680
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114353680
 Watching tasks (this may be safely interrupted)...
-114137292 build (f41-build-side-84507, /rpms/maven-file-management.git:a80085557bc171e8309ff3b3fd4c6a125824a478): free
-114137292 build (f41-build-side-84507, /rpms/maven-file-management.git:a80085557bc171e8309ff3b3fd4c6a125824a478): free -> open (buildvm-x86-09.iad2.fedoraproject.org)
-  114137294 buildSRPMFromSCM (/rpms/maven-file-management.git:a80085557bc171e8309ff3b3fd4c6a125824a478): free
-  114137294 buildSRPMFromSCM (/rpms/maven-file-management.git:a80085557bc171e8309ff3b3fd4c6a125824a478): free -> assigned
-  114137294 buildSRPMFromSCM (/rpms/maven-file-management.git:a80085557bc171e8309ff3b3fd4c6a125824a478): assigned -> open (buildvm-x86-14.iad2.fedoraproject.org)
-  114137294 buildSRPMFromSCM (/rpms/maven-file-management.git:a80085557bc171e8309ff3b3fd4c6a125824a478): open (buildvm-x86-14.iad2.fedoraproject.org) -> closed
-  0 free  1 open  1 done  0 failed
-  114137336 buildArch (maven-file-management-3.1.0-6.fc41.src.rpm, noarch): free
-  114137336 buildArch (maven-file-management-3.1.0-6.fc41.src.rpm, noarch): free -> assigned
-  114137336 buildArch (maven-file-management-3.1.0-6.fc41.src.rpm, noarch): assigned -> open (buildhw-x86-04.iad2.fedoraproject.org)
-  114137336 buildArch (maven-file-management-3.1.0-6.fc41.src.rpm, noarch): open (buildhw-x86-04.iad2.fedoraproject.org) -> closed
+114353680 build (f40-build-side-84857, /rpms/maven-file-management.git:5b0a8e589d2411e1e2ad7f52c44ddbc55f976031): free
+114353680 build (f40-build-side-84857, /rpms/maven-file-management.git:5b0a8e589d2411e1e2ad7f52c44ddbc55f976031): free -> assigned
+114353680 build (f40-build-side-84857, /rpms/maven-file-management.git:5b0a8e589d2411e1e2ad7f52c44ddbc55f976031): assigned -> open (buildvm-ppc64le-11.iad2.fedoraproject.org)
+  114353696 buildSRPMFromSCM (/rpms/maven-file-management.git:5b0a8e589d2411e1e2ad7f52c44ddbc55f976031): free
+  114353696 buildSRPMFromSCM (/rpms/maven-file-management.git:5b0a8e589d2411e1e2ad7f52c44ddbc55f976031): free -> assigned
+  114353696 buildSRPMFromSCM (/rpms/maven-file-management.git:5b0a8e589d2411e1e2ad7f52c44ddbc55f976031): assigned -> open (buildvm-x86-27.iad2.fedoraproject.org)
+  114353756 buildArch (maven-file-management-3.1.0-6.fc40.src.rpm, noarch): free
+  114353696 buildSRPMFromSCM (/rpms/maven-file-management.git:5b0a8e589d2411e1e2ad7f52c44ddbc55f976031): open (buildvm-x86-27.iad2.fedoraproject.org) -> closed
+  1 free  1 open  1 done  0 failed
+  114353756 buildArch (maven-file-management-3.1.0-6.fc40.src.rpm, noarch): free -> assigned
+  114353756 buildArch (maven-file-management-3.1.0-6.fc40.src.rpm, noarch): assigned -> open (buildhw-x86-03.iad2.fedoraproject.org)
+  114353756 buildArch (maven-file-management-3.1.0-6.fc40.src.rpm, noarch): open (buildhw-x86-03.iad2.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  114137533 tagBuild (noarch): free
-  114137533 tagBuild (noarch): free -> assigned
-  114137533 tagBuild (noarch): assigned -> closed
+  114353906 tagBuild (noarch): free
+  114353906 tagBuild (noarch): free -> assigned
+  114353906 tagBuild (noarch): assigned -> closed
   0 free  1 open  3 done  0 failed
-114137292 build (f41-build-side-84507, /rpms/maven-file-management.git:a80085557bc171e8309ff3b3fd4c6a125824a478): open (buildvm-x86-09.iad2.fedoraproject.org) -> closed
+114353680 build (f40-build-side-84857, /rpms/maven-file-management.git:5b0a8e589d2411e1e2ad7f52c44ddbc55f976031): open (buildvm-ppc64le-11.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-114137292 build (f41-build-side-84507, /rpms/maven-file-management.git:a80085557bc171e8309ff3b3fd4c6a125824a478) completed successfully
+114353680 build (f40-build-side-84857, /rpms/maven-file-management.git:5b0a8e589d2411e1e2ad7f52c44ddbc55f976031) completed successfully

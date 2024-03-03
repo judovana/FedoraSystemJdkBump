@@ -1,44 +1,41 @@
 Cloning into 'jssc'...
-[rawhide 38b7a03] Rebuilt for java-21-openjdk as system jdk
+[f40 bad9627] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
 warning: %patchN is deprecated (2 usages found), use %patch N (or %patch -P N)
 
-Building jssc-2.8.0-30.fc41 for f41-build-side-84507
-Created task: 114136485
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114136485
+Building jssc-2.8.0-30.fc40 for f40-build-side-84857
+Created task: 114352734
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114352734
 Watching tasks (this may be safely interrupted)...
-114136485 build (f41-build-side-84507, /rpms/jssc.git:38b7a03fdcc9b829c3677199e590b0d269493248): free
-114136485 build (f41-build-side-84507, /rpms/jssc.git:38b7a03fdcc9b829c3677199e590b0d269493248): free -> open (buildvm-x86-16.iad2.fedoraproject.org)
-  114136498 buildSRPMFromSCM (/rpms/jssc.git:38b7a03fdcc9b829c3677199e590b0d269493248): free
-  114136498 buildSRPMFromSCM (/rpms/jssc.git:38b7a03fdcc9b829c3677199e590b0d269493248): free -> assigned
-  114136498 buildSRPMFromSCM (/rpms/jssc.git:38b7a03fdcc9b829c3677199e590b0d269493248): assigned -> open (buildvm-a64-16.iad2.fedoraproject.org)
-  114136498 buildSRPMFromSCM (/rpms/jssc.git:38b7a03fdcc9b829c3677199e590b0d269493248): open (buildvm-a64-16.iad2.fedoraproject.org) -> closed
+114352734 build (f40-build-side-84857, /rpms/jssc.git:bad96277c2d0be1ec1002a16d77893f6a9cd2980): free
+114352734 build (f40-build-side-84857, /rpms/jssc.git:bad96277c2d0be1ec1002a16d77893f6a9cd2980): free -> assigned
+114352734 build (f40-build-side-84857, /rpms/jssc.git:bad96277c2d0be1ec1002a16d77893f6a9cd2980): assigned -> open (buildvm-ppc64le-11.iad2.fedoraproject.org)
+  114352777 buildSRPMFromSCM (/rpms/jssc.git:bad96277c2d0be1ec1002a16d77893f6a9cd2980): free
+  114352777 buildSRPMFromSCM (/rpms/jssc.git:bad96277c2d0be1ec1002a16d77893f6a9cd2980): free -> open (buildvm-x86-06.iad2.fedoraproject.org)
+  114352777 buildSRPMFromSCM (/rpms/jssc.git:bad96277c2d0be1ec1002a16d77893f6a9cd2980): open (buildvm-x86-06.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  114136621 buildArch (jssc-2.8.0-30.fc41.src.rpm, x86_64): free
-  114136622 buildArch (jssc-2.8.0-30.fc41.src.rpm, aarch64): free
-  114136623 buildArch (jssc-2.8.0-30.fc41.src.rpm, ppc64le): free
-  114136624 buildArch (jssc-2.8.0-30.fc41.src.rpm, s390x): free
-  114136621 buildArch (jssc-2.8.0-30.fc41.src.rpm, x86_64): free -> assigned
-  114136622 buildArch (jssc-2.8.0-30.fc41.src.rpm, aarch64): free -> assigned
-  114136623 buildArch (jssc-2.8.0-30.fc41.src.rpm, ppc64le): free -> assigned
-  114136624 buildArch (jssc-2.8.0-30.fc41.src.rpm, s390x): free -> assigned
-  114136621 buildArch (jssc-2.8.0-30.fc41.src.rpm, x86_64): assigned -> open (buildhw-x86-07.iad2.fedoraproject.org)
-  114136622 buildArch (jssc-2.8.0-30.fc41.src.rpm, aarch64): assigned -> open (buildvm-a64-24.iad2.fedoraproject.org)
-  114136623 buildArch (jssc-2.8.0-30.fc41.src.rpm, ppc64le): assigned -> open (buildvm-ppc64le-05.iad2.fedoraproject.org)
-  114136624 buildArch (jssc-2.8.0-30.fc41.src.rpm, s390x): assigned -> open (buildvm-s390x-10.s390.fedoraproject.org)
-  114136622 buildArch (jssc-2.8.0-30.fc41.src.rpm, aarch64): open (buildvm-a64-24.iad2.fedoraproject.org) -> closed
+  114352874 buildArch (jssc-2.8.0-30.fc40.src.rpm, x86_64): free
+  114352875 buildArch (jssc-2.8.0-30.fc40.src.rpm, aarch64): free
+  114352876 buildArch (jssc-2.8.0-30.fc40.src.rpm, ppc64le): free
+  114352877 buildArch (jssc-2.8.0-30.fc40.src.rpm, s390x): free
+  114352874 buildArch (jssc-2.8.0-30.fc40.src.rpm, x86_64): free -> open (buildvm-x86-13.iad2.fedoraproject.org)
+  114352875 buildArch (jssc-2.8.0-30.fc40.src.rpm, aarch64): free -> open (buildhw-a64-21.iad2.fedoraproject.org)
+  114352876 buildArch (jssc-2.8.0-30.fc40.src.rpm, ppc64le): free -> open (buildvm-ppc64le-32.iad2.fedoraproject.org)
+  114352877 buildArch (jssc-2.8.0-30.fc40.src.rpm, s390x): free -> assigned
+  114352877 buildArch (jssc-2.8.0-30.fc40.src.rpm, s390x): assigned -> open (buildvm-s390x-08.s390.fedoraproject.org)
+  114352874 buildArch (jssc-2.8.0-30.fc40.src.rpm, x86_64): open (buildvm-x86-13.iad2.fedoraproject.org) -> closed
   0 free  4 open  2 done  0 failed
-  114136624 buildArch (jssc-2.8.0-30.fc41.src.rpm, s390x): open (buildvm-s390x-10.s390.fedoraproject.org) -> closed
+  114352877 buildArch (jssc-2.8.0-30.fc40.src.rpm, s390x): open (buildvm-s390x-08.s390.fedoraproject.org) -> closed
   0 free  3 open  3 done  0 failed
-  114136621 buildArch (jssc-2.8.0-30.fc41.src.rpm, x86_64): open (buildhw-x86-07.iad2.fedoraproject.org) -> closed
+  114352875 buildArch (jssc-2.8.0-30.fc40.src.rpm, aarch64): open (buildhw-a64-21.iad2.fedoraproject.org) -> closed
   0 free  2 open  4 done  0 failed
-  114136623 buildArch (jssc-2.8.0-30.fc41.src.rpm, ppc64le): open (buildvm-ppc64le-05.iad2.fedoraproject.org) -> closed
+  114352876 buildArch (jssc-2.8.0-30.fc40.src.rpm, ppc64le): open (buildvm-ppc64le-32.iad2.fedoraproject.org) -> closed
   0 free  1 open  5 done  0 failed
-  114136789 tagBuild (noarch): free
-  114136789 tagBuild (noarch): free -> assigned
-  114136789 tagBuild (noarch): assigned -> closed
+  114353004 tagBuild (noarch): free
+  114353004 tagBuild (noarch): free -> open (buildvm-ppc64le-22.iad2.fedoraproject.org)
+  114353004 tagBuild (noarch): open (buildvm-ppc64le-22.iad2.fedoraproject.org) -> closed
   0 free  1 open  6 done  0 failed
-114136485 build (f41-build-side-84507, /rpms/jssc.git:38b7a03fdcc9b829c3677199e590b0d269493248): open (buildvm-x86-16.iad2.fedoraproject.org) -> closed
+114352734 build (f40-build-side-84857, /rpms/jssc.git:bad96277c2d0be1ec1002a16d77893f6a9cd2980): open (buildvm-ppc64le-11.iad2.fedoraproject.org) -> closed
   0 free  0 open  7 done  0 failed
 
-114136485 build (f41-build-side-84507, /rpms/jssc.git:38b7a03fdcc9b829c3677199e590b0d269493248) completed successfully
+114352734 build (f40-build-side-84857, /rpms/jssc.git:bad96277c2d0be1ec1002a16d77893f6a9cd2980) completed successfully

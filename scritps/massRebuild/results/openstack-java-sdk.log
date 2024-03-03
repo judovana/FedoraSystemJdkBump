@@ -1,29 +1,29 @@
 Cloning into 'openstack-java-sdk'...
-[rawhide 5b4ef8a] Rebuilt for java-21-openjdk as system jdk
+[f40 2dceec2] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building openstack-java-sdk-3.2.9-18.fc41 for f41-build-side-84507
-Created task: 114139068
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114139068
+Building openstack-java-sdk-3.2.9-18.fc40 for f40-build-side-84857
+Created task: 114354975
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114354975
 Watching tasks (this may be safely interrupted)...
-114139068 build (f41-build-side-84507, /rpms/openstack-java-sdk.git:5b4ef8a5bce5a7273e3520c8b141f5d6c0449d98): free
-114139068 build (f41-build-side-84507, /rpms/openstack-java-sdk.git:5b4ef8a5bce5a7273e3520c8b141f5d6c0449d98): free -> open (buildvm-ppc64le-21.iad2.fedoraproject.org)
-  114139105 buildSRPMFromSCM (/rpms/openstack-java-sdk.git:5b4ef8a5bce5a7273e3520c8b141f5d6c0449d98): free
-  114139105 buildSRPMFromSCM (/rpms/openstack-java-sdk.git:5b4ef8a5bce5a7273e3520c8b141f5d6c0449d98): free -> assigned
-  114139105 buildSRPMFromSCM (/rpms/openstack-java-sdk.git:5b4ef8a5bce5a7273e3520c8b141f5d6c0449d98): assigned -> open (buildvm-x86-15.iad2.fedoraproject.org)
-  114139105 buildSRPMFromSCM (/rpms/openstack-java-sdk.git:5b4ef8a5bce5a7273e3520c8b141f5d6c0449d98): open (buildvm-x86-15.iad2.fedoraproject.org) -> closed
+114354975 build (f40-build-side-84857, /rpms/openstack-java-sdk.git:2dceec297300e4dbc28ca606f0a97ad7e6dd1a9c): free
+114354975 build (f40-build-side-84857, /rpms/openstack-java-sdk.git:2dceec297300e4dbc28ca606f0a97ad7e6dd1a9c): free -> assigned
+114354975 build (f40-build-side-84857, /rpms/openstack-java-sdk.git:2dceec297300e4dbc28ca606f0a97ad7e6dd1a9c): assigned -> open (buildvm-a64-23.iad2.fedoraproject.org)
+  114354981 buildSRPMFromSCM (/rpms/openstack-java-sdk.git:2dceec297300e4dbc28ca606f0a97ad7e6dd1a9c): free
+  114354981 buildSRPMFromSCM (/rpms/openstack-java-sdk.git:2dceec297300e4dbc28ca606f0a97ad7e6dd1a9c): free -> assigned
+  114354981 buildSRPMFromSCM (/rpms/openstack-java-sdk.git:2dceec297300e4dbc28ca606f0a97ad7e6dd1a9c): assigned -> open (buildvm-a64-22.iad2.fedoraproject.org)
+  114354981 buildSRPMFromSCM (/rpms/openstack-java-sdk.git:2dceec297300e4dbc28ca606f0a97ad7e6dd1a9c): open (buildvm-a64-22.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  114139272 buildArch (openstack-java-sdk-3.2.9-18.fc41.src.rpm, noarch): free
-  114139272 buildArch (openstack-java-sdk-3.2.9-18.fc41.src.rpm, noarch): free -> assigned
-  114139272 buildArch (openstack-java-sdk-3.2.9-18.fc41.src.rpm, noarch): assigned -> open (buildvm-ppc64le-03.iad2.fedoraproject.org)
-  114139272 buildArch (openstack-java-sdk-3.2.9-18.fc41.src.rpm, noarch): open (buildvm-ppc64le-03.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
+  114355051 buildArch (openstack-java-sdk-3.2.9-18.fc40.src.rpm, noarch): assigned
+  114355051 buildArch (openstack-java-sdk-3.2.9-18.fc40.src.rpm, noarch): assigned -> open (buildvm-x86-29.iad2.fedoraproject.org)
+  114355051 buildArch (openstack-java-sdk-3.2.9-18.fc40.src.rpm, noarch): open (buildvm-x86-29.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
   Relevant logs:
-  https://kojipkgs.fedoraproject.org/work/tasks/9272/114139272/mock_output.log
-  https://kojipkgs.fedoraproject.org/work/tasks/9272/114139272/state.log
-  https://kojipkgs.fedoraproject.org/work/tasks/9272/114139272/build.log
-  https://kojipkgs.fedoraproject.org/work/tasks/9272/114139272/root.log
-  https://kojipkgs.fedoraproject.org/work/tasks/9272/114139272/hw_info.log
+  https://kojipkgs.fedoraproject.org/work/tasks/5051/114355051/state.log
+  https://kojipkgs.fedoraproject.org/work/tasks/5051/114355051/build.log
+  https://kojipkgs.fedoraproject.org/work/tasks/5051/114355051/root.log
+  https://kojipkgs.fedoraproject.org/work/tasks/5051/114355051/mock_output.log
+  https://kojipkgs.fedoraproject.org/work/tasks/5051/114355051/hw_info.log
   0 free  1 open  1 done  1 failed
-114139068 build (f41-build-side-84507, /rpms/openstack-java-sdk.git:5b4ef8a5bce5a7273e3520c8b141f5d6c0449d98): open (buildvm-ppc64le-21.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
+114354975 build (f40-build-side-84857, /rpms/openstack-java-sdk.git:2dceec297300e4dbc28ca606f0a97ad7e6dd1a9c): open (buildvm-a64-23.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
   0 free  0 open  1 done  2 failed
 
-114139068 build (f41-build-side-84507, /rpms/openstack-java-sdk.git:5b4ef8a5bce5a7273e3520c8b141f5d6c0449d98) failed
+114354975 build (f40-build-side-84857, /rpms/openstack-java-sdk.git:2dceec297300e4dbc28ca606f0a97ad7e6dd1a9c) failed

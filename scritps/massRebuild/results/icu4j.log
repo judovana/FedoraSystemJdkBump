@@ -1,28 +1,27 @@
 Cloning into 'icu4j'...
-[rawhide 73365ec] Rebuilt for java-21-openjdk as system jdk
+[f40 7a6b967] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building icu4j-74.2-4.fc41 for f41-build-side-84507
-Created task: 114134192
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114134192
+Building icu4j-74.2-4.fc40 for f40-build-side-84857
+Created task: 114350193
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114350193
 Watching tasks (this may be safely interrupted)...
-114134192 build (f41-build-side-84507, /rpms/icu4j.git:73365ecf67a43d65ca37b506e828ac71680ca43e): free
-114134192 build (f41-build-side-84507, /rpms/icu4j.git:73365ecf67a43d65ca37b506e828ac71680ca43e): free -> assigned
-114134192 build (f41-build-side-84507, /rpms/icu4j.git:73365ecf67a43d65ca37b506e828ac71680ca43e): assigned -> open (buildhw-x86-09.iad2.fedoraproject.org)
-  114134204 buildSRPMFromSCM (/rpms/icu4j.git:73365ecf67a43d65ca37b506e828ac71680ca43e): free
-  114134204 buildSRPMFromSCM (/rpms/icu4j.git:73365ecf67a43d65ca37b506e828ac71680ca43e): free -> assigned
-  114134204 buildSRPMFromSCM (/rpms/icu4j.git:73365ecf67a43d65ca37b506e828ac71680ca43e): assigned -> open (buildvm-x86-21.iad2.fedoraproject.org)
-  114134204 buildSRPMFromSCM (/rpms/icu4j.git:73365ecf67a43d65ca37b506e828ac71680ca43e): open (buildvm-x86-21.iad2.fedoraproject.org) -> closed
+114350193 build (f40-build-side-84857, /rpms/icu4j.git:7a6b967b00028b0c3c51a6e7270a8bf21d2785fe): free
+114350193 build (f40-build-side-84857, /rpms/icu4j.git:7a6b967b00028b0c3c51a6e7270a8bf21d2785fe): free -> assigned
+114350193 build (f40-build-side-84857, /rpms/icu4j.git:7a6b967b00028b0c3c51a6e7270a8bf21d2785fe): assigned -> open (buildvm-ppc64le-03.iad2.fedoraproject.org)
+  114350255 buildSRPMFromSCM (/rpms/icu4j.git:7a6b967b00028b0c3c51a6e7270a8bf21d2785fe): free
+  114350255 buildSRPMFromSCM (/rpms/icu4j.git:7a6b967b00028b0c3c51a6e7270a8bf21d2785fe): free -> assigned
+  114350255 buildSRPMFromSCM (/rpms/icu4j.git:7a6b967b00028b0c3c51a6e7270a8bf21d2785fe): assigned -> open (buildvm-a64-32.iad2.fedoraproject.org)
+  114350255 buildSRPMFromSCM (/rpms/icu4j.git:7a6b967b00028b0c3c51a6e7270a8bf21d2785fe): open (buildvm-a64-32.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  114134346 buildArch (icu4j-74.2-4.fc41.src.rpm, noarch): free
-  114134346 buildArch (icu4j-74.2-4.fc41.src.rpm, noarch): free -> assigned
-  114134346 buildArch (icu4j-74.2-4.fc41.src.rpm, noarch): assigned -> open (buildvm-s390x-07.s390.fedoraproject.org)
-  114134346 buildArch (icu4j-74.2-4.fc41.src.rpm, noarch): open (buildvm-s390x-07.s390.fedoraproject.org) -> closed
+  114350336 buildArch (icu4j-74.2-4.fc40.src.rpm, noarch): free
+  114350336 buildArch (icu4j-74.2-4.fc40.src.rpm, noarch): free -> assigned
+  114350336 buildArch (icu4j-74.2-4.fc40.src.rpm, noarch): assigned -> open (buildvm-s390x-09.s390.fedoraproject.org)
+  114350336 buildArch (icu4j-74.2-4.fc40.src.rpm, noarch): open (buildvm-s390x-09.s390.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  114134822 tagBuild (noarch): free
-  114134822 tagBuild (noarch): free -> assigned
-  114134822 tagBuild (noarch): assigned -> closed
-  0 free  1 open  3 done  0 failed
-114134192 build (f41-build-side-84507, /rpms/icu4j.git:73365ecf67a43d65ca37b506e828ac71680ca43e): open (buildhw-x86-09.iad2.fedoraproject.org) -> closed
+  114350658 tagBuild (noarch): free
+114350193 build (f40-build-side-84857, /rpms/icu4j.git:7a6b967b00028b0c3c51a6e7270a8bf21d2785fe): open (buildvm-ppc64le-03.iad2.fedoraproject.org) -> closed
+  1 free  0 open  3 done  0 failed
+  114350658 tagBuild (noarch): free -> closed
   0 free  0 open  4 done  0 failed
 
-114134192 build (f41-build-side-84507, /rpms/icu4j.git:73365ecf67a43d65ca37b506e828ac71680ca43e) completed successfully
+114350193 build (f40-build-side-84857, /rpms/icu4j.git:7a6b967b00028b0c3c51a6e7270a8bf21d2785fe) completed successfully

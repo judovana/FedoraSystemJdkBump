@@ -1,29 +1,30 @@
 Cloning into 'maven-archiver'...
-[rawhide b6477c0] Rebuilt for java-21-openjdk as system jdk
+[f40 6065ff8] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
 Found a gating.yaml file in the repo and it is properly configured
-Building maven-archiver-3.6.1-6.fc41 for f41-build-side-84507
-Created task: 114137197
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114137197
+Building maven-archiver-3.6.1-6.fc40 for f40-build-side-84857
+Created task: 114353327
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114353327
 Watching tasks (this may be safely interrupted)...
-114137197 build (f41-build-side-84507, /rpms/maven-archiver.git:b6477c0e510e1a910029f3950e380c2aeeef73a0): free
-114137197 build (f41-build-side-84507, /rpms/maven-archiver.git:b6477c0e510e1a910029f3950e380c2aeeef73a0): free -> assigned
-114137197 build (f41-build-side-84507, /rpms/maven-archiver.git:b6477c0e510e1a910029f3950e380c2aeeef73a0): assigned -> open (buildvm-x86-15.iad2.fedoraproject.org)
-  114137201 buildSRPMFromSCM (/rpms/maven-archiver.git:b6477c0e510e1a910029f3950e380c2aeeef73a0): free
-  114137201 buildSRPMFromSCM (/rpms/maven-archiver.git:b6477c0e510e1a910029f3950e380c2aeeef73a0): free -> assigned
-  114137201 buildSRPMFromSCM (/rpms/maven-archiver.git:b6477c0e510e1a910029f3950e380c2aeeef73a0): assigned -> open (buildvm-x86-31.iad2.fedoraproject.org)
-  114137201 buildSRPMFromSCM (/rpms/maven-archiver.git:b6477c0e510e1a910029f3950e380c2aeeef73a0): open (buildvm-x86-31.iad2.fedoraproject.org) -> closed
-  0 free  1 open  1 done  0 failed
-  114137230 buildArch (maven-archiver-3.6.1-6.fc41.src.rpm, noarch): free
-  114137230 buildArch (maven-archiver-3.6.1-6.fc41.src.rpm, noarch): free -> assigned
-  114137230 buildArch (maven-archiver-3.6.1-6.fc41.src.rpm, noarch): assigned -> open (buildvm-s390x-07.s390.fedoraproject.org)
-  114137230 buildArch (maven-archiver-3.6.1-6.fc41.src.rpm, noarch): open (buildvm-s390x-07.s390.fedoraproject.org) -> closed
-  0 free  1 open  2 done  0 failed
-  114137257 tagBuild (noarch): free
-  114137257 tagBuild (noarch): free -> assigned
-  114137257 tagBuild (noarch): assigned -> closed
+114353327 build (f40-build-side-84857, /rpms/maven-archiver.git:6065ff8d6c1bf484c4672b5f140b0206847fd57c): free
+114353327 build (f40-build-side-84857, /rpms/maven-archiver.git:6065ff8d6c1bf484c4672b5f140b0206847fd57c): free -> assigned
+114353327 build (f40-build-side-84857, /rpms/maven-archiver.git:6065ff8d6c1bf484c4672b5f140b0206847fd57c): assigned -> open (buildvm-s390x-09.s390.fedoraproject.org)
+  114353333 buildSRPMFromSCM (/rpms/maven-archiver.git:6065ff8d6c1bf484c4672b5f140b0206847fd57c): free
+  114353333 buildSRPMFromSCM (/rpms/maven-archiver.git:6065ff8d6c1bf484c4672b5f140b0206847fd57c): free -> assigned
+  114353333 buildSRPMFromSCM (/rpms/maven-archiver.git:6065ff8d6c1bf484c4672b5f140b0206847fd57c): assigned -> open (buildvm-a64-11.iad2.fedoraproject.org)
+  114353406 buildArch (maven-archiver-3.6.1-6.fc40.src.rpm, noarch): free
+  114353333 buildSRPMFromSCM (/rpms/maven-archiver.git:6065ff8d6c1bf484c4672b5f140b0206847fd57c): open (buildvm-a64-11.iad2.fedoraproject.org) -> closed
+  1 free  1 open  1 done  0 failed
+  114353406 buildArch (maven-archiver-3.6.1-6.fc40.src.rpm, noarch): free -> assigned
+  114353406 buildArch (maven-archiver-3.6.1-6.fc40.src.rpm, noarch): assigned -> open (buildhw-x86-16.iad2.fedoraproject.org)
+  114353549 tagBuild (noarch): free
+  114353406 buildArch (maven-archiver-3.6.1-6.fc40.src.rpm, noarch): open (buildhw-x86-16.iad2.fedoraproject.org) -> closed
+  1 free  1 open  2 done  0 failed
+  114353549 tagBuild (noarch): free -> assigned
+  114353549 tagBuild (noarch): assigned -> open (buildvm-x86-20.iad2.fedoraproject.org)
+114353327 build (f40-build-side-84857, /rpms/maven-archiver.git:6065ff8d6c1bf484c4672b5f140b0206847fd57c): open (buildvm-s390x-09.s390.fedoraproject.org) -> closed
   0 free  1 open  3 done  0 failed
-114137197 build (f41-build-side-84507, /rpms/maven-archiver.git:b6477c0e510e1a910029f3950e380c2aeeef73a0): open (buildvm-x86-15.iad2.fedoraproject.org) -> closed
+  114353549 tagBuild (noarch): open (buildvm-x86-20.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-114137197 build (f41-build-side-84507, /rpms/maven-archiver.git:b6477c0e510e1a910029f3950e380c2aeeef73a0) completed successfully
+114353327 build (f40-build-side-84857, /rpms/maven-archiver.git:6065ff8d6c1bf484c4672b5f140b0206847fd57c) completed successfully

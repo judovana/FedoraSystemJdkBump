@@ -1,27 +1,29 @@
 Cloning into 'jansi1'...
-[rawhide e425174] Rebuilt for java-21-openjdk as system jdk
+[f40 7a2230c] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building jansi1-1.18-21.fc41 for f41-build-side-84507
-Created task: 114135010
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114135010
+Building jansi1-1.18-21.fc40 for f40-build-side-84857
+Created task: 114350878
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114350878
 Watching tasks (this may be safely interrupted)...
-114135010 build (f41-build-side-84507, /rpms/jansi1.git:e4251744b4b0037fb99e0d225dacc8aff113e875): free
-114135010 build (f41-build-side-84507, /rpms/jansi1.git:e4251744b4b0037fb99e0d225dacc8aff113e875): free -> assigned
-114135010 build (f41-build-side-84507, /rpms/jansi1.git:e4251744b4b0037fb99e0d225dacc8aff113e875): assigned -> open (buildvm-x86-15.iad2.fedoraproject.org)
-  114135018 buildSRPMFromSCM (/rpms/jansi1.git:e4251744b4b0037fb99e0d225dacc8aff113e875): free
-  114135018 buildSRPMFromSCM (/rpms/jansi1.git:e4251744b4b0037fb99e0d225dacc8aff113e875): free -> assigned
-  114135018 buildSRPMFromSCM (/rpms/jansi1.git:e4251744b4b0037fb99e0d225dacc8aff113e875): assigned -> open (buildvm-x86-32.iad2.fedoraproject.org)
-  114135018 buildSRPMFromSCM (/rpms/jansi1.git:e4251744b4b0037fb99e0d225dacc8aff113e875): open (buildvm-x86-32.iad2.fedoraproject.org) -> closed
+114350878 build (f40-build-side-84857, /rpms/jansi1.git:7a2230c06b2f31632378bd03c03e18a467ff6d71): free
+114350878 build (f40-build-side-84857, /rpms/jansi1.git:7a2230c06b2f31632378bd03c03e18a467ff6d71): free -> assigned
+114350878 build (f40-build-side-84857, /rpms/jansi1.git:7a2230c06b2f31632378bd03c03e18a467ff6d71): assigned -> open (buildvm-s390x-10.s390.fedoraproject.org)
+  114350947 buildSRPMFromSCM (/rpms/jansi1.git:7a2230c06b2f31632378bd03c03e18a467ff6d71): free
+  114350947 buildSRPMFromSCM (/rpms/jansi1.git:7a2230c06b2f31632378bd03c03e18a467ff6d71): free -> assigned
+  114350947 buildSRPMFromSCM (/rpms/jansi1.git:7a2230c06b2f31632378bd03c03e18a467ff6d71): assigned -> open (buildvm-x86-22.iad2.fedoraproject.org)
+  114350947 buildSRPMFromSCM (/rpms/jansi1.git:7a2230c06b2f31632378bd03c03e18a467ff6d71): open (buildvm-x86-22.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  114135050 buildArch (jansi1-1.18-21.fc41.src.rpm, noarch): free
-  114135050 buildArch (jansi1-1.18-21.fc41.src.rpm, noarch): free -> open (buildvm-s390x-09.s390.fedoraproject.org)
-  114135050 buildArch (jansi1-1.18-21.fc41.src.rpm, noarch): open (buildvm-s390x-09.s390.fedoraproject.org) -> closed
+  114351131 buildArch (jansi1-1.18-21.fc40.src.rpm, noarch): free
+  114351131 buildArch (jansi1-1.18-21.fc40.src.rpm, noarch): free -> assigned
+  114351131 buildArch (jansi1-1.18-21.fc40.src.rpm, noarch): assigned -> open (buildvm-x86-21.iad2.fedoraproject.org)
+  114351131 buildArch (jansi1-1.18-21.fc40.src.rpm, noarch): open (buildvm-x86-21.iad2.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  114135257 tagBuild (noarch): free
-  114135257 tagBuild (noarch): free -> assigned
-  114135257 tagBuild (noarch): assigned -> closed
+  114351261 tagBuild (noarch): free
+  114351261 tagBuild (noarch): free -> assigned
+  114351261 tagBuild (noarch): assigned -> open (buildvm-ppc64le-28.iad2.fedoraproject.org)
+  114351261 tagBuild (noarch): open (buildvm-ppc64le-28.iad2.fedoraproject.org) -> closed
   0 free  1 open  3 done  0 failed
-114135010 build (f41-build-side-84507, /rpms/jansi1.git:e4251744b4b0037fb99e0d225dacc8aff113e875): open (buildvm-x86-15.iad2.fedoraproject.org) -> closed
+114350878 build (f40-build-side-84857, /rpms/jansi1.git:7a2230c06b2f31632378bd03c03e18a467ff6d71): open (buildvm-s390x-10.s390.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-114135010 build (f41-build-side-84507, /rpms/jansi1.git:e4251744b4b0037fb99e0d225dacc8aff113e875) completed successfully
+114350878 build (f40-build-side-84857, /rpms/jansi1.git:7a2230c06b2f31632378bd03c03e18a467ff6d71) completed successfully

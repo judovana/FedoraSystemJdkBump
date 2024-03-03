@@ -1,48 +1,27 @@
 Cloning into 'kernel'...
-[rawhide edce45bc4] Rebuilt for java-21-openjdk as system jdk
+[f40 5ba6dc48a] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
 Found a gating.yaml file in the repo and it is properly configured
-Building kernel-6.8.0-0.rc6.20240227git45ec2f5f6ed3.50.fc41.1 for f41-build-side-84507
-Created task: 114136772
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114136772
+Building kernel-6.8.0-0.rc6.49.fc40.1 for f40-build-side-84857
+Created task: 114352968
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114352968
 Watching tasks (this may be safely interrupted)...
-114136772 build (f41-build-side-84507, /rpms/kernel.git:edce45bc4d25ff0d1564b2297322e105270e2b33): free
-114136772 build (f41-build-side-84507, /rpms/kernel.git:edce45bc4d25ff0d1564b2297322e105270e2b33): free -> assigned
-114136772 build (f41-build-side-84507, /rpms/kernel.git:edce45bc4d25ff0d1564b2297322e105270e2b33): assigned -> open (buildvm-x86-25.iad2.fedoraproject.org)
-  114136796 buildSRPMFromSCM (/rpms/kernel.git:edce45bc4d25ff0d1564b2297322e105270e2b33): free
-  114136796 buildSRPMFromSCM (/rpms/kernel.git:edce45bc4d25ff0d1564b2297322e105270e2b33): free -> assigned
-  114136796 buildSRPMFromSCM (/rpms/kernel.git:edce45bc4d25ff0d1564b2297322e105270e2b33): assigned -> open (buildvm-x86-04.iad2.fedoraproject.org)
-  114136994 buildArch (kernel-6.8.0-0.rc6.20240227git45ec2f5f6ed3.50.fc41.1.src.rpm, noarch): free
-  114136990 buildArch (kernel-6.8.0-0.rc6.20240227git45ec2f5f6ed3.50.fc41.1.src.rpm, x86_64): free
-  114136993 buildArch (kernel-6.8.0-0.rc6.20240227git45ec2f5f6ed3.50.fc41.1.src.rpm, s390x): free
-  114136991 buildArch (kernel-6.8.0-0.rc6.20240227git45ec2f5f6ed3.50.fc41.1.src.rpm, aarch64): free
-  114136992 buildArch (kernel-6.8.0-0.rc6.20240227git45ec2f5f6ed3.50.fc41.1.src.rpm, ppc64le): free
-  114136796 buildSRPMFromSCM (/rpms/kernel.git:edce45bc4d25ff0d1564b2297322e105270e2b33): open (buildvm-x86-04.iad2.fedoraproject.org) -> closed
-  5 free  1 open  1 done  0 failed
-  114136992 buildArch (kernel-6.8.0-0.rc6.20240227git45ec2f5f6ed3.50.fc41.1.src.rpm, ppc64le): free -> assigned
-  114136994 buildArch (kernel-6.8.0-0.rc6.20240227git45ec2f5f6ed3.50.fc41.1.src.rpm, noarch): free -> open (buildvm-ppc64le-31.iad2.fedoraproject.org)
-  114136990 buildArch (kernel-6.8.0-0.rc6.20240227git45ec2f5f6ed3.50.fc41.1.src.rpm, x86_64): free -> assigned
-  114136993 buildArch (kernel-6.8.0-0.rc6.20240227git45ec2f5f6ed3.50.fc41.1.src.rpm, s390x): free -> assigned
-  114136991 buildArch (kernel-6.8.0-0.rc6.20240227git45ec2f5f6ed3.50.fc41.1.src.rpm, aarch64): free -> assigned
-  114136990 buildArch (kernel-6.8.0-0.rc6.20240227git45ec2f5f6ed3.50.fc41.1.src.rpm, x86_64): assigned -> open (buildhw-x86-15.iad2.fedoraproject.org)
-  114136993 buildArch (kernel-6.8.0-0.rc6.20240227git45ec2f5f6ed3.50.fc41.1.src.rpm, s390x): assigned -> open (buildvm-s390x-01.s390.fedoraproject.org)
-  114136992 buildArch (kernel-6.8.0-0.rc6.20240227git45ec2f5f6ed3.50.fc41.1.src.rpm, ppc64le): assigned -> open (buildvm-ppc64le-15.iad2.fedoraproject.org)
-  114136991 buildArch (kernel-6.8.0-0.rc6.20240227git45ec2f5f6ed3.50.fc41.1.src.rpm, aarch64): assigned -> open (buildvm-a64-14.iad2.fedoraproject.org)
-  114136994 buildArch (kernel-6.8.0-0.rc6.20240227git45ec2f5f6ed3.50.fc41.1.src.rpm, noarch): open (buildvm-ppc64le-31.iad2.fedoraproject.org) -> closed
-  0 free  5 open  2 done  0 failed
-  114136993 buildArch (kernel-6.8.0-0.rc6.20240227git45ec2f5f6ed3.50.fc41.1.src.rpm, s390x): open (buildvm-s390x-01.s390.fedoraproject.org) -> closed
-  0 free  4 open  3 done  0 failed
-  114136990 buildArch (kernel-6.8.0-0.rc6.20240227git45ec2f5f6ed3.50.fc41.1.src.rpm, x86_64): open (buildhw-x86-15.iad2.fedoraproject.org) -> closed
-  0 free  3 open  4 done  0 failed
-  114136992 buildArch (kernel-6.8.0-0.rc6.20240227git45ec2f5f6ed3.50.fc41.1.src.rpm, ppc64le): open (buildvm-ppc64le-15.iad2.fedoraproject.org) -> closed
-  0 free  2 open  5 done  0 failed
-  114136991 buildArch (kernel-6.8.0-0.rc6.20240227git45ec2f5f6ed3.50.fc41.1.src.rpm, aarch64): open (buildvm-a64-14.iad2.fedoraproject.org) -> closed
-  0 free  1 open  6 done  0 failed
-  114143266 tagBuild (noarch): free
-  114143266 tagBuild (noarch): free -> assigned
-  114143266 tagBuild (noarch): assigned -> FAILED: ActionNotAllowed: policy violation (tag)
-  0 free  1 open  6 done  1 failed
-114136772 build (f41-build-side-84507, /rpms/kernel.git:edce45bc4d25ff0d1564b2297322e105270e2b33): open (buildvm-x86-25.iad2.fedoraproject.org) -> FAILED: ActionNotAllowed: policy violation (tag)
-  0 free  0 open  6 done  2 failed
+114352968 build (f40-build-side-84857, /rpms/kernel.git:5ba6dc48a4800ef352dc4f22d69ab23cd2e462e7): free
+114352968 build (f40-build-side-84857, /rpms/kernel.git:5ba6dc48a4800ef352dc4f22d69ab23cd2e462e7): free -> assigned
+114352968 build (f40-build-side-84857, /rpms/kernel.git:5ba6dc48a4800ef352dc4f22d69ab23cd2e462e7): assigned -> open (buildvm-s390x-09.s390.fedoraproject.org)
+  114352986 buildSRPMFromSCM (/rpms/kernel.git:5ba6dc48a4800ef352dc4f22d69ab23cd2e462e7): free
+  114352986 buildSRPMFromSCM (/rpms/kernel.git:5ba6dc48a4800ef352dc4f22d69ab23cd2e462e7): free -> assigned
+  114352986 buildSRPMFromSCM (/rpms/kernel.git:5ba6dc48a4800ef352dc4f22d69ab23cd2e462e7): assigned -> open (buildvm-x86-30.iad2.fedoraproject.org)
+  114352986 buildSRPMFromSCM (/rpms/kernel.git:5ba6dc48a4800ef352dc4f22d69ab23cd2e462e7): open (buildvm-x86-30.iad2.fedoraproject.org) -> FAILED: BuildError: Error running GIT command "git clone -n https://src.fedoraproject.org/rpms/kernel.git /var/lib/mock/f40-build-side-84857-49418623-5879038/root/chroot_tmpdir/scmroot/kernel", see checkout.log for details
+  Relevant logs:
+  https://kojipkgs.fedoraproject.org/work/tasks/2986/114352986/state.log
+  https://kojipkgs.fedoraproject.org/work/tasks/2986/114352986/build.log
+  https://kojipkgs.fedoraproject.org/work/tasks/2986/114352986/root.log
+  https://kojipkgs.fedoraproject.org/work/tasks/2986/114352986/mock_output.log
+  https://kojipkgs.fedoraproject.org/work/tasks/2986/114352986/hw_info.log
+  https://kojipkgs.fedoraproject.org/work/tasks/2986/114352986/checkout.log
+  0 free  1 open  0 done  1 failed
+114352968 build (f40-build-side-84857, /rpms/kernel.git:5ba6dc48a4800ef352dc4f22d69ab23cd2e462e7): open (buildvm-s390x-09.s390.fedoraproject.org) -> FAILED: BuildError: Error running GIT command "git clone -n https://src.fedoraproject.org/rpms/kernel.git /var/lib/mock/f40-build-side-84857-49418623-5879038/root/chroot_tmpdir/scmroot/kernel", see checkout.log for details
+  0 free  0 open  0 done  2 failed
 
-114136772 build (f41-build-side-84507, /rpms/kernel.git:edce45bc4d25ff0d1564b2297322e105270e2b33) failed
+114352968 build (f40-build-side-84857, /rpms/kernel.git:5ba6dc48a4800ef352dc4f22d69ab23cd2e462e7) failed

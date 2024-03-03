@@ -1,26 +1,28 @@
 Cloning into 'voms-api-java'...
-[rawhide afce153] Rebuilt for java-21-openjdk as system jdk
+[f40 e9ff4f0] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building voms-api-java-3.3.2-16.fc41 for f41-build-side-84507
-Created task: 114142242
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114142242
+Building voms-api-java-3.3.2-16.fc40 for f40-build-side-84857
+Created task: 114356031
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114356031
 Watching tasks (this may be safely interrupted)...
-114142242 build (f41-build-side-84507, /rpms/voms-api-java.git:afce15368bf16ac7ada4e091105a16414c8218ef): free
-114142242 build (f41-build-side-84507, /rpms/voms-api-java.git:afce15368bf16ac7ada4e091105a16414c8218ef): free -> open (buildvm-x86-12.iad2.fedoraproject.org)
-  114142258 buildSRPMFromSCM (/rpms/voms-api-java.git:afce15368bf16ac7ada4e091105a16414c8218ef): free
-  114142258 buildSRPMFromSCM (/rpms/voms-api-java.git:afce15368bf16ac7ada4e091105a16414c8218ef): free -> assigned
-  114142258 buildSRPMFromSCM (/rpms/voms-api-java.git:afce15368bf16ac7ada4e091105a16414c8218ef): assigned -> open (buildvm-a64-25.iad2.fedoraproject.org)
-  114142258 buildSRPMFromSCM (/rpms/voms-api-java.git:afce15368bf16ac7ada4e091105a16414c8218ef): open (buildvm-a64-25.iad2.fedoraproject.org) -> closed
+114356031 build (f40-build-side-84857, /rpms/voms-api-java.git:e9ff4f0095d60e878d13bd1e414f601f02a11c33): free
+114356031 build (f40-build-side-84857, /rpms/voms-api-java.git:e9ff4f0095d60e878d13bd1e414f601f02a11c33): free -> assigned
+114356031 build (f40-build-side-84857, /rpms/voms-api-java.git:e9ff4f0095d60e878d13bd1e414f601f02a11c33): assigned -> open (buildvm-a64-05.iad2.fedoraproject.org)
+  114356039 buildSRPMFromSCM (/rpms/voms-api-java.git:e9ff4f0095d60e878d13bd1e414f601f02a11c33): free
+  114356039 buildSRPMFromSCM (/rpms/voms-api-java.git:e9ff4f0095d60e878d13bd1e414f601f02a11c33): free -> assigned
+  114356039 buildSRPMFromSCM (/rpms/voms-api-java.git:e9ff4f0095d60e878d13bd1e414f601f02a11c33): assigned -> open (buildvm-a64-18.iad2.fedoraproject.org)
+  114356039 buildSRPMFromSCM (/rpms/voms-api-java.git:e9ff4f0095d60e878d13bd1e414f601f02a11c33): open (buildvm-a64-18.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  114142318 buildArch (voms-api-java-3.3.2-16.fc41.src.rpm, noarch): free
-  114142318 buildArch (voms-api-java-3.3.2-16.fc41.src.rpm, noarch): free -> assigned
-  114142318 buildArch (voms-api-java-3.3.2-16.fc41.src.rpm, noarch): assigned -> open (buildvm-ppc64le-10.iad2.fedoraproject.org)
-  114142318 buildArch (voms-api-java-3.3.2-16.fc41.src.rpm, noarch): open (buildvm-ppc64le-10.iad2.fedoraproject.org) -> closed
+  114356088 buildArch (voms-api-java-3.3.2-16.fc40.src.rpm, noarch): free
+  114356088 buildArch (voms-api-java-3.3.2-16.fc40.src.rpm, noarch): free -> assigned
+  114356088 buildArch (voms-api-java-3.3.2-16.fc40.src.rpm, noarch): assigned -> open (buildvm-s390x-09.s390.fedoraproject.org)
+  114356088 buildArch (voms-api-java-3.3.2-16.fc40.src.rpm, noarch): open (buildvm-s390x-09.s390.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  114142496 tagBuild (noarch): free
-  114142496 tagBuild (noarch): free -> closed
+  114356303 tagBuild (noarch): free
+  114356303 tagBuild (noarch): free -> assigned
+  114356303 tagBuild (noarch): assigned -> closed
   0 free  1 open  3 done  0 failed
-114142242 build (f41-build-side-84507, /rpms/voms-api-java.git:afce15368bf16ac7ada4e091105a16414c8218ef): open (buildvm-x86-12.iad2.fedoraproject.org) -> closed
+114356031 build (f40-build-side-84857, /rpms/voms-api-java.git:e9ff4f0095d60e878d13bd1e414f601f02a11c33): open (buildvm-a64-05.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-114142242 build (f41-build-side-84507, /rpms/voms-api-java.git:afce15368bf16ac7ada4e091105a16414c8218ef) completed successfully
+114356031 build (f40-build-side-84857, /rpms/voms-api-java.git:e9ff4f0095d60e878d13bd1e414f601f02a11c33) completed successfully

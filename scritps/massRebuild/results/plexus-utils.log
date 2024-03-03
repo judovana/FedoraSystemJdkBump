@@ -1,30 +1,9 @@
 Cloning into 'plexus-utils'...
-[rawhide 4698f45] Rebuilt for java-21-openjdk as system jdk
+[f40 3a08815] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
 Found a gating.yaml file in the repo and it is properly configured
-Building plexus-utils-3.5.1-7.fc41 for f41-build-side-84507
-Created task: 114140177
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114140177
-Watching tasks (this may be safely interrupted)...
-114140177 build (f41-build-side-84507, /rpms/plexus-utils.git:4698f4535b4e990cb27371b821d2632a62e756bf): free
-114140177 build (f41-build-side-84507, /rpms/plexus-utils.git:4698f4535b4e990cb27371b821d2632a62e756bf): free -> open (buildvm-a64-40.iad2.fedoraproject.org)
-  114140224 buildSRPMFromSCM (/rpms/plexus-utils.git:4698f4535b4e990cb27371b821d2632a62e756bf): free
-  114140224 buildSRPMFromSCM (/rpms/plexus-utils.git:4698f4535b4e990cb27371b821d2632a62e756bf): free -> assigned
-  114140224 buildSRPMFromSCM (/rpms/plexus-utils.git:4698f4535b4e990cb27371b821d2632a62e756bf): assigned -> open (buildvm-a64-39.iad2.fedoraproject.org)
-  114140224 buildSRPMFromSCM (/rpms/plexus-utils.git:4698f4535b4e990cb27371b821d2632a62e756bf): open (buildvm-a64-39.iad2.fedoraproject.org) -> closed
-  0 free  1 open  1 done  0 failed
-  114140360 buildArch (plexus-utils-3.5.1-7.fc41.src.rpm, noarch): free
-  114140360 buildArch (plexus-utils-3.5.1-7.fc41.src.rpm, noarch): free -> assigned
-  114140360 buildArch (plexus-utils-3.5.1-7.fc41.src.rpm, noarch): assigned -> free
-  114140360 buildArch (plexus-utils-3.5.1-7.fc41.src.rpm, noarch): free -> assigned
-  114140360 buildArch (plexus-utils-3.5.1-7.fc41.src.rpm, noarch): assigned -> open (buildvm-s390x-04.s390.fedoraproject.org)
-  114140360 buildArch (plexus-utils-3.5.1-7.fc41.src.rpm, noarch): open (buildvm-s390x-04.s390.fedoraproject.org) -> closed
-  0 free  1 open  2 done  0 failed
-  114140816 tagBuild (noarch): free
-  114140816 tagBuild (noarch): free -> assigned
-114140177 build (f41-build-side-84507, /rpms/plexus-utils.git:4698f4535b4e990cb27371b821d2632a62e756bf): open (buildvm-a64-40.iad2.fedoraproject.org) -> closed
-  0 free  1 open  3 done  0 failed
-  114140816 tagBuild (noarch): assigned -> closed
-  0 free  0 open  4 done  0 failed
-
-114140177 build (f41-build-side-84507, /rpms/plexus-utils.git:4698f4535b4e990cb27371b821d2632a62e756bf) completed successfully
+(gssapi auth failed: requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='koji.fedoraproject.org', port=443): Read timed out. (read timeout=60))
+Use following documentation to debug kerberos/gssapi auth issues. https://docs.pagure.org/koji/kerberos_gssapi_debug/
+Kerberos authentication fails: unable to obtain a session (gssapi auth failed: requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='koji.fedoraproject.org', port=443): Read timed out. (read timeout=60))
+Use following documentation to debug kerberos/gssapi auth issues. https://docs.pagure.org/koji/kerberos_gssapi_debug/
+Could not execute build: Could not login to https://koji.fedoraproject.org/kojihub

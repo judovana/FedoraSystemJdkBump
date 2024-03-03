@@ -1,28 +1,28 @@
 Cloning into 'xmlunit'...
-[rawhide 634d619] Rebuilt for java-21-openjdk as system jdk
+[f40 724e9ff] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
 Found a gating.yaml file in the repo and it is properly configured
-Building xmlunit-2.9.0-10.fc41 for f41-build-side-84507
-Created task: 114142747
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114142747
+Building xmlunit-2.9.0-11.fc40 for f40-build-side-84857
+Created task: 114356503
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114356503
 Watching tasks (this may be safely interrupted)...
-114142747 build (f41-build-side-84507, /rpms/xmlunit.git:634d619143c9d656b4e70b73e64587feea839377): free
-114142747 build (f41-build-side-84507, /rpms/xmlunit.git:634d619143c9d656b4e70b73e64587feea839377): free -> assigned
-114142747 build (f41-build-side-84507, /rpms/xmlunit.git:634d619143c9d656b4e70b73e64587feea839377): assigned -> open (buildhw-x86-13.iad2.fedoraproject.org)
-  114142792 buildSRPMFromSCM (/rpms/xmlunit.git:634d619143c9d656b4e70b73e64587feea839377): free
-  114142792 buildSRPMFromSCM (/rpms/xmlunit.git:634d619143c9d656b4e70b73e64587feea839377): free -> assigned
-  114142792 buildSRPMFromSCM (/rpms/xmlunit.git:634d619143c9d656b4e70b73e64587feea839377): assigned -> open (buildvm-x86-31.iad2.fedoraproject.org)
-  114142792 buildSRPMFromSCM (/rpms/xmlunit.git:634d619143c9d656b4e70b73e64587feea839377): open (buildvm-x86-31.iad2.fedoraproject.org) -> closed
+114356503 build (f40-build-side-84857, /rpms/xmlunit.git:724e9ff95875afcace28c700e4eff2ce0740b36a): free
+114356503 build (f40-build-side-84857, /rpms/xmlunit.git:724e9ff95875afcace28c700e4eff2ce0740b36a): free -> assigned
+114356503 build (f40-build-side-84857, /rpms/xmlunit.git:724e9ff95875afcace28c700e4eff2ce0740b36a): assigned -> open (buildvm-s390x-02.s390.fedoraproject.org)
+  114356525 buildSRPMFromSCM (/rpms/xmlunit.git:724e9ff95875afcace28c700e4eff2ce0740b36a): free
+  114356525 buildSRPMFromSCM (/rpms/xmlunit.git:724e9ff95875afcace28c700e4eff2ce0740b36a): free -> assigned
+  114356525 buildSRPMFromSCM (/rpms/xmlunit.git:724e9ff95875afcace28c700e4eff2ce0740b36a): assigned -> open (buildvm-x86-13.iad2.fedoraproject.org)
+  114356525 buildSRPMFromSCM (/rpms/xmlunit.git:724e9ff95875afcace28c700e4eff2ce0740b36a): open (buildvm-x86-13.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  114142846 buildArch (xmlunit-2.9.0-10.fc41.src.rpm, noarch): free
-  114142846 buildArch (xmlunit-2.9.0-10.fc41.src.rpm, noarch): free -> open (buildvm-x86-08.iad2.fedoraproject.org)
-  114142846 buildArch (xmlunit-2.9.0-10.fc41.src.rpm, noarch): open (buildvm-x86-08.iad2.fedoraproject.org) -> closed
+  114356592 buildArch (xmlunit-2.9.0-11.fc40.src.rpm, noarch): free
+  114356592 buildArch (xmlunit-2.9.0-11.fc40.src.rpm, noarch): free -> assigned
+  114356592 buildArch (xmlunit-2.9.0-11.fc40.src.rpm, noarch): assigned -> open (buildhw-x86-14.iad2.fedoraproject.org)
+  114356592 buildArch (xmlunit-2.9.0-11.fc40.src.rpm, noarch): open (buildhw-x86-14.iad2.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  114142939 tagBuild (noarch): free
-  114142939 tagBuild (noarch): free -> assigned
-  114142939 tagBuild (noarch): assigned -> closed
+  114356783 tagBuild (noarch): free
+  114356783 tagBuild (noarch): free -> closed
   0 free  1 open  3 done  0 failed
-114142747 build (f41-build-side-84507, /rpms/xmlunit.git:634d619143c9d656b4e70b73e64587feea839377): open (buildhw-x86-13.iad2.fedoraproject.org) -> closed
+114356503 build (f40-build-side-84857, /rpms/xmlunit.git:724e9ff95875afcace28c700e4eff2ce0740b36a): open (buildvm-s390x-02.s390.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-114142747 build (f41-build-side-84507, /rpms/xmlunit.git:634d619143c9d656b4e70b73e64587feea839377) completed successfully
+114356503 build (f40-build-side-84857, /rpms/xmlunit.git:724e9ff95875afcace28c700e4eff2ce0740b36a) completed successfully

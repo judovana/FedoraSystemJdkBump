@@ -1,29 +1,29 @@
 Cloning into 'cortado'...
-[rawhide cb8311a] Rebuilt for java-21-openjdk as system jdk
+[f40 421b29d] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
 warning: %patchN is deprecated (1 usages found), use %patch N (or %patch -P N)
 
-Building cortado-0.6.0-32.fc41 for f41-build-side-84507
-Created task: 114132981
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114132981
+Building cortado-0.6.0-32.fc40 for f40-build-side-84857
+Created task: 114348083
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114348083
 Watching tasks (this may be safely interrupted)...
-114132981 build (f41-build-side-84507, /rpms/cortado.git:cb8311a590a33136f43f9dcf255a144f02b93017): free
-114132981 build (f41-build-side-84507, /rpms/cortado.git:cb8311a590a33136f43f9dcf255a144f02b93017): free -> open (buildvm-x86-11.iad2.fedoraproject.org)
-  114132996 buildSRPMFromSCM (/rpms/cortado.git:cb8311a590a33136f43f9dcf255a144f02b93017): free
-  114132996 buildSRPMFromSCM (/rpms/cortado.git:cb8311a590a33136f43f9dcf255a144f02b93017): free -> open (buildvm-a64-25.iad2.fedoraproject.org)
-  114132996 buildSRPMFromSCM (/rpms/cortado.git:cb8311a590a33136f43f9dcf255a144f02b93017): open (buildvm-a64-25.iad2.fedoraproject.org) -> closed
+114348083 build (f40-build-side-84857, /rpms/cortado.git:421b29d9b3c348df26204a6798fbdfc618498589): free
+114348083 build (f40-build-side-84857, /rpms/cortado.git:421b29d9b3c348df26204a6798fbdfc618498589): free -> assigned
+114348083 build (f40-build-side-84857, /rpms/cortado.git:421b29d9b3c348df26204a6798fbdfc618498589): assigned -> open (buildvm-x86-18.iad2.fedoraproject.org)
+  114348103 buildSRPMFromSCM (/rpms/cortado.git:421b29d9b3c348df26204a6798fbdfc618498589): free
+  114348103 buildSRPMFromSCM (/rpms/cortado.git:421b29d9b3c348df26204a6798fbdfc618498589): free -> open (buildvm-a64-40.iad2.fedoraproject.org)
+  114348103 buildSRPMFromSCM (/rpms/cortado.git:421b29d9b3c348df26204a6798fbdfc618498589): open (buildvm-a64-40.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  114133091 buildArch (cortado-0.6.0-32.fc41.src.rpm, noarch): free
-  114133091 buildArch (cortado-0.6.0-32.fc41.src.rpm, noarch): free -> assigned
-  114133091 buildArch (cortado-0.6.0-32.fc41.src.rpm, noarch): assigned -> open (buildvm-a64-37.iad2.fedoraproject.org)
-  114133163 tagBuild (noarch): free
-  114133091 buildArch (cortado-0.6.0-32.fc41.src.rpm, noarch): open (buildvm-a64-37.iad2.fedoraproject.org) -> closed
-  1 free  1 open  2 done  0 failed
-  114133163 tagBuild (noarch): free -> assigned
-  114133163 tagBuild (noarch): assigned -> open (buildhw-x86-12.iad2.fedoraproject.org)
-  114133163 tagBuild (noarch): open (buildhw-x86-12.iad2.fedoraproject.org) -> closed
+  114348161 buildArch (cortado-0.6.0-32.fc40.src.rpm, noarch): free
+  114348161 buildArch (cortado-0.6.0-32.fc40.src.rpm, noarch): free -> assigned
+  114348161 buildArch (cortado-0.6.0-32.fc40.src.rpm, noarch): assigned -> open (buildvm-x86-21.iad2.fedoraproject.org)
+  114348161 buildArch (cortado-0.6.0-32.fc40.src.rpm, noarch): open (buildvm-x86-21.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  114348322 tagBuild (noarch): free
+  114348322 tagBuild (noarch): free -> open (buildvm-s390x-05.s390.fedoraproject.org)
+114348083 build (f40-build-side-84857, /rpms/cortado.git:421b29d9b3c348df26204a6798fbdfc618498589): open (buildvm-x86-18.iad2.fedoraproject.org) -> closed
   0 free  1 open  3 done  0 failed
-114132981 build (f41-build-side-84507, /rpms/cortado.git:cb8311a590a33136f43f9dcf255a144f02b93017): open (buildvm-x86-11.iad2.fedoraproject.org) -> closed
+  114348322 tagBuild (noarch): open (buildvm-s390x-05.s390.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-114132981 build (f41-build-side-84507, /rpms/cortado.git:cb8311a590a33136f43f9dcf255a144f02b93017) completed successfully
+114348083 build (f40-build-side-84857, /rpms/cortado.git:421b29d9b3c348df26204a6798fbdfc618498589) completed successfully

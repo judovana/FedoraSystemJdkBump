@@ -1,29 +1,30 @@
 Cloning into 'jmol'...
-[rawhide 534a2ec] Rebuilt for java-21-openjdk as system jdk
+[f40 35f0780] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building jmol-16.1.57-2.fc41 for f41-build-side-84507
-Created task: 114136189
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114136189
+Building jmol-16.1.57-2.fc40 for f40-build-side-84857
+Created task: 114352507
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114352507
 Watching tasks (this may be safely interrupted)...
-114136189 build (f41-build-side-84507, /rpms/jmol.git:534a2ec1456b18eb03df58b844767b345249aec0): free
-114136189 build (f41-build-side-84507, /rpms/jmol.git:534a2ec1456b18eb03df58b844767b345249aec0): free -> assigned
-114136189 build (f41-build-side-84507, /rpms/jmol.git:534a2ec1456b18eb03df58b844767b345249aec0): assigned -> open (buildvm-a64-24.iad2.fedoraproject.org)
-  114136192 buildSRPMFromSCM (/rpms/jmol.git:534a2ec1456b18eb03df58b844767b345249aec0): free
-  114136192 buildSRPMFromSCM (/rpms/jmol.git:534a2ec1456b18eb03df58b844767b345249aec0): free -> open (buildvm-x86-24.iad2.fedoraproject.org)
-  114136192 buildSRPMFromSCM (/rpms/jmol.git:534a2ec1456b18eb03df58b844767b345249aec0): open (buildvm-x86-24.iad2.fedoraproject.org) -> closed
+114352507 build (f40-build-side-84857, /rpms/jmol.git:35f0780403d6270a5befd87c6b9e77921eae841d): free
+114352507 build (f40-build-side-84857, /rpms/jmol.git:35f0780403d6270a5befd87c6b9e77921eae841d): free -> assigned
+114352507 build (f40-build-side-84857, /rpms/jmol.git:35f0780403d6270a5befd87c6b9e77921eae841d): assigned -> open (buildvm-a64-27.iad2.fedoraproject.org)
+  114352551 buildSRPMFromSCM (/rpms/jmol.git:35f0780403d6270a5befd87c6b9e77921eae841d): free
+  114352551 buildSRPMFromSCM (/rpms/jmol.git:35f0780403d6270a5befd87c6b9e77921eae841d): free -> assigned
+  114352551 buildSRPMFromSCM (/rpms/jmol.git:35f0780403d6270a5befd87c6b9e77921eae841d): assigned -> open (buildvm-a64-31.iad2.fedoraproject.org)
+  114352551 buildSRPMFromSCM (/rpms/jmol.git:35f0780403d6270a5befd87c6b9e77921eae841d): open (buildvm-a64-31.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  114136298 buildArch (jmol-16.1.57-2.fc41.src.rpm, noarch): free
-  114136298 buildArch (jmol-16.1.57-2.fc41.src.rpm, noarch): free -> assigned
-  114136298 buildArch (jmol-16.1.57-2.fc41.src.rpm, noarch): assigned -> open (buildhw-a64-23.iad2.fedoraproject.org)
-  114136298 buildArch (jmol-16.1.57-2.fc41.src.rpm, noarch): open (buildhw-a64-23.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
+  114352660 buildArch (jmol-16.1.57-2.fc40.src.rpm, noarch): free
+  114352660 buildArch (jmol-16.1.57-2.fc40.src.rpm, noarch): free -> assigned
+  114352660 buildArch (jmol-16.1.57-2.fc40.src.rpm, noarch): assigned -> open (buildvm-s390x-01.s390.fedoraproject.org)
+  114352660 buildArch (jmol-16.1.57-2.fc40.src.rpm, noarch): open (buildvm-s390x-01.s390.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
   Relevant logs:
-  https://kojipkgs.fedoraproject.org/work/tasks/6298/114136298/mock_output.log
-  https://kojipkgs.fedoraproject.org/work/tasks/6298/114136298/state.log
-  https://kojipkgs.fedoraproject.org/work/tasks/6298/114136298/build.log
-  https://kojipkgs.fedoraproject.org/work/tasks/6298/114136298/root.log
-  https://kojipkgs.fedoraproject.org/work/tasks/6298/114136298/hw_info.log
+  https://kojipkgs.fedoraproject.org/work/tasks/2660/114352660/state.log
+  https://kojipkgs.fedoraproject.org/work/tasks/2660/114352660/build.log
+  https://kojipkgs.fedoraproject.org/work/tasks/2660/114352660/root.log
+  https://kojipkgs.fedoraproject.org/work/tasks/2660/114352660/mock_output.log
+  https://kojipkgs.fedoraproject.org/work/tasks/2660/114352660/hw_info.log
   0 free  1 open  1 done  1 failed
-114136189 build (f41-build-side-84507, /rpms/jmol.git:534a2ec1456b18eb03df58b844767b345249aec0): open (buildvm-a64-24.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
+114352507 build (f40-build-side-84857, /rpms/jmol.git:35f0780403d6270a5befd87c6b9e77921eae841d): open (buildvm-a64-27.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
   0 free  0 open  1 done  2 failed
 
-114136189 build (f41-build-side-84507, /rpms/jmol.git:534a2ec1456b18eb03df58b844767b345249aec0) failed
+114352507 build (f40-build-side-84857, /rpms/jmol.git:35f0780403d6270a5befd87c6b9e77921eae841d) failed

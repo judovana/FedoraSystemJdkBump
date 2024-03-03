@@ -1,29 +1,29 @@
 Cloning into 'freemarker'...
-[rawhide 80318af] Rebuilt for java-21-openjdk as system jdk
+[f40 46be47d] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building freemarker-2.3.31-13.fc41 for f41-build-side-84507
-Created task: 114133884
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114133884
+Building freemarker-2.3.31-13.fc40 for f40-build-side-84857
+Created task: 114349375
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114349375
 Watching tasks (this may be safely interrupted)...
-114133884 build (f41-build-side-84507, /rpms/freemarker.git:80318af2aed60c13d62f4b904e4bb489edb61352): free
-114133884 build (f41-build-side-84507, /rpms/freemarker.git:80318af2aed60c13d62f4b904e4bb489edb61352): free -> assigned
-114133884 build (f41-build-side-84507, /rpms/freemarker.git:80318af2aed60c13d62f4b904e4bb489edb61352): assigned -> open (buildhw-x86-02.iad2.fedoraproject.org)
-  114133901 buildSRPMFromSCM (/rpms/freemarker.git:80318af2aed60c13d62f4b904e4bb489edb61352): free
-  114133901 buildSRPMFromSCM (/rpms/freemarker.git:80318af2aed60c13d62f4b904e4bb489edb61352): free -> open (buildvm-x86-27.iad2.fedoraproject.org)
-  114133925 buildArch (freemarker-2.3.31-13.fc41.src.rpm, noarch): free
-  114133901 buildSRPMFromSCM (/rpms/freemarker.git:80318af2aed60c13d62f4b904e4bb489edb61352): open (buildvm-x86-27.iad2.fedoraproject.org) -> closed
-  1 free  1 open  1 done  0 failed
-  114133925 buildArch (freemarker-2.3.31-13.fc41.src.rpm, noarch): free -> assigned
-  114133925 buildArch (freemarker-2.3.31-13.fc41.src.rpm, noarch): assigned -> open (buildvm-ppc64le-29.iad2.fedoraproject.org)
-  114133925 buildArch (freemarker-2.3.31-13.fc41.src.rpm, noarch): open (buildvm-ppc64le-29.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
+114349375 build (f40-build-side-84857, /rpms/freemarker.git:46be47ddc597c00a10e1337c7bf3c8c31a132467): free
+114349375 build (f40-build-side-84857, /rpms/freemarker.git:46be47ddc597c00a10e1337c7bf3c8c31a132467): free -> assigned
+114349375 build (f40-build-side-84857, /rpms/freemarker.git:46be47ddc597c00a10e1337c7bf3c8c31a132467): assigned -> open (buildvm-ppc64le-23.iad2.fedoraproject.org)
+  114349454 buildSRPMFromSCM (/rpms/freemarker.git:46be47ddc597c00a10e1337c7bf3c8c31a132467): free
+  114349454 buildSRPMFromSCM (/rpms/freemarker.git:46be47ddc597c00a10e1337c7bf3c8c31a132467): free -> assigned
+  114349454 buildSRPMFromSCM (/rpms/freemarker.git:46be47ddc597c00a10e1337c7bf3c8c31a132467): assigned -> open (buildvm-a64-05.iad2.fedoraproject.org)
+  114349454 buildSRPMFromSCM (/rpms/freemarker.git:46be47ddc597c00a10e1337c7bf3c8c31a132467): open (buildvm-a64-05.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  114349736 buildArch (freemarker-2.3.31-13.fc40.src.rpm, noarch): free
+  114349736 buildArch (freemarker-2.3.31-13.fc40.src.rpm, noarch): free -> open (buildvm-x86-22.iad2.fedoraproject.org)
+  114349736 buildArch (freemarker-2.3.31-13.fc40.src.rpm, noarch): open (buildvm-x86-22.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
   Relevant logs:
-  https://kojipkgs.fedoraproject.org/work/tasks/3925/114133925/mock_output.log
-  https://kojipkgs.fedoraproject.org/work/tasks/3925/114133925/state.log
-  https://kojipkgs.fedoraproject.org/work/tasks/3925/114133925/build.log
-  https://kojipkgs.fedoraproject.org/work/tasks/3925/114133925/root.log
-  https://kojipkgs.fedoraproject.org/work/tasks/3925/114133925/hw_info.log
+  https://kojipkgs.fedoraproject.org/work/tasks/9736/114349736/mock_output.log
+  https://kojipkgs.fedoraproject.org/work/tasks/9736/114349736/state.log
+  https://kojipkgs.fedoraproject.org/work/tasks/9736/114349736/build.log
+  https://kojipkgs.fedoraproject.org/work/tasks/9736/114349736/root.log
+  https://kojipkgs.fedoraproject.org/work/tasks/9736/114349736/hw_info.log
   0 free  1 open  1 done  1 failed
-114133884 build (f41-build-side-84507, /rpms/freemarker.git:80318af2aed60c13d62f4b904e4bb489edb61352): open (buildhw-x86-02.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
+114349375 build (f40-build-side-84857, /rpms/freemarker.git:46be47ddc597c00a10e1337c7bf3c8c31a132467): open (buildvm-ppc64le-23.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
   0 free  0 open  1 done  2 failed
 
-114133884 build (f41-build-side-84507, /rpms/freemarker.git:80318af2aed60c13d62f4b904e4bb489edb61352) failed
+114349375 build (f40-build-side-84857, /rpms/freemarker.git:46be47ddc597c00a10e1337c7bf3c8c31a132467) failed

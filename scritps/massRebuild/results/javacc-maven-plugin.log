@@ -1,28 +1,28 @@
 Cloning into 'javacc-maven-plugin'...
-[rawhide 74fbf0f] Rebuilt for java-21-openjdk as system jdk
+[f40 786915f] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
 Found a gating.yaml file in the repo and it is properly configured
-Building javacc-maven-plugin-3.0.1-8.fc41 for f41-build-side-84507
-Created task: 114135333
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114135333
+Building javacc-maven-plugin-3.0.1-8.fc40 for f40-build-side-84857
+Created task: 114351234
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114351234
 Watching tasks (this may be safely interrupted)...
-114135333 build (f41-build-side-84507, /rpms/javacc-maven-plugin.git:74fbf0f830d2f7fdf1314152cfee20945a702df4): free
-114135333 build (f41-build-side-84507, /rpms/javacc-maven-plugin.git:74fbf0f830d2f7fdf1314152cfee20945a702df4): free -> open (buildhw-x86-04.iad2.fedoraproject.org)
-  114135387 buildSRPMFromSCM (/rpms/javacc-maven-plugin.git:74fbf0f830d2f7fdf1314152cfee20945a702df4): free
-  114135387 buildSRPMFromSCM (/rpms/javacc-maven-plugin.git:74fbf0f830d2f7fdf1314152cfee20945a702df4): free -> assigned
-  114135387 buildSRPMFromSCM (/rpms/javacc-maven-plugin.git:74fbf0f830d2f7fdf1314152cfee20945a702df4): assigned -> open (buildvm-a64-23.iad2.fedoraproject.org)
-  114135387 buildSRPMFromSCM (/rpms/javacc-maven-plugin.git:74fbf0f830d2f7fdf1314152cfee20945a702df4): open (buildvm-a64-23.iad2.fedoraproject.org) -> closed
+114351234 build (f40-build-side-84857, /rpms/javacc-maven-plugin.git:786915f8dd3d0ca591ceddaf0250d89b2f1a632a): free
+114351234 build (f40-build-side-84857, /rpms/javacc-maven-plugin.git:786915f8dd3d0ca591ceddaf0250d89b2f1a632a): free -> assigned
+114351234 build (f40-build-side-84857, /rpms/javacc-maven-plugin.git:786915f8dd3d0ca591ceddaf0250d89b2f1a632a): assigned -> open (buildvm-ppc64le-14.iad2.fedoraproject.org)
+  114351292 buildSRPMFromSCM (/rpms/javacc-maven-plugin.git:786915f8dd3d0ca591ceddaf0250d89b2f1a632a): free
+  114351292 buildSRPMFromSCM (/rpms/javacc-maven-plugin.git:786915f8dd3d0ca591ceddaf0250d89b2f1a632a): free -> assigned
+  114351292 buildSRPMFromSCM (/rpms/javacc-maven-plugin.git:786915f8dd3d0ca591ceddaf0250d89b2f1a632a): assigned -> open (buildvm-a64-21.iad2.fedoraproject.org)
+  114351292 buildSRPMFromSCM (/rpms/javacc-maven-plugin.git:786915f8dd3d0ca591ceddaf0250d89b2f1a632a): open (buildvm-a64-21.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  114135455 buildArch (javacc-maven-plugin-3.0.1-8.fc41.src.rpm, noarch): free
-  114135455 buildArch (javacc-maven-plugin-3.0.1-8.fc41.src.rpm, noarch): free -> assigned
-  114135455 buildArch (javacc-maven-plugin-3.0.1-8.fc41.src.rpm, noarch): assigned -> open (buildvm-s390x-07.s390.fedoraproject.org)
-  114135455 buildArch (javacc-maven-plugin-3.0.1-8.fc41.src.rpm, noarch): open (buildvm-s390x-07.s390.fedoraproject.org) -> closed
+  114351476 buildArch (javacc-maven-plugin-3.0.1-8.fc40.src.rpm, noarch): free
+  114351476 buildArch (javacc-maven-plugin-3.0.1-8.fc40.src.rpm, noarch): free -> assigned
+  114351476 buildArch (javacc-maven-plugin-3.0.1-8.fc40.src.rpm, noarch): assigned -> open (buildvm-ppc64le-12.iad2.fedoraproject.org)
+  114351476 buildArch (javacc-maven-plugin-3.0.1-8.fc40.src.rpm, noarch): open (buildvm-ppc64le-12.iad2.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  114135505 tagBuild (noarch): free
-  114135505 tagBuild (noarch): free -> assigned
-114135333 build (f41-build-side-84507, /rpms/javacc-maven-plugin.git:74fbf0f830d2f7fdf1314152cfee20945a702df4): open (buildhw-x86-04.iad2.fedoraproject.org) -> closed
+  114351538 tagBuild (noarch): free
+  114351538 tagBuild (noarch): free -> closed
   0 free  1 open  3 done  0 failed
-  114135505 tagBuild (noarch): assigned -> closed
+114351234 build (f40-build-side-84857, /rpms/javacc-maven-plugin.git:786915f8dd3d0ca591ceddaf0250d89b2f1a632a): open (buildvm-ppc64le-14.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-114135333 build (f41-build-side-84507, /rpms/javacc-maven-plugin.git:74fbf0f830d2f7fdf1314152cfee20945a702df4) completed successfully
+114351234 build (f40-build-side-84857, /rpms/javacc-maven-plugin.git:786915f8dd3d0ca591ceddaf0250d89b2f1a632a) completed successfully

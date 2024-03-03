@@ -1,28 +1,28 @@
 Cloning into 'jgoodies-looks'...
-[rawhide 478a87b] Rebuilt for java-21-openjdk as system jdk
+[f40 96f42d3] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building jgoodies-looks-2.7.0-11.fc41 for f41-build-side-84507
-Created task: 114136139
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114136139
+Building jgoodies-looks-2.7.0-11.fc40 for f40-build-side-84857
+Created task: 114352413
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114352413
 Watching tasks (this may be safely interrupted)...
-114136139 build (f41-build-side-84507, /rpms/jgoodies-looks.git:478a87b3d04958c17c4737fd21a6a05086aa2242): free
-114136139 build (f41-build-side-84507, /rpms/jgoodies-looks.git:478a87b3d04958c17c4737fd21a6a05086aa2242): free -> assigned
-114136139 build (f41-build-side-84507, /rpms/jgoodies-looks.git:478a87b3d04958c17c4737fd21a6a05086aa2242): assigned -> open (buildvm-x86-25.iad2.fedoraproject.org)
-  114136155 buildSRPMFromSCM (/rpms/jgoodies-looks.git:478a87b3d04958c17c4737fd21a6a05086aa2242): free
-  114136155 buildSRPMFromSCM (/rpms/jgoodies-looks.git:478a87b3d04958c17c4737fd21a6a05086aa2242): free -> assigned
-  114136155 buildSRPMFromSCM (/rpms/jgoodies-looks.git:478a87b3d04958c17c4737fd21a6a05086aa2242): assigned -> open (buildvm-a64-34.iad2.fedoraproject.org)
-  114136176 buildArch (jgoodies-looks-2.7.0-11.fc41.src.rpm, noarch): free
-  114136155 buildSRPMFromSCM (/rpms/jgoodies-looks.git:478a87b3d04958c17c4737fd21a6a05086aa2242): open (buildvm-a64-34.iad2.fedoraproject.org) -> closed
-  1 free  1 open  1 done  0 failed
-  114136176 buildArch (jgoodies-looks-2.7.0-11.fc41.src.rpm, noarch): free -> assigned
-  114136176 buildArch (jgoodies-looks-2.7.0-11.fc41.src.rpm, noarch): assigned -> open (buildvm-ppc64le-22.iad2.fedoraproject.org)
-  114136176 buildArch (jgoodies-looks-2.7.0-11.fc41.src.rpm, noarch): open (buildvm-ppc64le-22.iad2.fedoraproject.org) -> closed
+114352413 build (f40-build-side-84857, /rpms/jgoodies-looks.git:96f42d3409ad6c6d076e69247a318989116bbd72): free
+114352413 build (f40-build-side-84857, /rpms/jgoodies-looks.git:96f42d3409ad6c6d076e69247a318989116bbd72): free -> assigned
+114352413 build (f40-build-side-84857, /rpms/jgoodies-looks.git:96f42d3409ad6c6d076e69247a318989116bbd72): assigned -> open (buildvm-a64-26.iad2.fedoraproject.org)
+  114352432 buildSRPMFromSCM (/rpms/jgoodies-looks.git:96f42d3409ad6c6d076e69247a318989116bbd72): free
+  114352432 buildSRPMFromSCM (/rpms/jgoodies-looks.git:96f42d3409ad6c6d076e69247a318989116bbd72): free -> assigned
+  114352432 buildSRPMFromSCM (/rpms/jgoodies-looks.git:96f42d3409ad6c6d076e69247a318989116bbd72): assigned -> open (buildvm-a64-08.iad2.fedoraproject.org)
+  114352432 buildSRPMFromSCM (/rpms/jgoodies-looks.git:96f42d3409ad6c6d076e69247a318989116bbd72): open (buildvm-a64-08.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  114352510 buildArch (jgoodies-looks-2.7.0-11.fc40.src.rpm, noarch): free
+  114352510 buildArch (jgoodies-looks-2.7.0-11.fc40.src.rpm, noarch): free -> assigned
+  114352510 buildArch (jgoodies-looks-2.7.0-11.fc40.src.rpm, noarch): assigned -> open (buildvm-a64-05.iad2.fedoraproject.org)
+  114352510 buildArch (jgoodies-looks-2.7.0-11.fc40.src.rpm, noarch): open (buildvm-a64-05.iad2.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  114136429 tagBuild (noarch): free
-  114136429 tagBuild (noarch): free -> assigned
-  114136429 tagBuild (noarch): assigned -> closed
+  114352622 tagBuild (noarch): free
+  114352622 tagBuild (noarch): free -> assigned
+  114352622 tagBuild (noarch): assigned -> closed
   0 free  1 open  3 done  0 failed
-114136139 build (f41-build-side-84507, /rpms/jgoodies-looks.git:478a87b3d04958c17c4737fd21a6a05086aa2242): open (buildvm-x86-25.iad2.fedoraproject.org) -> closed
+114352413 build (f40-build-side-84857, /rpms/jgoodies-looks.git:96f42d3409ad6c6d076e69247a318989116bbd72): open (buildvm-a64-26.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-114136139 build (f41-build-side-84507, /rpms/jgoodies-looks.git:478a87b3d04958c17c4737fd21a6a05086aa2242) completed successfully
+114352413 build (f40-build-side-84857, /rpms/jgoodies-looks.git:96f42d3409ad6c6d076e69247a318989116bbd72) completed successfully

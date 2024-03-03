@@ -1,24 +1,28 @@
 Cloning into 'jboss-parent'...
-[rawhide 7854290] Rebuilt for java-21-openjdk as system jdk
+[f40 b4bb1b5] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building jboss-parent-20-21.fc41 for f41-build-side-84507
-Created task: 114135740
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114135740
+Building jboss-parent-20-21.fc40 for f40-build-side-84857
+Created task: 114352023
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114352023
 Watching tasks (this may be safely interrupted)...
-114135740 build (f41-build-side-84507, /rpms/jboss-parent.git:7854290a71e322c9aa94e8edf2ecfacb8bae49ea): free
-114135740 build (f41-build-side-84507, /rpms/jboss-parent.git:7854290a71e322c9aa94e8edf2ecfacb8bae49ea): free -> assigned
-114135740 build (f41-build-side-84507, /rpms/jboss-parent.git:7854290a71e322c9aa94e8edf2ecfacb8bae49ea): assigned -> open (buildvm-a64-37.iad2.fedoraproject.org)
-  114135756 buildSRPMFromSCM (/rpms/jboss-parent.git:7854290a71e322c9aa94e8edf2ecfacb8bae49ea): free
-  114135756 buildSRPMFromSCM (/rpms/jboss-parent.git:7854290a71e322c9aa94e8edf2ecfacb8bae49ea): free -> open (buildvm-a64-15.iad2.fedoraproject.org)
-  114135756 buildSRPMFromSCM (/rpms/jboss-parent.git:7854290a71e322c9aa94e8edf2ecfacb8bae49ea): open (buildvm-a64-15.iad2.fedoraproject.org) -> closed
+114352023 build (f40-build-side-84857, /rpms/jboss-parent.git:b4bb1b58e9644dbc9430cbf09a5e76bea06cd812): free
+114352023 build (f40-build-side-84857, /rpms/jboss-parent.git:b4bb1b58e9644dbc9430cbf09a5e76bea06cd812): free -> assigned
+114352023 build (f40-build-side-84857, /rpms/jboss-parent.git:b4bb1b58e9644dbc9430cbf09a5e76bea06cd812): assigned -> open (buildvm-a64-04.iad2.fedoraproject.org)
+  114352030 buildSRPMFromSCM (/rpms/jboss-parent.git:b4bb1b58e9644dbc9430cbf09a5e76bea06cd812): free
+  114352030 buildSRPMFromSCM (/rpms/jboss-parent.git:b4bb1b58e9644dbc9430cbf09a5e76bea06cd812): free -> assigned
+  114352030 buildSRPMFromSCM (/rpms/jboss-parent.git:b4bb1b58e9644dbc9430cbf09a5e76bea06cd812): assigned -> open (buildvm-a64-31.iad2.fedoraproject.org)
+  114352030 buildSRPMFromSCM (/rpms/jboss-parent.git:b4bb1b58e9644dbc9430cbf09a5e76bea06cd812): open (buildvm-a64-31.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  114135781 buildArch (jboss-parent-20-21.fc41.src.rpm, noarch): open (buildvm-ppc64le-21.iad2.fedoraproject.org)
-  114135781 buildArch (jboss-parent-20-21.fc41.src.rpm, noarch): open (buildvm-ppc64le-21.iad2.fedoraproject.org) -> closed
-  0 free  1 open  2 done  0 failed
-  114135876 tagBuild (noarch): free
-  114135876 tagBuild (noarch): free -> closed
+  114352089 buildArch (jboss-parent-20-21.fc40.src.rpm, noarch): free
+  114352089 buildArch (jboss-parent-20-21.fc40.src.rpm, noarch): free -> assigned
+  114352089 buildArch (jboss-parent-20-21.fc40.src.rpm, noarch): assigned -> open (buildvm-x86-10.iad2.fedoraproject.org)
+  114352151 tagBuild (noarch): free
+  114352089 buildArch (jboss-parent-20-21.fc40.src.rpm, noarch): open (buildvm-x86-10.iad2.fedoraproject.org) -> closed
+  1 free  1 open  2 done  0 failed
+  114352151 tagBuild (noarch): free -> assigned
+  114352151 tagBuild (noarch): assigned -> closed
   0 free  1 open  3 done  0 failed
-114135740 build (f41-build-side-84507, /rpms/jboss-parent.git:7854290a71e322c9aa94e8edf2ecfacb8bae49ea): open (buildvm-a64-37.iad2.fedoraproject.org) -> closed
+114352023 build (f40-build-side-84857, /rpms/jboss-parent.git:b4bb1b58e9644dbc9430cbf09a5e76bea06cd812): open (buildvm-a64-04.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-114135740 build (f41-build-side-84507, /rpms/jboss-parent.git:7854290a71e322c9aa94e8edf2ecfacb8bae49ea) completed successfully
+114352023 build (f40-build-side-84857, /rpms/jboss-parent.git:b4bb1b58e9644dbc9430cbf09a5e76bea06cd812) completed successfully

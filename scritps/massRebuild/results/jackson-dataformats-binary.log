@@ -1,30 +1,4 @@
 Cloning into 'jackson-dataformats-binary'...
-[rawhide 244fe38] Rebuilt for java-21-openjdk as system jdk
- 1 file changed, 4 insertions(+), 1 deletion(-)
-Building jackson-dataformats-binary-2.9.8-16.fc41 for f41-build-side-84507
-Created task: 114134389
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114134389
-Watching tasks (this may be safely interrupted)...
-114134389 build (f41-build-side-84507, /rpms/jackson-dataformats-binary.git:244fe385cff98f84bc86e273521282ea1850ca0d): free
-114134389 build (f41-build-side-84507, /rpms/jackson-dataformats-binary.git:244fe385cff98f84bc86e273521282ea1850ca0d): free -> assigned
-114134389 build (f41-build-side-84507, /rpms/jackson-dataformats-binary.git:244fe385cff98f84bc86e273521282ea1850ca0d): assigned -> open (buildvm-a64-23.iad2.fedoraproject.org)
-  114134402 buildSRPMFromSCM (/rpms/jackson-dataformats-binary.git:244fe385cff98f84bc86e273521282ea1850ca0d): free
-  114134402 buildSRPMFromSCM (/rpms/jackson-dataformats-binary.git:244fe385cff98f84bc86e273521282ea1850ca0d): free -> assigned
-  114134402 buildSRPMFromSCM (/rpms/jackson-dataformats-binary.git:244fe385cff98f84bc86e273521282ea1850ca0d): assigned -> open (buildvm-x86-31.iad2.fedoraproject.org)
-  114134402 buildSRPMFromSCM (/rpms/jackson-dataformats-binary.git:244fe385cff98f84bc86e273521282ea1850ca0d): open (buildvm-x86-31.iad2.fedoraproject.org) -> closed
-  0 free  1 open  1 done  0 failed
-  114134463 buildArch (jackson-dataformats-binary-2.9.8-16.fc41.src.rpm, noarch): free
-  114134463 buildArch (jackson-dataformats-binary-2.9.8-16.fc41.src.rpm, noarch): free -> assigned
-  114134463 buildArch (jackson-dataformats-binary-2.9.8-16.fc41.src.rpm, noarch): assigned -> open (buildvm-ppc64le-05.iad2.fedoraproject.org)
-  114134463 buildArch (jackson-dataformats-binary-2.9.8-16.fc41.src.rpm, noarch): open (buildvm-ppc64le-05.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
-  Relevant logs:
-  https://kojipkgs.fedoraproject.org/work/tasks/4463/114134463/mock_output.log
-  https://kojipkgs.fedoraproject.org/work/tasks/4463/114134463/state.log
-  https://kojipkgs.fedoraproject.org/work/tasks/4463/114134463/build.log
-  https://kojipkgs.fedoraproject.org/work/tasks/4463/114134463/root.log
-  https://kojipkgs.fedoraproject.org/work/tasks/4463/114134463/hw_info.log
-  0 free  1 open  1 done  1 failed
-114134389 build (f41-build-side-84507, /rpms/jackson-dataformats-binary.git:244fe385cff98f84bc86e273521282ea1850ca0d): open (buildvm-a64-23.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
-  0 free  0 open  1 done  2 failed
-
-114134389 build (f41-build-side-84507, /rpms/jackson-dataformats-binary.git:244fe385cff98f84bc86e273521282ea1850ca0d) failed
+This package or module is retired. The action has stopped.
+Note: You can skip NVR construction & NVR check with --skip-nvr-check. See help for more info.
+Could not execute build: Cannot continue without properly constructed NVR.

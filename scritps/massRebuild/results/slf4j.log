@@ -1,29 +1,9 @@
 Cloning into 'slf4j'...
-[rawhide 3cd06c3] Rebuilt for java-21-openjdk as system jdk
+[f40 4046839] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
 Found a gating.yaml file in the repo and it is properly configured
-Building slf4j-1.7.32-12.fc41 for f41-build-side-84507
-Created task: 114141052
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114141052
+Building slf4j-1.7.32-12.fc40 for f40-build-side-84857
+Created task: 114355604
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355604
 Watching tasks (this may be safely interrupted)...
-114141052 build (f41-build-side-84507, /rpms/slf4j.git:3cd06c3ddfd70fdd9b1591124f05ec25ddf2748b): free
-114141052 build (f41-build-side-84507, /rpms/slf4j.git:3cd06c3ddfd70fdd9b1591124f05ec25ddf2748b): free -> assigned
-114141052 build (f41-build-side-84507, /rpms/slf4j.git:3cd06c3ddfd70fdd9b1591124f05ec25ddf2748b): assigned -> open (buildhw-a64-23.iad2.fedoraproject.org)
-  114141143 buildSRPMFromSCM (/rpms/slf4j.git:3cd06c3ddfd70fdd9b1591124f05ec25ddf2748b): free
-  114141143 buildSRPMFromSCM (/rpms/slf4j.git:3cd06c3ddfd70fdd9b1591124f05ec25ddf2748b): free -> assigned
-  114141143 buildSRPMFromSCM (/rpms/slf4j.git:3cd06c3ddfd70fdd9b1591124f05ec25ddf2748b): assigned -> open (buildvm-a64-23.iad2.fedoraproject.org)
-  114141143 buildSRPMFromSCM (/rpms/slf4j.git:3cd06c3ddfd70fdd9b1591124f05ec25ddf2748b): open (buildvm-a64-23.iad2.fedoraproject.org) -> closed
-  0 free  1 open  1 done  0 failed
-  114141229 buildArch (slf4j-1.7.32-12.fc41.src.rpm, noarch): free
-  114141229 buildArch (slf4j-1.7.32-12.fc41.src.rpm, noarch): free -> assigned
-  114141229 buildArch (slf4j-1.7.32-12.fc41.src.rpm, noarch): assigned -> open (buildvm-ppc64le-15.iad2.fedoraproject.org)
-  114141229 buildArch (slf4j-1.7.32-12.fc41.src.rpm, noarch): open (buildvm-ppc64le-15.iad2.fedoraproject.org) -> closed
-  0 free  1 open  2 done  0 failed
-  114141668 tagBuild (noarch): free
-  114141668 tagBuild (noarch): free -> assigned
-  114141668 tagBuild (noarch): assigned -> closed
-  0 free  1 open  3 done  0 failed
-114141052 build (f41-build-side-84507, /rpms/slf4j.git:3cd06c3ddfd70fdd9b1591124f05ec25ddf2748b): open (buildhw-a64-23.iad2.fedoraproject.org) -> closed
-  0 free  0 open  4 done  0 failed
-
-114141052 build (f41-build-side-84507, /rpms/slf4j.git:3cd06c3ddfd70fdd9b1591124f05ec25ddf2748b) completed successfully
+114355604 build (f40-build-side-84857, /rpms/slf4j.git:40468398332d50bcd382406979536a5d58a69402): free

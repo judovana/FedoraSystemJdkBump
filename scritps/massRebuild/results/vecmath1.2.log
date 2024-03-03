@@ -1,28 +1,29 @@
 Cloning into 'vecmath1.2'...
-[rawhide b1901b3] Rebuilt for java-21-openjdk as system jdk
+[f40 f663b79] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
 warning: %patchN is deprecated (2 usages found), use %patch N (or %patch -P N)
 
-Building vecmath1.2-1.14-36.fc41 for f41-build-side-84507
-Created task: 114142211
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114142211
+Building vecmath1.2-1.14-36.fc40 for f40-build-side-84857
+Created task: 114355999
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355999
 Watching tasks (this may be safely interrupted)...
-114142211 build (f41-build-side-84507, /rpms/vecmath1.2.git:b1901b3005f1b3d24cad66016fca8f1dbd2b0ee1): assigned
-114142211 build (f41-build-side-84507, /rpms/vecmath1.2.git:b1901b3005f1b3d24cad66016fca8f1dbd2b0ee1): assigned -> open (buildvm-ppc64le-23.iad2.fedoraproject.org)
-  114142213 buildSRPMFromSCM (/rpms/vecmath1.2.git:b1901b3005f1b3d24cad66016fca8f1dbd2b0ee1): free
-  114142213 buildSRPMFromSCM (/rpms/vecmath1.2.git:b1901b3005f1b3d24cad66016fca8f1dbd2b0ee1): free -> open (buildvm-a64-34.iad2.fedoraproject.org)
-  114142213 buildSRPMFromSCM (/rpms/vecmath1.2.git:b1901b3005f1b3d24cad66016fca8f1dbd2b0ee1): open (buildvm-a64-34.iad2.fedoraproject.org) -> closed
+114355999 build (f40-build-side-84857, /rpms/vecmath1.2.git:f663b7980780be8815e880283023ae4bb20401e1): free
+114355999 build (f40-build-side-84857, /rpms/vecmath1.2.git:f663b7980780be8815e880283023ae4bb20401e1): free -> open (buildvm-x86-25.iad2.fedoraproject.org)
+  114356022 buildSRPMFromSCM (/rpms/vecmath1.2.git:f663b7980780be8815e880283023ae4bb20401e1): free
+  114356022 buildSRPMFromSCM (/rpms/vecmath1.2.git:f663b7980780be8815e880283023ae4bb20401e1): free -> assigned
+  114356022 buildSRPMFromSCM (/rpms/vecmath1.2.git:f663b7980780be8815e880283023ae4bb20401e1): assigned -> open (buildvm-x86-04.iad2.fedoraproject.org)
+  114356022 buildSRPMFromSCM (/rpms/vecmath1.2.git:f663b7980780be8815e880283023ae4bb20401e1): open (buildvm-x86-04.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  114142260 buildArch (vecmath1.2-1.14-36.fc41.src.rpm, noarch): free
-  114142260 buildArch (vecmath1.2-1.14-36.fc41.src.rpm, noarch): free -> assigned
-  114142260 buildArch (vecmath1.2-1.14-36.fc41.src.rpm, noarch): assigned -> open (buildvm-a64-38.iad2.fedoraproject.org)
-  114142260 buildArch (vecmath1.2-1.14-36.fc41.src.rpm, noarch): open (buildvm-a64-38.iad2.fedoraproject.org) -> closed
-  0 free  1 open  2 done  0 failed
-  114142337 tagBuild (noarch): free
-  114142337 tagBuild (noarch): free -> assigned
-  114142337 tagBuild (noarch): assigned -> closed
+  114356075 buildArch (vecmath1.2-1.14-36.fc40.src.rpm, noarch): free
+  114356075 buildArch (vecmath1.2-1.14-36.fc40.src.rpm, noarch): free -> assigned
+  114356075 buildArch (vecmath1.2-1.14-36.fc40.src.rpm, noarch): assigned -> open (buildvm-s390x-03.s390.fedoraproject.org)
+  114356288 tagBuild (noarch): free
+  114356075 buildArch (vecmath1.2-1.14-36.fc40.src.rpm, noarch): open (buildvm-s390x-03.s390.fedoraproject.org) -> closed
+  1 free  1 open  2 done  0 failed
+  114356288 tagBuild (noarch): free -> assigned
+  114356288 tagBuild (noarch): assigned -> closed
   0 free  1 open  3 done  0 failed
-114142211 build (f41-build-side-84507, /rpms/vecmath1.2.git:b1901b3005f1b3d24cad66016fca8f1dbd2b0ee1): open (buildvm-ppc64le-23.iad2.fedoraproject.org) -> closed
+114355999 build (f40-build-side-84857, /rpms/vecmath1.2.git:f663b7980780be8815e880283023ae4bb20401e1): open (buildvm-x86-25.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-114142211 build (f41-build-side-84507, /rpms/vecmath1.2.git:b1901b3005f1b3d24cad66016fca8f1dbd2b0ee1) completed successfully
+114355999 build (f40-build-side-84857, /rpms/vecmath1.2.git:f663b7980780be8815e880283023ae4bb20401e1) completed successfully

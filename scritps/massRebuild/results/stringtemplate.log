@@ -1,31 +1,10 @@
 Cloning into 'stringtemplate'...
-[rawhide 9b0c482] Rebuilt for java-21-openjdk as system jdk
+[f40 40a0ca1] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
 warning: %patchN is deprecated (1 usages found), use %patch N (or %patch -P N)
 
-Building stringtemplate-3.2.1-34.fc41 for f41-build-side-84507
-Created task: 114141224
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114141224
+Building stringtemplate-3.2.1-34.fc40 for f40-build-side-84857
+Created task: 114355609
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355609
 Watching tasks (this may be safely interrupted)...
-114141224 build (f41-build-side-84507, /rpms/stringtemplate.git:9b0c482ccb407c74fd346b72501d13fca0e7e3c7): free
-114141224 build (f41-build-side-84507, /rpms/stringtemplate.git:9b0c482ccb407c74fd346b72501d13fca0e7e3c7): free -> assigned
-114141224 build (f41-build-side-84507, /rpms/stringtemplate.git:9b0c482ccb407c74fd346b72501d13fca0e7e3c7): assigned -> open (buildvm-x86-24.iad2.fedoraproject.org)
-  114141287 buildSRPMFromSCM (/rpms/stringtemplate.git:9b0c482ccb407c74fd346b72501d13fca0e7e3c7): free
-  114141287 buildSRPMFromSCM (/rpms/stringtemplate.git:9b0c482ccb407c74fd346b72501d13fca0e7e3c7): free -> assigned
-  114141287 buildSRPMFromSCM (/rpms/stringtemplate.git:9b0c482ccb407c74fd346b72501d13fca0e7e3c7): assigned -> open (buildvm-x86-12.iad2.fedoraproject.org)
-  114141517 buildArch (stringtemplate-3.2.1-34.fc41.src.rpm, noarch): free
-  114141287 buildSRPMFromSCM (/rpms/stringtemplate.git:9b0c482ccb407c74fd346b72501d13fca0e7e3c7): open (buildvm-x86-12.iad2.fedoraproject.org) -> closed
-  1 free  1 open  1 done  0 failed
-  114141517 buildArch (stringtemplate-3.2.1-34.fc41.src.rpm, noarch): free -> open (buildhw-x86-05.iad2.fedoraproject.org)
-  114141517 buildArch (stringtemplate-3.2.1-34.fc41.src.rpm, noarch): open (buildhw-x86-05.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
-  Relevant logs:
-  https://kojipkgs.fedoraproject.org/work/tasks/1517/114141517/state.log
-  https://kojipkgs.fedoraproject.org/work/tasks/1517/114141517/build.log
-  https://kojipkgs.fedoraproject.org/work/tasks/1517/114141517/root.log
-  https://kojipkgs.fedoraproject.org/work/tasks/1517/114141517/mock_output.log
-  https://kojipkgs.fedoraproject.org/work/tasks/1517/114141517/hw_info.log
-  0 free  1 open  1 done  1 failed
-114141224 build (f41-build-side-84507, /rpms/stringtemplate.git:9b0c482ccb407c74fd346b72501d13fca0e7e3c7): open (buildvm-x86-24.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
-  0 free  0 open  1 done  2 failed
-
-114141224 build (f41-build-side-84507, /rpms/stringtemplate.git:9b0c482ccb407c74fd346b72501d13fca0e7e3c7) failed
+114355609 build (f40-build-side-84857, /rpms/stringtemplate.git:40a0ca185ae84b0dd172c52c0312a178bfc0f82c): free

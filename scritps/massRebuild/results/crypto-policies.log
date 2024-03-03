@@ -1,25 +1,28 @@
 Cloning into 'crypto-policies'...
-[rawhide 8ed2f80] Rebuilt for java-21-openjdk as system jdk
+[f40 5e83b86] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building crypto-policies-20240201-2.git9f501f3.fc41 for f41-build-side-84507
-Created task: 114133048
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114133048
+Building crypto-policies-20240201-2.git9f501f3.fc40 for f40-build-side-84857
+Created task: 114348115
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114348115
 Watching tasks (this may be safely interrupted)...
-114133048 build (f41-build-side-84507, /rpms/crypto-policies.git:8ed2f801c3a452a19e339a334f324aac13412c92): free
-114133048 build (f41-build-side-84507, /rpms/crypto-policies.git:8ed2f801c3a452a19e339a334f324aac13412c92): free -> assigned
-114133048 build (f41-build-side-84507, /rpms/crypto-policies.git:8ed2f801c3a452a19e339a334f324aac13412c92): assigned -> open (buildhw-a64-21.iad2.fedoraproject.org)
-  114133057 buildSRPMFromSCM (/rpms/crypto-policies.git:8ed2f801c3a452a19e339a334f324aac13412c92): free
-  114133057 buildSRPMFromSCM (/rpms/crypto-policies.git:8ed2f801c3a452a19e339a334f324aac13412c92): free -> open (buildvm-a64-33.iad2.fedoraproject.org)
-  114133148 buildArch (crypto-policies-20240201-2.git9f501f3.fc41.src.rpm, noarch): assigned
-  114133057 buildSRPMFromSCM (/rpms/crypto-policies.git:8ed2f801c3a452a19e339a334f324aac13412c92): open (buildvm-a64-33.iad2.fedoraproject.org) -> closed
-  0 free  2 open  1 done  0 failed
-  114133148 buildArch (crypto-policies-20240201-2.git9f501f3.fc41.src.rpm, noarch): assigned -> open (buildvm-x86-20.iad2.fedoraproject.org)
-  114133257 tagBuild (noarch): free
-  114133148 buildArch (crypto-policies-20240201-2.git9f501f3.fc41.src.rpm, noarch): open (buildvm-x86-20.iad2.fedoraproject.org) -> closed
-  1 free  1 open  2 done  0 failed
-  114133257 tagBuild (noarch): free -> closed
+114348115 build (f40-build-side-84857, /rpms/crypto-policies.git:5e83b86bbc3c008d513532a90a000e05888fefc3): free
+114348115 build (f40-build-side-84857, /rpms/crypto-policies.git:5e83b86bbc3c008d513532a90a000e05888fefc3): free -> assigned
+114348115 build (f40-build-side-84857, /rpms/crypto-policies.git:5e83b86bbc3c008d513532a90a000e05888fefc3): assigned -> open (buildvm-x86-16.iad2.fedoraproject.org)
+  114348128 buildSRPMFromSCM (/rpms/crypto-policies.git:5e83b86bbc3c008d513532a90a000e05888fefc3): free
+  114348128 buildSRPMFromSCM (/rpms/crypto-policies.git:5e83b86bbc3c008d513532a90a000e05888fefc3): free -> assigned
+  114348128 buildSRPMFromSCM (/rpms/crypto-policies.git:5e83b86bbc3c008d513532a90a000e05888fefc3): assigned -> open (buildvm-x86-04.iad2.fedoraproject.org)
+  114348128 buildSRPMFromSCM (/rpms/crypto-policies.git:5e83b86bbc3c008d513532a90a000e05888fefc3): open (buildvm-x86-04.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  114348231 buildArch (crypto-policies-20240201-2.git9f501f3.fc40.src.rpm, noarch): free
+  114348231 buildArch (crypto-policies-20240201-2.git9f501f3.fc40.src.rpm, noarch): free -> assigned
+  114348231 buildArch (crypto-policies-20240201-2.git9f501f3.fc40.src.rpm, noarch): assigned -> open (buildvm-x86-05.iad2.fedoraproject.org)
+  114348231 buildArch (crypto-policies-20240201-2.git9f501f3.fc40.src.rpm, noarch): open (buildvm-x86-05.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  114348520 tagBuild (noarch): free
+  114348520 tagBuild (noarch): free -> assigned
+  114348520 tagBuild (noarch): assigned -> closed
   0 free  1 open  3 done  0 failed
-114133048 build (f41-build-side-84507, /rpms/crypto-policies.git:8ed2f801c3a452a19e339a334f324aac13412c92): open (buildhw-a64-21.iad2.fedoraproject.org) -> closed
+114348115 build (f40-build-side-84857, /rpms/crypto-policies.git:5e83b86bbc3c008d513532a90a000e05888fefc3): open (buildvm-x86-16.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-114133048 build (f41-build-side-84507, /rpms/crypto-policies.git:8ed2f801c3a452a19e339a334f324aac13412c92) completed successfully
+114348115 build (f40-build-side-84857, /rpms/crypto-policies.git:5e83b86bbc3c008d513532a90a000e05888fefc3) completed successfully

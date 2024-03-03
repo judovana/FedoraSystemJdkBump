@@ -1,41 +1,39 @@
 Cloning into 'diffoscope'...
 RPMAutoSpec usage detected, not changing the spec file.
-[rawhide e052f12] Rebuilt for java-21-openjdk as system jdk
-Building diffoscope-257-2.fc41 for f41-build-side-84507
-Created task: 114133122
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114133122
+[f40 44fa29c] Rebuilt for java-21-openjdk as system jdk
+Building diffoscope-257-2.fc40 for f40-build-side-84857
+Created task: 114348155
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114348155
 Watching tasks (this may be safely interrupted)...
-114133122 build (f41-build-side-84507, /rpms/diffoscope.git:e052f12d234fdcb90c049c7603485f37a45529ab): free
-114133122 build (f41-build-side-84507, /rpms/diffoscope.git:e052f12d234fdcb90c049c7603485f37a45529ab): free -> open (buildvm-x86-29.iad2.fedoraproject.org)
-  114133154 buildSRPMFromSCM (/rpms/diffoscope.git:e052f12d234fdcb90c049c7603485f37a45529ab): free
-  114133154 buildSRPMFromSCM (/rpms/diffoscope.git:e052f12d234fdcb90c049c7603485f37a45529ab): free -> assigned
-  114133154 buildSRPMFromSCM (/rpms/diffoscope.git:e052f12d234fdcb90c049c7603485f37a45529ab): assigned -> open (buildvm-a64-28.iad2.fedoraproject.org)
-  114133154 buildSRPMFromSCM (/rpms/diffoscope.git:e052f12d234fdcb90c049c7603485f37a45529ab): open (buildvm-a64-28.iad2.fedoraproject.org) -> closed
-  0 free  1 open  1 done  0 failed
-  114133269 buildArch (diffoscope-257-2.fc41.src.rpm, aarch64): free
-  114133271 buildArch (diffoscope-257-2.fc41.src.rpm, s390x): free
-  114133268 buildArch (diffoscope-257-2.fc41.src.rpm, x86_64): free
-  114133270 buildArch (diffoscope-257-2.fc41.src.rpm, ppc64le): free
-  114133269 buildArch (diffoscope-257-2.fc41.src.rpm, aarch64): free -> assigned
-  114133271 buildArch (diffoscope-257-2.fc41.src.rpm, s390x): free -> assigned
-  114133268 buildArch (diffoscope-257-2.fc41.src.rpm, x86_64): free -> assigned
-  114133270 buildArch (diffoscope-257-2.fc41.src.rpm, ppc64le): free -> assigned
-  114133271 buildArch (diffoscope-257-2.fc41.src.rpm, s390x): assigned -> open (buildvm-s390x-07.s390.fedoraproject.org)
-  114133270 buildArch (diffoscope-257-2.fc41.src.rpm, ppc64le): assigned -> open (buildvm-ppc64le-32.iad2.fedoraproject.org)
-  114133268 buildArch (diffoscope-257-2.fc41.src.rpm, x86_64): assigned -> open (buildhw-x86-09.iad2.fedoraproject.org)
-  114133269 buildArch (diffoscope-257-2.fc41.src.rpm, aarch64): assigned -> open (buildvm-a64-35.iad2.fedoraproject.org)
-  114133271 buildArch (diffoscope-257-2.fc41.src.rpm, s390x): open (buildvm-s390x-07.s390.fedoraproject.org) -> closed
+114348155 build (f40-build-side-84857, /rpms/diffoscope.git:44fa29cc5856347e58161ed96fb297c2ae4de667): free
+114348155 build (f40-build-side-84857, /rpms/diffoscope.git:44fa29cc5856347e58161ed96fb297c2ae4de667): free -> assigned
+114348155 build (f40-build-side-84857, /rpms/diffoscope.git:44fa29cc5856347e58161ed96fb297c2ae4de667): assigned -> open (buildvm-x86-14.iad2.fedoraproject.org)
+  114348173 buildSRPMFromSCM (/rpms/diffoscope.git:44fa29cc5856347e58161ed96fb297c2ae4de667): free
+  114348173 buildSRPMFromSCM (/rpms/diffoscope.git:44fa29cc5856347e58161ed96fb297c2ae4de667): free -> assigned
+  114348173 buildSRPMFromSCM (/rpms/diffoscope.git:44fa29cc5856347e58161ed96fb297c2ae4de667): assigned -> open (buildvm-x86-23.iad2.fedoraproject.org)
+  114348302 buildArch (diffoscope-257-2.fc40.src.rpm, s390x): free
+  114348301 buildArch (diffoscope-257-2.fc40.src.rpm, ppc64le): free
+  114348299 buildArch (diffoscope-257-2.fc40.src.rpm, x86_64): free
+  114348300 buildArch (diffoscope-257-2.fc40.src.rpm, aarch64): free
+  114348173 buildSRPMFromSCM (/rpms/diffoscope.git:44fa29cc5856347e58161ed96fb297c2ae4de667): open (buildvm-x86-23.iad2.fedoraproject.org) -> closed
+  4 free  1 open  1 done  0 failed
+  114348302 buildArch (diffoscope-257-2.fc40.src.rpm, s390x): free -> open (buildvm-s390x-09.s390.fedoraproject.org)
+  114348301 buildArch (diffoscope-257-2.fc40.src.rpm, ppc64le): free -> open (buildvm-ppc64le-08.iad2.fedoraproject.org)
+  114348299 buildArch (diffoscope-257-2.fc40.src.rpm, x86_64): free -> open (buildhw-x86-11.iad2.fedoraproject.org)
+  114348300 buildArch (diffoscope-257-2.fc40.src.rpm, aarch64): free -> assigned
+  114348300 buildArch (diffoscope-257-2.fc40.src.rpm, aarch64): assigned -> open (buildvm-a64-05.iad2.fedoraproject.org)
+  114348302 buildArch (diffoscope-257-2.fc40.src.rpm, s390x): open (buildvm-s390x-09.s390.fedoraproject.org) -> closed
   0 free  4 open  2 done  0 failed
-  114133268 buildArch (diffoscope-257-2.fc41.src.rpm, x86_64): open (buildhw-x86-09.iad2.fedoraproject.org) -> closed
+  114348299 buildArch (diffoscope-257-2.fc40.src.rpm, x86_64): open (buildhw-x86-11.iad2.fedoraproject.org) -> closed
   0 free  3 open  3 done  0 failed
-  114133269 buildArch (diffoscope-257-2.fc41.src.rpm, aarch64): open (buildvm-a64-35.iad2.fedoraproject.org) -> closed
+  114348300 buildArch (diffoscope-257-2.fc40.src.rpm, aarch64): open (buildvm-a64-05.iad2.fedoraproject.org) -> closed
   0 free  2 open  4 done  0 failed
-  114133270 buildArch (diffoscope-257-2.fc41.src.rpm, ppc64le): open (buildvm-ppc64le-32.iad2.fedoraproject.org) -> closed
+  114348301 buildArch (diffoscope-257-2.fc40.src.rpm, ppc64le): open (buildvm-ppc64le-08.iad2.fedoraproject.org) -> closed
   0 free  1 open  5 done  0 failed
-  114133733 tagBuild (noarch): assigned
-  114133733 tagBuild (noarch): assigned -> closed
-  0 free  1 open  6 done  0 failed
-114133122 build (f41-build-side-84507, /rpms/diffoscope.git:e052f12d234fdcb90c049c7603485f37a45529ab): open (buildvm-x86-29.iad2.fedoraproject.org) -> closed
+  114348930 tagBuild (noarch): free
+114348155 build (f40-build-side-84857, /rpms/diffoscope.git:44fa29cc5856347e58161ed96fb297c2ae4de667): open (buildvm-x86-14.iad2.fedoraproject.org) -> closed
+  1 free  0 open  6 done  0 failed
+  114348930 tagBuild (noarch): free -> closed
   0 free  0 open  7 done  0 failed
 
-114133122 build (f41-build-side-84507, /rpms/diffoscope.git:e052f12d234fdcb90c049c7603485f37a45529ab) completed successfully
+114348155 build (f40-build-side-84857, /rpms/diffoscope.git:44fa29cc5856347e58161ed96fb297c2ae4de667) completed successfully

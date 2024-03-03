@@ -1,25 +1,27 @@
 Cloning into 'openjdk-asmtools7'...
-[rawhide 1d7bc42] Rebuilt for java-21-openjdk as system jdk
+[f40 f38f16e] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building openjdk-asmtools7-7.0.b10-0.11.20210610.gitf40a2c0.fc41 for f41-build-side-84507
-Created task: 114138909
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114138909
+Building openjdk-asmtools7-7.0.b10-0.11.20210610.gitf40a2c0.fc40 for f40-build-side-84857
+Created task: 114354923
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114354923
 Watching tasks (this may be safely interrupted)...
-114138909 build (f41-build-side-84507, /rpms/openjdk-asmtools7.git:1d7bc4217e0f6e7b124890bf1a3d8f5075e49b60): free
-114138909 build (f41-build-side-84507, /rpms/openjdk-asmtools7.git:1d7bc4217e0f6e7b124890bf1a3d8f5075e49b60): free -> open (buildvm-ppc64le-10.iad2.fedoraproject.org)
-  114138950 buildSRPMFromSCM (/rpms/openjdk-asmtools7.git:1d7bc4217e0f6e7b124890bf1a3d8f5075e49b60): free
-  114138950 buildSRPMFromSCM (/rpms/openjdk-asmtools7.git:1d7bc4217e0f6e7b124890bf1a3d8f5075e49b60): free -> open (buildvm-x86-29.iad2.fedoraproject.org)
-  114138950 buildSRPMFromSCM (/rpms/openjdk-asmtools7.git:1d7bc4217e0f6e7b124890bf1a3d8f5075e49b60): open (buildvm-x86-29.iad2.fedoraproject.org) -> closed
+114354923 build (f40-build-side-84857, /rpms/openjdk-asmtools7.git:f38f16e4a9a07a7c82d7a394a36749efe3962935): free
+114354923 build (f40-build-side-84857, /rpms/openjdk-asmtools7.git:f38f16e4a9a07a7c82d7a394a36749efe3962935): free -> assigned
+114354923 build (f40-build-side-84857, /rpms/openjdk-asmtools7.git:f38f16e4a9a07a7c82d7a394a36749efe3962935): assigned -> open (buildhw-a64-21.iad2.fedoraproject.org)
+  114354941 buildSRPMFromSCM (/rpms/openjdk-asmtools7.git:f38f16e4a9a07a7c82d7a394a36749efe3962935): free
+  114354941 buildSRPMFromSCM (/rpms/openjdk-asmtools7.git:f38f16e4a9a07a7c82d7a394a36749efe3962935): free -> assigned
+  114354941 buildSRPMFromSCM (/rpms/openjdk-asmtools7.git:f38f16e4a9a07a7c82d7a394a36749efe3962935): assigned -> open (buildvm-x86-14.iad2.fedoraproject.org)
+  114354941 buildSRPMFromSCM (/rpms/openjdk-asmtools7.git:f38f16e4a9a07a7c82d7a394a36749efe3962935): open (buildvm-x86-14.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  114139111 buildArch (openjdk-asmtools7-7.0.b10-0.11.20210610.gitf40a2c0.fc41.src.rpm, noarch): free
-  114139111 buildArch (openjdk-asmtools7-7.0.b10-0.11.20210610.gitf40a2c0.fc41.src.rpm, noarch): free -> assigned
-  114139111 buildArch (openjdk-asmtools7-7.0.b10-0.11.20210610.gitf40a2c0.fc41.src.rpm, noarch): assigned -> open (buildvm-x86-17.iad2.fedoraproject.org)
-  114139111 buildArch (openjdk-asmtools7-7.0.b10-0.11.20210610.gitf40a2c0.fc41.src.rpm, noarch): open (buildvm-x86-17.iad2.fedoraproject.org) -> closed
+  114354992 buildArch (openjdk-asmtools7-7.0.b10-0.11.20210610.gitf40a2c0.fc40.src.rpm, noarch): free
+  114354992 buildArch (openjdk-asmtools7-7.0.b10-0.11.20210610.gitf40a2c0.fc40.src.rpm, noarch): free -> open (buildvm-s390x-01.s390.fedoraproject.org)
+  114354992 buildArch (openjdk-asmtools7-7.0.b10-0.11.20210610.gitf40a2c0.fc40.src.rpm, noarch): open (buildvm-s390x-01.s390.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  114139303 tagBuild (noarch): free
-  114139303 tagBuild (noarch): free -> closed
+  114355070 tagBuild (noarch): free
+  114355070 tagBuild (noarch): free -> assigned
+  114355070 tagBuild (noarch): assigned -> closed
   0 free  1 open  3 done  0 failed
-114138909 build (f41-build-side-84507, /rpms/openjdk-asmtools7.git:1d7bc4217e0f6e7b124890bf1a3d8f5075e49b60): open (buildvm-ppc64le-10.iad2.fedoraproject.org) -> closed
+114354923 build (f40-build-side-84857, /rpms/openjdk-asmtools7.git:f38f16e4a9a07a7c82d7a394a36749efe3962935): open (buildhw-a64-21.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-114138909 build (f41-build-side-84507, /rpms/openjdk-asmtools7.git:1d7bc4217e0f6e7b124890bf1a3d8f5075e49b60) completed successfully
+114354923 build (f40-build-side-84857, /rpms/openjdk-asmtools7.git:f38f16e4a9a07a7c82d7a394a36749efe3962935) completed successfully

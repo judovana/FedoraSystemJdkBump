@@ -1,30 +1,31 @@
 Cloning into 'xerces-j2'...
-[rawhide 7ef1e8d] Rebuilt for java-21-openjdk as system jdk
+[f40 b0c18cf] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
 Found a gating.yaml file in the repo and it is properly configured
 warning: %patchN is deprecated (2 usages found), use %patch N (or %patch -P N)
 
-Building xerces-j2-2.12.2-9.fc41 for f41-build-side-84507
-Created task: 114142409
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114142409
+Building xerces-j2-2.12.2-10.fc40 for f40-build-side-84857
+Created task: 114356301
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114356301
 Watching tasks (this may be safely interrupted)...
-114142409 build (f41-build-side-84507, /rpms/xerces-j2.git:7ef1e8d94a8369558a2b3d1ec3f3bacb3889681e): free
-114142409 build (f41-build-side-84507, /rpms/xerces-j2.git:7ef1e8d94a8369558a2b3d1ec3f3bacb3889681e): free -> open (buildvm-a64-20.iad2.fedoraproject.org)
-  114142485 buildSRPMFromSCM (/rpms/xerces-j2.git:7ef1e8d94a8369558a2b3d1ec3f3bacb3889681e): free
-  114142485 buildSRPMFromSCM (/rpms/xerces-j2.git:7ef1e8d94a8369558a2b3d1ec3f3bacb3889681e): free -> assigned
-  114142485 buildSRPMFromSCM (/rpms/xerces-j2.git:7ef1e8d94a8369558a2b3d1ec3f3bacb3889681e): assigned -> open (buildvm-x86-20.iad2.fedoraproject.org)
-  114142485 buildSRPMFromSCM (/rpms/xerces-j2.git:7ef1e8d94a8369558a2b3d1ec3f3bacb3889681e): open (buildvm-x86-20.iad2.fedoraproject.org) -> closed
+114356301 build (f40-build-side-84857, /rpms/xerces-j2.git:b0c18cf9b98b60835e5aca81b56792f3075cc795): free
+114356301 build (f40-build-side-84857, /rpms/xerces-j2.git:b0c18cf9b98b60835e5aca81b56792f3075cc795): free -> assigned
+114356301 build (f40-build-side-84857, /rpms/xerces-j2.git:b0c18cf9b98b60835e5aca81b56792f3075cc795): assigned -> open (buildhw-x86-03.iad2.fedoraproject.org)
+  114356311 buildSRPMFromSCM (/rpms/xerces-j2.git:b0c18cf9b98b60835e5aca81b56792f3075cc795): free
+  114356311 buildSRPMFromSCM (/rpms/xerces-j2.git:b0c18cf9b98b60835e5aca81b56792f3075cc795): free -> assigned
+  114356311 buildSRPMFromSCM (/rpms/xerces-j2.git:b0c18cf9b98b60835e5aca81b56792f3075cc795): assigned -> open (buildvm-a64-07.iad2.fedoraproject.org)
+  114356311 buildSRPMFromSCM (/rpms/xerces-j2.git:b0c18cf9b98b60835e5aca81b56792f3075cc795): open (buildvm-a64-07.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  114142723 buildArch (xerces-j2-2.12.2-9.fc41.src.rpm, noarch): free
-  114142723 buildArch (xerces-j2-2.12.2-9.fc41.src.rpm, noarch): free -> assigned
-  114142723 buildArch (xerces-j2-2.12.2-9.fc41.src.rpm, noarch): assigned -> open (buildvm-s390x-08.s390.fedoraproject.org)
-  114142723 buildArch (xerces-j2-2.12.2-9.fc41.src.rpm, noarch): open (buildvm-s390x-08.s390.fedoraproject.org) -> closed
+  114356402 buildArch (xerces-j2-2.12.2-10.fc40.src.rpm, noarch): free
+  114356402 buildArch (xerces-j2-2.12.2-10.fc40.src.rpm, noarch): free -> assigned
+  114356402 buildArch (xerces-j2-2.12.2-10.fc40.src.rpm, noarch): assigned -> open (buildvm-a64-20.iad2.fedoraproject.org)
+  114356402 buildArch (xerces-j2-2.12.2-10.fc40.src.rpm, noarch): open (buildvm-a64-20.iad2.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  114142933 tagBuild (noarch): free
-  114142933 tagBuild (noarch): free -> assigned
-114142409 build (f41-build-side-84507, /rpms/xerces-j2.git:7ef1e8d94a8369558a2b3d1ec3f3bacb3889681e): open (buildvm-a64-20.iad2.fedoraproject.org) -> closed
+  114356606 tagBuild (noarch): free
+  114356606 tagBuild (noarch): free -> assigned
+  114356606 tagBuild (noarch): assigned -> closed
   0 free  1 open  3 done  0 failed
-  114142933 tagBuild (noarch): assigned -> closed
+114356301 build (f40-build-side-84857, /rpms/xerces-j2.git:b0c18cf9b98b60835e5aca81b56792f3075cc795): open (buildhw-x86-03.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-114142409 build (f41-build-side-84507, /rpms/xerces-j2.git:7ef1e8d94a8369558a2b3d1ec3f3bacb3889681e) completed successfully
+114356301 build (f40-build-side-84857, /rpms/xerces-j2.git:b0c18cf9b98b60835e5aca81b56792f3075cc795) completed successfully

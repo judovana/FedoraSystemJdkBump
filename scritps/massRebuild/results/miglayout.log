@@ -1,28 +1,27 @@
 Cloning into 'miglayout'...
-[rawhide 3ad24c2] Rebuilt for java-21-openjdk as system jdk
+[f40 be2ffbf] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building miglayout-5.0-4.fc41 for f41-build-side-84507
-Created task: 114138217
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114138217
+Building miglayout-5.0-4.fc40 for f40-build-side-84857
+Created task: 114354492
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114354492
 Watching tasks (this may be safely interrupted)...
-114138217 build (f41-build-side-84507, /rpms/miglayout.git:3ad24c200aca0025d5f5bffd17d57b93a9ce9867): free
-114138217 build (f41-build-side-84507, /rpms/miglayout.git:3ad24c200aca0025d5f5bffd17d57b93a9ce9867): free -> assigned
-114138217 build (f41-build-side-84507, /rpms/miglayout.git:3ad24c200aca0025d5f5bffd17d57b93a9ce9867): assigned -> open (buildvm-x86-14.iad2.fedoraproject.org)
-  114138274 buildSRPMFromSCM (/rpms/miglayout.git:3ad24c200aca0025d5f5bffd17d57b93a9ce9867): free
-  114138274 buildSRPMFromSCM (/rpms/miglayout.git:3ad24c200aca0025d5f5bffd17d57b93a9ce9867): free -> assigned
-  114138274 buildSRPMFromSCM (/rpms/miglayout.git:3ad24c200aca0025d5f5bffd17d57b93a9ce9867): assigned -> open (buildvm-x86-18.iad2.fedoraproject.org)
-  114138274 buildSRPMFromSCM (/rpms/miglayout.git:3ad24c200aca0025d5f5bffd17d57b93a9ce9867): open (buildvm-x86-18.iad2.fedoraproject.org) -> closed
+114354492 build (f40-build-side-84857, /rpms/miglayout.git:be2ffbf447609751f1394ac6ea3149455becb76b): free
+114354492 build (f40-build-side-84857, /rpms/miglayout.git:be2ffbf447609751f1394ac6ea3149455becb76b): free -> assigned
+114354492 build (f40-build-side-84857, /rpms/miglayout.git:be2ffbf447609751f1394ac6ea3149455becb76b): assigned -> open (buildvm-s390x-05.s390.fedoraproject.org)
+  114354549 buildSRPMFromSCM (/rpms/miglayout.git:be2ffbf447609751f1394ac6ea3149455becb76b): free
+  114354549 buildSRPMFromSCM (/rpms/miglayout.git:be2ffbf447609751f1394ac6ea3149455becb76b): free -> assigned
+  114354549 buildSRPMFromSCM (/rpms/miglayout.git:be2ffbf447609751f1394ac6ea3149455becb76b): assigned -> open (buildvm-x86-22.iad2.fedoraproject.org)
+  114354549 buildSRPMFromSCM (/rpms/miglayout.git:be2ffbf447609751f1394ac6ea3149455becb76b): open (buildvm-x86-22.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  114138457 buildArch (miglayout-5.0-4.fc41.src.rpm, noarch): free
-  114138457 buildArch (miglayout-5.0-4.fc41.src.rpm, noarch): free -> assigned
-  114138457 buildArch (miglayout-5.0-4.fc41.src.rpm, noarch): assigned -> open (buildvm-a64-17.iad2.fedoraproject.org)
-  114138457 buildArch (miglayout-5.0-4.fc41.src.rpm, noarch): open (buildvm-a64-17.iad2.fedoraproject.org) -> closed
+  114354595 buildArch (miglayout-5.0-4.fc40.src.rpm, noarch): free
+  114354595 buildArch (miglayout-5.0-4.fc40.src.rpm, noarch): free -> assigned
+  114354595 buildArch (miglayout-5.0-4.fc40.src.rpm, noarch): assigned -> open (buildvm-a64-13.iad2.fedoraproject.org)
+  114354595 buildArch (miglayout-5.0-4.fc40.src.rpm, noarch): open (buildvm-a64-13.iad2.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  114138650 tagBuild (noarch): free
-  114138650 tagBuild (noarch): free -> assigned
-  114138650 tagBuild (noarch): assigned -> closed
+  114354652 tagBuild (noarch): free
+  114354652 tagBuild (noarch): free -> closed
   0 free  1 open  3 done  0 failed
-114138217 build (f41-build-side-84507, /rpms/miglayout.git:3ad24c200aca0025d5f5bffd17d57b93a9ce9867): open (buildvm-x86-14.iad2.fedoraproject.org) -> closed
+114354492 build (f40-build-side-84857, /rpms/miglayout.git:be2ffbf447609751f1394ac6ea3149455becb76b): open (buildvm-s390x-05.s390.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-114138217 build (f41-build-side-84507, /rpms/miglayout.git:3ad24c200aca0025d5f5bffd17d57b93a9ce9867) completed successfully
+114354492 build (f40-build-side-84857, /rpms/miglayout.git:be2ffbf447609751f1394ac6ea3149455becb76b) completed successfully

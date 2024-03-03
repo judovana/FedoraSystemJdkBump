@@ -1,28 +1,29 @@
 Cloning into 'atinject'...
-[rawhide 4f78eaf] Rebuilt for java-21-openjdk as system jdk
+[f40 ace2851] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
 Found a gating.yaml file in the repo and it is properly configured
-Building atinject-1.0.5-12.fc41 for f41-build-side-84507
-Created task: 114132043
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114132043
+Building atinject-1.0.5-12.fc40 for f40-build-side-84857
+Created task: 114347350
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114347350
 Watching tasks (this may be safely interrupted)...
-114132043 build (f41-build-side-84507, /rpms/atinject.git:4f78eafa1e14d36e9946df54200c3598d2a35a53): free
-114132043 build (f41-build-side-84507, /rpms/atinject.git:4f78eafa1e14d36e9946df54200c3598d2a35a53): free -> open (buildvm-x86-30.iad2.fedoraproject.org)
-  114132048 buildSRPMFromSCM (/rpms/atinject.git:4f78eafa1e14d36e9946df54200c3598d2a35a53): free
-  114132048 buildSRPMFromSCM (/rpms/atinject.git:4f78eafa1e14d36e9946df54200c3598d2a35a53): free -> assigned
-  114132048 buildSRPMFromSCM (/rpms/atinject.git:4f78eafa1e14d36e9946df54200c3598d2a35a53): assigned -> open (buildvm-a64-15.iad2.fedoraproject.org)
-  114132048 buildSRPMFromSCM (/rpms/atinject.git:4f78eafa1e14d36e9946df54200c3598d2a35a53): open (buildvm-a64-15.iad2.fedoraproject.org) -> closed
+114347350 build (f40-build-side-84857, /rpms/atinject.git:ace28517f6f204ae9586f07faa3687e5f4aa9d2c): free
+114347350 build (f40-build-side-84857, /rpms/atinject.git:ace28517f6f204ae9586f07faa3687e5f4aa9d2c): free -> assigned
+114347350 build (f40-build-side-84857, /rpms/atinject.git:ace28517f6f204ae9586f07faa3687e5f4aa9d2c): assigned -> open (buildvm-x86-32.iad2.fedoraproject.org)
+  114347401 buildSRPMFromSCM (/rpms/atinject.git:ace28517f6f204ae9586f07faa3687e5f4aa9d2c): free
+  114347401 buildSRPMFromSCM (/rpms/atinject.git:ace28517f6f204ae9586f07faa3687e5f4aa9d2c): free -> assigned
+  114347401 buildSRPMFromSCM (/rpms/atinject.git:ace28517f6f204ae9586f07faa3687e5f4aa9d2c): assigned -> open (buildvm-x86-30.iad2.fedoraproject.org)
+  114347401 buildSRPMFromSCM (/rpms/atinject.git:ace28517f6f204ae9586f07faa3687e5f4aa9d2c): open (buildvm-x86-30.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  114132085 buildArch (atinject-1.0.5-12.fc41.src.rpm, noarch): free
-  114132085 buildArch (atinject-1.0.5-12.fc41.src.rpm, noarch): free -> assigned
-  114132085 buildArch (atinject-1.0.5-12.fc41.src.rpm, noarch): assigned -> open (buildvm-s390x-08.s390.fedoraproject.org)
-  114132085 buildArch (atinject-1.0.5-12.fc41.src.rpm, noarch): open (buildvm-s390x-08.s390.fedoraproject.org) -> closed
-  0 free  1 open  2 done  0 failed
-  114132140 tagBuild (noarch): free
-  114132140 tagBuild (noarch): free -> assigned
-  114132140 tagBuild (noarch): assigned -> closed
+  114347462 buildArch (atinject-1.0.5-12.fc40.src.rpm, noarch): free
+  114347462 buildArch (atinject-1.0.5-12.fc40.src.rpm, noarch): free -> assigned
+  114347462 buildArch (atinject-1.0.5-12.fc40.src.rpm, noarch): assigned -> open (buildvm-x86-09.iad2.fedoraproject.org)
+  114347486 tagBuild (noarch): free
+  114347462 buildArch (atinject-1.0.5-12.fc40.src.rpm, noarch): open (buildvm-x86-09.iad2.fedoraproject.org) -> closed
+  1 free  1 open  2 done  0 failed
+  114347486 tagBuild (noarch): free -> assigned
+  114347486 tagBuild (noarch): assigned -> closed
   0 free  1 open  3 done  0 failed
-114132043 build (f41-build-side-84507, /rpms/atinject.git:4f78eafa1e14d36e9946df54200c3598d2a35a53): open (buildvm-x86-30.iad2.fedoraproject.org) -> closed
+114347350 build (f40-build-side-84857, /rpms/atinject.git:ace28517f6f204ae9586f07faa3687e5f4aa9d2c): open (buildvm-x86-32.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-114132043 build (f41-build-side-84507, /rpms/atinject.git:4f78eafa1e14d36e9946df54200c3598d2a35a53) completed successfully
+114347350 build (f40-build-side-84857, /rpms/atinject.git:ace28517f6f204ae9586f07faa3687e5f4aa9d2c) completed successfully

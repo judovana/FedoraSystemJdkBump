@@ -1,28 +1,29 @@
 Cloning into 'felix-utils'...
-[rawhide f01aad5] Rebuilt for java-21-openjdk as system jdk
+[f40 6a03738] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
 Found a gating.yaml file in the repo and it is properly configured
-Building felix-utils-1.11.8-9.fc41 for f41-build-side-84507
-Created task: 114133658
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114133658
+Building felix-utils-1.11.8-9.fc40 for f40-build-side-84857
+Created task: 114348971
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114348971
 Watching tasks (this may be safely interrupted)...
-114133658 build (f41-build-side-84507, /rpms/felix-utils.git:f01aad56923fd7a6d4c66a916860f125853eb71a): free
-114133658 build (f41-build-side-84507, /rpms/felix-utils.git:f01aad56923fd7a6d4c66a916860f125853eb71a): free -> open (buildvm-a64-26.iad2.fedoraproject.org)
-  114133671 buildSRPMFromSCM (/rpms/felix-utils.git:f01aad56923fd7a6d4c66a916860f125853eb71a): free
-  114133671 buildSRPMFromSCM (/rpms/felix-utils.git:f01aad56923fd7a6d4c66a916860f125853eb71a): free -> assigned
-  114133671 buildSRPMFromSCM (/rpms/felix-utils.git:f01aad56923fd7a6d4c66a916860f125853eb71a): assigned -> open (buildvm-x86-20.iad2.fedoraproject.org)
-  114133671 buildSRPMFromSCM (/rpms/felix-utils.git:f01aad56923fd7a6d4c66a916860f125853eb71a): open (buildvm-x86-20.iad2.fedoraproject.org) -> closed
+114348971 build (f40-build-side-84857, /rpms/felix-utils.git:6a03738aba2b5fe779c847a529e535e68c784a23): free
+114348971 build (f40-build-side-84857, /rpms/felix-utils.git:6a03738aba2b5fe779c847a529e535e68c784a23): free -> assigned
+114348971 build (f40-build-side-84857, /rpms/felix-utils.git:6a03738aba2b5fe779c847a529e535e68c784a23): assigned -> open (buildvm-ppc64le-15.iad2.fedoraproject.org)
+  114349048 buildSRPMFromSCM (/rpms/felix-utils.git:6a03738aba2b5fe779c847a529e535e68c784a23): free
+  114349048 buildSRPMFromSCM (/rpms/felix-utils.git:6a03738aba2b5fe779c847a529e535e68c784a23): free -> assigned
+  114349048 buildSRPMFromSCM (/rpms/felix-utils.git:6a03738aba2b5fe779c847a529e535e68c784a23): assigned -> open (buildvm-a64-35.iad2.fedoraproject.org)
+  114349048 buildSRPMFromSCM (/rpms/felix-utils.git:6a03738aba2b5fe779c847a529e535e68c784a23): open (buildvm-a64-35.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  114133827 buildArch (felix-utils-1.11.8-9.fc41.src.rpm, noarch): free
-  114133827 buildArch (felix-utils-1.11.8-9.fc41.src.rpm, noarch): free -> assigned
-  114133827 buildArch (felix-utils-1.11.8-9.fc41.src.rpm, noarch): assigned -> open (buildvm-a64-06.iad2.fedoraproject.org)
-  114133827 buildArch (felix-utils-1.11.8-9.fc41.src.rpm, noarch): open (buildvm-a64-06.iad2.fedoraproject.org) -> closed
-  0 free  1 open  2 done  0 failed
-  114133906 tagBuild (noarch): free
-  114133906 tagBuild (noarch): free -> assigned
-  114133906 tagBuild (noarch): assigned -> closed
+  114349303 buildArch (felix-utils-1.11.8-9.fc40.src.rpm, noarch): free
+  114349303 buildArch (felix-utils-1.11.8-9.fc40.src.rpm, noarch): free -> assigned
+  114349303 buildArch (felix-utils-1.11.8-9.fc40.src.rpm, noarch): assigned -> open (buildvm-ppc64le-11.iad2.fedoraproject.org)
+  114349538 tagBuild (noarch): free
+  114349303 buildArch (felix-utils-1.11.8-9.fc40.src.rpm, noarch): open (buildvm-ppc64le-11.iad2.fedoraproject.org) -> closed
+  1 free  1 open  2 done  0 failed
+  114349538 tagBuild (noarch): free -> assigned
+  114349538 tagBuild (noarch): assigned -> closed
   0 free  1 open  3 done  0 failed
-114133658 build (f41-build-side-84507, /rpms/felix-utils.git:f01aad56923fd7a6d4c66a916860f125853eb71a): open (buildvm-a64-26.iad2.fedoraproject.org) -> closed
+114348971 build (f40-build-side-84857, /rpms/felix-utils.git:6a03738aba2b5fe779c847a529e535e68c784a23): open (buildvm-ppc64le-15.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-114133658 build (f41-build-side-84507, /rpms/felix-utils.git:f01aad56923fd7a6d4c66a916860f125853eb71a) completed successfully
+114348971 build (f40-build-side-84857, /rpms/felix-utils.git:6a03738aba2b5fe779c847a529e535e68c784a23) completed successfully

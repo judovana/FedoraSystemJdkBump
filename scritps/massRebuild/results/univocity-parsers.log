@@ -1,29 +1,31 @@
 Cloning into 'univocity-parsers'...
-[rawhide 672ca5c] Rebuilt for java-21-openjdk as system jdk
+[f40 e671cf5] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
 Found a gating.yaml file in the repo and it is properly configured
-Building univocity-parsers-2.9.1-13.fc41 for f41-build-side-84507
-Created task: 114142189
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114142189
+Building univocity-parsers-2.9.1-13.fc40 for f40-build-side-84857
+Created task: 114355977
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355977
 Watching tasks (this may be safely interrupted)...
-114142189 build (f41-build-side-84507, /rpms/univocity-parsers.git:672ca5c9e77cfb047a895f8d4aed17a47d257174): free
-114142189 build (f41-build-side-84507, /rpms/univocity-parsers.git:672ca5c9e77cfb047a895f8d4aed17a47d257174): free -> assigned
-114142189 build (f41-build-side-84507, /rpms/univocity-parsers.git:672ca5c9e77cfb047a895f8d4aed17a47d257174): assigned -> open (buildvm-ppc64le-15.iad2.fedoraproject.org)
-  114142212 buildSRPMFromSCM (/rpms/univocity-parsers.git:672ca5c9e77cfb047a895f8d4aed17a47d257174): free
-  114142212 buildSRPMFromSCM (/rpms/univocity-parsers.git:672ca5c9e77cfb047a895f8d4aed17a47d257174): free -> assigned
-  114142212 buildSRPMFromSCM (/rpms/univocity-parsers.git:672ca5c9e77cfb047a895f8d4aed17a47d257174): assigned -> open (buildvm-a64-25.iad2.fedoraproject.org)
-  114142212 buildSRPMFromSCM (/rpms/univocity-parsers.git:672ca5c9e77cfb047a895f8d4aed17a47d257174): open (buildvm-a64-25.iad2.fedoraproject.org) -> closed
+114355977 build (f40-build-side-84857, /rpms/univocity-parsers.git:e671cf5e97774825ec7545d581920591f47f8109): free
+114355977 build (f40-build-side-84857, /rpms/univocity-parsers.git:e671cf5e97774825ec7545d581920591f47f8109): free -> assigned
+114355977 build (f40-build-side-84857, /rpms/univocity-parsers.git:e671cf5e97774825ec7545d581920591f47f8109): assigned -> open (buildvm-a64-07.iad2.fedoraproject.org)
+  114355996 buildSRPMFromSCM (/rpms/univocity-parsers.git:e671cf5e97774825ec7545d581920591f47f8109): free
+  114355996 buildSRPMFromSCM (/rpms/univocity-parsers.git:e671cf5e97774825ec7545d581920591f47f8109): free -> assigned
+  114355996 buildSRPMFromSCM (/rpms/univocity-parsers.git:e671cf5e97774825ec7545d581920591f47f8109): assigned -> open (buildvm-a64-32.iad2.fedoraproject.org)
+  114355996 buildSRPMFromSCM (/rpms/univocity-parsers.git:e671cf5e97774825ec7545d581920591f47f8109): open (buildvm-a64-32.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  114142259 buildArch (univocity-parsers-2.9.1-13.fc41.src.rpm, noarch): free
-  114142259 buildArch (univocity-parsers-2.9.1-13.fc41.src.rpm, noarch): free -> assigned
-  114142259 buildArch (univocity-parsers-2.9.1-13.fc41.src.rpm, noarch): assigned -> open (buildvm-x86-06.iad2.fedoraproject.org)
-  114142259 buildArch (univocity-parsers-2.9.1-13.fc41.src.rpm, noarch): open (buildvm-x86-06.iad2.fedoraproject.org) -> closed
+  114356038 buildArch (univocity-parsers-2.9.1-13.fc40.src.rpm, noarch): free
+  114356038 buildArch (univocity-parsers-2.9.1-13.fc40.src.rpm, noarch): free -> assigned
+  114356038 buildArch (univocity-parsers-2.9.1-13.fc40.src.rpm, noarch): assigned -> free
+  114356038 buildArch (univocity-parsers-2.9.1-13.fc40.src.rpm, noarch): free -> assigned
+  114356038 buildArch (univocity-parsers-2.9.1-13.fc40.src.rpm, noarch): assigned -> open (buildvm-ppc64le-29.iad2.fedoraproject.org)
+  114356038 buildArch (univocity-parsers-2.9.1-13.fc40.src.rpm, noarch): open (buildvm-ppc64le-29.iad2.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  114142336 tagBuild (noarch): free
-  114142336 tagBuild (noarch): free -> assigned
-  114142336 tagBuild (noarch): assigned -> closed
+  114356775 tagBuild (noarch): free
+  114356775 tagBuild (noarch): free -> assigned
+  114356775 tagBuild (noarch): assigned -> closed
   0 free  1 open  3 done  0 failed
-114142189 build (f41-build-side-84507, /rpms/univocity-parsers.git:672ca5c9e77cfb047a895f8d4aed17a47d257174): open (buildvm-ppc64le-15.iad2.fedoraproject.org) -> closed
+114355977 build (f40-build-side-84857, /rpms/univocity-parsers.git:e671cf5e97774825ec7545d581920591f47f8109): open (buildvm-a64-07.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-114142189 build (f41-build-side-84507, /rpms/univocity-parsers.git:672ca5c9e77cfb047a895f8d4aed17a47d257174) completed successfully
+114355977 build (f40-build-side-84857, /rpms/univocity-parsers.git:e671cf5e97774825ec7545d581920591f47f8109) completed successfully

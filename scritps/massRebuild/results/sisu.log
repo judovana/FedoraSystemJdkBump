@@ -1,31 +1,11 @@
 Cloning into 'sisu'...
-[rawhide 27ddcd5] Rebuilt for java-21-openjdk as system jdk
+[f40 f6676e1] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
 Found a gating.yaml file in the repo and it is properly configured
 warning: %patchN is deprecated (4 usages found), use %patch N (or %patch -P N)
 
-Building sisu-0.3.5-13.fc41 for f41-build-side-84507
-Created task: 114140925
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114140925
+Building sisu-0.3.5-13.fc40 for f40-build-side-84857
+Created task: 114355602
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355602
 Watching tasks (this may be safely interrupted)...
-114140925 build (f41-build-side-84507, /rpms/sisu.git:27ddcd55feb08fe4dbbf0c75adc5b67e00d12e2c): free
-114140925 build (f41-build-side-84507, /rpms/sisu.git:27ddcd55feb08fe4dbbf0c75adc5b67e00d12e2c): free -> assigned
-114140925 build (f41-build-side-84507, /rpms/sisu.git:27ddcd55feb08fe4dbbf0c75adc5b67e00d12e2c): assigned -> open (buildvm-ppc64le-03.iad2.fedoraproject.org)
-  114141053 buildSRPMFromSCM (/rpms/sisu.git:27ddcd55feb08fe4dbbf0c75adc5b67e00d12e2c): free
-  114141053 buildSRPMFromSCM (/rpms/sisu.git:27ddcd55feb08fe4dbbf0c75adc5b67e00d12e2c): free -> assigned
-  114141053 buildSRPMFromSCM (/rpms/sisu.git:27ddcd55feb08fe4dbbf0c75adc5b67e00d12e2c): assigned -> open (buildvm-a64-35.iad2.fedoraproject.org)
-  114141053 buildSRPMFromSCM (/rpms/sisu.git:27ddcd55feb08fe4dbbf0c75adc5b67e00d12e2c): open (buildvm-a64-35.iad2.fedoraproject.org) -> closed
-  0 free  1 open  1 done  0 failed
-  114141218 buildArch (sisu-0.3.5-13.fc41.src.rpm, noarch): free
-  114141218 buildArch (sisu-0.3.5-13.fc41.src.rpm, noarch): free -> assigned
-  114141218 buildArch (sisu-0.3.5-13.fc41.src.rpm, noarch): assigned -> open (buildvm-x86-30.iad2.fedoraproject.org)
-  114141302 tagBuild (noarch): free
-  114141218 buildArch (sisu-0.3.5-13.fc41.src.rpm, noarch): open (buildvm-x86-30.iad2.fedoraproject.org) -> closed
-  1 free  1 open  2 done  0 failed
-  114141302 tagBuild (noarch): free -> assigned
-  114141302 tagBuild (noarch): assigned -> closed
-  0 free  1 open  3 done  0 failed
-114140925 build (f41-build-side-84507, /rpms/sisu.git:27ddcd55feb08fe4dbbf0c75adc5b67e00d12e2c): open (buildvm-ppc64le-03.iad2.fedoraproject.org) -> closed
-  0 free  0 open  4 done  0 failed
-
-114140925 build (f41-build-side-84507, /rpms/sisu.git:27ddcd55feb08fe4dbbf0c75adc5b67e00d12e2c) completed successfully
+114355602 build (f40-build-side-84857, /rpms/sisu.git:f6676e1155582225138ca45a97067f82e5ba463c): free

@@ -1,28 +1,28 @@
 Cloning into 'exec-maven-plugin'...
-[rawhide dbb2ac5] Rebuilt for java-21-openjdk as system jdk
+[f40 aaf956e] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building exec-maven-plugin-3.2.0-2.fc41 for f41-build-side-84507
-Created task: 114133483
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114133483
+Building exec-maven-plugin-3.1.1-4.fc40 for f40-build-side-84857
+Created task: 114348806
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114348806
 Watching tasks (this may be safely interrupted)...
-114133483 build (f41-build-side-84507, /rpms/exec-maven-plugin.git:dbb2ac5532619d72f9ada6cf168ed9c7ac0e9073): free
-114133483 build (f41-build-side-84507, /rpms/exec-maven-plugin.git:dbb2ac5532619d72f9ada6cf168ed9c7ac0e9073): free -> assigned
-114133483 build (f41-build-side-84507, /rpms/exec-maven-plugin.git:dbb2ac5532619d72f9ada6cf168ed9c7ac0e9073): assigned -> open (buildhw-x86-13.iad2.fedoraproject.org)
-  114133548 buildSRPMFromSCM (/rpms/exec-maven-plugin.git:dbb2ac5532619d72f9ada6cf168ed9c7ac0e9073): free
-  114133548 buildSRPMFromSCM (/rpms/exec-maven-plugin.git:dbb2ac5532619d72f9ada6cf168ed9c7ac0e9073): free -> assigned
-  114133548 buildSRPMFromSCM (/rpms/exec-maven-plugin.git:dbb2ac5532619d72f9ada6cf168ed9c7ac0e9073): assigned -> open (buildvm-a64-39.iad2.fedoraproject.org)
-  114133548 buildSRPMFromSCM (/rpms/exec-maven-plugin.git:dbb2ac5532619d72f9ada6cf168ed9c7ac0e9073): open (buildvm-a64-39.iad2.fedoraproject.org) -> closed
+114348806 build (f40-build-side-84857, /rpms/exec-maven-plugin.git:aaf956e00dd686c5aec3f8bc6213489f9d8aeeed): free
+114348806 build (f40-build-side-84857, /rpms/exec-maven-plugin.git:aaf956e00dd686c5aec3f8bc6213489f9d8aeeed): free -> open (buildvm-ppc64le-05.iad2.fedoraproject.org)
+  114348815 buildSRPMFromSCM (/rpms/exec-maven-plugin.git:aaf956e00dd686c5aec3f8bc6213489f9d8aeeed): free
+  114348815 buildSRPMFromSCM (/rpms/exec-maven-plugin.git:aaf956e00dd686c5aec3f8bc6213489f9d8aeeed): free -> open (buildvm-x86-19.iad2.fedoraproject.org)
+  114348815 buildSRPMFromSCM (/rpms/exec-maven-plugin.git:aaf956e00dd686c5aec3f8bc6213489f9d8aeeed): open (buildvm-x86-19.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  114133694 buildArch (exec-maven-plugin-3.2.0-2.fc41.src.rpm, noarch): free
-  114133694 buildArch (exec-maven-plugin-3.2.0-2.fc41.src.rpm, noarch): free -> assigned
-  114133694 buildArch (exec-maven-plugin-3.2.0-2.fc41.src.rpm, noarch): assigned -> open (buildhw-x86-02.iad2.fedoraproject.org)
-  114133694 buildArch (exec-maven-plugin-3.2.0-2.fc41.src.rpm, noarch): open (buildhw-x86-02.iad2.fedoraproject.org) -> closed
-  0 free  1 open  2 done  0 failed
-  114133837 tagBuild (noarch): free
-  114133837 tagBuild (noarch): free -> assigned
-  114133837 tagBuild (noarch): assigned -> closed
-  0 free  1 open  3 done  0 failed
-114133483 build (f41-build-side-84507, /rpms/exec-maven-plugin.git:dbb2ac5532619d72f9ada6cf168ed9c7ac0e9073): open (buildhw-x86-13.iad2.fedoraproject.org) -> closed
-  0 free  0 open  4 done  0 failed
+  114348945 buildArch (exec-maven-plugin-3.1.1-4.fc40.src.rpm, noarch): free
+  114348945 buildArch (exec-maven-plugin-3.1.1-4.fc40.src.rpm, noarch): free -> assigned
+  114348945 buildArch (exec-maven-plugin-3.1.1-4.fc40.src.rpm, noarch): assigned -> open (buildvm-ppc64le-08.iad2.fedoraproject.org)
+114348806 build (f40-build-side-84857, /rpms/exec-maven-plugin.git:aaf956e00dd686c5aec3f8bc6213489f9d8aeeed): open (buildvm-ppc64le-05.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
+  0 free  1 open  1 done  1 failed
+  114348945 buildArch (exec-maven-plugin-3.1.1-4.fc40.src.rpm, noarch): open (buildvm-ppc64le-08.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
+  Relevant logs:
+  https://kojipkgs.fedoraproject.org/work/tasks/8945/114348945/mock_output.log
+  https://kojipkgs.fedoraproject.org/work/tasks/8945/114348945/state.log
+  https://kojipkgs.fedoraproject.org/work/tasks/8945/114348945/build.log
+  https://kojipkgs.fedoraproject.org/work/tasks/8945/114348945/root.log
+  https://kojipkgs.fedoraproject.org/work/tasks/8945/114348945/hw_info.log
+  0 free  0 open  1 done  2 failed
 
-114133483 build (f41-build-side-84507, /rpms/exec-maven-plugin.git:dbb2ac5532619d72f9ada6cf168ed9c7ac0e9073) completed successfully
+114348806 build (f40-build-side-84857, /rpms/exec-maven-plugin.git:aaf956e00dd686c5aec3f8bc6213489f9d8aeeed) failed

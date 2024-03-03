@@ -1,30 +1,28 @@
 Cloning into 'jneuroml-core'...
-[rawhide ec934ae] Rebuilt for java-21-openjdk as system jdk
+[f40 b97d9f9] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building jneuroml-core-1.6.1-14.fc41 for f41-build-side-84507
-Created task: 114136209
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114136209
+Building jneuroml-core-1.6.1-14.fc40 for f40-build-side-84857
+Created task: 114352556
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114352556
 Watching tasks (this may be safely interrupted)...
-114136209 build (f41-build-side-84507, /rpms/jneuroml-core.git:ec934ae6ae6a311afe220d1daf82dc43ea9bb3ce): free
-114136209 build (f41-build-side-84507, /rpms/jneuroml-core.git:ec934ae6ae6a311afe220d1daf82dc43ea9bb3ce): free -> assigned
-114136209 build (f41-build-side-84507, /rpms/jneuroml-core.git:ec934ae6ae6a311afe220d1daf82dc43ea9bb3ce): assigned -> open (buildvm-x86-21.iad2.fedoraproject.org)
-  114136211 buildSRPMFromSCM (/rpms/jneuroml-core.git:ec934ae6ae6a311afe220d1daf82dc43ea9bb3ce): free
-  114136211 buildSRPMFromSCM (/rpms/jneuroml-core.git:ec934ae6ae6a311afe220d1daf82dc43ea9bb3ce): free -> assigned
-  114136211 buildSRPMFromSCM (/rpms/jneuroml-core.git:ec934ae6ae6a311afe220d1daf82dc43ea9bb3ce): assigned -> open (buildvm-a64-26.iad2.fedoraproject.org)
-  114136211 buildSRPMFromSCM (/rpms/jneuroml-core.git:ec934ae6ae6a311afe220d1daf82dc43ea9bb3ce): open (buildvm-a64-26.iad2.fedoraproject.org) -> closed
+114352556 build (f40-build-side-84857, /rpms/jneuroml-core.git:b97d9f9851a3a515afa1401d31ec9648f9f43f96): free
+114352556 build (f40-build-side-84857, /rpms/jneuroml-core.git:b97d9f9851a3a515afa1401d31ec9648f9f43f96): free -> assigned
+114352556 build (f40-build-side-84857, /rpms/jneuroml-core.git:b97d9f9851a3a515afa1401d31ec9648f9f43f96): assigned -> open (buildvm-a64-34.iad2.fedoraproject.org)
+  114352598 buildSRPMFromSCM (/rpms/jneuroml-core.git:b97d9f9851a3a515afa1401d31ec9648f9f43f96): free
+  114352598 buildSRPMFromSCM (/rpms/jneuroml-core.git:b97d9f9851a3a515afa1401d31ec9648f9f43f96): free -> assigned
+  114352598 buildSRPMFromSCM (/rpms/jneuroml-core.git:b97d9f9851a3a515afa1401d31ec9648f9f43f96): assigned -> open (buildvm-a64-40.iad2.fedoraproject.org)
+  114352598 buildSRPMFromSCM (/rpms/jneuroml-core.git:b97d9f9851a3a515afa1401d31ec9648f9f43f96): open (buildvm-a64-40.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  114136382 buildArch (jneuroml-core-1.6.1-14.fc41.src.rpm, noarch): free
-  114136382 buildArch (jneuroml-core-1.6.1-14.fc41.src.rpm, noarch): free -> assigned
-  114136382 buildArch (jneuroml-core-1.6.1-14.fc41.src.rpm, noarch): assigned -> free
-  114136382 buildArch (jneuroml-core-1.6.1-14.fc41.src.rpm, noarch): free -> assigned
-  114136382 buildArch (jneuroml-core-1.6.1-14.fc41.src.rpm, noarch): assigned -> open (buildvm-a64-25.iad2.fedoraproject.org)
-  114136382 buildArch (jneuroml-core-1.6.1-14.fc41.src.rpm, noarch): open (buildvm-a64-25.iad2.fedoraproject.org) -> closed
+  114352673 buildArch (jneuroml-core-1.6.1-14.fc40.src.rpm, noarch): free
+  114352673 buildArch (jneuroml-core-1.6.1-14.fc40.src.rpm, noarch): free -> assigned
+  114352673 buildArch (jneuroml-core-1.6.1-14.fc40.src.rpm, noarch): assigned -> open (buildhw-x86-11.iad2.fedoraproject.org)
+  114352673 buildArch (jneuroml-core-1.6.1-14.fc40.src.rpm, noarch): open (buildhw-x86-11.iad2.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  114136696 tagBuild (noarch): free
-  114136696 tagBuild (noarch): free -> assigned
-114136209 build (f41-build-side-84507, /rpms/jneuroml-core.git:ec934ae6ae6a311afe220d1daf82dc43ea9bb3ce): open (buildvm-x86-21.iad2.fedoraproject.org) -> closed
+  114352705 tagBuild (noarch): free
+  114352705 tagBuild (noarch): free -> assigned
+  114352705 tagBuild (noarch): assigned -> closed
   0 free  1 open  3 done  0 failed
-  114136696 tagBuild (noarch): assigned -> closed
+114352556 build (f40-build-side-84857, /rpms/jneuroml-core.git:b97d9f9851a3a515afa1401d31ec9648f9f43f96): open (buildvm-a64-34.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-114136209 build (f41-build-side-84507, /rpms/jneuroml-core.git:ec934ae6ae6a311afe220d1daf82dc43ea9bb3ce) completed successfully
+114352556 build (f40-build-side-84857, /rpms/jneuroml-core.git:b97d9f9851a3a515afa1401d31ec9648f9f43f96) completed successfully

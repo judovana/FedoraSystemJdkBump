@@ -1,28 +1,27 @@
 Cloning into 'jsch-agent-proxy'...
-[rawhide 28dad08] Rebuilt for java-21-openjdk as system jdk
+[f40 b2cdfa7] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building jsch-agent-proxy-0.0.8-25.fc41 for f41-build-side-84507
-Created task: 114136428
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114136428
+Building jsch-agent-proxy-0.0.8-25.fc40 for f40-build-side-84857
+Created task: 114352698
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114352698
 Watching tasks (this may be safely interrupted)...
-114136428 build (f41-build-side-84507, /rpms/jsch-agent-proxy.git:28dad08270b83ed4f21b09e97c4e224d38f1b75a): free
-114136428 build (f41-build-side-84507, /rpms/jsch-agent-proxy.git:28dad08270b83ed4f21b09e97c4e224d38f1b75a): free -> assigned
-114136428 build (f41-build-side-84507, /rpms/jsch-agent-proxy.git:28dad08270b83ed4f21b09e97c4e224d38f1b75a): assigned -> open (buildvm-x86-31.iad2.fedoraproject.org)
-  114136458 buildSRPMFromSCM (/rpms/jsch-agent-proxy.git:28dad08270b83ed4f21b09e97c4e224d38f1b75a): free
-  114136458 buildSRPMFromSCM (/rpms/jsch-agent-proxy.git:28dad08270b83ed4f21b09e97c4e224d38f1b75a): free -> assigned
-  114136458 buildSRPMFromSCM (/rpms/jsch-agent-proxy.git:28dad08270b83ed4f21b09e97c4e224d38f1b75a): assigned -> open (buildvm-a64-10.iad2.fedoraproject.org)
-  114136458 buildSRPMFromSCM (/rpms/jsch-agent-proxy.git:28dad08270b83ed4f21b09e97c4e224d38f1b75a): open (buildvm-a64-10.iad2.fedoraproject.org) -> closed
+114352698 build (f40-build-side-84857, /rpms/jsch-agent-proxy.git:b2cdfa75496818fa8ca346895a20aeeb5022cdf6): free
+114352698 build (f40-build-side-84857, /rpms/jsch-agent-proxy.git:b2cdfa75496818fa8ca346895a20aeeb5022cdf6): free -> assigned
+114352698 build (f40-build-side-84857, /rpms/jsch-agent-proxy.git:b2cdfa75496818fa8ca346895a20aeeb5022cdf6): assigned -> open (buildvm-s390x-01.s390.fedoraproject.org)
+  114352702 buildSRPMFromSCM (/rpms/jsch-agent-proxy.git:b2cdfa75496818fa8ca346895a20aeeb5022cdf6): free
+  114352702 buildSRPMFromSCM (/rpms/jsch-agent-proxy.git:b2cdfa75496818fa8ca346895a20aeeb5022cdf6): free -> assigned
+  114352702 buildSRPMFromSCM (/rpms/jsch-agent-proxy.git:b2cdfa75496818fa8ca346895a20aeeb5022cdf6): assigned -> open (buildvm-a64-17.iad2.fedoraproject.org)
+  114352702 buildSRPMFromSCM (/rpms/jsch-agent-proxy.git:b2cdfa75496818fa8ca346895a20aeeb5022cdf6): open (buildvm-a64-17.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  114136511 buildArch (jsch-agent-proxy-0.0.8-25.fc41.src.rpm, noarch): free
-  114136511 buildArch (jsch-agent-proxy-0.0.8-25.fc41.src.rpm, noarch): free -> assigned
-  114136511 buildArch (jsch-agent-proxy-0.0.8-25.fc41.src.rpm, noarch): assigned -> open (buildvm-s390x-04.s390.fedoraproject.org)
-  114136511 buildArch (jsch-agent-proxy-0.0.8-25.fc41.src.rpm, noarch): open (buildvm-s390x-04.s390.fedoraproject.org) -> closed
+  114352728 buildArch (jsch-agent-proxy-0.0.8-25.fc40.src.rpm, noarch): free
+  114352728 buildArch (jsch-agent-proxy-0.0.8-25.fc40.src.rpm, noarch): free -> open (buildvm-s390x-01.s390.fedoraproject.org)
+  114352728 buildArch (jsch-agent-proxy-0.0.8-25.fc40.src.rpm, noarch): open (buildvm-s390x-01.s390.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  114136651 tagBuild (noarch): free
-  114136651 tagBuild (noarch): free -> assigned
-114136428 build (f41-build-side-84507, /rpms/jsch-agent-proxy.git:28dad08270b83ed4f21b09e97c4e224d38f1b75a): open (buildvm-x86-31.iad2.fedoraproject.org) -> closed
+  114352818 tagBuild (noarch): free
+  114352818 tagBuild (noarch): free -> assigned
+  114352818 tagBuild (noarch): assigned -> closed
   0 free  1 open  3 done  0 failed
-  114136651 tagBuild (noarch): assigned -> closed
+114352698 build (f40-build-side-84857, /rpms/jsch-agent-proxy.git:b2cdfa75496818fa8ca346895a20aeeb5022cdf6): open (buildvm-s390x-01.s390.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-114136428 build (f41-build-side-84507, /rpms/jsch-agent-proxy.git:28dad08270b83ed4f21b09e97c4e224d38f1b75a) completed successfully
+114352698 build (f40-build-side-84857, /rpms/jsch-agent-proxy.git:b2cdfa75496818fa8ca346895a20aeeb5022cdf6) completed successfully

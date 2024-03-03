@@ -1,28 +1,27 @@
 Cloning into 'jackson-jaxrs-providers'...
-[rawhide ecd0cce] Rebuilt for java-21-openjdk as system jdk
+[f40 f0170f2] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building jackson-jaxrs-providers-2.16.1-3.fc41 for f41-build-side-84507
-Created task: 114134401
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114134401
+Building jackson-jaxrs-providers-2.16.1-3.fc40 for f40-build-side-84857
+Created task: 114350429
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114350429
 Watching tasks (this may be safely interrupted)...
-114134401 build (f41-build-side-84507, /rpms/jackson-jaxrs-providers.git:ecd0cce7a810cc3945562e33fa263a2bca05bc54): free
-114134401 build (f41-build-side-84507, /rpms/jackson-jaxrs-providers.git:ecd0cce7a810cc3945562e33fa263a2bca05bc54): free -> assigned
-114134401 build (f41-build-side-84507, /rpms/jackson-jaxrs-providers.git:ecd0cce7a810cc3945562e33fa263a2bca05bc54): assigned -> open (buildhw-x86-12.iad2.fedoraproject.org)
-  114134429 buildSRPMFromSCM (/rpms/jackson-jaxrs-providers.git:ecd0cce7a810cc3945562e33fa263a2bca05bc54): free
-  114134429 buildSRPMFromSCM (/rpms/jackson-jaxrs-providers.git:ecd0cce7a810cc3945562e33fa263a2bca05bc54): free -> assigned
-  114134429 buildSRPMFromSCM (/rpms/jackson-jaxrs-providers.git:ecd0cce7a810cc3945562e33fa263a2bca05bc54): assigned -> open (buildvm-a64-39.iad2.fedoraproject.org)
-  114134429 buildSRPMFromSCM (/rpms/jackson-jaxrs-providers.git:ecd0cce7a810cc3945562e33fa263a2bca05bc54): open (buildvm-a64-39.iad2.fedoraproject.org) -> closed
+114350429 build (f40-build-side-84857, /rpms/jackson-jaxrs-providers.git:f0170f27258c654a27be91a1faa542c5be36bb43): free
+114350429 build (f40-build-side-84857, /rpms/jackson-jaxrs-providers.git:f0170f27258c654a27be91a1faa542c5be36bb43): free -> open (buildvm-ppc64le-21.iad2.fedoraproject.org)
+  114350445 buildSRPMFromSCM (/rpms/jackson-jaxrs-providers.git:f0170f27258c654a27be91a1faa542c5be36bb43): free
+  114350445 buildSRPMFromSCM (/rpms/jackson-jaxrs-providers.git:f0170f27258c654a27be91a1faa542c5be36bb43): free -> assigned
+  114350445 buildSRPMFromSCM (/rpms/jackson-jaxrs-providers.git:f0170f27258c654a27be91a1faa542c5be36bb43): assigned -> open (buildvm-x86-06.iad2.fedoraproject.org)
+  114350445 buildSRPMFromSCM (/rpms/jackson-jaxrs-providers.git:f0170f27258c654a27be91a1faa542c5be36bb43): open (buildvm-x86-06.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  114134528 buildArch (jackson-jaxrs-providers-2.16.1-3.fc41.src.rpm, noarch): free
-  114134528 buildArch (jackson-jaxrs-providers-2.16.1-3.fc41.src.rpm, noarch): free -> assigned
-  114134528 buildArch (jackson-jaxrs-providers-2.16.1-3.fc41.src.rpm, noarch): assigned -> open (buildvm-s390x-02.s390.fedoraproject.org)
-  114134528 buildArch (jackson-jaxrs-providers-2.16.1-3.fc41.src.rpm, noarch): open (buildvm-s390x-02.s390.fedoraproject.org) -> closed
+  114350605 buildArch (jackson-jaxrs-providers-2.16.1-3.fc40.src.rpm, noarch): free
+  114350605 buildArch (jackson-jaxrs-providers-2.16.1-3.fc40.src.rpm, noarch): free -> assigned
+  114350605 buildArch (jackson-jaxrs-providers-2.16.1-3.fc40.src.rpm, noarch): assigned -> open (buildvm-s390x-05.s390.fedoraproject.org)
+  114350605 buildArch (jackson-jaxrs-providers-2.16.1-3.fc40.src.rpm, noarch): open (buildvm-s390x-05.s390.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  114134569 tagBuild (noarch): free
-  114134569 tagBuild (noarch): free -> assigned
-114134401 build (f41-build-side-84507, /rpms/jackson-jaxrs-providers.git:ecd0cce7a810cc3945562e33fa263a2bca05bc54): open (buildhw-x86-12.iad2.fedoraproject.org) -> closed
+  114350666 tagBuild (noarch): free
+  114350666 tagBuild (noarch): free -> assigned
+  114350666 tagBuild (noarch): assigned -> closed
   0 free  1 open  3 done  0 failed
-  114134569 tagBuild (noarch): assigned -> closed
+114350429 build (f40-build-side-84857, /rpms/jackson-jaxrs-providers.git:f0170f27258c654a27be91a1faa542c5be36bb43): open (buildvm-ppc64le-21.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-114134401 build (f41-build-side-84507, /rpms/jackson-jaxrs-providers.git:ecd0cce7a810cc3945562e33fa263a2bca05bc54) completed successfully
+114350429 build (f40-build-side-84857, /rpms/jackson-jaxrs-providers.git:f0170f27258c654a27be91a1faa542c5be36bb43) completed successfully

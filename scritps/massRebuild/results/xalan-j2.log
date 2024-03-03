@@ -1,30 +1,30 @@
 Cloning into 'xalan-j2'...
-[rawhide 1d928c1] Rebuilt for java-21-openjdk as system jdk
+[f40 07a6ba5] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
 Found a gating.yaml file in the repo and it is properly configured
 warning: %patchN is deprecated (1 usages found), use %patch N (or %patch -P N)
 
-Building xalan-j2-2.7.3-2.fc41 for f41-build-side-84507
-Created task: 114142343
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114142343
+Building xalan-j2-2.7.3-3.fc40 for f40-build-side-84857
+Created task: 114356192
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114356192
 Watching tasks (this may be safely interrupted)...
-114142343 build (f41-build-side-84507, /rpms/xalan-j2.git:1d928c14f08e9724eb890f9d7188cdcc444b0cdd): free
-114142343 build (f41-build-side-84507, /rpms/xalan-j2.git:1d928c14f08e9724eb890f9d7188cdcc444b0cdd): free -> assigned
-114142343 build (f41-build-side-84507, /rpms/xalan-j2.git:1d928c14f08e9724eb890f9d7188cdcc444b0cdd): assigned -> open (buildvm-a64-40.iad2.fedoraproject.org)
-  114142366 buildSRPMFromSCM (/rpms/xalan-j2.git:1d928c14f08e9724eb890f9d7188cdcc444b0cdd): free
-  114142366 buildSRPMFromSCM (/rpms/xalan-j2.git:1d928c14f08e9724eb890f9d7188cdcc444b0cdd): free -> open (buildvm-a64-19.iad2.fedoraproject.org)
-  114142463 buildArch (xalan-j2-2.7.3-2.fc41.src.rpm, noarch): free
-  114142366 buildSRPMFromSCM (/rpms/xalan-j2.git:1d928c14f08e9724eb890f9d7188cdcc444b0cdd): open (buildvm-a64-19.iad2.fedoraproject.org) -> closed
-  1 free  1 open  1 done  0 failed
-  114142463 buildArch (xalan-j2-2.7.3-2.fc41.src.rpm, noarch): free -> assigned
-  114142463 buildArch (xalan-j2-2.7.3-2.fc41.src.rpm, noarch): assigned -> open (buildvm-a64-19.iad2.fedoraproject.org)
-  114142463 buildArch (xalan-j2-2.7.3-2.fc41.src.rpm, noarch): open (buildvm-a64-19.iad2.fedoraproject.org) -> closed
+114356192 build (f40-build-side-84857, /rpms/xalan-j2.git:07a6ba55887442e52cd3f0f8f0aa0b37a6b99a73): free
+114356192 build (f40-build-side-84857, /rpms/xalan-j2.git:07a6ba55887442e52cd3f0f8f0aa0b37a6b99a73): free -> assigned
+114356192 build (f40-build-side-84857, /rpms/xalan-j2.git:07a6ba55887442e52cd3f0f8f0aa0b37a6b99a73): assigned -> open (buildvm-s390x-03.s390.fedoraproject.org)
+  114356291 buildSRPMFromSCM (/rpms/xalan-j2.git:07a6ba55887442e52cd3f0f8f0aa0b37a6b99a73): free
+  114356291 buildSRPMFromSCM (/rpms/xalan-j2.git:07a6ba55887442e52cd3f0f8f0aa0b37a6b99a73): free -> assigned
+  114356291 buildSRPMFromSCM (/rpms/xalan-j2.git:07a6ba55887442e52cd3f0f8f0aa0b37a6b99a73): assigned -> open (buildvm-a64-24.iad2.fedoraproject.org)
+  114356291 buildSRPMFromSCM (/rpms/xalan-j2.git:07a6ba55887442e52cd3f0f8f0aa0b37a6b99a73): open (buildvm-a64-24.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  114356347 buildArch (xalan-j2-2.7.3-3.fc40.src.rpm, noarch): free
+  114356347 buildArch (xalan-j2-2.7.3-3.fc40.src.rpm, noarch): free -> assigned
+  114356347 buildArch (xalan-j2-2.7.3-3.fc40.src.rpm, noarch): assigned -> open (buildvm-ppc64le-29.iad2.fedoraproject.org)
+  114356347 buildArch (xalan-j2-2.7.3-3.fc40.src.rpm, noarch): open (buildvm-ppc64le-29.iad2.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  114142704 tagBuild (noarch): free
-  114142704 tagBuild (noarch): free -> assigned
-  114142704 tagBuild (noarch): assigned -> closed
-  0 free  1 open  3 done  0 failed
-114142343 build (f41-build-side-84507, /rpms/xalan-j2.git:1d928c14f08e9724eb890f9d7188cdcc444b0cdd): open (buildvm-a64-40.iad2.fedoraproject.org) -> closed
+  114356771 tagBuild (noarch): free
+114356192 build (f40-build-side-84857, /rpms/xalan-j2.git:07a6ba55887442e52cd3f0f8f0aa0b37a6b99a73): open (buildvm-s390x-03.s390.fedoraproject.org) -> closed
+  1 free  0 open  3 done  0 failed
+  114356771 tagBuild (noarch): free -> closed
   0 free  0 open  4 done  0 failed
 
-114142343 build (f41-build-side-84507, /rpms/xalan-j2.git:1d928c14f08e9724eb890f9d7188cdcc444b0cdd) completed successfully
+114356192 build (f40-build-side-84857, /rpms/xalan-j2.git:07a6ba55887442e52cd3f0f8f0aa0b37a6b99a73) completed successfully

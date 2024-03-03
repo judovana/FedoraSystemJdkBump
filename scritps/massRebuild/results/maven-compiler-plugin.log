@@ -1,28 +1,28 @@
 Cloning into 'maven-compiler-plugin'...
-[rawhide 6d028de] Rebuilt for java-21-openjdk as system jdk
+[f40 db6b260] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
 Found a gating.yaml file in the repo and it is properly configured
-Building maven-compiler-plugin-3.12.1-3.fc41 for f41-build-side-84507
-Created task: 114137231
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114137231
+Building maven-compiler-plugin-3.12.1-3.fc40 for f40-build-side-84857
+Created task: 114353450
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114353450
 Watching tasks (this may be safely interrupted)...
-114137231 build (f41-build-side-84507, /rpms/maven-compiler-plugin.git:6d028de303335044e4f014a4af36474406ef2b0c): free
-114137231 build (f41-build-side-84507, /rpms/maven-compiler-plugin.git:6d028de303335044e4f014a4af36474406ef2b0c): free -> assigned
-114137231 build (f41-build-side-84507, /rpms/maven-compiler-plugin.git:6d028de303335044e4f014a4af36474406ef2b0c): assigned -> open (buildhw-x86-05.iad2.fedoraproject.org)
-  114137241 buildSRPMFromSCM (/rpms/maven-compiler-plugin.git:6d028de303335044e4f014a4af36474406ef2b0c): free
-  114137241 buildSRPMFromSCM (/rpms/maven-compiler-plugin.git:6d028de303335044e4f014a4af36474406ef2b0c): free -> assigned
-  114137241 buildSRPMFromSCM (/rpms/maven-compiler-plugin.git:6d028de303335044e4f014a4af36474406ef2b0c): assigned -> open (buildvm-a64-16.iad2.fedoraproject.org)
-  114137241 buildSRPMFromSCM (/rpms/maven-compiler-plugin.git:6d028de303335044e4f014a4af36474406ef2b0c): open (buildvm-a64-16.iad2.fedoraproject.org) -> closed
-  0 free  1 open  1 done  0 failed
-  114137264 buildArch (maven-compiler-plugin-3.12.1-3.fc41.src.rpm, noarch): free
-  114137264 buildArch (maven-compiler-plugin-3.12.1-3.fc41.src.rpm, noarch): free -> assigned
-  114137264 buildArch (maven-compiler-plugin-3.12.1-3.fc41.src.rpm, noarch): assigned -> open (buildvm-ppc64le-03.iad2.fedoraproject.org)
-  114137264 buildArch (maven-compiler-plugin-3.12.1-3.fc41.src.rpm, noarch): open (buildvm-ppc64le-03.iad2.fedoraproject.org) -> closed
+114353450 build (f40-build-side-84857, /rpms/maven-compiler-plugin.git:db6b26055ec243c228bcbeec4fa5db816d53e6a1): free
+114353450 build (f40-build-side-84857, /rpms/maven-compiler-plugin.git:db6b26055ec243c228bcbeec4fa5db816d53e6a1): free -> assigned
+114353450 build (f40-build-side-84857, /rpms/maven-compiler-plugin.git:db6b26055ec243c228bcbeec4fa5db816d53e6a1): assigned -> open (buildvm-ppc64le-06.iad2.fedoraproject.org)
+  114353470 buildSRPMFromSCM (/rpms/maven-compiler-plugin.git:db6b26055ec243c228bcbeec4fa5db816d53e6a1): free
+  114353470 buildSRPMFromSCM (/rpms/maven-compiler-plugin.git:db6b26055ec243c228bcbeec4fa5db816d53e6a1): free -> assigned
+  114353470 buildSRPMFromSCM (/rpms/maven-compiler-plugin.git:db6b26055ec243c228bcbeec4fa5db816d53e6a1): assigned -> open (buildvm-a64-05.iad2.fedoraproject.org)
+  114353587 buildArch (maven-compiler-plugin-3.12.1-3.fc40.src.rpm, noarch): free
+  114353470 buildSRPMFromSCM (/rpms/maven-compiler-plugin.git:db6b26055ec243c228bcbeec4fa5db816d53e6a1): open (buildvm-a64-05.iad2.fedoraproject.org) -> closed
+  1 free  1 open  1 done  0 failed
+  114353587 buildArch (maven-compiler-plugin-3.12.1-3.fc40.src.rpm, noarch): free -> assigned
+  114353587 buildArch (maven-compiler-plugin-3.12.1-3.fc40.src.rpm, noarch): assigned -> open (buildvm-ppc64le-03.iad2.fedoraproject.org)
+  114353587 buildArch (maven-compiler-plugin-3.12.1-3.fc40.src.rpm, noarch): open (buildvm-ppc64le-03.iad2.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  114137307 tagBuild (noarch): assigned
-114137231 build (f41-build-side-84507, /rpms/maven-compiler-plugin.git:6d028de303335044e4f014a4af36474406ef2b0c): open (buildhw-x86-05.iad2.fedoraproject.org) -> closed
+  114353692 tagBuild (noarch): free
+  114353692 tagBuild (noarch): free -> closed
   0 free  1 open  3 done  0 failed
-  114137307 tagBuild (noarch): assigned -> closed
+114353450 build (f40-build-side-84857, /rpms/maven-compiler-plugin.git:db6b26055ec243c228bcbeec4fa5db816d53e6a1): open (buildvm-ppc64le-06.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-114137231 build (f41-build-side-84507, /rpms/maven-compiler-plugin.git:6d028de303335044e4f014a4af36474406ef2b0c) completed successfully
+114353450 build (f40-build-side-84857, /rpms/maven-compiler-plugin.git:db6b26055ec243c228bcbeec4fa5db816d53e6a1) completed successfully

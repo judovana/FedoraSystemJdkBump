@@ -1,42 +1,29 @@
 Cloning into 'icecat'...
 RPMAutoSpec usage detected, not changing the spec file.
-[rawhide be99293] Rebuilt for java-21-openjdk as system jdk
-Building icecat-115.8.0-2.rh1.fc41 for f41-build-side-84507
-Created task: 114131645
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114131645
+[f40 f6f8cc4] Rebuilt for java-21-openjdk as system jdk
+Building icecat-115.8.0-2.rh1.fc40 for f40-build-side-84857
+Created task: 114346157
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114346157
 Watching tasks (this may be safely interrupted)...
-114131645 build (f41-build-side-84507, /rpms/icecat.git:be99293fa424e7512785559218bc435cee4c817d): free
-114131645 build (f41-build-side-84507, /rpms/icecat.git:be99293fa424e7512785559218bc435cee4c817d): free -> assigned
-114131645 build (f41-build-side-84507, /rpms/icecat.git:be99293fa424e7512785559218bc435cee4c817d): assigned -> open (buildhw-x86-03.iad2.fedoraproject.org)
-  114131664 buildSRPMFromSCM (/rpms/icecat.git:be99293fa424e7512785559218bc435cee4c817d): free
-  114131664 buildSRPMFromSCM (/rpms/icecat.git:be99293fa424e7512785559218bc435cee4c817d): free -> assigned
-  114131664 buildSRPMFromSCM (/rpms/icecat.git:be99293fa424e7512785559218bc435cee4c817d): assigned -> open (buildvm-a64-28.iad2.fedoraproject.org)
-  114131664 buildSRPMFromSCM (/rpms/icecat.git:be99293fa424e7512785559218bc435cee4c817d): open (buildvm-a64-28.iad2.fedoraproject.org) -> closed
+114346157 build (f40-build-side-84857, /rpms/icecat.git:f6f8cc4499fe1db39f59a3e792b88156168416cf): free
+114346157 build (f40-build-side-84857, /rpms/icecat.git:f6f8cc4499fe1db39f59a3e792b88156168416cf): free -> open (buildhw-x86-05.iad2.fedoraproject.org)
+  114346160 buildSRPMFromSCM (/rpms/icecat.git:f6f8cc4499fe1db39f59a3e792b88156168416cf): free
+  114346160 buildSRPMFromSCM (/rpms/icecat.git:f6f8cc4499fe1db39f59a3e792b88156168416cf): free -> assigned
+  114346160 buildSRPMFromSCM (/rpms/icecat.git:f6f8cc4499fe1db39f59a3e792b88156168416cf): assigned -> open (buildvm-a64-34.iad2.fedoraproject.org)
+  114346160 buildSRPMFromSCM (/rpms/icecat.git:f6f8cc4499fe1db39f59a3e792b88156168416cf): open (buildvm-a64-34.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  114131863 buildArch (icecat-115.8.0-2.rh1.fc41.src.rpm, aarch64): free
-  114131861 buildArch (icecat-115.8.0-2.rh1.fc41.src.rpm, i686): free
-  114131862 buildArch (icecat-115.8.0-2.rh1.fc41.src.rpm, x86_64): free
-  114131864 buildArch (icecat-115.8.0-2.rh1.fc41.src.rpm, ppc64le): free
-  114131863 buildArch (icecat-115.8.0-2.rh1.fc41.src.rpm, aarch64): free -> assigned
-  114131861 buildArch (icecat-115.8.0-2.rh1.fc41.src.rpm, i686): free -> open (buildvm-x86-17.iad2.fedoraproject.org)
-  114131862 buildArch (icecat-115.8.0-2.rh1.fc41.src.rpm, x86_64): free -> assigned
-  114131864 buildArch (icecat-115.8.0-2.rh1.fc41.src.rpm, ppc64le): free -> assigned
-  114131863 buildArch (icecat-115.8.0-2.rh1.fc41.src.rpm, aarch64): assigned -> open (buildvm-a64-18.iad2.fedoraproject.org)
-  114131864 buildArch (icecat-115.8.0-2.rh1.fc41.src.rpm, ppc64le): assigned -> open (buildvm-ppc64le-13.iad2.fedoraproject.org)
-  114131862 buildArch (icecat-115.8.0-2.rh1.fc41.src.rpm, x86_64): assigned -> open (buildvm-x86-23.iad2.fedoraproject.org)
-  114131862 buildArch (icecat-115.8.0-2.rh1.fc41.src.rpm, x86_64): open (buildvm-x86-23.iad2.fedoraproject.org) -> closed
+  114346465 buildArch (icecat-115.8.0-2.rh1.fc40.src.rpm, i686): free
+  114346466 buildArch (icecat-115.8.0-2.rh1.fc40.src.rpm, x86_64): free
+  114346468 buildArch (icecat-115.8.0-2.rh1.fc40.src.rpm, ppc64le): free
+  114346467 buildArch (icecat-115.8.0-2.rh1.fc40.src.rpm, aarch64): free
+  114346465 buildArch (icecat-115.8.0-2.rh1.fc40.src.rpm, i686): free -> open (buildhw-x86-03.iad2.fedoraproject.org)
+  114346466 buildArch (icecat-115.8.0-2.rh1.fc40.src.rpm, x86_64): free -> assigned
+  114346468 buildArch (icecat-115.8.0-2.rh1.fc40.src.rpm, ppc64le): free -> open (buildvm-ppc64le-22.iad2.fedoraproject.org)
+  114346467 buildArch (icecat-115.8.0-2.rh1.fc40.src.rpm, aarch64): free -> open (buildvm-a64-16.iad2.fedoraproject.org)
+  114346466 buildArch (icecat-115.8.0-2.rh1.fc40.src.rpm, x86_64): assigned -> open (buildhw-x86-09.iad2.fedoraproject.org)
+  114346466 buildArch (icecat-115.8.0-2.rh1.fc40.src.rpm, x86_64): open (buildhw-x86-09.iad2.fedoraproject.org) -> closed
   0 free  4 open  2 done  0 failed
-  114131864 buildArch (icecat-115.8.0-2.rh1.fc41.src.rpm, ppc64le): open (buildvm-ppc64le-13.iad2.fedoraproject.org) -> closed
+  114346468 buildArch (icecat-115.8.0-2.rh1.fc40.src.rpm, ppc64le): open (buildvm-ppc64le-22.iad2.fedoraproject.org) -> closed
   0 free  3 open  3 done  0 failed
-  114131861 buildArch (icecat-115.8.0-2.rh1.fc41.src.rpm, i686): open (buildvm-x86-17.iad2.fedoraproject.org) -> closed
+  114346465 buildArch (icecat-115.8.0-2.rh1.fc40.src.rpm, i686): open (buildhw-x86-03.iad2.fedoraproject.org) -> closed
   0 free  2 open  4 done  0 failed
-  114131863 buildArch (icecat-115.8.0-2.rh1.fc41.src.rpm, aarch64): open (buildvm-a64-18.iad2.fedoraproject.org) -> closed
-  0 free  1 open  5 done  0 failed
-  114143913 tagBuild (noarch): free
-  114143913 tagBuild (noarch): free -> assigned
-  114143913 tagBuild (noarch): assigned -> closed
-  0 free  1 open  6 done  0 failed
-114131645 build (f41-build-side-84507, /rpms/icecat.git:be99293fa424e7512785559218bc435cee4c817d): open (buildhw-x86-03.iad2.fedoraproject.org) -> closed
-  0 free  0 open  7 done  0 failed
-
-114131645 build (f41-build-side-84507, /rpms/icecat.git:be99293fa424e7512785559218bc435cee4c817d) completed successfully

@@ -1,28 +1,29 @@
 Cloning into 'ditaa'...
-[rawhide 7ff3d47] Rebuilt for java-21-openjdk as system jdk
+[f40 854a862] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
 warning: %patchN is deprecated (3 usages found), use %patch N (or %patch -P N)
 
-Building ditaa-0.10-24.fc41 for f41-build-side-84507
-Created task: 114133256
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114133256
+Building ditaa-0.10-24.fc40 for f40-build-side-84857
+Created task: 114348321
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114348321
 Watching tasks (this may be safely interrupted)...
-114133256 build (f41-build-side-84507, /rpms/ditaa.git:7ff3d4732d2b3599ae4c3d96565d30a3bc53f754): free
-114133256 build (f41-build-side-84507, /rpms/ditaa.git:7ff3d4732d2b3599ae4c3d96565d30a3bc53f754): free -> open (buildhw-x86-02.iad2.fedoraproject.org)
-  114133259 buildSRPMFromSCM (/rpms/ditaa.git:7ff3d4732d2b3599ae4c3d96565d30a3bc53f754): free
-  114133259 buildSRPMFromSCM (/rpms/ditaa.git:7ff3d4732d2b3599ae4c3d96565d30a3bc53f754): free -> assigned
-  114133259 buildSRPMFromSCM (/rpms/ditaa.git:7ff3d4732d2b3599ae4c3d96565d30a3bc53f754): assigned -> open (buildvm-x86-16.iad2.fedoraproject.org)
-  114133259 buildSRPMFromSCM (/rpms/ditaa.git:7ff3d4732d2b3599ae4c3d96565d30a3bc53f754): open (buildvm-x86-16.iad2.fedoraproject.org) -> closed
+114348321 build (f40-build-side-84857, /rpms/ditaa.git:854a86264129356e1bd56de1e0ac79a92a3a0092): free
+114348321 build (f40-build-side-84857, /rpms/ditaa.git:854a86264129356e1bd56de1e0ac79a92a3a0092): free -> open (buildvm-s390x-07.s390.fedoraproject.org)
+  114348501 buildSRPMFromSCM (/rpms/ditaa.git:854a86264129356e1bd56de1e0ac79a92a3a0092): free
+  114348501 buildSRPMFromSCM (/rpms/ditaa.git:854a86264129356e1bd56de1e0ac79a92a3a0092): free -> assigned
+  114348501 buildSRPMFromSCM (/rpms/ditaa.git:854a86264129356e1bd56de1e0ac79a92a3a0092): assigned -> open (buildvm-x86-13.iad2.fedoraproject.org)
+  114348501 buildSRPMFromSCM (/rpms/ditaa.git:854a86264129356e1bd56de1e0ac79a92a3a0092): open (buildvm-x86-13.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  114133441 buildArch (ditaa-0.10-24.fc41.src.rpm, noarch): free
-  114133441 buildArch (ditaa-0.10-24.fc41.src.rpm, noarch): free -> assigned
-  114133441 buildArch (ditaa-0.10-24.fc41.src.rpm, noarch): assigned -> open (buildvm-x86-15.iad2.fedoraproject.org)
-  114133494 tagBuild (noarch): free
-  114133441 buildArch (ditaa-0.10-24.fc41.src.rpm, noarch): open (buildvm-x86-15.iad2.fedoraproject.org) -> closed
-  1 free  1 open  2 done  0 failed
-  114133494 tagBuild (noarch): free -> closed
+  114348652 buildArch (ditaa-0.10-24.fc40.src.rpm, noarch): free
+  114348652 buildArch (ditaa-0.10-24.fc40.src.rpm, noarch): free -> assigned
+  114348652 buildArch (ditaa-0.10-24.fc40.src.rpm, noarch): assigned -> open (buildhw-x86-05.iad2.fedoraproject.org)
+  114348652 buildArch (ditaa-0.10-24.fc40.src.rpm, noarch): open (buildhw-x86-05.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  114348783 tagBuild (noarch): free
+  114348783 tagBuild (noarch): free -> assigned
+114348321 build (f40-build-side-84857, /rpms/ditaa.git:854a86264129356e1bd56de1e0ac79a92a3a0092): open (buildvm-s390x-07.s390.fedoraproject.org) -> closed
   0 free  1 open  3 done  0 failed
-114133256 build (f41-build-side-84507, /rpms/ditaa.git:7ff3d4732d2b3599ae4c3d96565d30a3bc53f754): open (buildhw-x86-02.iad2.fedoraproject.org) -> closed
+  114348783 tagBuild (noarch): assigned -> closed
   0 free  0 open  4 done  0 failed
 
-114133256 build (f41-build-side-84507, /rpms/ditaa.git:7ff3d4732d2b3599ae4c3d96565d30a3bc53f754) completed successfully
+114348321 build (f40-build-side-84857, /rpms/ditaa.git:854a86264129356e1bd56de1e0ac79a92a3a0092) completed successfully

@@ -1,31 +1,28 @@
 Cloning into 'felix-parent'...
-[rawhide f2e4a51] Rebuilt for java-21-openjdk as system jdk
+[f40 c8debb2] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
 Found a gating.yaml file in the repo and it is properly configured
-Building felix-parent-8-5.fc41 for f41-build-side-84507
-Created task: 114133614
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114133614
+Building felix-parent-8-5.fc40 for f40-build-side-84857
+Created task: 114348934
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114348934
 Watching tasks (this may be safely interrupted)...
-114133614 build (f41-build-side-84507, /rpms/felix-parent.git:f2e4a518009ae8c3789129fa55b0bfa715fa5d9e): free
-114133614 build (f41-build-side-84507, /rpms/felix-parent.git:f2e4a518009ae8c3789129fa55b0bfa715fa5d9e): free -> assigned
-114133614 build (f41-build-side-84507, /rpms/felix-parent.git:f2e4a518009ae8c3789129fa55b0bfa715fa5d9e): assigned -> open (buildhw-x86-11.iad2.fedoraproject.org)
-  114133705 buildSRPMFromSCM (/rpms/felix-parent.git:f2e4a518009ae8c3789129fa55b0bfa715fa5d9e): free
-  114133705 buildSRPMFromSCM (/rpms/felix-parent.git:f2e4a518009ae8c3789129fa55b0bfa715fa5d9e): free -> assigned
-  114133705 buildSRPMFromSCM (/rpms/felix-parent.git:f2e4a518009ae8c3789129fa55b0bfa715fa5d9e): assigned -> open (buildvm-x86-25.iad2.fedoraproject.org)
-  114133705 buildSRPMFromSCM (/rpms/felix-parent.git:f2e4a518009ae8c3789129fa55b0bfa715fa5d9e): open (buildvm-x86-25.iad2.fedoraproject.org) -> closed
+114348934 build (f40-build-side-84857, /rpms/felix-parent.git:c8debb27353adaa7396470783d326fb7f3eb8e82): free
+114348934 build (f40-build-side-84857, /rpms/felix-parent.git:c8debb27353adaa7396470783d326fb7f3eb8e82): free -> open (buildvm-s390x-10.s390.fedoraproject.org)
+  114348937 buildSRPMFromSCM (/rpms/felix-parent.git:c8debb27353adaa7396470783d326fb7f3eb8e82): free
+  114348937 buildSRPMFromSCM (/rpms/felix-parent.git:c8debb27353adaa7396470783d326fb7f3eb8e82): free -> assigned
+  114348937 buildSRPMFromSCM (/rpms/felix-parent.git:c8debb27353adaa7396470783d326fb7f3eb8e82): assigned -> open (buildvm-x86-15.iad2.fedoraproject.org)
+  114348937 buildSRPMFromSCM (/rpms/felix-parent.git:c8debb27353adaa7396470783d326fb7f3eb8e82): open (buildvm-x86-15.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  114133846 buildArch (felix-parent-8-5.fc41.src.rpm, noarch): free
-  114133846 buildArch (felix-parent-8-5.fc41.src.rpm, noarch): free -> assigned
-  114133846 buildArch (felix-parent-8-5.fc41.src.rpm, noarch): assigned -> free
-  114133846 buildArch (felix-parent-8-5.fc41.src.rpm, noarch): free -> assigned
-  114133846 buildArch (felix-parent-8-5.fc41.src.rpm, noarch): assigned -> open (buildvm-ppc64le-31.iad2.fedoraproject.org)
-  114133846 buildArch (felix-parent-8-5.fc41.src.rpm, noarch): open (buildvm-ppc64le-31.iad2.fedoraproject.org) -> closed
+  114349120 buildArch (felix-parent-8-5.fc40.src.rpm, noarch): free
+  114349120 buildArch (felix-parent-8-5.fc40.src.rpm, noarch): free -> assigned
+  114349120 buildArch (felix-parent-8-5.fc40.src.rpm, noarch): assigned -> open (buildvm-a64-18.iad2.fedoraproject.org)
+  114349120 buildArch (felix-parent-8-5.fc40.src.rpm, noarch): open (buildvm-a64-18.iad2.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  114134013 tagBuild (noarch): free
-  114134013 tagBuild (noarch): free -> assigned
-  114134013 tagBuild (noarch): assigned -> closed
+  114349440 tagBuild (noarch): free
+  114349440 tagBuild (noarch): free -> assigned
+  114349440 tagBuild (noarch): assigned -> closed
   0 free  1 open  3 done  0 failed
-114133614 build (f41-build-side-84507, /rpms/felix-parent.git:f2e4a518009ae8c3789129fa55b0bfa715fa5d9e): open (buildhw-x86-11.iad2.fedoraproject.org) -> closed
+114348934 build (f40-build-side-84857, /rpms/felix-parent.git:c8debb27353adaa7396470783d326fb7f3eb8e82): open (buildvm-s390x-10.s390.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-114133614 build (f41-build-side-84507, /rpms/felix-parent.git:f2e4a518009ae8c3789129fa55b0bfa715fa5d9e) completed successfully
+114348934 build (f40-build-side-84857, /rpms/felix-parent.git:c8debb27353adaa7396470783d326fb7f3eb8e82) completed successfully

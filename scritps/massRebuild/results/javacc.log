@@ -1,29 +1,28 @@
 Cloning into 'javacc'...
-[rawhide 13f860a] Rebuilt for java-21-openjdk as system jdk
+[f40 aadb8ea] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
 Found a gating.yaml file in the repo and it is properly configured
-Building javacc-7.0.13-5.fc41 for f41-build-side-84507
-Created task: 114135259
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114135259
+Building javacc-7.0.13-5.fc40 for f40-build-side-84857
+Created task: 114351228
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114351228
 Watching tasks (this may be safely interrupted)...
-114135259 build (f41-build-side-84507, /rpms/javacc.git:13f860a345141efc62126bc94c00239c64ef0e2e): free
-114135259 build (f41-build-side-84507, /rpms/javacc.git:13f860a345141efc62126bc94c00239c64ef0e2e): free -> assigned
-114135259 build (f41-build-side-84507, /rpms/javacc.git:13f860a345141efc62126bc94c00239c64ef0e2e): assigned -> open (buildvm-ppc64le-12.iad2.fedoraproject.org)
-  114135359 buildSRPMFromSCM (/rpms/javacc.git:13f860a345141efc62126bc94c00239c64ef0e2e): free
-  114135359 buildSRPMFromSCM (/rpms/javacc.git:13f860a345141efc62126bc94c00239c64ef0e2e): free -> assigned
-  114135359 buildSRPMFromSCM (/rpms/javacc.git:13f860a345141efc62126bc94c00239c64ef0e2e): assigned -> open (buildvm-x86-22.iad2.fedoraproject.org)
-  114135359 buildSRPMFromSCM (/rpms/javacc.git:13f860a345141efc62126bc94c00239c64ef0e2e): open (buildvm-x86-22.iad2.fedoraproject.org) -> closed
+114351228 build (f40-build-side-84857, /rpms/javacc.git:aadb8ea57d2bcd81ee8e9dda50b808aacec4e32d): free
+114351228 build (f40-build-side-84857, /rpms/javacc.git:aadb8ea57d2bcd81ee8e9dda50b808aacec4e32d): free -> assigned
+114351228 build (f40-build-side-84857, /rpms/javacc.git:aadb8ea57d2bcd81ee8e9dda50b808aacec4e32d): assigned -> open (buildvm-s390x-08.s390.fedoraproject.org)
+  114351231 buildSRPMFromSCM (/rpms/javacc.git:aadb8ea57d2bcd81ee8e9dda50b808aacec4e32d): free
+  114351231 buildSRPMFromSCM (/rpms/javacc.git:aadb8ea57d2bcd81ee8e9dda50b808aacec4e32d): free -> assigned
+  114351231 buildSRPMFromSCM (/rpms/javacc.git:aadb8ea57d2bcd81ee8e9dda50b808aacec4e32d): assigned -> open (buildvm-a64-10.iad2.fedoraproject.org)
+  114351231 buildSRPMFromSCM (/rpms/javacc.git:aadb8ea57d2bcd81ee8e9dda50b808aacec4e32d): open (buildvm-a64-10.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  114135471 buildArch (javacc-7.0.13-5.fc41.src.rpm, noarch): free
-  114135471 buildArch (javacc-7.0.13-5.fc41.src.rpm, noarch): free -> assigned
-  114135471 buildArch (javacc-7.0.13-5.fc41.src.rpm, noarch): assigned -> open (buildvm-x86-24.iad2.fedoraproject.org)
-  114135471 buildArch (javacc-7.0.13-5.fc41.src.rpm, noarch): open (buildvm-x86-24.iad2.fedoraproject.org) -> closed
+  114351421 buildArch (javacc-7.0.13-5.fc40.src.rpm, noarch): free
+  114351421 buildArch (javacc-7.0.13-5.fc40.src.rpm, noarch): free -> assigned
+  114351421 buildArch (javacc-7.0.13-5.fc40.src.rpm, noarch): assigned -> open (buildvm-x86-06.iad2.fedoraproject.org)
+  114351421 buildArch (javacc-7.0.13-5.fc40.src.rpm, noarch): open (buildvm-x86-06.iad2.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  114135501 tagBuild (noarch): free
-  114135501 tagBuild (noarch): free -> assigned
-  114135501 tagBuild (noarch): assigned -> closed
+  114351493 tagBuild (noarch): free
+  114351493 tagBuild (noarch): free -> closed
   0 free  1 open  3 done  0 failed
-114135259 build (f41-build-side-84507, /rpms/javacc.git:13f860a345141efc62126bc94c00239c64ef0e2e): open (buildvm-ppc64le-12.iad2.fedoraproject.org) -> closed
+114351228 build (f40-build-side-84857, /rpms/javacc.git:aadb8ea57d2bcd81ee8e9dda50b808aacec4e32d): open (buildvm-s390x-08.s390.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-114135259 build (f41-build-side-84507, /rpms/javacc.git:13f860a345141efc62126bc94c00239c64ef0e2e) completed successfully
+114351228 build (f40-build-side-84857, /rpms/javacc.git:aadb8ea57d2bcd81ee8e9dda50b808aacec4e32d) completed successfully

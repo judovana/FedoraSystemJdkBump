@@ -1,28 +1,28 @@
 Cloning into 'IPAddress'...
-[rawhide 0a9f98c] Rebuilt for java-21-openjdk as system jdk
+[f40 456f7ff] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
 warning: %patchN is deprecated (1 usages found), use %patch N (or %patch -P N)
 
-Building IPAddress-5.2.1-17.fc41 for f41-build-side-84507
-Created task: 114134255
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114134255
+Building IPAddress-5.2.1-17.fc40 for f40-build-side-84857
+Created task: 114350264
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114350264
 Watching tasks (this may be safely interrupted)...
-114134255 build (f41-build-side-84507, /rpms/IPAddress.git:0a9f98c9470971076668063e6330b6de1b13d2a8): free
-114134255 build (f41-build-side-84507, /rpms/IPAddress.git:0a9f98c9470971076668063e6330b6de1b13d2a8): free -> open (buildvm-a64-08.iad2.fedoraproject.org)
-  114134281 buildSRPMFromSCM (/rpms/IPAddress.git:0a9f98c9470971076668063e6330b6de1b13d2a8): free
-  114134281 buildSRPMFromSCM (/rpms/IPAddress.git:0a9f98c9470971076668063e6330b6de1b13d2a8): free -> assigned
-  114134281 buildSRPMFromSCM (/rpms/IPAddress.git:0a9f98c9470971076668063e6330b6de1b13d2a8): assigned -> open (buildvm-x86-30.iad2.fedoraproject.org)
-  114134370 buildArch (IPAddress-5.2.1-17.fc41.src.rpm, noarch): free
-  114134281 buildSRPMFromSCM (/rpms/IPAddress.git:0a9f98c9470971076668063e6330b6de1b13d2a8): open (buildvm-x86-30.iad2.fedoraproject.org) -> closed
-  1 free  1 open  1 done  0 failed
-  114134370 buildArch (IPAddress-5.2.1-17.fc41.src.rpm, noarch): free -> open (buildvm-ppc64le-08.iad2.fedoraproject.org)
-  114134370 buildArch (IPAddress-5.2.1-17.fc41.src.rpm, noarch): open (buildvm-ppc64le-08.iad2.fedoraproject.org) -> closed
+114350264 build (f40-build-side-84857, /rpms/IPAddress.git:456f7ff84fccd4d788e2a3e0dd2101f293f2598c): free
+114350264 build (f40-build-side-84857, /rpms/IPAddress.git:456f7ff84fccd4d788e2a3e0dd2101f293f2598c): free -> assigned
+114350264 build (f40-build-side-84857, /rpms/IPAddress.git:456f7ff84fccd4d788e2a3e0dd2101f293f2598c): assigned -> open (buildvm-a64-17.iad2.fedoraproject.org)
+  114350283 buildSRPMFromSCM (/rpms/IPAddress.git:456f7ff84fccd4d788e2a3e0dd2101f293f2598c): free
+  114350283 buildSRPMFromSCM (/rpms/IPAddress.git:456f7ff84fccd4d788e2a3e0dd2101f293f2598c): free -> open (buildvm-a64-31.iad2.fedoraproject.org)
+  114350283 buildSRPMFromSCM (/rpms/IPAddress.git:456f7ff84fccd4d788e2a3e0dd2101f293f2598c): open (buildvm-a64-31.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  114350363 buildArch (IPAddress-5.2.1-17.fc40.src.rpm, noarch): free
+  114350363 buildArch (IPAddress-5.2.1-17.fc40.src.rpm, noarch): free -> open (buildvm-ppc64le-14.iad2.fedoraproject.org)
+  114350363 buildArch (IPAddress-5.2.1-17.fc40.src.rpm, noarch): open (buildvm-ppc64le-14.iad2.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  114134462 tagBuild (noarch): free
-  114134462 tagBuild (noarch): free -> assigned
-  114134462 tagBuild (noarch): assigned -> closed
+  114350554 tagBuild (noarch): free
+  114350554 tagBuild (noarch): free -> assigned
+114350264 build (f40-build-side-84857, /rpms/IPAddress.git:456f7ff84fccd4d788e2a3e0dd2101f293f2598c): open (buildvm-a64-17.iad2.fedoraproject.org) -> closed
   0 free  1 open  3 done  0 failed
-114134255 build (f41-build-side-84507, /rpms/IPAddress.git:0a9f98c9470971076668063e6330b6de1b13d2a8): open (buildvm-a64-08.iad2.fedoraproject.org) -> closed
+  114350554 tagBuild (noarch): assigned -> closed
   0 free  0 open  4 done  0 failed
 
-114134255 build (f41-build-side-84507, /rpms/IPAddress.git:0a9f98c9470971076668063e6330b6de1b13d2a8) completed successfully
+114350264 build (f40-build-side-84857, /rpms/IPAddress.git:456f7ff84fccd4d788e2a3e0dd2101f293f2598c) completed successfully

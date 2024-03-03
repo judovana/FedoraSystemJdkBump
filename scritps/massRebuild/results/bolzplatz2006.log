@@ -1,42 +1,42 @@
 Cloning into 'bolzplatz2006'...
-[rawhide 11c8006] Rebuilt for java-21-openjdk as system jdk
+[f40 758fc5a] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building bolzplatz2006-1.0.3-58.fc41 for f41-build-side-84507
-Created task: 114132161
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114132161
+Building bolzplatz2006-1.0.3-58.fc40 for f40-build-side-84857
+Created task: 114347476
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114347476
 Watching tasks (this may be safely interrupted)...
-114132161 build (f41-build-side-84507, /rpms/bolzplatz2006.git:11c8006ca2014f08379e25527893525127ee7b9b): free
-114132161 build (f41-build-side-84507, /rpms/bolzplatz2006.git:11c8006ca2014f08379e25527893525127ee7b9b): free -> assigned
-114132161 build (f41-build-side-84507, /rpms/bolzplatz2006.git:11c8006ca2014f08379e25527893525127ee7b9b): assigned -> open (buildvm-a64-08.iad2.fedoraproject.org)
-  114132193 buildSRPMFromSCM (/rpms/bolzplatz2006.git:11c8006ca2014f08379e25527893525127ee7b9b): free
-  114132193 buildSRPMFromSCM (/rpms/bolzplatz2006.git:11c8006ca2014f08379e25527893525127ee7b9b): free -> assigned
-  114132193 buildSRPMFromSCM (/rpms/bolzplatz2006.git:11c8006ca2014f08379e25527893525127ee7b9b): assigned -> open (buildvm-x86-32.iad2.fedoraproject.org)
-  114132193 buildSRPMFromSCM (/rpms/bolzplatz2006.git:11c8006ca2014f08379e25527893525127ee7b9b): open (buildvm-x86-32.iad2.fedoraproject.org) -> closed
-  0 free  1 open  1 done  0 failed
-  114132313 buildArch (bolzplatz2006-1.0.3-58.fc41.src.rpm, s390x): free
-  114132310 buildArch (bolzplatz2006-1.0.3-58.fc41.src.rpm, x86_64): free
-  114132311 buildArch (bolzplatz2006-1.0.3-58.fc41.src.rpm, aarch64): free
-  114132312 buildArch (bolzplatz2006-1.0.3-58.fc41.src.rpm, ppc64le): free
-  114132312 buildArch (bolzplatz2006-1.0.3-58.fc41.src.rpm, ppc64le): free -> assigned
-  114132313 buildArch (bolzplatz2006-1.0.3-58.fc41.src.rpm, s390x): free -> assigned
-  114132310 buildArch (bolzplatz2006-1.0.3-58.fc41.src.rpm, x86_64): free -> open (buildhw-x86-16.iad2.fedoraproject.org)
-  114132311 buildArch (bolzplatz2006-1.0.3-58.fc41.src.rpm, aarch64): free -> assigned
-  114132311 buildArch (bolzplatz2006-1.0.3-58.fc41.src.rpm, aarch64): assigned -> open (buildhw-a64-23.iad2.fedoraproject.org)
-  114132312 buildArch (bolzplatz2006-1.0.3-58.fc41.src.rpm, ppc64le): assigned -> open (buildvm-ppc64le-05.iad2.fedoraproject.org)
-  114132313 buildArch (bolzplatz2006-1.0.3-58.fc41.src.rpm, s390x): assigned -> open (buildvm-s390x-08.s390.fedoraproject.org)
-  114132312 buildArch (bolzplatz2006-1.0.3-58.fc41.src.rpm, ppc64le): open (buildvm-ppc64le-05.iad2.fedoraproject.org) -> closed
+114347476 build (f40-build-side-84857, /rpms/bolzplatz2006.git:758fc5a60823df949bfac82bfe0581bf53d42b80): free
+114347476 build (f40-build-side-84857, /rpms/bolzplatz2006.git:758fc5a60823df949bfac82bfe0581bf53d42b80): free -> open (buildvm-a64-26.iad2.fedoraproject.org)
+  114347480 buildSRPMFromSCM (/rpms/bolzplatz2006.git:758fc5a60823df949bfac82bfe0581bf53d42b80): free
+  114347480 buildSRPMFromSCM (/rpms/bolzplatz2006.git:758fc5a60823df949bfac82bfe0581bf53d42b80): free -> assigned
+  114347480 buildSRPMFromSCM (/rpms/bolzplatz2006.git:758fc5a60823df949bfac82bfe0581bf53d42b80): assigned -> open (buildvm-a64-31.iad2.fedoraproject.org)
+  114347699 buildArch (bolzplatz2006-1.0.3-58.fc40.src.rpm, x86_64): free
+  114347700 buildArch (bolzplatz2006-1.0.3-58.fc40.src.rpm, aarch64): free
+  114347702 buildArch (bolzplatz2006-1.0.3-58.fc40.src.rpm, s390x): free
+  114347701 buildArch (bolzplatz2006-1.0.3-58.fc40.src.rpm, ppc64le): free
+  114347480 buildSRPMFromSCM (/rpms/bolzplatz2006.git:758fc5a60823df949bfac82bfe0581bf53d42b80): open (buildvm-a64-31.iad2.fedoraproject.org) -> closed
+  4 free  1 open  1 done  0 failed
+  114347699 buildArch (bolzplatz2006-1.0.3-58.fc40.src.rpm, x86_64): free -> assigned
+  114347700 buildArch (bolzplatz2006-1.0.3-58.fc40.src.rpm, aarch64): free -> assigned
+  114347702 buildArch (bolzplatz2006-1.0.3-58.fc40.src.rpm, s390x): free -> assigned
+  114347701 buildArch (bolzplatz2006-1.0.3-58.fc40.src.rpm, ppc64le): free -> assigned
+  114347700 buildArch (bolzplatz2006-1.0.3-58.fc40.src.rpm, aarch64): assigned -> open (buildhw-a64-21.iad2.fedoraproject.org)
+  114347702 buildArch (bolzplatz2006-1.0.3-58.fc40.src.rpm, s390x): assigned -> open (buildvm-s390x-04.s390.fedoraproject.org)
+  114347699 buildArch (bolzplatz2006-1.0.3-58.fc40.src.rpm, x86_64): assigned -> open (buildvm-x86-14.iad2.fedoraproject.org)
+  114347701 buildArch (bolzplatz2006-1.0.3-58.fc40.src.rpm, ppc64le): assigned -> open (buildvm-ppc64le-10.iad2.fedoraproject.org)
+  114347702 buildArch (bolzplatz2006-1.0.3-58.fc40.src.rpm, s390x): open (buildvm-s390x-04.s390.fedoraproject.org) -> closed
   0 free  4 open  2 done  0 failed
-  114132313 buildArch (bolzplatz2006-1.0.3-58.fc41.src.rpm, s390x): open (buildvm-s390x-08.s390.fedoraproject.org) -> closed
+  114347699 buildArch (bolzplatz2006-1.0.3-58.fc40.src.rpm, x86_64): open (buildvm-x86-14.iad2.fedoraproject.org) -> closed
   0 free  3 open  3 done  0 failed
-  114132311 buildArch (bolzplatz2006-1.0.3-58.fc41.src.rpm, aarch64): open (buildhw-a64-23.iad2.fedoraproject.org) -> closed
+  114347700 buildArch (bolzplatz2006-1.0.3-58.fc40.src.rpm, aarch64): open (buildhw-a64-21.iad2.fedoraproject.org) -> closed
   0 free  2 open  4 done  0 failed
-  114132310 buildArch (bolzplatz2006-1.0.3-58.fc41.src.rpm, x86_64): open (buildhw-x86-16.iad2.fedoraproject.org) -> closed
+  114347701 buildArch (bolzplatz2006-1.0.3-58.fc40.src.rpm, ppc64le): open (buildvm-ppc64le-10.iad2.fedoraproject.org) -> closed
   0 free  1 open  5 done  0 failed
-  114132741 tagBuild (noarch): free
-  114132741 tagBuild (noarch): free -> assigned
-  114132741 tagBuild (noarch): assigned -> closed
+  114347856 tagBuild (noarch): free
+  114347856 tagBuild (noarch): free -> assigned
+  114347856 tagBuild (noarch): assigned -> closed
   0 free  1 open  6 done  0 failed
-114132161 build (f41-build-side-84507, /rpms/bolzplatz2006.git:11c8006ca2014f08379e25527893525127ee7b9b): open (buildvm-a64-08.iad2.fedoraproject.org) -> closed
+114347476 build (f40-build-side-84857, /rpms/bolzplatz2006.git:758fc5a60823df949bfac82bfe0581bf53d42b80): open (buildvm-a64-26.iad2.fedoraproject.org) -> closed
   0 free  0 open  7 done  0 failed
 
-114132161 build (f41-build-side-84507, /rpms/bolzplatz2006.git:11c8006ca2014f08379e25527893525127ee7b9b) completed successfully
+114347476 build (f40-build-side-84857, /rpms/bolzplatz2006.git:758fc5a60823df949bfac82bfe0581bf53d42b80) completed successfully

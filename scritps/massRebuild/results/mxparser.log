@@ -1,27 +1,29 @@
 Cloning into 'mxparser'...
-[rawhide 4b8971c] Rebuilt for java-21-openjdk as system jdk
+[f40 f773d62] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building mxparser-1.2.2-10.fc41 for f41-build-side-84507
-Created task: 114138507
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114138507
+Building mxparser-1.2.2-10.fc40 for f40-build-side-84857
+Created task: 114354605
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114354605
 Watching tasks (this may be safely interrupted)...
-114138507 build (f41-build-side-84507, /rpms/mxparser.git:4b8971cda682c155acc16bdb0e38869a8cdcd6df): free
-114138507 build (f41-build-side-84507, /rpms/mxparser.git:4b8971cda682c155acc16bdb0e38869a8cdcd6df): free -> assigned
-114138507 build (f41-build-side-84507, /rpms/mxparser.git:4b8971cda682c155acc16bdb0e38869a8cdcd6df): assigned -> open (buildvm-ppc64le-08.iad2.fedoraproject.org)
-  114138517 buildSRPMFromSCM (/rpms/mxparser.git:4b8971cda682c155acc16bdb0e38869a8cdcd6df): free
-  114138517 buildSRPMFromSCM (/rpms/mxparser.git:4b8971cda682c155acc16bdb0e38869a8cdcd6df): free -> assigned
-  114138517 buildSRPMFromSCM (/rpms/mxparser.git:4b8971cda682c155acc16bdb0e38869a8cdcd6df): assigned -> open (buildvm-x86-05.iad2.fedoraproject.org)
-  114138517 buildSRPMFromSCM (/rpms/mxparser.git:4b8971cda682c155acc16bdb0e38869a8cdcd6df): open (buildvm-x86-05.iad2.fedoraproject.org) -> closed
+114354605 build (f40-build-side-84857, /rpms/mxparser.git:f773d62a4b363ac7e529e768f051afcadb42b3ab): free
+114354605 build (f40-build-side-84857, /rpms/mxparser.git:f773d62a4b363ac7e529e768f051afcadb42b3ab): free -> assigned
+114354605 build (f40-build-side-84857, /rpms/mxparser.git:f773d62a4b363ac7e529e768f051afcadb42b3ab): assigned -> open (buildvm-x86-22.iad2.fedoraproject.org)
+  114354619 buildSRPMFromSCM (/rpms/mxparser.git:f773d62a4b363ac7e529e768f051afcadb42b3ab): free
+  114354619 buildSRPMFromSCM (/rpms/mxparser.git:f773d62a4b363ac7e529e768f051afcadb42b3ab): free -> assigned
+  114354619 buildSRPMFromSCM (/rpms/mxparser.git:f773d62a4b363ac7e529e768f051afcadb42b3ab): assigned -> open (buildvm-a64-23.iad2.fedoraproject.org)
+  114354619 buildSRPMFromSCM (/rpms/mxparser.git:f773d62a4b363ac7e529e768f051afcadb42b3ab): open (buildvm-a64-23.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  114138828 buildArch (mxparser-1.2.2-10.fc41.src.rpm, noarch): free
-  114138828 buildArch (mxparser-1.2.2-10.fc41.src.rpm, noarch): free -> open (buildvm-s390x-08.s390.fedoraproject.org)
-  114138828 buildArch (mxparser-1.2.2-10.fc41.src.rpm, noarch): open (buildvm-s390x-08.s390.fedoraproject.org) -> closed
+  114354712 buildArch (mxparser-1.2.2-10.fc40.src.rpm, noarch): free
+  114354712 buildArch (mxparser-1.2.2-10.fc40.src.rpm, noarch): free -> assigned
+  114354712 buildArch (mxparser-1.2.2-10.fc40.src.rpm, noarch): assigned -> open (buildvm-s390x-05.s390.fedoraproject.org)
+  114354712 buildArch (mxparser-1.2.2-10.fc40.src.rpm, noarch): open (buildvm-s390x-05.s390.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  114138928 tagBuild (noarch): free
-  114138928 tagBuild (noarch): free -> assigned
-  114138928 tagBuild (noarch): assigned -> closed
+  114354842 tagBuild (noarch): free
+  114354842 tagBuild (noarch): free -> assigned
+  114354842 tagBuild (noarch): assigned -> open (buildvm-a64-21.iad2.fedoraproject.org)
+  114354842 tagBuild (noarch): open (buildvm-a64-21.iad2.fedoraproject.org) -> closed
   0 free  1 open  3 done  0 failed
-114138507 build (f41-build-side-84507, /rpms/mxparser.git:4b8971cda682c155acc16bdb0e38869a8cdcd6df): open (buildvm-ppc64le-08.iad2.fedoraproject.org) -> closed
+114354605 build (f40-build-side-84857, /rpms/mxparser.git:f773d62a4b363ac7e529e768f051afcadb42b3ab): open (buildvm-x86-22.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-114138507 build (f41-build-side-84507, /rpms/mxparser.git:4b8971cda682c155acc16bdb0e38869a8cdcd6df) completed successfully
+114354605 build (f40-build-side-84857, /rpms/mxparser.git:f773d62a4b363ac7e529e768f051afcadb42b3ab) completed successfully

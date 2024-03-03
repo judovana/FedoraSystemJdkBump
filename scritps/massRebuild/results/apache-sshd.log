@@ -1,31 +1,32 @@
 Cloning into 'apache-sshd'...
-[rawhide 8eff374] Rebuilt for java-21-openjdk as system jdk
+[f40 1b9a4be] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
 warning: %patchN is deprecated (1 usages found), use %patch N (or %patch -P N)
 
-Building apache-sshd-2.8.0-8.fc41 for f41-build-side-84507
-Created task: 114131918
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114131918
+Building apache-sshd-2.8.0-8.fc40 for f40-build-side-84857
+Created task: 114347170
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114347170
 Watching tasks (this may be safely interrupted)...
-114131918 build (f41-build-side-84507, /rpms/apache-sshd.git:8eff37414cf8c8b6d9a0e6f437436cf1e55cccbb): free
-114131918 build (f41-build-side-84507, /rpms/apache-sshd.git:8eff37414cf8c8b6d9a0e6f437436cf1e55cccbb): free -> open (buildhw-x86-14.iad2.fedoraproject.org)
-  114131987 buildSRPMFromSCM (/rpms/apache-sshd.git:8eff37414cf8c8b6d9a0e6f437436cf1e55cccbb): free
-  114131987 buildSRPMFromSCM (/rpms/apache-sshd.git:8eff37414cf8c8b6d9a0e6f437436cf1e55cccbb): free -> assigned
-  114131987 buildSRPMFromSCM (/rpms/apache-sshd.git:8eff37414cf8c8b6d9a0e6f437436cf1e55cccbb): assigned -> open (buildvm-x86-27.iad2.fedoraproject.org)
-  114131987 buildSRPMFromSCM (/rpms/apache-sshd.git:8eff37414cf8c8b6d9a0e6f437436cf1e55cccbb): open (buildvm-x86-27.iad2.fedoraproject.org) -> closed
+114347170 build (f40-build-side-84857, /rpms/apache-sshd.git:1b9a4be4b084cade42ea8b38f35d0d2a3eec906a): free
+114347170 build (f40-build-side-84857, /rpms/apache-sshd.git:1b9a4be4b084cade42ea8b38f35d0d2a3eec906a): free -> assigned
+114347170 build (f40-build-side-84857, /rpms/apache-sshd.git:1b9a4be4b084cade42ea8b38f35d0d2a3eec906a): assigned -> open (buildvm-ppc64le-21.iad2.fedoraproject.org)
+  114347222 buildSRPMFromSCM (/rpms/apache-sshd.git:1b9a4be4b084cade42ea8b38f35d0d2a3eec906a): free
+  114347222 buildSRPMFromSCM (/rpms/apache-sshd.git:1b9a4be4b084cade42ea8b38f35d0d2a3eec906a): free -> assigned
+  114347222 buildSRPMFromSCM (/rpms/apache-sshd.git:1b9a4be4b084cade42ea8b38f35d0d2a3eec906a): assigned -> open (buildvm-a64-15.iad2.fedoraproject.org)
+  114347222 buildSRPMFromSCM (/rpms/apache-sshd.git:1b9a4be4b084cade42ea8b38f35d0d2a3eec906a): open (buildvm-a64-15.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  114132042 buildArch (apache-sshd-2.8.0-8.fc41.src.rpm, noarch): free
-  114132042 buildArch (apache-sshd-2.8.0-8.fc41.src.rpm, noarch): free -> assigned
-  114132042 buildArch (apache-sshd-2.8.0-8.fc41.src.rpm, noarch): assigned -> open (buildhw-a64-20.iad2.fedoraproject.org)
-  114132042 buildArch (apache-sshd-2.8.0-8.fc41.src.rpm, noarch): open (buildhw-a64-20.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
+  114347348 buildArch (apache-sshd-2.8.0-8.fc40.src.rpm, noarch): free
+  114347348 buildArch (apache-sshd-2.8.0-8.fc40.src.rpm, noarch): free -> assigned
+  114347348 buildArch (apache-sshd-2.8.0-8.fc40.src.rpm, noarch): assigned -> open (buildvm-s390x-01.s390.fedoraproject.org)
+  114347348 buildArch (apache-sshd-2.8.0-8.fc40.src.rpm, noarch): open (buildvm-s390x-01.s390.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
   Relevant logs:
-  https://kojipkgs.fedoraproject.org/work/tasks/2042/114132042/mock_output.log
-  https://kojipkgs.fedoraproject.org/work/tasks/2042/114132042/state.log
-  https://kojipkgs.fedoraproject.org/work/tasks/2042/114132042/build.log
-  https://kojipkgs.fedoraproject.org/work/tasks/2042/114132042/root.log
-  https://kojipkgs.fedoraproject.org/work/tasks/2042/114132042/hw_info.log
+  https://kojipkgs.fedoraproject.org/work/tasks/7348/114347348/state.log
+  https://kojipkgs.fedoraproject.org/work/tasks/7348/114347348/build.log
+  https://kojipkgs.fedoraproject.org/work/tasks/7348/114347348/root.log
+  https://kojipkgs.fedoraproject.org/work/tasks/7348/114347348/mock_output.log
+  https://kojipkgs.fedoraproject.org/work/tasks/7348/114347348/hw_info.log
   0 free  1 open  1 done  1 failed
-114131918 build (f41-build-side-84507, /rpms/apache-sshd.git:8eff37414cf8c8b6d9a0e6f437436cf1e55cccbb): open (buildhw-x86-14.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
+114347170 build (f40-build-side-84857, /rpms/apache-sshd.git:1b9a4be4b084cade42ea8b38f35d0d2a3eec906a): open (buildvm-ppc64le-21.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
   0 free  0 open  1 done  2 failed
 
-114131918 build (f41-build-side-84507, /rpms/apache-sshd.git:8eff37414cf8c8b6d9a0e6f437436cf1e55cccbb) failed
+114347170 build (f40-build-side-84857, /rpms/apache-sshd.git:1b9a4be4b084cade42ea8b38f35d0d2a3eec906a) failed

@@ -1,28 +1,14 @@
 Cloning into 'prometheus-jmx-exporter'...
-[rawhide 6e020d6] Rebuilt for java-21-openjdk as system jdk
+[f40 dbed29e] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
 warning: %patchN is deprecated (3 usages found), use %patch N (or %patch -P N)
 
-Building prometheus-jmx-exporter-0.16.1-13.fc41 for f41-build-side-84507
-Created task: 114140314
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114140314
+Building prometheus-jmx-exporter-0.16.1-13.fc40 for f40-build-side-84857
+Created task: 114355568
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355568
 Watching tasks (this may be safely interrupted)...
-114140314 build (f41-build-side-84507, /rpms/prometheus-jmx-exporter.git:6e020d66d2640052e1fcda8c5c6da5ebade7e16c): free
-114140314 build (f41-build-side-84507, /rpms/prometheus-jmx-exporter.git:6e020d66d2640052e1fcda8c5c6da5ebade7e16c): free -> assigned
-114140314 build (f41-build-side-84507, /rpms/prometheus-jmx-exporter.git:6e020d66d2640052e1fcda8c5c6da5ebade7e16c): assigned -> open (buildhw-x86-04.iad2.fedoraproject.org)
-  114140358 buildSRPMFromSCM (/rpms/prometheus-jmx-exporter.git:6e020d66d2640052e1fcda8c5c6da5ebade7e16c): free
-  114140358 buildSRPMFromSCM (/rpms/prometheus-jmx-exporter.git:6e020d66d2640052e1fcda8c5c6da5ebade7e16c): free -> open (buildvm-x86-22.iad2.fedoraproject.org)
-  114140358 buildSRPMFromSCM (/rpms/prometheus-jmx-exporter.git:6e020d66d2640052e1fcda8c5c6da5ebade7e16c): open (buildvm-x86-22.iad2.fedoraproject.org) -> closed
-  0 free  1 open  1 done  0 failed
-  114140516 buildArch (prometheus-jmx-exporter-0.16.1-13.fc41.src.rpm, noarch): free
-  114140516 buildArch (prometheus-jmx-exporter-0.16.1-13.fc41.src.rpm, noarch): free -> assigned
-  114140516 buildArch (prometheus-jmx-exporter-0.16.1-13.fc41.src.rpm, noarch): assigned -> open (buildvm-x86-30.iad2.fedoraproject.org)
-  114140516 buildArch (prometheus-jmx-exporter-0.16.1-13.fc41.src.rpm, noarch): open (buildvm-x86-30.iad2.fedoraproject.org) -> closed
-  0 free  1 open  2 done  0 failed
-  114140577 tagBuild (noarch): free
-114140314 build (f41-build-side-84507, /rpms/prometheus-jmx-exporter.git:6e020d66d2640052e1fcda8c5c6da5ebade7e16c): open (buildhw-x86-04.iad2.fedoraproject.org) -> closed
-  1 free  0 open  3 done  0 failed
-  114140577 tagBuild (noarch): free -> closed
-  0 free  0 open  4 done  0 failed
-
-114140314 build (f41-build-side-84507, /rpms/prometheus-jmx-exporter.git:6e020d66d2640052e1fcda8c5c6da5ebade7e16c) completed successfully
+114355568 build (f40-build-side-84857, /rpms/prometheus-jmx-exporter.git:dbed29e55399aa59f5b2435cd93b2961e7bc87bd): free
+114355568 build (f40-build-side-84857, /rpms/prometheus-jmx-exporter.git:dbed29e55399aa59f5b2435cd93b2961e7bc87bd): free -> assigned
+114355568 build (f40-build-side-84857, /rpms/prometheus-jmx-exporter.git:dbed29e55399aa59f5b2435cd93b2961e7bc87bd): assigned -> open (buildvm-x86-14.iad2.fedoraproject.org)
+  114355570 buildSRPMFromSCM (/rpms/prometheus-jmx-exporter.git:dbed29e55399aa59f5b2435cd93b2961e7bc87bd): free
+114355568 build (f40-build-side-84857, /rpms/prometheus-jmx-exporter.git:dbed29e55399aa59f5b2435cd93b2961e7bc87bd): open (buildvm-x86-14.iad2.fedoraproject.org) -> free

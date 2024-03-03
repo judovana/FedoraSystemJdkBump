@@ -1,30 +1,30 @@
 Cloning into 'nekohtml'...
-[rawhide 88248f3] Rebuilt for java-21-openjdk as system jdk
+[f40 31f82bb] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
 warning: %patchN is deprecated (3 usages found), use %patch N (or %patch -P N)
 
-Building nekohtml-1.9.22-26.fc41 for f41-build-side-84507
-Created task: 114138591
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114138591
+Building nekohtml-1.9.22-26.fc40 for f40-build-side-84857
+Created task: 114354681
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114354681
 Watching tasks (this may be safely interrupted)...
-114138591 build (f41-build-side-84507, /rpms/nekohtml.git:88248f36600165ba4fa8f422f3d056f11348c296): free
-114138591 build (f41-build-side-84507, /rpms/nekohtml.git:88248f36600165ba4fa8f422f3d056f11348c296): free -> assigned
-114138591 build (f41-build-side-84507, /rpms/nekohtml.git:88248f36600165ba4fa8f422f3d056f11348c296): assigned -> open (buildvm-ppc64le-08.iad2.fedoraproject.org)
-  114138619 buildSRPMFromSCM (/rpms/nekohtml.git:88248f36600165ba4fa8f422f3d056f11348c296): free
-  114138619 buildSRPMFromSCM (/rpms/nekohtml.git:88248f36600165ba4fa8f422f3d056f11348c296): free -> assigned
-  114138619 buildSRPMFromSCM (/rpms/nekohtml.git:88248f36600165ba4fa8f422f3d056f11348c296): assigned -> open (buildvm-a64-34.iad2.fedoraproject.org)
-  114138619 buildSRPMFromSCM (/rpms/nekohtml.git:88248f36600165ba4fa8f422f3d056f11348c296): open (buildvm-a64-34.iad2.fedoraproject.org) -> closed
+114354681 build (f40-build-side-84857, /rpms/nekohtml.git:31f82bb47409a00ce99d2fcbc311a6fc8b6c0b2e): free
+114354681 build (f40-build-side-84857, /rpms/nekohtml.git:31f82bb47409a00ce99d2fcbc311a6fc8b6c0b2e): free -> assigned
+114354681 build (f40-build-side-84857, /rpms/nekohtml.git:31f82bb47409a00ce99d2fcbc311a6fc8b6c0b2e): assigned -> open (buildvm-a64-31.iad2.fedoraproject.org)
+  114354698 buildSRPMFromSCM (/rpms/nekohtml.git:31f82bb47409a00ce99d2fcbc311a6fc8b6c0b2e): free
+  114354698 buildSRPMFromSCM (/rpms/nekohtml.git:31f82bb47409a00ce99d2fcbc311a6fc8b6c0b2e): free -> assigned
+  114354698 buildSRPMFromSCM (/rpms/nekohtml.git:31f82bb47409a00ce99d2fcbc311a6fc8b6c0b2e): assigned -> open (buildvm-a64-14.iad2.fedoraproject.org)
+  114354698 buildSRPMFromSCM (/rpms/nekohtml.git:31f82bb47409a00ce99d2fcbc311a6fc8b6c0b2e): open (buildvm-a64-14.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  114138890 buildArch (nekohtml-1.9.22-26.fc41.src.rpm, noarch): free
-  114138890 buildArch (nekohtml-1.9.22-26.fc41.src.rpm, noarch): free -> assigned
-  114138890 buildArch (nekohtml-1.9.22-26.fc41.src.rpm, noarch): assigned -> open (buildhw-a64-23.iad2.fedoraproject.org)
-  114138890 buildArch (nekohtml-1.9.22-26.fc41.src.rpm, noarch): open (buildhw-a64-23.iad2.fedoraproject.org) -> closed
+  114354830 buildArch (nekohtml-1.9.22-26.fc40.src.rpm, noarch): free
+  114354830 buildArch (nekohtml-1.9.22-26.fc40.src.rpm, noarch): free -> assigned
+  114354830 buildArch (nekohtml-1.9.22-26.fc40.src.rpm, noarch): assigned -> open (buildvm-a64-08.iad2.fedoraproject.org)
+  114354830 buildArch (nekohtml-1.9.22-26.fc40.src.rpm, noarch): open (buildvm-a64-08.iad2.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  114139308 tagBuild (noarch): free
-  114139308 tagBuild (noarch): free -> assigned
-  114139308 tagBuild (noarch): assigned -> closed
+  114354922 tagBuild (noarch): free
+  114354922 tagBuild (noarch): free -> assigned
+  114354922 tagBuild (noarch): assigned -> closed
   0 free  1 open  3 done  0 failed
-114138591 build (f41-build-side-84507, /rpms/nekohtml.git:88248f36600165ba4fa8f422f3d056f11348c296): open (buildvm-ppc64le-08.iad2.fedoraproject.org) -> closed
+114354681 build (f40-build-side-84857, /rpms/nekohtml.git:31f82bb47409a00ce99d2fcbc311a6fc8b6c0b2e): open (buildvm-a64-31.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-114138591 build (f41-build-side-84507, /rpms/nekohtml.git:88248f36600165ba4fa8f422f3d056f11348c296) completed successfully
+114354681 build (f40-build-side-84857, /rpms/nekohtml.git:31f82bb47409a00ce99d2fcbc311a6fc8b6c0b2e) completed successfully

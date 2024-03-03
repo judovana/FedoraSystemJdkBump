@@ -1,31 +1,30 @@
 Cloning into 'junit5'...
-[rawhide 88c1f17] Rebuilt for java-21-openjdk as system jdk
+[f40 81abc3a] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
 Found a gating.yaml file in the repo and it is properly configured
 warning: %patchN is deprecated (2 usages found), use %patch N (or %patch -P N)
 
-Building junit5-5.10.2-2.fc41 for f41-build-side-84507
-Created task: 114136585
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114136585
+Building junit5-5.10.2-3.fc40 for f40-build-side-84857
+Created task: 114352816
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114352816
 Watching tasks (this may be safely interrupted)...
-114136585 build (f41-build-side-84507, /rpms/junit5.git:88c1f17f53cea8a26da35383cdb4d309f978556c): free
-114136585 build (f41-build-side-84507, /rpms/junit5.git:88c1f17f53cea8a26da35383cdb4d309f978556c): free -> assigned
-114136585 build (f41-build-side-84507, /rpms/junit5.git:88c1f17f53cea8a26da35383cdb4d309f978556c): assigned -> open (buildhw-x86-13.iad2.fedoraproject.org)
-  114136632 buildSRPMFromSCM (/rpms/junit5.git:88c1f17f53cea8a26da35383cdb4d309f978556c): free
-  114136632 buildSRPMFromSCM (/rpms/junit5.git:88c1f17f53cea8a26da35383cdb4d309f978556c): free -> assigned
-  114136632 buildSRPMFromSCM (/rpms/junit5.git:88c1f17f53cea8a26da35383cdb4d309f978556c): assigned -> open (buildvm-a64-25.iad2.fedoraproject.org)
-  114136632 buildSRPMFromSCM (/rpms/junit5.git:88c1f17f53cea8a26da35383cdb4d309f978556c): open (buildvm-a64-25.iad2.fedoraproject.org) -> closed
-  0 free  1 open  1 done  0 failed
-  114136749 buildArch (junit5-5.10.2-2.fc41.src.rpm, noarch): free
-  114136749 buildArch (junit5-5.10.2-2.fc41.src.rpm, noarch): free -> assigned
-  114136749 buildArch (junit5-5.10.2-2.fc41.src.rpm, noarch): assigned -> open (buildvm-x86-24.iad2.fedoraproject.org)
-  114136749 buildArch (junit5-5.10.2-2.fc41.src.rpm, noarch): open (buildvm-x86-24.iad2.fedoraproject.org) -> closed
-  0 free  1 open  2 done  0 failed
-  114136870 tagBuild (noarch): free
-  114136870 tagBuild (noarch): free -> assigned
-114136585 build (f41-build-side-84507, /rpms/junit5.git:88c1f17f53cea8a26da35383cdb4d309f978556c): open (buildhw-x86-13.iad2.fedoraproject.org) -> closed
+114352816 build (f40-build-side-84857, /rpms/junit5.git:81abc3af6fb6a52a160c1bbd10bf891b080f135b): free
+114352816 build (f40-build-side-84857, /rpms/junit5.git:81abc3af6fb6a52a160c1bbd10bf891b080f135b): free -> assigned
+114352816 build (f40-build-side-84857, /rpms/junit5.git:81abc3af6fb6a52a160c1bbd10bf891b080f135b): assigned -> open (buildvm-a64-40.iad2.fedoraproject.org)
+  114352885 buildSRPMFromSCM (/rpms/junit5.git:81abc3af6fb6a52a160c1bbd10bf891b080f135b): free
+  114352885 buildSRPMFromSCM (/rpms/junit5.git:81abc3af6fb6a52a160c1bbd10bf891b080f135b): free -> open (buildvm-x86-26.iad2.fedoraproject.org)
+  114352966 buildArch (junit5-5.10.2-3.fc40.src.rpm, noarch): free
+  114352885 buildSRPMFromSCM (/rpms/junit5.git:81abc3af6fb6a52a160c1bbd10bf891b080f135b): open (buildvm-x86-26.iad2.fedoraproject.org) -> closed
+  1 free  1 open  1 done  0 failed
+  114352966 buildArch (junit5-5.10.2-3.fc40.src.rpm, noarch): free -> assigned
+  114352966 buildArch (junit5-5.10.2-3.fc40.src.rpm, noarch): assigned -> open (buildhw-a64-21.iad2.fedoraproject.org)
+  114353049 tagBuild (noarch): free
+  114352966 buildArch (junit5-5.10.2-3.fc40.src.rpm, noarch): open (buildhw-a64-21.iad2.fedoraproject.org) -> closed
+  1 free  1 open  2 done  0 failed
+  114353049 tagBuild (noarch): free -> assigned
+  114353049 tagBuild (noarch): assigned -> closed
   0 free  1 open  3 done  0 failed
-  114136870 tagBuild (noarch): assigned -> closed
+114352816 build (f40-build-side-84857, /rpms/junit5.git:81abc3af6fb6a52a160c1bbd10bf891b080f135b): open (buildvm-a64-40.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-114136585 build (f41-build-side-84507, /rpms/junit5.git:88c1f17f53cea8a26da35383cdb4d309f978556c) completed successfully
+114352816 build (f40-build-side-84857, /rpms/junit5.git:81abc3af6fb6a52a160c1bbd10bf891b080f135b) completed successfully
