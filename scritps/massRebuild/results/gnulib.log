@@ -1,5 +1,5 @@
 Cloning into 'gnulib'...
-[f40 60a5144] Rebuilt for java-21-openjdk as system jdk
+[f40 0e3c918] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
 Could not execute build: There are unpushed changes in your repo
 Try option --srpm to make scratch build from local changes.

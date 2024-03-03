@@ -1,9 +1,27 @@
 Cloning into 'plexus-sec-dispatcher'...
-[f40 e2cb512] Rebuilt for java-21-openjdk as system jdk
+[f40 a558b5f] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
 Found a gating.yaml file in the repo and it is properly configured
-(gssapi auth failed: requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='koji.fedoraproject.org', port=443): Read timed out. (read timeout=60))
-Use following documentation to debug kerberos/gssapi auth issues. https://docs.pagure.org/koji/kerberos_gssapi_debug/
-Kerberos authentication fails: unable to obtain a session (gssapi auth failed: requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='koji.fedoraproject.org', port=443): Read timed out. (read timeout=60))
-Use following documentation to debug kerberos/gssapi auth issues. https://docs.pagure.org/koji/kerberos_gssapi_debug/
-Could not execute build: Could not login to https://koji.fedoraproject.org/kojihub
+Building plexus-sec-dispatcher-2.0-14.fc40 for f40-build-side-84857
+Created task: 114376922
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114376922
+Watching tasks (this may be safely interrupted)...
+114376922 build (f40-build-side-84857, /rpms/plexus-sec-dispatcher.git:a558b5fd28ccc48df55fd4b344711ab5fab01710): free
+114376922 build (f40-build-side-84857, /rpms/plexus-sec-dispatcher.git:a558b5fd28ccc48df55fd4b344711ab5fab01710): free -> assigned
+114376922 build (f40-build-side-84857, /rpms/plexus-sec-dispatcher.git:a558b5fd28ccc48df55fd4b344711ab5fab01710): assigned -> open (buildvm-a64-20.iad2.fedoraproject.org)
+  114376978 buildSRPMFromSCM (/rpms/plexus-sec-dispatcher.git:a558b5fd28ccc48df55fd4b344711ab5fab01710): free
+  114376978 buildSRPMFromSCM (/rpms/plexus-sec-dispatcher.git:a558b5fd28ccc48df55fd4b344711ab5fab01710): free -> assigned
+  114376978 buildSRPMFromSCM (/rpms/plexus-sec-dispatcher.git:a558b5fd28ccc48df55fd4b344711ab5fab01710): assigned -> open (buildvm-a64-19.iad2.fedoraproject.org)
+  114376978 buildSRPMFromSCM (/rpms/plexus-sec-dispatcher.git:a558b5fd28ccc48df55fd4b344711ab5fab01710): open (buildvm-a64-19.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  114377091 buildArch (plexus-sec-dispatcher-2.0-14.fc40.src.rpm, noarch): free
+  114377091 buildArch (plexus-sec-dispatcher-2.0-14.fc40.src.rpm, noarch): free -> open (buildvm-s390x-03.s390.fedoraproject.org)
+  114377186 tagBuild (noarch): free
+  114377091 buildArch (plexus-sec-dispatcher-2.0-14.fc40.src.rpm, noarch): open (buildvm-s390x-03.s390.fedoraproject.org) -> closed
+  1 free  1 open  2 done  0 failed
+  114377186 tagBuild (noarch): free -> closed
+  0 free  1 open  3 done  0 failed
+114376922 build (f40-build-side-84857, /rpms/plexus-sec-dispatcher.git:a558b5fd28ccc48df55fd4b344711ab5fab01710): open (buildvm-a64-20.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+114376922 build (f40-build-side-84857, /rpms/plexus-sec-dispatcher.git:a558b5fd28ccc48df55fd4b344711ab5fab01710) completed successfully

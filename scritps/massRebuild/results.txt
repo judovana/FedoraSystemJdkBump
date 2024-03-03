@@ -319,9 +319,9 @@ plexus-interpolation           passed!
 plexus-io                      passed!
 plexus-languages               passed!
 plexus-pom                     passed!
-plexus-resources               running?
-plexus-sec-dispatcher          running?
-plexus-utils                   running?
+plexus-resources               passed!
+plexus-sec-dispatcher          passed!
+plexus-utils                   passed!
 plexus-velocity                FAILED
 postgresql-jdbc                passed!
 proguard                       passed!
