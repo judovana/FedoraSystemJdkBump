@@ -1,5 +1,16 @@
-Cloning into 'gnulib'...
-[f40 0e3c918] Rebuilt for java-21-openjdk as system jdk
- 1 file changed, 4 insertions(+), 1 deletion(-)
-Could not execute build: There are unpushed changes in your repo
-Try option --srpm to make scratch build from local changes.
+Watching tasks (this may be safely interrupted)...
+114378238 build (f40-build-side-84857, /rpms/gnulib.git:68b1d5348cb51a9b1a642af6c821f406d3878f7a): open (buildvm-x86-07.iad2.fedoraproject.org)
+  114378313 buildArch (gnulib-0-50.20230709git.fc40.src.rpm, aarch64): open (buildhw-a64-20.iad2.fedoraproject.org)
+  114378312 buildArch (gnulib-0-50.20230709git.fc40.src.rpm, x86_64): open (buildhw-x86-15.iad2.fedoraproject.org)
+  114378316 buildArch (gnulib-0-50.20230709git.fc40.src.rpm, s390x): open (buildvm-s390x-02.s390.fedoraproject.org)
+  114378314 buildArch (gnulib-0-50.20230709git.fc40.src.rpm, ppc64le): open (buildvm-ppc64le-30.iad2.fedoraproject.org)
+  114378311 buildArch (gnulib-0-50.20230709git.fc40.src.rpm, i686): open (buildhw-x86-12.iad2.fedoraproject.org)
+  114378257 buildSRPMFromSCM (/rpms/gnulib.git:68b1d5348cb51a9b1a642af6c821f406d3878f7a): closed
+Tasks still running. You can continue to watch with the 'koji watch-task' command.
+Running Tasks:
+114378238 build (f40-build-side-84857, /rpms/gnulib.git:68b1d5348cb51a9b1a642af6c821f406d3878f7a): open (buildvm-x86-07.iad2.fedoraproject.org)
+  114378313 buildArch (gnulib-0-50.20230709git.fc40.src.rpm, aarch64): open (buildhw-a64-20.iad2.fedoraproject.org)
+  114378312 buildArch (gnulib-0-50.20230709git.fc40.src.rpm, x86_64): open (buildhw-x86-15.iad2.fedoraproject.org)
+  114378316 buildArch (gnulib-0-50.20230709git.fc40.src.rpm, s390x): open (buildvm-s390x-02.s390.fedoraproject.org)
+  114378314 buildArch (gnulib-0-50.20230709git.fc40.src.rpm, ppc64le): open (buildvm-ppc64le-30.iad2.fedoraproject.org)
+  114378311 buildArch (gnulib-0-50.20230709git.fc40.src.rpm, i686): open (buildhw-x86-12.iad2.fedoraproject.org)
