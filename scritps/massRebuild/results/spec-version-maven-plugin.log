@@ -6,3 +6,10 @@ Created task: 114355607
 Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355607
 Watching tasks (this may be safely interrupted)...
 114355607 build (f40-build-side-84857, /rpms/spec-version-maven-plugin.git:35ae8393457e63807cd946c7e255ce479098b863): free
+Watching tasks (this may be safely interrupted)...
+114355607 build (f40-build-side-84857, /rpms/spec-version-maven-plugin.git:35ae8393457e63807cd946c7e255ce479098b863): closed
+  114356032 tagBuild (noarch): closed
+  114355779 buildSRPMFromSCM (/rpms/spec-version-maven-plugin.git:35ae8393457e63807cd946c7e255ce479098b863): closed
+  114355924 buildArch (spec-version-maven-plugin-2.2-3.fc40.src.rpm, noarch): closed
+
+114355607 build (f40-build-side-84857, /rpms/spec-version-maven-plugin.git:35ae8393457e63807cd946c7e255ce479098b863) completed successfully

@@ -8,3 +8,10 @@ Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355558
 Watching tasks (this may be safely interrupted)...
 114355558 build (f40-build-side-84857, /rpms/plexus-pom.git:f3769174e01a0e190db77526cf93d1d5429a4da8): free
 114355558 build (f40-build-side-84857, /rpms/plexus-pom.git:f3769174e01a0e190db77526cf93d1d5429a4da8): free -> assigned
+Watching tasks (this may be safely interrupted)...
+114355558 build (f40-build-side-84857, /rpms/plexus-pom.git:f3769174e01a0e190db77526cf93d1d5429a4da8): closed
+  114355954 tagBuild (noarch): closed
+  114355763 buildArch (plexus-pom-16-3.fc40.src.rpm, noarch): closed
+  114355574 buildSRPMFromSCM (/rpms/plexus-pom.git:f3769174e01a0e190db77526cf93d1d5429a4da8): closed
+
+114355558 build (f40-build-side-84857, /rpms/plexus-pom.git:f3769174e01a0e190db77526cf93d1d5429a4da8) completed successfully

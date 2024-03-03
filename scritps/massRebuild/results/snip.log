@@ -8,3 +8,10 @@ Created task: 114355606
 Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355606
 Watching tasks (this may be safely interrupted)...
 114355606 build (f40-build-side-84857, /rpms/snip.git:1d564954328f26efc229ab77a5febb88d94472ae): free
+Watching tasks (this may be safely interrupted)...
+114355606 build (f40-build-side-84857, /rpms/snip.git:1d564954328f26efc229ab77a5febb88d94472ae): closed
+  114355764 buildSRPMFromSCM (/rpms/snip.git:1d564954328f26efc229ab77a5febb88d94472ae): closed
+  114356009 tagBuild (noarch): closed
+  114355947 buildArch (snip-0.11-25.fc40.src.rpm, noarch): closed
+
+114355606 build (f40-build-side-84857, /rpms/snip.git:1d564954328f26efc229ab77a5febb88d94472ae) completed successfully

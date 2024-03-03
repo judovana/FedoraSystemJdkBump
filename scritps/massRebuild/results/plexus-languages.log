@@ -8,3 +8,10 @@ Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355525
 Watching tasks (this may be safely interrupted)...
 114355525 build (f40-build-side-84857, /rpms/plexus-languages.git:0d51bdd99a2f69c50919414439f42a9d2a1dfcb4): free
 114355525 build (f40-build-side-84857, /rpms/plexus-languages.git:0d51bdd99a2f69c50919414439f42a9d2a1dfcb4): free -> assigned
+Watching tasks (this may be safely interrupted)...
+114355525 build (f40-build-side-84857, /rpms/plexus-languages.git:0d51bdd99a2f69c50919414439f42a9d2a1dfcb4): closed
+  114355918 tagBuild (noarch): closed
+  114355830 buildArch (plexus-languages-1.2.0-6.fc40.src.rpm, noarch): closed
+  114355573 buildSRPMFromSCM (/rpms/plexus-languages.git:0d51bdd99a2f69c50919414439f42a9d2a1dfcb4): closed
+
+114355525 build (f40-build-side-84857, /rpms/plexus-languages.git:0d51bdd99a2f69c50919414439f42a9d2a1dfcb4) completed successfully

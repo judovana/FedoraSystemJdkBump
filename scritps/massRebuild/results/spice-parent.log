@@ -8,3 +8,10 @@ Created task: 114355608
 Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355608
 Watching tasks (this may be safely interrupted)...
 114355608 build (f40-build-side-84857, /rpms/spice-parent.git:8d7838a2402dfebfe929303b46383225dd534b65): free
+Watching tasks (this may be safely interrupted)...
+114355608 build (f40-build-side-84857, /rpms/spice-parent.git:8d7838a2402dfebfe929303b46383225dd534b65): closed
+  114355900 buildArch (spice-parent-26-24.fc40.src.rpm, noarch): closed
+  114356553 tagBuild (noarch): closed
+  114355689 buildSRPMFromSCM (/rpms/spice-parent.git:8d7838a2402dfebfe929303b46383225dd534b65): closed
+
+114355608 build (f40-build-side-84857, /rpms/spice-parent.git:8d7838a2402dfebfe929303b46383225dd534b65) completed successfully

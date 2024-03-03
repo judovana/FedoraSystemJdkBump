@@ -6,3 +6,10 @@ Created task: 114355589
 Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355589
 Watching tasks (this may be safely interrupted)...
 114355589 build (f40-build-side-84857, /rpms/rundoc.git:7dff18d5d17eff93f2b3c8042c77f1574509a873): free
+Watching tasks (this may be safely interrupted)...
+114355589 build (f40-build-side-84857, /rpms/rundoc.git:7dff18d5d17eff93f2b3c8042c77f1574509a873): closed
+  114356027 tagBuild (noarch): closed
+  114355759 buildSRPMFromSCM (/rpms/rundoc.git:7dff18d5d17eff93f2b3c8042c77f1574509a873): closed
+  114355968 buildArch (rundoc-0.11-25.fc40.src.rpm, noarch): closed
+
+114355589 build (f40-build-side-84857, /rpms/rundoc.git:7dff18d5d17eff93f2b3c8042c77f1574509a873) completed successfully

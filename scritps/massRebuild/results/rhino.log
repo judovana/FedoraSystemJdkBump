@@ -6,3 +6,10 @@ Created task: 114355585
 Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355585
 Watching tasks (this may be safely interrupted)...
 114355585 build (f40-build-side-84857, /rpms/rhino.git:7526fe70a20d617839d37da8f2171d8416a78860): free
+Watching tasks (this may be safely interrupted)...
+114355585 build (f40-build-side-84857, /rpms/rhino.git:7526fe70a20d617839d37da8f2171d8416a78860): closed
+  114355683 buildSRPMFromSCM (/rpms/rhino.git:7526fe70a20d617839d37da8f2171d8416a78860): closed
+  114355899 buildArch (rhino-1.7.14-10.fc40.src.rpm, noarch): closed
+  114355978 tagBuild (noarch): closed
+
+114355585 build (f40-build-side-84857, /rpms/rhino.git:7526fe70a20d617839d37da8f2171d8416a78860) completed successfully

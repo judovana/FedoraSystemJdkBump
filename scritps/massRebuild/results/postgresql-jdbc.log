@@ -8,3 +8,10 @@ Watching tasks (this may be safely interrupted)...
 114355564 build (f40-build-side-84857, /rpms/postgresql-jdbc.git:c3c8df3275e5cc2297c996a0ef51180517c880b8): free
 114355564 build (f40-build-side-84857, /rpms/postgresql-jdbc.git:c3c8df3275e5cc2297c996a0ef51180517c880b8): free -> assigned
 114355564 build (f40-build-side-84857, /rpms/postgresql-jdbc.git:c3c8df3275e5cc2297c996a0ef51180517c880b8): assigned -> free
+Watching tasks (this may be safely interrupted)...
+114355564 build (f40-build-side-84857, /rpms/postgresql-jdbc.git:c3c8df3275e5cc2297c996a0ef51180517c880b8): closed
+  114356973 tagBuild (noarch): closed
+  114355751 buildSRPMFromSCM (/rpms/postgresql-jdbc.git:c3c8df3275e5cc2297c996a0ef51180517c880b8): closed
+  114355858 buildArch (postgresql-jdbc-42.7.1-4.fc40.src.rpm, noarch): closed
+
+114355564 build (f40-build-side-84857, /rpms/postgresql-jdbc.git:c3c8df3275e5cc2297c996a0ef51180517c880b8) completed successfully

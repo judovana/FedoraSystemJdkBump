@@ -6,3 +6,13 @@ Created task: 114355586
 Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355586
 Watching tasks (this may be safely interrupted)...
 114355586 build (f40-build-side-84857, /rpms/R-rJava.git:320ce792a4d39195868eeff5f6b002db0fa3f39e): free
+Watching tasks (this may be safely interrupted)...
+114355586 build (f40-build-side-84857, /rpms/R-rJava.git:320ce792a4d39195868eeff5f6b002db0fa3f39e): closed
+  114355718 buildSRPMFromSCM (/rpms/R-rJava.git:320ce792a4d39195868eeff5f6b002db0fa3f39e): closed
+  114355836 buildArch (R-rJava-1.0.6-9.fc40.src.rpm, x86_64): closed
+  114356405 tagBuild (noarch): closed
+  114355839 buildArch (R-rJava-1.0.6-9.fc40.src.rpm, s390x): closed
+  114355838 buildArch (R-rJava-1.0.6-9.fc40.src.rpm, ppc64le): closed
+  114355837 buildArch (R-rJava-1.0.6-9.fc40.src.rpm, aarch64): closed
+
+114355586 build (f40-build-side-84857, /rpms/R-rJava.git:320ce792a4d39195868eeff5f6b002db0fa3f39e) completed successfully

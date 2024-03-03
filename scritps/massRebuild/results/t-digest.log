@@ -8,3 +8,10 @@ Created task: 114355618
 Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355618
 Watching tasks (this may be safely interrupted)...
 114355618 build (f40-build-side-84857, /rpms/t-digest.git:5a7c4bc289a607f55be70c4b988193d1d0028e4f): free
+Watching tasks (this may be safely interrupted)...
+114355618 build (f40-build-side-84857, /rpms/t-digest.git:5a7c4bc289a607f55be70c4b988193d1d0028e4f): closed
+  114356554 tagBuild (noarch): closed
+  114355687 buildSRPMFromSCM (/rpms/t-digest.git:5a7c4bc289a607f55be70c4b988193d1d0028e4f): closed
+  114355874 buildArch (t-digest-3.2-8.fc40.src.rpm, noarch): closed
+
+114355618 build (f40-build-side-84857, /rpms/t-digest.git:5a7c4bc289a607f55be70c4b988193d1d0028e4f) completed successfully

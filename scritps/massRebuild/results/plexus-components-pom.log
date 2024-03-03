@@ -17,3 +17,10 @@ Watching tasks (this may be safely interrupted)...
   114355475 buildArch (plexus-components-pom-14.2-5.fc40.src.rpm, noarch): free
   114355475 buildArch (plexus-components-pom-14.2-5.fc40.src.rpm, noarch): free -> assigned
   114355475 buildArch (plexus-components-pom-14.2-5.fc40.src.rpm, noarch): assigned -> open (buildvm-s390x-04.s390.fedoraproject.org)
+Watching tasks (this may be safely interrupted)...
+114355388 build (f40-build-side-84857, /rpms/plexus-components-pom.git:13aeeade5df556c407eb2303c8d71b27dcf224f7): closed
+  114355817 tagBuild (noarch): closed
+  114355475 buildArch (plexus-components-pom-14.2-5.fc40.src.rpm, noarch): closed
+  114355420 buildSRPMFromSCM (/rpms/plexus-components-pom.git:13aeeade5df556c407eb2303c8d71b27dcf224f7): closed
+
+114355388 build (f40-build-side-84857, /rpms/plexus-components-pom.git:13aeeade5df556c407eb2303c8d71b27dcf224f7) completed successfully

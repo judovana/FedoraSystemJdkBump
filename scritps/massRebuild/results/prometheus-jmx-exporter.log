@@ -12,3 +12,10 @@ Watching tasks (this may be safely interrupted)...
 114355568 build (f40-build-side-84857, /rpms/prometheus-jmx-exporter.git:dbed29e55399aa59f5b2435cd93b2961e7bc87bd): assigned -> open (buildvm-x86-14.iad2.fedoraproject.org)
   114355570 buildSRPMFromSCM (/rpms/prometheus-jmx-exporter.git:dbed29e55399aa59f5b2435cd93b2961e7bc87bd): free
 114355568 build (f40-build-side-84857, /rpms/prometheus-jmx-exporter.git:dbed29e55399aa59f5b2435cd93b2961e7bc87bd): open (buildvm-x86-14.iad2.fedoraproject.org) -> free
+Watching tasks (this may be safely interrupted)...
+114355568 build (f40-build-side-84857, /rpms/prometheus-jmx-exporter.git:dbed29e55399aa59f5b2435cd93b2961e7bc87bd): closed
+  114355570 buildSRPMFromSCM (/rpms/prometheus-jmx-exporter.git:dbed29e55399aa59f5b2435cd93b2961e7bc87bd): closed
+  114355875 buildArch (prometheus-jmx-exporter-0.16.1-13.fc40.src.rpm, noarch): closed
+  114356430 tagBuild (noarch): closed
+
+114355568 build (f40-build-side-84857, /rpms/prometheus-jmx-exporter.git:dbed29e55399aa59f5b2435cd93b2961e7bc87bd) completed successfully

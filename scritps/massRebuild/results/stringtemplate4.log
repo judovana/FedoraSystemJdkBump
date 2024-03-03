@@ -6,3 +6,15 @@ Created task: 114355610
 Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355610
 Watching tasks (this may be safely interrupted)...
 114355610 build (f40-build-side-84857, /rpms/stringtemplate4.git:2de3bc8ed9c5ded2d675fbe396174b49e92e538f): free
+Watching tasks (this may be safely interrupted)...
+114355610 build (f40-build-side-84857, /rpms/stringtemplate4.git:2de3bc8ed9c5ded2d675fbe396174b49e92e538f): FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
+  114355881 buildArch (stringtemplate4-4.3.4-4.fc40.src.rpm, noarch): FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
+    Relevant logs:
+    https://kojipkgs.fedoraproject.org/work/tasks/5881/114355881/mock_output.log
+    https://kojipkgs.fedoraproject.org/work/tasks/5881/114355881/state.log
+    https://kojipkgs.fedoraproject.org/work/tasks/5881/114355881/build.log
+    https://kojipkgs.fedoraproject.org/work/tasks/5881/114355881/root.log
+    https://kojipkgs.fedoraproject.org/work/tasks/5881/114355881/hw_info.log
+  114355745 buildSRPMFromSCM (/rpms/stringtemplate4.git:2de3bc8ed9c5ded2d675fbe396174b49e92e538f): closed
+
+114355610 build (f40-build-side-84857, /rpms/stringtemplate4.git:2de3bc8ed9c5ded2d675fbe396174b49e92e538f) failed

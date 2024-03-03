@@ -6,3 +6,10 @@ Created task: 114355581
 Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355581
 Watching tasks (this may be safely interrupted)...
 114355581 build (f40-build-side-84857, /rpms/reflections.git:2d963b0af4dc22d2e411a52447ea5b84bda636e2): free
+Watching tasks (this may be safely interrupted)...
+114355581 build (f40-build-side-84857, /rpms/reflections.git:2d963b0af4dc22d2e411a52447ea5b84bda636e2): closed
+  114355970 tagBuild (noarch): closed
+  114355716 buildSRPMFromSCM (/rpms/reflections.git:2d963b0af4dc22d2e411a52447ea5b84bda636e2): closed
+  114355850 buildArch (reflections-0.9.12-17.fc40.src.rpm, noarch): closed
+
+114355581 build (f40-build-side-84857, /rpms/reflections.git:2d963b0af4dc22d2e411a52447ea5b84bda636e2) completed successfully

@@ -18,3 +18,11 @@ Watching tasks (this may be safely interrupted)...
   114347003 buildArch (chromium-122.0.6261.94-2.fc40.src.rpm, x86_64): free -> assigned
   114347003 buildArch (chromium-122.0.6261.94-2.fc40.src.rpm, x86_64): assigned -> open (buildhw-x86-14.iad2.fedoraproject.org)
   114347004 buildArch (chromium-122.0.6261.94-2.fc40.src.rpm, aarch64): free -> open (buildhw-a64-19.iad2.fedoraproject.org)
+Watching tasks (this may be safely interrupted)...
+114346559 build (f40-build-side-84857, /rpms/chromium.git:2098cd3cf829d62c172c7b572bb41a4c3479c41c): closed
+  114364496 tagBuild (noarch): closed
+  114347003 buildArch (chromium-122.0.6261.94-2.fc40.src.rpm, x86_64): closed
+  114347004 buildArch (chromium-122.0.6261.94-2.fc40.src.rpm, aarch64): closed
+  114346678 buildSRPMFromSCM (/rpms/chromium.git:2098cd3cf829d62c172c7b572bb41a4c3479c41c): closed
+
+114346559 build (f40-build-side-84857, /rpms/chromium.git:2098cd3cf829d62c172c7b572bb41a4c3479c41c) completed successfully

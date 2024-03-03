@@ -7,3 +7,10 @@ Created task: 114355604
 Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355604
 Watching tasks (this may be safely interrupted)...
 114355604 build (f40-build-side-84857, /rpms/slf4j.git:40468398332d50bcd382406979536a5d58a69402): free
+Watching tasks (this may be safely interrupted)...
+114355604 build (f40-build-side-84857, /rpms/slf4j.git:40468398332d50bcd382406979536a5d58a69402): closed
+  114356289 tagBuild (noarch): closed
+  114355897 buildArch (slf4j-1.7.32-12.fc40.src.rpm, noarch): closed
+  114355721 buildSRPMFromSCM (/rpms/slf4j.git:40468398332d50bcd382406979536a5d58a69402): closed
+
+114355604 build (f40-build-side-84857, /rpms/slf4j.git:40468398332d50bcd382406979536a5d58a69402) completed successfully

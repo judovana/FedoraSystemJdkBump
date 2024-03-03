@@ -5,6 +5,9 @@ export FEATURE_BUG_ID=${3}
 # see also variable URLS true/false
 # see TASK_URL for usage. Tahat one is good with grep -A1
 #   to double check runing tasks: TASK_URL=true sh processResults.sh  results  | grep running -A1
+# see UPDATE_RUNNING=true for a feature which will update running tasks
+#   this fill update status of all "runnign" jobs, as those could be simply stuck.
+#   check the few trouble makers, whcih could get broken earlier, be seeing stderr
 
 ## resolve folder of this script, following all symlinks,
 ## http://stackoverflow.com/questions/59895/can-a-bash-script-tell-what-directory-its-stored-in
@@ -67,6 +70,11 @@ for logFile in `ls ${RESULTS_DIR} | sort ` ; do
     if [ ! "x$TASK_URL" == "x" ] ;  then
       a=`cat $log | grep "Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID="`
       pout "  $a"  "" 0
+    fi
+    if [ ! "x$UPDATE_RUNNING" == "x" ] ;  then
+      taskId=`cat $log | grep "Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=" | sed "s/.*taskID=//g"`
+      koji watch-task $taskId  >> $RESULTS_DIR/${pkg}.log &
+      sleep 5
     fi
   fi
   if [ "x$URLS" = "xtrue" ] ; then

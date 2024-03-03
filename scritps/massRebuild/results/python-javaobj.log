@@ -6,3 +6,10 @@ Created task: 114355571
 Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355571
 Watching tasks (this may be safely interrupted)...
 114355571 build (f40-build-side-84857, /rpms/python-javaobj.git:bad4241d74206351164bc276264ad69d46f85e83): free
+Watching tasks (this may be safely interrupted)...
+114355571 build (f40-build-side-84857, /rpms/python-javaobj.git:bad4241d74206351164bc276264ad69d46f85e83): closed
+  114355762 buildSRPMFromSCM (/rpms/python-javaobj.git:bad4241d74206351164bc276264ad69d46f85e83): closed
+  114355990 tagBuild (noarch): closed
+  114355921 buildArch (python-javaobj-0.4.3-12.fc40.src.rpm, noarch): closed
+
+114355571 build (f40-build-side-84857, /rpms/python-javaobj.git:bad4241d74206351164bc276264ad69d46f85e83) completed successfully

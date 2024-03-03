@@ -29,3 +29,14 @@ Watching tasks (this may be safely interrupted)...
   114354938 buildArch (octave-8.4.0-6.fc40.src.rpm, aarch64): assigned -> open (buildvm-a64-09.iad2.fedoraproject.org)
   114354939 buildArch (octave-8.4.0-6.fc40.src.rpm, ppc64le): assigned -> open (buildvm-ppc64le-31.iad2.fedoraproject.org)
   114354936 buildArch (octave-8.4.0-6.fc40.src.rpm, i686): assigned -> open (buildvm-x86-07.iad2.fedoraproject.org)
+Watching tasks (this may be safely interrupted)...
+114354846 build (f40-build-side-84857, /rpms/octave.git:94ac9b32caad8008384f96eb44a09cbe52c5832c): closed
+  114358491 tagBuild (noarch): closed
+  114354861 buildSRPMFromSCM (/rpms/octave.git:94ac9b32caad8008384f96eb44a09cbe52c5832c): closed
+  114354938 buildArch (octave-8.4.0-6.fc40.src.rpm, aarch64): closed
+  114354940 buildArch (octave-8.4.0-6.fc40.src.rpm, s390x): closed
+  114354937 buildArch (octave-8.4.0-6.fc40.src.rpm, x86_64): closed
+  114354939 buildArch (octave-8.4.0-6.fc40.src.rpm, ppc64le): closed
+  114354936 buildArch (octave-8.4.0-6.fc40.src.rpm, i686): closed
+
+114354846 build (f40-build-side-84857, /rpms/octave.git:94ac9b32caad8008384f96eb44a09cbe52c5832c) completed successfully

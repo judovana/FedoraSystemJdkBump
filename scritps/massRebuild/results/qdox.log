@@ -7,3 +7,10 @@ Created task: 114355579
 Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355579
 Watching tasks (this may be safely interrupted)...
 114355579 build (f40-build-side-84857, /rpms/qdox.git:08b51c4e729110b507055af7333b73860b712d99): free
+Watching tasks (this may be safely interrupted)...
+114355579 build (f40-build-side-84857, /rpms/qdox.git:08b51c4e729110b507055af7333b73860b712d99): closed
+  114356006 tagBuild (noarch): closed
+  114355760 buildSRPMFromSCM (/rpms/qdox.git:08b51c4e729110b507055af7333b73860b712d99): closed
+  114355925 buildArch (qdox-2.1.0-3.fc40.src.rpm, noarch): closed
+
+114355579 build (f40-build-side-84857, /rpms/qdox.git:08b51c4e729110b507055af7333b73860b712d99) completed successfully

@@ -11,3 +11,10 @@ Watching tasks (this may be safely interrupted)...
 114355456 build (f40-build-side-84857, /rpms/plexus-interpolation.git:e00b982c9e8ad9659b384c72971ea251bdbec63c): assigned -> open (buildvm-a64-13.iad2.fedoraproject.org)
   114355489 buildSRPMFromSCM (/rpms/plexus-interpolation.git:e00b982c9e8ad9659b384c72971ea251bdbec63c): free
   114355489 buildSRPMFromSCM (/rpms/plexus-interpolation.git:e00b982c9e8ad9659b384c72971ea251bdbec63c): free -> open (buildvm-a64-08.iad2.fedoraproject.org)
+Watching tasks (this may be safely interrupted)...
+114355456 build (f40-build-side-84857, /rpms/plexus-interpolation.git:e00b982c9e8ad9659b384c72971ea251bdbec63c): closed
+  114356076 tagBuild (noarch): closed
+  114355754 buildArch (plexus-interpolation-1.27-3.fc40.src.rpm, noarch): closed
+  114355489 buildSRPMFromSCM (/rpms/plexus-interpolation.git:e00b982c9e8ad9659b384c72971ea251bdbec63c): closed
+
+114355456 build (f40-build-side-84857, /rpms/plexus-interpolation.git:e00b982c9e8ad9659b384c72971ea251bdbec63c) completed successfully

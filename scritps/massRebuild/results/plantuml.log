@@ -16,3 +16,10 @@ Watching tasks (this may be safely interrupted)...
   114355351 buildArch (plantuml-1.2024.3-3.fc40.src.rpm, noarch): free
   114355351 buildArch (plantuml-1.2024.3-3.fc40.src.rpm, noarch): free -> assigned
   114355351 buildArch (plantuml-1.2024.3-3.fc40.src.rpm, noarch): assigned -> open (buildvm-ppc64le-14.iad2.fedoraproject.org)
+Watching tasks (this may be safely interrupted)...
+114355318 build (f40-build-side-84857, /rpms/plantuml.git:4113212004a063d3f22f70256c01f2d14461be83): closed
+  114356048 tagBuild (noarch): closed
+  114355323 buildSRPMFromSCM (/rpms/plantuml.git:4113212004a063d3f22f70256c01f2d14461be83): closed
+  114355351 buildArch (plantuml-1.2024.3-3.fc40.src.rpm, noarch): closed
+
+114355318 build (f40-build-side-84857, /rpms/plantuml.git:4113212004a063d3f22f70256c01f2d14461be83) completed successfully

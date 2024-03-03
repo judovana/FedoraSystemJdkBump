@@ -6,3 +6,14 @@ Created task: 114355612
 Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355612
 Watching tasks (this may be safely interrupted)...
 114355612 build (f40-build-side-84857, /rpms/subversion.git:557686a66a7bade838c6a8055eb0f6f6efdbcb92): free
+Watching tasks (this may be safely interrupted)...
+114355612 build (f40-build-side-84857, /rpms/subversion.git:557686a66a7bade838c6a8055eb0f6f6efdbcb92): closed
+  114355945 buildArch (subversion-1.14.3-5.fc40.src.rpm, s390x): closed
+  114355943 buildArch (subversion-1.14.3-5.fc40.src.rpm, aarch64): closed
+  114355941 buildArch (subversion-1.14.3-5.fc40.src.rpm, i686): closed
+  114355749 buildSRPMFromSCM (/rpms/subversion.git:557686a66a7bade838c6a8055eb0f6f6efdbcb92): closed
+  114355942 buildArch (subversion-1.14.3-5.fc40.src.rpm, x86_64): closed
+  114355944 buildArch (subversion-1.14.3-5.fc40.src.rpm, ppc64le): closed
+  114357266 tagBuild (noarch): closed
+
+114355612 build (f40-build-side-84857, /rpms/subversion.git:557686a66a7bade838c6a8055eb0f6f6efdbcb92) completed successfully

@@ -9,3 +9,10 @@ Created task: 114355602
 Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355602
 Watching tasks (this may be safely interrupted)...
 114355602 build (f40-build-side-84857, /rpms/sisu.git:f6676e1155582225138ca45a97067f82e5ba463c): free
+Watching tasks (this may be safely interrupted)...
+114355602 build (f40-build-side-84857, /rpms/sisu.git:f6676e1155582225138ca45a97067f82e5ba463c): closed
+  114356030 tagBuild (noarch): closed
+  114355964 buildArch (sisu-0.3.5-13.fc40.src.rpm, noarch): closed
+  114355761 buildSRPMFromSCM (/rpms/sisu.git:f6676e1155582225138ca45a97067f82e5ba463c): closed
+
+114355602 build (f40-build-side-84857, /rpms/sisu.git:f6676e1155582225138ca45a97067f82e5ba463c) completed successfully

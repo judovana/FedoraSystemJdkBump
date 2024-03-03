@@ -8,3 +8,15 @@ Created task: 114355613
 Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355613
 Watching tasks (this may be safely interrupted)...
 114355613 build (f40-build-side-84857, /rpms/svnkit.git:8697e31eee39c4aff9c4606cc559707d1f271a0e): free
+Watching tasks (this may be safely interrupted)...
+114355613 build (f40-build-side-84857, /rpms/svnkit.git:8697e31eee39c4aff9c4606cc559707d1f271a0e): FAILED: BuildError: error building package (arch noarch), mock exited with status 30; see root.log for more information
+  114356066 buildArch (svnkit-1.8.12-19.fc40.src.rpm, noarch): FAILED: BuildError: error building package (arch noarch), mock exited with status 30; see root.log for more information
+    Relevant logs:
+    https://kojipkgs.fedoraproject.org/work/tasks/6066/114356066/mock_output.log
+    https://kojipkgs.fedoraproject.org/work/tasks/6066/114356066/state.log
+    https://kojipkgs.fedoraproject.org/work/tasks/6066/114356066/build.log
+    https://kojipkgs.fedoraproject.org/work/tasks/6066/114356066/root.log
+    https://kojipkgs.fedoraproject.org/work/tasks/6066/114356066/hw_info.log
+  114355720 buildSRPMFromSCM (/rpms/svnkit.git:8697e31eee39c4aff9c4606cc559707d1f271a0e): closed
+
+114355613 build (f40-build-side-84857, /rpms/svnkit.git:8697e31eee39c4aff9c4606cc559707d1f271a0e) failed

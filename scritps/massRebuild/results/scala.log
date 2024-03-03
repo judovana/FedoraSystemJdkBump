@@ -6,3 +6,10 @@ Created task: 114355595
 Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355595
 Watching tasks (this may be safely interrupted)...
 114355595 build (f40-build-side-84857, /rpms/scala.git:78af8cc185f185409e46e757f7dc430d3b9c2da5): free
+Watching tasks (this may be safely interrupted)...
+114355595 build (f40-build-side-84857, /rpms/scala.git:78af8cc185f185409e46e757f7dc430d3b9c2da5): closed
+  114356191 tagBuild (noarch): closed
+  114355919 buildArch (scala-2.13.12-7.fc40.src.rpm, noarch): closed
+  114355726 buildSRPMFromSCM (/rpms/scala.git:78af8cc185f185409e46e757f7dc430d3b9c2da5): closed
+
+114355595 build (f40-build-side-84857, /rpms/scala.git:78af8cc185f185409e46e757f7dc430d3b9c2da5) completed successfully

@@ -8,3 +8,15 @@ Created task: 114355593
 Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355593
 Watching tasks (this may be safely interrupted)...
 114355593 build (f40-build-side-84857, /rpms/sblim-cim-client2.git:9d722305feab2693ef5f20274d30a23daad68e20): free
+Watching tasks (this may be safely interrupted)...
+114355593 build (f40-build-side-84857, /rpms/sblim-cim-client2.git:9d722305feab2693ef5f20274d30a23daad68e20): FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
+  114356071 buildArch (sblim-cim-client2-2.2.5-28.fc40.src.rpm, noarch): FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
+    Relevant logs:
+    https://kojipkgs.fedoraproject.org/work/tasks/6071/114356071/state.log
+    https://kojipkgs.fedoraproject.org/work/tasks/6071/114356071/build.log
+    https://kojipkgs.fedoraproject.org/work/tasks/6071/114356071/root.log
+    https://kojipkgs.fedoraproject.org/work/tasks/6071/114356071/mock_output.log
+    https://kojipkgs.fedoraproject.org/work/tasks/6071/114356071/hw_info.log
+  114355747 buildSRPMFromSCM (/rpms/sblim-cim-client2.git:9d722305feab2693ef5f20274d30a23daad68e20): closed
+
+114355593 build (f40-build-side-84857, /rpms/sblim-cim-client2.git:9d722305feab2693ef5f20274d30a23daad68e20) failed

@@ -11,3 +11,10 @@ Watching tasks (this may be safely interrupted)...
   114355488 buildSRPMFromSCM (/rpms/plexus-i18n.git:fcb68db7ea106d8ce1d239a931de2357bffd5a6c): free
   114355488 buildSRPMFromSCM (/rpms/plexus-i18n.git:fcb68db7ea106d8ce1d239a931de2357bffd5a6c): free -> assigned
   114355488 buildSRPMFromSCM (/rpms/plexus-i18n.git:fcb68db7ea106d8ce1d239a931de2357bffd5a6c): assigned -> open (buildvm-x86-22.iad2.fedoraproject.org)
+Watching tasks (this may be safely interrupted)...
+114355433 build (f40-build-side-84857, /rpms/plexus-i18n.git:fcb68db7ea106d8ce1d239a931de2357bffd5a6c): closed
+  114355488 buildSRPMFromSCM (/rpms/plexus-i18n.git:fcb68db7ea106d8ce1d239a931de2357bffd5a6c): closed
+  114355958 tagBuild (noarch): closed
+  114355818 buildArch (plexus-i18n-1.0-0.31.b10.4.fc40.src.rpm, noarch): closed
+
+114355433 build (f40-build-side-84857, /rpms/plexus-i18n.git:fcb68db7ea106d8ce1d239a931de2357bffd5a6c) completed successfully

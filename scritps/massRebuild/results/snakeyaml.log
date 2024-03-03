@@ -8,3 +8,10 @@ Created task: 114355605
 Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355605
 Watching tasks (this may be safely interrupted)...
 114355605 build (f40-build-side-84857, /rpms/snakeyaml.git:cb32db968b4852ad599a5fcebf880da4e3a5b596): free
+Watching tasks (this may be safely interrupted)...
+114355605 build (f40-build-side-84857, /rpms/snakeyaml.git:cb32db968b4852ad599a5fcebf880da4e3a5b596): closed
+  114356024 tagBuild (noarch): closed
+  114355926 buildArch (snakeyaml-1.33-3.fc40.src.rpm, noarch): closed
+  114355775 buildSRPMFromSCM (/rpms/snakeyaml.git:cb32db968b4852ad599a5fcebf880da4e3a5b596): closed
+
+114355605 build (f40-build-side-84857, /rpms/snakeyaml.git:cb32db968b4852ad599a5fcebf880da4e3a5b596) completed successfully

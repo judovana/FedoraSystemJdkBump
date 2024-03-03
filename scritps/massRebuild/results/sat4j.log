@@ -8,3 +8,10 @@ Created task: 114355591
 Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355591
 Watching tasks (this may be safely interrupted)...
 114355591 build (f40-build-side-84857, /rpms/sat4j.git:7da05b6e59087214d2be073f2690c6b918f65c15): free
+Watching tasks (this may be safely interrupted)...
+114355591 build (f40-build-side-84857, /rpms/sat4j.git:7da05b6e59087214d2be073f2690c6b918f65c15): closed
+  114355851 buildArch (sat4j-2.3.5-30.fc40.src.rpm, noarch): closed
+  114356459 tagBuild (noarch): closed
+  114355755 buildSRPMFromSCM (/rpms/sat4j.git:7da05b6e59087214d2be073f2690c6b918f65c15): closed
+
+114355591 build (f40-build-side-84857, /rpms/sat4j.git:7da05b6e59087214d2be073f2690c6b918f65c15) completed successfully

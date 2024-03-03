@@ -6,3 +6,13 @@ Created task: 114355597
 Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355597
 Watching tasks (this may be safely interrupted)...
 114355597 build (f40-build-side-84857, /rpms/sdljava.git:f01ce54cdecda5d564ec1c221860d17644315246): free
+Watching tasks (this may be safely interrupted)...
+114355597 build (f40-build-side-84857, /rpms/sdljava.git:f01ce54cdecda5d564ec1c221860d17644315246): closed
+  114355708 buildSRPMFromSCM (/rpms/sdljava.git:f01ce54cdecda5d564ec1c221860d17644315246): closed
+  114355878 buildArch (sdljava-0.9.1-62.fc40.src.rpm, aarch64): closed
+  114356813 tagBuild (noarch): closed
+  114355877 buildArch (sdljava-0.9.1-62.fc40.src.rpm, x86_64): closed
+  114355880 buildArch (sdljava-0.9.1-62.fc40.src.rpm, s390x): closed
+  114355879 buildArch (sdljava-0.9.1-62.fc40.src.rpm, ppc64le): closed
+
+114355597 build (f40-build-side-84857, /rpms/sdljava.git:f01ce54cdecda5d564ec1c221860d17644315246) completed successfully

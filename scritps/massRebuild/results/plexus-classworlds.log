@@ -16,3 +16,10 @@ Watching tasks (this may be safely interrupted)...
   0 free  1 open  1 done  0 failed
   114355448 buildArch (plexus-classworlds-2.8.0-3.fc40.src.rpm, noarch): free
   114355448 buildArch (plexus-classworlds-2.8.0-3.fc40.src.rpm, noarch): free -> open (buildvm-ppc64le-10.iad2.fedoraproject.org)
+Watching tasks (this may be safely interrupted)...
+114355352 build (f40-build-side-84857, /rpms/plexus-classworlds.git:a5aabecd2f011f31bf7fef3c3aaef9e1d984ca4f): closed
+  114355372 buildSRPMFromSCM (/rpms/plexus-classworlds.git:a5aabecd2f011f31bf7fef3c3aaef9e1d984ca4f): closed
+  114355448 buildArch (plexus-classworlds-2.8.0-3.fc40.src.rpm, noarch): closed
+  114356049 tagBuild (noarch): closed
+
+114355352 build (f40-build-side-84857, /rpms/plexus-classworlds.git:a5aabecd2f011f31bf7fef3c3aaef9e1d984ca4f) completed successfully

@@ -8,3 +8,10 @@ Created task: 114355569
 Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355569
 Watching tasks (this may be safely interrupted)...
 114355569 build (f40-build-side-84857, /rpms/prometheus-simpleclient-java.git:babf515fc6f181e150756fc4cdc64430b3dc722e): free
+Watching tasks (this may be safely interrupted)...
+114355569 build (f40-build-side-84857, /rpms/prometheus-simpleclient-java.git:babf515fc6f181e150756fc4cdc64430b3dc722e): closed
+  114356334 tagBuild (noarch): closed
+  114355756 buildSRPMFromSCM (/rpms/prometheus-simpleclient-java.git:babf515fc6f181e150756fc4cdc64430b3dc722e): closed
+  114355950 buildArch (prometheus-simpleclient-java-0.12.0-11.fc40.src.rpm, noarch): closed
+
+114355569 build (f40-build-side-84857, /rpms/prometheus-simpleclient-java.git:babf515fc6f181e150756fc4cdc64430b3dc722e) completed successfully

@@ -7,3 +7,10 @@ Created task: 114355619
 Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355619
 Watching tasks (this may be safely interrupted)...
 114355619 build (f40-build-side-84857, /rpms/testng.git:c5e2717839a4c2bb7d89adee2bbfb54dc2a2c6ac): free
+Watching tasks (this may be safely interrupted)...
+114355619 build (f40-build-side-84857, /rpms/testng.git:c5e2717839a4c2bb7d89adee2bbfb54dc2a2c6ac): closed
+  114355867 buildArch (testng-7.8.0-5.fc40.src.rpm, noarch): closed
+  114355753 buildSRPMFromSCM (/rpms/testng.git:c5e2717839a4c2bb7d89adee2bbfb54dc2a2c6ac): closed
+  114355971 tagBuild (noarch): closed
+
+114355619 build (f40-build-side-84857, /rpms/testng.git:c5e2717839a4c2bb7d89adee2bbfb54dc2a2c6ac) completed successfully

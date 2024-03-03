@@ -6,3 +6,10 @@ Created task: 114355596
 Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355596
 Watching tasks (this may be safely interrupted)...
 114355596 build (f40-build-side-84857, /rpms/scannotation.git:6b865b942925f5ba5fee0f182c601609caef27cb): free
+Watching tasks (this may be safely interrupted)...
+114355596 build (f40-build-side-84857, /rpms/scannotation.git:6b865b942925f5ba5fee0f182c601609caef27cb): closed
+  114355717 buildSRPMFromSCM (/rpms/scannotation.git:6b865b942925f5ba5fee0f182c601609caef27cb): closed
+  114356287 tagBuild (noarch): closed
+  114355834 buildArch (scannotation-1.0.3-0.33.r12.fc40.src.rpm, noarch): closed
+
+114355596 build (f40-build-side-84857, /rpms/scannotation.git:6b865b942925f5ba5fee0f182c601609caef27cb) completed successfully

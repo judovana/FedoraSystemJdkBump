@@ -8,3 +8,10 @@ Created task: 114355583
 Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355583
 Watching tasks (this may be safely interrupted)...
 114355583 build (f40-build-side-84857, /rpms/replacer.git:ffc7fff52063cc657093cdc0421316c55ec568d0): free
+Watching tasks (this may be safely interrupted)...
+114355583 build (f40-build-side-84857, /rpms/replacer.git:ffc7fff52063cc657093cdc0421316c55ec568d0): closed
+  114356011 buildArch (replacer-1.6-30.fc40.src.rpm, noarch): closed
+  114356041 tagBuild (noarch): closed
+  114355777 buildSRPMFromSCM (/rpms/replacer.git:ffc7fff52063cc657093cdc0421316c55ec568d0): closed
+
+114355583 build (f40-build-side-84857, /rpms/replacer.git:ffc7fff52063cc657093cdc0421316c55ec568d0) completed successfully

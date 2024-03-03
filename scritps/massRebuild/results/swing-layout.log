@@ -8,3 +8,10 @@ Created task: 114355615
 Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355615
 Watching tasks (this may be safely interrupted)...
 114355615 build (f40-build-side-84857, /rpms/swing-layout.git:3ff245e4400af6ea38f6f5bd17d8a8e0c46168d3): free
+Watching tasks (this may be safely interrupted)...
+114355615 build (f40-build-side-84857, /rpms/swing-layout.git:3ff245e4400af6ea38f6f5bd17d8a8e0c46168d3): closed
+  114356078 tagBuild (noarch): closed
+  114355758 buildSRPMFromSCM (/rpms/swing-layout.git:3ff245e4400af6ea38f6f5bd17d8a8e0c46168d3): closed
+  114355927 buildArch (swing-layout-1.0.4-30.fc40.src.rpm, noarch): closed
+
+114355615 build (f40-build-side-84857, /rpms/swing-layout.git:3ff245e4400af6ea38f6f5bd17d8a8e0c46168d3) completed successfully

@@ -6,3 +6,10 @@ Created task: 114355601
 Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355601
 Watching tasks (this may be safely interrupted)...
 114355601 build (f40-build-side-84857, /rpms/sequence-library.git:f6925845b357c240f78fda4814dac0126ad542fd): free
+Watching tasks (this may be safely interrupted)...
+114355601 build (f40-build-side-84857, /rpms/sequence-library.git:f6925845b357c240f78fda4814dac0126ad542fd): closed
+  114355776 buildSRPMFromSCM (/rpms/sequence-library.git:f6925845b357c240f78fda4814dac0126ad542fd): closed
+  114356008 buildArch (sequence-library-1.0.3-18.fc40.src.rpm, noarch): closed
+  114356131 tagBuild (noarch): closed
+
+114355601 build (f40-build-side-84857, /rpms/sequence-library.git:f6925845b357c240f78fda4814dac0126ad542fd) completed successfully

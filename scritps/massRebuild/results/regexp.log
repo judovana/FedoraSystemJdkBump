@@ -7,3 +7,10 @@ Created task: 114355582
 Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355582
 Watching tasks (this may be safely interrupted)...
 114355582 build (f40-build-side-84857, /rpms/regexp.git:dad694ca5dae44d7cc4442ed9140fb7b8d95387e): free
+Watching tasks (this may be safely interrupted)...
+114355582 build (f40-build-side-84857, /rpms/regexp.git:dad694ca5dae44d7cc4442ed9140fb7b8d95387e): closed
+  114355984 buildArch (regexp-1.5-48.fc40.src.rpm, noarch): closed
+  114355767 buildSRPMFromSCM (/rpms/regexp.git:dad694ca5dae44d7cc4442ed9140fb7b8d95387e): closed
+  114356313 tagBuild (noarch): closed
+
+114355582 build (f40-build-side-84857, /rpms/regexp.git:dad694ca5dae44d7cc4442ed9140fb7b8d95387e) completed successfully

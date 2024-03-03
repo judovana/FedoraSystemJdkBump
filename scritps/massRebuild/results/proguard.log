@@ -8,3 +8,10 @@ Watching tasks (this may be safely interrupted)...
 114355566 build (f40-build-side-84857, /rpms/proguard.git:5995f295db7de3fb80af469c87c4a1cfe42a3a49): free
 114355566 build (f40-build-side-84857, /rpms/proguard.git:5995f295db7de3fb80af469c87c4a1cfe42a3a49): free -> assigned
 114355566 build (f40-build-side-84857, /rpms/proguard.git:5995f295db7de3fb80af469c87c4a1cfe42a3a49): assigned -> free
+Watching tasks (this may be safely interrupted)...
+114355566 build (f40-build-side-84857, /rpms/proguard.git:5995f295db7de3fb80af469c87c4a1cfe42a3a49): closed
+  114356101 tagBuild (noarch): closed
+  114355752 buildSRPMFromSCM (/rpms/proguard.git:5995f295db7de3fb80af469c87c4a1cfe42a3a49): closed
+  114356059 buildArch (proguard-6.2.2-5.fc40.src.rpm, noarch): closed
+
+114355566 build (f40-build-side-84857, /rpms/proguard.git:5995f295db7de3fb80af469c87c4a1cfe42a3a49) completed successfully

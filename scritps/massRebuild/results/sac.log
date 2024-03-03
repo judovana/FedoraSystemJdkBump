@@ -11,3 +11,10 @@ Created task: 114355590
 Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355590
 Watching tasks (this may be safely interrupted)...
 114355590 build (f40-build-side-84857, /rpms/sac.git:4e2401c74b89dca25c5ab0967acd03df405ccdee): free
+Watching tasks (this may be safely interrupted)...
+114355590 build (f40-build-side-84857, /rpms/sac.git:4e2401c74b89dca25c5ab0967acd03df405ccdee): closed
+  114355991 tagBuild (noarch): closed
+  114355666 buildSRPMFromSCM (/rpms/sac.git:4e2401c74b89dca25c5ab0967acd03df405ccdee): closed
+  114355812 buildArch (sac-1.3-46.fc40.src.rpm, noarch): closed
+
+114355590 build (f40-build-side-84857, /rpms/sac.git:4e2401c74b89dca25c5ab0967acd03df405ccdee) completed successfully

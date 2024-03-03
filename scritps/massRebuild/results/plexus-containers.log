@@ -14,3 +14,10 @@ Watching tasks (this may be safely interrupted)...
   114355440 buildSRPMFromSCM (/rpms/plexus-containers.git:2984df38eadbe184c82c8e1764b6cd82595b4c9a): open (buildvm-a64-21.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
   114355536 buildArch (plexus-containers-2.2.0-3.fc40.src.rpm, noarch): free
+Watching tasks (this may be safely interrupted)...
+114355418 build (f40-build-side-84857, /rpms/plexus-containers.git:2984df38eadbe184c82c8e1764b6cd82595b4c9a): closed
+  114355536 buildArch (plexus-containers-2.2.0-3.fc40.src.rpm, noarch): closed
+  114355896 tagBuild (noarch): closed
+  114355440 buildSRPMFromSCM (/rpms/plexus-containers.git:2984df38eadbe184c82c8e1764b6cd82595b4c9a): closed
+
+114355418 build (f40-build-side-84857, /rpms/plexus-containers.git:2984df38eadbe184c82c8e1764b6cd82595b4c9a) completed successfully

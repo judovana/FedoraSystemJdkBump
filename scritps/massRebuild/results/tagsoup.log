@@ -8,3 +8,10 @@ Created task: 114355617
 Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355617
 Watching tasks (this may be safely interrupted)...
 114355617 build (f40-build-side-84857, /rpms/tagsoup.git:26bba250292d58cfbd886f6213f76cfd673e1af4): free
+Watching tasks (this may be safely interrupted)...
+114355617 build (f40-build-side-84857, /rpms/tagsoup.git:26bba250292d58cfbd886f6213f76cfd673e1af4): closed
+  114355668 buildSRPMFromSCM (/rpms/tagsoup.git:26bba250292d58cfbd886f6213f76cfd673e1af4): closed
+  114355997 tagBuild (noarch): closed
+  114355831 buildArch (tagsoup-1.2.1-32.fc40.src.rpm, noarch): closed
+
+114355617 build (f40-build-side-84857, /rpms/tagsoup.git:26bba250292d58cfbd886f6213f76cfd673e1af4) completed successfully

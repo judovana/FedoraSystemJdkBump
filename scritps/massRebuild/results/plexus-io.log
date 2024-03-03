@@ -10,3 +10,10 @@ Watching tasks (this may be safely interrupted)...
 114355494 build (f40-build-side-84857, /rpms/plexus-io.git:06c92bad23f7f1d6f829555c65035d09f5e9523e): free -> assigned
 114355494 build (f40-build-side-84857, /rpms/plexus-io.git:06c92bad23f7f1d6f829555c65035d09f5e9523e): assigned -> open (buildvm-a64-11.iad2.fedoraproject.org)
   114355537 buildSRPMFromSCM (/rpms/plexus-io.git:06c92bad23f7f1d6f829555c65035d09f5e9523e): free
+Watching tasks (this may be safely interrupted)...
+114355494 build (f40-build-side-84857, /rpms/plexus-io.git:06c92bad23f7f1d6f829555c65035d09f5e9523e): closed
+  114355537 buildSRPMFromSCM (/rpms/plexus-io.git:06c92bad23f7f1d6f829555c65035d09f5e9523e): closed
+  114355719 buildArch (plexus-io-3.4.2-3.fc40.src.rpm, noarch): closed
+  114355967 tagBuild (noarch): closed
+
+114355494 build (f40-build-side-84857, /rpms/plexus-io.git:06c92bad23f7f1d6f829555c65035d09f5e9523e) completed successfully
