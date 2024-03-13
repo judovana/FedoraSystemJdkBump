@@ -1,23 +1,28 @@
 Cloning into 'jetty'...
-[rawhide ef48c67] Rebuilt for java-17-openjdk as system jdk
+[f40 326df3d] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building jetty-9.4.40-4.fc36 for f36-java17
-Created task: 82429281
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82429281
+warning: %patchN is deprecated (2 usages found), use %patch N (or %patch -P N)
+
+Building jetty-9.4.40-11.fc40 for f40-build-side-84857
+Created task: 114352222
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114352222
 Watching tasks (this may be safely interrupted)...
-82429281 build (f36-java17, /rpms/jetty.git:ef48c67be57f4294c55430667400f0dade6e0133): open (buildvm-x86-13.iad2.fedoraproject.org)
-  82429286 buildSRPMFromSCM (/rpms/jetty.git:ef48c67be57f4294c55430667400f0dade6e0133): free
-  82429286 buildSRPMFromSCM (/rpms/jetty.git:ef48c67be57f4294c55430667400f0dade6e0133): free -> open (buildvm-ppc64le-06.iad2.fedoraproject.org)
-  82429286 buildSRPMFromSCM (/rpms/jetty.git:ef48c67be57f4294c55430667400f0dade6e0133): open (buildvm-ppc64le-06.iad2.fedoraproject.org) -> closed
+114352222 build (f40-build-side-84857, /rpms/jetty.git:326df3d884d7310376f13795d86e6f670e8bb57a): free
+114352222 build (f40-build-side-84857, /rpms/jetty.git:326df3d884d7310376f13795d86e6f670e8bb57a): free -> assigned
+114352222 build (f40-build-side-84857, /rpms/jetty.git:326df3d884d7310376f13795d86e6f670e8bb57a): assigned -> open (buildvm-s390x-10.s390.fedoraproject.org)
+  114352260 buildSRPMFromSCM (/rpms/jetty.git:326df3d884d7310376f13795d86e6f670e8bb57a): free
+  114352260 buildSRPMFromSCM (/rpms/jetty.git:326df3d884d7310376f13795d86e6f670e8bb57a): free -> open (buildvm-x86-22.iad2.fedoraproject.org)
+  114352260 buildSRPMFromSCM (/rpms/jetty.git:326df3d884d7310376f13795d86e6f670e8bb57a): open (buildvm-x86-22.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  82429415 buildArch (jetty-9.4.40-4.fc36.src.rpm, noarch): free
-  82429415 buildArch (jetty-9.4.40-4.fc36.src.rpm, noarch): free -> open (buildvm-s390x-04.s390.fedoraproject.org)
-  82429415 buildArch (jetty-9.4.40-4.fc36.src.rpm, noarch): open (buildvm-s390x-04.s390.fedoraproject.org) -> closed
+  114352363 buildArch (jetty-9.4.40-11.fc40.src.rpm, noarch): free
+  114352363 buildArch (jetty-9.4.40-11.fc40.src.rpm, noarch): free -> assigned
+  114352363 buildArch (jetty-9.4.40-11.fc40.src.rpm, noarch): assigned -> open (buildvm-s390x-10.s390.fedoraproject.org)
+  114352363 buildArch (jetty-9.4.40-11.fc40.src.rpm, noarch): open (buildvm-s390x-10.s390.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  82429558 tagBuild (noarch): free
-  82429558 tagBuild (noarch): free -> closed
+  114352423 tagBuild (noarch): assigned
+  114352423 tagBuild (noarch): assigned -> closed
   0 free  1 open  3 done  0 failed
-82429281 build (f36-java17, /rpms/jetty.git:ef48c67be57f4294c55430667400f0dade6e0133): open (buildvm-x86-13.iad2.fedoraproject.org) -> closed
+114352222 build (f40-build-side-84857, /rpms/jetty.git:326df3d884d7310376f13795d86e6f670e8bb57a): open (buildvm-s390x-10.s390.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-82429281 build (f36-java17, /rpms/jetty.git:ef48c67be57f4294c55430667400f0dade6e0133) completed successfully
+114352222 build (f40-build-side-84857, /rpms/jetty.git:326df3d884d7310376f13795d86e6f670e8bb57a) completed successfully

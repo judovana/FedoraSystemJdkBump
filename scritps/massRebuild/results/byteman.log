@@ -1,23 +1,28 @@
 Cloning into 'byteman'...
-[rawhide a08c0f1] Rebuilt for java-17-openjdk as system jdk
+[f40 5181e2e] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building byteman-4.0.16-4.fc36 for f36-java17
-Created task: 82424235
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82424235
+warning: %patchN is deprecated (2 usages found), use %patch N (or %patch -P N)
+
+Building byteman-4.0.16-13.fc40 for f40-build-side-84857
+Created task: 114347743
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114347743
 Watching tasks (this may be safely interrupted)...
-82424235 build (f36-java17, /rpms/byteman.git:a08c0f1b43ebf04783d2b2492589bedae80b6c69): free
-82424235 build (f36-java17, /rpms/byteman.git:a08c0f1b43ebf04783d2b2492589bedae80b6c69): free -> open (buildhw-x86-11.iad2.fedoraproject.org)
-  82424251 buildSRPMFromSCM (/rpms/byteman.git:a08c0f1b43ebf04783d2b2492589bedae80b6c69): free
-  82424251 buildSRPMFromSCM (/rpms/byteman.git:a08c0f1b43ebf04783d2b2492589bedae80b6c69): free -> open (buildvm-x86-08.iad2.fedoraproject.org)
-  82424251 buildSRPMFromSCM (/rpms/byteman.git:a08c0f1b43ebf04783d2b2492589bedae80b6c69): open (buildvm-x86-08.iad2.fedoraproject.org) -> closed
+114347743 build (f40-build-side-84857, /rpms/byteman.git:5181e2ea1ec15482037b3166e929a3674e401c92): free
+114347743 build (f40-build-side-84857, /rpms/byteman.git:5181e2ea1ec15482037b3166e929a3674e401c92): free -> assigned
+114347743 build (f40-build-side-84857, /rpms/byteman.git:5181e2ea1ec15482037b3166e929a3674e401c92): assigned -> open (buildvm-s390x-07.s390.fedoraproject.org)
+  114347780 buildSRPMFromSCM (/rpms/byteman.git:5181e2ea1ec15482037b3166e929a3674e401c92): free
+  114347780 buildSRPMFromSCM (/rpms/byteman.git:5181e2ea1ec15482037b3166e929a3674e401c92): free -> open (buildvm-a64-05.iad2.fedoraproject.org)
+  114347780 buildSRPMFromSCM (/rpms/byteman.git:5181e2ea1ec15482037b3166e929a3674e401c92): open (buildvm-a64-05.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  82424342 buildArch (byteman-4.0.16-4.fc36.src.rpm, noarch): open (buildvm-x86-23.iad2.fedoraproject.org)
-  82424342 buildArch (byteman-4.0.16-4.fc36.src.rpm, noarch): open (buildvm-x86-23.iad2.fedoraproject.org) -> closed
+  114347829 buildArch (byteman-4.0.16-13.fc40.src.rpm, noarch): free
+  114347829 buildArch (byteman-4.0.16-13.fc40.src.rpm, noarch): free -> open (buildvm-ppc64le-05.iad2.fedoraproject.org)
+  114347829 buildArch (byteman-4.0.16-13.fc40.src.rpm, noarch): open (buildvm-ppc64le-05.iad2.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  82426109 tagBuild (noarch): free
-  82426109 tagBuild (noarch): free -> closed
+  114348050 tagBuild (noarch): free
+  114348050 tagBuild (noarch): free -> assigned
+  114348050 tagBuild (noarch): assigned -> closed
   0 free  1 open  3 done  0 failed
-82424235 build (f36-java17, /rpms/byteman.git:a08c0f1b43ebf04783d2b2492589bedae80b6c69): open (buildhw-x86-11.iad2.fedoraproject.org) -> closed
+114347743 build (f40-build-side-84857, /rpms/byteman.git:5181e2ea1ec15482037b3166e929a3674e401c92): open (buildvm-s390x-07.s390.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-82424235 build (f36-java17, /rpms/byteman.git:a08c0f1b43ebf04783d2b2492589bedae80b6c69) completed successfully
+114347743 build (f40-build-side-84857, /rpms/byteman.git:5181e2ea1ec15482037b3166e929a3674e401c92) completed successfully

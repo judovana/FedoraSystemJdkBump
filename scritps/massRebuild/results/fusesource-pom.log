@@ -1,24 +1,29 @@
 Cloning into 'fusesource-pom'...
-[rawhide a1ec9d7] Rebuilt for java-17-openjdk as system jdk
+[f40 8b4582b] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building fusesource-pom-1.12-10.fc36 for f36-java17
-Created task: 82426184
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82426184
+Found a gating.yaml file in the repo and it is properly configured
+Building fusesource-pom-1.12-18.fc40 for f40-build-side-84857
+Created task: 114349532
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114349532
 Watching tasks (this may be safely interrupted)...
-82426184 build (f36-java17, /rpms/fusesource-pom.git:a1ec9d750961db1496523dcf1412039f9f1b8a2e): free
-82426184 build (f36-java17, /rpms/fusesource-pom.git:a1ec9d750961db1496523dcf1412039f9f1b8a2e): free -> open (buildvm-x86-30.iad2.fedoraproject.org)
-  82426219 buildSRPMFromSCM (/rpms/fusesource-pom.git:a1ec9d750961db1496523dcf1412039f9f1b8a2e): free
-  82426219 buildSRPMFromSCM (/rpms/fusesource-pom.git:a1ec9d750961db1496523dcf1412039f9f1b8a2e): free -> open (buildvm-ppc64le-40.iad2.fedoraproject.org)
-  82426219 buildSRPMFromSCM (/rpms/fusesource-pom.git:a1ec9d750961db1496523dcf1412039f9f1b8a2e): open (buildvm-ppc64le-40.iad2.fedoraproject.org) -> closed
+114349532 build (f40-build-side-84857, /rpms/fusesource-pom.git:8b4582b2784e4aad350372a3c2d25bc201de3237): free
+114349532 build (f40-build-side-84857, /rpms/fusesource-pom.git:8b4582b2784e4aad350372a3c2d25bc201de3237): free -> assigned
+114349532 build (f40-build-side-84857, /rpms/fusesource-pom.git:8b4582b2784e4aad350372a3c2d25bc201de3237): assigned -> open (buildvm-ppc64le-17.iad2.fedoraproject.org)
+  114349708 buildSRPMFromSCM (/rpms/fusesource-pom.git:8b4582b2784e4aad350372a3c2d25bc201de3237): free
+  114349708 buildSRPMFromSCM (/rpms/fusesource-pom.git:8b4582b2784e4aad350372a3c2d25bc201de3237): free -> assigned
+  114349708 buildSRPMFromSCM (/rpms/fusesource-pom.git:8b4582b2784e4aad350372a3c2d25bc201de3237): assigned -> open (buildvm-x86-15.iad2.fedoraproject.org)
+  114349708 buildSRPMFromSCM (/rpms/fusesource-pom.git:8b4582b2784e4aad350372a3c2d25bc201de3237): open (buildvm-x86-15.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  82426398 buildArch (fusesource-pom-1.12-10.fc36.src.rpm, noarch): free
-  82426398 buildArch (fusesource-pom-1.12-10.fc36.src.rpm, noarch): free -> open (buildvm-ppc64le-17.iad2.fedoraproject.org)
-  82426398 buildArch (fusesource-pom-1.12-10.fc36.src.rpm, noarch): open (buildvm-ppc64le-17.iad2.fedoraproject.org) -> closed
+  114349864 buildArch (fusesource-pom-1.12-18.fc40.src.rpm, noarch): free
+  114349864 buildArch (fusesource-pom-1.12-18.fc40.src.rpm, noarch): free -> assigned
+  114349864 buildArch (fusesource-pom-1.12-18.fc40.src.rpm, noarch): assigned -> open (buildvm-x86-06.iad2.fedoraproject.org)
+  114349864 buildArch (fusesource-pom-1.12-18.fc40.src.rpm, noarch): open (buildvm-x86-06.iad2.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  82426550 tagBuild (noarch): free
-  82426550 tagBuild (noarch): free -> closed
+  114350033 tagBuild (noarch): free
+  114350033 tagBuild (noarch): free -> assigned
+114349532 build (f40-build-side-84857, /rpms/fusesource-pom.git:8b4582b2784e4aad350372a3c2d25bc201de3237): open (buildvm-ppc64le-17.iad2.fedoraproject.org) -> closed
   0 free  1 open  3 done  0 failed
-82426184 build (f36-java17, /rpms/fusesource-pom.git:a1ec9d750961db1496523dcf1412039f9f1b8a2e): open (buildvm-x86-30.iad2.fedoraproject.org) -> closed
+  114350033 tagBuild (noarch): assigned -> closed
   0 free  0 open  4 done  0 failed
 
-82426184 build (f36-java17, /rpms/fusesource-pom.git:a1ec9d750961db1496523dcf1412039f9f1b8a2e) completed successfully
+114349532 build (f40-build-side-84857, /rpms/fusesource-pom.git:8b4582b2784e4aad350372a3c2d25bc201de3237) completed successfully

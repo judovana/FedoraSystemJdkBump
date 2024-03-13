@@ -1,24 +1,30 @@
 Cloning into 'xml-commons-resolver'...
-[rawhide e0d140b] Rebuilt for java-17-openjdk as system jdk
+[f40 3d69384] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building xml-commons-resolver-1.2-37.fc36 for f36-java17
-Created task: 82435704
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82435704
+Found a gating.yaml file in the repo and it is properly configured
+warning: %patchN is deprecated (2 usages found), use %patch N (or %patch -P N)
+
+Building xml-commons-resolver-1.2-44.fc40 for f40-build-side-84857
+Created task: 114356325
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114356325
 Watching tasks (this may be safely interrupted)...
-82435704 build (f36-java17, /rpms/xml-commons-resolver.git:e0d140b51d4d17ced27317821a096008909ae74c): free
-82435704 build (f36-java17, /rpms/xml-commons-resolver.git:e0d140b51d4d17ced27317821a096008909ae74c): free -> open (buildvm-ppc64le-17.iad2.fedoraproject.org)
-  82435705 buildSRPMFromSCM (/rpms/xml-commons-resolver.git:e0d140b51d4d17ced27317821a096008909ae74c): free
-  82435705 buildSRPMFromSCM (/rpms/xml-commons-resolver.git:e0d140b51d4d17ced27317821a096008909ae74c): free -> open (buildvm-x86-07.iad2.fedoraproject.org)
-  82435705 buildSRPMFromSCM (/rpms/xml-commons-resolver.git:e0d140b51d4d17ced27317821a096008909ae74c): open (buildvm-x86-07.iad2.fedoraproject.org) -> closed
+114356325 build (f40-build-side-84857, /rpms/xml-commons-resolver.git:3d69384c7c75c29623f140bdeeed893677ec37ff): free
+114356325 build (f40-build-side-84857, /rpms/xml-commons-resolver.git:3d69384c7c75c29623f140bdeeed893677ec37ff): free -> open (buildhw-x86-03.iad2.fedoraproject.org)
+  114356336 buildSRPMFromSCM (/rpms/xml-commons-resolver.git:3d69384c7c75c29623f140bdeeed893677ec37ff): free
+  114356336 buildSRPMFromSCM (/rpms/xml-commons-resolver.git:3d69384c7c75c29623f140bdeeed893677ec37ff): free -> assigned
+  114356336 buildSRPMFromSCM (/rpms/xml-commons-resolver.git:3d69384c7c75c29623f140bdeeed893677ec37ff): assigned -> open (buildvm-x86-07.iad2.fedoraproject.org)
+  114356336 buildSRPMFromSCM (/rpms/xml-commons-resolver.git:3d69384c7c75c29623f140bdeeed893677ec37ff): open (buildvm-x86-07.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  82435750 buildArch (xml-commons-resolver-1.2-37.fc36.src.rpm, noarch): free
-  82435750 buildArch (xml-commons-resolver-1.2-37.fc36.src.rpm, noarch): free -> open (buildvm-x86-06.iad2.fedoraproject.org)
-  82435750 buildArch (xml-commons-resolver-1.2-37.fc36.src.rpm, noarch): open (buildvm-x86-06.iad2.fedoraproject.org) -> closed
-  0 free  1 open  2 done  0 failed
-  82435774 tagBuild (noarch): free
-  82435774 tagBuild (noarch): free -> closed
+  114356545 buildArch (xml-commons-resolver-1.2-44.fc40.src.rpm, noarch): free
+  114356545 buildArch (xml-commons-resolver-1.2-44.fc40.src.rpm, noarch): free -> assigned
+  114356545 buildArch (xml-commons-resolver-1.2-44.fc40.src.rpm, noarch): assigned -> open (buildhw-a64-21.iad2.fedoraproject.org)
+  114356607 tagBuild (noarch): free
+  114356545 buildArch (xml-commons-resolver-1.2-44.fc40.src.rpm, noarch): open (buildhw-a64-21.iad2.fedoraproject.org) -> closed
+  1 free  1 open  2 done  0 failed
+  114356607 tagBuild (noarch): free -> assigned
+  114356607 tagBuild (noarch): assigned -> closed
   0 free  1 open  3 done  0 failed
-82435704 build (f36-java17, /rpms/xml-commons-resolver.git:e0d140b51d4d17ced27317821a096008909ae74c): open (buildvm-ppc64le-17.iad2.fedoraproject.org) -> closed
+114356325 build (f40-build-side-84857, /rpms/xml-commons-resolver.git:3d69384c7c75c29623f140bdeeed893677ec37ff): open (buildhw-x86-03.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-82435704 build (f36-java17, /rpms/xml-commons-resolver.git:e0d140b51d4d17ced27317821a096008909ae74c) completed successfully
+114356325 build (f40-build-side-84857, /rpms/xml-commons-resolver.git:3d69384c7c75c29623f140bdeeed893677ec37ff) completed successfully

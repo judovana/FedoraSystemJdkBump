@@ -1,21 +1,29 @@
 Cloning into 'mariadb-java-client'...
-[rawhide 25d6124] Rebuilt for java-17-openjdk as system jdk
+[f40 8155cbd] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building mariadb-java-client-3.0.3-3.fc36 for f36-java17
-Created task: 82430839
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82430839
+Found a gating.yaml file in the repo and it is properly configured
+Building mariadb-java-client-3.3.2-4.fc40 for f40-build-side-84857
+Created task: 114353240
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114353240
 Watching tasks (this may be safely interrupted)...
-82430839 build (f36-java17, /rpms/mariadb-java-client.git:25d61245de63ab3c1d28f95a9d73b51fcb973607): open (buildvm-ppc64le-37.iad2.fedoraproject.org)
-  82430841 buildSRPMFromSCM (/rpms/mariadb-java-client.git:25d61245de63ab3c1d28f95a9d73b51fcb973607): free
-  82430841 buildSRPMFromSCM (/rpms/mariadb-java-client.git:25d61245de63ab3c1d28f95a9d73b51fcb973607): free -> open (buildvm-ppc64le-05.iad2.fedoraproject.org)
-  82430932 buildArch (mariadb-java-client-3.0.3-3.fc36.src.rpm, noarch): free
-  82430841 buildSRPMFromSCM (/rpms/mariadb-java-client.git:25d61245de63ab3c1d28f95a9d73b51fcb973607): open (buildvm-ppc64le-05.iad2.fedoraproject.org) -> closed
+114353240 build (f40-build-side-84857, /rpms/mariadb-java-client.git:8155cbdf7981aef0f53931bad4e65011f47d3535): free
+114353240 build (f40-build-side-84857, /rpms/mariadb-java-client.git:8155cbdf7981aef0f53931bad4e65011f47d3535): free -> assigned
+114353240 build (f40-build-side-84857, /rpms/mariadb-java-client.git:8155cbdf7981aef0f53931bad4e65011f47d3535): assigned -> open (buildvm-a64-26.iad2.fedoraproject.org)
+  114353288 buildSRPMFromSCM (/rpms/mariadb-java-client.git:8155cbdf7981aef0f53931bad4e65011f47d3535): free
+  114353288 buildSRPMFromSCM (/rpms/mariadb-java-client.git:8155cbdf7981aef0f53931bad4e65011f47d3535): free -> assigned
+  114353288 buildSRPMFromSCM (/rpms/mariadb-java-client.git:8155cbdf7981aef0f53931bad4e65011f47d3535): assigned -> open (buildvm-a64-20.iad2.fedoraproject.org)
+  114353330 buildArch (mariadb-java-client-3.3.2-4.fc40.src.rpm, noarch): free
+  114353288 buildSRPMFromSCM (/rpms/mariadb-java-client.git:8155cbdf7981aef0f53931bad4e65011f47d3535): open (buildvm-a64-20.iad2.fedoraproject.org) -> closed
   1 free  1 open  1 done  0 failed
-  82430932 buildArch (mariadb-java-client-3.0.3-3.fc36.src.rpm, noarch): free -> open (buildvm-ppc64le-05.iad2.fedoraproject.org)
-  82430932 buildArch (mariadb-java-client-3.0.3-3.fc36.src.rpm, noarch): open (buildvm-ppc64le-05.iad2.fedoraproject.org) -> closed
+  114353330 buildArch (mariadb-java-client-3.3.2-4.fc40.src.rpm, noarch): free -> assigned
+  114353330 buildArch (mariadb-java-client-3.3.2-4.fc40.src.rpm, noarch): assigned -> open (buildvm-x86-09.iad2.fedoraproject.org)
+  114353330 buildArch (mariadb-java-client-3.3.2-4.fc40.src.rpm, noarch): open (buildvm-x86-09.iad2.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  82430974 tagBuild (noarch): closed
-82430839 build (f36-java17, /rpms/mariadb-java-client.git:25d61245de63ab3c1d28f95a9d73b51fcb973607): open (buildvm-ppc64le-37.iad2.fedoraproject.org) -> closed
+  114353427 tagBuild (noarch): free
+  114353427 tagBuild (noarch): free -> assigned
+114353240 build (f40-build-side-84857, /rpms/mariadb-java-client.git:8155cbdf7981aef0f53931bad4e65011f47d3535): open (buildvm-a64-26.iad2.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+  114353427 tagBuild (noarch): assigned -> closed
   0 free  0 open  4 done  0 failed
 
-82430839 build (f36-java17, /rpms/mariadb-java-client.git:25d61245de63ab3c1d28f95a9d73b51fcb973607) completed successfully
+114353240 build (f40-build-side-84857, /rpms/mariadb-java-client.git:8155cbdf7981aef0f53931bad4e65011f47d3535) completed successfully

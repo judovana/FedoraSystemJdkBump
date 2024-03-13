@@ -1,0 +1,21 @@
+Cloning into 'plexus-i18n'...
+[rawhide da9f87e] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building plexus-i18n-1.0-0.22.b10.4.fc36 for f36-java17
+Created task: 82433074
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82433074
+Watching tasks (this may be safely interrupted)...
+82433074 build (f36-java17, /rpms/plexus-i18n.git:da9f87ee8593fda6f9d686bafed655375eac2be6): open (buildvm-ppc64le-09.iad2.fedoraproject.org)
+  82433075 buildSRPMFromSCM (/rpms/plexus-i18n.git:da9f87ee8593fda6f9d686bafed655375eac2be6): open (buildvm-x86-27.iad2.fedoraproject.org)
+  82433075 buildSRPMFromSCM (/rpms/plexus-i18n.git:da9f87ee8593fda6f9d686bafed655375eac2be6): open (buildvm-x86-27.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82433131 buildArch (plexus-i18n-1.0-0.22.b10.4.fc36.src.rpm, noarch): open (buildvm-ppc64le-09.iad2.fedoraproject.org)
+  82433131 buildArch (plexus-i18n-1.0-0.22.b10.4.fc36.src.rpm, noarch): open (buildvm-ppc64le-09.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  82433318 tagBuild (noarch): free
+  82433318 tagBuild (noarch): free -> closed
+  0 free  1 open  3 done  0 failed
+82433074 build (f36-java17, /rpms/plexus-i18n.git:da9f87ee8593fda6f9d686bafed655375eac2be6): open (buildvm-ppc64le-09.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+82433074 build (f36-java17, /rpms/plexus-i18n.git:da9f87ee8593fda6f9d686bafed655375eac2be6) completed successfully

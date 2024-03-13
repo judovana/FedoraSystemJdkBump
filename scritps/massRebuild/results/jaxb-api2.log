@@ -1,0 +1,27 @@
+Cloning into 'jaxb-api2'...
+[f40 393254c] Rebuilt for java-21-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Found a gating.yaml file in the repo and it is properly configured
+Building jaxb-api2-2.3.3-10.fc40 for f40-build-side-84857
+Created task: 114351651
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114351651
+Watching tasks (this may be safely interrupted)...
+114351651 build (f40-build-side-84857, /rpms/jaxb-api2.git:393254c001ae669234f61a16960fb3772cae157c): free
+114351651 build (f40-build-side-84857, /rpms/jaxb-api2.git:393254c001ae669234f61a16960fb3772cae157c): free -> open (buildvm-ppc64le-15.iad2.fedoraproject.org)
+  114351675 buildSRPMFromSCM (/rpms/jaxb-api2.git:393254c001ae669234f61a16960fb3772cae157c): free
+  114351675 buildSRPMFromSCM (/rpms/jaxb-api2.git:393254c001ae669234f61a16960fb3772cae157c): free -> open (buildvm-a64-33.iad2.fedoraproject.org)
+  114351675 buildSRPMFromSCM (/rpms/jaxb-api2.git:393254c001ae669234f61a16960fb3772cae157c): open (buildvm-a64-33.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  114351955 buildArch (jaxb-api2-2.3.3-10.fc40.src.rpm, noarch): free
+  114351955 buildArch (jaxb-api2-2.3.3-10.fc40.src.rpm, noarch): free -> assigned
+  114351955 buildArch (jaxb-api2-2.3.3-10.fc40.src.rpm, noarch): assigned -> open (buildvm-s390x-09.s390.fedoraproject.org)
+  114351955 buildArch (jaxb-api2-2.3.3-10.fc40.src.rpm, noarch): open (buildvm-s390x-09.s390.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  114352004 tagBuild (noarch): free
+  114352004 tagBuild (noarch): free -> assigned
+114351651 build (f40-build-side-84857, /rpms/jaxb-api2.git:393254c001ae669234f61a16960fb3772cae157c): open (buildvm-ppc64le-15.iad2.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+  114352004 tagBuild (noarch): assigned -> closed
+  0 free  0 open  4 done  0 failed
+
+114351651 build (f40-build-side-84857, /rpms/jaxb-api2.git:393254c001ae669234f61a16960fb3772cae157c) completed successfully

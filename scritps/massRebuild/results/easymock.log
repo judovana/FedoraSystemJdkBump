@@ -1,21 +1,32 @@
 Cloning into 'easymock'...
-[rawhide 50b4bcd] Rebuilt for java-17-openjdk as system jdk
+[f40 4250cbc] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building easymock-4.2-7.fc36 for f36-java17
-Created task: 82425745
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82425745
+Found a gating.yaml file in the repo and it is properly configured
+warning: %patchN is deprecated (4 usages found), use %patch N (or %patch -P N)
+
+Building easymock-4.3-8.fc40 for f40-build-side-84857
+Created task: 114348558
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114348558
 Watching tasks (this may be safely interrupted)...
-82425745 build (f36-java17, /rpms/easymock.git:50b4bcdb97f3a27083b90aa3f142695f5ac550cc): free
-82425745 build (f36-java17, /rpms/easymock.git:50b4bcdb97f3a27083b90aa3f142695f5ac550cc): free -> open (buildvm-ppc64le-29.iad2.fedoraproject.org)
-  82425746 buildSRPMFromSCM (/rpms/easymock.git:50b4bcdb97f3a27083b90aa3f142695f5ac550cc): free
-  82425746 buildSRPMFromSCM (/rpms/easymock.git:50b4bcdb97f3a27083b90aa3f142695f5ac550cc): free -> open (buildvm-x86-08.iad2.fedoraproject.org)
-  82425746 buildSRPMFromSCM (/rpms/easymock.git:50b4bcdb97f3a27083b90aa3f142695f5ac550cc): open (buildvm-x86-08.iad2.fedoraproject.org) -> closed
+114348558 build (f40-build-side-84857, /rpms/easymock.git:4250cbc228eb919b10f0bf1845d503fb82898cbf): free
+114348558 build (f40-build-side-84857, /rpms/easymock.git:4250cbc228eb919b10f0bf1845d503fb82898cbf): free -> assigned
+114348558 build (f40-build-side-84857, /rpms/easymock.git:4250cbc228eb919b10f0bf1845d503fb82898cbf): assigned -> open (buildvm-ppc64le-10.iad2.fedoraproject.org)
+  114348632 buildSRPMFromSCM (/rpms/easymock.git:4250cbc228eb919b10f0bf1845d503fb82898cbf): free
+  114348632 buildSRPMFromSCM (/rpms/easymock.git:4250cbc228eb919b10f0bf1845d503fb82898cbf): free -> assigned
+  114348632 buildSRPMFromSCM (/rpms/easymock.git:4250cbc228eb919b10f0bf1845d503fb82898cbf): assigned -> open (buildvm-a64-15.iad2.fedoraproject.org)
+  114348632 buildSRPMFromSCM (/rpms/easymock.git:4250cbc228eb919b10f0bf1845d503fb82898cbf): open (buildvm-a64-15.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  82425773 buildArch (easymock-4.2-7.fc36.src.rpm, noarch): open (buildvm-x86-28.iad2.fedoraproject.org)
-  82425773 buildArch (easymock-4.2-7.fc36.src.rpm, noarch): open (buildvm-x86-28.iad2.fedoraproject.org) -> closed
+  114348792 buildArch (easymock-4.3-8.fc40.src.rpm, noarch): free
+  114348792 buildArch (easymock-4.3-8.fc40.src.rpm, noarch): free -> assigned
+  114348792 buildArch (easymock-4.3-8.fc40.src.rpm, noarch): assigned -> open (buildvm-a64-18.iad2.fedoraproject.org)
+  114348792 buildArch (easymock-4.3-8.fc40.src.rpm, noarch): open (buildvm-a64-18.iad2.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  82425852 tagBuild (noarch): closed
-82425745 build (f36-java17, /rpms/easymock.git:50b4bcdb97f3a27083b90aa3f142695f5ac550cc): open (buildvm-ppc64le-29.iad2.fedoraproject.org) -> closed
+  114349032 tagBuild (noarch): free
+  114349032 tagBuild (noarch): free -> assigned
+  114349032 tagBuild (noarch): assigned -> open (buildvm-ppc64le-14.iad2.fedoraproject.org)
+  114349032 tagBuild (noarch): open (buildvm-ppc64le-14.iad2.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+114348558 build (f40-build-side-84857, /rpms/easymock.git:4250cbc228eb919b10f0bf1845d503fb82898cbf): open (buildvm-ppc64le-10.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-82425745 build (f36-java17, /rpms/easymock.git:50b4bcdb97f3a27083b90aa3f142695f5ac550cc) completed successfully
+114348558 build (f40-build-side-84857, /rpms/easymock.git:4250cbc228eb919b10f0bf1845d503fb82898cbf) completed successfully

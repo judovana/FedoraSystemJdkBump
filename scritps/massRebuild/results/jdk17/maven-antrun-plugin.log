@@ -1,0 +1,23 @@
+Cloning into 'maven-antrun-plugin'...
+[rawhide 5f14666] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building maven-antrun-plugin-3.0.0-5.fc36 for f36-java17
+Created task: 82430936
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82430936
+Watching tasks (this may be safely interrupted)...
+82430936 build (f36-java17, /rpms/maven-antrun-plugin.git:5f14666324c9a490d6d104035aa8e7f094b99d20): free
+82430936 build (f36-java17, /rpms/maven-antrun-plugin.git:5f14666324c9a490d6d104035aa8e7f094b99d20): free -> open (buildvm-x86-16.iad2.fedoraproject.org)
+  82430938 buildSRPMFromSCM (/rpms/maven-antrun-plugin.git:5f14666324c9a490d6d104035aa8e7f094b99d20): open (buildvm-x86-08.iad2.fedoraproject.org)
+  82430963 buildArch (maven-antrun-plugin-3.0.0-5.fc36.src.rpm, noarch): free
+  82430938 buildSRPMFromSCM (/rpms/maven-antrun-plugin.git:5f14666324c9a490d6d104035aa8e7f094b99d20): open (buildvm-x86-08.iad2.fedoraproject.org) -> closed
+  1 free  1 open  1 done  0 failed
+  82430963 buildArch (maven-antrun-plugin-3.0.0-5.fc36.src.rpm, noarch): free -> open (buildvm-ppc64le-37.iad2.fedoraproject.org)
+  82431047 tagBuild (noarch): free
+  82430963 buildArch (maven-antrun-plugin-3.0.0-5.fc36.src.rpm, noarch): open (buildvm-ppc64le-37.iad2.fedoraproject.org) -> closed
+  1 free  1 open  2 done  0 failed
+  82431047 tagBuild (noarch): free -> closed
+  0 free  1 open  3 done  0 failed
+82430936 build (f36-java17, /rpms/maven-antrun-plugin.git:5f14666324c9a490d6d104035aa8e7f094b99d20): open (buildvm-x86-16.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+82430936 build (f36-java17, /rpms/maven-antrun-plugin.git:5f14666324c9a490d6d104035aa8e7f094b99d20) completed successfully

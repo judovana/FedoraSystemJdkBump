@@ -1,20 +1,17 @@
 Cloning into 'postgresql-jdbc'...
-[rawhide b07c268] Rebuilt for java-17-openjdk as system jdk
+[f40 c3c8df3] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building postgresql-jdbc-42.3.1-3.fc36 for f36-java17
-Created task: 82433793
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82433793
+Building postgresql-jdbc-42.7.1-4.fc40 for f40-build-side-84857
+Created task: 114355564
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355564
 Watching tasks (this may be safely interrupted)...
-82433793 build (f36-java17, /rpms/postgresql-jdbc.git:b07c268f53193c645b449b6807a38d23a6f92e5e): open (buildvm-ppc64le-20.iad2.fedoraproject.org)
-  82433796 buildSRPMFromSCM (/rpms/postgresql-jdbc.git:b07c268f53193c645b449b6807a38d23a6f92e5e): open (buildvm-ppc64le-05.iad2.fedoraproject.org)
-  82433796 buildSRPMFromSCM (/rpms/postgresql-jdbc.git:b07c268f53193c645b449b6807a38d23a6f92e5e): open (buildvm-ppc64le-05.iad2.fedoraproject.org) -> closed
-  0 free  1 open  1 done  0 failed
-  82433879 buildArch (postgresql-jdbc-42.3.1-3.fc36.src.rpm, noarch): free
-  82433879 buildArch (postgresql-jdbc-42.3.1-3.fc36.src.rpm, noarch): free -> open (buildvm-ppc64le-10.iad2.fedoraproject.org)
-  82434490 tagBuild (noarch): closed
-  82433879 buildArch (postgresql-jdbc-42.3.1-3.fc36.src.rpm, noarch): open (buildvm-ppc64le-10.iad2.fedoraproject.org) -> closed
-  0 free  1 open  3 done  0 failed
-82433793 build (f36-java17, /rpms/postgresql-jdbc.git:b07c268f53193c645b449b6807a38d23a6f92e5e): open (buildvm-ppc64le-20.iad2.fedoraproject.org) -> closed
-  0 free  0 open  4 done  0 failed
+114355564 build (f40-build-side-84857, /rpms/postgresql-jdbc.git:c3c8df3275e5cc2297c996a0ef51180517c880b8): free
+114355564 build (f40-build-side-84857, /rpms/postgresql-jdbc.git:c3c8df3275e5cc2297c996a0ef51180517c880b8): free -> assigned
+114355564 build (f40-build-side-84857, /rpms/postgresql-jdbc.git:c3c8df3275e5cc2297c996a0ef51180517c880b8): assigned -> free
+Watching tasks (this may be safely interrupted)...
+114355564 build (f40-build-side-84857, /rpms/postgresql-jdbc.git:c3c8df3275e5cc2297c996a0ef51180517c880b8): closed
+  114356973 tagBuild (noarch): closed
+  114355751 buildSRPMFromSCM (/rpms/postgresql-jdbc.git:c3c8df3275e5cc2297c996a0ef51180517c880b8): closed
+  114355858 buildArch (postgresql-jdbc-42.7.1-4.fc40.src.rpm, noarch): closed
 
-82433793 build (f36-java17, /rpms/postgresql-jdbc.git:b07c268f53193c645b449b6807a38d23a6f92e5e) completed successfully
+114355564 build (f40-build-side-84857, /rpms/postgresql-jdbc.git:c3c8df3275e5cc2297c996a0ef51180517c880b8) completed successfully

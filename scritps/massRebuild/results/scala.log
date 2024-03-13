@@ -1,24 +1,15 @@
 Cloning into 'scala'...
-[rawhide 9b58e2d] Rebuilt for java-17-openjdk as system jdk
+[f40 78af8cc] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building scala-2.13.7-3.fc36 for f36-java17
-Created task: 82434440
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82434440
+Building scala-2.13.12-7.fc40 for f40-build-side-84857
+Created task: 114355595
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355595
 Watching tasks (this may be safely interrupted)...
-82434440 build (f36-java17, /rpms/scala.git:9b58e2de9de98ce6a436d8be1d56adf84a70247d): free
-82434440 build (f36-java17, /rpms/scala.git:9b58e2de9de98ce6a436d8be1d56adf84a70247d): free -> open (buildvm-ppc64le-25.iad2.fedoraproject.org)
-  82434441 buildSRPMFromSCM (/rpms/scala.git:9b58e2de9de98ce6a436d8be1d56adf84a70247d): free
-  82434441 buildSRPMFromSCM (/rpms/scala.git:9b58e2de9de98ce6a436d8be1d56adf84a70247d): free -> open (buildvm-x86-07.iad2.fedoraproject.org)
-  82434441 buildSRPMFromSCM (/rpms/scala.git:9b58e2de9de98ce6a436d8be1d56adf84a70247d): open (buildvm-x86-07.iad2.fedoraproject.org) -> closed
-  0 free  1 open  1 done  0 failed
-  82434481 buildArch (scala-2.13.7-3.fc36.src.rpm, noarch): free
-  82434481 buildArch (scala-2.13.7-3.fc36.src.rpm, noarch): free -> open (buildvm-ppc64le-16.iad2.fedoraproject.org)
-  82434481 buildArch (scala-2.13.7-3.fc36.src.rpm, noarch): open (buildvm-ppc64le-16.iad2.fedoraproject.org) -> closed
-  0 free  1 open  2 done  0 failed
-  82435168 tagBuild (noarch): free
-  82435168 tagBuild (noarch): free -> closed
-  0 free  1 open  3 done  0 failed
-82434440 build (f36-java17, /rpms/scala.git:9b58e2de9de98ce6a436d8be1d56adf84a70247d): open (buildvm-ppc64le-25.iad2.fedoraproject.org) -> closed
-  0 free  0 open  4 done  0 failed
+114355595 build (f40-build-side-84857, /rpms/scala.git:78af8cc185f185409e46e757f7dc430d3b9c2da5): free
+Watching tasks (this may be safely interrupted)...
+114355595 build (f40-build-side-84857, /rpms/scala.git:78af8cc185f185409e46e757f7dc430d3b9c2da5): closed
+  114356191 tagBuild (noarch): closed
+  114355919 buildArch (scala-2.13.12-7.fc40.src.rpm, noarch): closed
+  114355726 buildSRPMFromSCM (/rpms/scala.git:78af8cc185f185409e46e757f7dc430d3b9c2da5): closed
 
-82434440 build (f36-java17, /rpms/scala.git:9b58e2de9de98ce6a436d8be1d56adf84a70247d) completed successfully
+114355595 build (f40-build-side-84857, /rpms/scala.git:78af8cc185f185409e46e757f7dc430d3b9c2da5) completed successfully

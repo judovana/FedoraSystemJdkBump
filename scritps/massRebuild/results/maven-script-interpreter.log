@@ -1,20 +1,28 @@
 Cloning into 'maven-script-interpreter'...
-[rawhide 6a8794a] Rebuilt for java-17-openjdk as system jdk
+[f40 bf0afcf] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building maven-script-interpreter-1.2-11.fc36 for f36-java17
-Created task: 82431791
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82431791
+Building maven-script-interpreter-1.3-8.fc40 for f40-build-side-84857
+Created task: 114354201
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114354201
 Watching tasks (this may be safely interrupted)...
-82431791 build (f36-java17, /rpms/maven-script-interpreter.git:6a8794af422cb28caf40200601e61827b037ea90): open (buildvm-ppc64le-07.iad2.fedoraproject.org)
-  82431792 buildSRPMFromSCM (/rpms/maven-script-interpreter.git:6a8794af422cb28caf40200601e61827b037ea90): free
-  82431792 buildSRPMFromSCM (/rpms/maven-script-interpreter.git:6a8794af422cb28caf40200601e61827b037ea90): free -> open (buildvm-ppc64le-07.iad2.fedoraproject.org)
-  82431792 buildSRPMFromSCM (/rpms/maven-script-interpreter.git:6a8794af422cb28caf40200601e61827b037ea90): open (buildvm-ppc64le-07.iad2.fedoraproject.org) -> closed
+114354201 build (f40-build-side-84857, /rpms/maven-script-interpreter.git:bf0afcf769197001873b574a19f3d8542b6cd999): free
+114354201 build (f40-build-side-84857, /rpms/maven-script-interpreter.git:bf0afcf769197001873b574a19f3d8542b6cd999): free -> assigned
+114354201 build (f40-build-side-84857, /rpms/maven-script-interpreter.git:bf0afcf769197001873b574a19f3d8542b6cd999): assigned -> open (buildvm-s390x-01.s390.fedoraproject.org)
+  114354219 buildSRPMFromSCM (/rpms/maven-script-interpreter.git:bf0afcf769197001873b574a19f3d8542b6cd999): free
+  114354219 buildSRPMFromSCM (/rpms/maven-script-interpreter.git:bf0afcf769197001873b574a19f3d8542b6cd999): free -> open (buildvm-a64-22.iad2.fedoraproject.org)
+  114354219 buildSRPMFromSCM (/rpms/maven-script-interpreter.git:bf0afcf769197001873b574a19f3d8542b6cd999): open (buildvm-a64-22.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  82431832 buildArch (maven-script-interpreter-1.2-11.fc36.src.rpm, noarch): open (buildvm-ppc64le-07.iad2.fedoraproject.org)
-  82431832 buildArch (maven-script-interpreter-1.2-11.fc36.src.rpm, noarch): open (buildvm-ppc64le-07.iad2.fedoraproject.org) -> closed
-  0 free  1 open  2 done  0 failed
-  82431915 tagBuild (noarch): closed
-82431791 build (f36-java17, /rpms/maven-script-interpreter.git:6a8794af422cb28caf40200601e61827b037ea90): open (buildvm-ppc64le-07.iad2.fedoraproject.org) -> closed
-  0 free  0 open  4 done  0 failed
+  114354266 buildArch (maven-script-interpreter-1.3-8.fc40.src.rpm, noarch): free
+  114354266 buildArch (maven-script-interpreter-1.3-8.fc40.src.rpm, noarch): free -> open (buildvm-ppc64le-15.iad2.fedoraproject.org)
+  114354266 buildArch (maven-script-interpreter-1.3-8.fc40.src.rpm, noarch): open (buildvm-ppc64le-15.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
+  Relevant logs:
+  https://kojipkgs.fedoraproject.org/work/tasks/4266/114354266/mock_output.log
+  https://kojipkgs.fedoraproject.org/work/tasks/4266/114354266/state.log
+  https://kojipkgs.fedoraproject.org/work/tasks/4266/114354266/build.log
+  https://kojipkgs.fedoraproject.org/work/tasks/4266/114354266/root.log
+  https://kojipkgs.fedoraproject.org/work/tasks/4266/114354266/hw_info.log
+  0 free  1 open  1 done  1 failed
+114354201 build (f40-build-side-84857, /rpms/maven-script-interpreter.git:bf0afcf769197001873b574a19f3d8542b6cd999): open (buildvm-s390x-01.s390.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
+  0 free  0 open  1 done  2 failed
 
-82431791 build (f36-java17, /rpms/maven-script-interpreter.git:6a8794af422cb28caf40200601e61827b037ea90) completed successfully
+114354201 build (f40-build-side-84857, /rpms/maven-script-interpreter.git:bf0afcf769197001873b574a19f3d8542b6cd999) failed

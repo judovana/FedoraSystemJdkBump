@@ -1,22 +1,27 @@
 Cloning into 'fop'...
-[rawhide 881a03e] Rebuilt for java-17-openjdk as system jdk
- 1 file changed, 4 insertions(+), 1 deletion(-)
-Building fop-2.7-2.fc36 for f36-java17
-Created task: 82426016
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82426016
+RPMAutoSpec usage detected, not changing the spec file.
+[f40 885cb65] Rebuilt for java-21-openjdk as system jdk
+Building fop-2.9-6.fc40 for f40-build-side-84857
+Created task: 114349194
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114349194
 Watching tasks (this may be safely interrupted)...
-82426016 build (f36-java17, /rpms/fop.git:881a03ea74f1f0607d6fba34dc555625944a1558): free
-82426016 build (f36-java17, /rpms/fop.git:881a03ea74f1f0607d6fba34dc555625944a1558): free -> open (buildvm-a64-09.iad2.fedoraproject.org)
-  82426020 buildSRPMFromSCM (/rpms/fop.git:881a03ea74f1f0607d6fba34dc555625944a1558): open (buildvm-x86-30.iad2.fedoraproject.org)
-  82426020 buildSRPMFromSCM (/rpms/fop.git:881a03ea74f1f0607d6fba34dc555625944a1558): open (buildvm-x86-30.iad2.fedoraproject.org) -> closed
+114349194 build (f40-build-side-84857, /rpms/fop.git:885cb655f8eefa5a064e60370cc368e695146f68): free
+114349194 build (f40-build-side-84857, /rpms/fop.git:885cb655f8eefa5a064e60370cc368e695146f68): free -> assigned
+114349194 build (f40-build-side-84857, /rpms/fop.git:885cb655f8eefa5a064e60370cc368e695146f68): assigned -> open (buildvm-s390x-06.s390.fedoraproject.org)
+  114349296 buildSRPMFromSCM (/rpms/fop.git:885cb655f8eefa5a064e60370cc368e695146f68): free
+  114349296 buildSRPMFromSCM (/rpms/fop.git:885cb655f8eefa5a064e60370cc368e695146f68): free -> assigned
+  114349296 buildSRPMFromSCM (/rpms/fop.git:885cb655f8eefa5a064e60370cc368e695146f68): assigned -> open (buildvm-a64-26.iad2.fedoraproject.org)
+  114349296 buildSRPMFromSCM (/rpms/fop.git:885cb655f8eefa5a064e60370cc368e695146f68): open (buildvm-a64-26.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  82426093 buildArch (fop-2.7-2.fc36.src.rpm, noarch): open (buildvm-s390x-01.s390.fedoraproject.org)
-  82426093 buildArch (fop-2.7-2.fc36.src.rpm, noarch): open (buildvm-s390x-01.s390.fedoraproject.org) -> closed
+  114349607 buildArch (fop-2.9-6.fc40.src.rpm, noarch): free
+  114349607 buildArch (fop-2.9-6.fc40.src.rpm, noarch): free -> assigned
+  114349607 buildArch (fop-2.9-6.fc40.src.rpm, noarch): assigned -> open (buildvm-x86-11.iad2.fedoraproject.org)
+  114349607 buildArch (fop-2.9-6.fc40.src.rpm, noarch): open (buildvm-x86-11.iad2.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  82426166 tagBuild (noarch): free
-  82426166 tagBuild (noarch): free -> closed
+  114349863 tagBuild (noarch): free
+  114349863 tagBuild (noarch): free -> closed
   0 free  1 open  3 done  0 failed
-82426016 build (f36-java17, /rpms/fop.git:881a03ea74f1f0607d6fba34dc555625944a1558): open (buildvm-a64-09.iad2.fedoraproject.org) -> closed
+114349194 build (f40-build-side-84857, /rpms/fop.git:885cb655f8eefa5a064e60370cc368e695146f68): open (buildvm-s390x-06.s390.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-82426016 build (f36-java17, /rpms/fop.git:881a03ea74f1f0607d6fba34dc555625944a1558) completed successfully
+114349194 build (f40-build-side-84857, /rpms/fop.git:885cb655f8eefa5a064e60370cc368e695146f68) completed successfully

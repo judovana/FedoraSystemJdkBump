@@ -1,19 +1,37 @@
 Cloning into 'cryptlib'...
-[rawhide dbc220d] Rebuilt for java-17-openjdk as system jdk
+[f40 42b8fc3] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-warning: bogus date in %changelog: Thu Feb 01 2022 Ralf Senderek <innovation@senderek.ie>  - 3.4.6-2
-
-Building cryptlib-3.4.6-3.fc36 for f36-java17
-Created task: 82424826
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82424826
+Building cryptlib-3.4.7-5.fc40 for f40-build-side-84857
+Created task: 114348101
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114348101
 Watching tasks (this may be safely interrupted)...
-82424826 build (f36-java17, /rpms/cryptlib.git:dbc220d9736196a7aa47d35ad2dd453f63a4ada9): free
-82424826 build (f36-java17, /rpms/cryptlib.git:dbc220d9736196a7aa47d35ad2dd453f63a4ada9): free -> open (buildvm-a32-30.iad2.fedoraproject.org)
-  82424892 buildSRPMFromSCM (/rpms/cryptlib.git:dbc220d9736196a7aa47d35ad2dd453f63a4ada9): free
-  82424892 buildSRPMFromSCM (/rpms/cryptlib.git:dbc220d9736196a7aa47d35ad2dd453f63a4ada9): free -> open (buildvm-ppc64le-08.iad2.fedoraproject.org)
-  82424892 buildSRPMFromSCM (/rpms/cryptlib.git:dbc220d9736196a7aa47d35ad2dd453f63a4ada9): open (buildvm-ppc64le-08.iad2.fedoraproject.org) -> closed
+114348101 build (f40-build-side-84857, /rpms/cryptlib.git:42b8fc3565f90cc43bf44d1b0cfb5b53a6801cd3): free
+114348101 build (f40-build-side-84857, /rpms/cryptlib.git:42b8fc3565f90cc43bf44d1b0cfb5b53a6801cd3): free -> assigned
+114348101 build (f40-build-side-84857, /rpms/cryptlib.git:42b8fc3565f90cc43bf44d1b0cfb5b53a6801cd3): assigned -> open (buildvm-x86-15.iad2.fedoraproject.org)
+  114348125 buildSRPMFromSCM (/rpms/cryptlib.git:42b8fc3565f90cc43bf44d1b0cfb5b53a6801cd3): free
+  114348125 buildSRPMFromSCM (/rpms/cryptlib.git:42b8fc3565f90cc43bf44d1b0cfb5b53a6801cd3): free -> assigned
+  114348125 buildSRPMFromSCM (/rpms/cryptlib.git:42b8fc3565f90cc43bf44d1b0cfb5b53a6801cd3): assigned -> open (buildvm-a64-40.iad2.fedoraproject.org)
+  114348125 buildSRPMFromSCM (/rpms/cryptlib.git:42b8fc3565f90cc43bf44d1b0cfb5b53a6801cd3): open (buildvm-a64-40.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-82424826 build (f36-java17, /rpms/cryptlib.git:dbc220d9736196a7aa47d35ad2dd453f63a4ada9): open (buildvm-a32-30.iad2.fedoraproject.org) -> FAILED: GenericError: Build already exists (id=1911122, state=COMPLETE): {'name': 'cryptlib', 'version': '3.4.6', 'release': '2.fc36', 'epoch': None, 'task_id': 82424826, 'source': 'git+https://src.fedoraproject.org/rpms/cryptlib.git#dbc220d9736196a7aa47d35ad2dd453f63a4ada9', 'extra': '{"source": {"original_url": "git+https://src.fedoraproject.org/rpms/cryptlib.git#dbc220d9736196a7aa47d35ad2dd453f63a4ada9"}}', 'owner': 1487, 'state': 0, 'completion_time': None, 'pkg_id': 22522, 'start_time': 'NOW', 'volume_id': 0}
-  0 free  0 open  1 done  1 failed
+  114348204 buildArch (cryptlib-3.4.7-5.fc40.src.rpm, x86_64): free
+  114348205 buildArch (cryptlib-3.4.7-5.fc40.src.rpm, aarch64): free
+  114348206 buildArch (cryptlib-3.4.7-5.fc40.src.rpm, ppc64le): free
+  114348204 buildArch (cryptlib-3.4.7-5.fc40.src.rpm, x86_64): free -> assigned
+  114348205 buildArch (cryptlib-3.4.7-5.fc40.src.rpm, aarch64): free -> assigned
+  114348206 buildArch (cryptlib-3.4.7-5.fc40.src.rpm, ppc64le): free -> open (buildvm-ppc64le-14.iad2.fedoraproject.org)
+  114348204 buildArch (cryptlib-3.4.7-5.fc40.src.rpm, x86_64): assigned -> open (buildvm-x86-04.iad2.fedoraproject.org)
+  114348205 buildArch (cryptlib-3.4.7-5.fc40.src.rpm, aarch64): assigned -> open (buildvm-a64-35.iad2.fedoraproject.org)
+  114348205 buildArch (cryptlib-3.4.7-5.fc40.src.rpm, aarch64): open (buildvm-a64-35.iad2.fedoraproject.org) -> closed
+  0 free  3 open  2 done  0 failed
+  114348204 buildArch (cryptlib-3.4.7-5.fc40.src.rpm, x86_64): open (buildvm-x86-04.iad2.fedoraproject.org) -> closed
+  0 free  2 open  3 done  0 failed
+  114348904 tagBuild (noarch): free
+  114348206 buildArch (cryptlib-3.4.7-5.fc40.src.rpm, ppc64le): open (buildvm-ppc64le-14.iad2.fedoraproject.org) -> closed
+  1 free  1 open  4 done  0 failed
+  114348904 tagBuild (noarch): free -> assigned
+114348101 build (f40-build-side-84857, /rpms/cryptlib.git:42b8fc3565f90cc43bf44d1b0cfb5b53a6801cd3): open (buildvm-x86-15.iad2.fedoraproject.org) -> closed
+  0 free  1 open  5 done  0 failed
+  114348904 tagBuild (noarch): assigned -> closed
+  0 free  0 open  6 done  0 failed
 
-82424826 build (f36-java17, /rpms/cryptlib.git:dbc220d9736196a7aa47d35ad2dd453f63a4ada9) failed
+114348101 build (f40-build-side-84857, /rpms/cryptlib.git:42b8fc3565f90cc43bf44d1b0cfb5b53a6801cd3) completed successfully

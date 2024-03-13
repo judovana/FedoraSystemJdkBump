@@ -1,0 +1,23 @@
+Cloning into 'qdox'...
+[rawhide f300a53] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building qdox-2.0.0-9.fc36 for f36-java17
+Created task: 82434049
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82434049
+Watching tasks (this may be safely interrupted)...
+82434049 build (f36-java17, /rpms/qdox.git:f300a5307d2c10b2d687309650f913c82b4e342e): free
+82434049 build (f36-java17, /rpms/qdox.git:f300a5307d2c10b2d687309650f913c82b4e342e): free -> open (buildvm-x86-25.iad2.fedoraproject.org)
+  82434052 buildSRPMFromSCM (/rpms/qdox.git:f300a5307d2c10b2d687309650f913c82b4e342e): open (buildvm-ppc64le-05.iad2.fedoraproject.org)
+  82434052 buildSRPMFromSCM (/rpms/qdox.git:f300a5307d2c10b2d687309650f913c82b4e342e): open (buildvm-ppc64le-05.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82434138 buildArch (qdox-2.0.0-9.fc36.src.rpm, noarch): free
+  82434138 buildArch (qdox-2.0.0-9.fc36.src.rpm, noarch): free -> open (buildvm-ppc64le-15.iad2.fedoraproject.org)
+  82434138 buildArch (qdox-2.0.0-9.fc36.src.rpm, noarch): open (buildvm-ppc64le-15.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  82434293 tagBuild (noarch): free
+  82434293 tagBuild (noarch): free -> closed
+  0 free  1 open  3 done  0 failed
+82434049 build (f36-java17, /rpms/qdox.git:f300a5307d2c10b2d687309650f913c82b4e342e): open (buildvm-x86-25.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+82434049 build (f36-java17, /rpms/qdox.git:f300a5307d2c10b2d687309650f913c82b4e342e) completed successfully

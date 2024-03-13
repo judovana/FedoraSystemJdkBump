@@ -1,25 +1,25 @@
 Cloning into 'clojure-spec-alpha'...
-[rawhide 661bfd2] Rebuilt for java-17-openjdk as system jdk
+[f40 ef7e825] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building clojure-spec-alpha-0.2.194-5.fc36 for f36-java17
-Created task: 82424576
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82424576
+Building clojure-spec-alpha-0.3.218-8.fc40 for f40-build-side-84857
+Created task: 114347950
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114347950
 Watching tasks (this may be safely interrupted)...
-82424576 build (f36-java17, /rpms/clojure-spec-alpha.git:661bfd2b5058fd753ee3a3931bbcad84e60b957e): free
-82424576 build (f36-java17, /rpms/clojure-spec-alpha.git:661bfd2b5058fd753ee3a3931bbcad84e60b957e): free -> open (buildvm-s390x-08.s390.fedoraproject.org)
-  82424700 buildSRPMFromSCM (/rpms/clojure-spec-alpha.git:661bfd2b5058fd753ee3a3931bbcad84e60b957e): free
-  82424700 buildSRPMFromSCM (/rpms/clojure-spec-alpha.git:661bfd2b5058fd753ee3a3931bbcad84e60b957e): free -> open (buildvm-ppc64le-39.iad2.fedoraproject.org)
-  82424700 buildSRPMFromSCM (/rpms/clojure-spec-alpha.git:661bfd2b5058fd753ee3a3931bbcad84e60b957e): open (buildvm-ppc64le-39.iad2.fedoraproject.org) -> closed
+114347950 build (f40-build-side-84857, /rpms/clojure-spec-alpha.git:ef7e82535d7a5b82deb118f41ce2a1da92b9abbf): free
+114347950 build (f40-build-side-84857, /rpms/clojure-spec-alpha.git:ef7e82535d7a5b82deb118f41ce2a1da92b9abbf): free -> assigned
+114347950 build (f40-build-side-84857, /rpms/clojure-spec-alpha.git:ef7e82535d7a5b82deb118f41ce2a1da92b9abbf): assigned -> open (buildvm-x86-26.iad2.fedoraproject.org)
+  114347962 buildSRPMFromSCM (/rpms/clojure-spec-alpha.git:ef7e82535d7a5b82deb118f41ce2a1da92b9abbf): free
+  114347962 buildSRPMFromSCM (/rpms/clojure-spec-alpha.git:ef7e82535d7a5b82deb118f41ce2a1da92b9abbf): free -> open (buildvm-x86-19.iad2.fedoraproject.org)
+  114347962 buildSRPMFromSCM (/rpms/clojure-spec-alpha.git:ef7e82535d7a5b82deb118f41ce2a1da92b9abbf): open (buildvm-x86-19.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  82424956 buildArch (clojure-spec-alpha-0.2.194-5.fc36.src.rpm, noarch): free
-  82424956 buildArch (clojure-spec-alpha-0.2.194-5.fc36.src.rpm, noarch): free -> open (buildhw-x86-05.iad2.fedoraproject.org)
-  82424956 buildArch (clojure-spec-alpha-0.2.194-5.fc36.src.rpm, noarch): open (buildhw-x86-05.iad2.fedoraproject.org) -> closed
+  114348060 buildArch (clojure-spec-alpha-0.3.218-8.fc40.src.rpm, noarch): assigned
+  114348060 buildArch (clojure-spec-alpha-0.3.218-8.fc40.src.rpm, noarch): assigned -> open (buildvm-x86-11.iad2.fedoraproject.org)
+  114348060 buildArch (clojure-spec-alpha-0.3.218-8.fc40.src.rpm, noarch): open (buildvm-x86-11.iad2.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  82425146 tagBuild (noarch): free
-  82425146 tagBuild (noarch): free -> open (buildvm-a64-23.iad2.fedoraproject.org)
-82424576 build (f36-java17, /rpms/clojure-spec-alpha.git:661bfd2b5058fd753ee3a3931bbcad84e60b957e): open (buildvm-s390x-08.s390.fedoraproject.org) -> closed
+  114348105 tagBuild (noarch): free
+  114348105 tagBuild (noarch): free -> closed
   0 free  1 open  3 done  0 failed
-  82425146 tagBuild (noarch): open (buildvm-a64-23.iad2.fedoraproject.org) -> closed
+114347950 build (f40-build-side-84857, /rpms/clojure-spec-alpha.git:ef7e82535d7a5b82deb118f41ce2a1da92b9abbf): open (buildvm-x86-26.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-82424576 build (f36-java17, /rpms/clojure-spec-alpha.git:661bfd2b5058fd753ee3a3931bbcad84e60b957e) completed successfully
+114347950 build (f40-build-side-84857, /rpms/clojure-spec-alpha.git:ef7e82535d7a5b82deb118f41ce2a1da92b9abbf) completed successfully

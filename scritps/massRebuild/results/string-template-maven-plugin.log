@@ -1,24 +1,15 @@
 Cloning into 'string-template-maven-plugin'...
-[rawhide 3b0aa12] Rebuilt for java-17-openjdk as system jdk
+[f40 ac94105] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building string-template-maven-plugin-1.1-7.fc36 for f36-java17
-Created task: 82434977
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82434977
+Building string-template-maven-plugin-1.1-13.fc40 for f40-build-side-84857
+Created task: 114355611
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355611
 Watching tasks (this may be safely interrupted)...
-82434977 build (f36-java17, /rpms/string-template-maven-plugin.git:3b0aa128b2d40e089abf8efa1b71066abae1face): free
-82434977 build (f36-java17, /rpms/string-template-maven-plugin.git:3b0aa128b2d40e089abf8efa1b71066abae1face): free -> open (buildvm-a64-29.iad2.fedoraproject.org)
-  82434985 buildSRPMFromSCM (/rpms/string-template-maven-plugin.git:3b0aa128b2d40e089abf8efa1b71066abae1face): free
-  82434985 buildSRPMFromSCM (/rpms/string-template-maven-plugin.git:3b0aa128b2d40e089abf8efa1b71066abae1face): free -> open (buildvm-ppc64le-14.iad2.fedoraproject.org)
-  82435093 buildArch (string-template-maven-plugin-1.1-7.fc36.src.rpm, noarch): free
-  82434985 buildSRPMFromSCM (/rpms/string-template-maven-plugin.git:3b0aa128b2d40e089abf8efa1b71066abae1face): open (buildvm-ppc64le-14.iad2.fedoraproject.org) -> closed
-  1 free  1 open  1 done  0 failed
-  82435093 buildArch (string-template-maven-plugin-1.1-7.fc36.src.rpm, noarch): free -> open (buildvm-x86-16.iad2.fedoraproject.org)
-  82435132 tagBuild (noarch): free
-  82435093 buildArch (string-template-maven-plugin-1.1-7.fc36.src.rpm, noarch): open (buildvm-x86-16.iad2.fedoraproject.org) -> closed
-  1 free  1 open  2 done  0 failed
-  82435132 tagBuild (noarch): free -> closed
-  0 free  1 open  3 done  0 failed
-82434977 build (f36-java17, /rpms/string-template-maven-plugin.git:3b0aa128b2d40e089abf8efa1b71066abae1face): open (buildvm-a64-29.iad2.fedoraproject.org) -> closed
-  0 free  0 open  4 done  0 failed
+114355611 build (f40-build-side-84857, /rpms/string-template-maven-plugin.git:ac94105a2e7f9343bcf770afcc1e0d649cc348e2): free
+Watching tasks (this may be safely interrupted)...
+114355611 build (f40-build-side-84857, /rpms/string-template-maven-plugin.git:ac94105a2e7f9343bcf770afcc1e0d649cc348e2): closed
+  114355750 buildSRPMFromSCM (/rpms/string-template-maven-plugin.git:ac94105a2e7f9343bcf770afcc1e0d649cc348e2): closed
+  114356069 buildArch (string-template-maven-plugin-1.1-13.fc40.src.rpm, noarch): closed
+  114356253 tagBuild (noarch): closed
 
-82434977 build (f36-java17, /rpms/string-template-maven-plugin.git:3b0aa128b2d40e089abf8efa1b71066abae1face) completed successfully
+114355611 build (f40-build-side-84857, /rpms/string-template-maven-plugin.git:ac94105a2e7f9343bcf770afcc1e0d649cc348e2) completed successfully

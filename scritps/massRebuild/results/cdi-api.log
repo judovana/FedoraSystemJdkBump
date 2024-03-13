@@ -1,24 +1,29 @@
 Cloning into 'cdi-api'...
-[rawhide 8a32f65] Rebuilt for java-17-openjdk as system jdk
+[f40 6905c01] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building cdi-api-2.0.2-5.fc36 for f36-java17
-Created task: 82424339
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82424339
+Found a gating.yaml file in the repo and it is properly configured
+Building cdi-api-2.0.2-14.fc40 for f40-build-side-84857
+Created task: 114347824
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114347824
 Watching tasks (this may be safely interrupted)...
-82424339 build (f36-java17, /rpms/cdi-api.git:8a32f65de8e8da16ea837c0b029d200bc4c02566): free
-82424339 build (f36-java17, /rpms/cdi-api.git:8a32f65de8e8da16ea837c0b029d200bc4c02566): free -> open (buildvm-s390x-27.s390.fedoraproject.org)
-  82424341 buildSRPMFromSCM (/rpms/cdi-api.git:8a32f65de8e8da16ea837c0b029d200bc4c02566): free
-  82424341 buildSRPMFromSCM (/rpms/cdi-api.git:8a32f65de8e8da16ea837c0b029d200bc4c02566): free -> open (buildvm-x86-30.iad2.fedoraproject.org)
-  82424341 buildSRPMFromSCM (/rpms/cdi-api.git:8a32f65de8e8da16ea837c0b029d200bc4c02566): open (buildvm-x86-30.iad2.fedoraproject.org) -> closed
+114347824 build (f40-build-side-84857, /rpms/cdi-api.git:6905c01a9c1bcca4050696102d217d5d57700570): free
+114347824 build (f40-build-side-84857, /rpms/cdi-api.git:6905c01a9c1bcca4050696102d217d5d57700570): free -> assigned
+114347824 build (f40-build-side-84857, /rpms/cdi-api.git:6905c01a9c1bcca4050696102d217d5d57700570): assigned -> open (buildvm-x86-28.iad2.fedoraproject.org)
+  114347834 buildSRPMFromSCM (/rpms/cdi-api.git:6905c01a9c1bcca4050696102d217d5d57700570): free
+  114347834 buildSRPMFromSCM (/rpms/cdi-api.git:6905c01a9c1bcca4050696102d217d5d57700570): free -> assigned
+  114347834 buildSRPMFromSCM (/rpms/cdi-api.git:6905c01a9c1bcca4050696102d217d5d57700570): assigned -> open (buildvm-a64-06.iad2.fedoraproject.org)
+  114347834 buildSRPMFromSCM (/rpms/cdi-api.git:6905c01a9c1bcca4050696102d217d5d57700570): open (buildvm-a64-06.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  82424364 buildArch (cdi-api-2.0.2-5.fc36.src.rpm, noarch): free
-  82424364 buildArch (cdi-api-2.0.2-5.fc36.src.rpm, noarch): free -> open (buildvm-ppc64le-37.iad2.fedoraproject.org)
-  82424364 buildArch (cdi-api-2.0.2-5.fc36.src.rpm, noarch): open (buildvm-ppc64le-37.iad2.fedoraproject.org) -> closed
+  114347879 buildArch (cdi-api-2.0.2-14.fc40.src.rpm, noarch): free
+  114347879 buildArch (cdi-api-2.0.2-14.fc40.src.rpm, noarch): free -> assigned
+  114347879 buildArch (cdi-api-2.0.2-14.fc40.src.rpm, noarch): assigned -> open (buildvm-s390x-01.s390.fedoraproject.org)
+  114347879 buildArch (cdi-api-2.0.2-14.fc40.src.rpm, noarch): open (buildvm-s390x-01.s390.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  82424494 tagBuild (noarch): free
-  82424494 tagBuild (noarch): free -> closed
+  114347961 tagBuild (noarch): free
+  114347961 tagBuild (noarch): free -> assigned
+  114347961 tagBuild (noarch): assigned -> closed
   0 free  1 open  3 done  0 failed
-82424339 build (f36-java17, /rpms/cdi-api.git:8a32f65de8e8da16ea837c0b029d200bc4c02566): open (buildvm-s390x-27.s390.fedoraproject.org) -> closed
+114347824 build (f40-build-side-84857, /rpms/cdi-api.git:6905c01a9c1bcca4050696102d217d5d57700570): open (buildvm-x86-28.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-82424339 build (f36-java17, /rpms/cdi-api.git:8a32f65de8e8da16ea837c0b029d200bc4c02566) completed successfully
+114347824 build (f40-build-side-84857, /rpms/cdi-api.git:6905c01a9c1bcca4050696102d217d5d57700570) completed successfully

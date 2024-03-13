@@ -1,23 +1,16 @@
 Cloning into 'regexp'...
-[rawhide f210c60] Rebuilt for java-17-openjdk as system jdk
+[f40 dad694c] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building regexp-1.5-38.fc36 for f36-java17
-Created task: 82434163
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82434163
+Found a gating.yaml file in the repo and it is properly configured
+Building regexp-1.5-48.fc40 for f40-build-side-84857
+Created task: 114355582
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355582
 Watching tasks (this may be safely interrupted)...
-82434163 build (f36-java17, /rpms/regexp.git:f210c6037c2a11f8dc11d6ad39cdee1d0dd5dbe3): free
-82434163 build (f36-java17, /rpms/regexp.git:f210c6037c2a11f8dc11d6ad39cdee1d0dd5dbe3): free -> open (buildvm-ppc64le-39.iad2.fedoraproject.org)
-  82434174 buildSRPMFromSCM (/rpms/regexp.git:f210c6037c2a11f8dc11d6ad39cdee1d0dd5dbe3): open (buildvm-ppc64le-21.iad2.fedoraproject.org)
-  82434174 buildSRPMFromSCM (/rpms/regexp.git:f210c6037c2a11f8dc11d6ad39cdee1d0dd5dbe3): open (buildvm-ppc64le-21.iad2.fedoraproject.org) -> closed
-  0 free  1 open  1 done  0 failed
-  82434280 buildArch (regexp-1.5-38.fc36.src.rpm, noarch): free
-  82434280 buildArch (regexp-1.5-38.fc36.src.rpm, noarch): free -> open (buildvm-s390x-21.s390.fedoraproject.org)
-  82434280 buildArch (regexp-1.5-38.fc36.src.rpm, noarch): open (buildvm-s390x-21.s390.fedoraproject.org) -> closed
-  0 free  1 open  2 done  0 failed
-  82434413 tagBuild (noarch): free
-  82434413 tagBuild (noarch): free -> closed
-  0 free  1 open  3 done  0 failed
-82434163 build (f36-java17, /rpms/regexp.git:f210c6037c2a11f8dc11d6ad39cdee1d0dd5dbe3): open (buildvm-ppc64le-39.iad2.fedoraproject.org) -> closed
-  0 free  0 open  4 done  0 failed
+114355582 build (f40-build-side-84857, /rpms/regexp.git:dad694ca5dae44d7cc4442ed9140fb7b8d95387e): free
+Watching tasks (this may be safely interrupted)...
+114355582 build (f40-build-side-84857, /rpms/regexp.git:dad694ca5dae44d7cc4442ed9140fb7b8d95387e): closed
+  114355984 buildArch (regexp-1.5-48.fc40.src.rpm, noarch): closed
+  114355767 buildSRPMFromSCM (/rpms/regexp.git:dad694ca5dae44d7cc4442ed9140fb7b8d95387e): closed
+  114356313 tagBuild (noarch): closed
 
-82434163 build (f36-java17, /rpms/regexp.git:f210c6037c2a11f8dc11d6ad39cdee1d0dd5dbe3) completed successfully
+114355582 build (f40-build-side-84857, /rpms/regexp.git:dad694ca5dae44d7cc4442ed9140fb7b8d95387e) completed successfully

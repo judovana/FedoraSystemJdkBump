@@ -1,23 +1,28 @@
 Cloning into 'args4j'...
-[rawhide 12b2df9] Rebuilt for java-17-openjdk as system jdk
+[f40 9a287ac] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building args4j-2.33-19.fc36 for f36-java17
-Created task: 82423552
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82423552
+warning: %patchN is deprecated (1 usages found), use %patch N (or %patch -P N)
+
+Building args4j-2.33-26.fc40 for f40-build-side-84857
+Created task: 114347258
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114347258
 Watching tasks (this may be safely interrupted)...
-82423552 build (f36-java17, /rpms/args4j.git:12b2df989027a329b243ca3eae032a9a2b76391e): free
-82423552 build (f36-java17, /rpms/args4j.git:12b2df989027a329b243ca3eae032a9a2b76391e): free -> open (buildvm-x86-31.iad2.fedoraproject.org)
-  82423554 buildSRPMFromSCM (/rpms/args4j.git:12b2df989027a329b243ca3eae032a9a2b76391e): open (buildvm-x86-25.iad2.fedoraproject.org)
-  82423554 buildSRPMFromSCM (/rpms/args4j.git:12b2df989027a329b243ca3eae032a9a2b76391e): open (buildvm-x86-25.iad2.fedoraproject.org) -> closed
+114347258 build (f40-build-side-84857, /rpms/args4j.git:9a287ac62e30c6224d858a24ac8ed56f9bd8c6a6): free
+114347258 build (f40-build-side-84857, /rpms/args4j.git:9a287ac62e30c6224d858a24ac8ed56f9bd8c6a6): free -> assigned
+114347258 build (f40-build-side-84857, /rpms/args4j.git:9a287ac62e30c6224d858a24ac8ed56f9bd8c6a6): assigned -> open (buildvm-x86-11.iad2.fedoraproject.org)
+  114347351 buildSRPMFromSCM (/rpms/args4j.git:9a287ac62e30c6224d858a24ac8ed56f9bd8c6a6): free
+  114347351 buildSRPMFromSCM (/rpms/args4j.git:9a287ac62e30c6224d858a24ac8ed56f9bd8c6a6): free -> open (buildvm-x86-30.iad2.fedoraproject.org)
+  114347351 buildSRPMFromSCM (/rpms/args4j.git:9a287ac62e30c6224d858a24ac8ed56f9bd8c6a6): open (buildvm-x86-30.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  82423573 buildArch (args4j-2.33-19.fc36.src.rpm, noarch): open (buildvm-x86-31.iad2.fedoraproject.org)
-  82423573 buildArch (args4j-2.33-19.fc36.src.rpm, noarch): open (buildvm-x86-31.iad2.fedoraproject.org) -> closed
-  0 free  1 open  2 done  0 failed
-  82423813 tagBuild (noarch): free
-  82423813 tagBuild (noarch): free -> open (buildvm-s390x-28.s390.fedoraproject.org)
-  82423813 tagBuild (noarch): open (buildvm-s390x-28.s390.fedoraproject.org) -> closed
+  114347438 buildArch (args4j-2.33-26.fc40.src.rpm, noarch): free
+  114347438 buildArch (args4j-2.33-26.fc40.src.rpm, noarch): free -> assigned
+  114347438 buildArch (args4j-2.33-26.fc40.src.rpm, noarch): assigned -> open (buildvm-a64-07.iad2.fedoraproject.org)
+  114347472 tagBuild (noarch): free
+  114347438 buildArch (args4j-2.33-26.fc40.src.rpm, noarch): open (buildvm-a64-07.iad2.fedoraproject.org) -> closed
+  1 free  1 open  2 done  0 failed
+  114347472 tagBuild (noarch): free -> closed
   0 free  1 open  3 done  0 failed
-82423552 build (f36-java17, /rpms/args4j.git:12b2df989027a329b243ca3eae032a9a2b76391e): open (buildvm-x86-31.iad2.fedoraproject.org) -> closed
+114347258 build (f40-build-side-84857, /rpms/args4j.git:9a287ac62e30c6224d858a24ac8ed56f9bd8c6a6): open (buildvm-x86-11.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-82423552 build (f36-java17, /rpms/args4j.git:12b2df989027a329b243ca3eae032a9a2b76391e) completed successfully
+114347258 build (f40-build-side-84857, /rpms/args4j.git:9a287ac62e30c6224d858a24ac8ed56f9bd8c6a6) completed successfully

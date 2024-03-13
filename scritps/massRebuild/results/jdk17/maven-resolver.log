@@ -1,0 +1,22 @@
+Cloning into 'maven-resolver'...
+[rawhide f0ac456] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building maven-resolver-1.7.3-3.fc36 for f36-java17
+Created task: 82431708
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82431708
+Watching tasks (this may be safely interrupted)...
+82431708 build (f36-java17, /rpms/maven-resolver.git:f0ac45603d8afc7be2d533ad138c4986a9029f38): free
+82431708 build (f36-java17, /rpms/maven-resolver.git:f0ac45603d8afc7be2d533ad138c4986a9029f38): free -> open (buildvm-ppc64le-05.iad2.fedoraproject.org)
+  82431715 buildSRPMFromSCM (/rpms/maven-resolver.git:f0ac45603d8afc7be2d533ad138c4986a9029f38): open (buildvm-ppc64le-31.iad2.fedoraproject.org)
+  82431715 buildSRPMFromSCM (/rpms/maven-resolver.git:f0ac45603d8afc7be2d533ad138c4986a9029f38): open (buildvm-ppc64le-31.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82431793 buildArch (maven-resolver-1.7.3-3.fc36.src.rpm, noarch): open (buildvm-x86-25.iad2.fedoraproject.org)
+  82432183 tagBuild (noarch): free
+  82431793 buildArch (maven-resolver-1.7.3-3.fc36.src.rpm, noarch): open (buildvm-x86-25.iad2.fedoraproject.org) -> closed
+  1 free  1 open  2 done  0 failed
+  82432183 tagBuild (noarch): free -> closed
+  0 free  1 open  3 done  0 failed
+82431708 build (f36-java17, /rpms/maven-resolver.git:f0ac45603d8afc7be2d533ad138c4986a9029f38): open (buildvm-ppc64le-05.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+82431708 build (f36-java17, /rpms/maven-resolver.git:f0ac45603d8afc7be2d533ad138c4986a9029f38) completed successfully

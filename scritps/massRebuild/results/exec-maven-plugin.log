@@ -1,23 +1,28 @@
 Cloning into 'exec-maven-plugin'...
-[rawhide ae0b1f4] Rebuilt for java-17-openjdk as system jdk
+[f40 aaf956e] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building exec-maven-plugin-3.0.0-4.fc36 for f36-java17
-Created task: 82425814
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82425814
+Building exec-maven-plugin-3.1.1-4.fc40 for f40-build-side-84857
+Created task: 114348806
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114348806
 Watching tasks (this may be safely interrupted)...
-82425814 build (f36-java17, /rpms/exec-maven-plugin.git:ae0b1f4081732c13203f416f73aa47abd053dd4b): free
-82425814 build (f36-java17, /rpms/exec-maven-plugin.git:ae0b1f4081732c13203f416f73aa47abd053dd4b): free -> open (buildvm-ppc64le-09.iad2.fedoraproject.org)
-  82425818 buildSRPMFromSCM (/rpms/exec-maven-plugin.git:ae0b1f4081732c13203f416f73aa47abd053dd4b): open (buildvm-ppc64le-06.iad2.fedoraproject.org)
-  82425818 buildSRPMFromSCM (/rpms/exec-maven-plugin.git:ae0b1f4081732c13203f416f73aa47abd053dd4b): open (buildvm-ppc64le-06.iad2.fedoraproject.org) -> closed
+114348806 build (f40-build-side-84857, /rpms/exec-maven-plugin.git:aaf956e00dd686c5aec3f8bc6213489f9d8aeeed): free
+114348806 build (f40-build-side-84857, /rpms/exec-maven-plugin.git:aaf956e00dd686c5aec3f8bc6213489f9d8aeeed): free -> open (buildvm-ppc64le-05.iad2.fedoraproject.org)
+  114348815 buildSRPMFromSCM (/rpms/exec-maven-plugin.git:aaf956e00dd686c5aec3f8bc6213489f9d8aeeed): free
+  114348815 buildSRPMFromSCM (/rpms/exec-maven-plugin.git:aaf956e00dd686c5aec3f8bc6213489f9d8aeeed): free -> open (buildvm-x86-19.iad2.fedoraproject.org)
+  114348815 buildSRPMFromSCM (/rpms/exec-maven-plugin.git:aaf956e00dd686c5aec3f8bc6213489f9d8aeeed): open (buildvm-x86-19.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  82425900 buildArch (exec-maven-plugin-3.0.0-4.fc36.src.rpm, noarch): free
-  82425900 buildArch (exec-maven-plugin-3.0.0-4.fc36.src.rpm, noarch): free -> open (buildvm-a64-26.iad2.fedoraproject.org)
-  82425900 buildArch (exec-maven-plugin-3.0.0-4.fc36.src.rpm, noarch): open (buildvm-a64-26.iad2.fedoraproject.org) -> closed
-  0 free  1 open  2 done  0 failed
-  82426075 tagBuild (noarch): free
-  82426075 tagBuild (noarch): free -> closed
-  0 free  1 open  3 done  0 failed
-82425814 build (f36-java17, /rpms/exec-maven-plugin.git:ae0b1f4081732c13203f416f73aa47abd053dd4b): open (buildvm-ppc64le-09.iad2.fedoraproject.org) -> closed
-  0 free  0 open  4 done  0 failed
+  114348945 buildArch (exec-maven-plugin-3.1.1-4.fc40.src.rpm, noarch): free
+  114348945 buildArch (exec-maven-plugin-3.1.1-4.fc40.src.rpm, noarch): free -> assigned
+  114348945 buildArch (exec-maven-plugin-3.1.1-4.fc40.src.rpm, noarch): assigned -> open (buildvm-ppc64le-08.iad2.fedoraproject.org)
+114348806 build (f40-build-side-84857, /rpms/exec-maven-plugin.git:aaf956e00dd686c5aec3f8bc6213489f9d8aeeed): open (buildvm-ppc64le-05.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
+  0 free  1 open  1 done  1 failed
+  114348945 buildArch (exec-maven-plugin-3.1.1-4.fc40.src.rpm, noarch): open (buildvm-ppc64le-08.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
+  Relevant logs:
+  https://kojipkgs.fedoraproject.org/work/tasks/8945/114348945/mock_output.log
+  https://kojipkgs.fedoraproject.org/work/tasks/8945/114348945/state.log
+  https://kojipkgs.fedoraproject.org/work/tasks/8945/114348945/build.log
+  https://kojipkgs.fedoraproject.org/work/tasks/8945/114348945/root.log
+  https://kojipkgs.fedoraproject.org/work/tasks/8945/114348945/hw_info.log
+  0 free  0 open  1 done  2 failed
 
-82425814 build (f36-java17, /rpms/exec-maven-plugin.git:ae0b1f4081732c13203f416f73aa47abd053dd4b) completed successfully
+114348806 build (f40-build-side-84857, /rpms/exec-maven-plugin.git:aaf956e00dd686c5aec3f8bc6213489f9d8aeeed) failed

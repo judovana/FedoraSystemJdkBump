@@ -1,0 +1,22 @@
+Cloning into 'maven-plugin-tools'...
+[rawhide b568f08] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building maven-plugin-tools-3.6.0-12.fc36 for f36-java17
+Created task: 82431600
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82431600
+Watching tasks (this may be safely interrupted)...
+82431600 build (f36-java17, /rpms/maven-plugin-tools.git:b568f08a08c5fde907575735734007ebde301734): free
+82431600 build (f36-java17, /rpms/maven-plugin-tools.git:b568f08a08c5fde907575735734007ebde301734): free -> open (buildvm-ppc64le-36.iad2.fedoraproject.org)
+  82431601 buildSRPMFromSCM (/rpms/maven-plugin-tools.git:b568f08a08c5fde907575735734007ebde301734): open (buildvm-ppc64le-36.iad2.fedoraproject.org)
+  82431601 buildSRPMFromSCM (/rpms/maven-plugin-tools.git:b568f08a08c5fde907575735734007ebde301734): open (buildvm-ppc64le-36.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82431706 buildArch (maven-plugin-tools-3.6.0-12.fc36.src.rpm, noarch): open (buildvm-ppc64le-04.iad2.fedoraproject.org)
+  82431706 buildArch (maven-plugin-tools-3.6.0-12.fc36.src.rpm, noarch): open (buildvm-ppc64le-04.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  82431802 tagBuild (noarch): free
+  82431802 tagBuild (noarch): free -> closed
+  0 free  1 open  3 done  0 failed
+82431600 build (f36-java17, /rpms/maven-plugin-tools.git:b568f08a08c5fde907575735734007ebde301734): open (buildvm-ppc64le-36.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+82431600 build (f36-java17, /rpms/maven-plugin-tools.git:b568f08a08c5fde907575735734007ebde301734) completed successfully

@@ -1,20 +1,29 @@
 Cloning into 'apache-commons-cli'...
-[rawhide aa1d84e] Rebuilt for java-17-openjdk as system jdk
+[f40 25a00d0] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building apache-commons-cli-1.5.0-3.fc36 for f36-java17
-Created task: 82423259
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82423259
+Found a gating.yaml file in the repo and it is properly configured
+Building apache-commons-cli-1.6.0-5.fc40 for f40-build-side-84857
+Created task: 114346632
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114346632
 Watching tasks (this may be safely interrupted)...
-82423259 build (f36-java17, /rpms/apache-commons-cli.git:aa1d84eca15fa3b3c01239335375571580fd1550): open (buildvm-ppc64le-34.iad2.fedoraproject.org)
-  82423260 buildSRPMFromSCM (/rpms/apache-commons-cli.git:aa1d84eca15fa3b3c01239335375571580fd1550): open (buildvm-x86-14.iad2.fedoraproject.org)
-  82423260 buildSRPMFromSCM (/rpms/apache-commons-cli.git:aa1d84eca15fa3b3c01239335375571580fd1550): open (buildvm-x86-14.iad2.fedoraproject.org) -> closed
+114346632 build (f40-build-side-84857, /rpms/apache-commons-cli.git:25a00d0e85bb00cb4f7a53da657b2727e098186a): free
+114346632 build (f40-build-side-84857, /rpms/apache-commons-cli.git:25a00d0e85bb00cb4f7a53da657b2727e098186a): free -> assigned
+114346632 build (f40-build-side-84857, /rpms/apache-commons-cli.git:25a00d0e85bb00cb4f7a53da657b2727e098186a): assigned -> open (buildvm-ppc64le-21.iad2.fedoraproject.org)
+  114346732 buildSRPMFromSCM (/rpms/apache-commons-cli.git:25a00d0e85bb00cb4f7a53da657b2727e098186a): free
+  114346732 buildSRPMFromSCM (/rpms/apache-commons-cli.git:25a00d0e85bb00cb4f7a53da657b2727e098186a): free -> assigned
+  114346732 buildSRPMFromSCM (/rpms/apache-commons-cli.git:25a00d0e85bb00cb4f7a53da657b2727e098186a): assigned -> open (buildvm-a64-40.iad2.fedoraproject.org)
+  114346732 buildSRPMFromSCM (/rpms/apache-commons-cli.git:25a00d0e85bb00cb4f7a53da657b2727e098186a): open (buildvm-a64-40.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  82423273 buildArch (apache-commons-cli-1.5.0-3.fc36.src.rpm, noarch): free
-  82423273 buildArch (apache-commons-cli-1.5.0-3.fc36.src.rpm, noarch): free -> open (buildvm-ppc64le-34.iad2.fedoraproject.org)
-  82423273 buildArch (apache-commons-cli-1.5.0-3.fc36.src.rpm, noarch): open (buildvm-ppc64le-34.iad2.fedoraproject.org) -> closed
+  114346777 buildArch (apache-commons-cli-1.6.0-5.fc40.src.rpm, noarch): free
+  114346777 buildArch (apache-commons-cli-1.6.0-5.fc40.src.rpm, noarch): free -> assigned
+  114346777 buildArch (apache-commons-cli-1.6.0-5.fc40.src.rpm, noarch): assigned -> open (buildvm-a64-10.iad2.fedoraproject.org)
+  114346777 buildArch (apache-commons-cli-1.6.0-5.fc40.src.rpm, noarch): open (buildvm-a64-10.iad2.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  82423306 tagBuild (noarch): closed
-82423259 build (f36-java17, /rpms/apache-commons-cli.git:aa1d84eca15fa3b3c01239335375571580fd1550): open (buildvm-ppc64le-34.iad2.fedoraproject.org) -> closed
+  114346859 tagBuild (noarch): free
+  114346859 tagBuild (noarch): free -> assigned
+  114346859 tagBuild (noarch): assigned -> closed
+  0 free  1 open  3 done  0 failed
+114346632 build (f40-build-side-84857, /rpms/apache-commons-cli.git:25a00d0e85bb00cb4f7a53da657b2727e098186a): open (buildvm-ppc64le-21.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-82423259 build (f36-java17, /rpms/apache-commons-cli.git:aa1d84eca15fa3b3c01239335375571580fd1550) completed successfully
+114346632 build (f40-build-side-84857, /rpms/apache-commons-cli.git:25a00d0e85bb00cb4f7a53da657b2727e098186a) completed successfully

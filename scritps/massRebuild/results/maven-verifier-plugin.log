@@ -1,24 +1,27 @@
 Cloning into 'maven-verifier-plugin'...
-[rawhide ba89338] Rebuilt for java-17-openjdk as system jdk
+[f40 99336a6] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building maven-verifier-plugin-1.0-30.fc36 for f36-java17
-Created task: 82431936
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82431936
+Building maven-verifier-plugin-1.1-6.fc40 for f40-build-side-84857
+Created task: 114354366
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114354366
 Watching tasks (this may be safely interrupted)...
-82431936 build (f36-java17, /rpms/maven-verifier-plugin.git:ba893384cf6e349dbdd0891866394da862cfceba): free
-82431936 build (f36-java17, /rpms/maven-verifier-plugin.git:ba893384cf6e349dbdd0891866394da862cfceba): free -> open (buildvm-ppc64le-15.iad2.fedoraproject.org)
-  82431938 buildSRPMFromSCM (/rpms/maven-verifier-plugin.git:ba893384cf6e349dbdd0891866394da862cfceba): free
-  82431938 buildSRPMFromSCM (/rpms/maven-verifier-plugin.git:ba893384cf6e349dbdd0891866394da862cfceba): free -> open (buildvm-ppc64le-15.iad2.fedoraproject.org)
-  82431938 buildSRPMFromSCM (/rpms/maven-verifier-plugin.git:ba893384cf6e349dbdd0891866394da862cfceba): open (buildvm-ppc64le-15.iad2.fedoraproject.org) -> closed
+114354366 build (f40-build-side-84857, /rpms/maven-verifier-plugin.git:99336a6958e142a146f1dc0b6303fc1c8ee4fde0): free
+114354366 build (f40-build-side-84857, /rpms/maven-verifier-plugin.git:99336a6958e142a146f1dc0b6303fc1c8ee4fde0): free -> assigned
+114354366 build (f40-build-side-84857, /rpms/maven-verifier-plugin.git:99336a6958e142a146f1dc0b6303fc1c8ee4fde0): assigned -> open (buildvm-a64-23.iad2.fedoraproject.org)
+  114354398 buildSRPMFromSCM (/rpms/maven-verifier-plugin.git:99336a6958e142a146f1dc0b6303fc1c8ee4fde0): free
+  114354398 buildSRPMFromSCM (/rpms/maven-verifier-plugin.git:99336a6958e142a146f1dc0b6303fc1c8ee4fde0): free -> assigned
+  114354398 buildSRPMFromSCM (/rpms/maven-verifier-plugin.git:99336a6958e142a146f1dc0b6303fc1c8ee4fde0): assigned -> open (buildvm-a64-39.iad2.fedoraproject.org)
+  114354398 buildSRPMFromSCM (/rpms/maven-verifier-plugin.git:99336a6958e142a146f1dc0b6303fc1c8ee4fde0): open (buildvm-a64-39.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  82432180 buildArch (maven-verifier-plugin-1.0-30.fc36.src.rpm, noarch): free
-  82432180 buildArch (maven-verifier-plugin-1.0-30.fc36.src.rpm, noarch): free -> open (buildvm-s390x-22.s390.fedoraproject.org)
-  82432180 buildArch (maven-verifier-plugin-1.0-30.fc36.src.rpm, noarch): open (buildvm-s390x-22.s390.fedoraproject.org) -> closed
+  114354541 buildArch (maven-verifier-plugin-1.1-6.fc40.src.rpm, noarch): free
+  114354541 buildArch (maven-verifier-plugin-1.1-6.fc40.src.rpm, noarch): free -> assigned
+  114354541 buildArch (maven-verifier-plugin-1.1-6.fc40.src.rpm, noarch): assigned -> open (buildvm-x86-06.iad2.fedoraproject.org)
+  114354541 buildArch (maven-verifier-plugin-1.1-6.fc40.src.rpm, noarch): open (buildvm-x86-06.iad2.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  82432204 tagBuild (noarch): free
-  82432204 tagBuild (noarch): free -> closed
+  114354600 tagBuild (noarch): free
+  114354600 tagBuild (noarch): free -> closed
   0 free  1 open  3 done  0 failed
-82431936 build (f36-java17, /rpms/maven-verifier-plugin.git:ba893384cf6e349dbdd0891866394da862cfceba): open (buildvm-ppc64le-15.iad2.fedoraproject.org) -> closed
+114354366 build (f40-build-side-84857, /rpms/maven-verifier-plugin.git:99336a6958e142a146f1dc0b6303fc1c8ee4fde0): open (buildvm-a64-23.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-82431936 build (f36-java17, /rpms/maven-verifier-plugin.git:ba893384cf6e349dbdd0891866394da862cfceba) completed successfully
+114354366 build (f40-build-side-84857, /rpms/maven-verifier-plugin.git:99336a6958e142a146f1dc0b6303fc1c8ee4fde0) completed successfully

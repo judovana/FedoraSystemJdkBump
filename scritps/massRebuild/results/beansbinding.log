@@ -1,24 +1,29 @@
 Cloning into 'beansbinding'...
-[rawhide d77e501] Rebuilt for java-17-openjdk as system jdk
+[f40 ba78d9a] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building beansbinding-1.2.1-29.fc36 for f36-java17
-Created task: 82423838
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82423838
+warning: %patchN is deprecated (2 usages found), use %patch N (or %patch -P N)
+
+Building beansbinding-1.2.1-36.fc40 for f40-build-side-84857
+Created task: 114347464
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114347464
 Watching tasks (this may be safely interrupted)...
-82423838 build (f36-java17, /rpms/beansbinding.git:d77e50147353bfd2e9a2a30feec1cde0aa0de1a2): free
-82423838 build (f36-java17, /rpms/beansbinding.git:d77e50147353bfd2e9a2a30feec1cde0aa0de1a2): free -> open (buildhw-a64-20.iad2.fedoraproject.org)
-  82423839 buildSRPMFromSCM (/rpms/beansbinding.git:d77e50147353bfd2e9a2a30feec1cde0aa0de1a2): free
-  82423839 buildSRPMFromSCM (/rpms/beansbinding.git:d77e50147353bfd2e9a2a30feec1cde0aa0de1a2): free -> open (buildvm-x86-07.iad2.fedoraproject.org)
-  82423839 buildSRPMFromSCM (/rpms/beansbinding.git:d77e50147353bfd2e9a2a30feec1cde0aa0de1a2): open (buildvm-x86-07.iad2.fedoraproject.org) -> closed
-  0 free  1 open  1 done  0 failed
-  82424036 buildArch (beansbinding-1.2.1-29.fc36.src.rpm, noarch): free
-  82424036 buildArch (beansbinding-1.2.1-29.fc36.src.rpm, noarch): free -> open (buildvm-s390x-18.s390.fedoraproject.org)
-  82424036 buildArch (beansbinding-1.2.1-29.fc36.src.rpm, noarch): open (buildvm-s390x-18.s390.fedoraproject.org) -> closed
+114347464 build (f40-build-side-84857, /rpms/beansbinding.git:ba78d9aa02db28fc74cd33f74669081f43266f63): free
+114347464 build (f40-build-side-84857, /rpms/beansbinding.git:ba78d9aa02db28fc74cd33f74669081f43266f63): free -> assigned
+114347464 build (f40-build-side-84857, /rpms/beansbinding.git:ba78d9aa02db28fc74cd33f74669081f43266f63): assigned -> open (buildvm-s390x-01.s390.fedoraproject.org)
+  114347473 buildSRPMFromSCM (/rpms/beansbinding.git:ba78d9aa02db28fc74cd33f74669081f43266f63): free
+  114347473 buildSRPMFromSCM (/rpms/beansbinding.git:ba78d9aa02db28fc74cd33f74669081f43266f63): free -> open (buildvm-a64-12.iad2.fedoraproject.org)
+  114347531 buildArch (beansbinding-1.2.1-36.fc40.src.rpm, noarch): free
+  114347473 buildSRPMFromSCM (/rpms/beansbinding.git:ba78d9aa02db28fc74cd33f74669081f43266f63): open (buildvm-a64-12.iad2.fedoraproject.org) -> closed
+  1 free  1 open  1 done  0 failed
+  114347531 buildArch (beansbinding-1.2.1-36.fc40.src.rpm, noarch): free -> assigned
+  114347531 buildArch (beansbinding-1.2.1-36.fc40.src.rpm, noarch): assigned -> open (buildvm-s390x-04.s390.fedoraproject.org)
+  114347531 buildArch (beansbinding-1.2.1-36.fc40.src.rpm, noarch): open (buildvm-s390x-04.s390.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  82424189 tagBuild (noarch): free
-  82424189 tagBuild (noarch): free -> closed
+  114347714 tagBuild (noarch): free
+  114347714 tagBuild (noarch): free -> assigned
+114347464 build (f40-build-side-84857, /rpms/beansbinding.git:ba78d9aa02db28fc74cd33f74669081f43266f63): open (buildvm-s390x-01.s390.fedoraproject.org) -> closed
   0 free  1 open  3 done  0 failed
-82423838 build (f36-java17, /rpms/beansbinding.git:d77e50147353bfd2e9a2a30feec1cde0aa0de1a2): open (buildhw-a64-20.iad2.fedoraproject.org) -> closed
+  114347714 tagBuild (noarch): assigned -> closed
   0 free  0 open  4 done  0 failed
 
-82423838 build (f36-java17, /rpms/beansbinding.git:d77e50147353bfd2e9a2a30feec1cde0aa0de1a2) completed successfully
+114347464 build (f40-build-side-84857, /rpms/beansbinding.git:ba78d9aa02db28fc74cd33f74669081f43266f63) completed successfully

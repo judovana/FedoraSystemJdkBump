@@ -1,24 +1,29 @@
 Cloning into 'disruptor'...
-[rawhide 9a42b6b] Rebuilt for java-17-openjdk as system jdk
+[f40 79270f2] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building disruptor-3.4.4-3.fc36 for f36-java17
-Created task: 82425699
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82425699
+Found a gating.yaml file in the repo and it is properly configured
+Building disruptor-3.4.4-11.fc40 for f40-build-side-84857
+Created task: 114348272
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114348272
 Watching tasks (this may be safely interrupted)...
-82425699 build (f36-java17, /rpms/disruptor.git:9a42b6bf56b82dbe640ca571c688821b334ed221): free
-82425699 build (f36-java17, /rpms/disruptor.git:9a42b6bf56b82dbe640ca571c688821b334ed221): free -> open (buildvm-ppc64le-30.iad2.fedoraproject.org)
-  82425707 buildSRPMFromSCM (/rpms/disruptor.git:9a42b6bf56b82dbe640ca571c688821b334ed221): free
-  82425707 buildSRPMFromSCM (/rpms/disruptor.git:9a42b6bf56b82dbe640ca571c688821b334ed221): free -> open (buildvm-x86-31.iad2.fedoraproject.org)
-  82425707 buildSRPMFromSCM (/rpms/disruptor.git:9a42b6bf56b82dbe640ca571c688821b334ed221): open (buildvm-x86-31.iad2.fedoraproject.org) -> closed
+114348272 build (f40-build-side-84857, /rpms/disruptor.git:79270f29ebe334a857b1f9e052ac6a0ebcdb0cb3): free
+114348272 build (f40-build-side-84857, /rpms/disruptor.git:79270f29ebe334a857b1f9e052ac6a0ebcdb0cb3): free -> assigned
+114348272 build (f40-build-side-84857, /rpms/disruptor.git:79270f29ebe334a857b1f9e052ac6a0ebcdb0cb3): assigned -> open (buildvm-s390x-05.s390.fedoraproject.org)
+  114348312 buildSRPMFromSCM (/rpms/disruptor.git:79270f29ebe334a857b1f9e052ac6a0ebcdb0cb3): free
+  114348312 buildSRPMFromSCM (/rpms/disruptor.git:79270f29ebe334a857b1f9e052ac6a0ebcdb0cb3): free -> assigned
+  114348312 buildSRPMFromSCM (/rpms/disruptor.git:79270f29ebe334a857b1f9e052ac6a0ebcdb0cb3): assigned -> open (buildvm-x86-15.iad2.fedoraproject.org)
+  114348312 buildSRPMFromSCM (/rpms/disruptor.git:79270f29ebe334a857b1f9e052ac6a0ebcdb0cb3): open (buildvm-x86-15.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  82425735 buildArch (disruptor-3.4.4-3.fc36.src.rpm, noarch): free
-  82425735 buildArch (disruptor-3.4.4-3.fc36.src.rpm, noarch): free -> open (buildvm-ppc64le-36.iad2.fedoraproject.org)
-  82425735 buildArch (disruptor-3.4.4-3.fc36.src.rpm, noarch): open (buildvm-ppc64le-36.iad2.fedoraproject.org) -> closed
+  114348553 buildArch (disruptor-3.4.4-11.fc40.src.rpm, noarch): free
+  114348553 buildArch (disruptor-3.4.4-11.fc40.src.rpm, noarch): free -> assigned
+  114348553 buildArch (disruptor-3.4.4-11.fc40.src.rpm, noarch): assigned -> open (buildvm-ppc64le-10.iad2.fedoraproject.org)
+  114348553 buildArch (disruptor-3.4.4-11.fc40.src.rpm, noarch): open (buildvm-ppc64le-10.iad2.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  82425774 tagBuild (noarch): free
-82425699 build (f36-java17, /rpms/disruptor.git:9a42b6bf56b82dbe640ca571c688821b334ed221): open (buildvm-ppc64le-30.iad2.fedoraproject.org) -> closed
-  1 free  0 open  3 done  0 failed
-  82425774 tagBuild (noarch): free -> closed
+  114348927 tagBuild (noarch): free
+  114348927 tagBuild (noarch): free -> assigned
+  114348927 tagBuild (noarch): assigned -> closed
+  0 free  1 open  3 done  0 failed
+114348272 build (f40-build-side-84857, /rpms/disruptor.git:79270f29ebe334a857b1f9e052ac6a0ebcdb0cb3): open (buildvm-s390x-05.s390.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-82425699 build (f36-java17, /rpms/disruptor.git:9a42b6bf56b82dbe640ca571c688821b334ed221) completed successfully
+114348272 build (f40-build-side-84857, /rpms/disruptor.git:79270f29ebe334a857b1f9e052ac6a0ebcdb0cb3) completed successfully

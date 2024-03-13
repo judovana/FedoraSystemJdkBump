@@ -1,22 +1,27 @@
 Cloning into 'jsch'...
-[rawhide 6da6c19] Rebuilt for java-17-openjdk as system jdk
+[f40 168d4c2] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building jsch-0.1.55-7.fc36 for f36-java17
-Created task: 82430124
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82430124
+Found a gating.yaml file in the repo and it is properly configured
+Building jsch-0.1.55-16.fc40 for f40-build-side-84857
+Created task: 114352688
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114352688
 Watching tasks (this may be safely interrupted)...
-82430124 build (f36-java17, /rpms/jsch.git:6da6c1927c35dc849e33bd9196526b8daa9bdc14): free
-82430124 build (f36-java17, /rpms/jsch.git:6da6c1927c35dc849e33bd9196526b8daa9bdc14): free -> open (buildvm-ppc64le-40.iad2.fedoraproject.org)
-  82430130 buildSRPMFromSCM (/rpms/jsch.git:6da6c1927c35dc849e33bd9196526b8daa9bdc14): free
-  82430130 buildSRPMFromSCM (/rpms/jsch.git:6da6c1927c35dc849e33bd9196526b8daa9bdc14): free -> open (buildvm-ppc64le-40.iad2.fedoraproject.org)
-  82430130 buildSRPMFromSCM (/rpms/jsch.git:6da6c1927c35dc849e33bd9196526b8daa9bdc14): open (buildvm-ppc64le-40.iad2.fedoraproject.org) -> closed
-  0 free  1 open  1 done  0 failed
-  82430228 buildArch (jsch-0.1.55-7.fc36.src.rpm, noarch): free
-  82430228 buildArch (jsch-0.1.55-7.fc36.src.rpm, noarch): free -> open (buildvm-ppc64le-17.iad2.fedoraproject.org)
-  82430228 buildArch (jsch-0.1.55-7.fc36.src.rpm, noarch): open (buildvm-ppc64le-17.iad2.fedoraproject.org) -> closed
+114352688 build (f40-build-side-84857, /rpms/jsch.git:168d4c202f33d491b58b4bcacb89b799e59e9305): free
+114352688 build (f40-build-side-84857, /rpms/jsch.git:168d4c202f33d491b58b4bcacb89b799e59e9305): free -> open (buildhw-a64-21.iad2.fedoraproject.org)
+  114352701 buildSRPMFromSCM (/rpms/jsch.git:168d4c202f33d491b58b4bcacb89b799e59e9305): free
+  114352701 buildSRPMFromSCM (/rpms/jsch.git:168d4c202f33d491b58b4bcacb89b799e59e9305): free -> assigned
+  114352701 buildSRPMFromSCM (/rpms/jsch.git:168d4c202f33d491b58b4bcacb89b799e59e9305): assigned -> open (buildvm-a64-13.iad2.fedoraproject.org)
+  114352726 buildArch (jsch-0.1.55-16.fc40.src.rpm, noarch): assigned
+  114352701 buildSRPMFromSCM (/rpms/jsch.git:168d4c202f33d491b58b4bcacb89b799e59e9305): open (buildvm-a64-13.iad2.fedoraproject.org) -> closed
+  0 free  2 open  1 done  0 failed
+  114352726 buildArch (jsch-0.1.55-16.fc40.src.rpm, noarch): assigned -> open (buildhw-x86-16.iad2.fedoraproject.org)
+  114352726 buildArch (jsch-0.1.55-16.fc40.src.rpm, noarch): open (buildhw-x86-16.iad2.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  82430281 tagBuild (noarch): closed
-82430124 build (f36-java17, /rpms/jsch.git:6da6c1927c35dc849e33bd9196526b8daa9bdc14): open (buildvm-ppc64le-40.iad2.fedoraproject.org) -> closed
+  114352798 tagBuild (noarch): free
+  114352798 tagBuild (noarch): free -> assigned
+114352688 build (f40-build-side-84857, /rpms/jsch.git:168d4c202f33d491b58b4bcacb89b799e59e9305): open (buildhw-a64-21.iad2.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+  114352798 tagBuild (noarch): assigned -> closed
   0 free  0 open  4 done  0 failed
 
-82430124 build (f36-java17, /rpms/jsch.git:6da6c1927c35dc849e33bd9196526b8daa9bdc14) completed successfully
+114352688 build (f40-build-side-84857, /rpms/jsch.git:168d4c202f33d491b58b4bcacb89b799e59e9305) completed successfully

@@ -1,24 +1,29 @@
 Cloning into 'batik'...
-[rawhide 1810829] Rebuilt for java-17-openjdk as system jdk
+[f40 18ae368] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building batik-1.14-5.fc36 for f36-java17
-Created task: 82423749
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82423749
+warning: %patchN is deprecated (1 usages found), use %patch N (or %patch -P N)
+
+Building batik-1.14-13.fc40 for f40-build-side-84857
+Created task: 114347435
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114347435
 Watching tasks (this may be safely interrupted)...
-82423749 build (f36-java17, /rpms/batik.git:181082976b74a4e1cc6a6cb467503f2e5ca82cd1): free
-82423749 build (f36-java17, /rpms/batik.git:181082976b74a4e1cc6a6cb467503f2e5ca82cd1): free -> open (buildvm-a32-16.iad2.fedoraproject.org)
-  82423814 buildSRPMFromSCM (/rpms/batik.git:181082976b74a4e1cc6a6cb467503f2e5ca82cd1): free
-  82423814 buildSRPMFromSCM (/rpms/batik.git:181082976b74a4e1cc6a6cb467503f2e5ca82cd1): free -> open (buildvm-ppc64le-21.iad2.fedoraproject.org)
-  82423814 buildSRPMFromSCM (/rpms/batik.git:181082976b74a4e1cc6a6cb467503f2e5ca82cd1): open (buildvm-ppc64le-21.iad2.fedoraproject.org) -> closed
+114347435 build (f40-build-side-84857, /rpms/batik.git:18ae3686fc05a54c599136618c14e7523bbb5b1a): free
+114347435 build (f40-build-side-84857, /rpms/batik.git:18ae3686fc05a54c599136618c14e7523bbb5b1a): free -> assigned
+  114347463 buildSRPMFromSCM (/rpms/batik.git:18ae3686fc05a54c599136618c14e7523bbb5b1a): free
+114347435 build (f40-build-side-84857, /rpms/batik.git:18ae3686fc05a54c599136618c14e7523bbb5b1a): assigned -> open (buildvm-ppc64le-02.iad2.fedoraproject.org)
+  114347463 buildSRPMFromSCM (/rpms/batik.git:18ae3686fc05a54c599136618c14e7523bbb5b1a): free -> open (buildvm-a64-15.iad2.fedoraproject.org)
+  114347463 buildSRPMFromSCM (/rpms/batik.git:18ae3686fc05a54c599136618c14e7523bbb5b1a): open (buildvm-a64-15.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  82424032 buildArch (batik-1.14-5.fc36.src.rpm, noarch): free
-  82424032 buildArch (batik-1.14-5.fc36.src.rpm, noarch): free -> open (buildvm-a64-09.iad2.fedoraproject.org)
-  82424032 buildArch (batik-1.14-5.fc36.src.rpm, noarch): open (buildvm-a64-09.iad2.fedoraproject.org) -> closed
-  0 free  1 open  2 done  0 failed
-  82424353 tagBuild (noarch): free
-  82424353 tagBuild (noarch): free -> closed
+  114347478 buildArch (batik-1.14-13.fc40.src.rpm, noarch): free
+  114347478 buildArch (batik-1.14-13.fc40.src.rpm, noarch): free -> assigned
+  114347478 buildArch (batik-1.14-13.fc40.src.rpm, noarch): assigned -> open (buildvm-a64-27.iad2.fedoraproject.org)
+  114347739 tagBuild (noarch): free
+  114347478 buildArch (batik-1.14-13.fc40.src.rpm, noarch): open (buildvm-a64-27.iad2.fedoraproject.org) -> closed
+  1 free  1 open  2 done  0 failed
+  114347739 tagBuild (noarch): free -> assigned
+  114347739 tagBuild (noarch): assigned -> closed
   0 free  1 open  3 done  0 failed
-82423749 build (f36-java17, /rpms/batik.git:181082976b74a4e1cc6a6cb467503f2e5ca82cd1): open (buildvm-a32-16.iad2.fedoraproject.org) -> closed
+114347435 build (f40-build-side-84857, /rpms/batik.git:18ae3686fc05a54c599136618c14e7523bbb5b1a): open (buildvm-ppc64le-02.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-82423749 build (f36-java17, /rpms/batik.git:181082976b74a4e1cc6a6cb467503f2e5ca82cd1) completed successfully
+114347435 build (f40-build-side-84857, /rpms/batik.git:18ae3686fc05a54c599136618c14e7523bbb5b1a) completed successfully

@@ -1,22 +1,28 @@
 Cloning into 'mojo-parent'...
-[rawhide 6c9b40a] Rebuilt for java-17-openjdk as system jdk
+[f40 976d01d] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building mojo-parent-60-5.fc36 for f36-java17
-Created task: 82432181
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82432181
+Found a gating.yaml file in the repo and it is properly configured
+Building mojo-parent-78-3.fc40 for f40-build-side-84857
+Created task: 114354590
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114354590
 Watching tasks (this may be safely interrupted)...
-82432181 build (f36-java17, /rpms/mojo-parent.git:6c9b40a51e9d52f34bdcf4e8d59ee193513418aa): free
-82432181 build (f36-java17, /rpms/mojo-parent.git:6c9b40a51e9d52f34bdcf4e8d59ee193513418aa): free -> open (buildvm-a32-12.iad2.fedoraproject.org)
-  82432191 buildSRPMFromSCM (/rpms/mojo-parent.git:6c9b40a51e9d52f34bdcf4e8d59ee193513418aa): free
-  82432191 buildSRPMFromSCM (/rpms/mojo-parent.git:6c9b40a51e9d52f34bdcf4e8d59ee193513418aa): free -> open (buildvm-x86-27.iad2.fedoraproject.org)
-  82432191 buildSRPMFromSCM (/rpms/mojo-parent.git:6c9b40a51e9d52f34bdcf4e8d59ee193513418aa): open (buildvm-x86-27.iad2.fedoraproject.org) -> closed
+114354590 build (f40-build-side-84857, /rpms/mojo-parent.git:976d01db28bd55112f06d669e9495924b63b7bd0): free
+114354590 build (f40-build-side-84857, /rpms/mojo-parent.git:976d01db28bd55112f06d669e9495924b63b7bd0): free -> open (buildvm-ppc64le-22.iad2.fedoraproject.org)
+  114354593 buildSRPMFromSCM (/rpms/mojo-parent.git:976d01db28bd55112f06d669e9495924b63b7bd0): free
+  114354593 buildSRPMFromSCM (/rpms/mojo-parent.git:976d01db28bd55112f06d669e9495924b63b7bd0): free -> assigned
+  114354593 buildSRPMFromSCM (/rpms/mojo-parent.git:976d01db28bd55112f06d669e9495924b63b7bd0): assigned -> open (buildvm-x86-15.iad2.fedoraproject.org)
+  114354593 buildSRPMFromSCM (/rpms/mojo-parent.git:976d01db28bd55112f06d669e9495924b63b7bd0): open (buildvm-x86-15.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  82432224 buildArch (mojo-parent-60-5.fc36.src.rpm, noarch): free
-  82432224 buildArch (mojo-parent-60-5.fc36.src.rpm, noarch): free -> open (buildvm-ppc64le-08.iad2.fedoraproject.org)
-  82432224 buildArch (mojo-parent-60-5.fc36.src.rpm, noarch): open (buildvm-ppc64le-08.iad2.fedoraproject.org) -> closed
+  114354657 buildArch (mojo-parent-78-3.fc40.src.rpm, noarch): free
+  114354657 buildArch (mojo-parent-78-3.fc40.src.rpm, noarch): free -> assigned
+  114354657 buildArch (mojo-parent-78-3.fc40.src.rpm, noarch): assigned -> open (buildvm-a64-24.iad2.fedoraproject.org)
+  114354657 buildArch (mojo-parent-78-3.fc40.src.rpm, noarch): open (buildvm-a64-24.iad2.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  82432342 tagBuild (noarch): closed
-82432181 build (f36-java17, /rpms/mojo-parent.git:6c9b40a51e9d52f34bdcf4e8d59ee193513418aa): open (buildvm-a32-12.iad2.fedoraproject.org) -> closed
+  114354786 tagBuild (noarch): free
+  114354786 tagBuild (noarch): free -> assigned
+  114354786 tagBuild (noarch): assigned -> closed
+  0 free  1 open  3 done  0 failed
+114354590 build (f40-build-side-84857, /rpms/mojo-parent.git:976d01db28bd55112f06d669e9495924b63b7bd0): open (buildvm-ppc64le-22.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-82432181 build (f36-java17, /rpms/mojo-parent.git:6c9b40a51e9d52f34bdcf4e8d59ee193513418aa) completed successfully
+114354590 build (f40-build-side-84857, /rpms/mojo-parent.git:976d01db28bd55112f06d669e9495924b63b7bd0) completed successfully

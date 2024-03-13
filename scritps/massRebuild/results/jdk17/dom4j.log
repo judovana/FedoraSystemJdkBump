@@ -1,0 +1,22 @@
+Cloning into 'dom4j'...
+[rawhide 8e22674] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building dom4j-2.0.3-4.fc36 for f36-java17
+Created task: 82425736
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82425736
+Watching tasks (this may be safely interrupted)...
+82425736 build (f36-java17, /rpms/dom4j.git:8e226740ea840962e32e59e26ab475199132a4bd): open (buildvm-x86-15.iad2.fedoraproject.org)
+  82425737 buildSRPMFromSCM (/rpms/dom4j.git:8e226740ea840962e32e59e26ab475199132a4bd): open (buildvm-ppc64le-37.iad2.fedoraproject.org)
+  82425737 buildSRPMFromSCM (/rpms/dom4j.git:8e226740ea840962e32e59e26ab475199132a4bd): open (buildvm-ppc64le-37.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82425772 buildArch (dom4j-2.0.3-4.fc36.src.rpm, noarch): free
+  82425772 buildArch (dom4j-2.0.3-4.fc36.src.rpm, noarch): free -> open (buildvm-ppc64le-37.iad2.fedoraproject.org)
+  82425772 buildArch (dom4j-2.0.3-4.fc36.src.rpm, noarch): open (buildvm-ppc64le-37.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  82425821 tagBuild (noarch): open (buildvm-ppc64le-27.iad2.fedoraproject.org)
+  82425821 tagBuild (noarch): open (buildvm-ppc64le-27.iad2.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+82425736 build (f36-java17, /rpms/dom4j.git:8e226740ea840962e32e59e26ab475199132a4bd): open (buildvm-x86-15.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+82425736 build (f36-java17, /rpms/dom4j.git:8e226740ea840962e32e59e26ab475199132a4bd) completed successfully

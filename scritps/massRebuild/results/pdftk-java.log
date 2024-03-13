@@ -1,24 +1,28 @@
 Cloning into 'pdftk-java'...
-[rawhide 028214c] Rebuilt for java-17-openjdk as system jdk
+[f40 c563cb6] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building pdftk-java-3.3.2-3.fc36 for f36-java17
-Created task: 82432846
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82432846
+warning: %patchN is deprecated (1 usages found), use %patch N (or %patch -P N)
+
+Building pdftk-java-3.3.3-6.fc40 for f40-build-side-84857
+Created task: 114355263
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355263
 Watching tasks (this may be safely interrupted)...
-82432846 build (f36-java17, /rpms/pdftk-java.git:028214c862bb9b9079b4f3312f575f735080fc72): free
-82432846 build (f36-java17, /rpms/pdftk-java.git:028214c862bb9b9079b4f3312f575f735080fc72): free -> open (buildvm-ppc64le-31.iad2.fedoraproject.org)
-  82432874 buildSRPMFromSCM (/rpms/pdftk-java.git:028214c862bb9b9079b4f3312f575f735080fc72): free
-  82432874 buildSRPMFromSCM (/rpms/pdftk-java.git:028214c862bb9b9079b4f3312f575f735080fc72): free -> open (buildvm-x86-27.iad2.fedoraproject.org)
-  82432874 buildSRPMFromSCM (/rpms/pdftk-java.git:028214c862bb9b9079b4f3312f575f735080fc72): open (buildvm-x86-27.iad2.fedoraproject.org) -> closed
-  0 free  1 open  1 done  0 failed
-  82432963 buildArch (pdftk-java-3.3.2-3.fc36.src.rpm, noarch): free
-  82432963 buildArch (pdftk-java-3.3.2-3.fc36.src.rpm, noarch): free -> open (buildvm-s390x-26.s390.fedoraproject.org)
-  82432963 buildArch (pdftk-java-3.3.2-3.fc36.src.rpm, noarch): open (buildvm-s390x-26.s390.fedoraproject.org) -> closed
+114355263 build (f40-build-side-84857, /rpms/pdftk-java.git:c563cb64543dcfa5b4eadade079dcbf1455b52bd): free
+114355263 build (f40-build-side-84857, /rpms/pdftk-java.git:c563cb64543dcfa5b4eadade079dcbf1455b52bd): free -> assigned
+114355263 build (f40-build-side-84857, /rpms/pdftk-java.git:c563cb64543dcfa5b4eadade079dcbf1455b52bd): assigned -> open (buildvm-a64-26.iad2.fedoraproject.org)
+  114355291 buildSRPMFromSCM (/rpms/pdftk-java.git:c563cb64543dcfa5b4eadade079dcbf1455b52bd): free
+  114355291 buildSRPMFromSCM (/rpms/pdftk-java.git:c563cb64543dcfa5b4eadade079dcbf1455b52bd): free -> assigned
+  114355291 buildSRPMFromSCM (/rpms/pdftk-java.git:c563cb64543dcfa5b4eadade079dcbf1455b52bd): assigned -> open (buildvm-a64-32.iad2.fedoraproject.org)
+  114355319 buildArch (pdftk-java-3.3.3-6.fc40.src.rpm, noarch): free
+  114355291 buildSRPMFromSCM (/rpms/pdftk-java.git:c563cb64543dcfa5b4eadade079dcbf1455b52bd): open (buildvm-a64-32.iad2.fedoraproject.org) -> closed
+  1 free  1 open  1 done  0 failed
+  114355319 buildArch (pdftk-java-3.3.3-6.fc40.src.rpm, noarch): free -> open (buildvm-s390x-09.s390.fedoraproject.org)
+  114355319 buildArch (pdftk-java-3.3.3-6.fc40.src.rpm, noarch): open (buildvm-s390x-09.s390.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  82433005 tagBuild (noarch): free
-  82433005 tagBuild (noarch): free -> closed
+  114355350 tagBuild (noarch): free
+  114355350 tagBuild (noarch): free -> closed
   0 free  1 open  3 done  0 failed
-82432846 build (f36-java17, /rpms/pdftk-java.git:028214c862bb9b9079b4f3312f575f735080fc72): open (buildvm-ppc64le-31.iad2.fedoraproject.org) -> closed
+114355263 build (f40-build-side-84857, /rpms/pdftk-java.git:c563cb64543dcfa5b4eadade079dcbf1455b52bd): open (buildvm-a64-26.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-82432846 build (f36-java17, /rpms/pdftk-java.git:028214c862bb9b9079b4f3312f575f735080fc72) completed successfully
+114355263 build (f40-build-side-84857, /rpms/pdftk-java.git:c563cb64543dcfa5b4eadade079dcbf1455b52bd) completed successfully

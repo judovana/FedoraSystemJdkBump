@@ -1,24 +1,19 @@
 Cloning into 'plexus-io'...
-[rawhide bdd6a2b] Rebuilt for java-17-openjdk as system jdk
+[f40 06c92ba] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building plexus-io-3.2.0-9.fc36 for f36-java17
-Created task: 82433116
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82433116
+Found a gating.yaml file in the repo and it is properly configured
+Building plexus-io-3.4.2-3.fc40 for f40-build-side-84857
+Created task: 114355494
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355494
 Watching tasks (this may be safely interrupted)...
-82433116 build (f36-java17, /rpms/plexus-io.git:bdd6a2b03ae2370ae0c95e26eae363c9c446c1b4): free
-82433116 build (f36-java17, /rpms/plexus-io.git:bdd6a2b03ae2370ae0c95e26eae363c9c446c1b4): free -> open (buildvm-ppc64le-13.iad2.fedoraproject.org)
-  82433118 buildSRPMFromSCM (/rpms/plexus-io.git:bdd6a2b03ae2370ae0c95e26eae363c9c446c1b4): free
-  82433118 buildSRPMFromSCM (/rpms/plexus-io.git:bdd6a2b03ae2370ae0c95e26eae363c9c446c1b4): free -> open (buildvm-ppc64le-11.iad2.fedoraproject.org)
-  82433118 buildSRPMFromSCM (/rpms/plexus-io.git:bdd6a2b03ae2370ae0c95e26eae363c9c446c1b4): open (buildvm-ppc64le-11.iad2.fedoraproject.org) -> closed
-  0 free  1 open  1 done  0 failed
-  82433375 buildArch (plexus-io-3.2.0-9.fc36.src.rpm, noarch): free
-  82433375 buildArch (plexus-io-3.2.0-9.fc36.src.rpm, noarch): free -> open (buildvm-s390x-03.s390.fedoraproject.org)
-  82433375 buildArch (plexus-io-3.2.0-9.fc36.src.rpm, noarch): open (buildvm-s390x-03.s390.fedoraproject.org) -> closed
-  0 free  1 open  2 done  0 failed
-  82433499 tagBuild (noarch): free
-  82433499 tagBuild (noarch): free -> closed
-  0 free  1 open  3 done  0 failed
-82433116 build (f36-java17, /rpms/plexus-io.git:bdd6a2b03ae2370ae0c95e26eae363c9c446c1b4): open (buildvm-ppc64le-13.iad2.fedoraproject.org) -> closed
-  0 free  0 open  4 done  0 failed
+114355494 build (f40-build-side-84857, /rpms/plexus-io.git:06c92bad23f7f1d6f829555c65035d09f5e9523e): free
+114355494 build (f40-build-side-84857, /rpms/plexus-io.git:06c92bad23f7f1d6f829555c65035d09f5e9523e): free -> assigned
+114355494 build (f40-build-side-84857, /rpms/plexus-io.git:06c92bad23f7f1d6f829555c65035d09f5e9523e): assigned -> open (buildvm-a64-11.iad2.fedoraproject.org)
+  114355537 buildSRPMFromSCM (/rpms/plexus-io.git:06c92bad23f7f1d6f829555c65035d09f5e9523e): free
+Watching tasks (this may be safely interrupted)...
+114355494 build (f40-build-side-84857, /rpms/plexus-io.git:06c92bad23f7f1d6f829555c65035d09f5e9523e): closed
+  114355537 buildSRPMFromSCM (/rpms/plexus-io.git:06c92bad23f7f1d6f829555c65035d09f5e9523e): closed
+  114355719 buildArch (plexus-io-3.4.2-3.fc40.src.rpm, noarch): closed
+  114355967 tagBuild (noarch): closed
 
-82433116 build (f36-java17, /rpms/plexus-io.git:bdd6a2b03ae2370ae0c95e26eae363c9c446c1b4) completed successfully
+114355494 build (f40-build-side-84857, /rpms/plexus-io.git:06c92bad23f7f1d6f829555c65035d09f5e9523e) completed successfully

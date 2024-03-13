@@ -1,22 +1,29 @@
 Cloning into 'maven-common-artifact-filters'...
-[rawhide a162a8f] Rebuilt for java-17-openjdk as system jdk
+[f40 42b8b3d] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building maven-common-artifact-filters-3.2.0-3.fc36 for f36-java17
-Created task: 82431007
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82431007
+Found a gating.yaml file in the repo and it is properly configured
+Building maven-common-artifact-filters-3.3.2-6.fc40 for f40-build-side-84857
+Created task: 114353420
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114353420
 Watching tasks (this may be safely interrupted)...
-82431007 build (f36-java17, /rpms/maven-common-artifact-filters.git:a162a8fa0c1fbf525399c9ad75224a64c0df59c2): free
-82431007 build (f36-java17, /rpms/maven-common-artifact-filters.git:a162a8fa0c1fbf525399c9ad75224a64c0df59c2): free -> open (buildvm-x86-16.iad2.fedoraproject.org)
-  82431010 buildSRPMFromSCM (/rpms/maven-common-artifact-filters.git:a162a8fa0c1fbf525399c9ad75224a64c0df59c2): open (buildvm-x86-04.iad2.fedoraproject.org)
-  82431010 buildSRPMFromSCM (/rpms/maven-common-artifact-filters.git:a162a8fa0c1fbf525399c9ad75224a64c0df59c2): open (buildvm-x86-04.iad2.fedoraproject.org) -> closed
+114353420 build (f40-build-side-84857, /rpms/maven-common-artifact-filters.git:42b8b3d673686ca43f727f34194e7abc12ed85dd): free
+114353420 build (f40-build-side-84857, /rpms/maven-common-artifact-filters.git:42b8b3d673686ca43f727f34194e7abc12ed85dd): free -> assigned
+114353420 build (f40-build-side-84857, /rpms/maven-common-artifact-filters.git:42b8b3d673686ca43f727f34194e7abc12ed85dd): assigned -> open (buildvm-ppc64le-25.iad2.fedoraproject.org)
+  114353481 buildSRPMFromSCM (/rpms/maven-common-artifact-filters.git:42b8b3d673686ca43f727f34194e7abc12ed85dd): free
+  114353481 buildSRPMFromSCM (/rpms/maven-common-artifact-filters.git:42b8b3d673686ca43f727f34194e7abc12ed85dd): free -> assigned
+  114353481 buildSRPMFromSCM (/rpms/maven-common-artifact-filters.git:42b8b3d673686ca43f727f34194e7abc12ed85dd): assigned -> open (buildvm-a64-20.iad2.fedoraproject.org)
+  114353481 buildSRPMFromSCM (/rpms/maven-common-artifact-filters.git:42b8b3d673686ca43f727f34194e7abc12ed85dd): open (buildvm-a64-20.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  82431088 buildArch (maven-common-artifact-filters-3.2.0-3.fc36.src.rpm, noarch): open (buildvm-x86-19.iad2.fedoraproject.org)
-  82431166 tagBuild (noarch): free
-  82431088 buildArch (maven-common-artifact-filters-3.2.0-3.fc36.src.rpm, noarch): open (buildvm-x86-19.iad2.fedoraproject.org) -> closed
+  114353599 buildArch (maven-common-artifact-filters-3.3.2-6.fc40.src.rpm, noarch): free
+  114353599 buildArch (maven-common-artifact-filters-3.3.2-6.fc40.src.rpm, noarch): free -> assigned
+  114353599 buildArch (maven-common-artifact-filters-3.3.2-6.fc40.src.rpm, noarch): assigned -> open (buildhw-x86-16.iad2.fedoraproject.org)
+  114353687 tagBuild (noarch): free
+  114353599 buildArch (maven-common-artifact-filters-3.3.2-6.fc40.src.rpm, noarch): open (buildhw-x86-16.iad2.fedoraproject.org) -> closed
   1 free  1 open  2 done  0 failed
-  82431166 tagBuild (noarch): free -> closed
+  114353687 tagBuild (noarch): free -> assigned
+  114353687 tagBuild (noarch): assigned -> closed
   0 free  1 open  3 done  0 failed
-82431007 build (f36-java17, /rpms/maven-common-artifact-filters.git:a162a8fa0c1fbf525399c9ad75224a64c0df59c2): open (buildvm-x86-16.iad2.fedoraproject.org) -> closed
+114353420 build (f40-build-side-84857, /rpms/maven-common-artifact-filters.git:42b8b3d673686ca43f727f34194e7abc12ed85dd): open (buildvm-ppc64le-25.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-82431007 build (f36-java17, /rpms/maven-common-artifact-filters.git:a162a8fa0c1fbf525399c9ad75224a64c0df59c2) completed successfully
+114353420 build (f40-build-side-84857, /rpms/maven-common-artifact-filters.git:42b8b3d673686ca43f727f34194e7abc12ed85dd) completed successfully

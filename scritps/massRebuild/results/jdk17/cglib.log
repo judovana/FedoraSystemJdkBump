@@ -1,0 +1,21 @@
+Cloning into 'cglib'...
+[rawhide 7d37e86] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building cglib-3.3.0-7.fc36 for f36-java17
+Created task: 82424356
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82424356
+Watching tasks (this may be safely interrupted)...
+82424356 build (f36-java17, /rpms/cglib.git:7d37e86fa5891a4224b5a8d838b08482e0c9e869): free
+82424356 build (f36-java17, /rpms/cglib.git:7d37e86fa5891a4224b5a8d838b08482e0c9e869): free -> open (buildvm-ppc64le-08.iad2.fedoraproject.org)
+  82424357 buildSRPMFromSCM (/rpms/cglib.git:7d37e86fa5891a4224b5a8d838b08482e0c9e869): open (buildvm-ppc64le-08.iad2.fedoraproject.org)
+  82424429 buildArch (cglib-3.3.0-7.fc36.src.rpm, noarch): free
+  82424357 buildSRPMFromSCM (/rpms/cglib.git:7d37e86fa5891a4224b5a8d838b08482e0c9e869): open (buildvm-ppc64le-08.iad2.fedoraproject.org) -> closed
+  1 free  1 open  1 done  0 failed
+  82424429 buildArch (cglib-3.3.0-7.fc36.src.rpm, noarch): free -> open (buildvm-x86-28.iad2.fedoraproject.org)
+  82424429 buildArch (cglib-3.3.0-7.fc36.src.rpm, noarch): open (buildvm-x86-28.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  82424701 tagBuild (noarch): closed
+82424356 build (f36-java17, /rpms/cglib.git:7d37e86fa5891a4224b5a8d838b08482e0c9e869): open (buildvm-ppc64le-08.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+82424356 build (f36-java17, /rpms/cglib.git:7d37e86fa5891a4224b5a8d838b08482e0c9e869) completed successfully

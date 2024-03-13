@@ -1,0 +1,24 @@
+Cloning into 'java-dirq'...
+[rawhide 6d3d987] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building java-dirq-1.8-17.fc36 for f36-java17
+Created task: 82428088
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82428088
+Watching tasks (this may be safely interrupted)...
+82428088 build (f36-java17, /rpms/java-dirq.git:6d3d987a9b36ae1b8f95325b4b90fc100dc823fd): free
+82428088 build (f36-java17, /rpms/java-dirq.git:6d3d987a9b36ae1b8f95325b4b90fc100dc823fd): free -> open (buildvm-a32-33.iad2.fedoraproject.org)
+  82428090 buildSRPMFromSCM (/rpms/java-dirq.git:6d3d987a9b36ae1b8f95325b4b90fc100dc823fd): free
+  82428090 buildSRPMFromSCM (/rpms/java-dirq.git:6d3d987a9b36ae1b8f95325b4b90fc100dc823fd): free -> open (buildvm-x86-10.iad2.fedoraproject.org)
+  82428090 buildSRPMFromSCM (/rpms/java-dirq.git:6d3d987a9b36ae1b8f95325b4b90fc100dc823fd): open (buildvm-x86-10.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82428229 buildArch (java-dirq-1.8-17.fc36.src.rpm, noarch): free
+  82428229 buildArch (java-dirq-1.8-17.fc36.src.rpm, noarch): free -> open (buildvm-ppc64le-22.iad2.fedoraproject.org)
+  82428394 tagBuild (noarch): open (buildvm-ppc64le-21.iad2.fedoraproject.org)
+  82428229 buildArch (java-dirq-1.8-17.fc36.src.rpm, noarch): open (buildvm-ppc64le-22.iad2.fedoraproject.org) -> closed
+  0 free  2 open  2 done  0 failed
+  82428394 tagBuild (noarch): open (buildvm-ppc64le-21.iad2.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+82428088 build (f36-java17, /rpms/java-dirq.git:6d3d987a9b36ae1b8f95325b4b90fc100dc823fd): open (buildvm-a32-33.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+82428088 build (f36-java17, /rpms/java-dirq.git:6d3d987a9b36ae1b8f95325b4b90fc100dc823fd) completed successfully

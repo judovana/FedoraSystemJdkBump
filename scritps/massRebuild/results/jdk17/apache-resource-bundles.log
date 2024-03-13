@@ -1,0 +1,22 @@
+Cloning into 'apache-resource-bundles'...
+[rawhide 25808f4] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building apache-resource-bundles-30-5.fc36 for f36-java17
+Created task: 82423505
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82423505
+Watching tasks (this may be safely interrupted)...
+82423505 build (f36-java17, /rpms/apache-resource-bundles.git:25808f4f79591e3ea4e947bdd3df497c36b841ea): free
+82423505 build (f36-java17, /rpms/apache-resource-bundles.git:25808f4f79591e3ea4e947bdd3df497c36b841ea): free -> open (buildvm-ppc64le-05.iad2.fedoraproject.org)
+  82423507 buildSRPMFromSCM (/rpms/apache-resource-bundles.git:25808f4f79591e3ea4e947bdd3df497c36b841ea): free
+  82423507 buildSRPMFromSCM (/rpms/apache-resource-bundles.git:25808f4f79591e3ea4e947bdd3df497c36b841ea): free -> open (buildvm-ppc64le-37.iad2.fedoraproject.org)
+  82423507 buildSRPMFromSCM (/rpms/apache-resource-bundles.git:25808f4f79591e3ea4e947bdd3df497c36b841ea): open (buildvm-ppc64le-37.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82423524 buildArch (apache-resource-bundles-30-5.fc36.src.rpm, noarch): free
+  82423524 buildArch (apache-resource-bundles-30-5.fc36.src.rpm, noarch): free -> open (buildvm-ppc64le-38.iad2.fedoraproject.org)
+  82423524 buildArch (apache-resource-bundles-30-5.fc36.src.rpm, noarch): open (buildvm-ppc64le-38.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  82423559 tagBuild (noarch): closed
+82423505 build (f36-java17, /rpms/apache-resource-bundles.git:25808f4f79591e3ea4e947bdd3df497c36b841ea): open (buildvm-ppc64le-05.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+82423505 build (f36-java17, /rpms/apache-resource-bundles.git:25808f4f79591e3ea4e947bdd3df497c36b841ea) completed successfully

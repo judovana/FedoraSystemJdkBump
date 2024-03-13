@@ -1,21 +1,17 @@
 Cloning into 'snakeyaml'...
-[rawhide fd59f52] Rebuilt for java-17-openjdk as system jdk
+[f40 cb32db9] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building snakeyaml-1.27-6.fc36 for f36-java17
-Created task: 82434813
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82434813
-Watching tasks (this may be safely interrupted)...
-82434813 build (f36-java17, /rpms/snakeyaml.git:fd59f52438b926c30c9fe91535c9def91f6ba8d5): open (buildvm-ppc64le-20.iad2.fedoraproject.org)
-  82434814 buildSRPMFromSCM (/rpms/snakeyaml.git:fd59f52438b926c30c9fe91535c9def91f6ba8d5): free
-  82434814 buildSRPMFromSCM (/rpms/snakeyaml.git:fd59f52438b926c30c9fe91535c9def91f6ba8d5): free -> open (buildvm-ppc64le-20.iad2.fedoraproject.org)
-  82434814 buildSRPMFromSCM (/rpms/snakeyaml.git:fd59f52438b926c30c9fe91535c9def91f6ba8d5): open (buildvm-ppc64le-20.iad2.fedoraproject.org) -> closed
-  0 free  1 open  1 done  0 failed
-  82434852 buildArch (snakeyaml-1.27-6.fc36.src.rpm, noarch): free
-  82434852 buildArch (snakeyaml-1.27-6.fc36.src.rpm, noarch): free -> open (buildvm-x86-06.iad2.fedoraproject.org)
-  82434852 buildArch (snakeyaml-1.27-6.fc36.src.rpm, noarch): open (buildvm-x86-06.iad2.fedoraproject.org) -> closed
-  0 free  1 open  2 done  0 failed
-82434813 build (f36-java17, /rpms/snakeyaml.git:fd59f52438b926c30c9fe91535c9def91f6ba8d5): open (buildvm-ppc64le-20.iad2.fedoraproject.org) -> closed
-  0 free  0 open  3 done  0 failed
-  82435225 tagBuild (noarch): closed
+warning: %patchN is deprecated (3 usages found), use %patch N (or %patch -P N)
 
-82434813 build (f36-java17, /rpms/snakeyaml.git:fd59f52438b926c30c9fe91535c9def91f6ba8d5) completed successfully
+Building snakeyaml-1.33-3.fc40 for f40-build-side-84857
+Created task: 114355605
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355605
+Watching tasks (this may be safely interrupted)...
+114355605 build (f40-build-side-84857, /rpms/snakeyaml.git:cb32db968b4852ad599a5fcebf880da4e3a5b596): free
+Watching tasks (this may be safely interrupted)...
+114355605 build (f40-build-side-84857, /rpms/snakeyaml.git:cb32db968b4852ad599a5fcebf880da4e3a5b596): closed
+  114356024 tagBuild (noarch): closed
+  114355926 buildArch (snakeyaml-1.33-3.fc40.src.rpm, noarch): closed
+  114355775 buildSRPMFromSCM (/rpms/snakeyaml.git:cb32db968b4852ad599a5fcebf880da4e3a5b596): closed
+
+114355605 build (f40-build-side-84857, /rpms/snakeyaml.git:cb32db968b4852ad599a5fcebf880da4e3a5b596) completed successfully

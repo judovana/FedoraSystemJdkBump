@@ -1,24 +1,17 @@
 Cloning into 'prometheus-simpleclient-java'...
-[rawhide ffa4e5c] Rebuilt for java-17-openjdk as system jdk
+[f40 babf515] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building prometheus-simpleclient-java-0.12.0-4.fc36 for f36-java17
-Created task: 82433935
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82433935
-Watching tasks (this may be safely interrupted)...
-82433935 build (f36-java17, /rpms/prometheus-simpleclient-java.git:ffa4e5c76e1ed59a9bb61b61dd447e581f0d4269): free
-82433935 build (f36-java17, /rpms/prometheus-simpleclient-java.git:ffa4e5c76e1ed59a9bb61b61dd447e581f0d4269): free -> open (buildvm-s390x-18.s390.fedoraproject.org)
-  82433979 buildSRPMFromSCM (/rpms/prometheus-simpleclient-java.git:ffa4e5c76e1ed59a9bb61b61dd447e581f0d4269): free
-  82433979 buildSRPMFromSCM (/rpms/prometheus-simpleclient-java.git:ffa4e5c76e1ed59a9bb61b61dd447e581f0d4269): free -> open (buildvm-x86-16.iad2.fedoraproject.org)
-  82433979 buildSRPMFromSCM (/rpms/prometheus-simpleclient-java.git:ffa4e5c76e1ed59a9bb61b61dd447e581f0d4269): open (buildvm-x86-16.iad2.fedoraproject.org) -> closed
-  0 free  1 open  1 done  0 failed
-  82434036 buildArch (prometheus-simpleclient-java-0.12.0-4.fc36.src.rpm, noarch): free
-  82434036 buildArch (prometheus-simpleclient-java-0.12.0-4.fc36.src.rpm, noarch): free -> open (buildvm-s390x-23.s390.fedoraproject.org)
-  82434061 tagBuild (noarch): free
-  82434036 buildArch (prometheus-simpleclient-java-0.12.0-4.fc36.src.rpm, noarch): open (buildvm-s390x-23.s390.fedoraproject.org) -> closed
-  1 free  1 open  2 done  0 failed
-  82434061 tagBuild (noarch): free -> closed
-  0 free  1 open  3 done  0 failed
-82433935 build (f36-java17, /rpms/prometheus-simpleclient-java.git:ffa4e5c76e1ed59a9bb61b61dd447e581f0d4269): open (buildvm-s390x-18.s390.fedoraproject.org) -> closed
-  0 free  0 open  4 done  0 failed
+warning: %patchN is deprecated (1 usages found), use %patch N (or %patch -P N)
 
-82433935 build (f36-java17, /rpms/prometheus-simpleclient-java.git:ffa4e5c76e1ed59a9bb61b61dd447e581f0d4269) completed successfully
+Building prometheus-simpleclient-java-0.12.0-11.fc40 for f40-build-side-84857
+Created task: 114355569
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355569
+Watching tasks (this may be safely interrupted)...
+114355569 build (f40-build-side-84857, /rpms/prometheus-simpleclient-java.git:babf515fc6f181e150756fc4cdc64430b3dc722e): free
+Watching tasks (this may be safely interrupted)...
+114355569 build (f40-build-side-84857, /rpms/prometheus-simpleclient-java.git:babf515fc6f181e150756fc4cdc64430b3dc722e): closed
+  114356334 tagBuild (noarch): closed
+  114355756 buildSRPMFromSCM (/rpms/prometheus-simpleclient-java.git:babf515fc6f181e150756fc4cdc64430b3dc722e): closed
+  114355950 buildArch (prometheus-simpleclient-java-0.12.0-11.fc40.src.rpm, noarch): closed
+
+114355569 build (f40-build-side-84857, /rpms/prometheus-simpleclient-java.git:babf515fc6f181e150756fc4cdc64430b3dc722e) completed successfully

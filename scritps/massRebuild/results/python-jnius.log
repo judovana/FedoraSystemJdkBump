@@ -1,23 +1,23 @@
 Cloning into 'python-jnius'...
-[rawhide 70f2dd0] Rebuilt for java-17-openjdk as system jdk
+[f40 e9c1ea2] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building python-jnius-1.3.0-10.fc36 for f36-java17
-Created task: 82434038
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82434038
+Building python-jnius-1.6.1-2.fc40 for f40-build-side-84857
+Created task: 114355572
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355572
 Watching tasks (this may be safely interrupted)...
-82434038 build (f36-java17, /rpms/python-jnius.git:70f2dd0fabe22d9f62ba9eb2815ae6e05c55792d): free
-82434038 build (f36-java17, /rpms/python-jnius.git:70f2dd0fabe22d9f62ba9eb2815ae6e05c55792d): free -> open (buildvm-s390x-22.s390.fedoraproject.org)
-  82434039 buildSRPMFromSCM (/rpms/python-jnius.git:70f2dd0fabe22d9f62ba9eb2815ae6e05c55792d): free
-  82434039 buildSRPMFromSCM (/rpms/python-jnius.git:70f2dd0fabe22d9f62ba9eb2815ae6e05c55792d): free -> open (buildvm-ppc64le-15.iad2.fedoraproject.org)
-  82434097 buildArch (python-jnius-1.3.0-10.fc36.src.rpm, x86_64): open (buildvm-x86-19.iad2.fedoraproject.org)
-  82434039 buildSRPMFromSCM (/rpms/python-jnius.git:70f2dd0fabe22d9f62ba9eb2815ae6e05c55792d): open (buildvm-ppc64le-15.iad2.fedoraproject.org) -> closed
-  0 free  2 open  1 done  0 failed
-  82434097 buildArch (python-jnius-1.3.0-10.fc36.src.rpm, x86_64): open (buildvm-x86-19.iad2.fedoraproject.org) -> closed
-  0 free  1 open  2 done  0 failed
-  82434227 tagBuild (noarch): free
-82434038 build (f36-java17, /rpms/python-jnius.git:70f2dd0fabe22d9f62ba9eb2815ae6e05c55792d): open (buildvm-s390x-22.s390.fedoraproject.org) -> closed
-  1 free  0 open  3 done  0 failed
-  82434227 tagBuild (noarch): free -> closed
-  0 free  0 open  4 done  0 failed
+114355572 build (f40-build-side-84857, /rpms/python-jnius.git:e9c1ea2a0da64403cf162d8c18b3847015036a1e): free
+Watching tasks (this may be safely interrupted)...
+114355572 build (f40-build-side-84857, /rpms/python-jnius.git:e9c1ea2a0da64403cf162d8c18b3847015036a1e): FAILED: BuildError: error building package (arch s390x), mock exited with status 1; see build.log or root.log for more information
+  114355814 buildArch (python-jnius-1.6.1-2.fc40.src.rpm, aarch64): canceled
+  114355815 buildArch (python-jnius-1.6.1-2.fc40.src.rpm, ppc64le): canceled
+  114355664 buildSRPMFromSCM (/rpms/python-jnius.git:e9c1ea2a0da64403cf162d8c18b3847015036a1e): closed
+  114355813 buildArch (python-jnius-1.6.1-2.fc40.src.rpm, x86_64): canceled
+  114355816 buildArch (python-jnius-1.6.1-2.fc40.src.rpm, s390x): FAILED: BuildError: error building package (arch s390x), mock exited with status 1; see build.log or root.log for more information
+    Relevant logs:
+    https://kojipkgs.fedoraproject.org/work/tasks/5816/114355816/state.log
+    https://kojipkgs.fedoraproject.org/work/tasks/5816/114355816/build.log
+    https://kojipkgs.fedoraproject.org/work/tasks/5816/114355816/root.log
+    https://kojipkgs.fedoraproject.org/work/tasks/5816/114355816/mock_output.log
+    https://kojipkgs.fedoraproject.org/work/tasks/5816/114355816/hw_info.log
 
-82434038 build (f36-java17, /rpms/python-jnius.git:70f2dd0fabe22d9f62ba9eb2815ae6e05c55792d) completed successfully
+114355572 build (f40-build-side-84857, /rpms/python-jnius.git:e9c1ea2a0da64403cf162d8c18b3847015036a1e) failed

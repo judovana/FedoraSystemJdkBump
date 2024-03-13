@@ -1,0 +1,24 @@
+Cloning into 'xml-commons-apis'...
+[rawhide 5979ee9] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building xml-commons-apis-1.4.01-38.fc36 for f36-java17
+Created task: 82435697
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82435697
+Watching tasks (this may be safely interrupted)...
+82435697 build (f36-java17, /rpms/xml-commons-apis.git:5979ee95a801ccbfc2c66389be3e34c8e312ca2b): free
+82435697 build (f36-java17, /rpms/xml-commons-apis.git:5979ee95a801ccbfc2c66389be3e34c8e312ca2b): free -> open (buildvm-s390x-22.s390.fedoraproject.org)
+  82435698 buildSRPMFromSCM (/rpms/xml-commons-apis.git:5979ee95a801ccbfc2c66389be3e34c8e312ca2b): free
+  82435698 buildSRPMFromSCM (/rpms/xml-commons-apis.git:5979ee95a801ccbfc2c66389be3e34c8e312ca2b): free -> open (buildvm-x86-26.iad2.fedoraproject.org)
+  82435698 buildSRPMFromSCM (/rpms/xml-commons-apis.git:5979ee95a801ccbfc2c66389be3e34c8e312ca2b): open (buildvm-x86-26.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82435738 buildArch (xml-commons-apis-1.4.01-38.fc36.src.rpm, noarch): free
+  82435738 buildArch (xml-commons-apis-1.4.01-38.fc36.src.rpm, noarch): free -> open (buildvm-ppc64le-36.iad2.fedoraproject.org)
+  82435738 buildArch (xml-commons-apis-1.4.01-38.fc36.src.rpm, noarch): open (buildvm-ppc64le-36.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  82435803 tagBuild (noarch): free
+  82435803 tagBuild (noarch): free -> closed
+  0 free  1 open  3 done  0 failed
+82435697 build (f36-java17, /rpms/xml-commons-apis.git:5979ee95a801ccbfc2c66389be3e34c8e312ca2b): open (buildvm-s390x-22.s390.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+82435697 build (f36-java17, /rpms/xml-commons-apis.git:5979ee95a801ccbfc2c66389be3e34c8e312ca2b) completed successfully

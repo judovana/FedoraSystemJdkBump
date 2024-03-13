@@ -1,0 +1,21 @@
+Cloning into 'sisu-mojos'...
+[rawhide 588f8d2] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building sisu-mojos-0.3.4-11.fc36 for f36-java17
+Created task: 82434791
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82434791
+Watching tasks (this may be safely interrupted)...
+82434791 build (f36-java17, /rpms/sisu-mojos.git:588f8d26d2d8c95435c6ad9de0e7ac982eb3f82f): free
+82434791 build (f36-java17, /rpms/sisu-mojos.git:588f8d26d2d8c95435c6ad9de0e7ac982eb3f82f): free -> open (buildvm-s390x-18.s390.fedoraproject.org)
+  82434793 buildSRPMFromSCM (/rpms/sisu-mojos.git:588f8d26d2d8c95435c6ad9de0e7ac982eb3f82f): open (buildvm-ppc64le-06.iad2.fedoraproject.org)
+  82434793 buildSRPMFromSCM (/rpms/sisu-mojos.git:588f8d26d2d8c95435c6ad9de0e7ac982eb3f82f): open (buildvm-ppc64le-06.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82434836 buildArch (sisu-mojos-0.3.4-11.fc36.src.rpm, noarch): free
+  82434836 buildArch (sisu-mojos-0.3.4-11.fc36.src.rpm, noarch): free -> open (buildvm-x86-11.iad2.fedoraproject.org)
+  82434881 tagBuild (noarch): closed
+  82434836 buildArch (sisu-mojos-0.3.4-11.fc36.src.rpm, noarch): open (buildvm-x86-11.iad2.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+82434791 build (f36-java17, /rpms/sisu-mojos.git:588f8d26d2d8c95435c6ad9de0e7ac982eb3f82f): open (buildvm-s390x-18.s390.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+82434791 build (f36-java17, /rpms/sisu-mojos.git:588f8d26d2d8c95435c6ad9de0e7ac982eb3f82f) completed successfully

@@ -1,25 +1,32 @@
 Cloning into 'tomcat'...
-[rawhide cdf645a] Rebuilt for java-17-openjdk as system jdk
+[f40 62ddc06] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
 warning: line 138: It's not recommended to have unversioned Obsoletes: Obsoletes: tomcat-jsp-2.2-api
 warning: line 161: It's not recommended to have unversioned Obsoletes: Obsoletes: tomcat-servlet-3.1-api
 warning: line 169: It's not recommended to have unversioned Obsoletes: Obsoletes: tomcat-el-2.2-api
 
-Building tomcat-9.0.56-3.fc36 for f36-java17
-Created task: 82435155
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82435155
+Building tomcat-9.0.83-3.fc40 for f40-build-side-84857
+Created task: 114355667
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355667
 Watching tasks (this may be safely interrupted)...
-82435155 build (f36-java17, /rpms/tomcat.git:cdf645a2cff682220adcab3ccbe4152b021cf540): free
-82435155 build (f36-java17, /rpms/tomcat.git:cdf645a2cff682220adcab3ccbe4152b021cf540): free -> open (buildvm-ppc64le-19.iad2.fedoraproject.org)
-  82435164 buildSRPMFromSCM (/rpms/tomcat.git:cdf645a2cff682220adcab3ccbe4152b021cf540): free
-  82435164 buildSRPMFromSCM (/rpms/tomcat.git:cdf645a2cff682220adcab3ccbe4152b021cf540): free -> open (buildvm-ppc64le-17.iad2.fedoraproject.org)
-  82435164 buildSRPMFromSCM (/rpms/tomcat.git:cdf645a2cff682220adcab3ccbe4152b021cf540): open (buildvm-ppc64le-17.iad2.fedoraproject.org) -> closed
+114355667 build (f40-build-side-84857, /rpms/tomcat.git:62ddc060c11059544a871b23e7bdbfbcd88f9032): free
+114355667 build (f40-build-side-84857, /rpms/tomcat.git:62ddc060c11059544a871b23e7bdbfbcd88f9032): free -> assigned
+114355667 build (f40-build-side-84857, /rpms/tomcat.git:62ddc060c11059544a871b23e7bdbfbcd88f9032): assigned -> open (buildhw-x86-06.iad2.fedoraproject.org)
+  114355769 buildSRPMFromSCM (/rpms/tomcat.git:62ddc060c11059544a871b23e7bdbfbcd88f9032): free
+  114355769 buildSRPMFromSCM (/rpms/tomcat.git:62ddc060c11059544a871b23e7bdbfbcd88f9032): free -> assigned
+  114355769 buildSRPMFromSCM (/rpms/tomcat.git:62ddc060c11059544a871b23e7bdbfbcd88f9032): assigned -> open (buildvm-x86-14.iad2.fedoraproject.org)
+  114355769 buildSRPMFromSCM (/rpms/tomcat.git:62ddc060c11059544a871b23e7bdbfbcd88f9032): open (buildvm-x86-14.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  82435187 buildArch (tomcat-9.0.56-3.fc36.src.rpm, noarch): open (buildvm-ppc64le-19.iad2.fedoraproject.org)
-  82435187 buildArch (tomcat-9.0.56-3.fc36.src.rpm, noarch): open (buildvm-ppc64le-19.iad2.fedoraproject.org) -> closed
+  114355928 buildArch (tomcat-9.0.83-3.fc40.src.rpm, noarch): free
+  114355928 buildArch (tomcat-9.0.83-3.fc40.src.rpm, noarch): free -> assigned
+  114355928 buildArch (tomcat-9.0.83-3.fc40.src.rpm, noarch): assigned -> open (buildvm-ppc64le-03.iad2.fedoraproject.org)
+  114355928 buildArch (tomcat-9.0.83-3.fc40.src.rpm, noarch): open (buildvm-ppc64le-03.iad2.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  82435220 tagBuild (noarch): closed
-82435155 build (f36-java17, /rpms/tomcat.git:cdf645a2cff682220adcab3ccbe4152b021cf540): open (buildvm-ppc64le-19.iad2.fedoraproject.org) -> closed
+  114356300 tagBuild (noarch): free
+  114356300 tagBuild (noarch): free -> assigned
+  114356300 tagBuild (noarch): assigned -> closed
+  0 free  1 open  3 done  0 failed
+114355667 build (f40-build-side-84857, /rpms/tomcat.git:62ddc060c11059544a871b23e7bdbfbcd88f9032): open (buildhw-x86-06.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-82435155 build (f36-java17, /rpms/tomcat.git:cdf645a2cff682220adcab3ccbe4152b021cf540) completed successfully
+114355667 build (f40-build-side-84857, /rpms/tomcat.git:62ddc060c11059544a871b23e7bdbfbcd88f9032) completed successfully

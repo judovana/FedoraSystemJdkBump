@@ -1,0 +1,32 @@
+Cloning into 'java-17-openjdk-portable'...
+[f40 c6f1d8e] Rebuilt for java-21-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building java-17-openjdk-portable-17.0.10.0.7-1.fc40.1 for f40-build-side-84857
+Created task: 114351126
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114351126
+Watching tasks (this may be safely interrupted)...
+114351126 build (f40-build-side-84857, /rpms/java-17-openjdk-portable.git:c6f1d8e2d94acbd43e27d47bbd0b0e8605e102c2): free
+114351126 build (f40-build-side-84857, /rpms/java-17-openjdk-portable.git:c6f1d8e2d94acbd43e27d47bbd0b0e8605e102c2): free -> assigned
+114351126 build (f40-build-side-84857, /rpms/java-17-openjdk-portable.git:c6f1d8e2d94acbd43e27d47bbd0b0e8605e102c2): assigned -> open (buildvm-s390x-06.s390.fedoraproject.org)
+  114351155 buildSRPMFromSCM (/rpms/java-17-openjdk-portable.git:c6f1d8e2d94acbd43e27d47bbd0b0e8605e102c2): free
+  114351155 buildSRPMFromSCM (/rpms/java-17-openjdk-portable.git:c6f1d8e2d94acbd43e27d47bbd0b0e8605e102c2): free -> assigned
+  114351155 buildSRPMFromSCM (/rpms/java-17-openjdk-portable.git:c6f1d8e2d94acbd43e27d47bbd0b0e8605e102c2): assigned -> open (buildvm-x86-09.iad2.fedoraproject.org)
+  114351155 buildSRPMFromSCM (/rpms/java-17-openjdk-portable.git:c6f1d8e2d94acbd43e27d47bbd0b0e8605e102c2): open (buildvm-x86-09.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  114351367 buildArch (java-17-openjdk-portable-17.0.10.0.7-1.fc40.1.src.rpm, s390x): free
+  114351366 buildArch (java-17-openjdk-portable-17.0.10.0.7-1.fc40.1.src.rpm, ppc64le): free
+  114351365 buildArch (java-17-openjdk-portable-17.0.10.0.7-1.fc40.1.src.rpm, aarch64): free
+  114351364 buildArch (java-17-openjdk-portable-17.0.10.0.7-1.fc40.1.src.rpm, x86_64): free
+  114351367 buildArch (java-17-openjdk-portable-17.0.10.0.7-1.fc40.1.src.rpm, s390x): free -> assigned
+  114351366 buildArch (java-17-openjdk-portable-17.0.10.0.7-1.fc40.1.src.rpm, ppc64le): free -> open (buildvm-ppc64le-28.iad2.fedoraproject.org)
+  114351365 buildArch (java-17-openjdk-portable-17.0.10.0.7-1.fc40.1.src.rpm, aarch64): free -> assigned
+  114351364 buildArch (java-17-openjdk-portable-17.0.10.0.7-1.fc40.1.src.rpm, x86_64): free -> assigned
+  114351367 buildArch (java-17-openjdk-portable-17.0.10.0.7-1.fc40.1.src.rpm, s390x): assigned -> open (buildvm-s390x-04.s390.fedoraproject.org)
+  114351364 buildArch (java-17-openjdk-portable-17.0.10.0.7-1.fc40.1.src.rpm, x86_64): assigned -> open (buildhw-x86-08.iad2.fedoraproject.org)
+  114351365 buildArch (java-17-openjdk-portable-17.0.10.0.7-1.fc40.1.src.rpm, aarch64): assigned -> open (buildvm-a64-29.iad2.fedoraproject.org)
+  114351367 buildArch (java-17-openjdk-portable-17.0.10.0.7-1.fc40.1.src.rpm, s390x): open (buildvm-s390x-04.s390.fedoraproject.org) -> closed
+  0 free  4 open  2 done  0 failed
+  114351364 buildArch (java-17-openjdk-portable-17.0.10.0.7-1.fc40.1.src.rpm, x86_64): open (buildhw-x86-08.iad2.fedoraproject.org) -> closed
+  0 free  3 open  3 done  0 failed
+  114351365 buildArch (java-17-openjdk-portable-17.0.10.0.7-1.fc40.1.src.rpm, aarch64): open (buildvm-a64-29.iad2.fedoraproject.org) -> closed
+  0 free  2 open  4 done  0 failed

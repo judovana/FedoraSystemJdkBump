@@ -1,24 +1,25 @@
 Cloning into 'filedrop'...
-[rawhide a48f182] Rebuilt for java-17-openjdk as system jdk
+[f40 c2883a8] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building filedrop-1.1-17.fc36 for f36-java17
-Created task: 82426003
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82426003
+Building filedrop-1.1-24.fc40 for f40-build-side-84857
+Created task: 114349099
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114349099
 Watching tasks (this may be safely interrupted)...
-82426003 build (f36-java17, /rpms/filedrop.git:a48f182e09dba5daede0ad0a456a259410b466d6): free
-82426003 build (f36-java17, /rpms/filedrop.git:a48f182e09dba5daede0ad0a456a259410b466d6): free -> open (buildvm-s390x-34.s390.fedoraproject.org)
-  82426008 buildSRPMFromSCM (/rpms/filedrop.git:a48f182e09dba5daede0ad0a456a259410b466d6): free
-  82426008 buildSRPMFromSCM (/rpms/filedrop.git:a48f182e09dba5daede0ad0a456a259410b466d6): free -> open (buildvm-ppc64le-38.iad2.fedoraproject.org)
-  82426008 buildSRPMFromSCM (/rpms/filedrop.git:a48f182e09dba5daede0ad0a456a259410b466d6): open (buildvm-ppc64le-38.iad2.fedoraproject.org) -> closed
-  0 free  1 open  1 done  0 failed
-  82426100 buildArch (filedrop-1.1-17.fc36.src.rpm, noarch): free
-  82426100 buildArch (filedrop-1.1-17.fc36.src.rpm, noarch): free -> open (buildvm-ppc64le-22.iad2.fedoraproject.org)
-  82426165 tagBuild (noarch): free
-  82426100 buildArch (filedrop-1.1-17.fc36.src.rpm, noarch): open (buildvm-ppc64le-22.iad2.fedoraproject.org) -> closed
-  1 free  1 open  2 done  0 failed
-  82426165 tagBuild (noarch): free -> closed
+114349099 build (f40-build-side-84857, /rpms/filedrop.git:c2883a824ef18086d19279d620d64664d8cec286): free
+114349099 build (f40-build-side-84857, /rpms/filedrop.git:c2883a824ef18086d19279d620d64664d8cec286): free -> open (buildvm-ppc64le-03.iad2.fedoraproject.org)
+  114349113 buildSRPMFromSCM (/rpms/filedrop.git:c2883a824ef18086d19279d620d64664d8cec286): free
+  114349113 buildSRPMFromSCM (/rpms/filedrop.git:c2883a824ef18086d19279d620d64664d8cec286): free -> open (buildvm-x86-28.iad2.fedoraproject.org)
+  114349293 buildArch (filedrop-1.1-24.fc40.src.rpm, noarch): free
+  114349113 buildSRPMFromSCM (/rpms/filedrop.git:c2883a824ef18086d19279d620d64664d8cec286): open (buildvm-x86-28.iad2.fedoraproject.org) -> closed
+  1 free  1 open  1 done  0 failed
+  114349293 buildArch (filedrop-1.1-24.fc40.src.rpm, noarch): free -> assigned
+  114349293 buildArch (filedrop-1.1-24.fc40.src.rpm, noarch): assigned -> open (buildvm-s390x-05.s390.fedoraproject.org)
+  114349293 buildArch (filedrop-1.1-24.fc40.src.rpm, noarch): open (buildvm-s390x-05.s390.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  114349464 tagBuild (noarch): free
+  114349464 tagBuild (noarch): free -> closed
   0 free  1 open  3 done  0 failed
-82426003 build (f36-java17, /rpms/filedrop.git:a48f182e09dba5daede0ad0a456a259410b466d6): open (buildvm-s390x-34.s390.fedoraproject.org) -> closed
+114349099 build (f40-build-side-84857, /rpms/filedrop.git:c2883a824ef18086d19279d620d64664d8cec286): open (buildvm-ppc64le-03.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-82426003 build (f36-java17, /rpms/filedrop.git:a48f182e09dba5daede0ad0a456a259410b466d6) completed successfully
+114349099 build (f40-build-side-84857, /rpms/filedrop.git:c2883a824ef18086d19279d620d64664d8cec286) completed successfully

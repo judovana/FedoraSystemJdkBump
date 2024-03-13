@@ -1,0 +1,22 @@
+Cloning into 'picocli'...
+[rawhide cef5b5d] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building picocli-4.6.2-4.fc36 for f36-java17
+Created task: 82432942
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82432942
+Watching tasks (this may be safely interrupted)...
+82432942 build (f36-java17, /rpms/picocli.git:cef5b5df2a92aa1dd5d83572cd0341956ca2b0b4): free
+82432942 build (f36-java17, /rpms/picocli.git:cef5b5df2a92aa1dd5d83572cd0341956ca2b0b4): free -> open (buildvm-x86-15.iad2.fedoraproject.org)
+  82432957 buildSRPMFromSCM (/rpms/picocli.git:cef5b5df2a92aa1dd5d83572cd0341956ca2b0b4): free
+  82432957 buildSRPMFromSCM (/rpms/picocli.git:cef5b5df2a92aa1dd5d83572cd0341956ca2b0b4): free -> open (buildvm-ppc64le-07.iad2.fedoraproject.org)
+  82432957 buildSRPMFromSCM (/rpms/picocli.git:cef5b5df2a92aa1dd5d83572cd0341956ca2b0b4): open (buildvm-ppc64le-07.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82433014 buildArch (picocli-4.6.2-4.fc36.src.rpm, noarch): free
+  82433014 buildArch (picocli-4.6.2-4.fc36.src.rpm, noarch): free -> open (buildvm-ppc64le-32.iad2.fedoraproject.org)
+  82433014 buildArch (picocli-4.6.2-4.fc36.src.rpm, noarch): open (buildvm-ppc64le-32.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  82433053 tagBuild (noarch): closed
+82432942 build (f36-java17, /rpms/picocli.git:cef5b5df2a92aa1dd5d83572cd0341956ca2b0b4): open (buildvm-x86-15.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+82432942 build (f36-java17, /rpms/picocli.git:cef5b5df2a92aa1dd5d83572cd0341956ca2b0b4) completed successfully

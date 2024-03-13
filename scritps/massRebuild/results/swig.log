@@ -1,0 +1,24 @@
+Cloning into 'swig'...
+[f40 6511db0] Rebuilt for java-21-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building swig-4.2.1-2.fc40 for f40-build-side-84857
+Created task: 114355614
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355614
+Watching tasks (this may be safely interrupted)...
+114355614 build (f40-build-side-84857, /rpms/swig.git:6511db03c1ea646ee381e052e2f930a82436297b): free
+Watching tasks (this may be safely interrupted)...
+114355614 build (f40-build-side-84857, /rpms/swig.git:6511db03c1ea646ee381e052e2f930a82436297b): FAILED: BuildError: error building package (arch s390x), mock exited with status 1; see build.log or root.log for more information
+  114355981 buildArch (swig-4.2.1-2.fc40.src.rpm, aarch64): canceled
+  114355980 buildArch (swig-4.2.1-2.fc40.src.rpm, x86_64): canceled
+  114355979 buildArch (swig-4.2.1-2.fc40.src.rpm, i686): canceled
+  114355797 buildSRPMFromSCM (/rpms/swig.git:6511db03c1ea646ee381e052e2f930a82436297b): closed
+  114355983 buildArch (swig-4.2.1-2.fc40.src.rpm, s390x): FAILED: BuildError: error building package (arch s390x), mock exited with status 1; see build.log or root.log for more information
+    Relevant logs:
+    https://kojipkgs.fedoraproject.org/work/tasks/5983/114355983/state.log
+    https://kojipkgs.fedoraproject.org/work/tasks/5983/114355983/build.log
+    https://kojipkgs.fedoraproject.org/work/tasks/5983/114355983/root.log
+    https://kojipkgs.fedoraproject.org/work/tasks/5983/114355983/mock_output.log
+    https://kojipkgs.fedoraproject.org/work/tasks/5983/114355983/hw_info.log
+  114355982 buildArch (swig-4.2.1-2.fc40.src.rpm, ppc64le): canceled
+
+114355614 build (f40-build-side-84857, /rpms/swig.git:6511db03c1ea646ee381e052e2f930a82436297b) failed

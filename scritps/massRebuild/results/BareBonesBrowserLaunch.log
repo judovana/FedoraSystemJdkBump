@@ -1,24 +1,26 @@
 Cloning into 'BareBonesBrowserLaunch'...
-[rawhide 5529e0a] Rebuilt for java-17-openjdk as system jdk
+[f40 0fb5f83] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building BareBonesBrowserLaunch-3.1-25.fc36 for f36-java17
-Created task: 82423715
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82423715
+Building BareBonesBrowserLaunch-3.1-33.fc40 for f40-build-side-84857
+Created task: 114347411
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114347411
 Watching tasks (this may be safely interrupted)...
-82423715 build (f36-java17, /rpms/BareBonesBrowserLaunch.git:5529e0a250d93dba7c6aeba30019b66eacc7874d): free
-82423715 build (f36-java17, /rpms/BareBonesBrowserLaunch.git:5529e0a250d93dba7c6aeba30019b66eacc7874d): free -> open (buildvm-s390x-30.s390.fedoraproject.org)
-  82423757 buildSRPMFromSCM (/rpms/BareBonesBrowserLaunch.git:5529e0a250d93dba7c6aeba30019b66eacc7874d): free
-  82423757 buildSRPMFromSCM (/rpms/BareBonesBrowserLaunch.git:5529e0a250d93dba7c6aeba30019b66eacc7874d): free -> open (buildvm-x86-32.iad2.fedoraproject.org)
-  82423757 buildSRPMFromSCM (/rpms/BareBonesBrowserLaunch.git:5529e0a250d93dba7c6aeba30019b66eacc7874d): open (buildvm-x86-32.iad2.fedoraproject.org) -> closed
+114347411 build (f40-build-side-84857, /rpms/BareBonesBrowserLaunch.git:0fb5f83120128f737d4ea415c7c96cc8dde27b1d): free
+114347411 build (f40-build-side-84857, /rpms/BareBonesBrowserLaunch.git:0fb5f83120128f737d4ea415c7c96cc8dde27b1d): free -> assigned
+114347411 build (f40-build-side-84857, /rpms/BareBonesBrowserLaunch.git:0fb5f83120128f737d4ea415c7c96cc8dde27b1d): assigned -> open (buildvm-s390x-05.s390.fedoraproject.org)
+  114347439 buildSRPMFromSCM (/rpms/BareBonesBrowserLaunch.git:0fb5f83120128f737d4ea415c7c96cc8dde27b1d): free
+  114347439 buildSRPMFromSCM (/rpms/BareBonesBrowserLaunch.git:0fb5f83120128f737d4ea415c7c96cc8dde27b1d): free -> assigned
+  114347439 buildSRPMFromSCM (/rpms/BareBonesBrowserLaunch.git:0fb5f83120128f737d4ea415c7c96cc8dde27b1d): assigned -> open (buildvm-x86-28.iad2.fedoraproject.org)
+  114347439 buildSRPMFromSCM (/rpms/BareBonesBrowserLaunch.git:0fb5f83120128f737d4ea415c7c96cc8dde27b1d): open (buildvm-x86-28.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  82423974 buildArch (BareBonesBrowserLaunch-3.1-25.fc36.src.rpm, noarch): free
-  82423974 buildArch (BareBonesBrowserLaunch-3.1-25.fc36.src.rpm, noarch): free -> open (buildvm-a32-18.iad2.fedoraproject.org)
-  82423974 buildArch (BareBonesBrowserLaunch-3.1-25.fc36.src.rpm, noarch): open (buildvm-a32-18.iad2.fedoraproject.org) -> closed
+  114347471 buildArch (BareBonesBrowserLaunch-3.1-33.fc40.src.rpm, noarch): free
+  114347471 buildArch (BareBonesBrowserLaunch-3.1-33.fc40.src.rpm, noarch): free -> open (buildvm-x86-07.iad2.fedoraproject.org)
+  114347471 buildArch (BareBonesBrowserLaunch-3.1-33.fc40.src.rpm, noarch): open (buildvm-x86-07.iad2.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  82424154 tagBuild (noarch): free
-  82424154 tagBuild (noarch): free -> closed
+  114347624 tagBuild (noarch): free
+  114347624 tagBuild (noarch): free -> closed
   0 free  1 open  3 done  0 failed
-82423715 build (f36-java17, /rpms/BareBonesBrowserLaunch.git:5529e0a250d93dba7c6aeba30019b66eacc7874d): open (buildvm-s390x-30.s390.fedoraproject.org) -> closed
+114347411 build (f40-build-side-84857, /rpms/BareBonesBrowserLaunch.git:0fb5f83120128f737d4ea415c7c96cc8dde27b1d): open (buildvm-s390x-05.s390.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-82423715 build (f36-java17, /rpms/BareBonesBrowserLaunch.git:5529e0a250d93dba7c6aeba30019b66eacc7874d) completed successfully
+114347411 build (f40-build-side-84857, /rpms/BareBonesBrowserLaunch.git:0fb5f83120128f737d4ea415c7c96cc8dde27b1d) completed successfully

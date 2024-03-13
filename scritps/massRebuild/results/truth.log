@@ -1,0 +1,28 @@
+Cloning into 'truth'...
+[f40 d67d032] Rebuilt for java-21-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building truth-1.0.1-11.fc40 for f40-build-side-84857
+Created task: 114355908
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355908
+Watching tasks (this may be safely interrupted)...
+114355908 build (f40-build-side-84857, /rpms/truth.git:d67d0322847bdc79632ebbbdee3c0097fe0c5890): free
+114355908 build (f40-build-side-84857, /rpms/truth.git:d67d0322847bdc79632ebbbdee3c0097fe0c5890): free -> assigned
+114355908 build (f40-build-side-84857, /rpms/truth.git:d67d0322847bdc79632ebbbdee3c0097fe0c5890): assigned -> open (buildhw-x86-02.iad2.fedoraproject.org)
+  114355920 buildSRPMFromSCM (/rpms/truth.git:d67d0322847bdc79632ebbbdee3c0097fe0c5890): free
+  114355920 buildSRPMFromSCM (/rpms/truth.git:d67d0322847bdc79632ebbbdee3c0097fe0c5890): free -> assigned
+  114355920 buildSRPMFromSCM (/rpms/truth.git:d67d0322847bdc79632ebbbdee3c0097fe0c5890): assigned -> open (buildvm-a64-12.iad2.fedoraproject.org)
+  114355920 buildSRPMFromSCM (/rpms/truth.git:d67d0322847bdc79632ebbbdee3c0097fe0c5890): open (buildvm-a64-12.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  114355986 buildArch (truth-1.0.1-11.fc40.src.rpm, noarch): free
+  114355986 buildArch (truth-1.0.1-11.fc40.src.rpm, noarch): free -> assigned
+  114355986 buildArch (truth-1.0.1-11.fc40.src.rpm, noarch): assigned -> open (buildvm-a64-18.iad2.fedoraproject.org)
+  114355986 buildArch (truth-1.0.1-11.fc40.src.rpm, noarch): open (buildvm-a64-18.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  114356056 tagBuild (noarch): free
+  114356056 tagBuild (noarch): free -> assigned
+114355908 build (f40-build-side-84857, /rpms/truth.git:d67d0322847bdc79632ebbbdee3c0097fe0c5890): open (buildhw-x86-02.iad2.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+  114356056 tagBuild (noarch): assigned -> closed
+  0 free  0 open  4 done  0 failed
+
+114355908 build (f40-build-side-84857, /rpms/truth.git:d67d0322847bdc79632ebbbdee3c0097fe0c5890) completed successfully

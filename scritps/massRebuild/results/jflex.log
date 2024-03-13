@@ -1,25 +1,29 @@
 Cloning into 'jflex'...
-[rawhide a90a10b] Rebuilt for java-17-openjdk as system jdk
+[f40 435b716] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
 Found a gating.yaml file in the repo and it is properly configured
-Building jflex-1.7.0-10.fc36 for f36-java17
-Created task: 82429353
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82429353
+Building jflex-1.7.0-18.fc40 for f40-build-side-84857
+Created task: 114352235
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114352235
 Watching tasks (this may be safely interrupted)...
-82429353 build (f36-java17, /rpms/jflex.git:a90a10b8b3fe8df77e75369c46d2156e201fca0b): free
-82429353 build (f36-java17, /rpms/jflex.git:a90a10b8b3fe8df77e75369c46d2156e201fca0b): free -> open (buildvm-ppc64le-21.iad2.fedoraproject.org)
-  82429357 buildSRPMFromSCM (/rpms/jflex.git:a90a10b8b3fe8df77e75369c46d2156e201fca0b): open (buildvm-ppc64le-31.iad2.fedoraproject.org)
-  82429357 buildSRPMFromSCM (/rpms/jflex.git:a90a10b8b3fe8df77e75369c46d2156e201fca0b): open (buildvm-ppc64le-31.iad2.fedoraproject.org) -> closed
+114352235 build (f40-build-side-84857, /rpms/jflex.git:435b716f0e4e5a7c7fda2eee286773bb7ad19e60): free
+114352235 build (f40-build-side-84857, /rpms/jflex.git:435b716f0e4e5a7c7fda2eee286773bb7ad19e60): free -> assigned
+114352235 build (f40-build-side-84857, /rpms/jflex.git:435b716f0e4e5a7c7fda2eee286773bb7ad19e60): assigned -> open (buildvm-a64-10.iad2.fedoraproject.org)
+  114352262 buildSRPMFromSCM (/rpms/jflex.git:435b716f0e4e5a7c7fda2eee286773bb7ad19e60): free
+  114352262 buildSRPMFromSCM (/rpms/jflex.git:435b716f0e4e5a7c7fda2eee286773bb7ad19e60): free -> assigned
+  114352262 buildSRPMFromSCM (/rpms/jflex.git:435b716f0e4e5a7c7fda2eee286773bb7ad19e60): assigned -> open (buildvm-a64-15.iad2.fedoraproject.org)
+  114352262 buildSRPMFromSCM (/rpms/jflex.git:435b716f0e4e5a7c7fda2eee286773bb7ad19e60): open (buildvm-a64-15.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  82429481 buildArch (jflex-1.7.0-10.fc36.src.rpm, noarch): free
-  82429481 buildArch (jflex-1.7.0-10.fc36.src.rpm, noarch): free -> open (buildvm-s390x-28.s390.fedoraproject.org)
-  82429481 buildArch (jflex-1.7.0-10.fc36.src.rpm, noarch): open (buildvm-s390x-28.s390.fedoraproject.org) -> closed
+  114352361 buildArch (jflex-1.7.0-18.fc40.src.rpm, noarch): free
+  114352361 buildArch (jflex-1.7.0-18.fc40.src.rpm, noarch): free -> assigned
+  114352361 buildArch (jflex-1.7.0-18.fc40.src.rpm, noarch): assigned -> open (buildvm-s390x-01.s390.fedoraproject.org)
+  114352361 buildArch (jflex-1.7.0-18.fc40.src.rpm, noarch): open (buildvm-s390x-01.s390.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  82429566 tagBuild (noarch): free
-  82429566 tagBuild (noarch): free -> open (buildvm-a32-27.iad2.fedoraproject.org)
-  82429566 tagBuild (noarch): open (buildvm-a32-27.iad2.fedoraproject.org) -> closed
+  114352417 tagBuild (noarch): free
+  114352417 tagBuild (noarch): free -> assigned
+  114352417 tagBuild (noarch): assigned -> closed
   0 free  1 open  3 done  0 failed
-82429353 build (f36-java17, /rpms/jflex.git:a90a10b8b3fe8df77e75369c46d2156e201fca0b): open (buildvm-ppc64le-21.iad2.fedoraproject.org) -> closed
+114352235 build (f40-build-side-84857, /rpms/jflex.git:435b716f0e4e5a7c7fda2eee286773bb7ad19e60): open (buildvm-a64-10.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-82429353 build (f36-java17, /rpms/jflex.git:a90a10b8b3fe8df77e75369c46d2156e201fca0b) completed successfully
+114352235 build (f40-build-side-84857, /rpms/jflex.git:435b716f0e4e5a7c7fda2eee286773bb7ad19e60) completed successfully

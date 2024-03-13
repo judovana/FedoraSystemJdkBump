@@ -1,0 +1,23 @@
+Cloning into 'proguard'...
+[rawhide fde6c4a] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building proguard-5.3.3-14.fc36 for f36-java17
+Created task: 82433864
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82433864
+Watching tasks (this may be safely interrupted)...
+82433864 build (f36-java17, /rpms/proguard.git:fde6c4aa496502e2af8830ab1f9f9c2a9a954791): free
+82433864 build (f36-java17, /rpms/proguard.git:fde6c4aa496502e2af8830ab1f9f9c2a9a954791): free -> open (buildvm-ppc64le-36.iad2.fedoraproject.org)
+  82433865 buildSRPMFromSCM (/rpms/proguard.git:fde6c4aa496502e2af8830ab1f9f9c2a9a954791): open (buildvm-x86-19.iad2.fedoraproject.org)
+  82433865 buildSRPMFromSCM (/rpms/proguard.git:fde6c4aa496502e2af8830ab1f9f9c2a9a954791): open (buildvm-x86-19.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82434018 buildArch (proguard-5.3.3-14.fc36.src.rpm, noarch): free
+  82434018 buildArch (proguard-5.3.3-14.fc36.src.rpm, noarch): free -> open (buildvm-s390x-18.s390.fedoraproject.org)
+  82434018 buildArch (proguard-5.3.3-14.fc36.src.rpm, noarch): open (buildvm-s390x-18.s390.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  82434025 tagBuild (noarch): free
+  82434025 tagBuild (noarch): free -> closed
+  0 free  1 open  3 done  0 failed
+82433864 build (f36-java17, /rpms/proguard.git:fde6c4aa496502e2af8830ab1f9f9c2a9a954791): open (buildvm-ppc64le-36.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+82433864 build (f36-java17, /rpms/proguard.git:fde6c4aa496502e2af8830ab1f9f9c2a9a954791) completed successfully

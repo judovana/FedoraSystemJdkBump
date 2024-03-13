@@ -1,24 +1,27 @@
 Cloning into 'auto'...
-[rawhide fd652a0] Rebuilt for java-17-openjdk as system jdk
+[f40 438eb55] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building auto-1.6.1-3.fc36 for f36-java17
-Created task: 82423620
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82423620
+Building auto-1.6.1-10.fc40 for f40-build-side-84857
+Created task: 114347369
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114347369
 Watching tasks (this may be safely interrupted)...
-82423620 build (f36-java17, /rpms/auto.git:fd652a0e3682da3fea7ff91b63bce7ba0ef2d848): free
-82423620 build (f36-java17, /rpms/auto.git:fd652a0e3682da3fea7ff91b63bce7ba0ef2d848): free -> open (buildvm-ppc64le-31.iad2.fedoraproject.org)
-  82423651 buildSRPMFromSCM (/rpms/auto.git:fd652a0e3682da3fea7ff91b63bce7ba0ef2d848): free
-  82423651 buildSRPMFromSCM (/rpms/auto.git:fd652a0e3682da3fea7ff91b63bce7ba0ef2d848): free -> open (buildvm-ppc64le-33.iad2.fedoraproject.org)
-  82423651 buildSRPMFromSCM (/rpms/auto.git:fd652a0e3682da3fea7ff91b63bce7ba0ef2d848): open (buildvm-ppc64le-33.iad2.fedoraproject.org) -> closed
+114347369 build (f40-build-side-84857, /rpms/auto.git:438eb554ea321be5f44a64876b9ca789f8b424af): free
+114347369 build (f40-build-side-84857, /rpms/auto.git:438eb554ea321be5f44a64876b9ca789f8b424af): free -> assigned
+114347369 build (f40-build-side-84857, /rpms/auto.git:438eb554ea321be5f44a64876b9ca789f8b424af): assigned -> open (buildvm-s390x-04.s390.fedoraproject.org)
+  114347402 buildSRPMFromSCM (/rpms/auto.git:438eb554ea321be5f44a64876b9ca789f8b424af): free
+  114347402 buildSRPMFromSCM (/rpms/auto.git:438eb554ea321be5f44a64876b9ca789f8b424af): free -> assigned
+  114347402 buildSRPMFromSCM (/rpms/auto.git:438eb554ea321be5f44a64876b9ca789f8b424af): assigned -> open (buildvm-a64-07.iad2.fedoraproject.org)
+  114347402 buildSRPMFromSCM (/rpms/auto.git:438eb554ea321be5f44a64876b9ca789f8b424af): open (buildvm-a64-07.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  82423895 buildArch (auto-1.6.1-3.fc36.src.rpm, noarch): open (buildvm-s390x-34.s390.fedoraproject.org)
-  82423895 buildArch (auto-1.6.1-3.fc36.src.rpm, noarch): open (buildvm-s390x-34.s390.fedoraproject.org) -> closed
+  114347460 buildArch (auto-1.6.1-10.fc40.src.rpm, noarch): assigned
+  114347460 buildArch (auto-1.6.1-10.fc40.src.rpm, noarch): assigned -> open (buildvm-x86-13.iad2.fedoraproject.org)
+  114347460 buildArch (auto-1.6.1-10.fc40.src.rpm, noarch): open (buildvm-x86-13.iad2.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  82423984 tagBuild (noarch): free
-  82423984 tagBuild (noarch): free -> open (buildhw-x86-05.iad2.fedoraproject.org)
-82423620 build (f36-java17, /rpms/auto.git:fd652a0e3682da3fea7ff91b63bce7ba0ef2d848): open (buildvm-ppc64le-31.iad2.fedoraproject.org) -> closed
+  114347477 tagBuild (noarch): free
+  114347477 tagBuild (noarch): free -> assigned
+114347369 build (f40-build-side-84857, /rpms/auto.git:438eb554ea321be5f44a64876b9ca789f8b424af): open (buildvm-s390x-04.s390.fedoraproject.org) -> closed
   0 free  1 open  3 done  0 failed
-  82423984 tagBuild (noarch): open (buildhw-x86-05.iad2.fedoraproject.org) -> closed
+  114347477 tagBuild (noarch): assigned -> closed
   0 free  0 open  4 done  0 failed
 
-82423620 build (f36-java17, /rpms/auto.git:fd652a0e3682da3fea7ff91b63bce7ba0ef2d848) completed successfully
+114347369 build (f40-build-side-84857, /rpms/auto.git:438eb554ea321be5f44a64876b9ca789f8b424af) completed successfully

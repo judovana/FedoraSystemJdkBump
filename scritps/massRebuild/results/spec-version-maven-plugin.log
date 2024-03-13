@@ -1,22 +1,15 @@
 Cloning into 'spec-version-maven-plugin'...
-[rawhide 8b5cc6a] Rebuilt for java-17-openjdk as system jdk
+[f40 35ae839] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building spec-version-maven-plugin-1.5-6.fc36 for f36-java17
-Created task: 82434843
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82434843
+Building spec-version-maven-plugin-2.2-3.fc40 for f40-build-side-84857
+Created task: 114355607
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355607
 Watching tasks (this may be safely interrupted)...
-82434843 build (f36-java17, /rpms/spec-version-maven-plugin.git:8b5cc6ad7e32bda0cb2b83542dfcdeb3ab9a8e3d): free
-82434843 build (f36-java17, /rpms/spec-version-maven-plugin.git:8b5cc6ad7e32bda0cb2b83542dfcdeb3ab9a8e3d): free -> open (buildvm-ppc64le-13.iad2.fedoraproject.org)
-  82434845 buildSRPMFromSCM (/rpms/spec-version-maven-plugin.git:8b5cc6ad7e32bda0cb2b83542dfcdeb3ab9a8e3d): open (buildvm-ppc64le-11.iad2.fedoraproject.org)
-  82434845 buildSRPMFromSCM (/rpms/spec-version-maven-plugin.git:8b5cc6ad7e32bda0cb2b83542dfcdeb3ab9a8e3d): open (buildvm-ppc64le-11.iad2.fedoraproject.org) -> closed
-  0 free  1 open  1 done  0 failed
-  82434895 buildArch (spec-version-maven-plugin-1.5-6.fc36.src.rpm, noarch): open (buildvm-ppc64le-06.iad2.fedoraproject.org)
-  82434895 buildArch (spec-version-maven-plugin-1.5-6.fc36.src.rpm, noarch): open (buildvm-ppc64le-06.iad2.fedoraproject.org) -> closed
-  0 free  1 open  2 done  0 failed
-  82435033 tagBuild (noarch): free
-  82435033 tagBuild (noarch): free -> closed
-  0 free  1 open  3 done  0 failed
-82434843 build (f36-java17, /rpms/spec-version-maven-plugin.git:8b5cc6ad7e32bda0cb2b83542dfcdeb3ab9a8e3d): open (buildvm-ppc64le-13.iad2.fedoraproject.org) -> closed
-  0 free  0 open  4 done  0 failed
+114355607 build (f40-build-side-84857, /rpms/spec-version-maven-plugin.git:35ae8393457e63807cd946c7e255ce479098b863): free
+Watching tasks (this may be safely interrupted)...
+114355607 build (f40-build-side-84857, /rpms/spec-version-maven-plugin.git:35ae8393457e63807cd946c7e255ce479098b863): closed
+  114356032 tagBuild (noarch): closed
+  114355779 buildSRPMFromSCM (/rpms/spec-version-maven-plugin.git:35ae8393457e63807cd946c7e255ce479098b863): closed
+  114355924 buildArch (spec-version-maven-plugin-2.2-3.fc40.src.rpm, noarch): closed
 
-82434843 build (f36-java17, /rpms/spec-version-maven-plugin.git:8b5cc6ad7e32bda0cb2b83542dfcdeb3ab9a8e3d) completed successfully
+114355607 build (f40-build-side-84857, /rpms/spec-version-maven-plugin.git:35ae8393457e63807cd946c7e255ce479098b863) completed successfully

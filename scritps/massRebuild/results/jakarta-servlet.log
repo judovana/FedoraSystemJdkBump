@@ -1,24 +1,28 @@
 Cloning into 'jakarta-servlet'...
-[rawhide 77025c8] Rebuilt for java-17-openjdk as system jdk
+[f40 2458297] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building jakarta-servlet-5.0.0-10.fc36 for f36-java17
-Created task: 82427714
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82427714
+Found a gating.yaml file in the repo and it is properly configured
+Building jakarta-servlet-5.0.0-18.fc40 for f40-build-side-84857
+Created task: 114350746
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114350746
 Watching tasks (this may be safely interrupted)...
-82427714 build (f36-java17, /rpms/jakarta-servlet.git:77025c8155ad3b4e4d884f548db7f1290c550b7f): free
-82427714 build (f36-java17, /rpms/jakarta-servlet.git:77025c8155ad3b4e4d884f548db7f1290c550b7f): free -> open (buildvm-s390x-26.s390.fedoraproject.org)
-  82427722 buildSRPMFromSCM (/rpms/jakarta-servlet.git:77025c8155ad3b4e4d884f548db7f1290c550b7f): free
-  82427722 buildSRPMFromSCM (/rpms/jakarta-servlet.git:77025c8155ad3b4e4d884f548db7f1290c550b7f): free -> open (buildvm-ppc64le-30.iad2.fedoraproject.org)
-  82427911 buildArch (jakarta-servlet-5.0.0-10.fc36.src.rpm, noarch): free
-  82427722 buildSRPMFromSCM (/rpms/jakarta-servlet.git:77025c8155ad3b4e4d884f548db7f1290c550b7f): open (buildvm-ppc64le-30.iad2.fedoraproject.org) -> closed
-  1 free  1 open  1 done  0 failed
-  82427911 buildArch (jakarta-servlet-5.0.0-10.fc36.src.rpm, noarch): free -> open (buildvm-a64-33.iad2.fedoraproject.org)
-  82427911 buildArch (jakarta-servlet-5.0.0-10.fc36.src.rpm, noarch): open (buildvm-a64-33.iad2.fedoraproject.org) -> closed
+114350746 build (f40-build-side-84857, /rpms/jakarta-servlet.git:2458297af1f0048d2c704101f90faeea5cc079b5): free
+114350746 build (f40-build-side-84857, /rpms/jakarta-servlet.git:2458297af1f0048d2c704101f90faeea5cc079b5): free -> assigned
+114350746 build (f40-build-side-84857, /rpms/jakarta-servlet.git:2458297af1f0048d2c704101f90faeea5cc079b5): assigned -> open (buildvm-s390x-10.s390.fedoraproject.org)
+  114350754 buildSRPMFromSCM (/rpms/jakarta-servlet.git:2458297af1f0048d2c704101f90faeea5cc079b5): free
+  114350754 buildSRPMFromSCM (/rpms/jakarta-servlet.git:2458297af1f0048d2c704101f90faeea5cc079b5): free -> assigned
+  114350754 buildSRPMFromSCM (/rpms/jakarta-servlet.git:2458297af1f0048d2c704101f90faeea5cc079b5): assigned -> open (buildvm-x86-28.iad2.fedoraproject.org)
+  114350754 buildSRPMFromSCM (/rpms/jakarta-servlet.git:2458297af1f0048d2c704101f90faeea5cc079b5): open (buildvm-x86-28.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  114350871 buildArch (jakarta-servlet-5.0.0-18.fc40.src.rpm, noarch): free
+  114350871 buildArch (jakarta-servlet-5.0.0-18.fc40.src.rpm, noarch): free -> assigned
+  114350871 buildArch (jakarta-servlet-5.0.0-18.fc40.src.rpm, noarch): assigned -> open (buildvm-s390x-09.s390.fedoraproject.org)
+  114350871 buildArch (jakarta-servlet-5.0.0-18.fc40.src.rpm, noarch): open (buildvm-s390x-09.s390.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  82428117 tagBuild (noarch): free
-  82428117 tagBuild (noarch): free -> closed
+  114351125 tagBuild (noarch): free
+  114351125 tagBuild (noarch): free -> closed
   0 free  1 open  3 done  0 failed
-82427714 build (f36-java17, /rpms/jakarta-servlet.git:77025c8155ad3b4e4d884f548db7f1290c550b7f): open (buildvm-s390x-26.s390.fedoraproject.org) -> closed
+114350746 build (f40-build-side-84857, /rpms/jakarta-servlet.git:2458297af1f0048d2c704101f90faeea5cc079b5): open (buildvm-s390x-10.s390.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-82427714 build (f36-java17, /rpms/jakarta-servlet.git:77025c8155ad3b4e4d884f548db7f1290c550b7f) completed successfully
+114350746 build (f40-build-side-84857, /rpms/jakarta-servlet.git:2458297af1f0048d2c704101f90faeea5cc079b5) completed successfully

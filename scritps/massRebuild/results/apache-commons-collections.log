@@ -1,22 +1,29 @@
 Cloning into 'apache-commons-collections'...
-[rawhide 52c6905] Rebuilt for java-17-openjdk as system jdk
+[f40 d98cfc3] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building apache-commons-collections-3.2.2-27.fc36 for f36-java17
-Created task: 82423270
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82423270
+Found a gating.yaml file in the repo and it is properly configured
+Building apache-commons-collections-3.2.2-36.fc40 for f40-build-side-84857
+Created task: 114346746
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114346746
 Watching tasks (this may be safely interrupted)...
-82423270 build (f36-java17, /rpms/apache-commons-collections.git:52c69056205dda2dbed96d57fa484620b679e348): open (buildvm-x86-13.iad2.fedoraproject.org)
-  82423271 buildSRPMFromSCM (/rpms/apache-commons-collections.git:52c69056205dda2dbed96d57fa484620b679e348): free
-  82423271 buildSRPMFromSCM (/rpms/apache-commons-collections.git:52c69056205dda2dbed96d57fa484620b679e348): free -> open (buildvm-x86-13.iad2.fedoraproject.org)
-  82423280 buildArch (apache-commons-collections-3.2.2-27.fc36.src.rpm, noarch): open (buildvm-x86-07.iad2.fedoraproject.org)
-  82423271 buildSRPMFromSCM (/rpms/apache-commons-collections.git:52c69056205dda2dbed96d57fa484620b679e348): open (buildvm-x86-13.iad2.fedoraproject.org) -> closed
-  0 free  2 open  1 done  0 failed
-  82423310 tagBuild (noarch): open (buildvm-x86-13.iad2.fedoraproject.org)
-  82423280 buildArch (apache-commons-collections-3.2.2-27.fc36.src.rpm, noarch): open (buildvm-x86-07.iad2.fedoraproject.org) -> closed
-  0 free  2 open  2 done  0 failed
-82423270 build (f36-java17, /rpms/apache-commons-collections.git:52c69056205dda2dbed96d57fa484620b679e348): open (buildvm-x86-13.iad2.fedoraproject.org) -> closed
+114346746 build (f40-build-side-84857, /rpms/apache-commons-collections.git:d98cfc309037d32c5aa078f29921f7bd1bb7c116): free
+114346746 build (f40-build-side-84857, /rpms/apache-commons-collections.git:d98cfc309037d32c5aa078f29921f7bd1bb7c116): free -> assigned
+114346746 build (f40-build-side-84857, /rpms/apache-commons-collections.git:d98cfc309037d32c5aa078f29921f7bd1bb7c116): assigned -> open (buildvm-s390x-07.s390.fedoraproject.org)
+  114346767 buildSRPMFromSCM (/rpms/apache-commons-collections.git:d98cfc309037d32c5aa078f29921f7bd1bb7c116): free
+  114346767 buildSRPMFromSCM (/rpms/apache-commons-collections.git:d98cfc309037d32c5aa078f29921f7bd1bb7c116): free -> assigned
+  114346767 buildSRPMFromSCM (/rpms/apache-commons-collections.git:d98cfc309037d32c5aa078f29921f7bd1bb7c116): assigned -> open (buildvm-x86-25.iad2.fedoraproject.org)
+  114346767 buildSRPMFromSCM (/rpms/apache-commons-collections.git:d98cfc309037d32c5aa078f29921f7bd1bb7c116): open (buildvm-x86-25.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  114346815 buildArch (apache-commons-collections-3.2.2-36.fc40.src.rpm, noarch): free
+  114346815 buildArch (apache-commons-collections-3.2.2-36.fc40.src.rpm, noarch): free -> assigned
+  114346815 buildArch (apache-commons-collections-3.2.2-36.fc40.src.rpm, noarch): assigned -> open (buildhw-x86-14.iad2.fedoraproject.org)
+  114346815 buildArch (apache-commons-collections-3.2.2-36.fc40.src.rpm, noarch): open (buildhw-x86-14.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  114346970 tagBuild (noarch): free
+  114346970 tagBuild (noarch): free -> assigned
+  114346970 tagBuild (noarch): assigned -> closed
   0 free  1 open  3 done  0 failed
-  82423310 tagBuild (noarch): open (buildvm-x86-13.iad2.fedoraproject.org) -> closed
+114346746 build (f40-build-side-84857, /rpms/apache-commons-collections.git:d98cfc309037d32c5aa078f29921f7bd1bb7c116): open (buildvm-s390x-07.s390.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-82423270 build (f36-java17, /rpms/apache-commons-collections.git:52c69056205dda2dbed96d57fa484620b679e348) completed successfully
+114346746 build (f40-build-side-84857, /rpms/apache-commons-collections.git:d98cfc309037d32c5aa078f29921f7bd1bb7c116) completed successfully

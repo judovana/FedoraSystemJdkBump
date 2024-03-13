@@ -1,40 +1,48 @@
 Cloning into 'will-crash'...
-[rawhide d0c0f8d] Rebuilt for java-17-openjdk as system jdk
+[f40 e046eb1] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
 Found a gating.yaml file in the repo and it is properly configured
-Building will-crash-0.13.3-6.fc36 for f36-java17
-Created task: 82435428
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82435428
+Building will-crash-0.13.5-6.fc40 for f40-build-side-84857
+Created task: 114356074
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114356074
 Watching tasks (this may be safely interrupted)...
-82435428 build (f36-java17, /rpms/will-crash.git:d0c0f8d6f79095a07b01d692ebf7615611f68215): free
-82435428 build (f36-java17, /rpms/will-crash.git:d0c0f8d6f79095a07b01d692ebf7615611f68215): free -> open (buildvm-x86-28.iad2.fedoraproject.org)
-  82435440 buildSRPMFromSCM (/rpms/will-crash.git:d0c0f8d6f79095a07b01d692ebf7615611f68215): free
-  82435440 buildSRPMFromSCM (/rpms/will-crash.git:d0c0f8d6f79095a07b01d692ebf7615611f68215): free -> open (buildvm-x86-15.iad2.fedoraproject.org)
-  82435440 buildSRPMFromSCM (/rpms/will-crash.git:d0c0f8d6f79095a07b01d692ebf7615611f68215): open (buildvm-x86-15.iad2.fedoraproject.org) -> closed
-  0 free  1 open  1 done  0 failed
-  82435512 buildArch (will-crash-0.13.3-6.fc36.src.rpm, s390x): open (buildvm-s390x-13.s390.fedoraproject.org)
-  82435507 buildArch (will-crash-0.13.3-6.fc36.src.rpm, i686): free
-  82435511 buildArch (will-crash-0.13.3-6.fc36.src.rpm, ppc64le): open (buildvm-ppc64le-22.iad2.fedoraproject.org)
-  82435506 buildArch (will-crash-0.13.3-6.fc36.src.rpm, armv7hl): free
-  82435508 buildArch (will-crash-0.13.3-6.fc36.src.rpm, x86_64): free
-  82435510 buildArch (will-crash-0.13.3-6.fc36.src.rpm, aarch64): open (buildvm-a64-32.iad2.fedoraproject.org)
-  82435507 buildArch (will-crash-0.13.3-6.fc36.src.rpm, i686): free -> open (buildvm-x86-26.iad2.fedoraproject.org)
-  82435506 buildArch (will-crash-0.13.3-6.fc36.src.rpm, armv7hl): free -> open (buildvm-a32-30.iad2.fedoraproject.org)
-  82435508 buildArch (will-crash-0.13.3-6.fc36.src.rpm, x86_64): free -> open (buildvm-x86-10.iad2.fedoraproject.org)
-  82435512 buildArch (will-crash-0.13.3-6.fc36.src.rpm, s390x): open (buildvm-s390x-13.s390.fedoraproject.org) -> closed
-  0 free  6 open  2 done  0 failed
-  82435508 buildArch (will-crash-0.13.3-6.fc36.src.rpm, x86_64): open (buildvm-x86-10.iad2.fedoraproject.org) -> closed
-  0 free  5 open  3 done  0 failed
-  82435507 buildArch (will-crash-0.13.3-6.fc36.src.rpm, i686): open (buildvm-x86-26.iad2.fedoraproject.org) -> closed
-  0 free  4 open  4 done  0 failed
-  82435511 buildArch (will-crash-0.13.3-6.fc36.src.rpm, ppc64le): open (buildvm-ppc64le-22.iad2.fedoraproject.org) -> closed
-  0 free  3 open  5 done  0 failed
-  82435510 buildArch (will-crash-0.13.3-6.fc36.src.rpm, aarch64): open (buildvm-a64-32.iad2.fedoraproject.org) -> closed
-  0 free  2 open  6 done  0 failed
-  82435506 buildArch (will-crash-0.13.3-6.fc36.src.rpm, armv7hl): open (buildvm-a32-30.iad2.fedoraproject.org) -> closed
+114356074 build (f40-build-side-84857, /rpms/will-crash.git:e046eb10b4692e240eb8cda36fa62115aafef9c3): free
+114356074 build (f40-build-side-84857, /rpms/will-crash.git:e046eb10b4692e240eb8cda36fa62115aafef9c3): free -> open (buildvm-a64-16.iad2.fedoraproject.org)
+  114356080 buildSRPMFromSCM (/rpms/will-crash.git:e046eb10b4692e240eb8cda36fa62115aafef9c3): free
+  114356080 buildSRPMFromSCM (/rpms/will-crash.git:e046eb10b4692e240eb8cda36fa62115aafef9c3): free -> assigned
+  114356080 buildSRPMFromSCM (/rpms/will-crash.git:e046eb10b4692e240eb8cda36fa62115aafef9c3): assigned -> open (buildvm-a64-20.iad2.fedoraproject.org)
+  114356293 buildArch (will-crash-0.13.5-6.fc40.src.rpm, i686): free
+  114356294 buildArch (will-crash-0.13.5-6.fc40.src.rpm, x86_64): free
+  114356295 buildArch (will-crash-0.13.5-6.fc40.src.rpm, aarch64): free
+  114356296 buildArch (will-crash-0.13.5-6.fc40.src.rpm, ppc64le): free
+  114356297 buildArch (will-crash-0.13.5-6.fc40.src.rpm, s390x): free
+  114356080 buildSRPMFromSCM (/rpms/will-crash.git:e046eb10b4692e240eb8cda36fa62115aafef9c3): open (buildvm-a64-20.iad2.fedoraproject.org) -> closed
+  5 free  1 open  1 done  0 failed
+  114356293 buildArch (will-crash-0.13.5-6.fc40.src.rpm, i686): free -> assigned
+  114356294 buildArch (will-crash-0.13.5-6.fc40.src.rpm, x86_64): free -> assigned
+  114356295 buildArch (will-crash-0.13.5-6.fc40.src.rpm, aarch64): free -> assigned
+  114356296 buildArch (will-crash-0.13.5-6.fc40.src.rpm, ppc64le): free -> assigned
+  114356297 buildArch (will-crash-0.13.5-6.fc40.src.rpm, s390x): free -> assigned
+  114356293 buildArch (will-crash-0.13.5-6.fc40.src.rpm, i686): assigned -> open (buildhw-x86-04.iad2.fedoraproject.org)
+  114356294 buildArch (will-crash-0.13.5-6.fc40.src.rpm, x86_64): assigned -> open (buildhw-x86-07.iad2.fedoraproject.org)
+  114356295 buildArch (will-crash-0.13.5-6.fc40.src.rpm, aarch64): assigned -> open (buildvm-a64-24.iad2.fedoraproject.org)
+  114356296 buildArch (will-crash-0.13.5-6.fc40.src.rpm, ppc64le): assigned -> open (buildvm-ppc64le-03.iad2.fedoraproject.org)
+  114356297 buildArch (will-crash-0.13.5-6.fc40.src.rpm, s390x): assigned -> open (buildvm-s390x-03.s390.fedoraproject.org)
+  114356295 buildArch (will-crash-0.13.5-6.fc40.src.rpm, aarch64): open (buildvm-a64-24.iad2.fedoraproject.org) -> closed
+  0 free  5 open  2 done  0 failed
+  114356297 buildArch (will-crash-0.13.5-6.fc40.src.rpm, s390x): open (buildvm-s390x-03.s390.fedoraproject.org) -> closed
+  0 free  4 open  3 done  0 failed
+  114356293 buildArch (will-crash-0.13.5-6.fc40.src.rpm, i686): open (buildhw-x86-04.iad2.fedoraproject.org) -> closed
+  0 free  3 open  4 done  0 failed
+  114356294 buildArch (will-crash-0.13.5-6.fc40.src.rpm, x86_64): open (buildhw-x86-07.iad2.fedoraproject.org) -> closed
+  0 free  2 open  5 done  0 failed
+  114356296 buildArch (will-crash-0.13.5-6.fc40.src.rpm, ppc64le): open (buildvm-ppc64le-03.iad2.fedoraproject.org) -> closed
+  0 free  1 open  6 done  0 failed
+  114356406 tagBuild (noarch): free
+  114356406 tagBuild (noarch): free -> assigned
+  114356406 tagBuild (noarch): assigned -> closed
   0 free  1 open  7 done  0 failed
-  82435759 tagBuild (noarch): closed
-82435428 build (f36-java17, /rpms/will-crash.git:d0c0f8d6f79095a07b01d692ebf7615611f68215): open (buildvm-x86-28.iad2.fedoraproject.org) -> closed
-  0 free  0 open  9 done  0 failed
+114356074 build (f40-build-side-84857, /rpms/will-crash.git:e046eb10b4692e240eb8cda36fa62115aafef9c3): open (buildvm-a64-16.iad2.fedoraproject.org) -> closed
+  0 free  0 open  8 done  0 failed
 
-82435428 build (f36-java17, /rpms/will-crash.git:d0c0f8d6f79095a07b01d692ebf7615611f68215) completed successfully
+114356074 build (f40-build-side-84857, /rpms/will-crash.git:e046eb10b4692e240eb8cda36fa62115aafef9c3) completed successfully

@@ -1,23 +1,17 @@
 Cloning into 'proguard'...
-[rawhide fde6c4a] Rebuilt for java-17-openjdk as system jdk
+[f40 5995f29] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building proguard-5.3.3-14.fc36 for f36-java17
-Created task: 82433864
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82433864
+Building proguard-6.2.2-5.fc40 for f40-build-side-84857
+Created task: 114355566
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355566
 Watching tasks (this may be safely interrupted)...
-82433864 build (f36-java17, /rpms/proguard.git:fde6c4aa496502e2af8830ab1f9f9c2a9a954791): free
-82433864 build (f36-java17, /rpms/proguard.git:fde6c4aa496502e2af8830ab1f9f9c2a9a954791): free -> open (buildvm-ppc64le-36.iad2.fedoraproject.org)
-  82433865 buildSRPMFromSCM (/rpms/proguard.git:fde6c4aa496502e2af8830ab1f9f9c2a9a954791): open (buildvm-x86-19.iad2.fedoraproject.org)
-  82433865 buildSRPMFromSCM (/rpms/proguard.git:fde6c4aa496502e2af8830ab1f9f9c2a9a954791): open (buildvm-x86-19.iad2.fedoraproject.org) -> closed
-  0 free  1 open  1 done  0 failed
-  82434018 buildArch (proguard-5.3.3-14.fc36.src.rpm, noarch): free
-  82434018 buildArch (proguard-5.3.3-14.fc36.src.rpm, noarch): free -> open (buildvm-s390x-18.s390.fedoraproject.org)
-  82434018 buildArch (proguard-5.3.3-14.fc36.src.rpm, noarch): open (buildvm-s390x-18.s390.fedoraproject.org) -> closed
-  0 free  1 open  2 done  0 failed
-  82434025 tagBuild (noarch): free
-  82434025 tagBuild (noarch): free -> closed
-  0 free  1 open  3 done  0 failed
-82433864 build (f36-java17, /rpms/proguard.git:fde6c4aa496502e2af8830ab1f9f9c2a9a954791): open (buildvm-ppc64le-36.iad2.fedoraproject.org) -> closed
-  0 free  0 open  4 done  0 failed
+114355566 build (f40-build-side-84857, /rpms/proguard.git:5995f295db7de3fb80af469c87c4a1cfe42a3a49): free
+114355566 build (f40-build-side-84857, /rpms/proguard.git:5995f295db7de3fb80af469c87c4a1cfe42a3a49): free -> assigned
+114355566 build (f40-build-side-84857, /rpms/proguard.git:5995f295db7de3fb80af469c87c4a1cfe42a3a49): assigned -> free
+Watching tasks (this may be safely interrupted)...
+114355566 build (f40-build-side-84857, /rpms/proguard.git:5995f295db7de3fb80af469c87c4a1cfe42a3a49): closed
+  114356101 tagBuild (noarch): closed
+  114355752 buildSRPMFromSCM (/rpms/proguard.git:5995f295db7de3fb80af469c87c4a1cfe42a3a49): closed
+  114356059 buildArch (proguard-6.2.2-5.fc40.src.rpm, noarch): closed
 
-82433864 build (f36-java17, /rpms/proguard.git:fde6c4aa496502e2af8830ab1f9f9c2a9a954791) completed successfully
+114355566 build (f40-build-side-84857, /rpms/proguard.git:5995f295db7de3fb80af469c87c4a1cfe42a3a49) completed successfully

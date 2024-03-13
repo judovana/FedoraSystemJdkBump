@@ -1,23 +1,26 @@
 Cloning into 'fasterxml-oss-parent'...
-[rawhide 9b54643] Rebuilt for java-17-openjdk as system jdk
+[f40 e10f424] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building fasterxml-oss-parent-41-5.fc36 for f36-java17
-Created task: 82425840
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82425840
+Building fasterxml-oss-parent-58-2.fc40 for f40-build-side-84857
+Created task: 114348852
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114348852
 Watching tasks (this may be safely interrupted)...
-82425840 build (f36-java17, /rpms/fasterxml-oss-parent.git:9b546437b5eb4d6258e215cb1fe6234096ea159d): free
-82425840 build (f36-java17, /rpms/fasterxml-oss-parent.git:9b546437b5eb4d6258e215cb1fe6234096ea159d): free -> open (buildvm-x86-08.iad2.fedoraproject.org)
-  82425842 buildSRPMFromSCM (/rpms/fasterxml-oss-parent.git:9b546437b5eb4d6258e215cb1fe6234096ea159d): open (buildvm-x86-15.iad2.fedoraproject.org)
-  82425842 buildSRPMFromSCM (/rpms/fasterxml-oss-parent.git:9b546437b5eb4d6258e215cb1fe6234096ea159d): open (buildvm-x86-15.iad2.fedoraproject.org) -> closed
+114348852 build (f40-build-side-84857, /rpms/fasterxml-oss-parent.git:e10f4243239787c8c44f1d21ed75e465e5be03ba): free
+114348852 build (f40-build-side-84857, /rpms/fasterxml-oss-parent.git:e10f4243239787c8c44f1d21ed75e465e5be03ba): free -> open (buildvm-s390x-07.s390.fedoraproject.org)
+  114348936 buildSRPMFromSCM (/rpms/fasterxml-oss-parent.git:e10f4243239787c8c44f1d21ed75e465e5be03ba): free
+  114348936 buildSRPMFromSCM (/rpms/fasterxml-oss-parent.git:e10f4243239787c8c44f1d21ed75e465e5be03ba): free -> assigned
+  114348936 buildSRPMFromSCM (/rpms/fasterxml-oss-parent.git:e10f4243239787c8c44f1d21ed75e465e5be03ba): assigned -> open (buildvm-x86-14.iad2.fedoraproject.org)
+  114348936 buildSRPMFromSCM (/rpms/fasterxml-oss-parent.git:e10f4243239787c8c44f1d21ed75e465e5be03ba): open (buildvm-x86-14.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  82425922 buildArch (fasterxml-oss-parent-41-5.fc36.src.rpm, noarch): free
-  82425922 buildArch (fasterxml-oss-parent-41-5.fc36.src.rpm, noarch): free -> open (buildvm-ppc64le-11.iad2.fedoraproject.org)
-  82425922 buildArch (fasterxml-oss-parent-41-5.fc36.src.rpm, noarch): open (buildvm-ppc64le-11.iad2.fedoraproject.org) -> closed
+  114349119 buildArch (fasterxml-oss-parent-58-2.fc40.src.rpm, noarch): free
+  114349119 buildArch (fasterxml-oss-parent-58-2.fc40.src.rpm, noarch): free -> open (buildvm-a64-39.iad2.fedoraproject.org)
+  114349119 buildArch (fasterxml-oss-parent-58-2.fc40.src.rpm, noarch): open (buildvm-a64-39.iad2.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  82426072 tagBuild (noarch): free
-82425840 build (f36-java17, /rpms/fasterxml-oss-parent.git:9b546437b5eb4d6258e215cb1fe6234096ea159d): open (buildvm-x86-08.iad2.fedoraproject.org) -> closed
-  1 free  0 open  3 done  0 failed
-  82426072 tagBuild (noarch): free -> closed
+  114349287 tagBuild (noarch): free
+  114349287 tagBuild (noarch): free -> assigned
+  114349287 tagBuild (noarch): assigned -> closed
+  0 free  1 open  3 done  0 failed
+114348852 build (f40-build-side-84857, /rpms/fasterxml-oss-parent.git:e10f4243239787c8c44f1d21ed75e465e5be03ba): open (buildvm-s390x-07.s390.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-82425840 build (f36-java17, /rpms/fasterxml-oss-parent.git:9b546437b5eb4d6258e215cb1fe6234096ea159d) completed successfully
+114348852 build (f40-build-side-84857, /rpms/fasterxml-oss-parent.git:e10f4243239787c8c44f1d21ed75e465e5be03ba) completed successfully

@@ -1,21 +1,15 @@
 Cloning into 'rundoc'...
-[rawhide 7293881] Rebuilt for java-17-openjdk as system jdk
+[f40 7dff18d] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building rundoc-0.11-19.fc36 for f36-java17
-Created task: 82434312
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82434312
+Building rundoc-0.11-25.fc40 for f40-build-side-84857
+Created task: 114355589
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355589
 Watching tasks (this may be safely interrupted)...
-82434312 build (f36-java17, /rpms/rundoc.git:7293881c19443955fedc2abbc91c1abeb84fb78f): free
-82434312 build (f36-java17, /rpms/rundoc.git:7293881c19443955fedc2abbc91c1abeb84fb78f): free -> open (buildvm-x86-27.iad2.fedoraproject.org)
-  82434345 buildSRPMFromSCM (/rpms/rundoc.git:7293881c19443955fedc2abbc91c1abeb84fb78f): free
-  82434345 buildSRPMFromSCM (/rpms/rundoc.git:7293881c19443955fedc2abbc91c1abeb84fb78f): free -> open (buildvm-x86-07.iad2.fedoraproject.org)
-  82434345 buildSRPMFromSCM (/rpms/rundoc.git:7293881c19443955fedc2abbc91c1abeb84fb78f): open (buildvm-x86-07.iad2.fedoraproject.org) -> closed
-  0 free  1 open  1 done  0 failed
-  82434439 buildArch (rundoc-0.11-19.fc36.src.rpm, noarch): open (buildvm-x86-06.iad2.fedoraproject.org)
-  82434439 buildArch (rundoc-0.11-19.fc36.src.rpm, noarch): open (buildvm-x86-06.iad2.fedoraproject.org) -> closed
-  0 free  1 open  2 done  0 failed
-  82434476 tagBuild (noarch): closed
-82434312 build (f36-java17, /rpms/rundoc.git:7293881c19443955fedc2abbc91c1abeb84fb78f): open (buildvm-x86-27.iad2.fedoraproject.org) -> closed
-  0 free  0 open  4 done  0 failed
+114355589 build (f40-build-side-84857, /rpms/rundoc.git:7dff18d5d17eff93f2b3c8042c77f1574509a873): free
+Watching tasks (this may be safely interrupted)...
+114355589 build (f40-build-side-84857, /rpms/rundoc.git:7dff18d5d17eff93f2b3c8042c77f1574509a873): closed
+  114356027 tagBuild (noarch): closed
+  114355759 buildSRPMFromSCM (/rpms/rundoc.git:7dff18d5d17eff93f2b3c8042c77f1574509a873): closed
+  114355968 buildArch (rundoc-0.11-25.fc40.src.rpm, noarch): closed
 
-82434312 build (f36-java17, /rpms/rundoc.git:7293881c19443955fedc2abbc91c1abeb84fb78f) completed successfully
+114355589 build (f40-build-side-84857, /rpms/rundoc.git:7dff18d5d17eff93f2b3c8042c77f1574509a873) completed successfully

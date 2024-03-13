@@ -1,21 +1,28 @@
 Cloning into 'assertj-core'...
-[rawhide 4844763] Rebuilt for java-17-openjdk as system jdk
+[f40 71b5eed] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building assertj-core-3.19.0-5.fc36 for f36-java17
-Created task: 82423560
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82423560
+Found a gating.yaml file in the repo and it is properly configured
+Building assertj-core-3.24.2-8.fc40 for f40-build-side-84857
+Created task: 114347313
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114347313
 Watching tasks (this may be safely interrupted)...
-82423560 build (f36-java17, /rpms/assertj-core.git:4844763e66632ff072b453e40f87c40c02b30041): open (buildvm-ppc64le-32.iad2.fedoraproject.org)
-  82423561 buildSRPMFromSCM (/rpms/assertj-core.git:4844763e66632ff072b453e40f87c40c02b30041): free
-  82423561 buildSRPMFromSCM (/rpms/assertj-core.git:4844763e66632ff072b453e40f87c40c02b30041): free -> open (buildvm-x86-08.iad2.fedoraproject.org)
-  82423579 buildArch (assertj-core-3.19.0-5.fc36.src.rpm, noarch): free
-  82423561 buildSRPMFromSCM (/rpms/assertj-core.git:4844763e66632ff072b453e40f87c40c02b30041): open (buildvm-x86-08.iad2.fedoraproject.org) -> closed
-  1 free  1 open  1 done  0 failed
-  82423579 buildArch (assertj-core-3.19.0-5.fc36.src.rpm, noarch): free -> open (buildvm-x86-19.iad2.fedoraproject.org)
-  82423579 buildArch (assertj-core-3.19.0-5.fc36.src.rpm, noarch): open (buildvm-x86-19.iad2.fedoraproject.org) -> closed
+114347313 build (f40-build-side-84857, /rpms/assertj-core.git:71b5eed5a7032d98409c0c9abb7aa979984b41e1): free
+114347313 build (f40-build-side-84857, /rpms/assertj-core.git:71b5eed5a7032d98409c0c9abb7aa979984b41e1): free -> assigned
+114347313 build (f40-build-side-84857, /rpms/assertj-core.git:71b5eed5a7032d98409c0c9abb7aa979984b41e1): assigned -> open (buildvm-x86-14.iad2.fedoraproject.org)
+  114347346 buildSRPMFromSCM (/rpms/assertj-core.git:71b5eed5a7032d98409c0c9abb7aa979984b41e1): free
+  114347346 buildSRPMFromSCM (/rpms/assertj-core.git:71b5eed5a7032d98409c0c9abb7aa979984b41e1): free -> assigned
+  114347346 buildSRPMFromSCM (/rpms/assertj-core.git:71b5eed5a7032d98409c0c9abb7aa979984b41e1): assigned -> open (buildvm-x86-27.iad2.fedoraproject.org)
+  114347346 buildSRPMFromSCM (/rpms/assertj-core.git:71b5eed5a7032d98409c0c9abb7aa979984b41e1): open (buildvm-x86-27.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  114347445 buildArch (assertj-core-3.24.2-8.fc40.src.rpm, noarch): free
+  114347445 buildArch (assertj-core-3.24.2-8.fc40.src.rpm, noarch): free -> assigned
+  114347445 buildArch (assertj-core-3.24.2-8.fc40.src.rpm, noarch): assigned -> open (buildvm-x86-10.iad2.fedoraproject.org)
+  114347445 buildArch (assertj-core-3.24.2-8.fc40.src.rpm, noarch): open (buildvm-x86-10.iad2.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  82424726 tagBuild (noarch): closed
-82423560 build (f36-java17, /rpms/assertj-core.git:4844763e66632ff072b453e40f87c40c02b30041): open (buildvm-ppc64le-32.iad2.fedoraproject.org) -> closed
+  114347494 tagBuild (noarch): free
+  114347494 tagBuild (noarch): free -> closed
+  0 free  1 open  3 done  0 failed
+114347313 build (f40-build-side-84857, /rpms/assertj-core.git:71b5eed5a7032d98409c0c9abb7aa979984b41e1): open (buildvm-x86-14.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-82423560 build (f36-java17, /rpms/assertj-core.git:4844763e66632ff072b453e40f87c40c02b30041) completed successfully
+114347313 build (f40-build-side-84857, /rpms/assertj-core.git:71b5eed5a7032d98409c0c9abb7aa979984b41e1) completed successfully

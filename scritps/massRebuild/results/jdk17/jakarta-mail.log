@@ -1,0 +1,24 @@
+Cloning into 'jakarta-mail'...
+[rawhide 27d7ac2] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building jakarta-mail-1.6.5-8.fc36 for f36-java17
+Created task: 82427596
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82427596
+Watching tasks (this may be safely interrupted)...
+82427596 build (f36-java17, /rpms/jakarta-mail.git:27d7ac28aaaee69c6987737091b5727538d8776b): free
+82427596 build (f36-java17, /rpms/jakarta-mail.git:27d7ac28aaaee69c6987737091b5727538d8776b): free -> open (buildvm-a32-15.iad2.fedoraproject.org)
+  82427605 buildSRPMFromSCM (/rpms/jakarta-mail.git:27d7ac28aaaee69c6987737091b5727538d8776b): free
+  82427605 buildSRPMFromSCM (/rpms/jakarta-mail.git:27d7ac28aaaee69c6987737091b5727538d8776b): free -> open (buildvm-ppc64le-31.iad2.fedoraproject.org)
+  82427605 buildSRPMFromSCM (/rpms/jakarta-mail.git:27d7ac28aaaee69c6987737091b5727538d8776b): open (buildvm-ppc64le-31.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82427812 buildArch (jakarta-mail-1.6.5-8.fc36.src.rpm, noarch): free
+  82427812 buildArch (jakarta-mail-1.6.5-8.fc36.src.rpm, noarch): free -> open (buildvm-x86-16.iad2.fedoraproject.org)
+  82428109 tagBuild (noarch): free
+  82427812 buildArch (jakarta-mail-1.6.5-8.fc36.src.rpm, noarch): open (buildvm-x86-16.iad2.fedoraproject.org) -> closed
+  1 free  1 open  2 done  0 failed
+  82428109 tagBuild (noarch): free -> closed
+  0 free  1 open  3 done  0 failed
+82427596 build (f36-java17, /rpms/jakarta-mail.git:27d7ac28aaaee69c6987737091b5727538d8776b): open (buildvm-a32-15.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+82427596 build (f36-java17, /rpms/jakarta-mail.git:27d7ac28aaaee69c6987737091b5727538d8776b) completed successfully

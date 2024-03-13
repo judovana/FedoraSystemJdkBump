@@ -1,23 +1,29 @@
 Cloning into 'freerouting'...
-[rawhide e0bb619] Rebuilt for java-17-openjdk as system jdk
+[f40 76baf6f] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building freerouting-1.3.1-10.fc36 for f36-java17
-Created task: 82426106
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82426106
+Building freerouting-1.3.1-17.fc40 for f40-build-side-84857
+Created task: 114349446
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114349446
 Watching tasks (this may be safely interrupted)...
-82426106 build (f36-java17, /rpms/freerouting.git:e0bb61995510e67b4df861d2d080a10707ced02f): free
-82426106 build (f36-java17, /rpms/freerouting.git:e0bb61995510e67b4df861d2d080a10707ced02f): free -> open (buildvm-x86-28.iad2.fedoraproject.org)
-  82426107 buildSRPMFromSCM (/rpms/freerouting.git:e0bb61995510e67b4df861d2d080a10707ced02f): open (buildvm-x86-28.iad2.fedoraproject.org)
-  82426107 buildSRPMFromSCM (/rpms/freerouting.git:e0bb61995510e67b4df861d2d080a10707ced02f): open (buildvm-x86-28.iad2.fedoraproject.org) -> closed
+114349446 build (f40-build-side-84857, /rpms/freerouting.git:76baf6fe31f321a7acda975cef86f4ebe4aa5ef0): free
+114349446 build (f40-build-side-84857, /rpms/freerouting.git:76baf6fe31f321a7acda975cef86f4ebe4aa5ef0): free -> assigned
+114349446 build (f40-build-side-84857, /rpms/freerouting.git:76baf6fe31f321a7acda975cef86f4ebe4aa5ef0): assigned -> open (buildvm-ppc64le-28.iad2.fedoraproject.org)
+  114349458 buildSRPMFromSCM (/rpms/freerouting.git:76baf6fe31f321a7acda975cef86f4ebe4aa5ef0): free
+  114349458 buildSRPMFromSCM (/rpms/freerouting.git:76baf6fe31f321a7acda975cef86f4ebe4aa5ef0): free -> assigned
+  114349458 buildSRPMFromSCM (/rpms/freerouting.git:76baf6fe31f321a7acda975cef86f4ebe4aa5ef0): assigned -> open (buildvm-a64-18.iad2.fedoraproject.org)
+  114349458 buildSRPMFromSCM (/rpms/freerouting.git:76baf6fe31f321a7acda975cef86f4ebe4aa5ef0): open (buildvm-a64-18.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  82426160 buildArch (freerouting-1.3.1-10.fc36.src.rpm, noarch): free
-  82426160 buildArch (freerouting-1.3.1-10.fc36.src.rpm, noarch): free -> open (buildvm-ppc64le-09.iad2.fedoraproject.org)
-  82426160 buildArch (freerouting-1.3.1-10.fc36.src.rpm, noarch): open (buildvm-ppc64le-09.iad2.fedoraproject.org) -> closed
+  114349737 buildArch (freerouting-1.3.1-17.fc40.src.rpm, noarch): free
+  114349737 buildArch (freerouting-1.3.1-17.fc40.src.rpm, noarch): free -> assigned
+  114349737 buildArch (freerouting-1.3.1-17.fc40.src.rpm, noarch): assigned -> open (buildvm-x86-23.iad2.fedoraproject.org)
+  114349737 buildArch (freerouting-1.3.1-17.fc40.src.rpm, noarch): open (buildvm-x86-23.iad2.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  82426316 tagBuild (noarch): free
-  82426316 tagBuild (noarch): free -> closed
+  114349897 tagBuild (noarch): free
+  114349897 tagBuild (noarch): free -> assigned
+  114349897 tagBuild (noarch): assigned -> open (buildvm-s390x-07.s390.fedoraproject.org)
+  114349897 tagBuild (noarch): open (buildvm-s390x-07.s390.fedoraproject.org) -> closed
   0 free  1 open  3 done  0 failed
-82426106 build (f36-java17, /rpms/freerouting.git:e0bb61995510e67b4df861d2d080a10707ced02f): open (buildvm-x86-28.iad2.fedoraproject.org) -> closed
+114349446 build (f40-build-side-84857, /rpms/freerouting.git:76baf6fe31f321a7acda975cef86f4ebe4aa5ef0): open (buildvm-ppc64le-28.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-82426106 build (f36-java17, /rpms/freerouting.git:e0bb61995510e67b4df861d2d080a10707ced02f) completed successfully
+114349446 build (f40-build-side-84857, /rpms/freerouting.git:76baf6fe31f321a7acda975cef86f4ebe4aa5ef0) completed successfully

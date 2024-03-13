@@ -1,22 +1,26 @@
 Cloning into 'cambozola'...
-[rawhide fdbfc9d] Rebuilt for java-17-openjdk as system jdk
+[f40 13f5a19] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building cambozola-0.936-17.fc36 for f36-java17
-Created task: 82424274
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82424274
+Building cambozola-0.936-24.fc40 for f40-build-side-84857
+Created task: 114347776
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114347776
 Watching tasks (this may be safely interrupted)...
-82424274 build (f36-java17, /rpms/cambozola.git:fdbfc9dba64abb5be9a220bd27f69aedd1bfde61): free
-82424274 build (f36-java17, /rpms/cambozola.git:fdbfc9dba64abb5be9a220bd27f69aedd1bfde61): free -> open (buildvm-s390x-12.s390.fedoraproject.org)
-  82424281 buildSRPMFromSCM (/rpms/cambozola.git:fdbfc9dba64abb5be9a220bd27f69aedd1bfde61): free
-  82424281 buildSRPMFromSCM (/rpms/cambozola.git:fdbfc9dba64abb5be9a220bd27f69aedd1bfde61): free -> open (buildvm-x86-27.iad2.fedoraproject.org)
-  82424281 buildSRPMFromSCM (/rpms/cambozola.git:fdbfc9dba64abb5be9a220bd27f69aedd1bfde61): open (buildvm-x86-27.iad2.fedoraproject.org) -> closed
+114347776 build (f40-build-side-84857, /rpms/cambozola.git:13f5a19a79f659377739bac3f4ddea4c5a4b273f): free
+114347776 build (f40-build-side-84857, /rpms/cambozola.git:13f5a19a79f659377739bac3f4ddea4c5a4b273f): free -> assigned
+114347776 build (f40-build-side-84857, /rpms/cambozola.git:13f5a19a79f659377739bac3f4ddea4c5a4b273f): assigned -> open (buildvm-a64-07.iad2.fedoraproject.org)
+  114347784 buildSRPMFromSCM (/rpms/cambozola.git:13f5a19a79f659377739bac3f4ddea4c5a4b273f): free
+  114347784 buildSRPMFromSCM (/rpms/cambozola.git:13f5a19a79f659377739bac3f4ddea4c5a4b273f): free -> assigned
+  114347784 buildSRPMFromSCM (/rpms/cambozola.git:13f5a19a79f659377739bac3f4ddea4c5a4b273f): assigned -> open (buildvm-a64-14.iad2.fedoraproject.org)
+  114347784 buildSRPMFromSCM (/rpms/cambozola.git:13f5a19a79f659377739bac3f4ddea4c5a4b273f): open (buildvm-a64-14.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  82424352 buildArch (cambozola-0.936-17.fc36.src.rpm, noarch): free
-  82424352 buildArch (cambozola-0.936-17.fc36.src.rpm, noarch): free -> open (buildvm-x86-32.iad2.fedoraproject.org)
-  82424352 buildArch (cambozola-0.936-17.fc36.src.rpm, noarch): open (buildvm-x86-32.iad2.fedoraproject.org) -> closed
+  114347843 buildArch (cambozola-0.936-24.fc40.src.rpm, noarch): free
+  114347843 buildArch (cambozola-0.936-24.fc40.src.rpm, noarch): free -> open (buildvm-x86-06.iad2.fedoraproject.org)
+  114347843 buildArch (cambozola-0.936-24.fc40.src.rpm, noarch): open (buildvm-x86-06.iad2.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  82424369 tagBuild (noarch): closed
-82424274 build (f36-java17, /rpms/cambozola.git:fdbfc9dba64abb5be9a220bd27f69aedd1bfde61): open (buildvm-s390x-12.s390.fedoraproject.org) -> closed
+  114347900 tagBuild (noarch): free
+  114347900 tagBuild (noarch): free -> closed
+  0 free  1 open  3 done  0 failed
+114347776 build (f40-build-side-84857, /rpms/cambozola.git:13f5a19a79f659377739bac3f4ddea4c5a4b273f): open (buildvm-a64-07.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-82424274 build (f36-java17, /rpms/cambozola.git:fdbfc9dba64abb5be9a220bd27f69aedd1bfde61) completed successfully
+114347776 build (f40-build-side-84857, /rpms/cambozola.git:13f5a19a79f659377739bac3f4ddea4c5a4b273f) completed successfully

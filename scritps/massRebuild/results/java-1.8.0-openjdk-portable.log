@@ -1,0 +1,45 @@
+Cloning into 'java-1.8.0-openjdk-portable'...
+[f40 e1a778d] Rebuilt for java-21-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building java-1.8.0-openjdk-portable-1.8.0.402.b06-1.fc40.1 for f40-build-side-84857
+Created task: 114351206
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114351206
+Watching tasks (this may be safely interrupted)...
+114351206 build (f40-build-side-84857, /rpms/java-1.8.0-openjdk-portable.git:e1a778dbeffb168833f5f50e2c12a3461907d1f5): free
+114351206 build (f40-build-side-84857, /rpms/java-1.8.0-openjdk-portable.git:e1a778dbeffb168833f5f50e2c12a3461907d1f5): free -> assigned
+114351206 build (f40-build-side-84857, /rpms/java-1.8.0-openjdk-portable.git:e1a778dbeffb168833f5f50e2c12a3461907d1f5): assigned -> open (buildvm-s390x-09.s390.fedoraproject.org)
+  114351233 buildSRPMFromSCM (/rpms/java-1.8.0-openjdk-portable.git:e1a778dbeffb168833f5f50e2c12a3461907d1f5): free
+  114351233 buildSRPMFromSCM (/rpms/java-1.8.0-openjdk-portable.git:e1a778dbeffb168833f5f50e2c12a3461907d1f5): free -> assigned
+  114351233 buildSRPMFromSCM (/rpms/java-1.8.0-openjdk-portable.git:e1a778dbeffb168833f5f50e2c12a3461907d1f5): assigned -> open (buildvm-a64-08.iad2.fedoraproject.org)
+  114351233 buildSRPMFromSCM (/rpms/java-1.8.0-openjdk-portable.git:e1a778dbeffb168833f5f50e2c12a3461907d1f5): open (buildvm-a64-08.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  114351382 buildArch (java-1.8.0-openjdk-portable-1.8.0.402.b06-1.fc40.1.src.rpm, aarch64): free
+  114351383 buildArch (java-1.8.0-openjdk-portable-1.8.0.402.b06-1.fc40.1.src.rpm, ppc64le): free
+  114351381 buildArch (java-1.8.0-openjdk-portable-1.8.0.402.b06-1.fc40.1.src.rpm, x86_64): free
+  114351384 buildArch (java-1.8.0-openjdk-portable-1.8.0.402.b06-1.fc40.1.src.rpm, s390x): free
+  114351382 buildArch (java-1.8.0-openjdk-portable-1.8.0.402.b06-1.fc40.1.src.rpm, aarch64): free -> assigned
+  114351383 buildArch (java-1.8.0-openjdk-portable-1.8.0.402.b06-1.fc40.1.src.rpm, ppc64le): free -> assigned
+  114351381 buildArch (java-1.8.0-openjdk-portable-1.8.0.402.b06-1.fc40.1.src.rpm, x86_64): free -> assigned
+  114351384 buildArch (java-1.8.0-openjdk-portable-1.8.0.402.b06-1.fc40.1.src.rpm, s390x): free -> assigned
+  114351383 buildArch (java-1.8.0-openjdk-portable-1.8.0.402.b06-1.fc40.1.src.rpm, ppc64le): assigned -> open (buildvm-ppc64le-06.iad2.fedoraproject.org)
+  114351382 buildArch (java-1.8.0-openjdk-portable-1.8.0.402.b06-1.fc40.1.src.rpm, aarch64): assigned -> open (buildvm-a64-09.iad2.fedoraproject.org)
+  114351381 buildArch (java-1.8.0-openjdk-portable-1.8.0.402.b06-1.fc40.1.src.rpm, x86_64): assigned -> open (buildvm-x86-17.iad2.fedoraproject.org)
+  114351384 buildArch (java-1.8.0-openjdk-portable-1.8.0.402.b06-1.fc40.1.src.rpm, s390x): assigned -> open (buildvm-s390x-10.s390.fedoraproject.org)
+114351206 build (f40-build-side-84857, /rpms/java-1.8.0-openjdk-portable.git:e1a778dbeffb168833f5f50e2c12a3461907d1f5): open (buildvm-s390x-09.s390.fedoraproject.org) -> FAILED: BuildError: error building package (arch aarch64), mock exited with status 1; see build.log or root.log for more information
+  0 free  4 open  1 done  1 failed
+  114351382 buildArch (java-1.8.0-openjdk-portable-1.8.0.402.b06-1.fc40.1.src.rpm, aarch64): open (buildvm-a64-09.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch aarch64), mock exited with status 1; see build.log or root.log for more information
+  Relevant logs:
+  https://kojipkgs.fedoraproject.org/work/tasks/1382/114351382/state.log
+  https://kojipkgs.fedoraproject.org/work/tasks/1382/114351382/build.log
+  https://kojipkgs.fedoraproject.org/work/tasks/1382/114351382/root.log
+  https://kojipkgs.fedoraproject.org/work/tasks/1382/114351382/mock_output.log
+  https://kojipkgs.fedoraproject.org/work/tasks/1382/114351382/hw_info.log
+  0 free  3 open  1 done  2 failed
+  114351383 buildArch (java-1.8.0-openjdk-portable-1.8.0.402.b06-1.fc40.1.src.rpm, ppc64le): open (buildvm-ppc64le-06.iad2.fedoraproject.org) -> canceled
+  0 free  2 open  2 done  2 failed
+  114351381 buildArch (java-1.8.0-openjdk-portable-1.8.0.402.b06-1.fc40.1.src.rpm, x86_64): open (buildvm-x86-17.iad2.fedoraproject.org) -> canceled
+  0 free  1 open  3 done  2 failed
+  114351384 buildArch (java-1.8.0-openjdk-portable-1.8.0.402.b06-1.fc40.1.src.rpm, s390x): open (buildvm-s390x-10.s390.fedoraproject.org) -> canceled
+  0 free  0 open  4 done  2 failed
+
+114351206 build (f40-build-side-84857, /rpms/java-1.8.0-openjdk-portable.git:e1a778dbeffb168833f5f50e2c12a3461907d1f5) failed

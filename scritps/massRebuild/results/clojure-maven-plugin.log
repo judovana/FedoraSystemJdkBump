@@ -1,24 +1,27 @@
 Cloning into 'clojure-maven-plugin'...
-[rawhide 17e3643] Rebuilt for java-17-openjdk as system jdk
+[f40 4c976af] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building clojure-maven-plugin-1.8.4-6.fc36 for f36-java17
-Created task: 82424490
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82424490
+Building clojure-maven-plugin-1.9.2-6.fc40 for f40-build-side-84857
+Created task: 114347931
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114347931
 Watching tasks (this may be safely interrupted)...
-82424490 build (f36-java17, /rpms/clojure-maven-plugin.git:17e36434fbda3531b0616d3e9ac18c4619e9dba3): free
-82424490 build (f36-java17, /rpms/clojure-maven-plugin.git:17e36434fbda3531b0616d3e9ac18c4619e9dba3): free -> open (buildvm-ppc64le-34.iad2.fedoraproject.org)
-  82424600 buildSRPMFromSCM (/rpms/clojure-maven-plugin.git:17e36434fbda3531b0616d3e9ac18c4619e9dba3): free
-  82424600 buildSRPMFromSCM (/rpms/clojure-maven-plugin.git:17e36434fbda3531b0616d3e9ac18c4619e9dba3): free -> open (buildvm-x86-16.iad2.fedoraproject.org)
-  82424600 buildSRPMFromSCM (/rpms/clojure-maven-plugin.git:17e36434fbda3531b0616d3e9ac18c4619e9dba3): open (buildvm-x86-16.iad2.fedoraproject.org) -> closed
+114347931 build (f40-build-side-84857, /rpms/clojure-maven-plugin.git:4c976af99e723df15b0c882776369901a0fc5795): free
+114347931 build (f40-build-side-84857, /rpms/clojure-maven-plugin.git:4c976af99e723df15b0c882776369901a0fc5795): free -> assigned
+114347931 build (f40-build-side-84857, /rpms/clojure-maven-plugin.git:4c976af99e723df15b0c882776369901a0fc5795): assigned -> open (buildvm-ppc64le-08.iad2.fedoraproject.org)
+  114347966 buildSRPMFromSCM (/rpms/clojure-maven-plugin.git:4c976af99e723df15b0c882776369901a0fc5795): free
+  114347966 buildSRPMFromSCM (/rpms/clojure-maven-plugin.git:4c976af99e723df15b0c882776369901a0fc5795): free -> assigned
+  114347966 buildSRPMFromSCM (/rpms/clojure-maven-plugin.git:4c976af99e723df15b0c882776369901a0fc5795): assigned -> open (buildvm-x86-27.iad2.fedoraproject.org)
+  114347966 buildSRPMFromSCM (/rpms/clojure-maven-plugin.git:4c976af99e723df15b0c882776369901a0fc5795): open (buildvm-x86-27.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  82424909 buildArch (clojure-maven-plugin-1.8.4-6.fc36.src.rpm, noarch): free
-  82424909 buildArch (clojure-maven-plugin-1.8.4-6.fc36.src.rpm, noarch): free -> open (buildvm-a64-23.iad2.fedoraproject.org)
-  82425145 tagBuild (noarch): free
-  82424909 buildArch (clojure-maven-plugin-1.8.4-6.fc36.src.rpm, noarch): open (buildvm-a64-23.iad2.fedoraproject.org) -> closed
-  1 free  1 open  2 done  0 failed
-  82425145 tagBuild (noarch): free -> closed
+  114348069 buildArch (clojure-maven-plugin-1.9.2-6.fc40.src.rpm, noarch): free
+  114348069 buildArch (clojure-maven-plugin-1.9.2-6.fc40.src.rpm, noarch): free -> assigned
+  114348069 buildArch (clojure-maven-plugin-1.9.2-6.fc40.src.rpm, noarch): assigned -> open (buildvm-s390x-01.s390.fedoraproject.org)
+  114348118 tagBuild (noarch): assigned
+  114348069 buildArch (clojure-maven-plugin-1.9.2-6.fc40.src.rpm, noarch): open (buildvm-s390x-01.s390.fedoraproject.org) -> closed
+  0 free  2 open  2 done  0 failed
+114347931 build (f40-build-side-84857, /rpms/clojure-maven-plugin.git:4c976af99e723df15b0c882776369901a0fc5795): open (buildvm-ppc64le-08.iad2.fedoraproject.org) -> closed
   0 free  1 open  3 done  0 failed
-82424490 build (f36-java17, /rpms/clojure-maven-plugin.git:17e36434fbda3531b0616d3e9ac18c4619e9dba3): open (buildvm-ppc64le-34.iad2.fedoraproject.org) -> closed
+  114348118 tagBuild (noarch): assigned -> closed
   0 free  0 open  4 done  0 failed
 
-82424490 build (f36-java17, /rpms/clojure-maven-plugin.git:17e36434fbda3531b0616d3e9ac18c4619e9dba3) completed successfully
+114347931 build (f40-build-side-84857, /rpms/clojure-maven-plugin.git:4c976af99e723df15b0c882776369901a0fc5795) completed successfully

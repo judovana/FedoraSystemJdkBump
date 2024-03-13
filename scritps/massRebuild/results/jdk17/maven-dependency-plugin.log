@@ -1,0 +1,22 @@
+Cloning into 'maven-dependency-plugin'...
+[rawhide 97d4b7a] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building maven-dependency-plugin-3.1.2-9.fc36 for f36-java17
+Created task: 82431101
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82431101
+Watching tasks (this may be safely interrupted)...
+82431101 build (f36-java17, /rpms/maven-dependency-plugin.git:97d4b7ac85f79e0aeab7797e2dd987233bc227bf): free
+82431101 build (f36-java17, /rpms/maven-dependency-plugin.git:97d4b7ac85f79e0aeab7797e2dd987233bc227bf): free -> open (buildvm-ppc64le-29.iad2.fedoraproject.org)
+  82431125 buildSRPMFromSCM (/rpms/maven-dependency-plugin.git:97d4b7ac85f79e0aeab7797e2dd987233bc227bf): open (buildvm-ppc64le-29.iad2.fedoraproject.org)
+  82431125 buildSRPMFromSCM (/rpms/maven-dependency-plugin.git:97d4b7ac85f79e0aeab7797e2dd987233bc227bf): open (buildvm-ppc64le-29.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82431186 buildArch (maven-dependency-plugin-3.1.2-9.fc36.src.rpm, noarch): open (buildvm-ppc64le-11.iad2.fedoraproject.org)
+  82431186 buildArch (maven-dependency-plugin-3.1.2-9.fc36.src.rpm, noarch): open (buildvm-ppc64le-11.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  82431412 tagBuild (noarch): open (buildhw-x86-12.iad2.fedoraproject.org)
+82431101 build (f36-java17, /rpms/maven-dependency-plugin.git:97d4b7ac85f79e0aeab7797e2dd987233bc227bf): open (buildvm-ppc64le-29.iad2.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+  82431412 tagBuild (noarch): open (buildhw-x86-12.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+82431101 build (f36-java17, /rpms/maven-dependency-plugin.git:97d4b7ac85f79e0aeab7797e2dd987233bc227bf) completed successfully

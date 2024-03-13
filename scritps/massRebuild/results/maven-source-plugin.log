@@ -1,24 +1,29 @@
 Cloning into 'maven-source-plugin'...
-[rawhide 1511d41] Rebuilt for java-17-openjdk as system jdk
+[f40 f3505be] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building maven-source-plugin-3.2.1-8.fc36 for f36-java17
-Created task: 82431852
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82431852
+Found a gating.yaml file in the repo and it is properly configured
+Building maven-source-plugin-3.3.0-6.fc40 for f40-build-side-84857
+Created task: 114354282
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114354282
 Watching tasks (this may be safely interrupted)...
-82431852 build (f36-java17, /rpms/maven-source-plugin.git:1511d417d3672990392333f7e479b99d9295319d): free
-82431852 build (f36-java17, /rpms/maven-source-plugin.git:1511d417d3672990392333f7e479b99d9295319d): free -> open (buildvm-s390x-22.s390.fedoraproject.org)
-  82431853 buildSRPMFromSCM (/rpms/maven-source-plugin.git:1511d417d3672990392333f7e479b99d9295319d): free
-  82431853 buildSRPMFromSCM (/rpms/maven-source-plugin.git:1511d417d3672990392333f7e479b99d9295319d): free -> open (buildvm-x86-27.iad2.fedoraproject.org)
-  82431853 buildSRPMFromSCM (/rpms/maven-source-plugin.git:1511d417d3672990392333f7e479b99d9295319d): open (buildvm-x86-27.iad2.fedoraproject.org) -> closed
+114354282 build (f40-build-side-84857, /rpms/maven-source-plugin.git:f3505be13c66e7c8764544f6a37553392c603bda): free
+114354282 build (f40-build-side-84857, /rpms/maven-source-plugin.git:f3505be13c66e7c8764544f6a37553392c603bda): free -> assigned
+114354282 build (f40-build-side-84857, /rpms/maven-source-plugin.git:f3505be13c66e7c8764544f6a37553392c603bda): assigned -> open (buildvm-x86-15.iad2.fedoraproject.org)
+  114354312 buildSRPMFromSCM (/rpms/maven-source-plugin.git:f3505be13c66e7c8764544f6a37553392c603bda): free
+  114354312 buildSRPMFromSCM (/rpms/maven-source-plugin.git:f3505be13c66e7c8764544f6a37553392c603bda): free -> assigned
+  114354312 buildSRPMFromSCM (/rpms/maven-source-plugin.git:f3505be13c66e7c8764544f6a37553392c603bda): assigned -> open (buildvm-a64-08.iad2.fedoraproject.org)
+  114354312 buildSRPMFromSCM (/rpms/maven-source-plugin.git:f3505be13c66e7c8764544f6a37553392c603bda): open (buildvm-a64-08.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  82431931 buildArch (maven-source-plugin-3.2.1-8.fc36.src.rpm, noarch): free
-  82431931 buildArch (maven-source-plugin-3.2.1-8.fc36.src.rpm, noarch): free -> open (buildvm-ppc64le-40.iad2.fedoraproject.org)
-  82431931 buildArch (maven-source-plugin-3.2.1-8.fc36.src.rpm, noarch): open (buildvm-ppc64le-40.iad2.fedoraproject.org) -> closed
+  114354412 buildArch (maven-source-plugin-3.3.0-6.fc40.src.rpm, noarch): free
+  114354412 buildArch (maven-source-plugin-3.3.0-6.fc40.src.rpm, noarch): free -> assigned
+  114354412 buildArch (maven-source-plugin-3.3.0-6.fc40.src.rpm, noarch): assigned -> open (buildvm-s390x-04.s390.fedoraproject.org)
+  114354412 buildArch (maven-source-plugin-3.3.0-6.fc40.src.rpm, noarch): open (buildvm-s390x-04.s390.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  82432103 tagBuild (noarch): free
-  82432103 tagBuild (noarch): free -> closed
+  114354547 tagBuild (noarch): free
+  114354547 tagBuild (noarch): free -> assigned
+  114354547 tagBuild (noarch): assigned -> closed
   0 free  1 open  3 done  0 failed
-82431852 build (f36-java17, /rpms/maven-source-plugin.git:1511d417d3672990392333f7e479b99d9295319d): open (buildvm-s390x-22.s390.fedoraproject.org) -> closed
+114354282 build (f40-build-side-84857, /rpms/maven-source-plugin.git:f3505be13c66e7c8764544f6a37553392c603bda): open (buildvm-x86-15.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-82431852 build (f36-java17, /rpms/maven-source-plugin.git:1511d417d3672990392333f7e479b99d9295319d) completed successfully
+114354282 build (f40-build-side-84857, /rpms/maven-source-plugin.git:f3505be13c66e7c8764544f6a37553392c603bda) completed successfully

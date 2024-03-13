@@ -1,21 +1,28 @@
 Cloning into 'apache-commons-lang3'...
-[rawhide a46dbb7] Rebuilt for java-17-openjdk as system jdk
+[f40 2ff8bcc] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building apache-commons-lang3-3.12.0-5.fc36 for f36-java17
-Created task: 82423345
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82423345
+Found a gating.yaml file in the repo and it is properly configured
+Building apache-commons-lang3-3.14.0-5.fc40 for f40-build-side-84857
+Created task: 114346873
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114346873
 Watching tasks (this may be safely interrupted)...
-82423345 build (f36-java17, /rpms/apache-commons-lang3.git:a46dbb72a95240468681a3a616d01466429bbfe7): free
-82423345 build (f36-java17, /rpms/apache-commons-lang3.git:a46dbb72a95240468681a3a616d01466429bbfe7): free -> open (buildvm-x86-18.iad2.fedoraproject.org)
-  82423347 buildSRPMFromSCM (/rpms/apache-commons-lang3.git:a46dbb72a95240468681a3a616d01466429bbfe7): free
-  82423347 buildSRPMFromSCM (/rpms/apache-commons-lang3.git:a46dbb72a95240468681a3a616d01466429bbfe7): free -> open (buildvm-x86-15.iad2.fedoraproject.org)
-  82423347 buildSRPMFromSCM (/rpms/apache-commons-lang3.git:a46dbb72a95240468681a3a616d01466429bbfe7): open (buildvm-x86-15.iad2.fedoraproject.org) -> closed
-  0 free  1 open  1 done  0 failed
-  82423426 buildArch (apache-commons-lang3-3.12.0-5.fc36.src.rpm, noarch): open (buildvm-ppc64le-33.iad2.fedoraproject.org)
-  82423426 buildArch (apache-commons-lang3-3.12.0-5.fc36.src.rpm, noarch): open (buildvm-ppc64le-33.iad2.fedoraproject.org) -> closed
-  0 free  1 open  2 done  0 failed
-  82423510 tagBuild (noarch): closed
-82423345 build (f36-java17, /rpms/apache-commons-lang3.git:a46dbb72a95240468681a3a616d01466429bbfe7): open (buildvm-x86-18.iad2.fedoraproject.org) -> closed
+114346873 build (f40-build-side-84857, /rpms/apache-commons-lang3.git:2ff8bcc35891ef8d43c1fd0f6299f5a2ecd998f1): free
+114346873 build (f40-build-side-84857, /rpms/apache-commons-lang3.git:2ff8bcc35891ef8d43c1fd0f6299f5a2ecd998f1): free -> assigned
+114346873 build (f40-build-side-84857, /rpms/apache-commons-lang3.git:2ff8bcc35891ef8d43c1fd0f6299f5a2ecd998f1): assigned -> open (buildvm-ppc64le-05.iad2.fedoraproject.org)
+  114346923 buildSRPMFromSCM (/rpms/apache-commons-lang3.git:2ff8bcc35891ef8d43c1fd0f6299f5a2ecd998f1): free
+  114346923 buildSRPMFromSCM (/rpms/apache-commons-lang3.git:2ff8bcc35891ef8d43c1fd0f6299f5a2ecd998f1): free -> assigned
+  114346923 buildSRPMFromSCM (/rpms/apache-commons-lang3.git:2ff8bcc35891ef8d43c1fd0f6299f5a2ecd998f1): assigned -> open (buildvm-a64-05.iad2.fedoraproject.org)
+  114347046 buildArch (apache-commons-lang3-3.14.0-5.fc40.src.rpm, noarch): free
+  114346923 buildSRPMFromSCM (/rpms/apache-commons-lang3.git:2ff8bcc35891ef8d43c1fd0f6299f5a2ecd998f1): open (buildvm-a64-05.iad2.fedoraproject.org) -> closed
+  1 free  1 open  1 done  0 failed
+  114347046 buildArch (apache-commons-lang3-3.14.0-5.fc40.src.rpm, noarch): free -> assigned
+  114347046 buildArch (apache-commons-lang3-3.14.0-5.fc40.src.rpm, noarch): assigned -> open (buildvm-s390x-01.s390.fedoraproject.org)
+  114347107 tagBuild (noarch): free
+  114347046 buildArch (apache-commons-lang3-3.14.0-5.fc40.src.rpm, noarch): open (buildvm-s390x-01.s390.fedoraproject.org) -> closed
+  1 free  1 open  2 done  0 failed
+  114347107 tagBuild (noarch): free -> closed
+  0 free  1 open  3 done  0 failed
+114346873 build (f40-build-side-84857, /rpms/apache-commons-lang3.git:2ff8bcc35891ef8d43c1fd0f6299f5a2ecd998f1): open (buildvm-ppc64le-05.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-82423345 build (f36-java17, /rpms/apache-commons-lang3.git:a46dbb72a95240468681a3a616d01466429bbfe7) completed successfully
+114346873 build (f40-build-side-84857, /rpms/apache-commons-lang3.git:2ff8bcc35891ef8d43c1fd0f6299f5a2ecd998f1) completed successfully

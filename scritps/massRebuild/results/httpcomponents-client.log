@@ -1,25 +1,29 @@
 Cloning into 'httpcomponents-client'...
-[rawhide e1a41ee] Rebuilt for java-17-openjdk as system jdk
+[f40 c025353] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building httpcomponents-client-4.5.13-4.fc36 for f36-java17
-Created task: 82426817
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82426817
+Found a gating.yaml file in the repo and it is properly configured
+Building httpcomponents-client-4.5.14-8.fc40 for f40-build-side-84857
+Created task: 114350015
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114350015
 Watching tasks (this may be safely interrupted)...
-82426817 build (f36-java17, /rpms/httpcomponents-client.git:e1a41ee19c8f299f0e916d7fe1a78736f66e95e7): free
-82426817 build (f36-java17, /rpms/httpcomponents-client.git:e1a41ee19c8f299f0e916d7fe1a78736f66e95e7): free -> open (buildvm-s390x-03.s390.fedoraproject.org)
-  82426819 buildSRPMFromSCM (/rpms/httpcomponents-client.git:e1a41ee19c8f299f0e916d7fe1a78736f66e95e7): free
-  82426819 buildSRPMFromSCM (/rpms/httpcomponents-client.git:e1a41ee19c8f299f0e916d7fe1a78736f66e95e7): free -> open (buildvm-x86-11.iad2.fedoraproject.org)
-  82426819 buildSRPMFromSCM (/rpms/httpcomponents-client.git:e1a41ee19c8f299f0e916d7fe1a78736f66e95e7): open (buildvm-x86-11.iad2.fedoraproject.org) -> closed
+114350015 build (f40-build-side-84857, /rpms/httpcomponents-client.git:c02535378bdb0ffee1f66fdab806fce2827d9d83): free
+114350015 build (f40-build-side-84857, /rpms/httpcomponents-client.git:c02535378bdb0ffee1f66fdab806fce2827d9d83): free -> assigned
+114350015 build (f40-build-side-84857, /rpms/httpcomponents-client.git:c02535378bdb0ffee1f66fdab806fce2827d9d83): assigned -> open (buildvm-ppc64le-05.iad2.fedoraproject.org)
+  114350037 buildSRPMFromSCM (/rpms/httpcomponents-client.git:c02535378bdb0ffee1f66fdab806fce2827d9d83): free
+  114350037 buildSRPMFromSCM (/rpms/httpcomponents-client.git:c02535378bdb0ffee1f66fdab806fce2827d9d83): free -> assigned
+  114350037 buildSRPMFromSCM (/rpms/httpcomponents-client.git:c02535378bdb0ffee1f66fdab806fce2827d9d83): assigned -> open (buildvm-x86-11.iad2.fedoraproject.org)
+  114350037 buildSRPMFromSCM (/rpms/httpcomponents-client.git:c02535378bdb0ffee1f66fdab806fce2827d9d83): open (buildvm-x86-11.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  82426853 buildArch (httpcomponents-client-4.5.13-4.fc36.src.rpm, noarch): free
-  82426853 buildArch (httpcomponents-client-4.5.13-4.fc36.src.rpm, noarch): free -> open (buildvm-x86-17.iad2.fedoraproject.org)
-  82426853 buildArch (httpcomponents-client-4.5.13-4.fc36.src.rpm, noarch): open (buildvm-x86-17.iad2.fedoraproject.org) -> closed
+  114350216 buildArch (httpcomponents-client-4.5.14-8.fc40.src.rpm, noarch): free
+  114350216 buildArch (httpcomponents-client-4.5.14-8.fc40.src.rpm, noarch): free -> assigned
+  114350216 buildArch (httpcomponents-client-4.5.14-8.fc40.src.rpm, noarch): assigned -> open (buildvm-s390x-04.s390.fedoraproject.org)
+  114350216 buildArch (httpcomponents-client-4.5.14-8.fc40.src.rpm, noarch): open (buildvm-s390x-04.s390.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  82427029 tagBuild (noarch): free
-  82427029 tagBuild (noarch): free -> open (buildvm-s390x-03.s390.fedoraproject.org)
-82426817 build (f36-java17, /rpms/httpcomponents-client.git:e1a41ee19c8f299f0e916d7fe1a78736f66e95e7): open (buildvm-s390x-03.s390.fedoraproject.org) -> closed
+  114350289 tagBuild (noarch): free
+  114350289 tagBuild (noarch): free -> assigned
+114350015 build (f40-build-side-84857, /rpms/httpcomponents-client.git:c02535378bdb0ffee1f66fdab806fce2827d9d83): open (buildvm-ppc64le-05.iad2.fedoraproject.org) -> closed
   0 free  1 open  3 done  0 failed
-  82427029 tagBuild (noarch): open (buildvm-s390x-03.s390.fedoraproject.org) -> closed
+  114350289 tagBuild (noarch): assigned -> closed
   0 free  0 open  4 done  0 failed
 
-82426817 build (f36-java17, /rpms/httpcomponents-client.git:e1a41ee19c8f299f0e916d7fe1a78736f66e95e7) completed successfully
+114350015 build (f40-build-side-84857, /rpms/httpcomponents-client.git:c02535378bdb0ffee1f66fdab806fce2827d9d83) completed successfully

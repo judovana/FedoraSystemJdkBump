@@ -1,0 +1,35 @@
+Cloning into 'dogtag-pki'...
+[rawhide 6c6766e] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building dogtag-pki-11.1.0-0.3.alpha2.fc36 for f36-java17
+Created task: 82425731
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82425731
+Watching tasks (this may be safely interrupted)...
+82425731 build (f36-java17, /rpms/dogtag-pki.git:6c6766ee2b720b123504612b4de3dc12a4c06abf): free
+82425731 build (f36-java17, /rpms/dogtag-pki.git:6c6766ee2b720b123504612b4de3dc12a4c06abf): free -> open (buildvm-ppc64le-11.iad2.fedoraproject.org)
+  82425732 buildSRPMFromSCM (/rpms/dogtag-pki.git:6c6766ee2b720b123504612b4de3dc12a4c06abf): open (buildvm-ppc64le-32.iad2.fedoraproject.org)
+  82425732 buildSRPMFromSCM (/rpms/dogtag-pki.git:6c6766ee2b720b123504612b4de3dc12a4c06abf): open (buildvm-ppc64le-32.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82425763 buildArch (dogtag-pki-11.1.0-0.3.alpha2.fc36.src.rpm, armv7hl): open (buildvm-a32-30.iad2.fedoraproject.org)
+  82425767 buildArch (dogtag-pki-11.1.0-0.3.alpha2.fc36.src.rpm, s390x): open (buildvm-s390x-35.s390.fedoraproject.org)
+  82425764 buildArch (dogtag-pki-11.1.0-0.3.alpha2.fc36.src.rpm, x86_64): free
+  82425765 buildArch (dogtag-pki-11.1.0-0.3.alpha2.fc36.src.rpm, aarch64): open (buildvm-a64-03.iad2.fedoraproject.org)
+  82425766 buildArch (dogtag-pki-11.1.0-0.3.alpha2.fc36.src.rpm, ppc64le): open (buildvm-ppc64le-33.iad2.fedoraproject.org)
+  82425764 buildArch (dogtag-pki-11.1.0-0.3.alpha2.fc36.src.rpm, x86_64): free -> open (buildvm-x86-32.iad2.fedoraproject.org)
+  82425764 buildArch (dogtag-pki-11.1.0-0.3.alpha2.fc36.src.rpm, x86_64): open (buildvm-x86-32.iad2.fedoraproject.org) -> closed
+  0 free  5 open  2 done  0 failed
+  82425767 buildArch (dogtag-pki-11.1.0-0.3.alpha2.fc36.src.rpm, s390x): open (buildvm-s390x-35.s390.fedoraproject.org) -> closed
+  0 free  4 open  3 done  0 failed
+  82425766 buildArch (dogtag-pki-11.1.0-0.3.alpha2.fc36.src.rpm, ppc64le): open (buildvm-ppc64le-33.iad2.fedoraproject.org) -> closed
+  0 free  3 open  4 done  0 failed
+  82425765 buildArch (dogtag-pki-11.1.0-0.3.alpha2.fc36.src.rpm, aarch64): open (buildvm-a64-03.iad2.fedoraproject.org) -> closed
+  0 free  2 open  5 done  0 failed
+  82425763 buildArch (dogtag-pki-11.1.0-0.3.alpha2.fc36.src.rpm, armv7hl): open (buildvm-a32-30.iad2.fedoraproject.org) -> closed
+  0 free  1 open  6 done  0 failed
+  82426164 tagBuild (noarch): free
+82425731 build (f36-java17, /rpms/dogtag-pki.git:6c6766ee2b720b123504612b4de3dc12a4c06abf): open (buildvm-ppc64le-11.iad2.fedoraproject.org) -> closed
+  1 free  0 open  7 done  0 failed
+  82426164 tagBuild (noarch): free -> closed
+  0 free  0 open  8 done  0 failed
+
+82425731 build (f36-java17, /rpms/dogtag-pki.git:6c6766ee2b720b123504612b4de3dc12a4c06abf) completed successfully

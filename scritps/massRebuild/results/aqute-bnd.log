@@ -1,22 +1,28 @@
 Cloning into 'aqute-bnd'...
-[rawhide 18b9188] Rebuilt for java-17-openjdk as system jdk
+[f40 c7ea035] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building aqute-bnd-5.2.0-9.fc36 for f36-java17
-Created task: 82423526
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82423526
+Found a gating.yaml file in the repo and it is properly configured
+Building aqute-bnd-6.3.1-10.fc40 for f40-build-side-84857
+Created task: 114347226
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114347226
 Watching tasks (this may be safely interrupted)...
-82423526 build (f36-java17, /rpms/aqute-bnd.git:18b9188e4055f367d9fa5d44e98ebf86bbeb3134): open (buildvm-ppc64le-33.iad2.fedoraproject.org)
-  82423527 buildSRPMFromSCM (/rpms/aqute-bnd.git:18b9188e4055f367d9fa5d44e98ebf86bbeb3134): free
-  82423527 buildSRPMFromSCM (/rpms/aqute-bnd.git:18b9188e4055f367d9fa5d44e98ebf86bbeb3134): free -> open (buildvm-ppc64le-06.iad2.fedoraproject.org)
-  82423527 buildSRPMFromSCM (/rpms/aqute-bnd.git:18b9188e4055f367d9fa5d44e98ebf86bbeb3134): open (buildvm-ppc64le-06.iad2.fedoraproject.org) -> closed
-  0 free  1 open  1 done  0 failed
-  82423563 buildArch (aqute-bnd-5.2.0-9.fc36.src.rpm, noarch): open (buildvm-ppc64le-13.iad2.fedoraproject.org)
-  82423563 buildArch (aqute-bnd-5.2.0-9.fc36.src.rpm, noarch): open (buildvm-ppc64le-13.iad2.fedoraproject.org) -> closed
+114347226 build (f40-build-side-84857, /rpms/aqute-bnd.git:c7ea0355750ab9c3910e2449d4c836fc6b20f919): free
+114347226 build (f40-build-side-84857, /rpms/aqute-bnd.git:c7ea0355750ab9c3910e2449d4c836fc6b20f919): free -> assigned
+114347226 build (f40-build-side-84857, /rpms/aqute-bnd.git:c7ea0355750ab9c3910e2449d4c836fc6b20f919): assigned -> open (buildvm-a64-07.iad2.fedoraproject.org)
+  114347292 buildSRPMFromSCM (/rpms/aqute-bnd.git:c7ea0355750ab9c3910e2449d4c836fc6b20f919): free
+  114347292 buildSRPMFromSCM (/rpms/aqute-bnd.git:c7ea0355750ab9c3910e2449d4c836fc6b20f919): free -> assigned
+  114347292 buildSRPMFromSCM (/rpms/aqute-bnd.git:c7ea0355750ab9c3910e2449d4c836fc6b20f919): assigned -> open (buildvm-a64-35.iad2.fedoraproject.org)
+  114347400 buildArch (aqute-bnd-6.3.1-10.fc40.src.rpm, noarch): free
+  114347292 buildSRPMFromSCM (/rpms/aqute-bnd.git:c7ea0355750ab9c3910e2449d4c836fc6b20f919): open (buildvm-a64-35.iad2.fedoraproject.org) -> closed
+  1 free  1 open  1 done  0 failed
+  114347400 buildArch (aqute-bnd-6.3.1-10.fc40.src.rpm, noarch): free -> assigned
+  114347400 buildArch (aqute-bnd-6.3.1-10.fc40.src.rpm, noarch): assigned -> open (buildvm-x86-29.iad2.fedoraproject.org)
+  114347400 buildArch (aqute-bnd-6.3.1-10.fc40.src.rpm, noarch): open (buildvm-x86-29.iad2.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  82423820 tagBuild (noarch): free
-  82423820 tagBuild (noarch): free -> closed
+  114347475 tagBuild (noarch): free
+  114347475 tagBuild (noarch): free -> closed
   0 free  1 open  3 done  0 failed
-82423526 build (f36-java17, /rpms/aqute-bnd.git:18b9188e4055f367d9fa5d44e98ebf86bbeb3134): open (buildvm-ppc64le-33.iad2.fedoraproject.org) -> closed
+114347226 build (f40-build-side-84857, /rpms/aqute-bnd.git:c7ea0355750ab9c3910e2449d4c836fc6b20f919): open (buildvm-a64-07.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-82423526 build (f36-java17, /rpms/aqute-bnd.git:18b9188e4055f367d9fa5d44e98ebf86bbeb3134) completed successfully
+114347226 build (f40-build-side-84857, /rpms/aqute-bnd.git:c7ea0355750ab9c3910e2449d4c836fc6b20f919) completed successfully

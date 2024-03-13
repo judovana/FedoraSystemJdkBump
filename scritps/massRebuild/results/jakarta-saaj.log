@@ -1,23 +1,27 @@
 Cloning into 'jakarta-saaj'...
-[rawhide c88e7a4] Rebuilt for java-17-openjdk as system jdk
+[f40 72551f7] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building jakarta-saaj-1.4.2-5.fc36 for f36-java17
-Created task: 82427645
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82427645
+Building jakarta-saaj-3.0.0-6.fc40 for f40-build-side-84857
+Created task: 114350706
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114350706
 Watching tasks (this may be safely interrupted)...
-82427645 build (f36-java17, /rpms/jakarta-saaj.git:c88e7a40ed71508ed4951082d58f251fd17a82be): open (buildvm-a32-11.iad2.fedoraproject.org)
-  82427646 buildSRPMFromSCM (/rpms/jakarta-saaj.git:c88e7a40ed71508ed4951082d58f251fd17a82be): free
-  82427646 buildSRPMFromSCM (/rpms/jakarta-saaj.git:c88e7a40ed71508ed4951082d58f251fd17a82be): free -> open (buildvm-ppc64le-22.iad2.fedoraproject.org)
-  82427844 buildArch (jakarta-saaj-1.4.2-5.fc36.src.rpm, noarch): free
-  82427646 buildSRPMFromSCM (/rpms/jakarta-saaj.git:c88e7a40ed71508ed4951082d58f251fd17a82be): open (buildvm-ppc64le-22.iad2.fedoraproject.org) -> closed
-  1 free  1 open  1 done  0 failed
-  82427844 buildArch (jakarta-saaj-1.4.2-5.fc36.src.rpm, noarch): free -> open (buildvm-a64-25.iad2.fedoraproject.org)
-  82428087 tagBuild (noarch): free
-  82427844 buildArch (jakarta-saaj-1.4.2-5.fc36.src.rpm, noarch): open (buildvm-a64-25.iad2.fedoraproject.org) -> closed
-  1 free  1 open  2 done  0 failed
-  82428087 tagBuild (noarch): free -> closed
+114350706 build (f40-build-side-84857, /rpms/jakarta-saaj.git:72551f7e0cbe40e8f229e2a3cd8d376bb6a29fb5): free
+114350706 build (f40-build-side-84857, /rpms/jakarta-saaj.git:72551f7e0cbe40e8f229e2a3cd8d376bb6a29fb5): free -> assigned
+114350706 build (f40-build-side-84857, /rpms/jakarta-saaj.git:72551f7e0cbe40e8f229e2a3cd8d376bb6a29fb5): assigned -> open (buildvm-ppc64le-14.iad2.fedoraproject.org)
+  114350716 buildSRPMFromSCM (/rpms/jakarta-saaj.git:72551f7e0cbe40e8f229e2a3cd8d376bb6a29fb5): free
+  114350716 buildSRPMFromSCM (/rpms/jakarta-saaj.git:72551f7e0cbe40e8f229e2a3cd8d376bb6a29fb5): free -> assigned
+  114350716 buildSRPMFromSCM (/rpms/jakarta-saaj.git:72551f7e0cbe40e8f229e2a3cd8d376bb6a29fb5): assigned -> open (buildvm-a64-05.iad2.fedoraproject.org)
+  114350716 buildSRPMFromSCM (/rpms/jakarta-saaj.git:72551f7e0cbe40e8f229e2a3cd8d376bb6a29fb5): open (buildvm-a64-05.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  114350821 buildArch (jakarta-saaj-3.0.0-6.fc40.src.rpm, noarch): free
+  114350821 buildArch (jakarta-saaj-3.0.0-6.fc40.src.rpm, noarch): free -> open (buildvm-x86-06.iad2.fedoraproject.org)
+  114350821 buildArch (jakarta-saaj-3.0.0-6.fc40.src.rpm, noarch): open (buildvm-x86-06.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  114351048 tagBuild (noarch): free
+  114351048 tagBuild (noarch): free -> assigned
+114350706 build (f40-build-side-84857, /rpms/jakarta-saaj.git:72551f7e0cbe40e8f229e2a3cd8d376bb6a29fb5): open (buildvm-ppc64le-14.iad2.fedoraproject.org) -> closed
   0 free  1 open  3 done  0 failed
-82427645 build (f36-java17, /rpms/jakarta-saaj.git:c88e7a40ed71508ed4951082d58f251fd17a82be): open (buildvm-a32-11.iad2.fedoraproject.org) -> closed
+  114351048 tagBuild (noarch): assigned -> closed
   0 free  0 open  4 done  0 failed
 
-82427645 build (f36-java17, /rpms/jakarta-saaj.git:c88e7a40ed71508ed4951082d58f251fd17a82be) completed successfully
+114350706 build (f40-build-side-84857, /rpms/jakarta-saaj.git:72551f7e0cbe40e8f229e2a3cd8d376bb6a29fb5) completed successfully

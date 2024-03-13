@@ -1,32 +1,42 @@
 Cloning into 'eclipse-swt'...
-[rawhide 62c6d8c] Rebuilt for java-17-openjdk as system jdk
+[f40 27a4585] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building eclipse-swt-4.22-4.fc36 for f36-java17
-Created task: 82425769
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82425769
+Building eclipse-swt-4.29-4.fc40 for f40-build-side-84857
+Created task: 114348638
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114348638
 Watching tasks (this may be safely interrupted)...
-82425769 build (f36-java17, /rpms/eclipse-swt.git:62c6d8c83ef99561c060a6669004f17f00e8bfba): free
-82425769 build (f36-java17, /rpms/eclipse-swt.git:62c6d8c83ef99561c060a6669004f17f00e8bfba): free -> open (buildvm-ppc64le-25.iad2.fedoraproject.org)
-  82425771 buildSRPMFromSCM (/rpms/eclipse-swt.git:62c6d8c83ef99561c060a6669004f17f00e8bfba): open (buildvm-ppc64le-27.iad2.fedoraproject.org)
-  82425771 buildSRPMFromSCM (/rpms/eclipse-swt.git:62c6d8c83ef99561c060a6669004f17f00e8bfba): open (buildvm-ppc64le-27.iad2.fedoraproject.org) -> closed
+114348638 build (f40-build-side-84857, /rpms/eclipse-swt.git:27a45853b1f228d1ffdf8119e0aa0c80712eddd3): free
+114348638 build (f40-build-side-84857, /rpms/eclipse-swt.git:27a45853b1f228d1ffdf8119e0aa0c80712eddd3): free -> open (buildvm-s390x-05.s390.fedoraproject.org)
+  114348673 buildSRPMFromSCM (/rpms/eclipse-swt.git:27a45853b1f228d1ffdf8119e0aa0c80712eddd3): free
+  114348673 buildSRPMFromSCM (/rpms/eclipse-swt.git:27a45853b1f228d1ffdf8119e0aa0c80712eddd3): free -> assigned
+  114348673 buildSRPMFromSCM (/rpms/eclipse-swt.git:27a45853b1f228d1ffdf8119e0aa0c80712eddd3): assigned -> open (buildvm-x86-26.iad2.fedoraproject.org)
+  114348673 buildSRPMFromSCM (/rpms/eclipse-swt.git:27a45853b1f228d1ffdf8119e0aa0c80712eddd3): open (buildvm-x86-26.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  82425810 buildArch (eclipse-swt-4.22-4.fc36.src.rpm, s390x): open (buildvm-s390x-05.s390.fedoraproject.org)
-  82425807 buildArch (eclipse-swt-4.22-4.fc36.src.rpm, x86_64): free
-  82425808 buildArch (eclipse-swt-4.22-4.fc36.src.rpm, aarch64): open (buildvm-a64-30.iad2.fedoraproject.org)
-  82425809 buildArch (eclipse-swt-4.22-4.fc36.src.rpm, ppc64le): open (buildvm-ppc64le-40.iad2.fedoraproject.org)
-  82425807 buildArch (eclipse-swt-4.22-4.fc36.src.rpm, x86_64): free -> open (buildvm-x86-10.iad2.fedoraproject.org)
-  82425810 buildArch (eclipse-swt-4.22-4.fc36.src.rpm, s390x): open (buildvm-s390x-05.s390.fedoraproject.org) -> closed
+  114348939 buildArch (eclipse-swt-4.29-4.fc40.src.rpm, aarch64): free
+  114348938 buildArch (eclipse-swt-4.29-4.fc40.src.rpm, x86_64): free
+  114348941 buildArch (eclipse-swt-4.29-4.fc40.src.rpm, s390x): free
+  114348940 buildArch (eclipse-swt-4.29-4.fc40.src.rpm, ppc64le): free
+  114348939 buildArch (eclipse-swt-4.29-4.fc40.src.rpm, aarch64): free -> assigned
+  114348938 buildArch (eclipse-swt-4.29-4.fc40.src.rpm, x86_64): free -> assigned
+  114348941 buildArch (eclipse-swt-4.29-4.fc40.src.rpm, s390x): free -> assigned
+  114348940 buildArch (eclipse-swt-4.29-4.fc40.src.rpm, ppc64le): free -> assigned
+  114348941 buildArch (eclipse-swt-4.29-4.fc40.src.rpm, s390x): assigned -> open (buildvm-s390x-04.s390.fedoraproject.org)
+  114348938 buildArch (eclipse-swt-4.29-4.fc40.src.rpm, x86_64): assigned -> open (buildhw-x86-05.iad2.fedoraproject.org)
+  114348940 buildArch (eclipse-swt-4.29-4.fc40.src.rpm, ppc64le): assigned -> open (buildvm-ppc64le-06.iad2.fedoraproject.org)
+  114348941 buildArch (eclipse-swt-4.29-4.fc40.src.rpm, s390x): open (buildvm-s390x-04.s390.fedoraproject.org) -> closed
   0 free  4 open  2 done  0 failed
-  82425807 buildArch (eclipse-swt-4.22-4.fc36.src.rpm, x86_64): open (buildvm-x86-10.iad2.fedoraproject.org) -> closed
+  114348939 buildArch (eclipse-swt-4.29-4.fc40.src.rpm, aarch64): assigned -> open (buildvm-a64-10.iad2.fedoraproject.org)
+  114348938 buildArch (eclipse-swt-4.29-4.fc40.src.rpm, x86_64): open (buildhw-x86-05.iad2.fedoraproject.org) -> closed
   0 free  3 open  3 done  0 failed
-  82425809 buildArch (eclipse-swt-4.22-4.fc36.src.rpm, ppc64le): open (buildvm-ppc64le-40.iad2.fedoraproject.org) -> closed
+  114348940 buildArch (eclipse-swt-4.29-4.fc40.src.rpm, ppc64le): open (buildvm-ppc64le-06.iad2.fedoraproject.org) -> closed
   0 free  2 open  4 done  0 failed
-  82425808 buildArch (eclipse-swt-4.22-4.fc36.src.rpm, aarch64): open (buildvm-a64-30.iad2.fedoraproject.org) -> closed
+  114348939 buildArch (eclipse-swt-4.29-4.fc40.src.rpm, aarch64): open (buildvm-a64-10.iad2.fedoraproject.org) -> closed
   0 free  1 open  5 done  0 failed
-  82426076 tagBuild (noarch): free
-  82426076 tagBuild (noarch): free -> closed
+  114349383 tagBuild (noarch): free
+  114349383 tagBuild (noarch): free -> assigned
+  114349383 tagBuild (noarch): assigned -> closed
   0 free  1 open  6 done  0 failed
-82425769 build (f36-java17, /rpms/eclipse-swt.git:62c6d8c83ef99561c060a6669004f17f00e8bfba): open (buildvm-ppc64le-25.iad2.fedoraproject.org) -> closed
+114348638 build (f40-build-side-84857, /rpms/eclipse-swt.git:27a45853b1f228d1ffdf8119e0aa0c80712eddd3): open (buildvm-s390x-05.s390.fedoraproject.org) -> closed
   0 free  0 open  7 done  0 failed
 
-82425769 build (f36-java17, /rpms/eclipse-swt.git:62c6d8c83ef99561c060a6669004f17f00e8bfba) completed successfully
+114348638 build (f40-build-side-84857, /rpms/eclipse-swt.git:27a45853b1f228d1ffdf8119e0aa0c80712eddd3) completed successfully

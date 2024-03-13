@@ -1,24 +1,25 @@
 Cloning into 'hawtjni'...
-[rawhide 7c24a6d] Rebuilt for java-17-openjdk as system jdk
+[f40 79af40b] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building hawtjni-1.18-4.fc36 for f36-java17
-Created task: 82426635
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82426635
+Building hawtjni-1.18-12.fc40 for f40-build-side-84857
+Created task: 114349867
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114349867
 Watching tasks (this may be safely interrupted)...
-82426635 build (f36-java17, /rpms/hawtjni.git:7c24a6dec41ef1eb73fc35f08280eeaa5631b1e6): free
-82426635 build (f36-java17, /rpms/hawtjni.git:7c24a6dec41ef1eb73fc35f08280eeaa5631b1e6): free -> open (buildvm-ppc64le-11.iad2.fedoraproject.org)
-  82426642 buildSRPMFromSCM (/rpms/hawtjni.git:7c24a6dec41ef1eb73fc35f08280eeaa5631b1e6): free
-  82426642 buildSRPMFromSCM (/rpms/hawtjni.git:7c24a6dec41ef1eb73fc35f08280eeaa5631b1e6): free -> open (buildvm-ppc64le-31.iad2.fedoraproject.org)
-  82426642 buildSRPMFromSCM (/rpms/hawtjni.git:7c24a6dec41ef1eb73fc35f08280eeaa5631b1e6): open (buildvm-ppc64le-31.iad2.fedoraproject.org) -> closed
+114349867 build (f40-build-side-84857, /rpms/hawtjni.git:79af40bde5625af4e756452c323c8f0157144965): free
+114349867 build (f40-build-side-84857, /rpms/hawtjni.git:79af40bde5625af4e756452c323c8f0157144965): free -> open (buildvm-ppc64le-31.iad2.fedoraproject.org)
+  114349917 buildSRPMFromSCM (/rpms/hawtjni.git:79af40bde5625af4e756452c323c8f0157144965): free
+  114349917 buildSRPMFromSCM (/rpms/hawtjni.git:79af40bde5625af4e756452c323c8f0157144965): free -> assigned
+  114349917 buildSRPMFromSCM (/rpms/hawtjni.git:79af40bde5625af4e756452c323c8f0157144965): assigned -> open (buildvm-a64-24.iad2.fedoraproject.org)
+  114349917 buildSRPMFromSCM (/rpms/hawtjni.git:79af40bde5625af4e756452c323c8f0157144965): open (buildvm-a64-24.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  82426751 buildArch (hawtjni-1.18-4.fc36.src.rpm, noarch): free
-  82426751 buildArch (hawtjni-1.18-4.fc36.src.rpm, noarch): free -> open (buildvm-a32-08.iad2.fedoraproject.org)
-  82426751 buildArch (hawtjni-1.18-4.fc36.src.rpm, noarch): open (buildvm-a32-08.iad2.fedoraproject.org) -> closed
+  114350212 buildArch (hawtjni-1.18-12.fc40.src.rpm, noarch): free
+  114350212 buildArch (hawtjni-1.18-12.fc40.src.rpm, noarch): free -> open (buildvm-ppc64le-02.iad2.fedoraproject.org)
+  114350212 buildArch (hawtjni-1.18-12.fc40.src.rpm, noarch): open (buildvm-ppc64le-02.iad2.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  82426977 tagBuild (noarch): free
-  82426977 tagBuild (noarch): free -> closed
+  114350329 tagBuild (noarch): free
+  114350329 tagBuild (noarch): free -> closed
   0 free  1 open  3 done  0 failed
-82426635 build (f36-java17, /rpms/hawtjni.git:7c24a6dec41ef1eb73fc35f08280eeaa5631b1e6): open (buildvm-ppc64le-11.iad2.fedoraproject.org) -> closed
+114349867 build (f40-build-side-84857, /rpms/hawtjni.git:79af40bde5625af4e756452c323c8f0157144965): open (buildvm-ppc64le-31.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-82426635 build (f36-java17, /rpms/hawtjni.git:7c24a6dec41ef1eb73fc35f08280eeaa5631b1e6) completed successfully
+114349867 build (f40-build-side-84857, /rpms/hawtjni.git:79af40bde5625af4e756452c323c8f0157144965) completed successfully

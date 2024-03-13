@@ -1,0 +1,24 @@
+Cloning into 'jakarta-interceptors'...
+[rawhide 2c9c8b0] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building jakarta-interceptors-2.0.0-5.fc36 for f36-java17
+Created task: 82427528
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82427528
+Watching tasks (this may be safely interrupted)...
+82427528 build (f36-java17, /rpms/jakarta-interceptors.git:2c9c8b07d694dc1ad77d53e44681e43bc673eb31): free
+82427528 build (f36-java17, /rpms/jakarta-interceptors.git:2c9c8b07d694dc1ad77d53e44681e43bc673eb31): free -> open (buildvm-a64-12.iad2.fedoraproject.org)
+  82427558 buildSRPMFromSCM (/rpms/jakarta-interceptors.git:2c9c8b07d694dc1ad77d53e44681e43bc673eb31): free
+  82427558 buildSRPMFromSCM (/rpms/jakarta-interceptors.git:2c9c8b07d694dc1ad77d53e44681e43bc673eb31): free -> open (buildvm-x86-19.iad2.fedoraproject.org)
+  82427558 buildSRPMFromSCM (/rpms/jakarta-interceptors.git:2c9c8b07d694dc1ad77d53e44681e43bc673eb31): open (buildvm-x86-19.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82427730 buildArch (jakarta-interceptors-2.0.0-5.fc36.src.rpm, noarch): free
+  82427730 buildArch (jakarta-interceptors-2.0.0-5.fc36.src.rpm, noarch): free -> open (buildvm-a64-04.iad2.fedoraproject.org)
+  82427730 buildArch (jakarta-interceptors-2.0.0-5.fc36.src.rpm, noarch): open (buildvm-a64-04.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  82427901 tagBuild (noarch): free
+82427528 build (f36-java17, /rpms/jakarta-interceptors.git:2c9c8b07d694dc1ad77d53e44681e43bc673eb31): open (buildvm-a64-12.iad2.fedoraproject.org) -> closed
+  1 free  0 open  3 done  0 failed
+  82427901 tagBuild (noarch): free -> closed
+  0 free  0 open  4 done  0 failed
+
+82427528 build (f36-java17, /rpms/jakarta-interceptors.git:2c9c8b07d694dc1ad77d53e44681e43bc673eb31) completed successfully

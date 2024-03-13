@@ -1,23 +1,17 @@
 Cloning into 'sat4j'...
-[rawhide 30135f1] Rebuilt for java-17-openjdk as system jdk
+[f40 7da05b6] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building sat4j-2.3.5-24.fc36 for f36-java17
-Created task: 82434377
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82434377
-Watching tasks (this may be safely interrupted)...
-82434377 build (f36-java17, /rpms/sat4j.git:30135f1501df1f68fe32931406e30233681b4ab9): free
-82434377 build (f36-java17, /rpms/sat4j.git:30135f1501df1f68fe32931406e30233681b4ab9): free -> open (buildvm-a32-27.iad2.fedoraproject.org)
-  82434410 buildSRPMFromSCM (/rpms/sat4j.git:30135f1501df1f68fe32931406e30233681b4ab9): free
-  82434410 buildSRPMFromSCM (/rpms/sat4j.git:30135f1501df1f68fe32931406e30233681b4ab9): free -> open (buildvm-ppc64le-40.iad2.fedoraproject.org)
-  82434410 buildSRPMFromSCM (/rpms/sat4j.git:30135f1501df1f68fe32931406e30233681b4ab9): open (buildvm-ppc64le-40.iad2.fedoraproject.org) -> closed
-  0 free  1 open  1 done  0 failed
-  82434494 buildArch (sat4j-2.3.5-24.fc36.src.rpm, noarch): open (buildvm-ppc64le-05.iad2.fedoraproject.org)
-  82434675 tagBuild (noarch): free
-  82434494 buildArch (sat4j-2.3.5-24.fc36.src.rpm, noarch): open (buildvm-ppc64le-05.iad2.fedoraproject.org) -> closed
-  1 free  1 open  2 done  0 failed
-  82434675 tagBuild (noarch): free -> closed
-  0 free  1 open  3 done  0 failed
-82434377 build (f36-java17, /rpms/sat4j.git:30135f1501df1f68fe32931406e30233681b4ab9): open (buildvm-a32-27.iad2.fedoraproject.org) -> closed
-  0 free  0 open  4 done  0 failed
+warning: %patchN is deprecated (1 usages found), use %patch N (or %patch -P N)
 
-82434377 build (f36-java17, /rpms/sat4j.git:30135f1501df1f68fe32931406e30233681b4ab9) completed successfully
+Building sat4j-2.3.5-30.fc40 for f40-build-side-84857
+Created task: 114355591
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355591
+Watching tasks (this may be safely interrupted)...
+114355591 build (f40-build-side-84857, /rpms/sat4j.git:7da05b6e59087214d2be073f2690c6b918f65c15): free
+Watching tasks (this may be safely interrupted)...
+114355591 build (f40-build-side-84857, /rpms/sat4j.git:7da05b6e59087214d2be073f2690c6b918f65c15): closed
+  114355851 buildArch (sat4j-2.3.5-30.fc40.src.rpm, noarch): closed
+  114356459 tagBuild (noarch): closed
+  114355755 buildSRPMFromSCM (/rpms/sat4j.git:7da05b6e59087214d2be073f2690c6b918f65c15): closed
+
+114355591 build (f40-build-side-84857, /rpms/sat4j.git:7da05b6e59087214d2be073f2690c6b918f65c15) completed successfully

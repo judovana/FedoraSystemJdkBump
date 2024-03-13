@@ -1,22 +1,29 @@
 Cloning into 'maven-assembly-plugin'...
-[rawhide 79ae741] Rebuilt for java-17-openjdk as system jdk
+[f40 43fa4af] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building maven-assembly-plugin-3.3.0-8.fc36 for f36-java17
-Created task: 82430975
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82430975
+Found a gating.yaml file in the repo and it is properly configured
+Building maven-assembly-plugin-3.6.0-6.fc40 for f40-build-side-84857
+Created task: 114353366
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114353366
 Watching tasks (this may be safely interrupted)...
-82430975 build (f36-java17, /rpms/maven-assembly-plugin.git:79ae7410649bcfbad164fbb21e77ea39e8ebb652): open (buildvm-ppc64le-11.iad2.fedoraproject.org)
-  82430976 buildSRPMFromSCM (/rpms/maven-assembly-plugin.git:79ae7410649bcfbad164fbb21e77ea39e8ebb652): free
-  82430976 buildSRPMFromSCM (/rpms/maven-assembly-plugin.git:79ae7410649bcfbad164fbb21e77ea39e8ebb652): free -> open (buildvm-ppc64le-11.iad2.fedoraproject.org)
-  82430976 buildSRPMFromSCM (/rpms/maven-assembly-plugin.git:79ae7410649bcfbad164fbb21e77ea39e8ebb652): open (buildvm-ppc64le-11.iad2.fedoraproject.org) -> closed
+114353366 build (f40-build-side-84857, /rpms/maven-assembly-plugin.git:43fa4af9a4f90e87a2b4bdda7701a2f4a7a42b37): free
+114353366 build (f40-build-side-84857, /rpms/maven-assembly-plugin.git:43fa4af9a4f90e87a2b4bdda7701a2f4a7a42b37): free -> assigned
+114353366 build (f40-build-side-84857, /rpms/maven-assembly-plugin.git:43fa4af9a4f90e87a2b4bdda7701a2f4a7a42b37): assigned -> open (buildvm-ppc64le-22.iad2.fedoraproject.org)
+  114353412 buildSRPMFromSCM (/rpms/maven-assembly-plugin.git:43fa4af9a4f90e87a2b4bdda7701a2f4a7a42b37): free
+  114353412 buildSRPMFromSCM (/rpms/maven-assembly-plugin.git:43fa4af9a4f90e87a2b4bdda7701a2f4a7a42b37): free -> assigned
+  114353412 buildSRPMFromSCM (/rpms/maven-assembly-plugin.git:43fa4af9a4f90e87a2b4bdda7701a2f4a7a42b37): assigned -> open (buildvm-a64-24.iad2.fedoraproject.org)
+  114353412 buildSRPMFromSCM (/rpms/maven-assembly-plugin.git:43fa4af9a4f90e87a2b4bdda7701a2f4a7a42b37): open (buildvm-a64-24.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  82431060 buildArch (maven-assembly-plugin-3.3.0-8.fc36.src.rpm, noarch): open (buildvm-ppc64le-08.iad2.fedoraproject.org)
-  82431060 buildArch (maven-assembly-plugin-3.3.0-8.fc36.src.rpm, noarch): open (buildvm-ppc64le-08.iad2.fedoraproject.org) -> closed
+  114353525 buildArch (maven-assembly-plugin-3.6.0-6.fc40.src.rpm, noarch): free
+  114353525 buildArch (maven-assembly-plugin-3.6.0-6.fc40.src.rpm, noarch): free -> assigned
+  114353525 buildArch (maven-assembly-plugin-3.6.0-6.fc40.src.rpm, noarch): assigned -> open (buildvm-x86-17.iad2.fedoraproject.org)
+  114353525 buildArch (maven-assembly-plugin-3.6.0-6.fc40.src.rpm, noarch): open (buildvm-x86-17.iad2.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  82431168 tagBuild (noarch): free
-  82431168 tagBuild (noarch): free -> closed
+  114353656 tagBuild (noarch): free
+  114353656 tagBuild (noarch): free -> assigned
+  114353656 tagBuild (noarch): assigned -> closed
   0 free  1 open  3 done  0 failed
-82430975 build (f36-java17, /rpms/maven-assembly-plugin.git:79ae7410649bcfbad164fbb21e77ea39e8ebb652): open (buildvm-ppc64le-11.iad2.fedoraproject.org) -> closed
+114353366 build (f40-build-side-84857, /rpms/maven-assembly-plugin.git:43fa4af9a4f90e87a2b4bdda7701a2f4a7a42b37): open (buildvm-ppc64le-22.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-82430975 build (f36-java17, /rpms/maven-assembly-plugin.git:79ae7410649bcfbad164fbb21e77ea39e8ebb652) completed successfully
+114353366 build (f40-build-side-84857, /rpms/maven-assembly-plugin.git:43fa4af9a4f90e87a2b4bdda7701a2f4a7a42b37) completed successfully

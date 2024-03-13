@@ -1,0 +1,24 @@
+Cloning into 'jboss-parent'...
+[rawhide 229a152] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building jboss-parent-20-14.fc36 for f36-java17
+Created task: 82429021
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82429021
+Watching tasks (this may be safely interrupted)...
+82429021 build (f36-java17, /rpms/jboss-parent.git:229a152ef1648f7ec5c37a295b5d9ec8d2c3b215): free
+82429021 build (f36-java17, /rpms/jboss-parent.git:229a152ef1648f7ec5c37a295b5d9ec8d2c3b215): free -> open (buildvm-s390x-33.s390.fedoraproject.org)
+  82429032 buildSRPMFromSCM (/rpms/jboss-parent.git:229a152ef1648f7ec5c37a295b5d9ec8d2c3b215): free
+  82429032 buildSRPMFromSCM (/rpms/jboss-parent.git:229a152ef1648f7ec5c37a295b5d9ec8d2c3b215): free -> open (buildvm-ppc64le-04.iad2.fedoraproject.org)
+  82429032 buildSRPMFromSCM (/rpms/jboss-parent.git:229a152ef1648f7ec5c37a295b5d9ec8d2c3b215): open (buildvm-ppc64le-04.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82429112 buildArch (jboss-parent-20-14.fc36.src.rpm, noarch): free
+  82429112 buildArch (jboss-parent-20-14.fc36.src.rpm, noarch): free -> open (buildvm-ppc64le-04.iad2.fedoraproject.org)
+  82429112 buildArch (jboss-parent-20-14.fc36.src.rpm, noarch): open (buildvm-ppc64le-04.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  82429173 tagBuild (noarch): free
+  82429173 tagBuild (noarch): free -> closed
+  0 free  1 open  3 done  0 failed
+82429021 build (f36-java17, /rpms/jboss-parent.git:229a152ef1648f7ec5c37a295b5d9ec8d2c3b215): open (buildvm-s390x-33.s390.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+82429021 build (f36-java17, /rpms/jboss-parent.git:229a152ef1648f7ec5c37a295b5d9ec8d2c3b215) completed successfully

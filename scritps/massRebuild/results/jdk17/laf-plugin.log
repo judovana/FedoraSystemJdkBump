@@ -1,0 +1,20 @@
+Cloning into 'laf-plugin'...
+[rawhide f1f8e34] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building laf-plugin-1.0-28.fc36 for f36-java17
+Created task: 82430344
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82430344
+Watching tasks (this may be safely interrupted)...
+82430344 build (f36-java17, /rpms/laf-plugin.git:f1f8e3426468a9e4f5644850f1d9d60d542218b9): free
+82430344 build (f36-java17, /rpms/laf-plugin.git:f1f8e3426468a9e4f5644850f1d9d60d542218b9): free -> open (buildvm-ppc64le-24.iad2.fedoraproject.org)
+  82430345 buildSRPMFromSCM (/rpms/laf-plugin.git:f1f8e3426468a9e4f5644850f1d9d60d542218b9): open (buildvm-x86-13.iad2.fedoraproject.org)
+  82430345 buildSRPMFromSCM (/rpms/laf-plugin.git:f1f8e3426468a9e4f5644850f1d9d60d542218b9): open (buildvm-x86-13.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82430363 buildArch (laf-plugin-1.0-28.fc36.src.rpm, noarch): open (buildvm-ppc64le-24.iad2.fedoraproject.org)
+  82430378 tagBuild (noarch): closed
+  82430363 buildArch (laf-plugin-1.0-28.fc36.src.rpm, noarch): open (buildvm-ppc64le-24.iad2.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+82430344 build (f36-java17, /rpms/laf-plugin.git:f1f8e3426468a9e4f5644850f1d9d60d542218b9): open (buildvm-ppc64le-24.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+82430344 build (f36-java17, /rpms/laf-plugin.git:f1f8e3426468a9e4f5644850f1d9d60d542218b9) completed successfully

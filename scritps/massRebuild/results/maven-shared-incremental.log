@@ -1,23 +1,29 @@
 Cloning into 'maven-shared-incremental'...
-[rawhide b8349f3] Rebuilt for java-17-openjdk as system jdk
+[f40 b0cce61] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building maven-shared-incremental-1.1-25.fc36 for f36-java17
-Created task: 82431805
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82431805
+Found a gating.yaml file in the repo and it is properly configured
+Building maven-shared-incremental-1.1-33.fc40 for f40-build-side-84857
+Created task: 114354220
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114354220
 Watching tasks (this may be safely interrupted)...
-82431805 build (f36-java17, /rpms/maven-shared-incremental.git:b8349f345a5b2a61725affeae6a4b9a396622739): free
-82431805 build (f36-java17, /rpms/maven-shared-incremental.git:b8349f345a5b2a61725affeae6a4b9a396622739): free -> open (buildvm-x86-11.iad2.fedoraproject.org)
-  82431818 buildSRPMFromSCM (/rpms/maven-shared-incremental.git:b8349f345a5b2a61725affeae6a4b9a396622739): free
-  82431818 buildSRPMFromSCM (/rpms/maven-shared-incremental.git:b8349f345a5b2a61725affeae6a4b9a396622739): free -> open (buildvm-x86-07.iad2.fedoraproject.org)
-  82431818 buildSRPMFromSCM (/rpms/maven-shared-incremental.git:b8349f345a5b2a61725affeae6a4b9a396622739): open (buildvm-x86-07.iad2.fedoraproject.org) -> closed
+114354220 build (f40-build-side-84857, /rpms/maven-shared-incremental.git:b0cce61b2eff0c579b65ad38c6fab0ef73aa77ee): free
+114354220 build (f40-build-side-84857, /rpms/maven-shared-incremental.git:b0cce61b2eff0c579b65ad38c6fab0ef73aa77ee): free -> assigned
+114354220 build (f40-build-side-84857, /rpms/maven-shared-incremental.git:b0cce61b2eff0c579b65ad38c6fab0ef73aa77ee): assigned -> open (buildvm-s390x-01.s390.fedoraproject.org)
+  114354235 buildSRPMFromSCM (/rpms/maven-shared-incremental.git:b0cce61b2eff0c579b65ad38c6fab0ef73aa77ee): free
+  114354235 buildSRPMFromSCM (/rpms/maven-shared-incremental.git:b0cce61b2eff0c579b65ad38c6fab0ef73aa77ee): free -> assigned
+  114354235 buildSRPMFromSCM (/rpms/maven-shared-incremental.git:b0cce61b2eff0c579b65ad38c6fab0ef73aa77ee): assigned -> open (buildvm-a64-26.iad2.fedoraproject.org)
+  114354235 buildSRPMFromSCM (/rpms/maven-shared-incremental.git:b0cce61b2eff0c579b65ad38c6fab0ef73aa77ee): open (buildvm-a64-26.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  82431862 buildArch (maven-shared-incremental-1.1-25.fc36.src.rpm, noarch): open (buildvm-ppc64le-39.iad2.fedoraproject.org)
-  82431964 tagBuild (noarch): free
-  82431862 buildArch (maven-shared-incremental-1.1-25.fc36.src.rpm, noarch): open (buildvm-ppc64le-39.iad2.fedoraproject.org) -> closed
-  1 free  1 open  2 done  0 failed
-  82431964 tagBuild (noarch): free -> closed
+  114354303 buildArch (maven-shared-incremental-1.1-33.fc40.src.rpm, noarch): free
+  114354303 buildArch (maven-shared-incremental-1.1-33.fc40.src.rpm, noarch): free -> assigned
+  114354303 buildArch (maven-shared-incremental-1.1-33.fc40.src.rpm, noarch): assigned -> open (buildvm-s390x-01.s390.fedoraproject.org)
+  114354303 buildArch (maven-shared-incremental-1.1-33.fc40.src.rpm, noarch): open (buildvm-s390x-01.s390.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  114354415 tagBuild (noarch): free
+  114354415 tagBuild (noarch): free -> assigned
+  114354415 tagBuild (noarch): assigned -> closed
   0 free  1 open  3 done  0 failed
-82431805 build (f36-java17, /rpms/maven-shared-incremental.git:b8349f345a5b2a61725affeae6a4b9a396622739): open (buildvm-x86-11.iad2.fedoraproject.org) -> closed
+114354220 build (f40-build-side-84857, /rpms/maven-shared-incremental.git:b0cce61b2eff0c579b65ad38c6fab0ef73aa77ee): open (buildvm-s390x-01.s390.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-82431805 build (f36-java17, /rpms/maven-shared-incremental.git:b8349f345a5b2a61725affeae6a4b9a396622739) completed successfully
+114354220 build (f40-build-side-84857, /rpms/maven-shared-incremental.git:b0cce61b2eff0c579b65ad38c6fab0ef73aa77ee) completed successfully

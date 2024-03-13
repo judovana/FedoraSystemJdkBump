@@ -1,24 +1,28 @@
 Cloning into 'xmlstreambuffer'...
-[rawhide 289d9bd] Rebuilt for java-17-openjdk as system jdk
+[f40 446a11a] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building xmlstreambuffer-1.5.10-5.fc36 for f36-java17
-Created task: 82435760
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82435760
+Building xmlstreambuffer-2.1.0-5.fc40 for f40-build-side-84857
+Created task: 114356485
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114356485
 Watching tasks (this may be safely interrupted)...
-82435760 build (f36-java17, /rpms/xmlstreambuffer.git:289d9bd8ee0685e54d30e44d66d3e8920cc471c6): free
-82435760 build (f36-java17, /rpms/xmlstreambuffer.git:289d9bd8ee0685e54d30e44d66d3e8920cc471c6): free -> open (buildvm-ppc64le-16.iad2.fedoraproject.org)
-  82435762 buildSRPMFromSCM (/rpms/xmlstreambuffer.git:289d9bd8ee0685e54d30e44d66d3e8920cc471c6): free
-  82435762 buildSRPMFromSCM (/rpms/xmlstreambuffer.git:289d9bd8ee0685e54d30e44d66d3e8920cc471c6): free -> open (buildvm-ppc64le-16.iad2.fedoraproject.org)
-  82435762 buildSRPMFromSCM (/rpms/xmlstreambuffer.git:289d9bd8ee0685e54d30e44d66d3e8920cc471c6): open (buildvm-ppc64le-16.iad2.fedoraproject.org) -> closed
+114356485 build (f40-build-side-84857, /rpms/xmlstreambuffer.git:446a11a6da82b2b4cb1142692d2e4d4d36b60742): free
+114356485 build (f40-build-side-84857, /rpms/xmlstreambuffer.git:446a11a6da82b2b4cb1142692d2e4d4d36b60742): free -> assigned
+114356485 build (f40-build-side-84857, /rpms/xmlstreambuffer.git:446a11a6da82b2b4cb1142692d2e4d4d36b60742): assigned -> open (buildhw-x86-16.iad2.fedoraproject.org)
+  114356521 buildSRPMFromSCM (/rpms/xmlstreambuffer.git:446a11a6da82b2b4cb1142692d2e4d4d36b60742): free
+  114356521 buildSRPMFromSCM (/rpms/xmlstreambuffer.git:446a11a6da82b2b4cb1142692d2e4d4d36b60742): free -> assigned
+  114356521 buildSRPMFromSCM (/rpms/xmlstreambuffer.git:446a11a6da82b2b4cb1142692d2e4d4d36b60742): assigned -> open (buildvm-a64-39.iad2.fedoraproject.org)
+  114356521 buildSRPMFromSCM (/rpms/xmlstreambuffer.git:446a11a6da82b2b4cb1142692d2e4d4d36b60742): open (buildvm-a64-39.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  82435816 buildArch (xmlstreambuffer-1.5.10-5.fc36.src.rpm, noarch): free
-  82435816 buildArch (xmlstreambuffer-1.5.10-5.fc36.src.rpm, noarch): free -> open (buildvm-s390x-22.s390.fedoraproject.org)
-  82435890 tagBuild (noarch): free
-  82435816 buildArch (xmlstreambuffer-1.5.10-5.fc36.src.rpm, noarch): open (buildvm-s390x-22.s390.fedoraproject.org) -> closed
-  1 free  1 open  2 done  0 failed
-  82435890 tagBuild (noarch): free -> closed
+  114356591 buildArch (xmlstreambuffer-2.1.0-5.fc40.src.rpm, noarch): free
+  114356591 buildArch (xmlstreambuffer-2.1.0-5.fc40.src.rpm, noarch): free -> assigned
+  114356591 buildArch (xmlstreambuffer-2.1.0-5.fc40.src.rpm, noarch): assigned -> open (buildvm-ppc64le-16.iad2.fedoraproject.org)
+  114356591 buildArch (xmlstreambuffer-2.1.0-5.fc40.src.rpm, noarch): open (buildvm-ppc64le-16.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  114356801 tagBuild (noarch): free
+  114356801 tagBuild (noarch): free -> assigned
+  114356801 tagBuild (noarch): assigned -> closed
   0 free  1 open  3 done  0 failed
-82435760 build (f36-java17, /rpms/xmlstreambuffer.git:289d9bd8ee0685e54d30e44d66d3e8920cc471c6): open (buildvm-ppc64le-16.iad2.fedoraproject.org) -> closed
+114356485 build (f40-build-side-84857, /rpms/xmlstreambuffer.git:446a11a6da82b2b4cb1142692d2e4d4d36b60742): open (buildhw-x86-16.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-82435760 build (f36-java17, /rpms/xmlstreambuffer.git:289d9bd8ee0685e54d30e44d66d3e8920cc471c6) completed successfully
+114356485 build (f40-build-side-84857, /rpms/xmlstreambuffer.git:446a11a6da82b2b4cb1142692d2e4d4d36b60742) completed successfully

@@ -1,21 +1,25 @@
 Cloning into 'jdeparser'...
-[rawhide 4519c8e] Rebuilt for java-17-openjdk as system jdk
+[f40 becc1a9] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building jdeparser-2.0.3-10.fc36 for f36-java17
-Created task: 82429138
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82429138
+Building jdeparser-2.0.3-17.fc40 for f40-build-side-84857
+Created task: 114352127
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114352127
 Watching tasks (this may be safely interrupted)...
-82429138 build (f36-java17, /rpms/jdeparser.git:4519c8e385cb865c0fe34fe54b4a592a1e280f67): free
-82429138 build (f36-java17, /rpms/jdeparser.git:4519c8e385cb865c0fe34fe54b4a592a1e280f67): free -> open (buildvm-ppc64le-22.iad2.fedoraproject.org)
-  82429157 buildSRPMFromSCM (/rpms/jdeparser.git:4519c8e385cb865c0fe34fe54b4a592a1e280f67): free
-  82429157 buildSRPMFromSCM (/rpms/jdeparser.git:4519c8e385cb865c0fe34fe54b4a592a1e280f67): free -> open (buildvm-ppc64le-17.iad2.fedoraproject.org)
-  82429157 buildSRPMFromSCM (/rpms/jdeparser.git:4519c8e385cb865c0fe34fe54b4a592a1e280f67): open (buildvm-ppc64le-17.iad2.fedoraproject.org) -> closed
+114352127 build (f40-build-side-84857, /rpms/jdeparser.git:becc1a979dcd187f1e12ab755e4491cb3f227af7): free
+114352127 build (f40-build-side-84857, /rpms/jdeparser.git:becc1a979dcd187f1e12ab755e4491cb3f227af7): free -> open (buildvm-s390x-10.s390.fedoraproject.org)
+  114352130 buildSRPMFromSCM (/rpms/jdeparser.git:becc1a979dcd187f1e12ab755e4491cb3f227af7): free
+  114352130 buildSRPMFromSCM (/rpms/jdeparser.git:becc1a979dcd187f1e12ab755e4491cb3f227af7): free -> assigned
+  114352130 buildSRPMFromSCM (/rpms/jdeparser.git:becc1a979dcd187f1e12ab755e4491cb3f227af7): assigned -> open (buildvm-x86-19.iad2.fedoraproject.org)
+  114352130 buildSRPMFromSCM (/rpms/jdeparser.git:becc1a979dcd187f1e12ab755e4491cb3f227af7): open (buildvm-x86-19.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  82429255 buildArch (jdeparser-2.0.3-10.fc36.src.rpm, noarch): open (buildvm-ppc64le-22.iad2.fedoraproject.org)
-  82429255 buildArch (jdeparser-2.0.3-10.fc36.src.rpm, noarch): open (buildvm-ppc64le-22.iad2.fedoraproject.org) -> closed
+  114352172 buildArch (jdeparser-2.0.3-17.fc40.src.rpm, noarch): free
+  114352172 buildArch (jdeparser-2.0.3-17.fc40.src.rpm, noarch): free -> open (buildvm-s390x-01.s390.fedoraproject.org)
+  114352172 buildArch (jdeparser-2.0.3-17.fc40.src.rpm, noarch): open (buildvm-s390x-01.s390.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  82429389 tagBuild (noarch): closed
-82429138 build (f36-java17, /rpms/jdeparser.git:4519c8e385cb865c0fe34fe54b4a592a1e280f67): open (buildvm-ppc64le-22.iad2.fedoraproject.org) -> closed
+  114352234 tagBuild (noarch): assigned
+  114352234 tagBuild (noarch): assigned -> closed
+  0 free  1 open  3 done  0 failed
+114352127 build (f40-build-side-84857, /rpms/jdeparser.git:becc1a979dcd187f1e12ab755e4491cb3f227af7): open (buildvm-s390x-10.s390.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-82429138 build (f36-java17, /rpms/jdeparser.git:4519c8e385cb865c0fe34fe54b4a592a1e280f67) completed successfully
+114352127 build (f40-build-side-84857, /rpms/jdeparser.git:becc1a979dcd187f1e12ab755e4491cb3f227af7) completed successfully

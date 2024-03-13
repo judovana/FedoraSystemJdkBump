@@ -1,27 +1,27 @@
 Cloning into 'jgoodies-forms'...
-[rawhide cfbf852] Rebuilt for java-17-openjdk as system jdk
+[f40 8f14ba4] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building jgoodies-forms-1.9.0-3.fc36 for f36-java17
-Created task: 82429532
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82429532
+Building jgoodies-forms-1.9.0-11.fc40 for f40-build-side-84857
+Created task: 114352403
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114352403
 Watching tasks (this may be safely interrupted)...
-82429532 build (f36-java17, /rpms/jgoodies-forms.git:cfbf8526b403ca74a49769217f28b0828a97ead8): free
-82429532 build (f36-java17, /rpms/jgoodies-forms.git:cfbf8526b403ca74a49769217f28b0828a97ead8): free -> open (buildvm-s390x-05.s390.fedoraproject.org)
-  82429557 buildSRPMFromSCM (/rpms/jgoodies-forms.git:cfbf8526b403ca74a49769217f28b0828a97ead8): free
-  82429557 buildSRPMFromSCM (/rpms/jgoodies-forms.git:cfbf8526b403ca74a49769217f28b0828a97ead8): free -> open (buildvm-ppc64le-06.iad2.fedoraproject.org)
-  82429557 buildSRPMFromSCM (/rpms/jgoodies-forms.git:cfbf8526b403ca74a49769217f28b0828a97ead8): open (buildvm-ppc64le-06.iad2.fedoraproject.org) -> closed
-  0 free  1 open  1 done  0 failed
-  82429619 buildArch (jgoodies-forms-1.9.0-3.fc36.src.rpm, noarch): free
-  82429619 buildArch (jgoodies-forms-1.9.0-3.fc36.src.rpm, noarch): free -> open (buildvm-ppc64le-28.iad2.fedoraproject.org)
-82429532 build (f36-java17, /rpms/jgoodies-forms.git:cfbf8526b403ca74a49769217f28b0828a97ead8): open (buildvm-s390x-05.s390.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
-  0 free  1 open  1 done  1 failed
-  82429619 buildArch (jgoodies-forms-1.9.0-3.fc36.src.rpm, noarch): open (buildvm-ppc64le-28.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
-  Relevant logs:
-  https://kojipkgs.fedoraproject.org/work/tasks/9619/82429619/mock_output.log
-  https://kojipkgs.fedoraproject.org/work/tasks/9619/82429619/hw_info.log
-  https://kojipkgs.fedoraproject.org/work/tasks/9619/82429619/state.log
-  https://kojipkgs.fedoraproject.org/work/tasks/9619/82429619/build.log
-  https://kojipkgs.fedoraproject.org/work/tasks/9619/82429619/root.log
-  0 free  0 open  1 done  2 failed
+114352403 build (f40-build-side-84857, /rpms/jgoodies-forms.git:8f14ba43e6c8bbf9df49a4fb3f18d7b782fa421f): free
+114352403 build (f40-build-side-84857, /rpms/jgoodies-forms.git:8f14ba43e6c8bbf9df49a4fb3f18d7b782fa421f): free -> assigned
+114352403 build (f40-build-side-84857, /rpms/jgoodies-forms.git:8f14ba43e6c8bbf9df49a4fb3f18d7b782fa421f): assigned -> open (buildvm-a64-23.iad2.fedoraproject.org)
+  114352415 buildSRPMFromSCM (/rpms/jgoodies-forms.git:8f14ba43e6c8bbf9df49a4fb3f18d7b782fa421f): free
+  114352415 buildSRPMFromSCM (/rpms/jgoodies-forms.git:8f14ba43e6c8bbf9df49a4fb3f18d7b782fa421f): free -> assigned
+  114352415 buildSRPMFromSCM (/rpms/jgoodies-forms.git:8f14ba43e6c8bbf9df49a4fb3f18d7b782fa421f): assigned -> open (buildvm-a64-21.iad2.fedoraproject.org)
+  114352456 buildArch (jgoodies-forms-1.9.0-11.fc40.src.rpm, noarch): free
+  114352415 buildSRPMFromSCM (/rpms/jgoodies-forms.git:8f14ba43e6c8bbf9df49a4fb3f18d7b782fa421f): open (buildvm-a64-21.iad2.fedoraproject.org) -> closed
+  1 free  1 open  1 done  0 failed
+  114352456 buildArch (jgoodies-forms-1.9.0-11.fc40.src.rpm, noarch): free -> assigned
+  114352456 buildArch (jgoodies-forms-1.9.0-11.fc40.src.rpm, noarch): assigned -> open (buildvm-s390x-01.s390.fedoraproject.org)
+  114352456 buildArch (jgoodies-forms-1.9.0-11.fc40.src.rpm, noarch): open (buildvm-s390x-01.s390.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  114352545 tagBuild (noarch): free
+  114352545 tagBuild (noarch): free -> closed
+  0 free  1 open  3 done  0 failed
+114352403 build (f40-build-side-84857, /rpms/jgoodies-forms.git:8f14ba43e6c8bbf9df49a4fb3f18d7b782fa421f): open (buildvm-a64-23.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
 
-82429532 build (f36-java17, /rpms/jgoodies-forms.git:cfbf8526b403ca74a49769217f28b0828a97ead8) failed
+114352403 build (f40-build-side-84857, /rpms/jgoodies-forms.git:8f14ba43e6c8bbf9df49a4fb3f18d7b782fa421f) completed successfully

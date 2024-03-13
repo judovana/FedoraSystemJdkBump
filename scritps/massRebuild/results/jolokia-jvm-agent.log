@@ -1,24 +1,28 @@
 Cloning into 'jolokia-jvm-agent'...
-[rawhide 1bccaa2] Rebuilt for java-17-openjdk as system jdk
+[f40 fd96696] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building jolokia-jvm-agent-1.6.2-10.fc36 for f36-java17
-Created task: 82429835
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82429835
+warning: %patchN is deprecated (1 usages found), use %patch N (or %patch -P N)
+
+Building jolokia-jvm-agent-1.6.2-17.fc40 for f40-build-side-84857
+Created task: 114352659
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114352659
 Watching tasks (this may be safely interrupted)...
-82429835 build (f36-java17, /rpms/jolokia-jvm-agent.git:1bccaa2f90209d1e47da1380101bb8bd6ebaa118): free
-82429835 build (f36-java17, /rpms/jolokia-jvm-agent.git:1bccaa2f90209d1e47da1380101bb8bd6ebaa118): free -> open (buildvm-ppc64le-21.iad2.fedoraproject.org)
-  82429861 buildSRPMFromSCM (/rpms/jolokia-jvm-agent.git:1bccaa2f90209d1e47da1380101bb8bd6ebaa118): free
-  82429861 buildSRPMFromSCM (/rpms/jolokia-jvm-agent.git:1bccaa2f90209d1e47da1380101bb8bd6ebaa118): free -> open (buildvm-ppc64le-36.iad2.fedoraproject.org)
-  82429861 buildSRPMFromSCM (/rpms/jolokia-jvm-agent.git:1bccaa2f90209d1e47da1380101bb8bd6ebaa118): open (buildvm-ppc64le-36.iad2.fedoraproject.org) -> closed
+114352659 build (f40-build-side-84857, /rpms/jolokia-jvm-agent.git:fd966962a5e8159dc3780a656020dfc07f87bebe): free
+114352659 build (f40-build-side-84857, /rpms/jolokia-jvm-agent.git:fd966962a5e8159dc3780a656020dfc07f87bebe): free -> assigned
+114352659 build (f40-build-side-84857, /rpms/jolokia-jvm-agent.git:fd966962a5e8159dc3780a656020dfc07f87bebe): assigned -> open (buildvm-s390x-10.s390.fedoraproject.org)
+  114352674 buildSRPMFromSCM (/rpms/jolokia-jvm-agent.git:fd966962a5e8159dc3780a656020dfc07f87bebe): free
+  114352674 buildSRPMFromSCM (/rpms/jolokia-jvm-agent.git:fd966962a5e8159dc3780a656020dfc07f87bebe): free -> assigned
+  114352674 buildSRPMFromSCM (/rpms/jolokia-jvm-agent.git:fd966962a5e8159dc3780a656020dfc07f87bebe): assigned -> open (buildvm-a64-05.iad2.fedoraproject.org)
+  114352674 buildSRPMFromSCM (/rpms/jolokia-jvm-agent.git:fd966962a5e8159dc3780a656020dfc07f87bebe): open (buildvm-a64-05.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  82429985 buildArch (jolokia-jvm-agent-1.6.2-10.fc36.src.rpm, noarch): free
-  82429985 buildArch (jolokia-jvm-agent-1.6.2-10.fc36.src.rpm, noarch): free -> open (buildvm-ppc64le-21.iad2.fedoraproject.org)
-  82429985 buildArch (jolokia-jvm-agent-1.6.2-10.fc36.src.rpm, noarch): open (buildvm-ppc64le-21.iad2.fedoraproject.org) -> closed
+  114352700 buildArch (jolokia-jvm-agent-1.6.2-17.fc40.src.rpm, noarch): open (buildvm-x86-26.iad2.fedoraproject.org)
+  114352700 buildArch (jolokia-jvm-agent-1.6.2-17.fc40.src.rpm, noarch): open (buildvm-x86-26.iad2.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  82430195 tagBuild (noarch): free
-82429835 build (f36-java17, /rpms/jolokia-jvm-agent.git:1bccaa2f90209d1e47da1380101bb8bd6ebaa118): open (buildvm-ppc64le-21.iad2.fedoraproject.org) -> closed
-  1 free  0 open  3 done  0 failed
-  82430195 tagBuild (noarch): free -> closed
+  114352715 tagBuild (noarch): free
+  114352715 tagBuild (noarch): free -> assigned
+  114352715 tagBuild (noarch): assigned -> closed
+  0 free  1 open  3 done  0 failed
+114352659 build (f40-build-side-84857, /rpms/jolokia-jvm-agent.git:fd966962a5e8159dc3780a656020dfc07f87bebe): open (buildvm-s390x-10.s390.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-82429835 build (f36-java17, /rpms/jolokia-jvm-agent.git:1bccaa2f90209d1e47da1380101bb8bd6ebaa118) completed successfully
+114352659 build (f40-build-side-84857, /rpms/jolokia-jvm-agent.git:fd966962a5e8159dc3780a656020dfc07f87bebe) completed successfully

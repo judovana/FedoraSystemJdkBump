@@ -1,24 +1,26 @@
 Cloning into 'forge-parent'...
-[rawhide f0f1318] Rebuilt for java-17-openjdk as system jdk
+[f40 69eb6db] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building forge-parent-38-21.fc36 for f36-java17
-Created task: 82426074
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82426074
+Building forge-parent-38-28.fc40 for f40-build-side-84857
+Created task: 114349267
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114349267
 Watching tasks (this may be safely interrupted)...
-82426074 build (f36-java17, /rpms/forge-parent.git:f0f1318764bc64444166917fb6226640f9f84125): free
-82426074 build (f36-java17, /rpms/forge-parent.git:f0f1318764bc64444166917fb6226640f9f84125): free -> open (buildvm-s390x-28.s390.fedoraproject.org)
-  82426077 buildSRPMFromSCM (/rpms/forge-parent.git:f0f1318764bc64444166917fb6226640f9f84125): free
-  82426077 buildSRPMFromSCM (/rpms/forge-parent.git:f0f1318764bc64444166917fb6226640f9f84125): free -> open (buildvm-ppc64le-31.iad2.fedoraproject.org)
-  82426130 buildArch (forge-parent-38-21.fc36.src.rpm, noarch): free
-  82426077 buildSRPMFromSCM (/rpms/forge-parent.git:f0f1318764bc64444166917fb6226640f9f84125): open (buildvm-ppc64le-31.iad2.fedoraproject.org) -> closed
+114349267 build (f40-build-side-84857, /rpms/forge-parent.git:69eb6db3f4eaecac1042c96119618b39cf78a6eb): free
+114349267 build (f40-build-side-84857, /rpms/forge-parent.git:69eb6db3f4eaecac1042c96119618b39cf78a6eb): free -> assigned
+114349267 build (f40-build-side-84857, /rpms/forge-parent.git:69eb6db3f4eaecac1042c96119618b39cf78a6eb): assigned -> open (buildvm-s390x-07.s390.fedoraproject.org)
+  114349347 buildSRPMFromSCM (/rpms/forge-parent.git:69eb6db3f4eaecac1042c96119618b39cf78a6eb): free
+  114349347 buildSRPMFromSCM (/rpms/forge-parent.git:69eb6db3f4eaecac1042c96119618b39cf78a6eb): free -> open (buildvm-a64-27.iad2.fedoraproject.org)
+  114349514 buildArch (forge-parent-38-28.fc40.src.rpm, noarch): free
+  114349347 buildSRPMFromSCM (/rpms/forge-parent.git:69eb6db3f4eaecac1042c96119618b39cf78a6eb): open (buildvm-a64-27.iad2.fedoraproject.org) -> closed
   1 free  1 open  1 done  0 failed
-  82426130 buildArch (forge-parent-38-21.fc36.src.rpm, noarch): free -> open (buildvm-ppc64le-27.iad2.fedoraproject.org)
-  82426130 buildArch (forge-parent-38-21.fc36.src.rpm, noarch): open (buildvm-ppc64le-27.iad2.fedoraproject.org) -> closed
+  114349514 buildArch (forge-parent-38-28.fc40.src.rpm, noarch): free -> assigned
+  114349514 buildArch (forge-parent-38-28.fc40.src.rpm, noarch): assigned -> open (buildvm-x86-05.iad2.fedoraproject.org)
+  114349514 buildArch (forge-parent-38-28.fc40.src.rpm, noarch): open (buildvm-x86-05.iad2.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  82426265 tagBuild (noarch): free
-  82426265 tagBuild (noarch): free -> closed
+  114349667 tagBuild (noarch): free
+  114349667 tagBuild (noarch): free -> closed
   0 free  1 open  3 done  0 failed
-82426074 build (f36-java17, /rpms/forge-parent.git:f0f1318764bc64444166917fb6226640f9f84125): open (buildvm-s390x-28.s390.fedoraproject.org) -> closed
+114349267 build (f40-build-side-84857, /rpms/forge-parent.git:69eb6db3f4eaecac1042c96119618b39cf78a6eb): open (buildvm-s390x-07.s390.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-82426074 build (f36-java17, /rpms/forge-parent.git:f0f1318764bc64444166917fb6226640f9f84125) completed successfully
+114349267 build (f40-build-side-84857, /rpms/forge-parent.git:69eb6db3f4eaecac1042c96119618b39cf78a6eb) completed successfully

@@ -1,21 +1,30 @@
 Cloning into 'maven-reporting-api'...
-[rawhide 99cdd6d] Rebuilt for java-17-openjdk as system jdk
+[f40 f7fa22a] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building maven-reporting-api-3.0-24.fc36 for f36-java17
-Created task: 82431664
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82431664
+Building maven-reporting-api-3.1.1-6.fc40 for f40-build-side-84857
+Created task: 114354000
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114354000
 Watching tasks (this may be safely interrupted)...
-82431664 build (f36-java17, /rpms/maven-reporting-api.git:99cdd6d7cddce98bae6b0994200b6cab0a87e791): free
-82431664 build (f36-java17, /rpms/maven-reporting-api.git:99cdd6d7cddce98bae6b0994200b6cab0a87e791): free -> open (buildvm-x86-15.iad2.fedoraproject.org)
-  82431665 buildSRPMFromSCM (/rpms/maven-reporting-api.git:99cdd6d7cddce98bae6b0994200b6cab0a87e791): free
-  82431665 buildSRPMFromSCM (/rpms/maven-reporting-api.git:99cdd6d7cddce98bae6b0994200b6cab0a87e791): free -> open (buildvm-x86-15.iad2.fedoraproject.org)
-  82431665 buildSRPMFromSCM (/rpms/maven-reporting-api.git:99cdd6d7cddce98bae6b0994200b6cab0a87e791): open (buildvm-x86-15.iad2.fedoraproject.org) -> closed
+114354000 build (f40-build-side-84857, /rpms/maven-reporting-api.git:f7fa22a36ec33dbf5f8f06bdaf61ba569a7b1829): free
+114354000 build (f40-build-side-84857, /rpms/maven-reporting-api.git:f7fa22a36ec33dbf5f8f06bdaf61ba569a7b1829): free -> assigned
+114354000 build (f40-build-side-84857, /rpms/maven-reporting-api.git:f7fa22a36ec33dbf5f8f06bdaf61ba569a7b1829): assigned -> open (buildvm-a64-07.iad2.fedoraproject.org)
+  114354004 buildSRPMFromSCM (/rpms/maven-reporting-api.git:f7fa22a36ec33dbf5f8f06bdaf61ba569a7b1829): free
+  114354004 buildSRPMFromSCM (/rpms/maven-reporting-api.git:f7fa22a36ec33dbf5f8f06bdaf61ba569a7b1829): free -> assigned
+  114354004 buildSRPMFromSCM (/rpms/maven-reporting-api.git:f7fa22a36ec33dbf5f8f06bdaf61ba569a7b1829): assigned -> open (buildvm-a64-13.iad2.fedoraproject.org)
+  114354004 buildSRPMFromSCM (/rpms/maven-reporting-api.git:f7fa22a36ec33dbf5f8f06bdaf61ba569a7b1829): open (buildvm-a64-13.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  82431730 buildArch (maven-reporting-api-3.0-24.fc36.src.rpm, noarch): open (buildvm-ppc64le-35.iad2.fedoraproject.org)
-  82431730 buildArch (maven-reporting-api-3.0-24.fc36.src.rpm, noarch): open (buildvm-ppc64le-35.iad2.fedoraproject.org) -> closed
-  0 free  1 open  2 done  0 failed
-  82431804 tagBuild (noarch): closed
-82431664 build (f36-java17, /rpms/maven-reporting-api.git:99cdd6d7cddce98bae6b0994200b6cab0a87e791): open (buildvm-x86-15.iad2.fedoraproject.org) -> closed
-  0 free  0 open  4 done  0 failed
+  114354193 buildArch (maven-reporting-api-3.1.1-6.fc40.src.rpm, noarch): free
+  114354193 buildArch (maven-reporting-api-3.1.1-6.fc40.src.rpm, noarch): free -> assigned
+  114354193 buildArch (maven-reporting-api-3.1.1-6.fc40.src.rpm, noarch): assigned -> open (buildvm-ppc64le-30.iad2.fedoraproject.org)
+  114354193 buildArch (maven-reporting-api-3.1.1-6.fc40.src.rpm, noarch): open (buildvm-ppc64le-30.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
+  Relevant logs:
+  https://kojipkgs.fedoraproject.org/work/tasks/4193/114354193/mock_output.log
+  https://kojipkgs.fedoraproject.org/work/tasks/4193/114354193/state.log
+  https://kojipkgs.fedoraproject.org/work/tasks/4193/114354193/build.log
+  https://kojipkgs.fedoraproject.org/work/tasks/4193/114354193/root.log
+  https://kojipkgs.fedoraproject.org/work/tasks/4193/114354193/hw_info.log
+  0 free  1 open  1 done  1 failed
+114354000 build (f40-build-side-84857, /rpms/maven-reporting-api.git:f7fa22a36ec33dbf5f8f06bdaf61ba569a7b1829): open (buildvm-a64-07.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
+  0 free  0 open  1 done  2 failed
 
-82431664 build (f36-java17, /rpms/maven-reporting-api.git:99cdd6d7cddce98bae6b0994200b6cab0a87e791) completed successfully
+114354000 build (f40-build-side-84857, /rpms/maven-reporting-api.git:f7fa22a36ec33dbf5f8f06bdaf61ba569a7b1829) failed

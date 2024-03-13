@@ -1,21 +1,27 @@
 Cloning into 'maven-shade-plugin'...
-[rawhide 760666e] Rebuilt for java-17-openjdk as system jdk
+[f40 eef3434] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building maven-shade-plugin-3.2.4-7.fc36 for f36-java17
-Created task: 82431799
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82431799
+Building maven-shade-plugin-3.5.1-4.fc40 for f40-build-side-84857
+Created task: 114354213
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114354213
 Watching tasks (this may be safely interrupted)...
-82431799 build (f36-java17, /rpms/maven-shade-plugin.git:760666e07ec959b49aed3c0de613efb1e59d0a04): free
-82431799 build (f36-java17, /rpms/maven-shade-plugin.git:760666e07ec959b49aed3c0de613efb1e59d0a04): free -> open (buildvm-ppc64le-31.iad2.fedoraproject.org)
-  82431800 buildSRPMFromSCM (/rpms/maven-shade-plugin.git:760666e07ec959b49aed3c0de613efb1e59d0a04): open (buildvm-ppc64le-31.iad2.fedoraproject.org)
-  82431800 buildSRPMFromSCM (/rpms/maven-shade-plugin.git:760666e07ec959b49aed3c0de613efb1e59d0a04): open (buildvm-ppc64le-31.iad2.fedoraproject.org) -> closed
+114354213 build (f40-build-side-84857, /rpms/maven-shade-plugin.git:eef3434f20639cef0897ba2063d900c6ac244d42): free
+114354213 build (f40-build-side-84857, /rpms/maven-shade-plugin.git:eef3434f20639cef0897ba2063d900c6ac244d42): free -> assigned
+114354213 build (f40-build-side-84857, /rpms/maven-shade-plugin.git:eef3434f20639cef0897ba2063d900c6ac244d42): assigned -> open (buildvm-ppc64le-11.iad2.fedoraproject.org)
+  114354215 buildSRPMFromSCM (/rpms/maven-shade-plugin.git:eef3434f20639cef0897ba2063d900c6ac244d42): free
+  114354215 buildSRPMFromSCM (/rpms/maven-shade-plugin.git:eef3434f20639cef0897ba2063d900c6ac244d42): free -> assigned
+  114354215 buildSRPMFromSCM (/rpms/maven-shade-plugin.git:eef3434f20639cef0897ba2063d900c6ac244d42): assigned -> open (buildvm-a64-10.iad2.fedoraproject.org)
+  114354215 buildSRPMFromSCM (/rpms/maven-shade-plugin.git:eef3434f20639cef0897ba2063d900c6ac244d42): open (buildvm-a64-10.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  82431850 buildArch (maven-shade-plugin-3.2.4-7.fc36.src.rpm, noarch): free
-  82431850 buildArch (maven-shade-plugin-3.2.4-7.fc36.src.rpm, noarch): free -> open (buildvm-x86-15.iad2.fedoraproject.org)
-  82431850 buildArch (maven-shade-plugin-3.2.4-7.fc36.src.rpm, noarch): open (buildvm-x86-15.iad2.fedoraproject.org) -> closed
+  114354265 buildArch (maven-shade-plugin-3.5.1-4.fc40.src.rpm, noarch): free
+  114354265 buildArch (maven-shade-plugin-3.5.1-4.fc40.src.rpm, noarch): free -> open (buildvm-x86-07.iad2.fedoraproject.org)
+  114354265 buildArch (maven-shade-plugin-3.5.1-4.fc40.src.rpm, noarch): open (buildvm-x86-07.iad2.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  82432116 tagBuild (noarch): closed
-82431799 build (f36-java17, /rpms/maven-shade-plugin.git:760666e07ec959b49aed3c0de613efb1e59d0a04): open (buildvm-ppc64le-31.iad2.fedoraproject.org) -> closed
+  114354373 tagBuild (noarch): free
+  114354373 tagBuild (noarch): free -> assigned
+  114354373 tagBuild (noarch): assigned -> closed
+  0 free  1 open  3 done  0 failed
+114354213 build (f40-build-side-84857, /rpms/maven-shade-plugin.git:eef3434f20639cef0897ba2063d900c6ac244d42): open (buildvm-ppc64le-11.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-82431799 build (f36-java17, /rpms/maven-shade-plugin.git:760666e07ec959b49aed3c0de613efb1e59d0a04) completed successfully
+114354213 build (f40-build-side-84857, /rpms/maven-shade-plugin.git:eef3434f20639cef0897ba2063d900c6ac244d42) completed successfully

@@ -1,0 +1,27 @@
+Cloning into 'xml-maven-plugin'...
+[rawhide 4f5a298] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building xml-maven-plugin-1.0.2-11.fc36 for f36-java17
+Created task: 82435739
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82435739
+Watching tasks (this may be safely interrupted)...
+82435739 build (f36-java17, /rpms/xml-maven-plugin.git:4f5a2980b053fff6bc59bc043457e4933fb6acaa): free
+82435739 build (f36-java17, /rpms/xml-maven-plugin.git:4f5a2980b053fff6bc59bc043457e4933fb6acaa): free -> open (buildvm-x86-16.iad2.fedoraproject.org)
+  82435743 buildSRPMFromSCM (/rpms/xml-maven-plugin.git:4f5a2980b053fff6bc59bc043457e4933fb6acaa): free
+  82435743 buildSRPMFromSCM (/rpms/xml-maven-plugin.git:4f5a2980b053fff6bc59bc043457e4933fb6acaa): free -> open (buildvm-ppc64le-37.iad2.fedoraproject.org)
+  82435743 buildSRPMFromSCM (/rpms/xml-maven-plugin.git:4f5a2980b053fff6bc59bc043457e4933fb6acaa): open (buildvm-ppc64le-37.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82435795 buildArch (xml-maven-plugin-1.0.2-11.fc36.src.rpm, noarch): free
+  82435795 buildArch (xml-maven-plugin-1.0.2-11.fc36.src.rpm, noarch): free -> open (buildvm-ppc64le-20.iad2.fedoraproject.org)
+  82435795 buildArch (xml-maven-plugin-1.0.2-11.fc36.src.rpm, noarch): open (buildvm-ppc64le-20.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
+  Relevant logs:
+  https://kojipkgs.fedoraproject.org/work/tasks/5795/82435795/mock_output.log
+  https://kojipkgs.fedoraproject.org/work/tasks/5795/82435795/hw_info.log
+  https://kojipkgs.fedoraproject.org/work/tasks/5795/82435795/state.log
+  https://kojipkgs.fedoraproject.org/work/tasks/5795/82435795/build.log
+  https://kojipkgs.fedoraproject.org/work/tasks/5795/82435795/root.log
+  0 free  1 open  1 done  1 failed
+82435739 build (f36-java17, /rpms/xml-maven-plugin.git:4f5a2980b053fff6bc59bc043457e4933fb6acaa): open (buildvm-x86-16.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
+  0 free  0 open  1 done  2 failed
+
+82435739 build (f36-java17, /rpms/xml-maven-plugin.git:4f5a2980b053fff6bc59bc043457e4933fb6acaa) failed

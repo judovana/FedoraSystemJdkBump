@@ -1,24 +1,28 @@
 Cloning into 'fernflower'...
-[rawhide 0588887] Rebuilt for java-17-openjdk as system jdk
+[f40 3decb89] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building fernflower-211.7442.40-4.fc36 for f36-java17
-Created task: 82425927
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82425927
+warning: %patchN is deprecated (2 usages found), use %patch N (or %patch -P N)
+
+Building fernflower-211.7442.40-11.fc40 for f40-build-side-84857
+Created task: 114349040
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114349040
 Watching tasks (this may be safely interrupted)...
-82425927 build (f36-java17, /rpms/fernflower.git:05888877295ee14f02eb2691f1e5c42bc4918af8): free
-82425927 build (f36-java17, /rpms/fernflower.git:05888877295ee14f02eb2691f1e5c42bc4918af8): free -> open (buildvm-s390x-12.s390.fedoraproject.org)
-  82425993 buildSRPMFromSCM (/rpms/fernflower.git:05888877295ee14f02eb2691f1e5c42bc4918af8): free
-  82425993 buildSRPMFromSCM (/rpms/fernflower.git:05888877295ee14f02eb2691f1e5c42bc4918af8): free -> open (buildvm-ppc64le-36.iad2.fedoraproject.org)
-  82425993 buildSRPMFromSCM (/rpms/fernflower.git:05888877295ee14f02eb2691f1e5c42bc4918af8): open (buildvm-ppc64le-36.iad2.fedoraproject.org) -> closed
+114349040 build (f40-build-side-84857, /rpms/fernflower.git:3decb89b058ff1bf2f72a5be60b2bb242076a020): free
+114349040 build (f40-build-side-84857, /rpms/fernflower.git:3decb89b058ff1bf2f72a5be60b2bb242076a020): free -> assigned
+114349040 build (f40-build-side-84857, /rpms/fernflower.git:3decb89b058ff1bf2f72a5be60b2bb242076a020): assigned -> open (buildvm-ppc64le-32.iad2.fedoraproject.org)
+  114349057 buildSRPMFromSCM (/rpms/fernflower.git:3decb89b058ff1bf2f72a5be60b2bb242076a020): free
+  114349057 buildSRPMFromSCM (/rpms/fernflower.git:3decb89b058ff1bf2f72a5be60b2bb242076a020): free -> open (buildvm-x86-06.iad2.fedoraproject.org)
+  114349057 buildSRPMFromSCM (/rpms/fernflower.git:3decb89b058ff1bf2f72a5be60b2bb242076a020): open (buildvm-x86-06.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  82426098 buildArch (fernflower-211.7442.40-4.fc36.src.rpm, noarch): free
-  82426098 buildArch (fernflower-211.7442.40-4.fc36.src.rpm, noarch): free -> open (buildvm-x86-25.iad2.fedoraproject.org)
-  82426098 buildArch (fernflower-211.7442.40-4.fc36.src.rpm, noarch): open (buildvm-x86-25.iad2.fedoraproject.org) -> closed
+  114349175 buildArch (fernflower-211.7442.40-11.fc40.src.rpm, noarch): free
+  114349175 buildArch (fernflower-211.7442.40-11.fc40.src.rpm, noarch): free -> open (buildvm-ppc64le-32.iad2.fedoraproject.org)
+  114349175 buildArch (fernflower-211.7442.40-11.fc40.src.rpm, noarch): open (buildvm-ppc64le-32.iad2.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  82426137 tagBuild (noarch): free
-  82426137 tagBuild (noarch): free -> closed
+  114349451 tagBuild (noarch): free
+  114349451 tagBuild (noarch): free -> assigned
+  114349451 tagBuild (noarch): assigned -> closed
   0 free  1 open  3 done  0 failed
-82425927 build (f36-java17, /rpms/fernflower.git:05888877295ee14f02eb2691f1e5c42bc4918af8): open (buildvm-s390x-12.s390.fedoraproject.org) -> closed
+114349040 build (f40-build-side-84857, /rpms/fernflower.git:3decb89b058ff1bf2f72a5be60b2bb242076a020): open (buildvm-ppc64le-32.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-82425927 build (f36-java17, /rpms/fernflower.git:05888877295ee14f02eb2691f1e5c42bc4918af8) completed successfully
+114349040 build (f40-build-side-84857, /rpms/fernflower.git:3decb89b058ff1bf2f72a5be60b2bb242076a020) completed successfully

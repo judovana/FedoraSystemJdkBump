@@ -1,22 +1,29 @@
 Cloning into 'apiguardian'...
-[rawhide 9cabecb] Rebuilt for java-17-openjdk as system jdk
+[f40 9e0c9b7] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building apiguardian-1.1.2-3.fc36 for f36-java17
-Created task: 82423515
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82423515
+Found a gating.yaml file in the repo and it is properly configured
+Building apiguardian-1.1.2-12.fc40 for f40-build-side-84857
+Created task: 114347191
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114347191
 Watching tasks (this may be safely interrupted)...
-82423515 build (f36-java17, /rpms/apiguardian.git:9cabecb85e90f2f999136d968403e7e29465bb8a): free
-82423515 build (f36-java17, /rpms/apiguardian.git:9cabecb85e90f2f999136d968403e7e29465bb8a): free -> open (buildvm-ppc64le-05.iad2.fedoraproject.org)
-  82423516 buildSRPMFromSCM (/rpms/apiguardian.git:9cabecb85e90f2f999136d968403e7e29465bb8a): open (buildvm-x86-08.iad2.fedoraproject.org)
-  82423531 buildArch (apiguardian-1.1.2-3.fc36.src.rpm, noarch): open (buildvm-x86-08.iad2.fedoraproject.org)
-  82423516 buildSRPMFromSCM (/rpms/apiguardian.git:9cabecb85e90f2f999136d968403e7e29465bb8a): open (buildvm-x86-08.iad2.fedoraproject.org) -> closed
-  0 free  2 open  1 done  0 failed
-  82423531 buildArch (apiguardian-1.1.2-3.fc36.src.rpm, noarch): open (buildvm-x86-08.iad2.fedoraproject.org) -> closed
-  0 free  1 open  2 done  0 failed
-  82423562 tagBuild (noarch): free
-  82423562 tagBuild (noarch): free -> closed
+114347191 build (f40-build-side-84857, /rpms/apiguardian.git:9e0c9b75ecd0b2d5103f6fe9cabbb347429876cc): free
+114347191 build (f40-build-side-84857, /rpms/apiguardian.git:9e0c9b75ecd0b2d5103f6fe9cabbb347429876cc): free -> assigned
+114347191 build (f40-build-side-84857, /rpms/apiguardian.git:9e0c9b75ecd0b2d5103f6fe9cabbb347429876cc): assigned -> open (buildvm-a64-11.iad2.fedoraproject.org)
+  114347213 buildSRPMFromSCM (/rpms/apiguardian.git:9e0c9b75ecd0b2d5103f6fe9cabbb347429876cc): free
+  114347213 buildSRPMFromSCM (/rpms/apiguardian.git:9e0c9b75ecd0b2d5103f6fe9cabbb347429876cc): free -> assigned
+  114347213 buildSRPMFromSCM (/rpms/apiguardian.git:9e0c9b75ecd0b2d5103f6fe9cabbb347429876cc): assigned -> open (buildvm-a64-13.iad2.fedoraproject.org)
+  114347213 buildSRPMFromSCM (/rpms/apiguardian.git:9e0c9b75ecd0b2d5103f6fe9cabbb347429876cc): open (buildvm-a64-13.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  114347330 buildArch (apiguardian-1.1.2-12.fc40.src.rpm, noarch): free
+  114347330 buildArch (apiguardian-1.1.2-12.fc40.src.rpm, noarch): free -> assigned
+  114347330 buildArch (apiguardian-1.1.2-12.fc40.src.rpm, noarch): assigned -> open (buildvm-ppc64le-21.iad2.fedoraproject.org)
+  114347459 tagBuild (noarch): free
+  114347330 buildArch (apiguardian-1.1.2-12.fc40.src.rpm, noarch): open (buildvm-ppc64le-21.iad2.fedoraproject.org) -> closed
+  1 free  1 open  2 done  0 failed
+  114347459 tagBuild (noarch): free -> assigned
+  114347459 tagBuild (noarch): assigned -> closed
   0 free  1 open  3 done  0 failed
-82423515 build (f36-java17, /rpms/apiguardian.git:9cabecb85e90f2f999136d968403e7e29465bb8a): open (buildvm-ppc64le-05.iad2.fedoraproject.org) -> closed
+114347191 build (f40-build-side-84857, /rpms/apiguardian.git:9e0c9b75ecd0b2d5103f6fe9cabbb347429876cc): open (buildvm-a64-11.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-82423515 build (f36-java17, /rpms/apiguardian.git:9cabecb85e90f2f999136d968403e7e29465bb8a) completed successfully
+114347191 build (f40-build-side-84857, /rpms/apiguardian.git:9e0c9b75ecd0b2d5103f6fe9cabbb347429876cc) completed successfully

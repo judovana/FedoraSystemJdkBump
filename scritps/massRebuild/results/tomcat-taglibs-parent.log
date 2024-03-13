@@ -1,20 +1,28 @@
 Cloning into 'tomcat-taglibs-parent'...
-[rawhide 88efd1e] Rebuilt for java-17-openjdk as system jdk
+[f40 3976dc4] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building tomcat-taglibs-parent-3-18.fc36 for f36-java17
-Created task: 82435182
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82435182
+Building tomcat-taglibs-parent-3-24.fc40 for f40-build-side-84857
+Created task: 114355741
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355741
 Watching tasks (this may be safely interrupted)...
-82435182 build (f36-java17, /rpms/tomcat-taglibs-parent.git:88efd1e597c80f6591622c895528b61da02ea3b2): free
-82435182 build (f36-java17, /rpms/tomcat-taglibs-parent.git:88efd1e597c80f6591622c895528b61da02ea3b2): free -> open (buildvm-ppc64le-33.iad2.fedoraproject.org)
-  82435183 buildSRPMFromSCM (/rpms/tomcat-taglibs-parent.git:88efd1e597c80f6591622c895528b61da02ea3b2): open (buildvm-ppc64le-33.iad2.fedoraproject.org)
-  82435183 buildSRPMFromSCM (/rpms/tomcat-taglibs-parent.git:88efd1e597c80f6591622c895528b61da02ea3b2): open (buildvm-ppc64le-33.iad2.fedoraproject.org) -> closed
+114355741 build (f40-build-side-84857, /rpms/tomcat-taglibs-parent.git:3976dc44a61ff210718189df501ded8d31704605): free
+114355741 build (f40-build-side-84857, /rpms/tomcat-taglibs-parent.git:3976dc44a61ff210718189df501ded8d31704605): free -> assigned
+114355741 build (f40-build-side-84857, /rpms/tomcat-taglibs-parent.git:3976dc44a61ff210718189df501ded8d31704605): assigned -> open (buildvm-s390x-08.s390.fedoraproject.org)
+  114355809 buildSRPMFromSCM (/rpms/tomcat-taglibs-parent.git:3976dc44a61ff210718189df501ded8d31704605): free
+  114355809 buildSRPMFromSCM (/rpms/tomcat-taglibs-parent.git:3976dc44a61ff210718189df501ded8d31704605): free -> assigned
+  114355809 buildSRPMFromSCM (/rpms/tomcat-taglibs-parent.git:3976dc44a61ff210718189df501ded8d31704605): assigned -> open (buildvm-a64-32.iad2.fedoraproject.org)
+  114355809 buildSRPMFromSCM (/rpms/tomcat-taglibs-parent.git:3976dc44a61ff210718189df501ded8d31704605): open (buildvm-a64-32.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  82435204 buildArch (tomcat-taglibs-parent-3-18.fc36.src.rpm, noarch): open (buildvm-ppc64le-33.iad2.fedoraproject.org)
-  82435204 buildArch (tomcat-taglibs-parent-3-18.fc36.src.rpm, noarch): open (buildvm-ppc64le-33.iad2.fedoraproject.org) -> closed
+  114355985 buildArch (tomcat-taglibs-parent-3-24.fc40.src.rpm, noarch): free
+  114355985 buildArch (tomcat-taglibs-parent-3-24.fc40.src.rpm, noarch): free -> assigned
+  114355985 buildArch (tomcat-taglibs-parent-3-24.fc40.src.rpm, noarch): assigned -> open (buildvm-s390x-03.s390.fedoraproject.org)
+  114355985 buildArch (tomcat-taglibs-parent-3-24.fc40.src.rpm, noarch): open (buildvm-s390x-03.s390.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  82435240 tagBuild (noarch): closed
-82435182 build (f36-java17, /rpms/tomcat-taglibs-parent.git:88efd1e597c80f6591622c895528b61da02ea3b2): open (buildvm-ppc64le-33.iad2.fedoraproject.org) -> closed
+  114356050 tagBuild (noarch): free
+  114356050 tagBuild (noarch): free -> assigned
+  114356050 tagBuild (noarch): assigned -> closed
+  0 free  1 open  3 done  0 failed
+114355741 build (f40-build-side-84857, /rpms/tomcat-taglibs-parent.git:3976dc44a61ff210718189df501ded8d31704605): open (buildvm-s390x-08.s390.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-82435182 build (f36-java17, /rpms/tomcat-taglibs-parent.git:88efd1e597c80f6591622c895528b61da02ea3b2) completed successfully
+114355741 build (f40-build-side-84857, /rpms/tomcat-taglibs-parent.git:3976dc44a61ff210718189df501ded8d31704605) completed successfully

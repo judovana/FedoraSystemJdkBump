@@ -1,22 +1,28 @@
 Cloning into 'apache-commons-io'...
-[rawhide 6e73feb] Rebuilt for java-17-openjdk as system jdk
+[f40 ebba9b4] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building apache-commons-io-2.8.0-7.fc36 for f36-java17
-Created task: 82423311
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82423311
+Found a gating.yaml file in the repo and it is properly configured
+Building apache-commons-io-2.13.0-8.fc40 for f40-build-side-84857
+Created task: 114346828
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114346828
 Watching tasks (this may be safely interrupted)...
-82423311 build (f36-java17, /rpms/apache-commons-io.git:6e73feb2f17403280d0a6131f77e10862381a4a7): free
-82423311 build (f36-java17, /rpms/apache-commons-io.git:6e73feb2f17403280d0a6131f77e10862381a4a7): free -> open (buildvm-x86-08.iad2.fedoraproject.org)
-  82423312 buildSRPMFromSCM (/rpms/apache-commons-io.git:6e73feb2f17403280d0a6131f77e10862381a4a7): open (buildvm-x86-08.iad2.fedoraproject.org)
-  82423356 buildArch (apache-commons-io-2.8.0-7.fc36.src.rpm, noarch): open (buildvm-x86-08.iad2.fedoraproject.org)
-  82423312 buildSRPMFromSCM (/rpms/apache-commons-io.git:6e73feb2f17403280d0a6131f77e10862381a4a7): open (buildvm-x86-08.iad2.fedoraproject.org) -> closed
-  0 free  2 open  1 done  0 failed
-  82423356 buildArch (apache-commons-io-2.8.0-7.fc36.src.rpm, noarch): open (buildvm-x86-08.iad2.fedoraproject.org) -> closed
+114346828 build (f40-build-side-84857, /rpms/apache-commons-io.git:ebba9b49ea2f4e7912d29f2dacbf61ea0822d477): free
+114346828 build (f40-build-side-84857, /rpms/apache-commons-io.git:ebba9b49ea2f4e7912d29f2dacbf61ea0822d477): free -> assigned
+114346828 build (f40-build-side-84857, /rpms/apache-commons-io.git:ebba9b49ea2f4e7912d29f2dacbf61ea0822d477): assigned -> open (buildvm-ppc64le-08.iad2.fedoraproject.org)
+  114346864 buildSRPMFromSCM (/rpms/apache-commons-io.git:ebba9b49ea2f4e7912d29f2dacbf61ea0822d477): free
+  114346864 buildSRPMFromSCM (/rpms/apache-commons-io.git:ebba9b49ea2f4e7912d29f2dacbf61ea0822d477): free -> open (buildvm-a64-20.iad2.fedoraproject.org)
+  114346961 buildArch (apache-commons-io-2.13.0-8.fc40.src.rpm, noarch): free
+  114346864 buildSRPMFromSCM (/rpms/apache-commons-io.git:ebba9b49ea2f4e7912d29f2dacbf61ea0822d477): open (buildvm-a64-20.iad2.fedoraproject.org) -> closed
+  1 free  1 open  1 done  0 failed
+  114346961 buildArch (apache-commons-io-2.13.0-8.fc40.src.rpm, noarch): free -> assigned
+  114346961 buildArch (apache-commons-io-2.13.0-8.fc40.src.rpm, noarch): assigned -> open (buildvm-s390x-04.s390.fedoraproject.org)
+  114346961 buildArch (apache-commons-io-2.13.0-8.fc40.src.rpm, noarch): open (buildvm-s390x-04.s390.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  82423492 tagBuild (noarch): free
-  82423492 tagBuild (noarch): free -> closed
+  114347049 tagBuild (noarch): free
+  114347049 tagBuild (noarch): free -> assigned
+  114347049 tagBuild (noarch): assigned -> closed
   0 free  1 open  3 done  0 failed
-82423311 build (f36-java17, /rpms/apache-commons-io.git:6e73feb2f17403280d0a6131f77e10862381a4a7): open (buildvm-x86-08.iad2.fedoraproject.org) -> closed
+114346828 build (f40-build-side-84857, /rpms/apache-commons-io.git:ebba9b49ea2f4e7912d29f2dacbf61ea0822d477): open (buildvm-ppc64le-08.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-82423311 build (f36-java17, /rpms/apache-commons-io.git:6e73feb2f17403280d0a6131f77e10862381a4a7) completed successfully
+114346828 build (f40-build-side-84857, /rpms/apache-commons-io.git:ebba9b49ea2f4e7912d29f2dacbf61ea0822d477) completed successfully

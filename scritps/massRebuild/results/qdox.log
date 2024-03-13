@@ -1,23 +1,16 @@
 Cloning into 'qdox'...
-[rawhide f300a53] Rebuilt for java-17-openjdk as system jdk
+[f40 08b51c4] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building qdox-2.0.0-9.fc36 for f36-java17
-Created task: 82434049
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82434049
+Found a gating.yaml file in the repo and it is properly configured
+Building qdox-2.1.0-3.fc40 for f40-build-side-84857
+Created task: 114355579
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355579
 Watching tasks (this may be safely interrupted)...
-82434049 build (f36-java17, /rpms/qdox.git:f300a5307d2c10b2d687309650f913c82b4e342e): free
-82434049 build (f36-java17, /rpms/qdox.git:f300a5307d2c10b2d687309650f913c82b4e342e): free -> open (buildvm-x86-25.iad2.fedoraproject.org)
-  82434052 buildSRPMFromSCM (/rpms/qdox.git:f300a5307d2c10b2d687309650f913c82b4e342e): open (buildvm-ppc64le-05.iad2.fedoraproject.org)
-  82434052 buildSRPMFromSCM (/rpms/qdox.git:f300a5307d2c10b2d687309650f913c82b4e342e): open (buildvm-ppc64le-05.iad2.fedoraproject.org) -> closed
-  0 free  1 open  1 done  0 failed
-  82434138 buildArch (qdox-2.0.0-9.fc36.src.rpm, noarch): free
-  82434138 buildArch (qdox-2.0.0-9.fc36.src.rpm, noarch): free -> open (buildvm-ppc64le-15.iad2.fedoraproject.org)
-  82434138 buildArch (qdox-2.0.0-9.fc36.src.rpm, noarch): open (buildvm-ppc64le-15.iad2.fedoraproject.org) -> closed
-  0 free  1 open  2 done  0 failed
-  82434293 tagBuild (noarch): free
-  82434293 tagBuild (noarch): free -> closed
-  0 free  1 open  3 done  0 failed
-82434049 build (f36-java17, /rpms/qdox.git:f300a5307d2c10b2d687309650f913c82b4e342e): open (buildvm-x86-25.iad2.fedoraproject.org) -> closed
-  0 free  0 open  4 done  0 failed
+114355579 build (f40-build-side-84857, /rpms/qdox.git:08b51c4e729110b507055af7333b73860b712d99): free
+Watching tasks (this may be safely interrupted)...
+114355579 build (f40-build-side-84857, /rpms/qdox.git:08b51c4e729110b507055af7333b73860b712d99): closed
+  114356006 tagBuild (noarch): closed
+  114355760 buildSRPMFromSCM (/rpms/qdox.git:08b51c4e729110b507055af7333b73860b712d99): closed
+  114355925 buildArch (qdox-2.1.0-3.fc40.src.rpm, noarch): closed
 
-82434049 build (f36-java17, /rpms/qdox.git:f300a5307d2c10b2d687309650f913c82b4e342e) completed successfully
+114355579 build (f40-build-side-84857, /rpms/qdox.git:08b51c4e729110b507055af7333b73860b712d99) completed successfully

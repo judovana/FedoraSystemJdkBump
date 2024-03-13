@@ -1,0 +1,23 @@
+Cloning into 'maven-verifier'...
+[rawhide 5218401] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building maven-verifier-1.7.2-8.fc36 for f36-java17
+Created task: 82431903
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82431903
+Watching tasks (this may be safely interrupted)...
+82431903 build (f36-java17, /rpms/maven-verifier.git:5218401becf663cbee4eb36c12659fc6ababd591): free
+82431903 build (f36-java17, /rpms/maven-verifier.git:5218401becf663cbee4eb36c12659fc6ababd591): free -> open (buildvm-x86-19.iad2.fedoraproject.org)
+  82431904 buildSRPMFromSCM (/rpms/maven-verifier.git:5218401becf663cbee4eb36c12659fc6ababd591): open (buildvm-ppc64le-18.iad2.fedoraproject.org)
+  82431904 buildSRPMFromSCM (/rpms/maven-verifier.git:5218401becf663cbee4eb36c12659fc6ababd591): open (buildvm-ppc64le-18.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82432124 buildArch (maven-verifier-1.7.2-8.fc36.src.rpm, noarch): free
+  82432124 buildArch (maven-verifier-1.7.2-8.fc36.src.rpm, noarch): free -> open (buildvm-a32-27.iad2.fedoraproject.org)
+  82432124 buildArch (maven-verifier-1.7.2-8.fc36.src.rpm, noarch): open (buildvm-a32-27.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  82432243 tagBuild (noarch): free
+  82432243 tagBuild (noarch): free -> closed
+  0 free  1 open  3 done  0 failed
+82431903 build (f36-java17, /rpms/maven-verifier.git:5218401becf663cbee4eb36c12659fc6ababd591): open (buildvm-x86-19.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+82431903 build (f36-java17, /rpms/maven-verifier.git:5218401becf663cbee4eb36c12659fc6ababd591) completed successfully

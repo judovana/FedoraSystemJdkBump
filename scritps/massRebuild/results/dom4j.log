@@ -1,22 +1,29 @@
 Cloning into 'dom4j'...
-[rawhide 8e22674] Rebuilt for java-17-openjdk as system jdk
+[f40 aed5484] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building dom4j-2.0.3-4.fc36 for f36-java17
-Created task: 82425736
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82425736
+Building dom4j-2.0.3-11.fc40 for f40-build-side-84857
+Created task: 114348519
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114348519
 Watching tasks (this may be safely interrupted)...
-82425736 build (f36-java17, /rpms/dom4j.git:8e226740ea840962e32e59e26ab475199132a4bd): open (buildvm-x86-15.iad2.fedoraproject.org)
-  82425737 buildSRPMFromSCM (/rpms/dom4j.git:8e226740ea840962e32e59e26ab475199132a4bd): open (buildvm-ppc64le-37.iad2.fedoraproject.org)
-  82425737 buildSRPMFromSCM (/rpms/dom4j.git:8e226740ea840962e32e59e26ab475199132a4bd): open (buildvm-ppc64le-37.iad2.fedoraproject.org) -> closed
+114348519 build (f40-build-side-84857, /rpms/dom4j.git:aed54848eb37e777e0d8228f6ed26cc8f6769d4b): free
+114348519 build (f40-build-side-84857, /rpms/dom4j.git:aed54848eb37e777e0d8228f6ed26cc8f6769d4b): free -> assigned
+114348519 build (f40-build-side-84857, /rpms/dom4j.git:aed54848eb37e777e0d8228f6ed26cc8f6769d4b): assigned -> open (buildvm-s390x-04.s390.fedoraproject.org)
+  114348552 buildSRPMFromSCM (/rpms/dom4j.git:aed54848eb37e777e0d8228f6ed26cc8f6769d4b): free
+  114348552 buildSRPMFromSCM (/rpms/dom4j.git:aed54848eb37e777e0d8228f6ed26cc8f6769d4b): free -> open (buildvm-x86-15.iad2.fedoraproject.org)
+  114348552 buildSRPMFromSCM (/rpms/dom4j.git:aed54848eb37e777e0d8228f6ed26cc8f6769d4b): open (buildvm-x86-15.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  82425772 buildArch (dom4j-2.0.3-4.fc36.src.rpm, noarch): free
-  82425772 buildArch (dom4j-2.0.3-4.fc36.src.rpm, noarch): free -> open (buildvm-ppc64le-37.iad2.fedoraproject.org)
-  82425772 buildArch (dom4j-2.0.3-4.fc36.src.rpm, noarch): open (buildvm-ppc64le-37.iad2.fedoraproject.org) -> closed
-  0 free  1 open  2 done  0 failed
-  82425821 tagBuild (noarch): open (buildvm-ppc64le-27.iad2.fedoraproject.org)
-  82425821 tagBuild (noarch): open (buildvm-ppc64le-27.iad2.fedoraproject.org) -> closed
-  0 free  1 open  3 done  0 failed
-82425736 build (f36-java17, /rpms/dom4j.git:8e226740ea840962e32e59e26ab475199132a4bd): open (buildvm-x86-15.iad2.fedoraproject.org) -> closed
-  0 free  0 open  4 done  0 failed
+  114348678 buildArch (dom4j-2.0.3-11.fc40.src.rpm, noarch): free
+  114348678 buildArch (dom4j-2.0.3-11.fc40.src.rpm, noarch): free -> assigned
+  114348678 buildArch (dom4j-2.0.3-11.fc40.src.rpm, noarch): assigned -> open (buildvm-x86-29.iad2.fedoraproject.org)
+  114348678 buildArch (dom4j-2.0.3-11.fc40.src.rpm, noarch): open (buildvm-x86-29.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
+  Relevant logs:
+  https://kojipkgs.fedoraproject.org/work/tasks/8678/114348678/mock_output.log
+  https://kojipkgs.fedoraproject.org/work/tasks/8678/114348678/state.log
+  https://kojipkgs.fedoraproject.org/work/tasks/8678/114348678/build.log
+  https://kojipkgs.fedoraproject.org/work/tasks/8678/114348678/root.log
+  https://kojipkgs.fedoraproject.org/work/tasks/8678/114348678/hw_info.log
+  0 free  1 open  1 done  1 failed
+114348519 build (f40-build-side-84857, /rpms/dom4j.git:aed54848eb37e777e0d8228f6ed26cc8f6769d4b): open (buildvm-s390x-04.s390.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
+  0 free  0 open  1 done  2 failed
 
-82425736 build (f36-java17, /rpms/dom4j.git:8e226740ea840962e32e59e26ab475199132a4bd) completed successfully
+114348519 build (f40-build-side-84857, /rpms/dom4j.git:aed54848eb37e777e0d8228f6ed26cc8f6769d4b) failed

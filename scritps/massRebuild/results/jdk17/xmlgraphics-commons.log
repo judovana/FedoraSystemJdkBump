@@ -1,0 +1,21 @@
+Cloning into 'xmlgraphics-commons'...
+[rawhide f6f8697] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building xmlgraphics-commons-2.7-2.fc36 for f36-java17
+Created task: 82435717
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82435717
+Watching tasks (this may be safely interrupted)...
+82435717 build (f36-java17, /rpms/xmlgraphics-commons.git:f6f86976ca5e9cb407108eba54caea0d18230dbb): free
+82435717 build (f36-java17, /rpms/xmlgraphics-commons.git:f6f86976ca5e9cb407108eba54caea0d18230dbb): free -> open (buildvm-x86-28.iad2.fedoraproject.org)
+  82435734 buildSRPMFromSCM (/rpms/xmlgraphics-commons.git:f6f86976ca5e9cb407108eba54caea0d18230dbb): free
+  82435734 buildSRPMFromSCM (/rpms/xmlgraphics-commons.git:f6f86976ca5e9cb407108eba54caea0d18230dbb): free -> open (buildvm-x86-31.iad2.fedoraproject.org)
+  82435734 buildSRPMFromSCM (/rpms/xmlgraphics-commons.git:f6f86976ca5e9cb407108eba54caea0d18230dbb): open (buildvm-x86-31.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82435765 buildArch (xmlgraphics-commons-2.7-2.fc36.src.rpm, noarch): open (buildvm-x86-18.iad2.fedoraproject.org)
+  82435765 buildArch (xmlgraphics-commons-2.7-2.fc36.src.rpm, noarch): open (buildvm-x86-18.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  82436099 tagBuild (noarch): closed
+82435717 build (f36-java17, /rpms/xmlgraphics-commons.git:f6f86976ca5e9cb407108eba54caea0d18230dbb): open (buildvm-x86-28.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+82435717 build (f36-java17, /rpms/xmlgraphics-commons.git:f6f86976ca5e9cb407108eba54caea0d18230dbb) completed successfully

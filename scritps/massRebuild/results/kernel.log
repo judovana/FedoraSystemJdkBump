@@ -1,0 +1,27 @@
+Cloning into 'kernel'...
+[f40 5ba6dc48a] Rebuilt for java-21-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Found a gating.yaml file in the repo and it is properly configured
+Building kernel-6.8.0-0.rc6.49.fc40.1 for f40-build-side-84857
+Created task: 114352968
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114352968
+Watching tasks (this may be safely interrupted)...
+114352968 build (f40-build-side-84857, /rpms/kernel.git:5ba6dc48a4800ef352dc4f22d69ab23cd2e462e7): free
+114352968 build (f40-build-side-84857, /rpms/kernel.git:5ba6dc48a4800ef352dc4f22d69ab23cd2e462e7): free -> assigned
+114352968 build (f40-build-side-84857, /rpms/kernel.git:5ba6dc48a4800ef352dc4f22d69ab23cd2e462e7): assigned -> open (buildvm-s390x-09.s390.fedoraproject.org)
+  114352986 buildSRPMFromSCM (/rpms/kernel.git:5ba6dc48a4800ef352dc4f22d69ab23cd2e462e7): free
+  114352986 buildSRPMFromSCM (/rpms/kernel.git:5ba6dc48a4800ef352dc4f22d69ab23cd2e462e7): free -> assigned
+  114352986 buildSRPMFromSCM (/rpms/kernel.git:5ba6dc48a4800ef352dc4f22d69ab23cd2e462e7): assigned -> open (buildvm-x86-30.iad2.fedoraproject.org)
+  114352986 buildSRPMFromSCM (/rpms/kernel.git:5ba6dc48a4800ef352dc4f22d69ab23cd2e462e7): open (buildvm-x86-30.iad2.fedoraproject.org) -> FAILED: BuildError: Error running GIT command "git clone -n https://src.fedoraproject.org/rpms/kernel.git /var/lib/mock/f40-build-side-84857-49418623-5879038/root/chroot_tmpdir/scmroot/kernel", see checkout.log for details
+  Relevant logs:
+  https://kojipkgs.fedoraproject.org/work/tasks/2986/114352986/state.log
+  https://kojipkgs.fedoraproject.org/work/tasks/2986/114352986/build.log
+  https://kojipkgs.fedoraproject.org/work/tasks/2986/114352986/root.log
+  https://kojipkgs.fedoraproject.org/work/tasks/2986/114352986/mock_output.log
+  https://kojipkgs.fedoraproject.org/work/tasks/2986/114352986/hw_info.log
+  https://kojipkgs.fedoraproject.org/work/tasks/2986/114352986/checkout.log
+  0 free  1 open  0 done  1 failed
+114352968 build (f40-build-side-84857, /rpms/kernel.git:5ba6dc48a4800ef352dc4f22d69ab23cd2e462e7): open (buildvm-s390x-09.s390.fedoraproject.org) -> FAILED: BuildError: Error running GIT command "git clone -n https://src.fedoraproject.org/rpms/kernel.git /var/lib/mock/f40-build-side-84857-49418623-5879038/root/chroot_tmpdir/scmroot/kernel", see checkout.log for details
+  0 free  0 open  0 done  2 failed
+
+114352968 build (f40-build-side-84857, /rpms/kernel.git:5ba6dc48a4800ef352dc4f22d69ab23cd2e462e7) failed

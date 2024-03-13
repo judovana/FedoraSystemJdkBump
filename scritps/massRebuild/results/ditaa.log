@@ -1,26 +1,29 @@
 Cloning into 'ditaa'...
-[rawhide 0300776] Rebuilt for java-17-openjdk as system jdk
+[f40 854a862] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building ditaa-0.10-16.fc36 for f36-java17
-Created task: 82425709
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82425709
-Watching tasks (this may be safely interrupted)...
-82425709 build (f36-java17, /rpms/ditaa.git:0300776174b834c1e162b57a85d58dcacccc842c): free
-82425709 build (f36-java17, /rpms/ditaa.git:0300776174b834c1e162b57a85d58dcacccc842c): free -> open (buildvm-x86-19.iad2.fedoraproject.org)
-  82425716 buildSRPMFromSCM (/rpms/ditaa.git:0300776174b834c1e162b57a85d58dcacccc842c): free
-  82425716 buildSRPMFromSCM (/rpms/ditaa.git:0300776174b834c1e162b57a85d58dcacccc842c): free -> open (buildvm-ppc64le-31.iad2.fedoraproject.org)
-  82425716 buildSRPMFromSCM (/rpms/ditaa.git:0300776174b834c1e162b57a85d58dcacccc842c): open (buildvm-ppc64le-31.iad2.fedoraproject.org) -> closed
-  0 free  1 open  1 done  0 failed
-  82425747 buildArch (ditaa-0.10-16.fc36.src.rpm, noarch): open (buildvm-x86-19.iad2.fedoraproject.org)
-  82425747 buildArch (ditaa-0.10-16.fc36.src.rpm, noarch): open (buildvm-x86-19.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
-  Relevant logs:
-  https://kojipkgs.fedoraproject.org/work/tasks/5747/82425747/mock_output.log
-  https://kojipkgs.fedoraproject.org/work/tasks/5747/82425747/hw_info.log
-  https://kojipkgs.fedoraproject.org/work/tasks/5747/82425747/state.log
-  https://kojipkgs.fedoraproject.org/work/tasks/5747/82425747/build.log
-  https://kojipkgs.fedoraproject.org/work/tasks/5747/82425747/root.log
-  0 free  1 open  1 done  1 failed
-82425709 build (f36-java17, /rpms/ditaa.git:0300776174b834c1e162b57a85d58dcacccc842c): open (buildvm-x86-19.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
-  0 free  0 open  1 done  2 failed
+warning: %patchN is deprecated (3 usages found), use %patch N (or %patch -P N)
 
-82425709 build (f36-java17, /rpms/ditaa.git:0300776174b834c1e162b57a85d58dcacccc842c) failed
+Building ditaa-0.10-24.fc40 for f40-build-side-84857
+Created task: 114348321
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114348321
+Watching tasks (this may be safely interrupted)...
+114348321 build (f40-build-side-84857, /rpms/ditaa.git:854a86264129356e1bd56de1e0ac79a92a3a0092): free
+114348321 build (f40-build-side-84857, /rpms/ditaa.git:854a86264129356e1bd56de1e0ac79a92a3a0092): free -> open (buildvm-s390x-07.s390.fedoraproject.org)
+  114348501 buildSRPMFromSCM (/rpms/ditaa.git:854a86264129356e1bd56de1e0ac79a92a3a0092): free
+  114348501 buildSRPMFromSCM (/rpms/ditaa.git:854a86264129356e1bd56de1e0ac79a92a3a0092): free -> assigned
+  114348501 buildSRPMFromSCM (/rpms/ditaa.git:854a86264129356e1bd56de1e0ac79a92a3a0092): assigned -> open (buildvm-x86-13.iad2.fedoraproject.org)
+  114348501 buildSRPMFromSCM (/rpms/ditaa.git:854a86264129356e1bd56de1e0ac79a92a3a0092): open (buildvm-x86-13.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  114348652 buildArch (ditaa-0.10-24.fc40.src.rpm, noarch): free
+  114348652 buildArch (ditaa-0.10-24.fc40.src.rpm, noarch): free -> assigned
+  114348652 buildArch (ditaa-0.10-24.fc40.src.rpm, noarch): assigned -> open (buildhw-x86-05.iad2.fedoraproject.org)
+  114348652 buildArch (ditaa-0.10-24.fc40.src.rpm, noarch): open (buildhw-x86-05.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  114348783 tagBuild (noarch): free
+  114348783 tagBuild (noarch): free -> assigned
+114348321 build (f40-build-side-84857, /rpms/ditaa.git:854a86264129356e1bd56de1e0ac79a92a3a0092): open (buildvm-s390x-07.s390.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+  114348783 tagBuild (noarch): assigned -> closed
+  0 free  0 open  4 done  0 failed
+
+114348321 build (f40-build-side-84857, /rpms/ditaa.git:854a86264129356e1bd56de1e0ac79a92a3a0092) completed successfully

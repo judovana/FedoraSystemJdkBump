@@ -1,22 +1,29 @@
 Cloning into 'jorbis'...
-[rawhide 40a29ca] Rebuilt for java-17-openjdk as system jdk
+[f40 1f302a9] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building jorbis-0.0.17-27.fc36 for f36-java17
-Created task: 82429916
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82429916
+warning: %patchN is deprecated (1 usages found), use %patch N (or %patch -P N)
+
+Building jorbis-0.0.17-34.fc40 for f40-build-side-84857
+Created task: 114352685
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114352685
 Watching tasks (this may be safely interrupted)...
-82429916 build (f36-java17, /rpms/jorbis.git:40a29caa82ff23b301fc146789ba182967e0071e): free
-82429916 build (f36-java17, /rpms/jorbis.git:40a29caa82ff23b301fc146789ba182967e0071e): free -> open (buildvm-ppc64le-39.iad2.fedoraproject.org)
-  82429921 buildSRPMFromSCM (/rpms/jorbis.git:40a29caa82ff23b301fc146789ba182967e0071e): free
-  82429921 buildSRPMFromSCM (/rpms/jorbis.git:40a29caa82ff23b301fc146789ba182967e0071e): free -> open (buildvm-x86-18.iad2.fedoraproject.org)
-  82430036 buildArch (jorbis-0.0.17-27.fc36.src.rpm, noarch): free
-  82429921 buildSRPMFromSCM (/rpms/jorbis.git:40a29caa82ff23b301fc146789ba182967e0071e): open (buildvm-x86-18.iad2.fedoraproject.org) -> closed
+114352685 build (f40-build-side-84857, /rpms/jorbis.git:1f302a9ae0c5355156c47ea39f736ae64d0a2497): free
+114352685 build (f40-build-side-84857, /rpms/jorbis.git:1f302a9ae0c5355156c47ea39f736ae64d0a2497): free -> assigned
+114352685 build (f40-build-side-84857, /rpms/jorbis.git:1f302a9ae0c5355156c47ea39f736ae64d0a2497): assigned -> open (buildvm-a64-08.iad2.fedoraproject.org)
+  114352691 buildSRPMFromSCM (/rpms/jorbis.git:1f302a9ae0c5355156c47ea39f736ae64d0a2497): free
+  114352691 buildSRPMFromSCM (/rpms/jorbis.git:1f302a9ae0c5355156c47ea39f736ae64d0a2497): free -> assigned
+  114352691 buildSRPMFromSCM (/rpms/jorbis.git:1f302a9ae0c5355156c47ea39f736ae64d0a2497): assigned -> open (buildvm-x86-29.iad2.fedoraproject.org)
+  114352713 buildArch (jorbis-0.0.17-34.fc40.src.rpm, noarch): free
+  114352691 buildSRPMFromSCM (/rpms/jorbis.git:1f302a9ae0c5355156c47ea39f736ae64d0a2497): open (buildvm-x86-29.iad2.fedoraproject.org) -> closed
   1 free  1 open  1 done  0 failed
-  82430036 buildArch (jorbis-0.0.17-27.fc36.src.rpm, noarch): free -> open (buildvm-x86-08.iad2.fedoraproject.org)
-  82430152 tagBuild (noarch): closed
-  82430036 buildArch (jorbis-0.0.17-27.fc36.src.rpm, noarch): open (buildvm-x86-08.iad2.fedoraproject.org) -> closed
+  114352713 buildArch (jorbis-0.0.17-34.fc40.src.rpm, noarch): free -> assigned
+  114352713 buildArch (jorbis-0.0.17-34.fc40.src.rpm, noarch): assigned -> open (buildvm-s390x-09.s390.fedoraproject.org)
+  114352713 buildArch (jorbis-0.0.17-34.fc40.src.rpm, noarch): open (buildvm-s390x-09.s390.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  114352772 tagBuild (noarch): free
+  114352772 tagBuild (noarch): free -> closed
   0 free  1 open  3 done  0 failed
-82429916 build (f36-java17, /rpms/jorbis.git:40a29caa82ff23b301fc146789ba182967e0071e): open (buildvm-ppc64le-39.iad2.fedoraproject.org) -> closed
+114352685 build (f40-build-side-84857, /rpms/jorbis.git:1f302a9ae0c5355156c47ea39f736ae64d0a2497): open (buildvm-a64-08.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-82429916 build (f36-java17, /rpms/jorbis.git:40a29caa82ff23b301fc146789ba182967e0071e) completed successfully
+114352685 build (f40-build-side-84857, /rpms/jorbis.git:1f302a9ae0c5355156c47ea39f736ae64d0a2497) completed successfully

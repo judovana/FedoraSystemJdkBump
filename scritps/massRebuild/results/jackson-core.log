@@ -1,24 +1,26 @@
 Cloning into 'jackson-core'...
-[rawhide 6509807] Rebuilt for java-17-openjdk as system jdk
+[f40 8611964] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building jackson-core-2.11.4-7.fc36 for f36-java17
-Created task: 82427146
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82427146
+Building jackson-core-2.16.1-4.fc40 for f40-build-side-84857
+Created task: 114350339
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114350339
 Watching tasks (this may be safely interrupted)...
-82427146 build (f36-java17, /rpms/jackson-core.git:65098078287f704fb17c92de46421d91664908bf): free
-82427146 build (f36-java17, /rpms/jackson-core.git:65098078287f704fb17c92de46421d91664908bf): free -> open (buildhw-x86-13.iad2.fedoraproject.org)
-  82427159 buildSRPMFromSCM (/rpms/jackson-core.git:65098078287f704fb17c92de46421d91664908bf): free
-  82427159 buildSRPMFromSCM (/rpms/jackson-core.git:65098078287f704fb17c92de46421d91664908bf): free -> open (buildvm-ppc64le-21.iad2.fedoraproject.org)
-  82427159 buildSRPMFromSCM (/rpms/jackson-core.git:65098078287f704fb17c92de46421d91664908bf): open (buildvm-ppc64le-21.iad2.fedoraproject.org) -> closed
+114350339 build (f40-build-side-84857, /rpms/jackson-core.git:86119649f613f5902393acf912fddc92b2b7d653): free
+114350339 build (f40-build-side-84857, /rpms/jackson-core.git:86119649f613f5902393acf912fddc92b2b7d653): free -> open (buildvm-x86-07.iad2.fedoraproject.org)
+  114350361 buildSRPMFromSCM (/rpms/jackson-core.git:86119649f613f5902393acf912fddc92b2b7d653): free
+  114350361 buildSRPMFromSCM (/rpms/jackson-core.git:86119649f613f5902393acf912fddc92b2b7d653): free -> assigned
+  114350361 buildSRPMFromSCM (/rpms/jackson-core.git:86119649f613f5902393acf912fddc92b2b7d653): assigned -> open (buildvm-a64-34.iad2.fedoraproject.org)
+  114350361 buildSRPMFromSCM (/rpms/jackson-core.git:86119649f613f5902393acf912fddc92b2b7d653): open (buildvm-a64-34.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  82427405 buildArch (jackson-core-2.11.4-7.fc36.src.rpm, noarch): free
-  82427405 buildArch (jackson-core-2.11.4-7.fc36.src.rpm, noarch): free -> open (buildhw-a64-23.iad2.fedoraproject.org)
-  82427405 buildArch (jackson-core-2.11.4-7.fc36.src.rpm, noarch): open (buildhw-a64-23.iad2.fedoraproject.org) -> closed
+  114350463 buildArch (jackson-core-2.16.1-4.fc40.src.rpm, noarch): free
+  114350463 buildArch (jackson-core-2.16.1-4.fc40.src.rpm, noarch): free -> open (buildvm-s390x-04.s390.fedoraproject.org)
+  114350463 buildArch (jackson-core-2.16.1-4.fc40.src.rpm, noarch): open (buildvm-s390x-04.s390.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  82427554 tagBuild (noarch): free
-  82427554 tagBuild (noarch): free -> closed
+  114350565 tagBuild (noarch): free
+  114350565 tagBuild (noarch): free -> assigned
+  114350565 tagBuild (noarch): assigned -> closed
   0 free  1 open  3 done  0 failed
-82427146 build (f36-java17, /rpms/jackson-core.git:65098078287f704fb17c92de46421d91664908bf): open (buildhw-x86-13.iad2.fedoraproject.org) -> closed
+114350339 build (f40-build-side-84857, /rpms/jackson-core.git:86119649f613f5902393acf912fddc92b2b7d653): open (buildvm-x86-07.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-82427146 build (f36-java17, /rpms/jackson-core.git:65098078287f704fb17c92de46421d91664908bf) completed successfully
+114350339 build (f40-build-side-84857, /rpms/jackson-core.git:86119649f613f5902393acf912fddc92b2b7d653) completed successfully

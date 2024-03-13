@@ -1,35 +1,34 @@
 Cloning into 'ceph'...
-[rawhide 8c6b1da] Rebuilt for java-17-openjdk as system jdk
+[f40 f1a1925] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building ceph-16.2.7-10.fc36 for f36-java17
-Created task: 82428373
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82428373
-Watching tasks (this may be safely interrupted)...
-82428373 build (f36-java17, /rpms/ceph.git:8c6b1da0a2050ed033f35c05b70bff0493dd9bff): free
-82428373 build (f36-java17, /rpms/ceph.git:8c6b1da0a2050ed033f35c05b70bff0493dd9bff): free -> open (buildvm-ppc64le-31.iad2.fedoraproject.org)
-  82428380 buildSRPMFromSCM (/rpms/ceph.git:8c6b1da0a2050ed033f35c05b70bff0493dd9bff): open (buildvm-ppc64le-31.iad2.fedoraproject.org)
-  82428380 buildSRPMFromSCM (/rpms/ceph.git:8c6b1da0a2050ed033f35c05b70bff0493dd9bff): open (buildvm-ppc64le-31.iad2.fedoraproject.org) -> closed
-  0 free  1 open  1 done  0 failed
-  82428595 buildArch (ceph-16.2.7-10.fc36.src.rpm, ppc64le): free
-  82428597 buildArch (ceph-16.2.7-10.fc36.src.rpm, s390x): free
-  82428593 buildArch (ceph-16.2.7-10.fc36.src.rpm, x86_64): free
-  82428594 buildArch (ceph-16.2.7-10.fc36.src.rpm, aarch64): free
-  82428597 buildArch (ceph-16.2.7-10.fc36.src.rpm, s390x): free -> open (buildvm-s390x-08.s390.fedoraproject.org)
-  82428594 buildArch (ceph-16.2.7-10.fc36.src.rpm, aarch64): free -> open (buildvm-a64-31.iad2.fedoraproject.org)
-  82428593 buildArch (ceph-16.2.7-10.fc36.src.rpm, x86_64): free -> open (buildvm-x86-17.iad2.fedoraproject.org)
-  82428595 buildArch (ceph-16.2.7-10.fc36.src.rpm, ppc64le): free -> open (buildvm-ppc64le-13.iad2.fedoraproject.org)
-  82428595 buildArch (ceph-16.2.7-10.fc36.src.rpm, ppc64le): open (buildvm-ppc64le-13.iad2.fedoraproject.org) -> closed
-  0 free  4 open  2 done  0 failed
-  82428593 buildArch (ceph-16.2.7-10.fc36.src.rpm, x86_64): open (buildvm-x86-17.iad2.fedoraproject.org) -> closed
-  0 free  3 open  3 done  0 failed
-  82428594 buildArch (ceph-16.2.7-10.fc36.src.rpm, aarch64): open (buildvm-a64-31.iad2.fedoraproject.org) -> closed
-  0 free  2 open  4 done  0 failed
-  82428597 buildArch (ceph-16.2.7-10.fc36.src.rpm, s390x): open (buildvm-s390x-08.s390.fedoraproject.org) -> closed
-  0 free  1 open  5 done  0 failed
-  82442526 tagBuild (noarch): free
-  82442526 tagBuild (noarch): free -> closed
-  0 free  1 open  6 done  0 failed
-82428373 build (f36-java17, /rpms/ceph.git:8c6b1da0a2050ed033f35c05b70bff0493dd9bff): open (buildvm-ppc64le-31.iad2.fedoraproject.org) -> closed
-  0 free  0 open  7 done  0 failed
+warning: Macro expanded in comment on line 287: %{?fedora} || 0%{?rhel} >= 10 )
 
-82428373 build (f36-java17, /rpms/ceph.git:8c6b1da0a2050ed033f35c05b70bff0493dd9bff) completed successfully
+
+Building ceph-18.2.1-10.fc40 for f40-build-side-84857
+Created task: 114346249
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114346249
+Watching tasks (this may be safely interrupted)...
+114346249 build (f40-build-side-84857, /rpms/ceph.git:f1a1925584af4c152b3dcf47fab0fb5c67e1956d): free
+114346249 build (f40-build-side-84857, /rpms/ceph.git:f1a1925584af4c152b3dcf47fab0fb5c67e1956d): free -> assigned
+114346249 build (f40-build-side-84857, /rpms/ceph.git:f1a1925584af4c152b3dcf47fab0fb5c67e1956d): assigned -> open (buildhw-a64-21.iad2.fedoraproject.org)
+  114346344 buildSRPMFromSCM (/rpms/ceph.git:f1a1925584af4c152b3dcf47fab0fb5c67e1956d): free
+  114346344 buildSRPMFromSCM (/rpms/ceph.git:f1a1925584af4c152b3dcf47fab0fb5c67e1956d): free -> assigned
+  114346344 buildSRPMFromSCM (/rpms/ceph.git:f1a1925584af4c152b3dcf47fab0fb5c67e1956d): assigned -> open (buildvm-x86-13.iad2.fedoraproject.org)
+  114346344 buildSRPMFromSCM (/rpms/ceph.git:f1a1925584af4c152b3dcf47fab0fb5c67e1956d): open (buildvm-x86-13.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  114346627 buildArch (ceph-18.2.1-10.fc40.src.rpm, aarch64): assigned
+  114346629 buildArch (ceph-18.2.1-10.fc40.src.rpm, s390x): assigned
+  114346628 buildArch (ceph-18.2.1-10.fc40.src.rpm, ppc64le): assigned
+  114346626 buildArch (ceph-18.2.1-10.fc40.src.rpm, x86_64): assigned
+  114346628 buildArch (ceph-18.2.1-10.fc40.src.rpm, ppc64le): assigned -> open (buildvm-ppc64le-16.iad2.fedoraproject.org)
+  114346629 buildArch (ceph-18.2.1-10.fc40.src.rpm, s390x): assigned -> open (buildvm-s390x-02.s390.fedoraproject.org)
+  114346627 buildArch (ceph-18.2.1-10.fc40.src.rpm, aarch64): assigned -> free
+  114346626 buildArch (ceph-18.2.1-10.fc40.src.rpm, x86_64): assigned -> free
+  114346627 buildArch (ceph-18.2.1-10.fc40.src.rpm, aarch64): free -> assigned
+  114346626 buildArch (ceph-18.2.1-10.fc40.src.rpm, x86_64): free -> assigned
+  114346626 buildArch (ceph-18.2.1-10.fc40.src.rpm, x86_64): assigned -> open (buildhw-x86-08.iad2.fedoraproject.org)
+  114346627 buildArch (ceph-18.2.1-10.fc40.src.rpm, aarch64): assigned -> open (buildhw-a64-20.iad2.fedoraproject.org)
+  114346626 buildArch (ceph-18.2.1-10.fc40.src.rpm, x86_64): open (buildhw-x86-08.iad2.fedoraproject.org) -> closed
+  0 free  4 open  2 done  0 failed
+  114346627 buildArch (ceph-18.2.1-10.fc40.src.rpm, aarch64): open (buildhw-a64-20.iad2.fedoraproject.org) -> closed
+  0 free  3 open  3 done  0 failed

@@ -1,0 +1,23 @@
+Cloning into 'xz-java'...
+[rawhide 1b96df7] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building xz-java-1.9-3.fc36 for f36-java17
+Created task: 82435904
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82435904
+Watching tasks (this may be safely interrupted)...
+82435904 build (f36-java17, /rpms/xz-java.git:1b96df75888934d1c6c0091ee9d86188c8f278d3): open (buildvm-ppc64le-14.iad2.fedoraproject.org)
+  82435906 buildSRPMFromSCM (/rpms/xz-java.git:1b96df75888934d1c6c0091ee9d86188c8f278d3): free
+  82435906 buildSRPMFromSCM (/rpms/xz-java.git:1b96df75888934d1c6c0091ee9d86188c8f278d3): free -> open (buildvm-ppc64le-14.iad2.fedoraproject.org)
+  82436007 buildArch (xz-java-1.9-3.fc36.src.rpm, noarch): free
+  82435906 buildSRPMFromSCM (/rpms/xz-java.git:1b96df75888934d1c6c0091ee9d86188c8f278d3): open (buildvm-ppc64le-14.iad2.fedoraproject.org) -> closed
+  1 free  1 open  1 done  0 failed
+  82436007 buildArch (xz-java-1.9-3.fc36.src.rpm, noarch): free -> open (buildvm-ppc64le-21.iad2.fedoraproject.org)
+  82436007 buildArch (xz-java-1.9-3.fc36.src.rpm, noarch): open (buildvm-ppc64le-21.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  82436062 tagBuild (noarch): free
+  82436062 tagBuild (noarch): free -> closed
+  0 free  1 open  3 done  0 failed
+82435904 build (f36-java17, /rpms/xz-java.git:1b96df75888934d1c6c0091ee9d86188c8f278d3): open (buildvm-ppc64le-14.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+82435904 build (f36-java17, /rpms/xz-java.git:1b96df75888934d1c6c0091ee9d86188c8f278d3) completed successfully

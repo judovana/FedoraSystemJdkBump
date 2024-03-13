@@ -1,22 +1,20 @@
 Cloning into 'plexus-interpolation'...
-[rawhide 164f4f2] Rebuilt for java-17-openjdk as system jdk
+[f40 e00b982] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building plexus-interpolation-1.26-10.fc36 for f36-java17
-Created task: 82433093
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82433093
+Found a gating.yaml file in the repo and it is properly configured
+Building plexus-interpolation-1.27-3.fc40 for f40-build-side-84857
+Created task: 114355456
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355456
 Watching tasks (this may be safely interrupted)...
-82433093 build (f36-java17, /rpms/plexus-interpolation.git:164f4f287c24f3bf063d26a36e8a32236f6c452d): open (buildvm-ppc64le-25.iad2.fedoraproject.org)
-  82433094 buildSRPMFromSCM (/rpms/plexus-interpolation.git:164f4f287c24f3bf063d26a36e8a32236f6c452d): open (buildvm-ppc64le-14.iad2.fedoraproject.org)
-  82433094 buildSRPMFromSCM (/rpms/plexus-interpolation.git:164f4f287c24f3bf063d26a36e8a32236f6c452d): open (buildvm-ppc64le-14.iad2.fedoraproject.org) -> closed
-  0 free  1 open  1 done  0 failed
-  82433187 buildArch (plexus-interpolation-1.26-10.fc36.src.rpm, noarch): free
-  82433187 buildArch (plexus-interpolation-1.26-10.fc36.src.rpm, noarch): free -> open (buildvm-s390x-21.s390.fedoraproject.org)
-  82433386 tagBuild (noarch): free
-  82433187 buildArch (plexus-interpolation-1.26-10.fc36.src.rpm, noarch): open (buildvm-s390x-21.s390.fedoraproject.org) -> closed
-  1 free  1 open  2 done  0 failed
-  82433386 tagBuild (noarch): free -> closed
-  0 free  1 open  3 done  0 failed
-82433093 build (f36-java17, /rpms/plexus-interpolation.git:164f4f287c24f3bf063d26a36e8a32236f6c452d): open (buildvm-ppc64le-25.iad2.fedoraproject.org) -> closed
-  0 free  0 open  4 done  0 failed
+114355456 build (f40-build-side-84857, /rpms/plexus-interpolation.git:e00b982c9e8ad9659b384c72971ea251bdbec63c): free
+114355456 build (f40-build-side-84857, /rpms/plexus-interpolation.git:e00b982c9e8ad9659b384c72971ea251bdbec63c): free -> assigned
+114355456 build (f40-build-side-84857, /rpms/plexus-interpolation.git:e00b982c9e8ad9659b384c72971ea251bdbec63c): assigned -> open (buildvm-a64-13.iad2.fedoraproject.org)
+  114355489 buildSRPMFromSCM (/rpms/plexus-interpolation.git:e00b982c9e8ad9659b384c72971ea251bdbec63c): free
+  114355489 buildSRPMFromSCM (/rpms/plexus-interpolation.git:e00b982c9e8ad9659b384c72971ea251bdbec63c): free -> open (buildvm-a64-08.iad2.fedoraproject.org)
+Watching tasks (this may be safely interrupted)...
+114355456 build (f40-build-side-84857, /rpms/plexus-interpolation.git:e00b982c9e8ad9659b384c72971ea251bdbec63c): closed
+  114356076 tagBuild (noarch): closed
+  114355754 buildArch (plexus-interpolation-1.27-3.fc40.src.rpm, noarch): closed
+  114355489 buildSRPMFromSCM (/rpms/plexus-interpolation.git:e00b982c9e8ad9659b384c72971ea251bdbec63c): closed
 
-82433093 build (f36-java17, /rpms/plexus-interpolation.git:164f4f287c24f3bf063d26a36e8a32236f6c452d) completed successfully
+114355456 build (f40-build-side-84857, /rpms/plexus-interpolation.git:e00b982c9e8ad9659b384c72971ea251bdbec63c) completed successfully

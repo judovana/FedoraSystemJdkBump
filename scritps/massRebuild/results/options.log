@@ -1,23 +1,28 @@
 Cloning into 'options'...
-[rawhide 470cf36] Rebuilt for java-17-openjdk as system jdk
+[f40 2164787] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building options-1.7-3.fc36 for f36-java17
-Created task: 82432690
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82432690
+Building options-1.7-10.fc40 for f40-build-side-84857
+Created task: 114355046
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355046
 Watching tasks (this may be safely interrupted)...
-82432690 build (f36-java17, /rpms/options.git:470cf361d44ed3077c82b887abd2eda124ef03ea): free
-82432690 build (f36-java17, /rpms/options.git:470cf361d44ed3077c82b887abd2eda124ef03ea): free -> open (buildvm-s390x-34.s390.fedoraproject.org)
-  82432694 buildSRPMFromSCM (/rpms/options.git:470cf361d44ed3077c82b887abd2eda124ef03ea): free
-  82432694 buildSRPMFromSCM (/rpms/options.git:470cf361d44ed3077c82b887abd2eda124ef03ea): free -> open (buildvm-ppc64le-14.iad2.fedoraproject.org)
-  82432694 buildSRPMFromSCM (/rpms/options.git:470cf361d44ed3077c82b887abd2eda124ef03ea): open (buildvm-ppc64le-14.iad2.fedoraproject.org) -> closed
+114355046 build (f40-build-side-84857, /rpms/options.git:2164787401b14a923a7ac12e49c36934b4eb3033): free
+114355046 build (f40-build-side-84857, /rpms/options.git:2164787401b14a923a7ac12e49c36934b4eb3033): free -> assigned
+114355046 build (f40-build-side-84857, /rpms/options.git:2164787401b14a923a7ac12e49c36934b4eb3033): assigned -> open (buildvm-ppc64le-06.iad2.fedoraproject.org)
+  114355077 buildSRPMFromSCM (/rpms/options.git:2164787401b14a923a7ac12e49c36934b4eb3033): free
+  114355077 buildSRPMFromSCM (/rpms/options.git:2164787401b14a923a7ac12e49c36934b4eb3033): free -> assigned
+  114355077 buildSRPMFromSCM (/rpms/options.git:2164787401b14a923a7ac12e49c36934b4eb3033): assigned -> open (buildvm-a64-10.iad2.fedoraproject.org)
+  114355077 buildSRPMFromSCM (/rpms/options.git:2164787401b14a923a7ac12e49c36934b4eb3033): open (buildvm-a64-10.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  82432746 buildArch (options-1.7-3.fc36.src.rpm, noarch): open (buildvm-ppc64le-04.iad2.fedoraproject.org)
-  82432865 tagBuild (noarch): free
-  82432746 buildArch (options-1.7-3.fc36.src.rpm, noarch): open (buildvm-ppc64le-04.iad2.fedoraproject.org) -> closed
-  1 free  1 open  2 done  0 failed
-  82432865 tagBuild (noarch): free -> closed
+  114355165 buildArch (options-1.7-10.fc40.src.rpm, noarch): free
+  114355165 buildArch (options-1.7-10.fc40.src.rpm, noarch): free -> assigned
+  114355165 buildArch (options-1.7-10.fc40.src.rpm, noarch): assigned -> open (buildvm-a64-13.iad2.fedoraproject.org)
+  114355165 buildArch (options-1.7-10.fc40.src.rpm, noarch): open (buildvm-a64-13.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  114355269 tagBuild (noarch): free
+  114355269 tagBuild (noarch): free -> assigned
+  114355269 tagBuild (noarch): assigned -> closed
   0 free  1 open  3 done  0 failed
-82432690 build (f36-java17, /rpms/options.git:470cf361d44ed3077c82b887abd2eda124ef03ea): open (buildvm-s390x-34.s390.fedoraproject.org) -> closed
+114355046 build (f40-build-side-84857, /rpms/options.git:2164787401b14a923a7ac12e49c36934b4eb3033): open (buildvm-ppc64le-06.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-82432690 build (f36-java17, /rpms/options.git:470cf361d44ed3077c82b887abd2eda124ef03ea) completed successfully
+114355046 build (f40-build-side-84857, /rpms/options.git:2164787401b14a923a7ac12e49c36934b4eb3033) completed successfully

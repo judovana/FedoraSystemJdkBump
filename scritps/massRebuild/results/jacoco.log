@@ -1,23 +1,30 @@
 Cloning into 'jacoco'...
-[rawhide f337ead] Rebuilt for java-17-openjdk as system jdk
+[f40 63cb295] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building jacoco-0.8.7-5.fc36 for f36-java17
-Created task: 82427389
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82427389
+Building jacoco-0.8.10-5.fc40 for f40-build-side-84857
+Created task: 114350539
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114350539
 Watching tasks (this may be safely interrupted)...
-82427389 build (f36-java17, /rpms/jacoco.git:f337ead3ae471010532bfbd7b79d8da3735be5a0): free
-82427389 build (f36-java17, /rpms/jacoco.git:f337ead3ae471010532bfbd7b79d8da3735be5a0): free -> open (buildvm-s390x-13.s390.fedoraproject.org)
-  82427407 buildSRPMFromSCM (/rpms/jacoco.git:f337ead3ae471010532bfbd7b79d8da3735be5a0): free
-  82427407 buildSRPMFromSCM (/rpms/jacoco.git:f337ead3ae471010532bfbd7b79d8da3735be5a0): free -> open (buildvm-ppc64le-39.iad2.fedoraproject.org)
-  82427407 buildSRPMFromSCM (/rpms/jacoco.git:f337ead3ae471010532bfbd7b79d8da3735be5a0): open (buildvm-ppc64le-39.iad2.fedoraproject.org) -> closed
-  0 free  1 open  1 done  0 failed
-  82427629 buildArch (jacoco-0.8.7-5.fc36.src.rpm, noarch): open (buildhw-a64-19.iad2.fedoraproject.org)
-  82427740 tagBuild (noarch): free
-  82427629 buildArch (jacoco-0.8.7-5.fc36.src.rpm, noarch): open (buildhw-a64-19.iad2.fedoraproject.org) -> closed
-  1 free  1 open  2 done  0 failed
-  82427740 tagBuild (noarch): free -> closed
-  0 free  1 open  3 done  0 failed
-82427389 build (f36-java17, /rpms/jacoco.git:f337ead3ae471010532bfbd7b79d8da3735be5a0): open (buildvm-s390x-13.s390.fedoraproject.org) -> closed
-  0 free  0 open  4 done  0 failed
+114350539 build (f40-build-side-84857, /rpms/jacoco.git:63cb29507532fc6a52f00f3afc2ec22ef8bb054b): free
+114350539 build (f40-build-side-84857, /rpms/jacoco.git:63cb29507532fc6a52f00f3afc2ec22ef8bb054b): free -> assigned
+114350539 build (f40-build-side-84857, /rpms/jacoco.git:63cb29507532fc6a52f00f3afc2ec22ef8bb054b): assigned -> open (buildvm-ppc64le-32.iad2.fedoraproject.org)
+  114350550 buildSRPMFromSCM (/rpms/jacoco.git:63cb29507532fc6a52f00f3afc2ec22ef8bb054b): free
+  114350550 buildSRPMFromSCM (/rpms/jacoco.git:63cb29507532fc6a52f00f3afc2ec22ef8bb054b): free -> assigned
+  114350550 buildSRPMFromSCM (/rpms/jacoco.git:63cb29507532fc6a52f00f3afc2ec22ef8bb054b): assigned -> open (buildvm-a64-05.iad2.fedoraproject.org)
+  114350642 buildArch (jacoco-0.8.10-5.fc40.src.rpm, noarch): free
+  114350550 buildSRPMFromSCM (/rpms/jacoco.git:63cb29507532fc6a52f00f3afc2ec22ef8bb054b): open (buildvm-a64-05.iad2.fedoraproject.org) -> closed
+  1 free  1 open  1 done  0 failed
+  114350642 buildArch (jacoco-0.8.10-5.fc40.src.rpm, noarch): free -> assigned
+  114350642 buildArch (jacoco-0.8.10-5.fc40.src.rpm, noarch): assigned -> open (buildvm-x86-15.iad2.fedoraproject.org)
+  114350642 buildArch (jacoco-0.8.10-5.fc40.src.rpm, noarch): open (buildvm-x86-15.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
+  Relevant logs:
+  https://kojipkgs.fedoraproject.org/work/tasks/642/114350642/state.log
+  https://kojipkgs.fedoraproject.org/work/tasks/642/114350642/build.log
+  https://kojipkgs.fedoraproject.org/work/tasks/642/114350642/root.log
+  https://kojipkgs.fedoraproject.org/work/tasks/642/114350642/mock_output.log
+  https://kojipkgs.fedoraproject.org/work/tasks/642/114350642/hw_info.log
+  0 free  1 open  1 done  1 failed
+114350539 build (f40-build-side-84857, /rpms/jacoco.git:63cb29507532fc6a52f00f3afc2ec22ef8bb054b): open (buildvm-ppc64le-32.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
+  0 free  0 open  1 done  2 failed
 
-82427389 build (f36-java17, /rpms/jacoco.git:f337ead3ae471010532bfbd7b79d8da3735be5a0) completed successfully
+114350539 build (f40-build-side-84857, /rpms/jacoco.git:63cb29507532fc6a52f00f3afc2ec22ef8bb054b) failed

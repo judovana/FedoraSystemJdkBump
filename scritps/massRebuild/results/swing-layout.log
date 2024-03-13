@@ -1,23 +1,17 @@
 Cloning into 'swing-layout'...
-[rawhide 379afc8] Rebuilt for java-17-openjdk as system jdk
+[f40 3ff245e] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building swing-layout-1.0.4-24.fc36 for f36-java17
-Created task: 82435083
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82435083
-Watching tasks (this may be safely interrupted)...
-82435083 build (f36-java17, /rpms/swing-layout.git:379afc822b3420cbe743160aed8fe755db648819): free
-82435083 build (f36-java17, /rpms/swing-layout.git:379afc822b3420cbe743160aed8fe755db648819): free -> open (buildvm-x86-26.iad2.fedoraproject.org)
-  82435084 buildSRPMFromSCM (/rpms/swing-layout.git:379afc822b3420cbe743160aed8fe755db648819): open (buildvm-ppc64le-17.iad2.fedoraproject.org)
-  82435120 buildArch (swing-layout-1.0.4-24.fc36.src.rpm, noarch): free
-  82435084 buildSRPMFromSCM (/rpms/swing-layout.git:379afc822b3420cbe743160aed8fe755db648819): open (buildvm-ppc64le-17.iad2.fedoraproject.org) -> closed
-  1 free  1 open  1 done  0 failed
-  82435120 buildArch (swing-layout-1.0.4-24.fc36.src.rpm, noarch): free -> open (buildvm-ppc64le-33.iad2.fedoraproject.org)
-  82435120 buildArch (swing-layout-1.0.4-24.fc36.src.rpm, noarch): open (buildvm-ppc64le-33.iad2.fedoraproject.org) -> closed
-  0 free  1 open  2 done  0 failed
-  82435166 tagBuild (noarch): free
-  82435166 tagBuild (noarch): free -> closed
-  0 free  1 open  3 done  0 failed
-82435083 build (f36-java17, /rpms/swing-layout.git:379afc822b3420cbe743160aed8fe755db648819): open (buildvm-x86-26.iad2.fedoraproject.org) -> closed
-  0 free  0 open  4 done  0 failed
+warning: %patchN is deprecated (2 usages found), use %patch N (or %patch -P N)
 
-82435083 build (f36-java17, /rpms/swing-layout.git:379afc822b3420cbe743160aed8fe755db648819) completed successfully
+Building swing-layout-1.0.4-30.fc40 for f40-build-side-84857
+Created task: 114355615
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355615
+Watching tasks (this may be safely interrupted)...
+114355615 build (f40-build-side-84857, /rpms/swing-layout.git:3ff245e4400af6ea38f6f5bd17d8a8e0c46168d3): free
+Watching tasks (this may be safely interrupted)...
+114355615 build (f40-build-side-84857, /rpms/swing-layout.git:3ff245e4400af6ea38f6f5bd17d8a8e0c46168d3): closed
+  114356078 tagBuild (noarch): closed
+  114355758 buildSRPMFromSCM (/rpms/swing-layout.git:3ff245e4400af6ea38f6f5bd17d8a8e0c46168d3): closed
+  114355927 buildArch (swing-layout-1.0.4-30.fc40.src.rpm, noarch): closed
+
+114355615 build (f40-build-side-84857, /rpms/swing-layout.git:3ff245e4400af6ea38f6f5bd17d8a8e0c46168d3) completed successfully

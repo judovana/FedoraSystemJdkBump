@@ -15,8 +15,9 @@ readonly SCRIPT_DIR="$( cd -P "$( dirname "$SCRIPT_SOURCE" )" && pwd )"
 
 set -e
 set -o pipefail
-TAG=f36-java17
-targettedSelection="jpanoramamaker"
+branch=f40
+TAG=f40-build-side-84857
+targettedSelection="CFR"
 DO="false"
 
 FILE_WITH_PKGS="$SCRIPT_DIR/../fillCopr/exemplarResults/depndent-packages.jbump"
@@ -30,7 +31,7 @@ echo "type yes and enter"
 read
 if [ ! "x${REPLY}" = "xyes" ] ; then exit 1 ; fi
 #lets add few more which builds to long. You will handle them manually alter
-for k in icecat rstudio ceph hdf5 libreoffice  py4j chromium ; do
+for k in icecat rstudio ceph hdf5 libreoffice chromium ; do
   pkgs[$k]=unused_now
 done
 regex=`echo "${!pkgs[@]}" | sed  's;\s\+;$ -e ^;g'`
@@ -45,7 +46,7 @@ echo "dont forget to handle following packages manually!"
 echo " * " ${!pkgs[@]}
 RESULTS_DIR="$PWD/results"
 echo "DO=$DO targettedSelection=$targettedSelection TAG=$TAG"
-echo "Are you kinit into FEDORAPROJECT.ORG? Are you proven packager?"
+echo "Are you kinit into FEDORAPROJECT.ORG? Are you proven packager? Do you really wish to run in branch $branch?"
 echo "type yes and enter. If you are not proven packager, it will fail on foreign pkgs. This will discard all old results $RESULTS_DIR"
 read
 if [ ! "x${REPLY}" = "xyes" ] ; then exit 1 ; fi
@@ -58,10 +59,11 @@ set +e # disputable... but yo do not want to lost 24h long script becasue of min
 for pkg in `cat $FILE_WITH_PKGS | grep  -v $regex  | grep "$targettedSelection"` ; do 
   fedpkg clone $pkg  2>&1 | tee $RESULTS_DIR/${pkg}.log
   pushd $pkg
-    MSG_TITLE="Rebuilt for java-17-openjdk as system jdk"
+    git checkout $branch
+    MSG_TITLE="Rebuilt for java-21-openjdk as system jdk"
     MSG="$MSG_TITLE
 
-https://fedoraproject.org/wiki/Changes/Java17
+https://fedoraproject.org/wiki/Changes/Java21
 "
     rpmdev-bumpspec -c "$MSG_TITLE" $pkg.spec | tee -a $RESULTS_DIR/${pkg}.log
     git commit --allow-empty ${pkg}.spec -m "$MSG" | tee -a $RESULTS_DIR/${pkg}.log

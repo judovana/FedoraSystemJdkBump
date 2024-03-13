@@ -1,24 +1,26 @@
 Cloning into 'jakarta-el'...
-[rawhide 018093d] Rebuilt for java-17-openjdk as system jdk
+[f40 a8cfd76] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building jakarta-el-4.0.0-7.fc36 for f36-java17
-Created task: 82427445
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82427445
+Building jakarta-el-4.0.0-14.fc40 for f40-build-side-84857
+Created task: 114350651
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114350651
 Watching tasks (this may be safely interrupted)...
-82427445 build (f36-java17, /rpms/jakarta-el.git:018093d279ed50071d00d43dc1de51ed48081fc1): free
-82427445 build (f36-java17, /rpms/jakarta-el.git:018093d279ed50071d00d43dc1de51ed48081fc1): free -> open (buildvm-s390x-28.s390.fedoraproject.org)
-  82427490 buildSRPMFromSCM (/rpms/jakarta-el.git:018093d279ed50071d00d43dc1de51ed48081fc1): free
-  82427490 buildSRPMFromSCM (/rpms/jakarta-el.git:018093d279ed50071d00d43dc1de51ed48081fc1): free -> open (buildvm-ppc64le-13.iad2.fedoraproject.org)
-  82427490 buildSRPMFromSCM (/rpms/jakarta-el.git:018093d279ed50071d00d43dc1de51ed48081fc1): open (buildvm-ppc64le-13.iad2.fedoraproject.org) -> closed
+114350651 build (f40-build-side-84857, /rpms/jakarta-el.git:a8cfd760d775112ed53848b4813c093f2e125cf6): free
+114350651 build (f40-build-side-84857, /rpms/jakarta-el.git:a8cfd760d775112ed53848b4813c093f2e125cf6): free -> open (buildvm-s390x-04.s390.fedoraproject.org)
+  114350661 buildSRPMFromSCM (/rpms/jakarta-el.git:a8cfd760d775112ed53848b4813c093f2e125cf6): free
+  114350661 buildSRPMFromSCM (/rpms/jakarta-el.git:a8cfd760d775112ed53848b4813c093f2e125cf6): free -> assigned
+  114350661 buildSRPMFromSCM (/rpms/jakarta-el.git:a8cfd760d775112ed53848b4813c093f2e125cf6): assigned -> open (buildvm-x86-24.iad2.fedoraproject.org)
+  114350661 buildSRPMFromSCM (/rpms/jakarta-el.git:a8cfd760d775112ed53848b4813c093f2e125cf6): open (buildvm-x86-24.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  82427729 buildArch (jakarta-el-4.0.0-7.fc36.src.rpm, noarch): free
-  82427729 buildArch (jakarta-el-4.0.0-7.fc36.src.rpm, noarch): free -> open (buildvm-s390x-09.s390.fedoraproject.org)
-  82427729 buildArch (jakarta-el-4.0.0-7.fc36.src.rpm, noarch): open (buildvm-s390x-09.s390.fedoraproject.org) -> closed
+  114350693 buildArch (jakarta-el-4.0.0-14.fc40.src.rpm, noarch): free
+  114350693 buildArch (jakarta-el-4.0.0-14.fc40.src.rpm, noarch): free -> assigned
+  114350693 buildArch (jakarta-el-4.0.0-14.fc40.src.rpm, noarch): assigned -> open (buildvm-x86-07.iad2.fedoraproject.org)
+  114350693 buildArch (jakarta-el-4.0.0-14.fc40.src.rpm, noarch): open (buildvm-x86-07.iad2.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  82427778 tagBuild (noarch): free
-  82427778 tagBuild (noarch): free -> closed
+  114350798 tagBuild (noarch): free
+  114350798 tagBuild (noarch): free -> closed
   0 free  1 open  3 done  0 failed
-82427445 build (f36-java17, /rpms/jakarta-el.git:018093d279ed50071d00d43dc1de51ed48081fc1): open (buildvm-s390x-28.s390.fedoraproject.org) -> closed
+114350651 build (f40-build-side-84857, /rpms/jakarta-el.git:a8cfd760d775112ed53848b4813c093f2e125cf6): open (buildvm-s390x-04.s390.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-82427445 build (f36-java17, /rpms/jakarta-el.git:018093d279ed50071d00d43dc1de51ed48081fc1) completed successfully
+114350651 build (f40-build-side-84857, /rpms/jakarta-el.git:a8cfd760d775112ed53848b4813c093f2e125cf6) completed successfully

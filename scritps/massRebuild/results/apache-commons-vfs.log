@@ -1,0 +1,26 @@
+Cloning into 'apache-commons-vfs'...
+RPMAutoSpec usage detected, not changing the spec file.
+[f40 3cee3d2] Rebuilt for java-21-openjdk as system jdk
+Building apache-commons-vfs-2.9.0-5.fc40 for f40-build-side-84857
+Created task: 114347113
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114347113
+Watching tasks (this may be safely interrupted)...
+114347113 build (f40-build-side-84857, /rpms/apache-commons-vfs.git:3cee3d288ce0fd97924fac7bd88bdb51c832217b): free
+114347113 build (f40-build-side-84857, /rpms/apache-commons-vfs.git:3cee3d288ce0fd97924fac7bd88bdb51c832217b): free -> open (buildvm-a64-08.iad2.fedoraproject.org)
+  114347114 buildSRPMFromSCM (/rpms/apache-commons-vfs.git:3cee3d288ce0fd97924fac7bd88bdb51c832217b): free
+  114347114 buildSRPMFromSCM (/rpms/apache-commons-vfs.git:3cee3d288ce0fd97924fac7bd88bdb51c832217b): free -> assigned
+  114347114 buildSRPMFromSCM (/rpms/apache-commons-vfs.git:3cee3d288ce0fd97924fac7bd88bdb51c832217b): assigned -> open (buildvm-a64-11.iad2.fedoraproject.org)
+  114347160 buildArch (apache-commons-vfs-2.9.0-5.fc40.src.rpm, noarch): free
+  114347114 buildSRPMFromSCM (/rpms/apache-commons-vfs.git:3cee3d288ce0fd97924fac7bd88bdb51c832217b): open (buildvm-a64-11.iad2.fedoraproject.org) -> closed
+  1 free  1 open  1 done  0 failed
+  114347160 buildArch (apache-commons-vfs-2.9.0-5.fc40.src.rpm, noarch): free -> open (buildvm-s390x-01.s390.fedoraproject.org)
+  114347160 buildArch (apache-commons-vfs-2.9.0-5.fc40.src.rpm, noarch): open (buildvm-s390x-01.s390.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  114347228 tagBuild (noarch): free
+  114347228 tagBuild (noarch): free -> assigned
+  114347228 tagBuild (noarch): assigned -> closed
+  0 free  1 open  3 done  0 failed
+114347113 build (f40-build-side-84857, /rpms/apache-commons-vfs.git:3cee3d288ce0fd97924fac7bd88bdb51c832217b): open (buildvm-a64-08.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+114347113 build (f40-build-side-84857, /rpms/apache-commons-vfs.git:3cee3d288ce0fd97924fac7bd88bdb51c832217b) completed successfully

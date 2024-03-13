@@ -1,21 +1,28 @@
 Cloning into 'pdfbox'...
-[rawhide e042e59] Rebuilt for java-17-openjdk as system jdk
+[f40 bdda6cf] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building pdfbox-2.0.25-3.fc36 for f36-java17
-Created task: 82432801
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82432801
+Building pdfbox-2.0.29-5.fc40 for f40-build-side-84857
+Created task: 114355238
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355238
 Watching tasks (this may be safely interrupted)...
-82432801 build (f36-java17, /rpms/pdfbox.git:e042e5901a0e92caccf9d71191c1486e81efbe73): open (buildvm-ppc64le-06.iad2.fedoraproject.org)
-  82432802 buildSRPMFromSCM (/rpms/pdfbox.git:e042e5901a0e92caccf9d71191c1486e81efbe73): open (buildvm-ppc64le-06.iad2.fedoraproject.org)
-  82432802 buildSRPMFromSCM (/rpms/pdfbox.git:e042e5901a0e92caccf9d71191c1486e81efbe73): open (buildvm-ppc64le-06.iad2.fedoraproject.org) -> closed
+114355238 build (f40-build-side-84857, /rpms/pdfbox.git:bdda6cf5813e575e9e892e5aab388606c1f1154c): free
+114355238 build (f40-build-side-84857, /rpms/pdfbox.git:bdda6cf5813e575e9e892e5aab388606c1f1154c): free -> assigned
+114355238 build (f40-build-side-84857, /rpms/pdfbox.git:bdda6cf5813e575e9e892e5aab388606c1f1154c): assigned -> open (buildhw-x86-03.iad2.fedoraproject.org)
+  114355264 buildSRPMFromSCM (/rpms/pdfbox.git:bdda6cf5813e575e9e892e5aab388606c1f1154c): free
+  114355264 buildSRPMFromSCM (/rpms/pdfbox.git:bdda6cf5813e575e9e892e5aab388606c1f1154c): free -> open (buildvm-a64-04.iad2.fedoraproject.org)
+  114355264 buildSRPMFromSCM (/rpms/pdfbox.git:bdda6cf5813e575e9e892e5aab388606c1f1154c): open (buildvm-a64-04.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  82432926 buildArch (pdfbox-2.0.25-3.fc36.src.rpm, noarch): open (buildvm-x86-15.iad2.fedoraproject.org)
-  82432926 buildArch (pdfbox-2.0.25-3.fc36.src.rpm, noarch): open (buildvm-x86-15.iad2.fedoraproject.org) -> closed
-  0 free  1 open  2 done  0 failed
-  82434975 tagBuild (noarch): free
-  82434975 tagBuild (noarch): free -> closed
-  0 free  1 open  3 done  0 failed
-82432801 build (f36-java17, /rpms/pdfbox.git:e042e5901a0e92caccf9d71191c1486e81efbe73): open (buildvm-ppc64le-06.iad2.fedoraproject.org) -> closed
-  0 free  0 open  4 done  0 failed
+  114355311 buildArch (pdfbox-2.0.29-5.fc40.src.rpm, noarch): free
+  114355311 buildArch (pdfbox-2.0.29-5.fc40.src.rpm, noarch): free -> open (buildvm-x86-20.iad2.fedoraproject.org)
+  114355311 buildArch (pdfbox-2.0.29-5.fc40.src.rpm, noarch): open (buildvm-x86-20.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
+  Relevant logs:
+  https://kojipkgs.fedoraproject.org/work/tasks/5311/114355311/mock_output.log
+  https://kojipkgs.fedoraproject.org/work/tasks/5311/114355311/state.log
+  https://kojipkgs.fedoraproject.org/work/tasks/5311/114355311/build.log
+  https://kojipkgs.fedoraproject.org/work/tasks/5311/114355311/root.log
+  https://kojipkgs.fedoraproject.org/work/tasks/5311/114355311/hw_info.log
+  0 free  1 open  1 done  1 failed
+114355238 build (f40-build-side-84857, /rpms/pdfbox.git:bdda6cf5813e575e9e892e5aab388606c1f1154c): open (buildhw-x86-03.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
+  0 free  0 open  1 done  2 failed
 
-82432801 build (f36-java17, /rpms/pdfbox.git:e042e5901a0e92caccf9d71191c1486e81efbe73) completed successfully
+114355238 build (f40-build-side-84857, /rpms/pdfbox.git:bdda6cf5813e575e9e892e5aab388606c1f1154c) failed

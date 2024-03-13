@@ -1,25 +1,29 @@
 Cloning into 'java-scrypt'...
-[rawhide 6bf098f] Rebuilt for java-17-openjdk as system jdk
+[f40 1a05028] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building java-scrypt-1.4.0-16.fc36 for f36-java17
-Created task: 82428367
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82428367
-Watching tasks (this may be safely interrupted)...
-82428367 build (f36-java17, /rpms/java-scrypt.git:6bf098fa6c6898b14fcff21a64777094d30db963): free
-82428367 build (f36-java17, /rpms/java-scrypt.git:6bf098fa6c6898b14fcff21a64777094d30db963): free -> open (buildvm-ppc64le-08.iad2.fedoraproject.org)
-  82428370 buildSRPMFromSCM (/rpms/java-scrypt.git:6bf098fa6c6898b14fcff21a64777094d30db963): open (buildvm-ppc64le-40.iad2.fedoraproject.org)
-  82428370 buildSRPMFromSCM (/rpms/java-scrypt.git:6bf098fa6c6898b14fcff21a64777094d30db963): open (buildvm-ppc64le-40.iad2.fedoraproject.org) -> closed
-  0 free  1 open  1 done  0 failed
-  82428529 buildArch (java-scrypt-1.4.0-16.fc36.src.rpm, noarch): open (buildvm-ppc64le-28.iad2.fedoraproject.org)
-  82428529 buildArch (java-scrypt-1.4.0-16.fc36.src.rpm, noarch): open (buildvm-ppc64le-28.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
-  Relevant logs:
-  https://kojipkgs.fedoraproject.org/work/tasks/8529/82428529/mock_output.log
-  https://kojipkgs.fedoraproject.org/work/tasks/8529/82428529/hw_info.log
-  https://kojipkgs.fedoraproject.org/work/tasks/8529/82428529/state.log
-  https://kojipkgs.fedoraproject.org/work/tasks/8529/82428529/build.log
-  https://kojipkgs.fedoraproject.org/work/tasks/8529/82428529/root.log
-  0 free  1 open  1 done  1 failed
-82428367 build (f36-java17, /rpms/java-scrypt.git:6bf098fa6c6898b14fcff21a64777094d30db963): open (buildvm-ppc64le-08.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
-  0 free  0 open  1 done  2 failed
+warning: %patchN is deprecated (1 usages found), use %patch N (or %patch -P N)
 
-82428367 build (f36-java17, /rpms/java-scrypt.git:6bf098fa6c6898b14fcff21a64777094d30db963) failed
+Building java-scrypt-1.4.0-24.fc40 for f40-build-side-84857
+Created task: 114351532
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114351532
+Watching tasks (this may be safely interrupted)...
+114351532 build (f40-build-side-84857, /rpms/java-scrypt.git:1a05028b38a6128072fa41f49f479c64a0d761f8): free
+114351532 build (f40-build-side-84857, /rpms/java-scrypt.git:1a05028b38a6128072fa41f49f479c64a0d761f8): free -> assigned
+114351532 build (f40-build-side-84857, /rpms/java-scrypt.git:1a05028b38a6128072fa41f49f479c64a0d761f8): assigned -> open (buildvm-x86-10.iad2.fedoraproject.org)
+  114351570 buildSRPMFromSCM (/rpms/java-scrypt.git:1a05028b38a6128072fa41f49f479c64a0d761f8): free
+  114351570 buildSRPMFromSCM (/rpms/java-scrypt.git:1a05028b38a6128072fa41f49f479c64a0d761f8): free -> assigned
+  114351570 buildSRPMFromSCM (/rpms/java-scrypt.git:1a05028b38a6128072fa41f49f479c64a0d761f8): assigned -> open (buildvm-a64-21.iad2.fedoraproject.org)
+  114351570 buildSRPMFromSCM (/rpms/java-scrypt.git:1a05028b38a6128072fa41f49f479c64a0d761f8): open (buildvm-a64-21.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  114351694 buildArch (java-scrypt-1.4.0-24.fc40.src.rpm, noarch): free
+  114351694 buildArch (java-scrypt-1.4.0-24.fc40.src.rpm, noarch): free -> open (buildvm-s390x-01.s390.fedoraproject.org)
+  114351694 buildArch (java-scrypt-1.4.0-24.fc40.src.rpm, noarch): open (buildvm-s390x-01.s390.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  114351964 tagBuild (noarch): free
+  114351964 tagBuild (noarch): free -> assigned
+  114351964 tagBuild (noarch): assigned -> closed
+  0 free  1 open  3 done  0 failed
+114351532 build (f40-build-side-84857, /rpms/java-scrypt.git:1a05028b38a6128072fa41f49f479c64a0d761f8): open (buildvm-x86-10.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+114351532 build (f40-build-side-84857, /rpms/java-scrypt.git:1a05028b38a6128072fa41f49f479c64a0d761f8) completed successfully

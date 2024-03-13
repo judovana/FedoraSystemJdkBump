@@ -1,20 +1,20 @@
 Cloning into 'stringtemplate4'...
-[rawhide 702fdda] Rebuilt for java-17-openjdk as system jdk
+[f40 2de3bc8] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building stringtemplate4-4.3.1-9.fc36 for f36-java17
-Created task: 82434923
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82434923
+Building stringtemplate4-4.3.4-4.fc40 for f40-build-side-84857
+Created task: 114355610
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355610
 Watching tasks (this may be safely interrupted)...
-82434923 build (f36-java17, /rpms/stringtemplate4.git:702fddafe426486df58756a2d31a171550f7f509): free
-82434923 build (f36-java17, /rpms/stringtemplate4.git:702fddafe426486df58756a2d31a171550f7f509): free -> open (buildvm-x86-28.iad2.fedoraproject.org)
-  82434940 buildSRPMFromSCM (/rpms/stringtemplate4.git:702fddafe426486df58756a2d31a171550f7f509): open (buildvm-ppc64le-31.iad2.fedoraproject.org)
-  82434940 buildSRPMFromSCM (/rpms/stringtemplate4.git:702fddafe426486df58756a2d31a171550f7f509): open (buildvm-ppc64le-31.iad2.fedoraproject.org) -> closed
-  0 free  1 open  1 done  0 failed
-  82435087 buildArch (stringtemplate4-4.3.1-9.fc36.src.rpm, noarch): open (buildvm-x86-28.iad2.fedoraproject.org)
-  82435087 buildArch (stringtemplate4-4.3.1-9.fc36.src.rpm, noarch): open (buildvm-x86-28.iad2.fedoraproject.org) -> closed
-  0 free  1 open  2 done  0 failed
-  82435118 tagBuild (noarch): closed
-82434923 build (f36-java17, /rpms/stringtemplate4.git:702fddafe426486df58756a2d31a171550f7f509): open (buildvm-x86-28.iad2.fedoraproject.org) -> closed
-  0 free  0 open  4 done  0 failed
+114355610 build (f40-build-side-84857, /rpms/stringtemplate4.git:2de3bc8ed9c5ded2d675fbe396174b49e92e538f): free
+Watching tasks (this may be safely interrupted)...
+114355610 build (f40-build-side-84857, /rpms/stringtemplate4.git:2de3bc8ed9c5ded2d675fbe396174b49e92e538f): FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
+  114355881 buildArch (stringtemplate4-4.3.4-4.fc40.src.rpm, noarch): FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
+    Relevant logs:
+    https://kojipkgs.fedoraproject.org/work/tasks/5881/114355881/mock_output.log
+    https://kojipkgs.fedoraproject.org/work/tasks/5881/114355881/state.log
+    https://kojipkgs.fedoraproject.org/work/tasks/5881/114355881/build.log
+    https://kojipkgs.fedoraproject.org/work/tasks/5881/114355881/root.log
+    https://kojipkgs.fedoraproject.org/work/tasks/5881/114355881/hw_info.log
+  114355745 buildSRPMFromSCM (/rpms/stringtemplate4.git:2de3bc8ed9c5ded2d675fbe396174b49e92e538f): closed
 
-82434923 build (f36-java17, /rpms/stringtemplate4.git:702fddafe426486df58756a2d31a171550f7f509) completed successfully
+114355610 build (f40-build-side-84857, /rpms/stringtemplate4.git:2de3bc8ed9c5ded2d675fbe396174b49e92e538f) failed

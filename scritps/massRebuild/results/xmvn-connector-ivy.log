@@ -1,30 +1,27 @@
 Cloning into 'xmvn-connector-ivy'...
-[rawhide 5435893] Rebuilt for java-17-openjdk as system jdk
+[f40 9691bed] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-warning: Macro expanded in comment on line 9: %{version}/xmvn-%{version}.tar.xz
-
-
-Building xmvn-connector-ivy-4.0.0~20210707.d300ce6-4.fc36 for f36-java17
-Created task: 82435840
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82435840
+Building xmvn-connector-ivy-4.0.0-3.fc40 for f40-build-side-84857
+Created task: 114356538
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114356538
 Watching tasks (this may be safely interrupted)...
-82435840 build (f36-java17, /rpms/xmvn-connector-ivy.git:5435893ceb54bdf306c0b67d6fdbbd231f06e5e4): free
-82435840 build (f36-java17, /rpms/xmvn-connector-ivy.git:5435893ceb54bdf306c0b67d6fdbbd231f06e5e4): free -> open (buildvm-x86-16.iad2.fedoraproject.org)
-  82435845 buildSRPMFromSCM (/rpms/xmvn-connector-ivy.git:5435893ceb54bdf306c0b67d6fdbbd231f06e5e4): free
-  82435845 buildSRPMFromSCM (/rpms/xmvn-connector-ivy.git:5435893ceb54bdf306c0b67d6fdbbd231f06e5e4): free -> open (buildvm-ppc64le-29.iad2.fedoraproject.org)
-  82435845 buildSRPMFromSCM (/rpms/xmvn-connector-ivy.git:5435893ceb54bdf306c0b67d6fdbbd231f06e5e4): open (buildvm-ppc64le-29.iad2.fedoraproject.org) -> closed
+114356538 build (f40-build-side-84857, /rpms/xmvn-connector-ivy.git:9691bed63ff18d1e984de9780789e5c87fd9d61b): free
+114356538 build (f40-build-side-84857, /rpms/xmvn-connector-ivy.git:9691bed63ff18d1e984de9780789e5c87fd9d61b): free -> assigned
+114356538 build (f40-build-side-84857, /rpms/xmvn-connector-ivy.git:9691bed63ff18d1e984de9780789e5c87fd9d61b): assigned -> open (buildhw-x86-16.iad2.fedoraproject.org)
+  114356570 buildSRPMFromSCM (/rpms/xmvn-connector-ivy.git:9691bed63ff18d1e984de9780789e5c87fd9d61b): free
+  114356570 buildSRPMFromSCM (/rpms/xmvn-connector-ivy.git:9691bed63ff18d1e984de9780789e5c87fd9d61b): free -> open (buildvm-x86-20.iad2.fedoraproject.org)
+  114356570 buildSRPMFromSCM (/rpms/xmvn-connector-ivy.git:9691bed63ff18d1e984de9780789e5c87fd9d61b): open (buildvm-x86-20.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  82435985 buildArch (xmvn-connector-ivy-4.0.0~20210707.d300ce6-4.fc36.src.rpm, noarch): free
-  82435985 buildArch (xmvn-connector-ivy-4.0.0~20210707.d300ce6-4.fc36.src.rpm, noarch): free -> open (buildvm-x86-32.iad2.fedoraproject.org)
-82435840 build (f36-java17, /rpms/xmvn-connector-ivy.git:5435893ceb54bdf306c0b67d6fdbbd231f06e5e4): open (buildvm-x86-16.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
-  0 free  1 open  1 done  1 failed
-  82435985 buildArch (xmvn-connector-ivy-4.0.0~20210707.d300ce6-4.fc36.src.rpm, noarch): open (buildvm-x86-32.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
-  Relevant logs:
-  https://kojipkgs.fedoraproject.org/work/tasks/5985/82435985/mock_output.log
-  https://kojipkgs.fedoraproject.org/work/tasks/5985/82435985/hw_info.log
-  https://kojipkgs.fedoraproject.org/work/tasks/5985/82435985/state.log
-  https://kojipkgs.fedoraproject.org/work/tasks/5985/82435985/build.log
-  https://kojipkgs.fedoraproject.org/work/tasks/5985/82435985/root.log
-  0 free  0 open  1 done  2 failed
+  114356704 buildArch (xmvn-connector-ivy-4.0.0-3.fc40.src.rpm, noarch): free
+  114356704 buildArch (xmvn-connector-ivy-4.0.0-3.fc40.src.rpm, noarch): free -> assigned
+  114356704 buildArch (xmvn-connector-ivy-4.0.0-3.fc40.src.rpm, noarch): assigned -> open (buildhw-a64-21.iad2.fedoraproject.org)
+  114356704 buildArch (xmvn-connector-ivy-4.0.0-3.fc40.src.rpm, noarch): open (buildhw-a64-21.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  114356803 tagBuild (noarch): free
+  114356803 tagBuild (noarch): free -> assigned
+114356538 build (f40-build-side-84857, /rpms/xmvn-connector-ivy.git:9691bed63ff18d1e984de9780789e5c87fd9d61b): open (buildhw-x86-16.iad2.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+  114356803 tagBuild (noarch): assigned -> closed
+  0 free  0 open  4 done  0 failed
 
-82435840 build (f36-java17, /rpms/xmvn-connector-ivy.git:5435893ceb54bdf306c0b67d6fdbbd231f06e5e4) failed
+114356538 build (f40-build-side-84857, /rpms/xmvn-connector-ivy.git:9691bed63ff18d1e984de9780789e5c87fd9d61b) completed successfully

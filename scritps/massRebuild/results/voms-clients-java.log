@@ -1,22 +1,27 @@
 Cloning into 'voms-clients-java'...
-[rawhide 3eb67ee] Rebuilt for java-17-openjdk as system jdk
+[f40 73d5cdc] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building voms-clients-java-3.3.2-7.fc36 for f36-java17
-Created task: 82435330
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82435330
+Building voms-clients-java-3.3.2-13.fc40 for f40-build-side-84857
+Created task: 114356040
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114356040
 Watching tasks (this may be safely interrupted)...
-82435330 build (f36-java17, /rpms/voms-clients-java.git:3eb67ee25feee8b4065dc49951477b770e0dd4e6): free
-82435330 build (f36-java17, /rpms/voms-clients-java.git:3eb67ee25feee8b4065dc49951477b770e0dd4e6): free -> open (buildvm-ppc64le-08.iad2.fedoraproject.org)
-  82435339 buildSRPMFromSCM (/rpms/voms-clients-java.git:3eb67ee25feee8b4065dc49951477b770e0dd4e6): open (buildvm-ppc64le-19.iad2.fedoraproject.org)
-  82435339 buildSRPMFromSCM (/rpms/voms-clients-java.git:3eb67ee25feee8b4065dc49951477b770e0dd4e6): open (buildvm-ppc64le-19.iad2.fedoraproject.org) -> closed
+114356040 build (f40-build-side-84857, /rpms/voms-clients-java.git:73d5cdc8d0c218a61e7af844d8d30c34528992e1): free
+114356040 build (f40-build-side-84857, /rpms/voms-clients-java.git:73d5cdc8d0c218a61e7af844d8d30c34528992e1): free -> assigned
+114356040 build (f40-build-side-84857, /rpms/voms-clients-java.git:73d5cdc8d0c218a61e7af844d8d30c34528992e1): assigned -> open (buildvm-x86-24.iad2.fedoraproject.org)
+  114356068 buildSRPMFromSCM (/rpms/voms-clients-java.git:73d5cdc8d0c218a61e7af844d8d30c34528992e1): free
+  114356068 buildSRPMFromSCM (/rpms/voms-clients-java.git:73d5cdc8d0c218a61e7af844d8d30c34528992e1): free -> assigned
+  114356068 buildSRPMFromSCM (/rpms/voms-clients-java.git:73d5cdc8d0c218a61e7af844d8d30c34528992e1): assigned -> open (buildvm-a64-28.iad2.fedoraproject.org)
+  114356068 buildSRPMFromSCM (/rpms/voms-clients-java.git:73d5cdc8d0c218a61e7af844d8d30c34528992e1): open (buildvm-a64-28.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  82435438 buildArch (voms-clients-java-3.3.2-7.fc36.src.rpm, noarch): open (buildvm-ppc64le-08.iad2.fedoraproject.org)
-  82435438 buildArch (voms-clients-java-3.3.2-7.fc36.src.rpm, noarch): open (buildvm-ppc64le-08.iad2.fedoraproject.org) -> closed
-  0 free  1 open  2 done  0 failed
-  82435544 tagBuild (noarch): free
-  82435544 tagBuild (noarch): free -> closed
+  114356132 buildArch (voms-clients-java-3.3.2-13.fc40.src.rpm, noarch): assigned
+  114356132 buildArch (voms-clients-java-3.3.2-13.fc40.src.rpm, noarch): assigned -> open (buildhw-x86-11.iad2.fedoraproject.org)
+  114356302 tagBuild (noarch): free
+  114356132 buildArch (voms-clients-java-3.3.2-13.fc40.src.rpm, noarch): open (buildhw-x86-11.iad2.fedoraproject.org) -> closed
+  1 free  1 open  2 done  0 failed
+  114356302 tagBuild (noarch): free -> assigned
+  114356302 tagBuild (noarch): assigned -> closed
   0 free  1 open  3 done  0 failed
-82435330 build (f36-java17, /rpms/voms-clients-java.git:3eb67ee25feee8b4065dc49951477b770e0dd4e6): open (buildvm-ppc64le-08.iad2.fedoraproject.org) -> closed
+114356040 build (f40-build-side-84857, /rpms/voms-clients-java.git:73d5cdc8d0c218a61e7af844d8d30c34528992e1): open (buildvm-x86-24.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-82435330 build (f36-java17, /rpms/voms-clients-java.git:3eb67ee25feee8b4065dc49951477b770e0dd4e6) completed successfully
+114356040 build (f40-build-side-84857, /rpms/voms-clients-java.git:73d5cdc8d0c218a61e7af844d8d30c34528992e1) completed successfully

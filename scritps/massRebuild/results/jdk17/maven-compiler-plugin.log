@@ -1,0 +1,27 @@
+Cloning into 'maven-compiler-plugin'...
+[rawhide 8fc369e] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+/usr/bin/find-jar: Could not find junit Java extension for this JVM
+Could not find the requested jar or jar directory.
+Please check the correct JAVA_HOME is set.
+/usr/bin/find-jar: Could not find javapackages-bootstrap Java extension for this JVM
+Could not find the requested jar or jar directory.
+Please check the correct JAVA_HOME is set.
+
+Building maven-compiler-plugin-3.8.1-12.fc36 for f36-java17
+Created task: 82431048
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82431048
+Watching tasks (this may be safely interrupted)...
+82431048 build (f36-java17, /rpms/maven-compiler-plugin.git:8fc369e303feabf80a1e010a9606b48ffb20d8f0): free
+82431048 build (f36-java17, /rpms/maven-compiler-plugin.git:8fc369e303feabf80a1e010a9606b48ffb20d8f0): free -> open (buildvm-x86-18.iad2.fedoraproject.org)
+  82431050 buildSRPMFromSCM (/rpms/maven-compiler-plugin.git:8fc369e303feabf80a1e010a9606b48ffb20d8f0): open (buildvm-x86-18.iad2.fedoraproject.org)
+  82431050 buildSRPMFromSCM (/rpms/maven-compiler-plugin.git:8fc369e303feabf80a1e010a9606b48ffb20d8f0): open (buildvm-x86-18.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82431128 buildArch (maven-compiler-plugin-3.8.1-12.fc36.src.rpm, noarch): open (buildvm-ppc64le-05.iad2.fedoraproject.org)
+  82431128 buildArch (maven-compiler-plugin-3.8.1-12.fc36.src.rpm, noarch): open (buildvm-ppc64le-05.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  82431210 tagBuild (noarch): closed
+82431048 build (f36-java17, /rpms/maven-compiler-plugin.git:8fc369e303feabf80a1e010a9606b48ffb20d8f0): open (buildvm-x86-18.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+82431048 build (f36-java17, /rpms/maven-compiler-plugin.git:8fc369e303feabf80a1e010a9606b48ffb20d8f0) completed successfully

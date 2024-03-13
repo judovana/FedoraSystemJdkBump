@@ -1,24 +1,27 @@
 Cloning into 'jboss-logging'...
-[rawhide 7506529] Rebuilt for java-17-openjdk as system jdk
+[f40 0d0d802] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building jboss-logging-3.4.1-11.fc36 for f36-java17
-Created task: 82428995
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82428995
+Building jboss-logging-3.5.3-5.fc40 for f40-build-side-84857
+Created task: 114352003
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114352003
 Watching tasks (this may be safely interrupted)...
-82428995 build (f36-java17, /rpms/jboss-logging.git:75065299bdef6120867c915eadccbac396affae3): free
-82428995 build (f36-java17, /rpms/jboss-logging.git:75065299bdef6120867c915eadccbac396affae3): free -> open (buildvm-s390x-04.s390.fedoraproject.org)
-  82429001 buildSRPMFromSCM (/rpms/jboss-logging.git:75065299bdef6120867c915eadccbac396affae3): free
-  82429001 buildSRPMFromSCM (/rpms/jboss-logging.git:75065299bdef6120867c915eadccbac396affae3): free -> open (buildvm-ppc64le-38.iad2.fedoraproject.org)
-  82429109 buildArch (jboss-logging-3.4.1-11.fc36.src.rpm, noarch): free
-  82429001 buildSRPMFromSCM (/rpms/jboss-logging.git:75065299bdef6120867c915eadccbac396affae3): open (buildvm-ppc64le-38.iad2.fedoraproject.org) -> closed
-  1 free  1 open  1 done  0 failed
-  82429109 buildArch (jboss-logging-3.4.1-11.fc36.src.rpm, noarch): free -> open (buildvm-ppc64le-17.iad2.fedoraproject.org)
-  82429164 tagBuild (noarch): free
-  82429109 buildArch (jboss-logging-3.4.1-11.fc36.src.rpm, noarch): open (buildvm-ppc64le-17.iad2.fedoraproject.org) -> closed
-  1 free  1 open  2 done  0 failed
-  82429164 tagBuild (noarch): free -> closed
+114352003 build (f40-build-side-84857, /rpms/jboss-logging.git:0d0d802cadb11b590dc347f1b85d50b8dba61f1b): free
+114352003 build (f40-build-side-84857, /rpms/jboss-logging.git:0d0d802cadb11b590dc347f1b85d50b8dba61f1b): free -> assigned
+114352003 build (f40-build-side-84857, /rpms/jboss-logging.git:0d0d802cadb11b590dc347f1b85d50b8dba61f1b): assigned -> open (buildvm-a64-21.iad2.fedoraproject.org)
+  114352013 buildSRPMFromSCM (/rpms/jboss-logging.git:0d0d802cadb11b590dc347f1b85d50b8dba61f1b): free
+  114352013 buildSRPMFromSCM (/rpms/jboss-logging.git:0d0d802cadb11b590dc347f1b85d50b8dba61f1b): free -> assigned
+  114352013 buildSRPMFromSCM (/rpms/jboss-logging.git:0d0d802cadb11b590dc347f1b85d50b8dba61f1b): assigned -> open (buildvm-a64-09.iad2.fedoraproject.org)
+  114352013 buildSRPMFromSCM (/rpms/jboss-logging.git:0d0d802cadb11b590dc347f1b85d50b8dba61f1b): open (buildvm-a64-09.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  114352055 buildArch (jboss-logging-3.5.3-5.fc40.src.rpm, noarch): free
+  114352055 buildArch (jboss-logging-3.5.3-5.fc40.src.rpm, noarch): free -> assigned
+  114352055 buildArch (jboss-logging-3.5.3-5.fc40.src.rpm, noarch): assigned -> open (buildvm-s390x-10.s390.fedoraproject.org)
+  114352055 buildArch (jboss-logging-3.5.3-5.fc40.src.rpm, noarch): open (buildvm-s390x-10.s390.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  114352134 tagBuild (noarch): free
+  114352134 tagBuild (noarch): free -> closed
   0 free  1 open  3 done  0 failed
-82428995 build (f36-java17, /rpms/jboss-logging.git:75065299bdef6120867c915eadccbac396affae3): open (buildvm-s390x-04.s390.fedoraproject.org) -> closed
+114352003 build (f40-build-side-84857, /rpms/jboss-logging.git:0d0d802cadb11b590dc347f1b85d50b8dba61f1b): open (buildvm-a64-21.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-82428995 build (f36-java17, /rpms/jboss-logging.git:75065299bdef6120867c915eadccbac396affae3) completed successfully
+114352003 build (f40-build-side-84857, /rpms/jboss-logging.git:0d0d802cadb11b590dc347f1b85d50b8dba61f1b) completed successfully

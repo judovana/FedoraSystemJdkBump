@@ -1,0 +1,23 @@
+Cloning into 'voms-api-java'...
+[rawhide 5d03c7a] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building voms-api-java-3.3.2-6.fc36 for f36-java17
+Created task: 82435300
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82435300
+Watching tasks (this may be safely interrupted)...
+82435300 build (f36-java17, /rpms/voms-api-java.git:5d03c7adbf149d5d25718021565814e0418d4813): free
+82435300 build (f36-java17, /rpms/voms-api-java.git:5d03c7adbf149d5d25718021565814e0418d4813): free -> open (buildvm-x86-26.iad2.fedoraproject.org)
+  82435302 buildSRPMFromSCM (/rpms/voms-api-java.git:5d03c7adbf149d5d25718021565814e0418d4813): open (buildvm-x86-26.iad2.fedoraproject.org)
+  82435302 buildSRPMFromSCM (/rpms/voms-api-java.git:5d03c7adbf149d5d25718021565814e0418d4813): open (buildvm-x86-26.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82435403 buildArch (voms-api-java-3.3.2-6.fc36.src.rpm, noarch): free
+  82435403 buildArch (voms-api-java-3.3.2-6.fc36.src.rpm, noarch): free -> open (buildvm-ppc64le-34.iad2.fedoraproject.org)
+  82435403 buildArch (voms-api-java-3.3.2-6.fc36.src.rpm, noarch): open (buildvm-ppc64le-34.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  82435538 tagBuild (noarch): free
+  82435538 tagBuild (noarch): free -> closed
+  0 free  1 open  3 done  0 failed
+82435300 build (f36-java17, /rpms/voms-api-java.git:5d03c7adbf149d5d25718021565814e0418d4813): open (buildvm-x86-26.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+82435300 build (f36-java17, /rpms/voms-api-java.git:5d03c7adbf149d5d25718021565814e0418d4813) completed successfully

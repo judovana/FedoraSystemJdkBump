@@ -1,25 +1,28 @@
 Cloning into 'jacop'...
-[rawhide e1875bd] Rebuilt for java-17-openjdk as system jdk
+[f40 e3798b6] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building jacop-4.8-7.fc36 for f36-java17
-Created task: 82427423
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82427423
+Building jacop-4.9.0-5.fc40 for f40-build-side-84857
+Created task: 114350542
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114350542
 Watching tasks (this may be safely interrupted)...
-82427423 build (f36-java17, /rpms/jacop.git:e1875bdceb2e7f591b22ba7270addc3e16a367e3): free
-82427423 build (f36-java17, /rpms/jacop.git:e1875bdceb2e7f591b22ba7270addc3e16a367e3): free -> open (buildvm-a64-17.iad2.fedoraproject.org)
-  82427425 buildSRPMFromSCM (/rpms/jacop.git:e1875bdceb2e7f591b22ba7270addc3e16a367e3): free
-  82427425 buildSRPMFromSCM (/rpms/jacop.git:e1875bdceb2e7f591b22ba7270addc3e16a367e3): free -> open (buildvm-x86-25.iad2.fedoraproject.org)
-  82427621 buildArch (jacop-4.8-7.fc36.src.rpm, noarch): free
-  82427425 buildSRPMFromSCM (/rpms/jacop.git:e1875bdceb2e7f591b22ba7270addc3e16a367e3): open (buildvm-x86-25.iad2.fedoraproject.org) -> closed
-  1 free  1 open  1 done  0 failed
-  82427621 buildArch (jacop-4.8-7.fc36.src.rpm, noarch): free -> open (buildvm-s390x-11.s390.fedoraproject.org)
-  82427621 buildArch (jacop-4.8-7.fc36.src.rpm, noarch): open (buildvm-s390x-11.s390.fedoraproject.org) -> closed
+114350542 build (f40-build-side-84857, /rpms/jacop.git:e3798b60184626beb337bfdf586edfc48e5b0363): free
+114350542 build (f40-build-side-84857, /rpms/jacop.git:e3798b60184626beb337bfdf586edfc48e5b0363): free -> assigned
+114350542 build (f40-build-side-84857, /rpms/jacop.git:e3798b60184626beb337bfdf586edfc48e5b0363): assigned -> open (buildhw-x86-16.iad2.fedoraproject.org)
+  114350598 buildSRPMFromSCM (/rpms/jacop.git:e3798b60184626beb337bfdf586edfc48e5b0363): free
+  114350598 buildSRPMFromSCM (/rpms/jacop.git:e3798b60184626beb337bfdf586edfc48e5b0363): free -> assigned
+  114350598 buildSRPMFromSCM (/rpms/jacop.git:e3798b60184626beb337bfdf586edfc48e5b0363): assigned -> open (buildvm-x86-28.iad2.fedoraproject.org)
+  114350598 buildSRPMFromSCM (/rpms/jacop.git:e3798b60184626beb337bfdf586edfc48e5b0363): open (buildvm-x86-28.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  114350673 buildArch (jacop-4.9.0-5.fc40.src.rpm, noarch): free
+  114350673 buildArch (jacop-4.9.0-5.fc40.src.rpm, noarch): free -> assigned
+  114350673 buildArch (jacop-4.9.0-5.fc40.src.rpm, noarch): assigned -> open (buildvm-ppc64le-15.iad2.fedoraproject.org)
+  114350673 buildArch (jacop-4.9.0-5.fc40.src.rpm, noarch): open (buildvm-ppc64le-15.iad2.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  82427902 tagBuild (noarch): free
-  82427902 tagBuild (noarch): free -> open (buildvm-s390x-35.s390.fedoraproject.org)
-82427423 build (f36-java17, /rpms/jacop.git:e1875bdceb2e7f591b22ba7270addc3e16a367e3): open (buildvm-a64-17.iad2.fedoraproject.org) -> closed
+  114351130 tagBuild (noarch): free
+  114351130 tagBuild (noarch): free -> assigned
+  114351130 tagBuild (noarch): assigned -> closed
   0 free  1 open  3 done  0 failed
-  82427902 tagBuild (noarch): open (buildvm-s390x-35.s390.fedoraproject.org) -> closed
+114350542 build (f40-build-side-84857, /rpms/jacop.git:e3798b60184626beb337bfdf586edfc48e5b0363): open (buildhw-x86-16.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-82427423 build (f36-java17, /rpms/jacop.git:e1875bdceb2e7f591b22ba7270addc3e16a367e3) completed successfully
+114350542 build (f40-build-side-84857, /rpms/jacop.git:e3798b60184626beb337bfdf586edfc48e5b0363) completed successfully

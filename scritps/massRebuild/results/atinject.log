@@ -1,24 +1,29 @@
 Cloning into 'atinject'...
-[rawhide cf565d0] Rebuilt for java-17-openjdk as system jdk
+[f40 ace2851] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building atinject-1.0.5-3.fc36 for f36-java17
-Created task: 82423578
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82423578
+Found a gating.yaml file in the repo and it is properly configured
+Building atinject-1.0.5-12.fc40 for f40-build-side-84857
+Created task: 114347350
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114347350
 Watching tasks (this may be safely interrupted)...
-82423578 build (f36-java17, /rpms/atinject.git:cf565d083ecfb9352bd6eb4def9fe3015ad41c45): free
-82423578 build (f36-java17, /rpms/atinject.git:cf565d083ecfb9352bd6eb4def9fe3015ad41c45): free -> open (buildvm-ppc64le-37.iad2.fedoraproject.org)
-  82423580 buildSRPMFromSCM (/rpms/atinject.git:cf565d083ecfb9352bd6eb4def9fe3015ad41c45): free
-  82423580 buildSRPMFromSCM (/rpms/atinject.git:cf565d083ecfb9352bd6eb4def9fe3015ad41c45): free -> open (buildvm-x86-15.iad2.fedoraproject.org)
-  82423580 buildSRPMFromSCM (/rpms/atinject.git:cf565d083ecfb9352bd6eb4def9fe3015ad41c45): open (buildvm-x86-15.iad2.fedoraproject.org) -> closed
+114347350 build (f40-build-side-84857, /rpms/atinject.git:ace28517f6f204ae9586f07faa3687e5f4aa9d2c): free
+114347350 build (f40-build-side-84857, /rpms/atinject.git:ace28517f6f204ae9586f07faa3687e5f4aa9d2c): free -> assigned
+114347350 build (f40-build-side-84857, /rpms/atinject.git:ace28517f6f204ae9586f07faa3687e5f4aa9d2c): assigned -> open (buildvm-x86-32.iad2.fedoraproject.org)
+  114347401 buildSRPMFromSCM (/rpms/atinject.git:ace28517f6f204ae9586f07faa3687e5f4aa9d2c): free
+  114347401 buildSRPMFromSCM (/rpms/atinject.git:ace28517f6f204ae9586f07faa3687e5f4aa9d2c): free -> assigned
+  114347401 buildSRPMFromSCM (/rpms/atinject.git:ace28517f6f204ae9586f07faa3687e5f4aa9d2c): assigned -> open (buildvm-x86-30.iad2.fedoraproject.org)
+  114347401 buildSRPMFromSCM (/rpms/atinject.git:ace28517f6f204ae9586f07faa3687e5f4aa9d2c): open (buildvm-x86-30.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  82423707 buildArch (atinject-1.0.5-3.fc36.src.rpm, noarch): free
-  82423707 buildArch (atinject-1.0.5-3.fc36.src.rpm, noarch): free -> open (buildhw-x86-10.iad2.fedoraproject.org)
-  82423707 buildArch (atinject-1.0.5-3.fc36.src.rpm, noarch): open (buildhw-x86-10.iad2.fedoraproject.org) -> closed
-  0 free  1 open  2 done  0 failed
-  82423888 tagBuild (noarch): free
-  82423888 tagBuild (noarch): free -> closed
+  114347462 buildArch (atinject-1.0.5-12.fc40.src.rpm, noarch): free
+  114347462 buildArch (atinject-1.0.5-12.fc40.src.rpm, noarch): free -> assigned
+  114347462 buildArch (atinject-1.0.5-12.fc40.src.rpm, noarch): assigned -> open (buildvm-x86-09.iad2.fedoraproject.org)
+  114347486 tagBuild (noarch): free
+  114347462 buildArch (atinject-1.0.5-12.fc40.src.rpm, noarch): open (buildvm-x86-09.iad2.fedoraproject.org) -> closed
+  1 free  1 open  2 done  0 failed
+  114347486 tagBuild (noarch): free -> assigned
+  114347486 tagBuild (noarch): assigned -> closed
   0 free  1 open  3 done  0 failed
-82423578 build (f36-java17, /rpms/atinject.git:cf565d083ecfb9352bd6eb4def9fe3015ad41c45): open (buildvm-ppc64le-37.iad2.fedoraproject.org) -> closed
+114347350 build (f40-build-side-84857, /rpms/atinject.git:ace28517f6f204ae9586f07faa3687e5f4aa9d2c): open (buildvm-x86-32.iad2.fedoraproject.org) -> closed
   0 free  0 open  4 done  0 failed
 
-82423578 build (f36-java17, /rpms/atinject.git:cf565d083ecfb9352bd6eb4def9fe3015ad41c45) completed successfully
+114347350 build (f40-build-side-84857, /rpms/atinject.git:ace28517f6f204ae9586f07faa3687e5f4aa9d2c) completed successfully

@@ -1,0 +1,21 @@
+Cloning into 'ldapjdk'...
+[rawhide 60706d9] Rebuilt for java-17-openjdk as system jdk
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Building ldapjdk-5.0.0-3.fc36 for f36-java17
+Created task: 82430381
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82430381
+Watching tasks (this may be safely interrupted)...
+82430381 build (f36-java17, /rpms/ldapjdk.git:60706d94af9a452c0702cd26627477855336c3c4): open (buildvm-x86-15.iad2.fedoraproject.org)
+  82430382 buildSRPMFromSCM (/rpms/ldapjdk.git:60706d94af9a452c0702cd26627477855336c3c4): open (buildvm-ppc64le-37.iad2.fedoraproject.org)
+  82430382 buildSRPMFromSCM (/rpms/ldapjdk.git:60706d94af9a452c0702cd26627477855336c3c4): open (buildvm-ppc64le-37.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  82430403 buildArch (ldapjdk-5.0.0-3.fc36.src.rpm, noarch): open (buildvm-ppc64le-17.iad2.fedoraproject.org)
+  82430403 buildArch (ldapjdk-5.0.0-3.fc36.src.rpm, noarch): open (buildvm-ppc64le-17.iad2.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  82430558 tagBuild (noarch): free
+  82430558 tagBuild (noarch): free -> closed
+  0 free  1 open  3 done  0 failed
+82430381 build (f36-java17, /rpms/ldapjdk.git:60706d94af9a452c0702cd26627477855336c3c4): open (buildvm-x86-15.iad2.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+82430381 build (f36-java17, /rpms/ldapjdk.git:60706d94af9a452c0702cd26627477855336c3c4) completed successfully

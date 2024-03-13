@@ -1,22 +1,17 @@
 Cloning into 'plexus-velocity'...
-[rawhide e8ea269] Rebuilt for java-17-openjdk as system jdk
+[f40 a6fc503] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building plexus-velocity-1.2-15.fc36 for f36-java17
-Created task: 82433379
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82433379
+Building plexus-velocity-2.0-6.fc40 for f40-build-side-84857
+Created task: 114355562
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355562
 Watching tasks (this may be safely interrupted)...
-82433379 build (f36-java17, /rpms/plexus-velocity.git:e8ea269c585f5ca7739be997f6137a569e5f1030): free
-82433379 build (f36-java17, /rpms/plexus-velocity.git:e8ea269c585f5ca7739be997f6137a569e5f1030): free -> open (buildvm-a32-04.iad2.fedoraproject.org)
-  82433385 buildSRPMFromSCM (/rpms/plexus-velocity.git:e8ea269c585f5ca7739be997f6137a569e5f1030): free
-  82433385 buildSRPMFromSCM (/rpms/plexus-velocity.git:e8ea269c585f5ca7739be997f6137a569e5f1030): free -> open (buildvm-x86-23.iad2.fedoraproject.org)
-  82433385 buildSRPMFromSCM (/rpms/plexus-velocity.git:e8ea269c585f5ca7739be997f6137a569e5f1030): open (buildvm-x86-23.iad2.fedoraproject.org) -> closed
-  0 free  1 open  1 done  0 failed
-  82433513 buildArch (plexus-velocity-1.2-15.fc36.src.rpm, noarch): free
-  82433513 buildArch (plexus-velocity-1.2-15.fc36.src.rpm, noarch): free -> open (buildvm-s390x-18.s390.fedoraproject.org)
-  82433554 tagBuild (noarch): closed
-  82433513 buildArch (plexus-velocity-1.2-15.fc36.src.rpm, noarch): open (buildvm-s390x-18.s390.fedoraproject.org) -> closed
-  0 free  1 open  3 done  0 failed
-82433379 build (f36-java17, /rpms/plexus-velocity.git:e8ea269c585f5ca7739be997f6137a569e5f1030): open (buildvm-a32-04.iad2.fedoraproject.org) -> closed
-  0 free  0 open  4 done  0 failed
-
-82433379 build (f36-java17, /rpms/plexus-velocity.git:e8ea269c585f5ca7739be997f6137a569e5f1030) completed successfully
+114355562 build (f40-build-side-84857, /rpms/plexus-velocity.git:a6fc503b513c9cc9349938f7703286283a99863d): free
+114355562 build (f40-build-side-84857, /rpms/plexus-velocity.git:a6fc503b513c9cc9349938f7703286283a99863d): free -> open (buildhw-a64-24.iad2.fedoraproject.org)
+  114355563 buildSRPMFromSCM (/rpms/plexus-velocity.git:a6fc503b513c9cc9349938f7703286283a99863d): free
+  114355563 buildSRPMFromSCM (/rpms/plexus-velocity.git:a6fc503b513c9cc9349938f7703286283a99863d): free -> assigned
+  114355563 buildSRPMFromSCM (/rpms/plexus-velocity.git:a6fc503b513c9cc9349938f7703286283a99863d): assigned -> free
+  114355563 buildSRPMFromSCM (/rpms/plexus-velocity.git:a6fc503b513c9cc9349938f7703286283a99863d): free -> assigned
+114355562 build (f40-build-side-84857, /rpms/plexus-velocity.git:a6fc503b513c9cc9349938f7703286283a99863d): open (buildhw-a64-24.iad2.fedoraproject.org) -> free
+  114355563 buildSRPMFromSCM (/rpms/plexus-velocity.git:a6fc503b513c9cc9349938f7703286283a99863d): assigned -> open (buildvm-x86-14.iad2.fedoraproject.org)
+  114355563 buildSRPMFromSCM (/rpms/plexus-velocity.git:a6fc503b513c9cc9349938f7703286283a99863d): open (buildvm-x86-14.iad2.fedoraproject.org) -> closed
+  1 free  0 open  1 done  0 failed

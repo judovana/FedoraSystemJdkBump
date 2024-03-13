@@ -1,24 +1,27 @@
 Cloning into 'imagej'...
-[rawhide 866bf87] Rebuilt for java-17-openjdk as system jdk
+[f40 484b99c] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building imagej-1.50-17.h.fc36 for f36-java17
-Created task: 82426985
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82426985
+Building imagej-1.54h-4.fc40 for f40-build-side-84857
+Created task: 114350250
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114350250
 Watching tasks (this may be safely interrupted)...
-82426985 build (f36-java17, /rpms/imagej.git:866bf87b2d88da2667d9b297352a321156f05684): free
-82426985 build (f36-java17, /rpms/imagej.git:866bf87b2d88da2667d9b297352a321156f05684): free -> open (buildvm-s390x-10.s390.fedoraproject.org)
-  82426999 buildSRPMFromSCM (/rpms/imagej.git:866bf87b2d88da2667d9b297352a321156f05684): free
-  82426999 buildSRPMFromSCM (/rpms/imagej.git:866bf87b2d88da2667d9b297352a321156f05684): free -> open (buildvm-ppc64le-35.iad2.fedoraproject.org)
-  82426999 buildSRPMFromSCM (/rpms/imagej.git:866bf87b2d88da2667d9b297352a321156f05684): open (buildvm-ppc64le-35.iad2.fedoraproject.org) -> closed
+114350250 build (f40-build-side-84857, /rpms/imagej.git:484b99cf22b6ec08fe781cd040020ef16bb5033f): free
+114350250 build (f40-build-side-84857, /rpms/imagej.git:484b99cf22b6ec08fe781cd040020ef16bb5033f): free -> assigned
+114350250 build (f40-build-side-84857, /rpms/imagej.git:484b99cf22b6ec08fe781cd040020ef16bb5033f): assigned -> open (buildvm-ppc64le-17.iad2.fedoraproject.org)
+  114350256 buildSRPMFromSCM (/rpms/imagej.git:484b99cf22b6ec08fe781cd040020ef16bb5033f): free
+  114350256 buildSRPMFromSCM (/rpms/imagej.git:484b99cf22b6ec08fe781cd040020ef16bb5033f): free -> open (buildvm-a64-38.iad2.fedoraproject.org)
+  114350256 buildSRPMFromSCM (/rpms/imagej.git:484b99cf22b6ec08fe781cd040020ef16bb5033f): open (buildvm-a64-38.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  82427164 buildArch (imagej-1.50-17.h.fc36.src.rpm, noarch): free
-  82427164 buildArch (imagej-1.50-17.h.fc36.src.rpm, noarch): free -> open (buildhw-x86-14.iad2.fedoraproject.org)
-  82427164 buildArch (imagej-1.50-17.h.fc36.src.rpm, noarch): open (buildhw-x86-14.iad2.fedoraproject.org) -> closed
+  114350320 buildArch (imagej-1.54h-4.fc40.src.rpm, noarch): free
+  114350320 buildArch (imagej-1.54h-4.fc40.src.rpm, noarch): free -> assigned
+  114350320 buildArch (imagej-1.54h-4.fc40.src.rpm, noarch): assigned -> open (buildvm-ppc64le-06.iad2.fedoraproject.org)
+  114350320 buildArch (imagej-1.54h-4.fc40.src.rpm, noarch): open (buildvm-ppc64le-06.iad2.fedoraproject.org) -> closed
   0 free  1 open  2 done  0 failed
-  82427263 tagBuild (noarch): free
-  82427263 tagBuild (noarch): free -> closed
+  114350410 tagBuild (noarch): free
+  114350410 tagBuild (noarch): free -> assigned
+114350250 build (f40-build-side-84857, /rpms/imagej.git:484b99cf22b6ec08fe781cd040020ef16bb5033f): open (buildvm-ppc64le-17.iad2.fedoraproject.org) -> closed
   0 free  1 open  3 done  0 failed
-82426985 build (f36-java17, /rpms/imagej.git:866bf87b2d88da2667d9b297352a321156f05684): open (buildvm-s390x-10.s390.fedoraproject.org) -> closed
+  114350410 tagBuild (noarch): assigned -> closed
   0 free  0 open  4 done  0 failed
 
-82426985 build (f36-java17, /rpms/imagej.git:866bf87b2d88da2667d9b297352a321156f05684) completed successfully
+114350250 build (f40-build-side-84857, /rpms/imagej.git:484b99cf22b6ec08fe781cd040020ef16bb5033f) completed successfully

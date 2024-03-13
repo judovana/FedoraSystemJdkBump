@@ -1,40 +1,44 @@
 Cloning into 'tuxguitar'...
-[rawhide 244e2a3] Rebuilt for java-17-openjdk as system jdk
+[f40 861700b] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building tuxguitar-1.5.4-3.fc36 for f36-java17
-Created task: 82435199
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82435199
-Watching tasks (this may be safely interrupted)...
-82435199 build (f36-java17, /rpms/tuxguitar.git:244e2a3c5309c6a18aba40b31328b28d736a92cf): free
-82435199 build (f36-java17, /rpms/tuxguitar.git:244e2a3c5309c6a18aba40b31328b28d736a92cf): free -> open (buildvm-ppc64le-30.iad2.fedoraproject.org)
-  82435200 buildSRPMFromSCM (/rpms/tuxguitar.git:244e2a3c5309c6a18aba40b31328b28d736a92cf): open (buildvm-ppc64le-30.iad2.fedoraproject.org)
-  82435200 buildSRPMFromSCM (/rpms/tuxguitar.git:244e2a3c5309c6a18aba40b31328b28d736a92cf): open (buildvm-ppc64le-30.iad2.fedoraproject.org) -> closed
-  0 free  1 open  1 done  0 failed
-  82435224 buildArch (tuxguitar-1.5.4-3.fc36.src.rpm, s390x): open (buildvm-s390x-25.s390.fedoraproject.org)
-  82435223 buildArch (tuxguitar-1.5.4-3.fc36.src.rpm, ppc64le): open (buildvm-ppc64le-30.iad2.fedoraproject.org)
-  82435221 buildArch (tuxguitar-1.5.4-3.fc36.src.rpm, x86_64): open (buildvm-x86-16.iad2.fedoraproject.org)
-  82435222 buildArch (tuxguitar-1.5.4-3.fc36.src.rpm, aarch64): open (buildvm-a64-04.iad2.fedoraproject.org)
-  82435224 buildArch (tuxguitar-1.5.4-3.fc36.src.rpm, s390x): open (buildvm-s390x-25.s390.fedoraproject.org) -> FAILED: BuildError: error building package (arch s390x), mock exited with status 1; see build.log or root.log for more information
-  Relevant logs:
-  https://kojipkgs.fedoraproject.org/work/tasks/5224/82435224/mock_output.log
-  https://kojipkgs.fedoraproject.org/work/tasks/5224/82435224/hw_info.log
-  https://kojipkgs.fedoraproject.org/work/tasks/5224/82435224/state.log
-  https://kojipkgs.fedoraproject.org/work/tasks/5224/82435224/build.log
-  https://kojipkgs.fedoraproject.org/work/tasks/5224/82435224/root.log
-  0 free  4 open  1 done  1 failed
-  82435221 buildArch (tuxguitar-1.5.4-3.fc36.src.rpm, x86_64): open (buildvm-x86-16.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch x86_64), mock exited with status 1; see build.log or root.log for more information
-  Relevant logs:
-  https://kojipkgs.fedoraproject.org/work/tasks/5221/82435221/mock_output.log
-  https://kojipkgs.fedoraproject.org/work/tasks/5221/82435221/hw_info.log
-  https://kojipkgs.fedoraproject.org/work/tasks/5221/82435221/state.log
-  https://kojipkgs.fedoraproject.org/work/tasks/5221/82435221/build.log
-  https://kojipkgs.fedoraproject.org/work/tasks/5221/82435221/root.log
-  0 free  3 open  1 done  2 failed
-  82435222 buildArch (tuxguitar-1.5.4-3.fc36.src.rpm, aarch64): open (buildvm-a64-04.iad2.fedoraproject.org) -> canceled
-  0 free  2 open  2 done  2 failed
-82435199 build (f36-java17, /rpms/tuxguitar.git:244e2a3c5309c6a18aba40b31328b28d736a92cf): open (buildvm-ppc64le-30.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch s390x), mock exited with status 1; see build.log or root.log for more information
-  0 free  1 open  2 done  3 failed
-  82435223 buildArch (tuxguitar-1.5.4-3.fc36.src.rpm, ppc64le): open (buildvm-ppc64le-30.iad2.fedoraproject.org) -> canceled
-  0 free  0 open  3 done  3 failed
+warning: %patchN is deprecated (4 usages found), use %patch N (or %patch -P N)
 
-82435199 build (f36-java17, /rpms/tuxguitar.git:244e2a3c5309c6a18aba40b31328b28d736a92cf) failed
+Building tuxguitar-1.5.4-10.fc40 for f40-build-side-84857
+Created task: 114355946
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114355946
+Watching tasks (this may be safely interrupted)...
+114355946 build (f40-build-side-84857, /rpms/tuxguitar.git:861700be6fcb6e4318bf7dedb334a56d477aa290): free
+114355946 build (f40-build-side-84857, /rpms/tuxguitar.git:861700be6fcb6e4318bf7dedb334a56d477aa290): free -> assigned
+114355946 build (f40-build-side-84857, /rpms/tuxguitar.git:861700be6fcb6e4318bf7dedb334a56d477aa290): assigned -> open (buildvm-x86-28.iad2.fedoraproject.org)
+  114355962 buildSRPMFromSCM (/rpms/tuxguitar.git:861700be6fcb6e4318bf7dedb334a56d477aa290): free
+  114355962 buildSRPMFromSCM (/rpms/tuxguitar.git:861700be6fcb6e4318bf7dedb334a56d477aa290): free -> assigned
+  114355962 buildSRPMFromSCM (/rpms/tuxguitar.git:861700be6fcb6e4318bf7dedb334a56d477aa290): assigned -> open (buildvm-a64-04.iad2.fedoraproject.org)
+  114355962 buildSRPMFromSCM (/rpms/tuxguitar.git:861700be6fcb6e4318bf7dedb334a56d477aa290): open (buildvm-a64-04.iad2.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  114356020 buildArch (tuxguitar-1.5.4-10.fc40.src.rpm, ppc64le): free
+  114356021 buildArch (tuxguitar-1.5.4-10.fc40.src.rpm, s390x): free
+  114356016 buildArch (tuxguitar-1.5.4-10.fc40.src.rpm, x86_64): free
+  114356018 buildArch (tuxguitar-1.5.4-10.fc40.src.rpm, aarch64): free
+  114356020 buildArch (tuxguitar-1.5.4-10.fc40.src.rpm, ppc64le): free -> open (buildvm-ppc64le-31.iad2.fedoraproject.org)
+  114356021 buildArch (tuxguitar-1.5.4-10.fc40.src.rpm, s390x): free -> open (buildvm-s390x-03.s390.fedoraproject.org)
+  114356016 buildArch (tuxguitar-1.5.4-10.fc40.src.rpm, x86_64): free -> assigned
+  114356018 buildArch (tuxguitar-1.5.4-10.fc40.src.rpm, aarch64): free -> open (buildvm-a64-07.iad2.fedoraproject.org)
+  114356016 buildArch (tuxguitar-1.5.4-10.fc40.src.rpm, x86_64): assigned -> open (buildhw-x86-04.iad2.fedoraproject.org)
+  114356018 buildArch (tuxguitar-1.5.4-10.fc40.src.rpm, aarch64): open (buildvm-a64-07.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch aarch64), mock exited with status 1; see build.log or root.log for more information
+  Relevant logs:
+  https://kojipkgs.fedoraproject.org/work/tasks/6018/114356018/state.log
+  https://kojipkgs.fedoraproject.org/work/tasks/6018/114356018/build.log
+  https://kojipkgs.fedoraproject.org/work/tasks/6018/114356018/root.log
+  https://kojipkgs.fedoraproject.org/work/tasks/6018/114356018/mock_output.log
+  https://kojipkgs.fedoraproject.org/work/tasks/6018/114356018/hw_info.log
+  0 free  4 open  1 done  1 failed
+114355946 build (f40-build-side-84857, /rpms/tuxguitar.git:861700be6fcb6e4318bf7dedb334a56d477aa290): open (buildvm-x86-28.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch aarch64), mock exited with status 1; see build.log or root.log for more information
+  0 free  3 open  1 done  2 failed
+  114356020 buildArch (tuxguitar-1.5.4-10.fc40.src.rpm, ppc64le): open (buildvm-ppc64le-31.iad2.fedoraproject.org) -> canceled
+  0 free  2 open  2 done  2 failed
+  114356021 buildArch (tuxguitar-1.5.4-10.fc40.src.rpm, s390x): open (buildvm-s390x-03.s390.fedoraproject.org) -> canceled
+  0 free  1 open  3 done  2 failed
+  114356016 buildArch (tuxguitar-1.5.4-10.fc40.src.rpm, x86_64): open (buildhw-x86-04.iad2.fedoraproject.org) -> canceled
+  0 free  0 open  4 done  2 failed
+
+114355946 build (f40-build-side-84857, /rpms/tuxguitar.git:861700be6fcb6e4318bf7dedb334a56d477aa290) failed

@@ -1,24 +1,29 @@
 Cloning into 'maven-invoker'...
-[rawhide 5d843c6] Rebuilt for java-17-openjdk as system jdk
+[f40 d6345f4] Rebuilt for java-21-openjdk as system jdk
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building maven-invoker-3.1.0-3.fc36 for f36-java17
-Created task: 82431378
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=82431378
+Building maven-invoker-3.1.0-12.fc40 for f40-build-side-84857
+Created task: 114353710
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=114353710
 Watching tasks (this may be safely interrupted)...
-82431378 build (f36-java17, /rpms/maven-invoker.git:5d843c61aea4e6fa334fe15806d4c141ace271e3): free
-82431378 build (f36-java17, /rpms/maven-invoker.git:5d843c61aea4e6fa334fe15806d4c141ace271e3): free -> open (buildvm-s390x-18.s390.fedoraproject.org)
-  82431400 buildSRPMFromSCM (/rpms/maven-invoker.git:5d843c61aea4e6fa334fe15806d4c141ace271e3): free
-  82431400 buildSRPMFromSCM (/rpms/maven-invoker.git:5d843c61aea4e6fa334fe15806d4c141ace271e3): free -> open (buildvm-x86-07.iad2.fedoraproject.org)
-  82431400 buildSRPMFromSCM (/rpms/maven-invoker.git:5d843c61aea4e6fa334fe15806d4c141ace271e3): open (buildvm-x86-07.iad2.fedoraproject.org) -> closed
+114353710 build (f40-build-side-84857, /rpms/maven-invoker.git:d6345f4ca18a9e80b8c911ea900d6552b1fc1056): free
+114353710 build (f40-build-side-84857, /rpms/maven-invoker.git:d6345f4ca18a9e80b8c911ea900d6552b1fc1056): free -> assigned
+114353710 build (f40-build-side-84857, /rpms/maven-invoker.git:d6345f4ca18a9e80b8c911ea900d6552b1fc1056): assigned -> open (buildvm-ppc64le-14.iad2.fedoraproject.org)
+  114353722 buildSRPMFromSCM (/rpms/maven-invoker.git:d6345f4ca18a9e80b8c911ea900d6552b1fc1056): free
+  114353722 buildSRPMFromSCM (/rpms/maven-invoker.git:d6345f4ca18a9e80b8c911ea900d6552b1fc1056): free -> assigned
+  114353722 buildSRPMFromSCM (/rpms/maven-invoker.git:d6345f4ca18a9e80b8c911ea900d6552b1fc1056): assigned -> open (buildvm-a64-05.iad2.fedoraproject.org)
+  114353722 buildSRPMFromSCM (/rpms/maven-invoker.git:d6345f4ca18a9e80b8c911ea900d6552b1fc1056): open (buildvm-a64-05.iad2.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  82431480 buildArch (maven-invoker-3.1.0-3.fc36.src.rpm, noarch): free
-  82431480 buildArch (maven-invoker-3.1.0-3.fc36.src.rpm, noarch): free -> open (buildvm-ppc64le-36.iad2.fedoraproject.org)
-  82431480 buildArch (maven-invoker-3.1.0-3.fc36.src.rpm, noarch): open (buildvm-ppc64le-36.iad2.fedoraproject.org) -> closed
-  0 free  1 open  2 done  0 failed
-  82431616 tagBuild (noarch): free
-  82431616 tagBuild (noarch): free -> closed
-  0 free  1 open  3 done  0 failed
-82431378 build (f36-java17, /rpms/maven-invoker.git:5d843c61aea4e6fa334fe15806d4c141ace271e3): open (buildvm-s390x-18.s390.fedoraproject.org) -> closed
-  0 free  0 open  4 done  0 failed
+  114353832 buildArch (maven-invoker-3.1.0-12.fc40.src.rpm, noarch): free
+  114353832 buildArch (maven-invoker-3.1.0-12.fc40.src.rpm, noarch): free -> open (buildvm-a64-09.iad2.fedoraproject.org)
+  114353832 buildArch (maven-invoker-3.1.0-12.fc40.src.rpm, noarch): open (buildvm-a64-09.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
+  Relevant logs:
+  https://kojipkgs.fedoraproject.org/work/tasks/3832/114353832/state.log
+  https://kojipkgs.fedoraproject.org/work/tasks/3832/114353832/build.log
+  https://kojipkgs.fedoraproject.org/work/tasks/3832/114353832/root.log
+  https://kojipkgs.fedoraproject.org/work/tasks/3832/114353832/mock_output.log
+  https://kojipkgs.fedoraproject.org/work/tasks/3832/114353832/hw_info.log
+  0 free  1 open  1 done  1 failed
+114353710 build (f40-build-side-84857, /rpms/maven-invoker.git:d6345f4ca18a9e80b8c911ea900d6552b1fc1056): open (buildvm-ppc64le-14.iad2.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
+  0 free  0 open  1 done  2 failed
 
-82431378 build (f36-java17, /rpms/maven-invoker.git:5d843c61aea4e6fa334fe15806d4c141ace271e3) completed successfully
+114353710 build (f40-build-side-84857, /rpms/maven-invoker.git:d6345f4ca18a9e80b8c911ea900d6552b1fc1056) failed
