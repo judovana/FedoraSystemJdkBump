@@ -24,9 +24,9 @@ done  | sort | uniq > $tmp
 
 if [ "x$SKIP_CHECK" == "x" ] ; then
   while IFS= read -r line; do
-    wget -S --spider https://src.fedoraproject.org/rpms/$line 2>&1 | grep -q 'HTTP/1.. 200 OK'
+    wget -S --spider https://src.fedoraproject.org/rpms/$line 2>&1 | grep -q 'HTTP.*200 '
     if [ $? -eq 0 ]; then
-      wget -S --spider https://src.fedoraproject.org/rpms/$line/raw/rawhide/f/dead.package 2>&1 | grep -q 'HTTP/1.. 200 OK'
+      wget -S --spider https://src.fedoraproject.org/rpms/$line/raw/rawhide/f/dead.package 2>&1 | grep -q 'HTTP.*200 '
       if [ $? -eq 0 ]; then
         echo "  skipping $line - dead package" >&2
       else
