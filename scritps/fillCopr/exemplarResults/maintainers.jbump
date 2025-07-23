@@ -1,0 +1,139 @@
+Maintainers by package:
+CFR                  jvanek
+CardManager          jvanek
+IPAddress            jvanek
+Mars                 mikep scottt
+OpenStego            rebus
+R-rJava              iucar
+ant-contrib          zzambers
+antlrworks           melmorabity
+apache-ivy           didiksupriadi41 mizdebsk
+beansbinding         omajid
+bolzplatz2006        jwrdegoede
+brazil               mbooth
+bsh                  didiksupriadi41 mizdebsk
+byteman              jerboaa jhuttana
+cambozola            kni
+colossus             bruno
+console-image-viewer jvanek
+cortado              jwrdegoede
+ditaa                terjeros
+dom4j                jwrdegoede mizdebsk sdgathman
+eclipse-swt          deamn
+fernflower           jvanek
+flute                limb
+fop                  mizdebsk peter ttorling
+freecol              hanecak jwrdegoede vtrefny
+freemarker           didiksupriadi41
+freerouting          dwrobel lkundrak
+hid4java             jonny
+icedtea-web          robert
+imagej               ankursinha verdurin
+jFormatString        richardfearn
+java-21-openjdk      ahughes jandrlik jerboaa jvanek pmikova zzambers
+javapackages-bootstrap mizdebsk mkoncek
+javapackages-tools   mizdebsk
+javapoet             mbooth
+jcip-annotations     richardfearn
+jcuber               loveshack
+jedit                zzambers
+jigawatts            jvanek
+jorbis               jwrdegoede
+jpanoramamaker       jvanek
+jssc                 dwrobel
+juniversalchardet    didiksupriadi41
+libbase              limb
+libfonts             limb
+libformula           limb
+liblayout            limb
+libloader            limb
+librepository        limb
+libserializer        limb
+libvirt-java         trawets
+mecab-java           mtasaka
+miglayout            hanecak
+mp                   sagitter
+mysql-connector-java anezbeda java-sig ljavorsk mkoncek mschorm zmiklank
+octave               alexlan ferdnyc orion trix
+openjdk-asmtools     jhuttana jvanek
+openjfx              deamn
+parserng             jvanek
+pdftk-java           robert
+pentaho-libxml       limb
+pentaho-reporting-flow-engine limb
+plantuml             blinxen
+procyon              jvanek
+regexp               mizdebsk
+rhino                didiksupriadi41 ebaron
+rsyntaxtextarea      jvanek
+sblim-cim-client     vcrhonek
+sblim-cim-client2    vcrhonek
+sdljava              jwrdegoede mizdebsk
+stringtemplate       walters
+swing-layout         jandrlik java-sig pmikova
+t-digest             gil jvanek
+tomcat               csutherl dsoumis szappis van
+vecmath1.2           jwrdegoede
+voms-clients-java    ellert
+xmvn                 mizdebsk
+xmvn-generator       mizdebsk
+
+Packages by maintainer:
+ahughes    java-21-openjdk
+alexlan    octave
+anezbeda   mysql-connector-java
+ankursinha imagej
+blinxen    plantuml
+bruno      colossus
+csutherl   tomcat
+deamn      eclipse-swt openjfx
+didiksupriadi41 apache-ivy bsh freemarker juniversalchardet rhino
+dsoumis    tomcat
+dwrobel    freerouting jssc
+ebaron     rhino
+ellert     voms-clients-java
+ferdnyc    octave
+gil        t-digest
+hanecak    freecol miglayout
+iucar      R-rJava
+jandrlik   java-21-openjdk swing-layout
+java-sig   mysql-connector-java swing-layout
+jerboaa    byteman java-21-openjdk
+jhuttana   byteman openjdk-asmtools
+jonny      hid4java
+jvanek     CFR CardManager IPAddress console-image-viewer fernflower java-21-openjdk jigawatts jpanoramamaker openjdk-asmtools parserng procyon rsyntaxtextarea t-digest
+jwrdegoede bolzplatz2006 cortado dom4j freecol jorbis sdljava vecmath1.2
+kni        cambozola
+limb       flute libbase libfonts libformula liblayout libloader librepository libserializer pentaho-libxml pentaho-reporting-flow-engine
+ljavorsk   mysql-connector-java
+lkundrak   freerouting
+loveshack  jcuber
+mbooth     brazil javapoet
+melmorabity antlrworks
+mikep      Mars
+mizdebsk   apache-ivy bsh dom4j fop javapackages-bootstrap javapackages-tools regexp sdljava xmvn xmvn-generator
+mkoncek    javapackages-bootstrap mysql-connector-java
+mschorm    mysql-connector-java
+mtasaka    mecab-java
+omajid     beansbinding
+orion      octave
+peter      fop
+pmikova    java-21-openjdk swing-layout
+rebus      OpenStego
+richardfearn jFormatString jcip-annotations
+robert     icedtea-web pdftk-java
+sagitter   mp
+scottt     Mars
+sdgathman  dom4j
+szappis    tomcat
+terjeros   ditaa
+trawets    libvirt-java
+trix       octave
+ttorling   fop
+van        tomcat
+vcrhonek   sblim-cim-client sblim-cim-client2
+verdurin   imagej
+vtrefny    freecol
+walters    stringtemplate
+zmiklank   mysql-connector-java
+zzambers   ant-contrib java-21-openjdk jedit
