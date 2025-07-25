@@ -1,7 +1,11 @@
+#!/bin/bash
+
 RESULTS_DIR=${1}
 # without bugzilla setup logs are just scanned  and summary printed. Both those vars are passed to submitBug.py	
 export BUGZILLA_API_KEY=${2}
 export FEATURE_BUG_ID=${3}
+na=30 #30 is default, negaitves disables it
+
 # see also variable URLS true/false
 # see TASK_URL for usage. Tahat one is good with grep -A1
 #   to double check runing tasks: TASK_URL=true sh processResults.sh  results  | grep running -A1
@@ -33,10 +37,16 @@ function pout() {
   local name=${1}
   local status=${2}
   local alignment=${3}
+  if [ "x$URLS" == "xtrue" ] ; then
+    local lurls=`echo "$urls" | head -n1`
+  fi
+  if [ "x$URLS" == "xfailed" -a ! "x$status" == "xpassed!"   ] ; then
+    local lurls=`echo "$urls" | head -n1`
+  fi
   if [ "0$alignment" -le 0 ] ; then
-    echo ${name} ${status}
+    echo ${name} ${status} ${lurls}
   else
-    printf "%-${alignment}s %s\n" "${name}" "${status}"
+    printf "%-${alignment}s %s %s\n" "${name}" "${status}" "${lurls}"
   fi
 }
 ##################################
@@ -54,11 +64,11 @@ for logFile in `ls ${RESULTS_DIR} | sort ` ; do
   r1=$?
   urls=`cat $log | grep -e "https:.*koji.*" | sed "s/.*https:/https:/"`
   if [ $s1 -eq 0 ] ; then
-    pout "$pkg" "passed!" 30
+    pout "$pkg" "passed!" "${na}"
   elif [ $r1 -eq 0 ] ; then
-    pout "$pkg" "retired" 30
+    pout "$pkg" "retired" "${na}"
   elif [ $f1 -eq 0 ] ; then
-    pout "$pkg" "FAILED" 30
+    pout "$pkg" "FAILED" "${na}"
     if [ ! "x$BUGZILLA_API_KEY" = "x" -a ! "x$FEATURE_BUG_ID" = "x" ] ; then
      echo filling bug > /dev/null
      fillBug "$pkg" "$urls"
@@ -66,7 +76,7 @@ for logFile in `ls ${RESULTS_DIR} | sort ` ; do
      echo no bug > /dev/null
     fi
   else
-    pout "$pkg" "running?" 30
+    pout "$pkg" "running?" "${na}"
     if [ ! "x$TASK_URL" == "x" ] ;  then
       a=`cat $log | grep "Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID="`
       pout "  $a"  "" 0
@@ -76,8 +86,5 @@ for logFile in `ls ${RESULTS_DIR} | sort ` ; do
       koji watch-task $taskId  >> $RESULTS_DIR/${pkg}.log &
       sleep 5
     fi
-  fi
-  if [ "x$URLS" = "xtrue" ] ; then
-    echo "$urls"
   fi
 done
