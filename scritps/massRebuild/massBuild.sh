@@ -69,6 +69,8 @@ for pkg in `cat $FILE_WITH_PKGS | grep  -v $regex  | grep "$targettedSelection"`
     MSG="$MSG_TITLE
 
 https://fedoraproject.org/wiki/Changes/Java25AndNoMoreSystemJdk
+Note, that since f43, you should be always explicit on what jdk to use.
+This commit should do exactly that.
 "
     rpmdev-bumpspec -c "$MSG_TITLE" $pkg.spec | tee -a $RESULTS_DIR/${pkg}.log
     git commit --allow-empty ${pkg}.spec -m "$MSG" | tee -a $RESULTS_DIR/${pkg}.log
@@ -93,7 +95,7 @@ https://fedoraproject.org/wiki/Changes/Java25AndNoMoreSystemJdk
     rm -rf $pkg
   fi
   processes=`ps | wc -l`
-  while [ $processes -gt 60 ] ; do 
+  while [ $processes -gt 100 ] ; do 
     processes=`ps | wc -l`
     echo "to much processes - $processes, waiting"
     sleep 10
