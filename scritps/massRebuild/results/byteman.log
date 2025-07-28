@@ -1,0 +1,25 @@
+[rawhide 06500df] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 7 insertions(+), 4 deletions(-)
+Building byteman-4.0.16-19.fc43 for rawhide
+Created task: 135397717
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135397717
+Watching tasks (this may be safely interrupted)...
+135397717 build (rawhide, /rpms/byteman.git:06500df4283083a2a584921e622058ae409b0492): free
+135397717 build (rawhide, /rpms/byteman.git:06500df4283083a2a584921e622058ae409b0492): free -> assigned (buildvm-a64-04.rdu3.fedoraproject.org)
+135397717 build (rawhide, /rpms/byteman.git:06500df4283083a2a584921e622058ae409b0492): assigned (buildvm-a64-04.rdu3.fedoraproject.org) -> open (buildvm-a64-04.rdu3.fedoraproject.org)
+  135397720 buildSRPMFromSCM (/rpms/byteman.git:06500df4283083a2a584921e622058ae409b0492): free
+  135397720 buildSRPMFromSCM (/rpms/byteman.git:06500df4283083a2a584921e622058ae409b0492): free -> assigned (buildvm-ppc64le-32.rdu3.fedoraproject.org)
+  135397720 buildSRPMFromSCM (/rpms/byteman.git:06500df4283083a2a584921e622058ae409b0492): assigned (buildvm-ppc64le-32.rdu3.fedoraproject.org) -> open (buildvm-ppc64le-32.rdu3.fedoraproject.org)
+  135397785 buildArch (byteman-4.0.16-19.fc43.src.rpm, noarch): free
+  135397720 buildSRPMFromSCM (/rpms/byteman.git:06500df4283083a2a584921e622058ae409b0492): open (buildvm-ppc64le-32.rdu3.fedoraproject.org) -> closed
+  1 free  1 open  1 done  0 failed
+  135397785 buildArch (byteman-4.0.16-19.fc43.src.rpm, noarch): free -> open (buildvm-a64-45.rdu3.fedoraproject.org)
+  135397974 tagBuild (noarch): free
+  135397785 buildArch (byteman-4.0.16-19.fc43.src.rpm, noarch): open (buildvm-a64-45.rdu3.fedoraproject.org) -> closed
+  1 free  1 open  2 done  0 failed
+135397717 build (rawhide, /rpms/byteman.git:06500df4283083a2a584921e622058ae409b0492): open (buildvm-a64-04.rdu3.fedoraproject.org) -> closed
+  1 free  0 open  3 done  0 failed
+  135397974 tagBuild (noarch): free -> closed
+  0 free  0 open  4 done  0 failed
+
+135397717 build (rawhide, /rpms/byteman.git:06500df4283083a2a584921e622058ae409b0492) completed successfully

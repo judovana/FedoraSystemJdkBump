@@ -1,0 +1,25 @@
+[rawhide 98358ae] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 7 insertions(+), 4 deletions(-)
+Building OpenStego-0.7.4-17.fc43 for rawhide
+Created task: 135398465
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135398465
+Watching tasks (this may be safely interrupted)...
+135398465 build (rawhide, /rpms/OpenStego.git:98358ae9d0b07bc9a55376a5f3defe23bdf7f7fc): free
+135398465 build (rawhide, /rpms/OpenStego.git:98358ae9d0b07bc9a55376a5f3defe23bdf7f7fc): free -> open (buildvm-a64-07.rdu3.fedoraproject.org)
+  135398468 buildSRPMFromSCM (/rpms/OpenStego.git:98358ae9d0b07bc9a55376a5f3defe23bdf7f7fc): free
+  135398468 buildSRPMFromSCM (/rpms/OpenStego.git:98358ae9d0b07bc9a55376a5f3defe23bdf7f7fc): free -> open (buildvm-a64-25.rdu3.fedoraproject.org)
+  135398468 buildSRPMFromSCM (/rpms/OpenStego.git:98358ae9d0b07bc9a55376a5f3defe23bdf7f7fc): open (buildvm-a64-25.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135398511 buildArch (OpenStego-0.7.4-17.fc43.src.rpm, noarch): free
+  135398511 buildArch (OpenStego-0.7.4-17.fc43.src.rpm, noarch): free -> assigned (buildvm-a64-41.rdu3.fedoraproject.org)
+  135398511 buildArch (OpenStego-0.7.4-17.fc43.src.rpm, noarch): assigned (buildvm-a64-41.rdu3.fedoraproject.org) -> open (buildvm-a64-41.rdu3.fedoraproject.org)
+  135398511 buildArch (OpenStego-0.7.4-17.fc43.src.rpm, noarch): open (buildvm-a64-41.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  135398588 tagBuild (noarch): free
+  135398588 tagBuild (noarch): free -> assigned (buildvm-a64-24.rdu3.fedoraproject.org)
+  135398588 tagBuild (noarch): assigned (buildvm-a64-24.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+135398465 build (rawhide, /rpms/OpenStego.git:98358ae9d0b07bc9a55376a5f3defe23bdf7f7fc): open (buildvm-a64-07.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135398465 build (rawhide, /rpms/OpenStego.git:98358ae9d0b07bc9a55376a5f3defe23bdf7f7fc) completed successfully

@@ -1,0 +1,27 @@
+[rawhide 83ea808] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 7 insertions(+), 4 deletions(-)
+Building Mars-4.5-32.fc43 for rawhide
+Created task: 135398377
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135398377
+Watching tasks (this may be safely interrupted)...
+135398377 build (rawhide, /rpms/Mars.git:83ea80868d488fc941e3370d944b6c00d6164022): free
+135398377 build (rawhide, /rpms/Mars.git:83ea80868d488fc941e3370d944b6c00d6164022): free -> assigned (buildvm-a64-41.rdu3.fedoraproject.org)
+135398377 build (rawhide, /rpms/Mars.git:83ea80868d488fc941e3370d944b6c00d6164022): assigned (buildvm-a64-41.rdu3.fedoraproject.org) -> open (buildvm-a64-41.rdu3.fedoraproject.org)
+  135398392 buildSRPMFromSCM (/rpms/Mars.git:83ea80868d488fc941e3370d944b6c00d6164022): free
+  135398392 buildSRPMFromSCM (/rpms/Mars.git:83ea80868d488fc941e3370d944b6c00d6164022): free -> assigned (buildvm-ppc64le-31.rdu3.fedoraproject.org)
+  135398392 buildSRPMFromSCM (/rpms/Mars.git:83ea80868d488fc941e3370d944b6c00d6164022): assigned (buildvm-ppc64le-31.rdu3.fedoraproject.org) -> open (buildvm-ppc64le-31.rdu3.fedoraproject.org)
+  135398456 buildArch (Mars-4.5-32.fc43.src.rpm, noarch): free
+  135398392 buildSRPMFromSCM (/rpms/Mars.git:83ea80868d488fc941e3370d944b6c00d6164022): open (buildvm-ppc64le-31.rdu3.fedoraproject.org) -> closed
+  1 free  1 open  1 done  0 failed
+  135398456 buildArch (Mars-4.5-32.fc43.src.rpm, noarch): free -> assigned (buildvm-a64-41.rdu3.fedoraproject.org)
+  135398456 buildArch (Mars-4.5-32.fc43.src.rpm, noarch): assigned (buildvm-a64-41.rdu3.fedoraproject.org) -> open (buildvm-a64-41.rdu3.fedoraproject.org)
+  135398456 buildArch (Mars-4.5-32.fc43.src.rpm, noarch): open (buildvm-a64-41.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  135398500 tagBuild (noarch): free
+  135398500 tagBuild (noarch): free -> assigned (buildvm-a64-18.rdu3.fedoraproject.org)
+135398377 build (rawhide, /rpms/Mars.git:83ea80868d488fc941e3370d944b6c00d6164022): open (buildvm-a64-41.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+  135398500 tagBuild (noarch): assigned (buildvm-a64-18.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135398377 build (rawhide, /rpms/Mars.git:83ea80868d488fc941e3370d944b6c00d6164022) completed successfully

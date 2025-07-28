@@ -1,0 +1,26 @@
+[rawhide c6e836f] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 6 insertions(+), 3 deletions(-)
+Building CFR-0.151-19.fc43 for rawhide
+Created task: 135397752
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135397752
+Watching tasks (this may be safely interrupted)...
+135397752 build (rawhide, /rpms/CFR.git:c6e836fe020a2861c49eebc3182e1019112f4a1e): free
+135397752 build (rawhide, /rpms/CFR.git:c6e836fe020a2861c49eebc3182e1019112f4a1e): free -> open (buildvm-a64-23.rdu3.fedoraproject.org)
+  135397767 buildSRPMFromSCM (/rpms/CFR.git:c6e836fe020a2861c49eebc3182e1019112f4a1e): free
+  135397767 buildSRPMFromSCM (/rpms/CFR.git:c6e836fe020a2861c49eebc3182e1019112f4a1e): free -> assigned (buildvm-s390x-18.s390.fedoraproject.org)
+  135397767 buildSRPMFromSCM (/rpms/CFR.git:c6e836fe020a2861c49eebc3182e1019112f4a1e): assigned (buildvm-s390x-18.s390.fedoraproject.org) -> open (buildvm-s390x-18.s390.fedoraproject.org)
+  135397767 buildSRPMFromSCM (/rpms/CFR.git:c6e836fe020a2861c49eebc3182e1019112f4a1e): open (buildvm-s390x-18.s390.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135397859 buildArch (CFR-0.151-19.fc43.src.rpm, noarch): free
+  135397859 buildArch (CFR-0.151-19.fc43.src.rpm, noarch): free -> assigned (buildvm-x86-10.rdu3.fedoraproject.org)
+  135397859 buildArch (CFR-0.151-19.fc43.src.rpm, noarch): assigned (buildvm-x86-10.rdu3.fedoraproject.org) -> open (buildvm-x86-10.rdu3.fedoraproject.org)
+  135397859 buildArch (CFR-0.151-19.fc43.src.rpm, noarch): open (buildvm-x86-10.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  135397939 tagBuild (noarch): free
+  135397939 tagBuild (noarch): free -> assigned (buildvm-s390x-20.s390.fedoraproject.org)
+  135397939 tagBuild (noarch): assigned (buildvm-s390x-20.s390.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+135397752 build (rawhide, /rpms/CFR.git:c6e836fe020a2861c49eebc3182e1019112f4a1e): open (buildvm-a64-23.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135397752 build (rawhide, /rpms/CFR.git:c6e836fe020a2861c49eebc3182e1019112f4a1e) completed successfully

@@ -1,0 +1,21 @@
+Building IPAddress-5.2.1-22.fc43 for rawhide
+Created task: 135398983
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135398983
+Watching tasks (this may be safely interrupted)...
+135398983 build (rawhide, /rpms/IPAddress.git:129a18a79a55ddb075eb478f328ba042db45ac5a): free
+135398983 build (rawhide, /rpms/IPAddress.git:129a18a79a55ddb075eb478f328ba042db45ac5a): free -> open (buildvm-a64-30.rdu3.fedoraproject.org)
+  135398989 buildSRPMFromSCM (/rpms/IPAddress.git:129a18a79a55ddb075eb478f328ba042db45ac5a): free
+  135398989 buildSRPMFromSCM (/rpms/IPAddress.git:129a18a79a55ddb075eb478f328ba042db45ac5a): free -> open (buildvm-ppc64le-05.rdu3.fedoraproject.org)
+  135399070 buildArch (IPAddress-5.2.1-22.fc43.src.rpm, noarch): free
+  135398989 buildSRPMFromSCM (/rpms/IPAddress.git:129a18a79a55ddb075eb478f328ba042db45ac5a): open (buildvm-ppc64le-05.rdu3.fedoraproject.org) -> closed
+  1 free  1 open  1 done  0 failed
+  135399070 buildArch (IPAddress-5.2.1-22.fc43.src.rpm, noarch): free -> open (buildvm-x86-08.rdu3.fedoraproject.org)
+  135399101 tagBuild (noarch): free
+  135399070 buildArch (IPAddress-5.2.1-22.fc43.src.rpm, noarch): open (buildvm-x86-08.rdu3.fedoraproject.org) -> closed
+  1 free  1 open  2 done  0 failed
+135398983 build (rawhide, /rpms/IPAddress.git:129a18a79a55ddb075eb478f328ba042db45ac5a): open (buildvm-a64-30.rdu3.fedoraproject.org) -> closed
+  1 free  0 open  3 done  0 failed
+  135399101 tagBuild (noarch): free -> closed
+  0 free  0 open  4 done  0 failed
+
+135398983 build (rawhide, /rpms/IPAddress.git:129a18a79a55ddb075eb478f328ba042db45ac5a) completed successfully

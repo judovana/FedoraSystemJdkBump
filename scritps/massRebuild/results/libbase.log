@@ -1,0 +1,26 @@
+[rawhide e2961c5] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 6 insertions(+), 3 deletions(-)
+Building libbase-1.1.3-46.fc43 for rawhide
+Created task: 135398260
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135398260
+Watching tasks (this may be safely interrupted)...
+135398260 build (rawhide, /rpms/libbase.git:e2961c53f59d60e650eab040bcbc35effd2dc1e1): free
+135398260 build (rawhide, /rpms/libbase.git:e2961c53f59d60e650eab040bcbc35effd2dc1e1): free -> open (buildvm-a64-35.rdu3.fedoraproject.org)
+  135398291 buildSRPMFromSCM (/rpms/libbase.git:e2961c53f59d60e650eab040bcbc35effd2dc1e1): free
+  135398291 buildSRPMFromSCM (/rpms/libbase.git:e2961c53f59d60e650eab040bcbc35effd2dc1e1): free -> assigned (buildvm-x86-31.rdu3.fedoraproject.org)
+  135398291 buildSRPMFromSCM (/rpms/libbase.git:e2961c53f59d60e650eab040bcbc35effd2dc1e1): assigned (buildvm-x86-31.rdu3.fedoraproject.org) -> open (buildvm-x86-31.rdu3.fedoraproject.org)
+  135398291 buildSRPMFromSCM (/rpms/libbase.git:e2961c53f59d60e650eab040bcbc35effd2dc1e1): open (buildvm-x86-31.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135398356 buildArch (libbase-1.1.3-46.fc43.src.rpm, noarch): free
+  135398356 buildArch (libbase-1.1.3-46.fc43.src.rpm, noarch): free -> assigned (buildvm-x86-12.rdu3.fedoraproject.org)
+  135398356 buildArch (libbase-1.1.3-46.fc43.src.rpm, noarch): assigned (buildvm-x86-12.rdu3.fedoraproject.org) -> open (buildvm-x86-12.rdu3.fedoraproject.org)
+  135398356 buildArch (libbase-1.1.3-46.fc43.src.rpm, noarch): open (buildvm-x86-12.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  135398387 tagBuild (noarch): free
+  135398387 tagBuild (noarch): free -> assigned (buildvm-a64-46.rdu3.fedoraproject.org)
+135398260 build (rawhide, /rpms/libbase.git:e2961c53f59d60e650eab040bcbc35effd2dc1e1): open (buildvm-a64-35.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+  135398387 tagBuild (noarch): assigned (buildvm-a64-46.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135398260 build (rawhide, /rpms/libbase.git:e2961c53f59d60e650eab040bcbc35effd2dc1e1) completed successfully

@@ -1,0 +1,27 @@
+[rawhide 346c598] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 6 insertions(+), 3 deletions(-)
+Building fernflower-211.7442.40-16.fc43 for rawhide
+Created task: 135397887
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135397887
+Watching tasks (this may be safely interrupted)...
+135397887 build (rawhide, /rpms/fernflower.git:346c5983aa8630a8858fdc91554678655b6b4442): free
+135397887 build (rawhide, /rpms/fernflower.git:346c5983aa8630a8858fdc91554678655b6b4442): free -> assigned (buildvm-s390x-20.s390.fedoraproject.org)
+135397887 build (rawhide, /rpms/fernflower.git:346c5983aa8630a8858fdc91554678655b6b4442): assigned (buildvm-s390x-20.s390.fedoraproject.org) -> open (buildvm-s390x-20.s390.fedoraproject.org)
+  135397932 buildSRPMFromSCM (/rpms/fernflower.git:346c5983aa8630a8858fdc91554678655b6b4442): free
+  135397932 buildSRPMFromSCM (/rpms/fernflower.git:346c5983aa8630a8858fdc91554678655b6b4442): free -> assigned (buildvm-a64-39.rdu3.fedoraproject.org)
+  135397932 buildSRPMFromSCM (/rpms/fernflower.git:346c5983aa8630a8858fdc91554678655b6b4442): assigned (buildvm-a64-39.rdu3.fedoraproject.org) -> open (buildvm-a64-39.rdu3.fedoraproject.org)
+  135397971 buildArch (fernflower-211.7442.40-16.fc43.src.rpm, noarch): free
+  135397932 buildSRPMFromSCM (/rpms/fernflower.git:346c5983aa8630a8858fdc91554678655b6b4442): open (buildvm-a64-39.rdu3.fedoraproject.org) -> closed
+  1 free  1 open  1 done  0 failed
+  135397971 buildArch (fernflower-211.7442.40-16.fc43.src.rpm, noarch): free -> assigned (buildvm-ppc64le-25.rdu3.fedoraproject.org)
+  135397971 buildArch (fernflower-211.7442.40-16.fc43.src.rpm, noarch): assigned (buildvm-ppc64le-25.rdu3.fedoraproject.org) -> open (buildvm-ppc64le-25.rdu3.fedoraproject.org)
+  135398019 tagBuild (noarch): free
+  135397971 buildArch (fernflower-211.7442.40-16.fc43.src.rpm, noarch): open (buildvm-ppc64le-25.rdu3.fedoraproject.org) -> closed
+  1 free  1 open  2 done  0 failed
+  135398019 tagBuild (noarch): free -> assigned (buildvm-a64-22.rdu3.fedoraproject.org)
+135397887 build (rawhide, /rpms/fernflower.git:346c5983aa8630a8858fdc91554678655b6b4442): open (buildvm-s390x-20.s390.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+  135398019 tagBuild (noarch): assigned (buildvm-a64-22.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135397887 build (rawhide, /rpms/fernflower.git:346c5983aa8630a8858fdc91554678655b6b4442) completed successfully

@@ -1,0 +1,29 @@
+RPMAutoSpec usage detected, not changing the spec file.
+[rawhide cb07fe8] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Found a gating.yaml file in the repo and it is properly configured
+Building mysql-connector-java-8.0.30-18.fc43 for rawhide
+Created task: 135398419
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135398419
+Watching tasks (this may be safely interrupted)...
+135398419 build (rawhide, /rpms/mysql-connector-java.git:cb07fe8bac17b4dd3dcffd27a9a2be85def76a89): free
+135398419 build (rawhide, /rpms/mysql-connector-java.git:cb07fe8bac17b4dd3dcffd27a9a2be85def76a89): free -> assigned (buildvm-s390x-05.s390.fedoraproject.org)
+135398419 build (rawhide, /rpms/mysql-connector-java.git:cb07fe8bac17b4dd3dcffd27a9a2be85def76a89): assigned (buildvm-s390x-05.s390.fedoraproject.org) -> open (buildvm-s390x-05.s390.fedoraproject.org)
+  135398430 buildSRPMFromSCM (/rpms/mysql-connector-java.git:cb07fe8bac17b4dd3dcffd27a9a2be85def76a89): free
+  135398430 buildSRPMFromSCM (/rpms/mysql-connector-java.git:cb07fe8bac17b4dd3dcffd27a9a2be85def76a89): free -> assigned (buildvm-x86-08.rdu3.fedoraproject.org)
+  135398430 buildSRPMFromSCM (/rpms/mysql-connector-java.git:cb07fe8bac17b4dd3dcffd27a9a2be85def76a89): assigned (buildvm-x86-08.rdu3.fedoraproject.org) -> open (buildvm-x86-08.rdu3.fedoraproject.org)
+  135398430 buildSRPMFromSCM (/rpms/mysql-connector-java.git:cb07fe8bac17b4dd3dcffd27a9a2be85def76a89): open (buildvm-x86-08.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135398478 buildArch (mysql-connector-java-8.0.30-18.fc43.src.rpm, noarch): free
+  135398478 buildArch (mysql-connector-java-8.0.30-18.fc43.src.rpm, noarch): free -> assigned (buildvm-x86-25.rdu3.fedoraproject.org)
+  135398478 buildArch (mysql-connector-java-8.0.30-18.fc43.src.rpm, noarch): assigned (buildvm-x86-25.rdu3.fedoraproject.org) -> open (buildvm-x86-25.rdu3.fedoraproject.org)
+  135398478 buildArch (mysql-connector-java-8.0.30-18.fc43.src.rpm, noarch): open (buildvm-x86-25.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  135398532 tagBuild (noarch): free
+  135398532 tagBuild (noarch): free -> assigned (buildvm-s390x-18.s390.fedoraproject.org)
+  135398532 tagBuild (noarch): assigned (buildvm-s390x-18.s390.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+135398419 build (rawhide, /rpms/mysql-connector-java.git:cb07fe8bac17b4dd3dcffd27a9a2be85def76a89): open (buildvm-s390x-05.s390.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135398419 build (rawhide, /rpms/mysql-connector-java.git:cb07fe8bac17b4dd3dcffd27a9a2be85def76a89) completed successfully

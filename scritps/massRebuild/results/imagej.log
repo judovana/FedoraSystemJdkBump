@@ -1,0 +1,28 @@
+RPMAutoSpec usage detected, not changing the spec file.
+[rawhide 85cbf29] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+Building imagej-1.54p-3.fc43 for rawhide
+Created task: 135397989
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135397989
+Watching tasks (this may be safely interrupted)...
+135397989 build (rawhide, /rpms/imagej.git:85cbf29a5d2f44581cee5eb616b209e13fa52ec6): free
+135397989 build (rawhide, /rpms/imagej.git:85cbf29a5d2f44581cee5eb616b209e13fa52ec6): free -> assigned (buildvm-a64-10.rdu3.fedoraproject.org)
+135397989 build (rawhide, /rpms/imagej.git:85cbf29a5d2f44581cee5eb616b209e13fa52ec6): assigned (buildvm-a64-10.rdu3.fedoraproject.org) -> open (buildvm-a64-10.rdu3.fedoraproject.org)
+  135398004 buildSRPMFromSCM (/rpms/imagej.git:85cbf29a5d2f44581cee5eb616b209e13fa52ec6): free
+  135398004 buildSRPMFromSCM (/rpms/imagej.git:85cbf29a5d2f44581cee5eb616b209e13fa52ec6): free -> assigned (buildvm-s390x-15.s390.fedoraproject.org)
+  135398004 buildSRPMFromSCM (/rpms/imagej.git:85cbf29a5d2f44581cee5eb616b209e13fa52ec6): assigned (buildvm-s390x-15.s390.fedoraproject.org) -> open (buildvm-s390x-15.s390.fedoraproject.org)
+  135398004 buildSRPMFromSCM (/rpms/imagej.git:85cbf29a5d2f44581cee5eb616b209e13fa52ec6): open (buildvm-s390x-15.s390.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135398044 buildArch (imagej-1.54p-3.fc43.src.rpm, noarch): free
+  135398044 buildArch (imagej-1.54p-3.fc43.src.rpm, noarch): free -> assigned (buildvm-a64-41.rdu3.fedoraproject.org)
+  135398044 buildArch (imagej-1.54p-3.fc43.src.rpm, noarch): assigned (buildvm-a64-41.rdu3.fedoraproject.org) -> open (buildvm-a64-41.rdu3.fedoraproject.org)
+  135398044 buildArch (imagej-1.54p-3.fc43.src.rpm, noarch): open (buildvm-a64-41.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  135398138 tagBuild (noarch): free
+  135398138 tagBuild (noarch): free -> assigned (buildvm-a64-46.rdu3.fedoraproject.org)
+135397989 build (rawhide, /rpms/imagej.git:85cbf29a5d2f44581cee5eb616b209e13fa52ec6): open (buildvm-a64-10.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+  135398138 tagBuild (noarch): assigned (buildvm-a64-46.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135397989 build (rawhide, /rpms/imagej.git:85cbf29a5d2f44581cee5eb616b209e13fa52ec6) completed successfully

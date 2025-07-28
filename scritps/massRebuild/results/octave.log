@@ -1,0 +1,47 @@
+RPMAutoSpec usage detected, not changing the spec file.
+[rawhide cae4a38] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+warning: Macro expanded in comment on line 47: %{version}%{?rctag}.tar.lz
+
+warning: line 154: Possible unexpanded macro in: Requires:       hdf5 = %{_hdf5_version}
+
+Building octave-9.4.0-7.fc43 for rawhide
+Created task: 135398428
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135398428
+Watching tasks (this may be safely interrupted)...
+135398428 build (rawhide, /rpms/octave.git:cae4a38c09420e481392df194d6e6c26b23e6b19): free
+135398428 build (rawhide, /rpms/octave.git:cae4a38c09420e481392df194d6e6c26b23e6b19): free -> assigned (buildvm-a64-40.rdu3.fedoraproject.org)
+135398428 build (rawhide, /rpms/octave.git:cae4a38c09420e481392df194d6e6c26b23e6b19): assigned (buildvm-a64-40.rdu3.fedoraproject.org) -> open (buildvm-a64-40.rdu3.fedoraproject.org)
+  135398452 buildSRPMFromSCM (/rpms/octave.git:cae4a38c09420e481392df194d6e6c26b23e6b19): free
+  135398452 buildSRPMFromSCM (/rpms/octave.git:cae4a38c09420e481392df194d6e6c26b23e6b19): free -> assigned (buildvm-ppc64le-30.rdu3.fedoraproject.org)
+  135398452 buildSRPMFromSCM (/rpms/octave.git:cae4a38c09420e481392df194d6e6c26b23e6b19): assigned (buildvm-ppc64le-30.rdu3.fedoraproject.org) -> open (buildvm-ppc64le-30.rdu3.fedoraproject.org)
+  135398528 buildArch (octave-9.4.0-7.fc43.src.rpm, x86_64): free
+  135398529 buildArch (octave-9.4.0-7.fc43.src.rpm, aarch64): free
+  135398530 buildArch (octave-9.4.0-7.fc43.src.rpm, ppc64le): free
+  135398531 buildArch (octave-9.4.0-7.fc43.src.rpm, s390x): free
+  135398527 buildArch (octave-9.4.0-7.fc43.src.rpm, i686): free
+  135398452 buildSRPMFromSCM (/rpms/octave.git:cae4a38c09420e481392df194d6e6c26b23e6b19): open (buildvm-ppc64le-30.rdu3.fedoraproject.org) -> closed
+  5 free  1 open  1 done  0 failed
+  135398528 buildArch (octave-9.4.0-7.fc43.src.rpm, x86_64): free -> open (buildvm-x86-11.rdu3.fedoraproject.org)
+  135398529 buildArch (octave-9.4.0-7.fc43.src.rpm, aarch64): free -> open (buildvm-a64-13.rdu3.fedoraproject.org)
+  135398530 buildArch (octave-9.4.0-7.fc43.src.rpm, ppc64le): free -> open (buildvm-ppc64le-29.rdu3.fedoraproject.org)
+  135398531 buildArch (octave-9.4.0-7.fc43.src.rpm, s390x): free -> open (buildvm-s390x-06.s390.fedoraproject.org)
+  135398527 buildArch (octave-9.4.0-7.fc43.src.rpm, i686): free -> open (buildvm-x86-32.rdu3.fedoraproject.org)
+  135398528 buildArch (octave-9.4.0-7.fc43.src.rpm, x86_64): open (buildvm-x86-11.rdu3.fedoraproject.org) -> closed
+  0 free  5 open  2 done  0 failed
+  135398527 buildArch (octave-9.4.0-7.fc43.src.rpm, i686): open (buildvm-x86-32.rdu3.fedoraproject.org) -> closed
+  0 free  4 open  3 done  0 failed
+  135398529 buildArch (octave-9.4.0-7.fc43.src.rpm, aarch64): open (buildvm-a64-13.rdu3.fedoraproject.org) -> closed
+  0 free  3 open  4 done  0 failed
+  135398530 buildArch (octave-9.4.0-7.fc43.src.rpm, ppc64le): open (buildvm-ppc64le-29.rdu3.fedoraproject.org) -> closed
+  0 free  2 open  5 done  0 failed
+  135398531 buildArch (octave-9.4.0-7.fc43.src.rpm, s390x): open (buildvm-s390x-06.s390.fedoraproject.org) -> closed
+  0 free  1 open  6 done  0 failed
+  135399607 tagBuild (noarch): free
+  135399607 tagBuild (noarch): free -> assigned (buildvm-a64-41.rdu3.fedoraproject.org)
+  135399607 tagBuild (noarch): assigned (buildvm-a64-41.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  7 done  0 failed
+135398428 build (rawhide, /rpms/octave.git:cae4a38c09420e481392df194d6e6c26b23e6b19): open (buildvm-a64-40.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  8 done  0 failed
+
+135398428 build (rawhide, /rpms/octave.git:cae4a38c09420e481392df194d6e6c26b23e6b19) completed successfully

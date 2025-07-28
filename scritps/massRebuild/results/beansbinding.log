@@ -1,0 +1,26 @@
+[rawhide b8e0f89] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 7 insertions(+), 4 deletions(-)
+Building beansbinding-1.2.1-41.fc43 for rawhide
+Created task: 135397700
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135397700
+Watching tasks (this may be safely interrupted)...
+135397700 build (rawhide, /rpms/beansbinding.git:b8e0f8930e4212fa51caaa6a008062f6e7abc7ac): free
+135397700 build (rawhide, /rpms/beansbinding.git:b8e0f8930e4212fa51caaa6a008062f6e7abc7ac): free -> open (buildvm-x86-28.rdu3.fedoraproject.org)
+  135397701 buildSRPMFromSCM (/rpms/beansbinding.git:b8e0f8930e4212fa51caaa6a008062f6e7abc7ac): free
+  135397701 buildSRPMFromSCM (/rpms/beansbinding.git:b8e0f8930e4212fa51caaa6a008062f6e7abc7ac): free -> assigned (buildvm-ppc64le-28.rdu3.fedoraproject.org)
+  135397701 buildSRPMFromSCM (/rpms/beansbinding.git:b8e0f8930e4212fa51caaa6a008062f6e7abc7ac): assigned (buildvm-ppc64le-28.rdu3.fedoraproject.org) -> open (buildvm-ppc64le-28.rdu3.fedoraproject.org)
+  135397701 buildSRPMFromSCM (/rpms/beansbinding.git:b8e0f8930e4212fa51caaa6a008062f6e7abc7ac): open (buildvm-ppc64le-28.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135397724 buildArch (beansbinding-1.2.1-41.fc43.src.rpm, noarch): free
+  135397724 buildArch (beansbinding-1.2.1-41.fc43.src.rpm, noarch): free -> assigned (buildvm-s390x-09.s390.fedoraproject.org)
+  135397724 buildArch (beansbinding-1.2.1-41.fc43.src.rpm, noarch): assigned (buildvm-s390x-09.s390.fedoraproject.org) -> open (buildvm-s390x-09.s390.fedoraproject.org)
+  135397724 buildArch (beansbinding-1.2.1-41.fc43.src.rpm, noarch): open (buildvm-s390x-09.s390.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  135397784 tagBuild (noarch): free
+  135397784 tagBuild (noarch): free -> assigned (buildvm-ppc64le-28.rdu3.fedoraproject.org)
+135397700 build (rawhide, /rpms/beansbinding.git:b8e0f8930e4212fa51caaa6a008062f6e7abc7ac): open (buildvm-x86-28.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+  135397784 tagBuild (noarch): assigned (buildvm-ppc64le-28.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135397700 build (rawhide, /rpms/beansbinding.git:b8e0f8930e4212fa51caaa6a008062f6e7abc7ac) completed successfully

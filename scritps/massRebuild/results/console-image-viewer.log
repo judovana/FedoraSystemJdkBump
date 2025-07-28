@@ -1,0 +1,25 @@
+[rawhide 5b09c06] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 7 insertions(+), 4 deletions(-)
+Building console-image-viewer-1.2-27.fc43 for rawhide
+Created task: 135397787
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135397787
+Watching tasks (this may be safely interrupted)...
+135397787 build (rawhide, /rpms/console-image-viewer.git:5b09c06b2a776138ac79ae23ea4e0312fb12312e): free
+135397787 build (rawhide, /rpms/console-image-viewer.git:5b09c06b2a776138ac79ae23ea4e0312fb12312e): free -> open (buildvm-ppc64le-30.rdu3.fedoraproject.org)
+  135397814 buildSRPMFromSCM (/rpms/console-image-viewer.git:5b09c06b2a776138ac79ae23ea4e0312fb12312e): free
+  135397814 buildSRPMFromSCM (/rpms/console-image-viewer.git:5b09c06b2a776138ac79ae23ea4e0312fb12312e): free -> assigned (buildvm-x86-28.rdu3.fedoraproject.org)
+  135397814 buildSRPMFromSCM (/rpms/console-image-viewer.git:5b09c06b2a776138ac79ae23ea4e0312fb12312e): assigned (buildvm-x86-28.rdu3.fedoraproject.org) -> open (buildvm-x86-28.rdu3.fedoraproject.org)
+  135397904 buildArch (console-image-viewer-1.2-27.fc43.src.rpm, noarch): free
+  135397814 buildSRPMFromSCM (/rpms/console-image-viewer.git:5b09c06b2a776138ac79ae23ea4e0312fb12312e): open (buildvm-x86-28.rdu3.fedoraproject.org) -> closed
+  1 free  1 open  1 done  0 failed
+  135397904 buildArch (console-image-viewer-1.2-27.fc43.src.rpm, noarch): free -> open (buildvm-x86-32.rdu3.fedoraproject.org)
+  135397904 buildArch (console-image-viewer-1.2-27.fc43.src.rpm, noarch): open (buildvm-x86-32.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  135397956 tagBuild (noarch): free
+  135397956 tagBuild (noarch): free -> assigned (buildvm-s390x-20.s390.fedoraproject.org)
+135397787 build (rawhide, /rpms/console-image-viewer.git:5b09c06b2a776138ac79ae23ea4e0312fb12312e): open (buildvm-ppc64le-30.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+  135397956 tagBuild (noarch): assigned (buildvm-s390x-20.s390.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135397787 build (rawhide, /rpms/console-image-viewer.git:5b09c06b2a776138ac79ae23ea4e0312fb12312e) completed successfully

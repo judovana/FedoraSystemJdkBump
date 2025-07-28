@@ -1,0 +1,28 @@
+RPMAutoSpec usage detected, not changing the spec file.
+[rawhide f7115ae] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+Found a gating.yaml file in the repo and it is properly configured
+Building tomcat-10.1.43-4.fc43 for rawhide
+Created task: 135398649
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135398649
+Watching tasks (this may be safely interrupted)...
+135398649 build (rawhide, /rpms/tomcat.git:f7115aee66d086719cdc0bcccf7ce3f8aaddda93): free
+135398649 build (rawhide, /rpms/tomcat.git:f7115aee66d086719cdc0bcccf7ce3f8aaddda93): free -> assigned (buildvm-x86-08.rdu3.fedoraproject.org)
+135398649 build (rawhide, /rpms/tomcat.git:f7115aee66d086719cdc0bcccf7ce3f8aaddda93): assigned (buildvm-x86-08.rdu3.fedoraproject.org) -> open (buildvm-x86-08.rdu3.fedoraproject.org)
+  135398662 buildSRPMFromSCM (/rpms/tomcat.git:f7115aee66d086719cdc0bcccf7ce3f8aaddda93): free
+  135398662 buildSRPMFromSCM (/rpms/tomcat.git:f7115aee66d086719cdc0bcccf7ce3f8aaddda93): free -> open (buildvm-ppc64le-05.rdu3.fedoraproject.org)
+  135398662 buildSRPMFromSCM (/rpms/tomcat.git:f7115aee66d086719cdc0bcccf7ce3f8aaddda93): open (buildvm-ppc64le-05.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135398717 buildArch (tomcat-10.1.43-4.fc43.src.rpm, noarch): free
+  135398717 buildArch (tomcat-10.1.43-4.fc43.src.rpm, noarch): free -> assigned (buildvm-s390x-20.s390.fedoraproject.org)
+  135398717 buildArch (tomcat-10.1.43-4.fc43.src.rpm, noarch): assigned (buildvm-s390x-20.s390.fedoraproject.org) -> open (buildvm-s390x-20.s390.fedoraproject.org)
+  135398717 buildArch (tomcat-10.1.43-4.fc43.src.rpm, noarch): open (buildvm-s390x-20.s390.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  135398749 tagBuild (noarch): free
+  135398749 tagBuild (noarch): free -> assigned (buildvm-s390x-18.s390.fedoraproject.org)
+  135398749 tagBuild (noarch): assigned (buildvm-s390x-18.s390.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+135398649 build (rawhide, /rpms/tomcat.git:f7115aee66d086719cdc0bcccf7ce3f8aaddda93): open (buildvm-x86-08.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135398649 build (rawhide, /rpms/tomcat.git:f7115aee66d086719cdc0bcccf7ce3f8aaddda93) completed successfully

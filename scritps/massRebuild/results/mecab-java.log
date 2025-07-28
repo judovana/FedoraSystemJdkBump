@@ -1,0 +1,36 @@
+[rawhide 0de5bc9] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 5 insertions(+), 2 deletions(-)
+Building mecab-java-0.996-14.fc43 for rawhide
+Created task: 135398388
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135398388
+Watching tasks (this may be safely interrupted)...
+135398388 build (rawhide, /rpms/mecab-java.git:0de5bc9c2f38ba575271c9fbfee05fe6b3ecf80a): free
+135398388 build (rawhide, /rpms/mecab-java.git:0de5bc9c2f38ba575271c9fbfee05fe6b3ecf80a): free -> assigned (buildvm-a64-24.rdu3.fedoraproject.org)
+135398388 build (rawhide, /rpms/mecab-java.git:0de5bc9c2f38ba575271c9fbfee05fe6b3ecf80a): assigned (buildvm-a64-24.rdu3.fedoraproject.org) -> open (buildvm-a64-24.rdu3.fedoraproject.org)
+  135398411 buildSRPMFromSCM (/rpms/mecab-java.git:0de5bc9c2f38ba575271c9fbfee05fe6b3ecf80a): free
+  135398411 buildSRPMFromSCM (/rpms/mecab-java.git:0de5bc9c2f38ba575271c9fbfee05fe6b3ecf80a): free -> assigned (buildvm-x86-10.rdu3.fedoraproject.org)
+  135398411 buildSRPMFromSCM (/rpms/mecab-java.git:0de5bc9c2f38ba575271c9fbfee05fe6b3ecf80a): assigned (buildvm-x86-10.rdu3.fedoraproject.org) -> open (buildvm-x86-10.rdu3.fedoraproject.org)
+  135398411 buildSRPMFromSCM (/rpms/mecab-java.git:0de5bc9c2f38ba575271c9fbfee05fe6b3ecf80a): open (buildvm-x86-10.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135398446 buildArch (mecab-java-0.996-14.fc43.src.rpm, ppc64le): free
+  135398447 buildArch (mecab-java-0.996-14.fc43.src.rpm, s390x): assigned (buildvm-s390x-20.s390.fedoraproject.org)
+  135398445 buildArch (mecab-java-0.996-14.fc43.src.rpm, aarch64): open (buildvm-a64-22.rdu3.fedoraproject.org)
+  135398444 buildArch (mecab-java-0.996-14.fc43.src.rpm, x86_64): open (buildvm-x86-12.rdu3.fedoraproject.org)
+  135398447 buildArch (mecab-java-0.996-14.fc43.src.rpm, s390x): assigned (buildvm-s390x-20.s390.fedoraproject.org) -> open (buildvm-s390x-20.s390.fedoraproject.org)
+  135398444 buildArch (mecab-java-0.996-14.fc43.src.rpm, x86_64): open (buildvm-x86-12.rdu3.fedoraproject.org) -> closed
+  1 free  3 open  2 done  0 failed
+  135398446 buildArch (mecab-java-0.996-14.fc43.src.rpm, ppc64le): free -> assigned (buildvm-ppc64le-22.rdu3.fedoraproject.org)
+  135398446 buildArch (mecab-java-0.996-14.fc43.src.rpm, ppc64le): assigned (buildvm-ppc64le-22.rdu3.fedoraproject.org) -> open (buildvm-ppc64le-22.rdu3.fedoraproject.org)
+  135398447 buildArch (mecab-java-0.996-14.fc43.src.rpm, s390x): open (buildvm-s390x-20.s390.fedoraproject.org) -> closed
+  0 free  3 open  3 done  0 failed
+  135398445 buildArch (mecab-java-0.996-14.fc43.src.rpm, aarch64): open (buildvm-a64-22.rdu3.fedoraproject.org) -> closed
+  0 free  2 open  4 done  0 failed
+  135398446 buildArch (mecab-java-0.996-14.fc43.src.rpm, ppc64le): open (buildvm-ppc64le-22.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  5 done  0 failed
+  135398534 tagBuild (noarch): free
+  135398534 tagBuild (noarch): free -> closed
+  0 free  1 open  6 done  0 failed
+135398388 build (rawhide, /rpms/mecab-java.git:0de5bc9c2f38ba575271c9fbfee05fe6b3ecf80a): open (buildvm-a64-24.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  7 done  0 failed
+
+135398388 build (rawhide, /rpms/mecab-java.git:0de5bc9c2f38ba575271c9fbfee05fe6b3ecf80a) completed successfully

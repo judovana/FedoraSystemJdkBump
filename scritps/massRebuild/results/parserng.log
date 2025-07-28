@@ -1,0 +1,24 @@
+Building parserng-0.1.9-11.fc43 for rawhide
+Created task: 135398741
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135398741
+Watching tasks (this may be safely interrupted)...
+135398741 build (rawhide, /rpms/parserng.git:63fef2b49494b22591275ef786d842082532f9e6): free
+135398741 build (rawhide, /rpms/parserng.git:63fef2b49494b22591275ef786d842082532f9e6): free -> open (buildvm-a64-43.rdu3.fedoraproject.org)
+  135398746 waitrepo (f43-build, ): free
+  135398746 waitrepo (f43-build, ): free -> open (buildvm-a64-41.rdu3.fedoraproject.org)
+  135398817 buildSRPMFromSCM (/rpms/parserng.git:63fef2b49494b22591275ef786d842082532f9e6): free
+  135398746 waitrepo (f43-build, ): open (buildvm-a64-41.rdu3.fedoraproject.org) -> closed
+  1 free  1 open  1 done  0 failed
+  135398817 buildSRPMFromSCM (/rpms/parserng.git:63fef2b49494b22591275ef786d842082532f9e6): free -> open (buildvm-s390x-07.s390.fedoraproject.org)
+  135398869 buildArch (parserng-0.1.9-11.fc43.src.rpm, noarch): open (buildvm-ppc64le-05.rdu3.fedoraproject.org)
+  135398817 buildSRPMFromSCM (/rpms/parserng.git:63fef2b49494b22591275ef786d842082532f9e6): open (buildvm-s390x-07.s390.fedoraproject.org) -> closed
+  0 free  2 open  2 done  0 failed
+  135398869 buildArch (parserng-0.1.9-11.fc43.src.rpm, noarch): open (buildvm-ppc64le-05.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+  135398944 tagBuild (noarch): free
+135398741 build (rawhide, /rpms/parserng.git:63fef2b49494b22591275ef786d842082532f9e6): open (buildvm-a64-43.rdu3.fedoraproject.org) -> closed
+  1 free  0 open  4 done  0 failed
+  135398944 tagBuild (noarch): free -> closed
+  0 free  0 open  5 done  0 failed
+
+135398741 build (rawhide, /rpms/parserng.git:63fef2b49494b22591275ef786d842082532f9e6) completed successfully

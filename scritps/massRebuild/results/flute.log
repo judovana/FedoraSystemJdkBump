@@ -1,0 +1,26 @@
+[rawhide a8795e4] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 6 insertions(+), 3 deletions(-)
+Building flute-1.3.0-41.OOo31.fc43 for rawhide
+Created task: 135397916
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135397916
+Watching tasks (this may be safely interrupted)...
+135397916 build (rawhide, /rpms/flute.git:a8795e49908ea5890d343e36aa9894bbd9bc94fe): free
+135397916 build (rawhide, /rpms/flute.git:a8795e49908ea5890d343e36aa9894bbd9bc94fe): free -> assigned (buildvm-a64-40.rdu3.fedoraproject.org)
+135397916 build (rawhide, /rpms/flute.git:a8795e49908ea5890d343e36aa9894bbd9bc94fe): assigned (buildvm-a64-40.rdu3.fedoraproject.org) -> open (buildvm-a64-40.rdu3.fedoraproject.org)
+  135397933 buildSRPMFromSCM (/rpms/flute.git:a8795e49908ea5890d343e36aa9894bbd9bc94fe): free
+  135397933 buildSRPMFromSCM (/rpms/flute.git:a8795e49908ea5890d343e36aa9894bbd9bc94fe): free -> assigned (buildvm-s390x-07.s390.fedoraproject.org)
+  135397933 buildSRPMFromSCM (/rpms/flute.git:a8795e49908ea5890d343e36aa9894bbd9bc94fe): assigned (buildvm-s390x-07.s390.fedoraproject.org) -> open (buildvm-s390x-07.s390.fedoraproject.org)
+  135397963 buildArch (flute-1.3.0-41.OOo31.fc43.src.rpm, noarch): assigned (buildvm-s390x-18.s390.fedoraproject.org)
+  135397933 buildSRPMFromSCM (/rpms/flute.git:a8795e49908ea5890d343e36aa9894bbd9bc94fe): open (buildvm-s390x-07.s390.fedoraproject.org) -> closed
+  0 free  2 open  1 done  0 failed
+  135397963 buildArch (flute-1.3.0-41.OOo31.fc43.src.rpm, noarch): assigned (buildvm-s390x-18.s390.fedoraproject.org) -> open (buildvm-s390x-18.s390.fedoraproject.org)
+  135397963 buildArch (flute-1.3.0-41.OOo31.fc43.src.rpm, noarch): open (buildvm-s390x-18.s390.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  135397990 tagBuild (noarch): free
+  135397990 tagBuild (noarch): free -> assigned (buildvm-s390x-15.s390.fedoraproject.org)
+  135397990 tagBuild (noarch): assigned (buildvm-s390x-15.s390.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+135397916 build (rawhide, /rpms/flute.git:a8795e49908ea5890d343e36aa9894bbd9bc94fe): open (buildvm-a64-40.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135397916 build (rawhide, /rpms/flute.git:a8795e49908ea5890d343e36aa9894bbd9bc94fe) completed successfully

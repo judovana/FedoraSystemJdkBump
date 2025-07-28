@@ -1,0 +1,26 @@
+[rawhide 6fc6c00] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 6 insertions(+), 3 deletions(-)
+Building voms-clients-java-3.3.5-5.fc43 for rawhide
+Created task: 135398665
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135398665
+Watching tasks (this may be safely interrupted)...
+135398665 build (rawhide, /rpms/voms-clients-java.git:6fc6c00dc42183907ace7f49b1df9a9ce25c92c5): free
+135398665 build (rawhide, /rpms/voms-clients-java.git:6fc6c00dc42183907ace7f49b1df9a9ce25c92c5): free -> assigned (buildvm-a64-30.rdu3.fedoraproject.org)
+135398665 build (rawhide, /rpms/voms-clients-java.git:6fc6c00dc42183907ace7f49b1df9a9ce25c92c5): assigned (buildvm-a64-30.rdu3.fedoraproject.org) -> open (buildvm-a64-30.rdu3.fedoraproject.org)
+  135398676 buildSRPMFromSCM (/rpms/voms-clients-java.git:6fc6c00dc42183907ace7f49b1df9a9ce25c92c5): free
+  135398676 buildSRPMFromSCM (/rpms/voms-clients-java.git:6fc6c00dc42183907ace7f49b1df9a9ce25c92c5): free -> open (buildvm-s390x-07.s390.fedoraproject.org)
+  135398676 buildSRPMFromSCM (/rpms/voms-clients-java.git:6fc6c00dc42183907ace7f49b1df9a9ce25c92c5): open (buildvm-s390x-07.s390.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135398710 buildArch (voms-clients-java-3.3.5-5.fc43.src.rpm, noarch): free
+  135398710 buildArch (voms-clients-java-3.3.5-5.fc43.src.rpm, noarch): free -> assigned (buildvm-a64-12.rdu3.fedoraproject.org)
+  135398710 buildArch (voms-clients-java-3.3.5-5.fc43.src.rpm, noarch): assigned (buildvm-a64-12.rdu3.fedoraproject.org) -> open (buildvm-a64-12.rdu3.fedoraproject.org)
+  135398710 buildArch (voms-clients-java-3.3.5-5.fc43.src.rpm, noarch): open (buildvm-a64-12.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  135398740 tagBuild (noarch): free
+  135398740 tagBuild (noarch): free -> assigned (buildvm-s390x-19.s390.fedoraproject.org)
+135398665 build (rawhide, /rpms/voms-clients-java.git:6fc6c00dc42183907ace7f49b1df9a9ce25c92c5): open (buildvm-a64-30.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+  135398740 tagBuild (noarch): assigned (buildvm-s390x-19.s390.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135398665 build (rawhide, /rpms/voms-clients-java.git:6fc6c00dc42183907ace7f49b1df9a9ce25c92c5) completed successfully

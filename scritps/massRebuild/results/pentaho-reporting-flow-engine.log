@@ -1,0 +1,26 @@
+[rawhide 6acceb6] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 6 insertions(+), 3 deletions(-)
+Building pentaho-reporting-flow-engine-0.9.4-39.fc43 for rawhide
+Created task: 135398501
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135398501
+Watching tasks (this may be safely interrupted)...
+135398501 build (rawhide, /rpms/pentaho-reporting-flow-engine.git:6acceb634eabc229ff67761365ce4bdf390dfe8d): free
+135398501 build (rawhide, /rpms/pentaho-reporting-flow-engine.git:6acceb634eabc229ff67761365ce4bdf390dfe8d): free -> assigned (buildvm-a64-41.rdu3.fedoraproject.org)
+135398501 build (rawhide, /rpms/pentaho-reporting-flow-engine.git:6acceb634eabc229ff67761365ce4bdf390dfe8d): assigned (buildvm-a64-41.rdu3.fedoraproject.org) -> open (buildvm-a64-41.rdu3.fedoraproject.org)
+  135398522 buildSRPMFromSCM (/rpms/pentaho-reporting-flow-engine.git:6acceb634eabc229ff67761365ce4bdf390dfe8d): free
+  135398522 buildSRPMFromSCM (/rpms/pentaho-reporting-flow-engine.git:6acceb634eabc229ff67761365ce4bdf390dfe8d): free -> assigned (buildvm-a64-04.rdu3.fedoraproject.org)
+  135398522 buildSRPMFromSCM (/rpms/pentaho-reporting-flow-engine.git:6acceb634eabc229ff67761365ce4bdf390dfe8d): assigned (buildvm-a64-04.rdu3.fedoraproject.org) -> open (buildvm-a64-04.rdu3.fedoraproject.org)
+  135398522 buildSRPMFromSCM (/rpms/pentaho-reporting-flow-engine.git:6acceb634eabc229ff67761365ce4bdf390dfe8d): open (buildvm-a64-04.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135398586 buildArch (pentaho-reporting-flow-engine-0.9.4-39.fc43.src.rpm, noarch): free
+  135398586 buildArch (pentaho-reporting-flow-engine-0.9.4-39.fc43.src.rpm, noarch): free -> assigned (buildvm-a64-12.rdu3.fedoraproject.org)
+  135398586 buildArch (pentaho-reporting-flow-engine-0.9.4-39.fc43.src.rpm, noarch): assigned (buildvm-a64-12.rdu3.fedoraproject.org) -> open (buildvm-a64-12.rdu3.fedoraproject.org)
+  135398586 buildArch (pentaho-reporting-flow-engine-0.9.4-39.fc43.src.rpm, noarch): open (buildvm-a64-12.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  135398618 tagBuild (noarch): free
+  135398618 tagBuild (noarch): free -> closed
+  0 free  1 open  3 done  0 failed
+135398501 build (rawhide, /rpms/pentaho-reporting-flow-engine.git:6acceb634eabc229ff67761365ce4bdf390dfe8d): open (buildvm-a64-41.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135398501 build (rawhide, /rpms/pentaho-reporting-flow-engine.git:6acceb634eabc229ff67761365ce4bdf390dfe8d) completed successfully

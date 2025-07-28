@@ -1,0 +1,25 @@
+[rawhide cc7805a] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 6 insertions(+), 3 deletions(-)
+Building vecmath1.2-1.14-40.fc43 for rawhide
+Created task: 135398653
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135398653
+Watching tasks (this may be safely interrupted)...
+135398653 build (rawhide, /rpms/vecmath1.2.git:cc7805a326c3920ce1aae4b50164586b946c1249): free
+135398653 build (rawhide, /rpms/vecmath1.2.git:cc7805a326c3920ce1aae4b50164586b946c1249): free -> open (buildvm-x86-20.rdu3.fedoraproject.org)
+  135398659 buildSRPMFromSCM (/rpms/vecmath1.2.git:cc7805a326c3920ce1aae4b50164586b946c1249): free
+  135398659 buildSRPMFromSCM (/rpms/vecmath1.2.git:cc7805a326c3920ce1aae4b50164586b946c1249): free -> open (buildvm-s390x-20.s390.fedoraproject.org)
+  135398659 buildSRPMFromSCM (/rpms/vecmath1.2.git:cc7805a326c3920ce1aae4b50164586b946c1249): open (buildvm-s390x-20.s390.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135398695 buildArch (vecmath1.2-1.14-40.fc43.src.rpm, noarch): free
+  135398695 buildArch (vecmath1.2-1.14-40.fc43.src.rpm, noarch): free -> assigned (buildvm-a64-46.rdu3.fedoraproject.org)
+  135398695 buildArch (vecmath1.2-1.14-40.fc43.src.rpm, noarch): assigned (buildvm-a64-46.rdu3.fedoraproject.org) -> open (buildvm-a64-46.rdu3.fedoraproject.org)
+  135398720 tagBuild (noarch): free
+  135398695 buildArch (vecmath1.2-1.14-40.fc43.src.rpm, noarch): open (buildvm-a64-46.rdu3.fedoraproject.org) -> closed
+  1 free  1 open  2 done  0 failed
+  135398720 tagBuild (noarch): free -> assigned (buildvm-a64-33.rdu3.fedoraproject.org)
+135398653 build (rawhide, /rpms/vecmath1.2.git:cc7805a326c3920ce1aae4b50164586b946c1249): open (buildvm-x86-20.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+  135398720 tagBuild (noarch): assigned (buildvm-a64-33.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135398653 build (rawhide, /rpms/vecmath1.2.git:cc7805a326c3920ce1aae4b50164586b946c1249) completed successfully

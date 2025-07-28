@@ -1,0 +1,46 @@
+[rawhide dee618d] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 7 insertions(+), 4 deletions(-)
+Building bolzplatz2006-1.0.3-63.fc43 for rawhide
+Created task: 135397703
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135397703
+Watching tasks (this may be safely interrupted)...
+135397703 build (rawhide, /rpms/bolzplatz2006.git:dee618de2d57da2e71ddaf89a5654058dc5741d3): free
+135397703 build (rawhide, /rpms/bolzplatz2006.git:dee618de2d57da2e71ddaf89a5654058dc5741d3): free -> assigned (buildvm-a64-33.rdu3.fedoraproject.org)
+135397703 build (rawhide, /rpms/bolzplatz2006.git:dee618de2d57da2e71ddaf89a5654058dc5741d3): assigned (buildvm-a64-33.rdu3.fedoraproject.org) -> open (buildvm-a64-33.rdu3.fedoraproject.org)
+  135397712 buildSRPMFromSCM (/rpms/bolzplatz2006.git:dee618de2d57da2e71ddaf89a5654058dc5741d3): free
+  135397712 buildSRPMFromSCM (/rpms/bolzplatz2006.git:dee618de2d57da2e71ddaf89a5654058dc5741d3): free -> assigned (buildvm-s390x-06.s390.fedoraproject.org)
+  135397712 buildSRPMFromSCM (/rpms/bolzplatz2006.git:dee618de2d57da2e71ddaf89a5654058dc5741d3): assigned (buildvm-s390x-06.s390.fedoraproject.org) -> open (buildvm-s390x-06.s390.fedoraproject.org)
+  135397712 buildSRPMFromSCM (/rpms/bolzplatz2006.git:dee618de2d57da2e71ddaf89a5654058dc5741d3): open (buildvm-s390x-06.s390.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135397740 buildArch (bolzplatz2006-1.0.3-63.fc43.src.rpm, aarch64): free
+  135397739 buildArch (bolzplatz2006-1.0.3-63.fc43.src.rpm, x86_64): free
+  135397741 buildArch (bolzplatz2006-1.0.3-63.fc43.src.rpm, ppc64le): free
+  135397742 buildArch (bolzplatz2006-1.0.3-63.fc43.src.rpm, s390x): free
+  135397740 buildArch (bolzplatz2006-1.0.3-63.fc43.src.rpm, aarch64): free -> assigned (buildvm-a64-41.rdu3.fedoraproject.org)
+  135397739 buildArch (bolzplatz2006-1.0.3-63.fc43.src.rpm, x86_64): free -> assigned (buildvm-x86-23.rdu3.fedoraproject.org)
+  135397741 buildArch (bolzplatz2006-1.0.3-63.fc43.src.rpm, ppc64le): free -> assigned (buildvm-ppc64le-29.rdu3.fedoraproject.org)
+  135397742 buildArch (bolzplatz2006-1.0.3-63.fc43.src.rpm, s390x): free -> assigned (buildvm-s390x-15.s390.fedoraproject.org)
+  135397740 buildArch (bolzplatz2006-1.0.3-63.fc43.src.rpm, aarch64): assigned (buildvm-a64-41.rdu3.fedoraproject.org) -> open (buildvm-a64-41.rdu3.fedoraproject.org)
+  135397739 buildArch (bolzplatz2006-1.0.3-63.fc43.src.rpm, x86_64): assigned (buildvm-x86-23.rdu3.fedoraproject.org) -> open (buildvm-x86-23.rdu3.fedoraproject.org)
+  135397741 buildArch (bolzplatz2006-1.0.3-63.fc43.src.rpm, ppc64le): assigned (buildvm-ppc64le-29.rdu3.fedoraproject.org) -> open (buildvm-ppc64le-29.rdu3.fedoraproject.org)
+  135397742 buildArch (bolzplatz2006-1.0.3-63.fc43.src.rpm, s390x): assigned (buildvm-s390x-15.s390.fedoraproject.org) -> open (buildvm-s390x-15.s390.fedoraproject.org)
+  135397739 buildArch (bolzplatz2006-1.0.3-63.fc43.src.rpm, x86_64): open (buildvm-x86-23.rdu3.fedoraproject.org) -> FAILED: BuildError: error building package (arch x86_64), mock exited with status 1; see build.log or root.log for more information
+  Relevant logs:
+  https://kojipkgs.fedoraproject.org/work/tasks/7739/135397739/mock_config.log
+  https://kojipkgs.fedoraproject.org/work/tasks/7739/135397739/state.log
+  https://kojipkgs.fedoraproject.org/work/tasks/7739/135397739/build.log
+  https://kojipkgs.fedoraproject.org/work/tasks/7739/135397739/root.log
+  https://kojipkgs.fedoraproject.org/work/tasks/7739/135397739/mock_output.log
+  https://kojipkgs.fedoraproject.org/work/tasks/7739/135397739/hw_info.log
+  https://kojipkgs.fedoraproject.org/work/tasks/7739/135397739/dnf5.log
+  0 free  4 open  1 done  1 failed
+135397703 build (rawhide, /rpms/bolzplatz2006.git:dee618de2d57da2e71ddaf89a5654058dc5741d3): open (buildvm-a64-33.rdu3.fedoraproject.org) -> FAILED: BuildError: error building package (arch x86_64), mock exited with status 1; see build.log or root.log for more information
+  0 free  3 open  1 done  2 failed
+  135397740 buildArch (bolzplatz2006-1.0.3-63.fc43.src.rpm, aarch64): open (buildvm-a64-41.rdu3.fedoraproject.org) -> canceled
+  0 free  2 open  2 done  2 failed
+  135397741 buildArch (bolzplatz2006-1.0.3-63.fc43.src.rpm, ppc64le): open (buildvm-ppc64le-29.rdu3.fedoraproject.org) -> canceled
+  0 free  1 open  3 done  2 failed
+  135397742 buildArch (bolzplatz2006-1.0.3-63.fc43.src.rpm, s390x): open (buildvm-s390x-15.s390.fedoraproject.org) -> canceled
+  0 free  0 open  4 done  2 failed
+
+135397703 build (rawhide, /rpms/bolzplatz2006.git:dee618de2d57da2e71ddaf89a5654058dc5741d3) failed

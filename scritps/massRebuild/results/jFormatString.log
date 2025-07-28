@@ -1,0 +1,25 @@
+Building jFormatString-0-0.54.20131227gitf159b88.fc43 for rawhide
+Created task: 135399919
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135399919
+Watching tasks (this may be safely interrupted)...
+135399919 build (rawhide, /rpms/jFormatString.git:9636603f6da67c23e9de3ef9cc9f1e5def0b951b): free
+135399919 build (rawhide, /rpms/jFormatString.git:9636603f6da67c23e9de3ef9cc9f1e5def0b951b): free -> open (buildvm-s390x-07.s390.fedoraproject.org)
+  135399923 waitrepo (f43-build, ): free
+  135399923 waitrepo (f43-build, ): free -> open (buildvm-ppc64le-20.rdu3.fedoraproject.org)
+  135400056 buildSRPMFromSCM (/rpms/jFormatString.git:9636603f6da67c23e9de3ef9cc9f1e5def0b951b): free
+  135399923 waitrepo (f43-build, ): open (buildvm-ppc64le-20.rdu3.fedoraproject.org) -> closed
+  1 free  1 open  1 done  0 failed
+  135400056 buildSRPMFromSCM (/rpms/jFormatString.git:9636603f6da67c23e9de3ef9cc9f1e5def0b951b): free -> open (buildvm-ppc64le-11.rdu3.fedoraproject.org)
+  135400204 buildArch (jFormatString-0-0.54.20131227gitf159b88.fc43.src.rpm, noarch): free
+  135400056 buildSRPMFromSCM (/rpms/jFormatString.git:9636603f6da67c23e9de3ef9cc9f1e5def0b951b): open (buildvm-ppc64le-11.rdu3.fedoraproject.org) -> closed
+  1 free  1 open  2 done  0 failed
+  135400204 buildArch (jFormatString-0-0.54.20131227gitf159b88.fc43.src.rpm, noarch): free -> open (buildvm-a64-11.rdu3.fedoraproject.org)
+  135400218 tagBuild (noarch): free
+  135400204 buildArch (jFormatString-0-0.54.20131227gitf159b88.fc43.src.rpm, noarch): open (buildvm-a64-11.rdu3.fedoraproject.org) -> closed
+  1 free  1 open  3 done  0 failed
+135399919 build (rawhide, /rpms/jFormatString.git:9636603f6da67c23e9de3ef9cc9f1e5def0b951b): open (buildvm-s390x-07.s390.fedoraproject.org) -> closed
+  1 free  0 open  4 done  0 failed
+  135400218 tagBuild (noarch): free -> closed
+  0 free  0 open  5 done  0 failed
+
+135399919 build (rawhide, /rpms/jFormatString.git:9636603f6da67c23e9de3ef9cc9f1e5def0b951b) completed successfully

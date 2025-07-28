@@ -1,0 +1,21 @@
+Building jedit-5.6.0-8.fc43 for rawhide
+Created task: 135398535
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135398535
+Watching tasks (this may be safely interrupted)...
+135398535 build (rawhide, /rpms/jedit.git:93e9376f0e0a9cd45fafc915b1b80a764952d1b9): free
+135398535 build (rawhide, /rpms/jedit.git:93e9376f0e0a9cd45fafc915b1b80a764952d1b9): free -> open (buildvm-a64-25.rdu3.fedoraproject.org)
+  135398538 buildSRPMFromSCM (/rpms/jedit.git:93e9376f0e0a9cd45fafc915b1b80a764952d1b9): free
+  135398538 buildSRPMFromSCM (/rpms/jedit.git:93e9376f0e0a9cd45fafc915b1b80a764952d1b9): free -> open (buildvm-s390x-20.s390.fedoraproject.org)
+  135398599 buildArch (jedit-5.6.0-8.fc43.src.rpm, noarch): free
+  135398538 buildSRPMFromSCM (/rpms/jedit.git:93e9376f0e0a9cd45fafc915b1b80a764952d1b9): open (buildvm-s390x-20.s390.fedoraproject.org) -> closed
+  1 free  1 open  1 done  0 failed
+  135398599 buildArch (jedit-5.6.0-8.fc43.src.rpm, noarch): free -> open (buildvm-x86-20.rdu3.fedoraproject.org)
+  135398627 tagBuild (noarch): free
+  135398599 buildArch (jedit-5.6.0-8.fc43.src.rpm, noarch): open (buildvm-x86-20.rdu3.fedoraproject.org) -> closed
+  1 free  1 open  2 done  0 failed
+135398535 build (rawhide, /rpms/jedit.git:93e9376f0e0a9cd45fafc915b1b80a764952d1b9): open (buildvm-a64-25.rdu3.fedoraproject.org) -> closed
+  1 free  0 open  3 done  0 failed
+  135398627 tagBuild (noarch): free -> closed
+  0 free  0 open  4 done  0 failed
+
+135398535 build (rawhide, /rpms/jedit.git:93e9376f0e0a9cd45fafc915b1b80a764952d1b9) completed successfully

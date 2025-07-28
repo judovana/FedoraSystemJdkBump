@@ -1,0 +1,41 @@
+RPMAutoSpec usage detected, not changing the spec file.
+[rawhide 9f528e4] Rebuilt for java-25-openjdk as preffered jdk
+Building R-rJava-1.0.11-8.fc43 for rawhide
+Created task: 135398579
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135398579
+Watching tasks (this may be safely interrupted)...
+135398579 build (rawhide, /rpms/R-rJava.git:9f528e4a947532a0ceebccc83810792b6fd68112): free
+135398579 build (rawhide, /rpms/R-rJava.git:9f528e4a947532a0ceebccc83810792b6fd68112): free -> assigned (buildvm-s390x-18.s390.fedoraproject.org)
+135398579 build (rawhide, /rpms/R-rJava.git:9f528e4a947532a0ceebccc83810792b6fd68112): assigned (buildvm-s390x-18.s390.fedoraproject.org) -> open (buildvm-s390x-18.s390.fedoraproject.org)
+  135398600 buildSRPMFromSCM (/rpms/R-rJava.git:9f528e4a947532a0ceebccc83810792b6fd68112): free
+  135398600 buildSRPMFromSCM (/rpms/R-rJava.git:9f528e4a947532a0ceebccc83810792b6fd68112): free -> assigned (buildvm-a64-21.rdu3.fedoraproject.org)
+  135398600 buildSRPMFromSCM (/rpms/R-rJava.git:9f528e4a947532a0ceebccc83810792b6fd68112): assigned (buildvm-a64-21.rdu3.fedoraproject.org) -> open (buildvm-a64-21.rdu3.fedoraproject.org)
+  135398631 buildArch (R-rJava-1.0.11-8.fc43.src.rpm, s390x): free
+  135398630 buildArch (R-rJava-1.0.11-8.fc43.src.rpm, ppc64le): free
+  135398628 buildArch (R-rJava-1.0.11-8.fc43.src.rpm, x86_64): free
+  135398629 buildArch (R-rJava-1.0.11-8.fc43.src.rpm, aarch64): free
+  135398600 buildSRPMFromSCM (/rpms/R-rJava.git:9f528e4a947532a0ceebccc83810792b6fd68112): open (buildvm-a64-21.rdu3.fedoraproject.org) -> closed
+  4 free  1 open  1 done  0 failed
+  135398631 buildArch (R-rJava-1.0.11-8.fc43.src.rpm, s390x): free -> assigned (buildvm-s390x-07.s390.fedoraproject.org)
+  135398630 buildArch (R-rJava-1.0.11-8.fc43.src.rpm, ppc64le): free -> assigned (buildvm-ppc64le-15.rdu3.fedoraproject.org)
+  135398628 buildArch (R-rJava-1.0.11-8.fc43.src.rpm, x86_64): free -> assigned (buildvm-x86-30.rdu3.fedoraproject.org)
+  135398629 buildArch (R-rJava-1.0.11-8.fc43.src.rpm, aarch64): free -> open (buildvm-a64-21.rdu3.fedoraproject.org)
+  135398631 buildArch (R-rJava-1.0.11-8.fc43.src.rpm, s390x): assigned (buildvm-s390x-07.s390.fedoraproject.org) -> open (buildvm-s390x-07.s390.fedoraproject.org)
+  135398630 buildArch (R-rJava-1.0.11-8.fc43.src.rpm, ppc64le): assigned (buildvm-ppc64le-15.rdu3.fedoraproject.org) -> open (buildvm-ppc64le-15.rdu3.fedoraproject.org)
+  135398628 buildArch (R-rJava-1.0.11-8.fc43.src.rpm, x86_64): assigned (buildvm-x86-30.rdu3.fedoraproject.org) -> open (buildvm-x86-30.rdu3.fedoraproject.org)
+  135398628 buildArch (R-rJava-1.0.11-8.fc43.src.rpm, x86_64): open (buildvm-x86-30.rdu3.fedoraproject.org) -> closed
+  0 free  4 open  2 done  0 failed
+  135398631 buildArch (R-rJava-1.0.11-8.fc43.src.rpm, s390x): open (buildvm-s390x-07.s390.fedoraproject.org) -> closed
+  0 free  3 open  3 done  0 failed
+  135398629 buildArch (R-rJava-1.0.11-8.fc43.src.rpm, aarch64): open (buildvm-a64-21.rdu3.fedoraproject.org) -> closed
+  0 free  2 open  4 done  0 failed
+  135398711 tagBuild (noarch): free
+  135398630 buildArch (R-rJava-1.0.11-8.fc43.src.rpm, ppc64le): open (buildvm-ppc64le-15.rdu3.fedoraproject.org) -> closed
+  1 free  1 open  5 done  0 failed
+  135398711 tagBuild (noarch): free -> assigned (buildvm-s390x-08.s390.fedoraproject.org)
+135398579 build (rawhide, /rpms/R-rJava.git:9f528e4a947532a0ceebccc83810792b6fd68112): open (buildvm-s390x-18.s390.fedoraproject.org) -> closed
+  0 free  1 open  6 done  0 failed
+  135398711 tagBuild (noarch): assigned (buildvm-s390x-08.s390.fedoraproject.org) -> closed
+  0 free  0 open  7 done  0 failed
+
+135398579 build (rawhide, /rpms/R-rJava.git:9f528e4a947532a0ceebccc83810792b6fd68112) completed successfully

@@ -1,0 +1,26 @@
+[rawhide 742a266] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 7 insertions(+), 4 deletions(-)
+Building jpanoramamaker-5.6-38.fc43 for rawhide
+Created task: 135398166
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135398166
+Watching tasks (this may be safely interrupted)...
+135398166 build (rawhide, /rpms/jpanoramamaker.git:742a26658888acfaf1407942e43eb4ec656f4e4c): free
+135398166 build (rawhide, /rpms/jpanoramamaker.git:742a26658888acfaf1407942e43eb4ec656f4e4c): free -> assigned (buildvm-s390x-15.s390.fedoraproject.org)
+135398166 build (rawhide, /rpms/jpanoramamaker.git:742a26658888acfaf1407942e43eb4ec656f4e4c): assigned (buildvm-s390x-15.s390.fedoraproject.org) -> open (buildvm-s390x-15.s390.fedoraproject.org)
+  135398248 buildSRPMFromSCM (/rpms/jpanoramamaker.git:742a26658888acfaf1407942e43eb4ec656f4e4c): free
+  135398248 buildSRPMFromSCM (/rpms/jpanoramamaker.git:742a26658888acfaf1407942e43eb4ec656f4e4c): free -> open (buildvm-s390x-06.s390.fedoraproject.org)
+  135398248 buildSRPMFromSCM (/rpms/jpanoramamaker.git:742a26658888acfaf1407942e43eb4ec656f4e4c): open (buildvm-s390x-06.s390.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135398324 buildArch (jpanoramamaker-5.6-38.fc43.src.rpm, noarch): free
+  135398324 buildArch (jpanoramamaker-5.6-38.fc43.src.rpm, noarch): free -> assigned (buildvm-ppc64le-29.rdu3.fedoraproject.org)
+  135398324 buildArch (jpanoramamaker-5.6-38.fc43.src.rpm, noarch): assigned (buildvm-ppc64le-29.rdu3.fedoraproject.org) -> open (buildvm-ppc64le-29.rdu3.fedoraproject.org)
+  135398324 buildArch (jpanoramamaker-5.6-38.fc43.src.rpm, noarch): open (buildvm-ppc64le-29.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  135398416 tagBuild (noarch): free
+  135398416 tagBuild (noarch): free -> assigned (buildvm-s390x-18.s390.fedoraproject.org)
+  135398416 tagBuild (noarch): assigned (buildvm-s390x-18.s390.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+135398166 build (rawhide, /rpms/jpanoramamaker.git:742a26658888acfaf1407942e43eb4ec656f4e4c): open (buildvm-s390x-15.s390.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135398166 build (rawhide, /rpms/jpanoramamaker.git:742a26658888acfaf1407942e43eb4ec656f4e4c) completed successfully

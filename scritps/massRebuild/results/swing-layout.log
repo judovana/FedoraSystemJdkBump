@@ -1,0 +1,27 @@
+[rawhide a9f8eba] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 8 insertions(+), 5 deletions(-)
+Building swing-layout-1.0.4-35.fc43 for rawhide
+Created task: 135398626
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135398626
+Watching tasks (this may be safely interrupted)...
+135398626 build (rawhide, /rpms/swing-layout.git:a9f8eba6c3b013390ec876bf560565e20ad6dd9b): free
+135398626 build (rawhide, /rpms/swing-layout.git:a9f8eba6c3b013390ec876bf560565e20ad6dd9b): free -> assigned (buildvm-a64-25.rdu3.fedoraproject.org)
+135398626 build (rawhide, /rpms/swing-layout.git:a9f8eba6c3b013390ec876bf560565e20ad6dd9b): assigned (buildvm-a64-25.rdu3.fedoraproject.org) -> open (buildvm-a64-25.rdu3.fedoraproject.org)
+  135398644 buildSRPMFromSCM (/rpms/swing-layout.git:a9f8eba6c3b013390ec876bf560565e20ad6dd9b): free
+  135398644 buildSRPMFromSCM (/rpms/swing-layout.git:a9f8eba6c3b013390ec876bf560565e20ad6dd9b): free -> assigned (buildvm-ppc64le-31.rdu3.fedoraproject.org)
+  135398644 buildSRPMFromSCM (/rpms/swing-layout.git:a9f8eba6c3b013390ec876bf560565e20ad6dd9b): assigned (buildvm-ppc64le-31.rdu3.fedoraproject.org) -> open (buildvm-ppc64le-31.rdu3.fedoraproject.org)
+  135398644 buildSRPMFromSCM (/rpms/swing-layout.git:a9f8eba6c3b013390ec876bf560565e20ad6dd9b): open (buildvm-ppc64le-31.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135398706 buildArch (swing-layout-1.0.4-35.fc43.src.rpm, noarch): free
+  135398706 buildArch (swing-layout-1.0.4-35.fc43.src.rpm, noarch): free -> assigned (buildvm-ppc64le-15.rdu3.fedoraproject.org)
+  135398706 buildArch (swing-layout-1.0.4-35.fc43.src.rpm, noarch): assigned (buildvm-ppc64le-15.rdu3.fedoraproject.org) -> open (buildvm-ppc64le-15.rdu3.fedoraproject.org)
+  135398706 buildArch (swing-layout-1.0.4-35.fc43.src.rpm, noarch): open (buildvm-ppc64le-15.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  135398747 tagBuild (noarch): free
+  135398747 tagBuild (noarch): free -> assigned (buildvm-s390x-07.s390.fedoraproject.org)
+  135398747 tagBuild (noarch): assigned (buildvm-s390x-07.s390.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+135398626 build (rawhide, /rpms/swing-layout.git:a9f8eba6c3b013390ec876bf560565e20ad6dd9b): open (buildvm-a64-25.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135398626 build (rawhide, /rpms/swing-layout.git:a9f8eba6c3b013390ec876bf560565e20ad6dd9b) completed successfully

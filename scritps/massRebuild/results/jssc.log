@@ -1,0 +1,39 @@
+[rawhide 089b0e2] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 7 insertions(+), 4 deletions(-)
+Building jssc-2.8.0-35.fc43 for rawhide
+Created task: 135398213
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135398213
+Watching tasks (this may be safely interrupted)...
+135398213 build (rawhide, /rpms/jssc.git:089b0e21c79b0cdc168d97c77cdb388a9e2517e6): free
+135398213 build (rawhide, /rpms/jssc.git:089b0e21c79b0cdc168d97c77cdb388a9e2517e6): free -> assigned (buildvm-s390x-19.s390.fedoraproject.org)
+135398213 build (rawhide, /rpms/jssc.git:089b0e21c79b0cdc168d97c77cdb388a9e2517e6): assigned (buildvm-s390x-19.s390.fedoraproject.org) -> open (buildvm-s390x-19.s390.fedoraproject.org)
+  135398244 buildSRPMFromSCM (/rpms/jssc.git:089b0e21c79b0cdc168d97c77cdb388a9e2517e6): free
+  135398244 buildSRPMFromSCM (/rpms/jssc.git:089b0e21c79b0cdc168d97c77cdb388a9e2517e6): free -> assigned (buildvm-ppc64le-21.rdu3.fedoraproject.org)
+  135398244 buildSRPMFromSCM (/rpms/jssc.git:089b0e21c79b0cdc168d97c77cdb388a9e2517e6): assigned (buildvm-ppc64le-21.rdu3.fedoraproject.org) -> open (buildvm-ppc64le-21.rdu3.fedoraproject.org)
+  135398244 buildSRPMFromSCM (/rpms/jssc.git:089b0e21c79b0cdc168d97c77cdb388a9e2517e6): open (buildvm-ppc64le-21.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135398351 buildArch (jssc-2.8.0-35.fc43.src.rpm, x86_64): free
+  135398352 buildArch (jssc-2.8.0-35.fc43.src.rpm, aarch64): free
+  135398353 buildArch (jssc-2.8.0-35.fc43.src.rpm, ppc64le): free
+  135398354 buildArch (jssc-2.8.0-35.fc43.src.rpm, s390x): free
+  135398351 buildArch (jssc-2.8.0-35.fc43.src.rpm, x86_64): free -> open (buildvm-x86-23.rdu3.fedoraproject.org)
+  135398352 buildArch (jssc-2.8.0-35.fc43.src.rpm, aarch64): free -> assigned (buildvm-a64-10.rdu3.fedoraproject.org)
+  135398353 buildArch (jssc-2.8.0-35.fc43.src.rpm, ppc64le): free -> open (buildvm-ppc64le-21.rdu3.fedoraproject.org)
+  135398354 buildArch (jssc-2.8.0-35.fc43.src.rpm, s390x): free -> open (buildvm-s390x-20.s390.fedoraproject.org)
+  135398352 buildArch (jssc-2.8.0-35.fc43.src.rpm, aarch64): assigned (buildvm-a64-10.rdu3.fedoraproject.org) -> open (buildvm-a64-10.rdu3.fedoraproject.org)
+  135398354 buildArch (jssc-2.8.0-35.fc43.src.rpm, s390x): open (buildvm-s390x-20.s390.fedoraproject.org) -> closed
+  0 free  4 open  2 done  0 failed
+  135398351 buildArch (jssc-2.8.0-35.fc43.src.rpm, x86_64): open (buildvm-x86-23.rdu3.fedoraproject.org) -> closed
+  0 free  3 open  3 done  0 failed
+  135398352 buildArch (jssc-2.8.0-35.fc43.src.rpm, aarch64): open (buildvm-a64-10.rdu3.fedoraproject.org) -> closed
+  0 free  2 open  4 done  0 failed
+  135398353 buildArch (jssc-2.8.0-35.fc43.src.rpm, ppc64le): open (buildvm-ppc64le-21.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  5 done  0 failed
+  135398418 tagBuild (noarch): free
+  135398418 tagBuild (noarch): free -> assigned (buildvm-ppc64le-21.rdu3.fedoraproject.org)
+  135398418 tagBuild (noarch): assigned (buildvm-ppc64le-21.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  6 done  0 failed
+135398213 build (rawhide, /rpms/jssc.git:089b0e21c79b0cdc168d97c77cdb388a9e2517e6): open (buildvm-s390x-19.s390.fedoraproject.org) -> closed
+  0 free  0 open  7 done  0 failed
+
+135398213 build (rawhide, /rpms/jssc.git:089b0e21c79b0cdc168d97c77cdb388a9e2517e6) completed successfully

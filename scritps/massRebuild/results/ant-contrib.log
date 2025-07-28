@@ -1,0 +1,26 @@
+[rawhide 30adc7a] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 8 insertions(+), 5 deletions(-)
+Building ant-contrib-1.0-0.49.b3.fc43 for rawhide
+Created task: 135397683
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135397683
+Watching tasks (this may be safely interrupted)...
+135397683 build (rawhide, /rpms/ant-contrib.git:30adc7a044e37bcc3c4a0c8bab43200c29e72764): free
+135397683 build (rawhide, /rpms/ant-contrib.git:30adc7a044e37bcc3c4a0c8bab43200c29e72764): free -> assigned (buildvm-a64-45.rdu3.fedoraproject.org)
+135397683 build (rawhide, /rpms/ant-contrib.git:30adc7a044e37bcc3c4a0c8bab43200c29e72764): assigned (buildvm-a64-45.rdu3.fedoraproject.org) -> open (buildvm-a64-45.rdu3.fedoraproject.org)
+  135397698 buildSRPMFromSCM (/rpms/ant-contrib.git:30adc7a044e37bcc3c4a0c8bab43200c29e72764): free
+  135397698 buildSRPMFromSCM (/rpms/ant-contrib.git:30adc7a044e37bcc3c4a0c8bab43200c29e72764): free -> open (buildvm-ppc64le-29.rdu3.fedoraproject.org)
+  135397698 buildSRPMFromSCM (/rpms/ant-contrib.git:30adc7a044e37bcc3c4a0c8bab43200c29e72764): open (buildvm-ppc64le-29.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135397716 buildArch (ant-contrib-1.0-0.49.b3.fc43.src.rpm, noarch): free
+  135397716 buildArch (ant-contrib-1.0-0.49.b3.fc43.src.rpm, noarch): free -> assigned (buildvm-s390x-15.s390.fedoraproject.org)
+  135397716 buildArch (ant-contrib-1.0-0.49.b3.fc43.src.rpm, noarch): assigned (buildvm-s390x-15.s390.fedoraproject.org) -> open (buildvm-s390x-15.s390.fedoraproject.org)
+  135397716 buildArch (ant-contrib-1.0-0.49.b3.fc43.src.rpm, noarch): open (buildvm-s390x-15.s390.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  135397747 tagBuild (noarch): free
+  135397747 tagBuild (noarch): free -> assigned (buildvm-x86-24.rdu3.fedoraproject.org)
+135397683 build (rawhide, /rpms/ant-contrib.git:30adc7a044e37bcc3c4a0c8bab43200c29e72764): open (buildvm-a64-45.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+  135397747 tagBuild (noarch): assigned (buildvm-x86-24.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135397683 build (rawhide, /rpms/ant-contrib.git:30adc7a044e37bcc3c4a0c8bab43200c29e72764) completed successfully

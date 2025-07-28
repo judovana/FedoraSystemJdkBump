@@ -1,0 +1,26 @@
+[rawhide 6339143] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 6 insertions(+), 3 deletions(-)
+Building pentaho-libxml-1.1.3-46.fc43 for rawhide
+Created task: 135398493
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135398493
+Watching tasks (this may be safely interrupted)...
+135398493 build (rawhide, /rpms/pentaho-libxml.git:63391439ccec554452ad2862ef288a3490a2053d): free
+135398493 build (rawhide, /rpms/pentaho-libxml.git:63391439ccec554452ad2862ef288a3490a2053d): free -> assigned (buildvm-a64-39.rdu3.fedoraproject.org)
+135398493 build (rawhide, /rpms/pentaho-libxml.git:63391439ccec554452ad2862ef288a3490a2053d): assigned (buildvm-a64-39.rdu3.fedoraproject.org) -> open (buildvm-a64-39.rdu3.fedoraproject.org)
+  135398509 buildSRPMFromSCM (/rpms/pentaho-libxml.git:63391439ccec554452ad2862ef288a3490a2053d): free
+  135398509 buildSRPMFromSCM (/rpms/pentaho-libxml.git:63391439ccec554452ad2862ef288a3490a2053d): free -> assigned (buildvm-a64-18.rdu3.fedoraproject.org)
+  135398509 buildSRPMFromSCM (/rpms/pentaho-libxml.git:63391439ccec554452ad2862ef288a3490a2053d): assigned (buildvm-a64-18.rdu3.fedoraproject.org) -> open (buildvm-a64-18.rdu3.fedoraproject.org)
+  135398581 buildArch (pentaho-libxml-1.1.3-46.fc43.src.rpm, noarch): free
+  135398509 buildSRPMFromSCM (/rpms/pentaho-libxml.git:63391439ccec554452ad2862ef288a3490a2053d): open (buildvm-a64-18.rdu3.fedoraproject.org) -> closed
+  1 free  1 open  1 done  0 failed
+  135398581 buildArch (pentaho-libxml-1.1.3-46.fc43.src.rpm, noarch): free -> assigned (buildvm-ppc64le-31.rdu3.fedoraproject.org)
+  135398581 buildArch (pentaho-libxml-1.1.3-46.fc43.src.rpm, noarch): assigned (buildvm-ppc64le-31.rdu3.fedoraproject.org) -> open (buildvm-ppc64le-31.rdu3.fedoraproject.org)
+  135398581 buildArch (pentaho-libxml-1.1.3-46.fc43.src.rpm, noarch): open (buildvm-ppc64le-31.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  135398633 tagBuild (noarch): free
+135398493 build (rawhide, /rpms/pentaho-libxml.git:63391439ccec554452ad2862ef288a3490a2053d): open (buildvm-a64-39.rdu3.fedoraproject.org) -> closed
+  1 free  0 open  3 done  0 failed
+  135398633 tagBuild (noarch): free -> closed
+  0 free  0 open  4 done  0 failed
+
+135398493 build (rawhide, /rpms/pentaho-libxml.git:63391439ccec554452ad2862ef288a3490a2053d) completed successfully

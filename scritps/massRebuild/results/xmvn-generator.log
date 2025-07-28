@@ -1,0 +1,27 @@
+RPMAutoSpec usage detected, not changing the spec file.
+[rawhide 54f85ef] Rebuilt for java-25-openjdk as preffered jdk
+Found a gating.yaml file in the repo and it is properly configured
+Building xmvn-generator-2.1.1-5.fc43 for rawhide
+Created task: 135398674
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135398674
+Watching tasks (this may be safely interrupted)...
+135398674 build (rawhide, /rpms/xmvn-generator.git:54f85ef06090e626bc8e5ce9f0a61b8e8c5cfaf3): free
+135398674 build (rawhide, /rpms/xmvn-generator.git:54f85ef06090e626bc8e5ce9f0a61b8e8c5cfaf3): free -> assigned (buildvm-a64-11.rdu3.fedoraproject.org)
+135398674 build (rawhide, /rpms/xmvn-generator.git:54f85ef06090e626bc8e5ce9f0a61b8e8c5cfaf3): assigned (buildvm-a64-11.rdu3.fedoraproject.org) -> open (buildvm-a64-11.rdu3.fedoraproject.org)
+  135398677 buildSRPMFromSCM (/rpms/xmvn-generator.git:54f85ef06090e626bc8e5ce9f0a61b8e8c5cfaf3): free
+  135398677 buildSRPMFromSCM (/rpms/xmvn-generator.git:54f85ef06090e626bc8e5ce9f0a61b8e8c5cfaf3): free -> open (buildvm-x86-25.rdu3.fedoraproject.org)
+  135398677 buildSRPMFromSCM (/rpms/xmvn-generator.git:54f85ef06090e626bc8e5ce9f0a61b8e8c5cfaf3): open (buildvm-x86-25.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135398716 buildArch (xmvn-generator-2.1.1-5.fc43.src.rpm, noarch): free
+  135398716 buildArch (xmvn-generator-2.1.1-5.fc43.src.rpm, noarch): free -> assigned (buildvm-x86-10.rdu3.fedoraproject.org)
+  135398716 buildArch (xmvn-generator-2.1.1-5.fc43.src.rpm, noarch): assigned (buildvm-x86-10.rdu3.fedoraproject.org) -> open (buildvm-x86-10.rdu3.fedoraproject.org)
+  135398742 tagBuild (noarch): free
+  135398716 buildArch (xmvn-generator-2.1.1-5.fc43.src.rpm, noarch): open (buildvm-x86-10.rdu3.fedoraproject.org) -> closed
+  1 free  1 open  2 done  0 failed
+  135398742 tagBuild (noarch): free -> assigned (buildvm-s390x-05.s390.fedoraproject.org)
+  135398742 tagBuild (noarch): assigned (buildvm-s390x-05.s390.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+135398674 build (rawhide, /rpms/xmvn-generator.git:54f85ef06090e626bc8e5ce9f0a61b8e8c5cfaf3): open (buildvm-a64-11.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135398674 build (rawhide, /rpms/xmvn-generator.git:54f85ef06090e626bc8e5ce9f0a61b8e8c5cfaf3) completed successfully

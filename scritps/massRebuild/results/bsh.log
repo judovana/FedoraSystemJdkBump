@@ -1,0 +1,28 @@
+[rawhide a428385] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 7 insertions(+), 4 deletions(-)
+Building bsh-2.1.0-17.fc43 for rawhide
+Created task: 135397715
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135397715
+Watching tasks (this may be safely interrupted)...
+135397715 build (rawhide, /rpms/bsh.git:a428385fe941d01bd7a3d094863474bbd9c1c9a1): free
+135397715 build (rawhide, /rpms/bsh.git:a428385fe941d01bd7a3d094863474bbd9c1c9a1): free -> assigned (buildvm-x86-29.rdu3.fedoraproject.org)
+135397715 build (rawhide, /rpms/bsh.git:a428385fe941d01bd7a3d094863474bbd9c1c9a1): assigned (buildvm-x86-29.rdu3.fedoraproject.org) -> open (buildvm-x86-29.rdu3.fedoraproject.org)
+  135397721 buildSRPMFromSCM (/rpms/bsh.git:a428385fe941d01bd7a3d094863474bbd9c1c9a1): free
+  135397721 buildSRPMFromSCM (/rpms/bsh.git:a428385fe941d01bd7a3d094863474bbd9c1c9a1): free -> assigned (buildvm-a64-48.rdu3.fedoraproject.org)
+  135397721 buildSRPMFromSCM (/rpms/bsh.git:a428385fe941d01bd7a3d094863474bbd9c1c9a1): assigned (buildvm-a64-48.rdu3.fedoraproject.org) -> open (buildvm-a64-48.rdu3.fedoraproject.org)
+  135397721 buildSRPMFromSCM (/rpms/bsh.git:a428385fe941d01bd7a3d094863474bbd9c1c9a1): open (buildvm-a64-48.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135397782 buildArch (bsh-2.1.0-17.fc43.src.rpm, noarch): free
+  135397782 buildArch (bsh-2.1.0-17.fc43.src.rpm, noarch): free -> assigned (buildvm-s390x-19.s390.fedoraproject.org)
+  135397782 buildArch (bsh-2.1.0-17.fc43.src.rpm, noarch): assigned (buildvm-s390x-19.s390.fedoraproject.org) -> open (buildvm-s390x-19.s390.fedoraproject.org)
+  135397782 buildArch (bsh-2.1.0-17.fc43.src.rpm, noarch): open (buildvm-s390x-19.s390.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  135397871 tagBuild (noarch): free
+  135397871 tagBuild (noarch): free -> assigned (buildvm-a64-34.rdu3.fedoraproject.org)
+  135397871 tagBuild (noarch): assigned (buildvm-a64-34.rdu3.fedoraproject.org) -> open (buildvm-a64-34.rdu3.fedoraproject.org)
+  135397871 tagBuild (noarch): open (buildvm-a64-34.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+135397715 build (rawhide, /rpms/bsh.git:a428385fe941d01bd7a3d094863474bbd9c1c9a1): open (buildvm-x86-29.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135397715 build (rawhide, /rpms/bsh.git:a428385fe941d01bd7a3d094863474bbd9c1c9a1) completed successfully

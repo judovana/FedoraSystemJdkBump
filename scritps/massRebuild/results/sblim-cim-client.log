@@ -1,0 +1,26 @@
+[rawhide 4d07811] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 7 insertions(+), 4 deletions(-)
+Building sblim-cim-client-1.3.9.3-38.fc43 for rawhide
+Created task: 135398604
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135398604
+Watching tasks (this may be safely interrupted)...
+135398604 build (rawhide, /rpms/sblim-cim-client.git:4d07811b232d92df2d06ded33e26c54f0e1d0a83): free
+135398604 build (rawhide, /rpms/sblim-cim-client.git:4d07811b232d92df2d06ded33e26c54f0e1d0a83): free -> assigned (buildvm-s390x-08.s390.fedoraproject.org)
+135398604 build (rawhide, /rpms/sblim-cim-client.git:4d07811b232d92df2d06ded33e26c54f0e1d0a83): assigned (buildvm-s390x-08.s390.fedoraproject.org) -> open (buildvm-s390x-08.s390.fedoraproject.org)
+  135398611 buildSRPMFromSCM (/rpms/sblim-cim-client.git:4d07811b232d92df2d06ded33e26c54f0e1d0a83): free
+  135398611 buildSRPMFromSCM (/rpms/sblim-cim-client.git:4d07811b232d92df2d06ded33e26c54f0e1d0a83): free -> assigned (buildvm-s390x-20.s390.fedoraproject.org)
+  135398611 buildSRPMFromSCM (/rpms/sblim-cim-client.git:4d07811b232d92df2d06ded33e26c54f0e1d0a83): assigned (buildvm-s390x-20.s390.fedoraproject.org) -> open (buildvm-s390x-20.s390.fedoraproject.org)
+  135398611 buildSRPMFromSCM (/rpms/sblim-cim-client.git:4d07811b232d92df2d06ded33e26c54f0e1d0a83): open (buildvm-s390x-20.s390.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135398646 buildArch (sblim-cim-client-1.3.9.3-38.fc43.src.rpm, noarch): free
+  135398646 buildArch (sblim-cim-client-1.3.9.3-38.fc43.src.rpm, noarch): free -> open (buildvm-x86-10.rdu3.fedoraproject.org)
+  135398646 buildArch (sblim-cim-client-1.3.9.3-38.fc43.src.rpm, noarch): open (buildvm-x86-10.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  135398678 tagBuild (noarch): free
+  135398678 tagBuild (noarch): free -> assigned (buildvm-a64-41.rdu3.fedoraproject.org)
+  135398678 tagBuild (noarch): assigned (buildvm-a64-41.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+135398604 build (rawhide, /rpms/sblim-cim-client.git:4d07811b232d92df2d06ded33e26c54f0e1d0a83): open (buildvm-s390x-08.s390.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135398604 build (rawhide, /rpms/sblim-cim-client.git:4d07811b232d92df2d06ded33e26c54f0e1d0a83) completed successfully

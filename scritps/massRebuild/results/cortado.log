@@ -1,0 +1,25 @@
+[rawhide b1c2312] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 6 insertions(+), 3 deletions(-)
+Building cortado-0.6.0-37.fc43 for rawhide
+Created task: 135397805
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135397805
+Watching tasks (this may be safely interrupted)...
+135397805 build (rawhide, /rpms/cortado.git:b1c231250ba987889da51a56a19fd2cc5c92fb74): free
+135397805 build (rawhide, /rpms/cortado.git:b1c231250ba987889da51a56a19fd2cc5c92fb74): free -> assigned (buildvm-x86-28.rdu3.fedoraproject.org)
+135397805 build (rawhide, /rpms/cortado.git:b1c231250ba987889da51a56a19fd2cc5c92fb74): assigned (buildvm-x86-28.rdu3.fedoraproject.org) -> open (buildvm-x86-28.rdu3.fedoraproject.org)
+  135397818 buildSRPMFromSCM (/rpms/cortado.git:b1c231250ba987889da51a56a19fd2cc5c92fb74): free
+  135397818 buildSRPMFromSCM (/rpms/cortado.git:b1c231250ba987889da51a56a19fd2cc5c92fb74): free -> open (buildvm-a64-22.rdu3.fedoraproject.org)
+  135397886 buildArch (cortado-0.6.0-37.fc43.src.rpm, noarch): free
+  135397818 buildSRPMFromSCM (/rpms/cortado.git:b1c231250ba987889da51a56a19fd2cc5c92fb74): open (buildvm-a64-22.rdu3.fedoraproject.org) -> closed
+  1 free  1 open  1 done  0 failed
+  135397886 buildArch (cortado-0.6.0-37.fc43.src.rpm, noarch): free -> assigned (buildvm-s390x-15.s390.fedoraproject.org)
+  135397886 buildArch (cortado-0.6.0-37.fc43.src.rpm, noarch): assigned (buildvm-s390x-15.s390.fedoraproject.org) -> open (buildvm-s390x-15.s390.fedoraproject.org)
+  135397886 buildArch (cortado-0.6.0-37.fc43.src.rpm, noarch): open (buildvm-s390x-15.s390.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  135397960 tagBuild (noarch): free
+  135397960 tagBuild (noarch): free -> closed
+  0 free  1 open  3 done  0 failed
+135397805 build (rawhide, /rpms/cortado.git:b1c231250ba987889da51a56a19fd2cc5c92fb74): open (buildvm-x86-28.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135397805 build (rawhide, /rpms/cortado.git:b1c231250ba987889da51a56a19fd2cc5c92fb74) completed successfully

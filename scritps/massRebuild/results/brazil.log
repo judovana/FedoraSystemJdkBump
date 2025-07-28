@@ -1,0 +1,27 @@
+[rawhide 1520eab] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 7 insertions(+), 4 deletions(-)
+Building brazil-2.3-41.fc43 for rawhide
+Created task: 135397710
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135397710
+Watching tasks (this may be safely interrupted)...
+135397710 build (rawhide, /rpms/brazil.git:1520eab88d90e7756bc90d8b58db361f3c9edb7c): free
+135397710 build (rawhide, /rpms/brazil.git:1520eab88d90e7756bc90d8b58db361f3c9edb7c): free -> assigned (buildvm-a64-07.rdu3.fedoraproject.org)
+135397710 build (rawhide, /rpms/brazil.git:1520eab88d90e7756bc90d8b58db361f3c9edb7c): assigned (buildvm-a64-07.rdu3.fedoraproject.org) -> open (buildvm-a64-07.rdu3.fedoraproject.org)
+  135397714 buildSRPMFromSCM (/rpms/brazil.git:1520eab88d90e7756bc90d8b58db361f3c9edb7c): free
+  135397714 buildSRPMFromSCM (/rpms/brazil.git:1520eab88d90e7756bc90d8b58db361f3c9edb7c): free -> assigned (buildvm-s390x-20.s390.fedoraproject.org)
+  135397714 buildSRPMFromSCM (/rpms/brazil.git:1520eab88d90e7756bc90d8b58db361f3c9edb7c): assigned (buildvm-s390x-20.s390.fedoraproject.org) -> open (buildvm-s390x-20.s390.fedoraproject.org)
+  135397714 buildSRPMFromSCM (/rpms/brazil.git:1520eab88d90e7756bc90d8b58db361f3c9edb7c): open (buildvm-s390x-20.s390.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135397745 buildArch (brazil-2.3-41.fc43.src.rpm, noarch): free
+  135397745 buildArch (brazil-2.3-41.fc43.src.rpm, noarch): free -> assigned (buildvm-a64-46.rdu3.fedoraproject.org)
+  135397745 buildArch (brazil-2.3-41.fc43.src.rpm, noarch): assigned (buildvm-a64-46.rdu3.fedoraproject.org) -> open (buildvm-a64-46.rdu3.fedoraproject.org)
+  135397745 buildArch (brazil-2.3-41.fc43.src.rpm, noarch): open (buildvm-a64-46.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  135397827 tagBuild (noarch): free
+  135397827 tagBuild (noarch): free -> assigned (buildvm-s390x-15.s390.fedoraproject.org)
+  135397827 tagBuild (noarch): assigned (buildvm-s390x-15.s390.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+135397710 build (rawhide, /rpms/brazil.git:1520eab88d90e7756bc90d8b58db361f3c9edb7c): open (buildvm-a64-07.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135397710 build (rawhide, /rpms/brazil.git:1520eab88d90e7756bc90d8b58db361f3c9edb7c) completed successfully

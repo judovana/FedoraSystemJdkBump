@@ -1,0 +1,26 @@
+[rawhide 6836bf6] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 7 insertions(+), 4 deletions(-)
+Building ditaa-0.10-30.fc43 for rawhide
+Created task: 135397828
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135397828
+Watching tasks (this may be safely interrupted)...
+135397828 build (rawhide, /rpms/ditaa.git:6836bf65e16f4de3be829d5fabbb0baca6639cc8): free
+135397828 build (rawhide, /rpms/ditaa.git:6836bf65e16f4de3be829d5fabbb0baca6639cc8): free -> assigned (buildvm-s390x-18.s390.fedoraproject.org)
+135397828 build (rawhide, /rpms/ditaa.git:6836bf65e16f4de3be829d5fabbb0baca6639cc8): assigned (buildvm-s390x-18.s390.fedoraproject.org) -> open (buildvm-s390x-18.s390.fedoraproject.org)
+  135397865 buildSRPMFromSCM (/rpms/ditaa.git:6836bf65e16f4de3be829d5fabbb0baca6639cc8): free
+  135397865 buildSRPMFromSCM (/rpms/ditaa.git:6836bf65e16f4de3be829d5fabbb0baca6639cc8): free -> assigned (buildvm-x86-08.rdu3.fedoraproject.org)
+  135397865 buildSRPMFromSCM (/rpms/ditaa.git:6836bf65e16f4de3be829d5fabbb0baca6639cc8): assigned (buildvm-x86-08.rdu3.fedoraproject.org) -> open (buildvm-x86-08.rdu3.fedoraproject.org)
+  135397865 buildSRPMFromSCM (/rpms/ditaa.git:6836bf65e16f4de3be829d5fabbb0baca6639cc8): open (buildvm-x86-08.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135397926 buildArch (ditaa-0.10-30.fc43.src.rpm, noarch): free
+  135397926 buildArch (ditaa-0.10-30.fc43.src.rpm, noarch): free -> assigned (buildvm-a64-27.rdu3.fedoraproject.org)
+  135397926 buildArch (ditaa-0.10-30.fc43.src.rpm, noarch): assigned (buildvm-a64-27.rdu3.fedoraproject.org) -> open (buildvm-a64-27.rdu3.fedoraproject.org)
+  135397926 buildArch (ditaa-0.10-30.fc43.src.rpm, noarch): open (buildvm-a64-27.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  135397976 tagBuild (noarch): free
+  135397976 tagBuild (noarch): free -> closed
+  0 free  1 open  3 done  0 failed
+135397828 build (rawhide, /rpms/ditaa.git:6836bf65e16f4de3be829d5fabbb0baca6639cc8): open (buildvm-s390x-18.s390.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135397828 build (rawhide, /rpms/ditaa.git:6836bf65e16f4de3be829d5fabbb0baca6639cc8) completed successfully

@@ -1,0 +1,27 @@
+[rawhide 2924bff] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 6 insertions(+), 3 deletions(-)
+Building t-digest-3.2-13.fc43 for rawhide
+Created task: 135398637
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135398637
+Watching tasks (this may be safely interrupted)...
+135398637 build (rawhide, /rpms/t-digest.git:2924bff3f61cf39fc5cacf1e9365387344e2c7df): free
+135398637 build (rawhide, /rpms/t-digest.git:2924bff3f61cf39fc5cacf1e9365387344e2c7df): free -> assigned (buildvm-a64-24.rdu3.fedoraproject.org)
+135398637 build (rawhide, /rpms/t-digest.git:2924bff3f61cf39fc5cacf1e9365387344e2c7df): assigned (buildvm-a64-24.rdu3.fedoraproject.org) -> open (buildvm-a64-24.rdu3.fedoraproject.org)
+  135398648 buildSRPMFromSCM (/rpms/t-digest.git:2924bff3f61cf39fc5cacf1e9365387344e2c7df): free
+  135398648 buildSRPMFromSCM (/rpms/t-digest.git:2924bff3f61cf39fc5cacf1e9365387344e2c7df): free -> assigned (buildhw-x86-02.rdu3.fedoraproject.org)
+  135398648 buildSRPMFromSCM (/rpms/t-digest.git:2924bff3f61cf39fc5cacf1e9365387344e2c7df): assigned (buildhw-x86-02.rdu3.fedoraproject.org) -> open (buildhw-x86-02.rdu3.fedoraproject.org)
+  135398648 buildSRPMFromSCM (/rpms/t-digest.git:2924bff3f61cf39fc5cacf1e9365387344e2c7df): open (buildhw-x86-02.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135398675 buildArch (t-digest-3.2-13.fc43.src.rpm, noarch): free
+  135398675 buildArch (t-digest-3.2-13.fc43.src.rpm, noarch): free -> assigned (buildvm-ppc64le-23.rdu3.fedoraproject.org)
+  135398675 buildArch (t-digest-3.2-13.fc43.src.rpm, noarch): assigned (buildvm-ppc64le-23.rdu3.fedoraproject.org) -> open (buildvm-ppc64le-23.rdu3.fedoraproject.org)
+  135398675 buildArch (t-digest-3.2-13.fc43.src.rpm, noarch): open (buildvm-ppc64le-23.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  135398743 tagBuild (noarch): free
+  135398743 tagBuild (noarch): free -> assigned (buildvm-s390x-19.s390.fedoraproject.org)
+  135398743 tagBuild (noarch): assigned (buildvm-s390x-19.s390.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+135398637 build (rawhide, /rpms/t-digest.git:2924bff3f61cf39fc5cacf1e9365387344e2c7df): open (buildvm-a64-24.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135398637 build (rawhide, /rpms/t-digest.git:2924bff3f61cf39fc5cacf1e9365387344e2c7df) completed successfully

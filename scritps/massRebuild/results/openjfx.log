@@ -1,0 +1,39 @@
+[rawhide 9969f40] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 8 insertions(+), 5 deletions(-)
+Building openjfx-17.0.13.0-5.fc43 for rawhide
+Created task: 135398453
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135398453
+Watching tasks (this may be safely interrupted)...
+135398453 build (rawhide, /rpms/openjfx.git:9969f4040364b5afe9e21fb22bb1e6f5a214cd81): free
+135398453 build (rawhide, /rpms/openjfx.git:9969f4040364b5afe9e21fb22bb1e6f5a214cd81): free -> assigned (buildvm-a64-18.rdu3.fedoraproject.org)
+135398453 build (rawhide, /rpms/openjfx.git:9969f4040364b5afe9e21fb22bb1e6f5a214cd81): assigned (buildvm-a64-18.rdu3.fedoraproject.org) -> open (buildvm-a64-18.rdu3.fedoraproject.org)
+  135398471 buildSRPMFromSCM (/rpms/openjfx.git:9969f4040364b5afe9e21fb22bb1e6f5a214cd81): free
+  135398471 buildSRPMFromSCM (/rpms/openjfx.git:9969f4040364b5afe9e21fb22bb1e6f5a214cd81): free -> assigned (buildvm-s390x-20.s390.fedoraproject.org)
+  135398471 buildSRPMFromSCM (/rpms/openjfx.git:9969f4040364b5afe9e21fb22bb1e6f5a214cd81): assigned (buildvm-s390x-20.s390.fedoraproject.org) -> open (buildvm-s390x-20.s390.fedoraproject.org)
+  135398471 buildSRPMFromSCM (/rpms/openjfx.git:9969f4040364b5afe9e21fb22bb1e6f5a214cd81): open (buildvm-s390x-20.s390.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135398516 buildArch (openjfx-17.0.13.0-5.fc43.src.rpm, aarch64): free
+  135398517 buildArch (openjfx-17.0.13.0-5.fc43.src.rpm, ppc64le): free
+  135398518 buildArch (openjfx-17.0.13.0-5.fc43.src.rpm, s390x): free
+  135398515 buildArch (openjfx-17.0.13.0-5.fc43.src.rpm, x86_64): free
+  135398516 buildArch (openjfx-17.0.13.0-5.fc43.src.rpm, aarch64): free -> assigned (buildvm-a64-45.rdu3.fedoraproject.org)
+  135398517 buildArch (openjfx-17.0.13.0-5.fc43.src.rpm, ppc64le): free -> assigned (buildvm-ppc64le-23.rdu3.fedoraproject.org)
+  135398518 buildArch (openjfx-17.0.13.0-5.fc43.src.rpm, s390x): free -> open (buildvm-s390x-08.s390.fedoraproject.org)
+  135398515 buildArch (openjfx-17.0.13.0-5.fc43.src.rpm, x86_64): free -> open (buildvm-x86-08.rdu3.fedoraproject.org)
+  135398516 buildArch (openjfx-17.0.13.0-5.fc43.src.rpm, aarch64): assigned (buildvm-a64-45.rdu3.fedoraproject.org) -> open (buildvm-a64-45.rdu3.fedoraproject.org)
+  135398517 buildArch (openjfx-17.0.13.0-5.fc43.src.rpm, ppc64le): assigned (buildvm-ppc64le-23.rdu3.fedoraproject.org) -> open (buildvm-ppc64le-23.rdu3.fedoraproject.org)
+  135398515 buildArch (openjfx-17.0.13.0-5.fc43.src.rpm, x86_64): open (buildvm-x86-08.rdu3.fedoraproject.org) -> closed
+  0 free  4 open  2 done  0 failed
+  135398518 buildArch (openjfx-17.0.13.0-5.fc43.src.rpm, s390x): open (buildvm-s390x-08.s390.fedoraproject.org) -> closed
+  0 free  3 open  3 done  0 failed
+  135398516 buildArch (openjfx-17.0.13.0-5.fc43.src.rpm, aarch64): open (buildvm-a64-45.rdu3.fedoraproject.org) -> closed
+  0 free  2 open  4 done  0 failed
+  135398693 tagBuild (noarch): free
+  135398517 buildArch (openjfx-17.0.13.0-5.fc43.src.rpm, ppc64le): open (buildvm-ppc64le-23.rdu3.fedoraproject.org) -> closed
+  1 free  1 open  5 done  0 failed
+  135398693 tagBuild (noarch): free -> closed
+  0 free  1 open  6 done  0 failed
+135398453 build (rawhide, /rpms/openjfx.git:9969f4040364b5afe9e21fb22bb1e6f5a214cd81): open (buildvm-a64-18.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  7 done  0 failed
+
+135398453 build (rawhide, /rpms/openjfx.git:9969f4040364b5afe9e21fb22bb1e6f5a214cd81) completed successfully

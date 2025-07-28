@@ -1,0 +1,27 @@
+[rawhide 2ca912c] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 6 insertions(+), 3 deletions(-)
+Building libserializer-1.1.2-47.fc43 for rawhide
+Created task: 135398357
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135398357
+Watching tasks (this may be safely interrupted)...
+135398357 build (rawhide, /rpms/libserializer.git:2ca912cc96fa8001a614896a521dee91c377efe4): free
+135398357 build (rawhide, /rpms/libserializer.git:2ca912cc96fa8001a614896a521dee91c377efe4): free -> assigned (buildvm-a64-24.rdu3.fedoraproject.org)
+135398357 build (rawhide, /rpms/libserializer.git:2ca912cc96fa8001a614896a521dee91c377efe4): assigned (buildvm-a64-24.rdu3.fedoraproject.org) -> open (buildvm-a64-24.rdu3.fedoraproject.org)
+  135398370 buildSRPMFromSCM (/rpms/libserializer.git:2ca912cc96fa8001a614896a521dee91c377efe4): free
+  135398370 buildSRPMFromSCM (/rpms/libserializer.git:2ca912cc96fa8001a614896a521dee91c377efe4): free -> assigned (buildvm-a64-18.rdu3.fedoraproject.org)
+  135398370 buildSRPMFromSCM (/rpms/libserializer.git:2ca912cc96fa8001a614896a521dee91c377efe4): assigned (buildvm-a64-18.rdu3.fedoraproject.org) -> open (buildvm-a64-18.rdu3.fedoraproject.org)
+  135398370 buildSRPMFromSCM (/rpms/libserializer.git:2ca912cc96fa8001a614896a521dee91c377efe4): open (buildvm-a64-18.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135398415 buildArch (libserializer-1.1.2-47.fc43.src.rpm, noarch): free
+  135398415 buildArch (libserializer-1.1.2-47.fc43.src.rpm, noarch): free -> assigned (buildvm-a64-45.rdu3.fedoraproject.org)
+  135398415 buildArch (libserializer-1.1.2-47.fc43.src.rpm, noarch): assigned (buildvm-a64-45.rdu3.fedoraproject.org) -> open (buildvm-a64-45.rdu3.fedoraproject.org)
+  135398415 buildArch (libserializer-1.1.2-47.fc43.src.rpm, noarch): open (buildvm-a64-45.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  135398462 tagBuild (noarch): free
+  135398462 tagBuild (noarch): free -> assigned (buildvm-s390x-18.s390.fedoraproject.org)
+  135398462 tagBuild (noarch): assigned (buildvm-s390x-18.s390.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+135398357 build (rawhide, /rpms/libserializer.git:2ca912cc96fa8001a614896a521dee91c377efe4): open (buildvm-a64-24.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135398357 build (rawhide, /rpms/libserializer.git:2ca912cc96fa8001a614896a521dee91c377efe4) completed successfully

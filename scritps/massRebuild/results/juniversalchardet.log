@@ -1,0 +1,21 @@
+Building juniversalchardet-2.4.0-16.fc43 for rawhide
+Created task: 135398958
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135398958
+Watching tasks (this may be safely interrupted)...
+135398958 build (rawhide, /rpms/juniversalchardet.git:9a90c1644757194c1b049200e7c7766c9a08ffba): free
+135398958 build (rawhide, /rpms/juniversalchardet.git:9a90c1644757194c1b049200e7c7766c9a08ffba): free -> open (buildvm-s390x-07.s390.fedoraproject.org)
+  135398959 buildSRPMFromSCM (/rpms/juniversalchardet.git:9a90c1644757194c1b049200e7c7766c9a08ffba): free
+  135398959 buildSRPMFromSCM (/rpms/juniversalchardet.git:9a90c1644757194c1b049200e7c7766c9a08ffba): free -> open (buildvm-ppc64le-30.rdu3.fedoraproject.org)
+  135398964 buildArch (juniversalchardet-2.4.0-16.fc43.src.rpm, noarch): free
+  135398959 buildSRPMFromSCM (/rpms/juniversalchardet.git:9a90c1644757194c1b049200e7c7766c9a08ffba): open (buildvm-ppc64le-30.rdu3.fedoraproject.org) -> closed
+  1 free  1 open  1 done  0 failed
+  135398964 buildArch (juniversalchardet-2.4.0-16.fc43.src.rpm, noarch): free -> open (buildhw-x86-02.rdu3.fedoraproject.org)
+  135398972 tagBuild (noarch): free
+  135398964 buildArch (juniversalchardet-2.4.0-16.fc43.src.rpm, noarch): open (buildhw-x86-02.rdu3.fedoraproject.org) -> closed
+  1 free  1 open  2 done  0 failed
+135398958 build (rawhide, /rpms/juniversalchardet.git:9a90c1644757194c1b049200e7c7766c9a08ffba): open (buildvm-s390x-07.s390.fedoraproject.org) -> closed
+  1 free  0 open  3 done  0 failed
+  135398972 tagBuild (noarch): free -> closed
+  0 free  0 open  4 done  0 failed
+
+135398958 build (rawhide, /rpms/juniversalchardet.git:9a90c1644757194c1b049200e7c7766c9a08ffba) completed successfully

@@ -1,0 +1,41 @@
+[rawhide 0c77368] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 5 insertions(+), 2 deletions(-)
+Building icedtea-web-1.8.8-10.fc43 for rawhide
+Created task: 135397977
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135397977
+Watching tasks (this may be safely interrupted)...
+135397977 build (rawhide, /rpms/icedtea-web.git:0c773688270f98aa40db008d1f7b62e38c4910a2): free
+135397977 build (rawhide, /rpms/icedtea-web.git:0c773688270f98aa40db008d1f7b62e38c4910a2): free -> assigned (buildvm-a64-10.rdu3.fedoraproject.org)
+135397977 build (rawhide, /rpms/icedtea-web.git:0c773688270f98aa40db008d1f7b62e38c4910a2): assigned (buildvm-a64-10.rdu3.fedoraproject.org) -> open (buildvm-a64-10.rdu3.fedoraproject.org)
+  135397988 buildSRPMFromSCM (/rpms/icedtea-web.git:0c773688270f98aa40db008d1f7b62e38c4910a2): free
+  135397988 buildSRPMFromSCM (/rpms/icedtea-web.git:0c773688270f98aa40db008d1f7b62e38c4910a2): free -> assigned (buildvm-ppc64le-27.rdu3.fedoraproject.org)
+  135397988 buildSRPMFromSCM (/rpms/icedtea-web.git:0c773688270f98aa40db008d1f7b62e38c4910a2): assigned (buildvm-ppc64le-27.rdu3.fedoraproject.org) -> open (buildvm-ppc64le-27.rdu3.fedoraproject.org)
+  135397988 buildSRPMFromSCM (/rpms/icedtea-web.git:0c773688270f98aa40db008d1f7b62e38c4910a2): open (buildvm-ppc64le-27.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135398022 buildArch (icedtea-web-1.8.8-10.fc43.src.rpm, x86_64): free
+  135398023 buildArch (icedtea-web-1.8.8-10.fc43.src.rpm, aarch64): free
+  135398024 buildArch (icedtea-web-1.8.8-10.fc43.src.rpm, ppc64le): free
+  135398025 buildArch (icedtea-web-1.8.8-10.fc43.src.rpm, s390x): free
+  135398022 buildArch (icedtea-web-1.8.8-10.fc43.src.rpm, x86_64): free -> assigned (buildvm-x86-25.rdu3.fedoraproject.org)
+  135398023 buildArch (icedtea-web-1.8.8-10.fc43.src.rpm, aarch64): free -> assigned (buildvm-a64-34.rdu3.fedoraproject.org)
+  135398024 buildArch (icedtea-web-1.8.8-10.fc43.src.rpm, ppc64le): free -> assigned (buildvm-ppc64le-04.rdu3.fedoraproject.org)
+  135398025 buildArch (icedtea-web-1.8.8-10.fc43.src.rpm, s390x): free -> open (buildvm-s390x-20.s390.fedoraproject.org)
+  135398022 buildArch (icedtea-web-1.8.8-10.fc43.src.rpm, x86_64): assigned (buildvm-x86-25.rdu3.fedoraproject.org) -> open (buildvm-x86-25.rdu3.fedoraproject.org)
+  135398023 buildArch (icedtea-web-1.8.8-10.fc43.src.rpm, aarch64): assigned (buildvm-a64-34.rdu3.fedoraproject.org) -> open (buildvm-a64-34.rdu3.fedoraproject.org)
+  135398024 buildArch (icedtea-web-1.8.8-10.fc43.src.rpm, ppc64le): assigned (buildvm-ppc64le-04.rdu3.fedoraproject.org) -> open (buildvm-ppc64le-04.rdu3.fedoraproject.org)
+  135398022 buildArch (icedtea-web-1.8.8-10.fc43.src.rpm, x86_64): open (buildvm-x86-25.rdu3.fedoraproject.org) -> closed
+  0 free  4 open  2 done  0 failed
+  135398025 buildArch (icedtea-web-1.8.8-10.fc43.src.rpm, s390x): open (buildvm-s390x-20.s390.fedoraproject.org) -> closed
+  0 free  3 open  3 done  0 failed
+  135398023 buildArch (icedtea-web-1.8.8-10.fc43.src.rpm, aarch64): open (buildvm-a64-34.rdu3.fedoraproject.org) -> closed
+  0 free  2 open  4 done  0 failed
+  135398211 tagBuild (noarch): free
+  135398024 buildArch (icedtea-web-1.8.8-10.fc43.src.rpm, ppc64le): open (buildvm-ppc64le-04.rdu3.fedoraproject.org) -> closed
+  1 free  1 open  5 done  0 failed
+  135398211 tagBuild (noarch): free -> assigned (buildvm-ppc64le-25.rdu3.fedoraproject.org)
+  135398211 tagBuild (noarch): assigned (buildvm-ppc64le-25.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  6 done  0 failed
+135397977 build (rawhide, /rpms/icedtea-web.git:0c773688270f98aa40db008d1f7b62e38c4910a2): open (buildvm-a64-10.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  7 done  0 failed
+
+135397977 build (rawhide, /rpms/icedtea-web.git:0c773688270f98aa40db008d1f7b62e38c4910a2) completed successfully

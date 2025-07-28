@@ -1,0 +1,42 @@
+[rawhide 3171f11] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 7 insertions(+), 4 deletions(-)
+Building jigawatts-0.2-0.17.202108276c78499.fc43 for rawhide
+Created task: 135398098
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135398098
+Watching tasks (this may be safely interrupted)...
+135398098 build (rawhide, /rpms/jigawatts.git:3171f1181ec8fcb8e8dc69243ffceb8a5ab667fc): free
+135398098 build (rawhide, /rpms/jigawatts.git:3171f1181ec8fcb8e8dc69243ffceb8a5ab667fc): free -> assigned (buildvm-ppc64le-26.rdu3.fedoraproject.org)
+135398098 build (rawhide, /rpms/jigawatts.git:3171f1181ec8fcb8e8dc69243ffceb8a5ab667fc): assigned (buildvm-ppc64le-26.rdu3.fedoraproject.org) -> open (buildvm-ppc64le-26.rdu3.fedoraproject.org)
+  135398187 buildSRPMFromSCM (/rpms/jigawatts.git:3171f1181ec8fcb8e8dc69243ffceb8a5ab667fc): free
+  135398187 buildSRPMFromSCM (/rpms/jigawatts.git:3171f1181ec8fcb8e8dc69243ffceb8a5ab667fc): free -> assigned (buildvm-s390x-08.s390.fedoraproject.org)
+  135398187 buildSRPMFromSCM (/rpms/jigawatts.git:3171f1181ec8fcb8e8dc69243ffceb8a5ab667fc): assigned (buildvm-s390x-08.s390.fedoraproject.org) -> open (buildvm-s390x-08.s390.fedoraproject.org)
+  135398272 buildArch (jigawatts-0.2-0.17.202108276c78499.fc43.src.rpm, x86_64): free
+  135398273 buildArch (jigawatts-0.2-0.17.202108276c78499.fc43.src.rpm, aarch64): free
+  135398274 buildArch (jigawatts-0.2-0.17.202108276c78499.fc43.src.rpm, ppc64le): free
+  135398275 buildArch (jigawatts-0.2-0.17.202108276c78499.fc43.src.rpm, s390x): free
+  135398187 buildSRPMFromSCM (/rpms/jigawatts.git:3171f1181ec8fcb8e8dc69243ffceb8a5ab667fc): open (buildvm-s390x-08.s390.fedoraproject.org) -> closed
+  4 free  1 open  1 done  0 failed
+  135398272 buildArch (jigawatts-0.2-0.17.202108276c78499.fc43.src.rpm, x86_64): free -> assigned (buildvm-x86-23.rdu3.fedoraproject.org)
+  135398273 buildArch (jigawatts-0.2-0.17.202108276c78499.fc43.src.rpm, aarch64): free -> assigned (buildvm-a64-27.rdu3.fedoraproject.org)
+  135398274 buildArch (jigawatts-0.2-0.17.202108276c78499.fc43.src.rpm, ppc64le): free -> assigned (buildvm-ppc64le-12.rdu3.fedoraproject.org)
+  135398275 buildArch (jigawatts-0.2-0.17.202108276c78499.fc43.src.rpm, s390x): free -> assigned (buildvm-s390x-05.s390.fedoraproject.org)
+  135398272 buildArch (jigawatts-0.2-0.17.202108276c78499.fc43.src.rpm, x86_64): assigned (buildvm-x86-23.rdu3.fedoraproject.org) -> open (buildvm-x86-23.rdu3.fedoraproject.org)
+  135398273 buildArch (jigawatts-0.2-0.17.202108276c78499.fc43.src.rpm, aarch64): assigned (buildvm-a64-27.rdu3.fedoraproject.org) -> open (buildvm-a64-27.rdu3.fedoraproject.org)
+  135398274 buildArch (jigawatts-0.2-0.17.202108276c78499.fc43.src.rpm, ppc64le): assigned (buildvm-ppc64le-12.rdu3.fedoraproject.org) -> open (buildvm-ppc64le-12.rdu3.fedoraproject.org)
+  135398275 buildArch (jigawatts-0.2-0.17.202108276c78499.fc43.src.rpm, s390x): assigned (buildvm-s390x-05.s390.fedoraproject.org) -> open (buildvm-s390x-05.s390.fedoraproject.org)
+  135398275 buildArch (jigawatts-0.2-0.17.202108276c78499.fc43.src.rpm, s390x): open (buildvm-s390x-05.s390.fedoraproject.org) -> closed
+  0 free  4 open  2 done  0 failed
+  135398272 buildArch (jigawatts-0.2-0.17.202108276c78499.fc43.src.rpm, x86_64): open (buildvm-x86-23.rdu3.fedoraproject.org) -> closed
+  0 free  3 open  3 done  0 failed
+  135398273 buildArch (jigawatts-0.2-0.17.202108276c78499.fc43.src.rpm, aarch64): open (buildvm-a64-27.rdu3.fedoraproject.org) -> closed
+  0 free  2 open  4 done  0 failed
+  135398364 tagBuild (noarch): free
+  135398274 buildArch (jigawatts-0.2-0.17.202108276c78499.fc43.src.rpm, ppc64le): open (buildvm-ppc64le-12.rdu3.fedoraproject.org) -> closed
+  1 free  1 open  5 done  0 failed
+  135398364 tagBuild (noarch): free -> assigned (buildvm-a64-25.rdu3.fedoraproject.org)
+  135398364 tagBuild (noarch): assigned (buildvm-a64-25.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  6 done  0 failed
+135398098 build (rawhide, /rpms/jigawatts.git:3171f1181ec8fcb8e8dc69243ffceb8a5ab667fc): open (buildvm-ppc64le-26.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  7 done  0 failed
+
+135398098 build (rawhide, /rpms/jigawatts.git:3171f1181ec8fcb8e8dc69243ffceb8a5ab667fc) completed successfully

@@ -1,0 +1,30 @@
+[rawhide 95f484d] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 8 insertions(+), 5 deletions(-)
+warning: Macro expanded in comment on line 30: %{java_home} macro
+
+
+Building libvirt-java-0.4.9-34.fc43 for rawhide
+Created task: 135398366
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135398366
+Watching tasks (this may be safely interrupted)...
+135398366 build (rawhide, /rpms/libvirt-java.git:95f484d34a7efa055626da408dfd9cfcde0d0193): free
+135398366 build (rawhide, /rpms/libvirt-java.git:95f484d34a7efa055626da408dfd9cfcde0d0193): free -> assigned (buildvm-a64-39.rdu3.fedoraproject.org)
+135398366 build (rawhide, /rpms/libvirt-java.git:95f484d34a7efa055626da408dfd9cfcde0d0193): assigned (buildvm-a64-39.rdu3.fedoraproject.org) -> open (buildvm-a64-39.rdu3.fedoraproject.org)
+  135398391 buildSRPMFromSCM (/rpms/libvirt-java.git:95f484d34a7efa055626da408dfd9cfcde0d0193): free
+  135398391 buildSRPMFromSCM (/rpms/libvirt-java.git:95f484d34a7efa055626da408dfd9cfcde0d0193): free -> assigned (buildvm-x86-25.rdu3.fedoraproject.org)
+  135398391 buildSRPMFromSCM (/rpms/libvirt-java.git:95f484d34a7efa055626da408dfd9cfcde0d0193): assigned (buildvm-x86-25.rdu3.fedoraproject.org) -> open (buildvm-x86-25.rdu3.fedoraproject.org)
+  135398391 buildSRPMFromSCM (/rpms/libvirt-java.git:95f484d34a7efa055626da408dfd9cfcde0d0193): open (buildvm-x86-25.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135398420 buildArch (libvirt-java-0.4.9-34.fc43.src.rpm, noarch): free
+  135398420 buildArch (libvirt-java-0.4.9-34.fc43.src.rpm, noarch): free -> assigned (buildvm-s390x-16.s390.fedoraproject.org)
+  135398420 buildArch (libvirt-java-0.4.9-34.fc43.src.rpm, noarch): assigned (buildvm-s390x-16.s390.fedoraproject.org) -> open (buildvm-s390x-16.s390.fedoraproject.org)
+  135398420 buildArch (libvirt-java-0.4.9-34.fc43.src.rpm, noarch): open (buildvm-s390x-16.s390.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  135398481 tagBuild (noarch): free
+  135398481 tagBuild (noarch): free -> assigned (buildvm-a64-18.rdu3.fedoraproject.org)
+  135398481 tagBuild (noarch): assigned (buildvm-a64-18.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+135398366 build (rawhide, /rpms/libvirt-java.git:95f484d34a7efa055626da408dfd9cfcde0d0193): open (buildvm-a64-39.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135398366 build (rawhide, /rpms/libvirt-java.git:95f484d34a7efa055626da408dfd9cfcde0d0193) completed successfully

@@ -1,0 +1,26 @@
+[rawhide 5549800] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 6 insertions(+), 3 deletions(-)
+Building libfonts-1.1.3-50.fc43 for rawhide
+Created task: 135398292
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135398292
+Watching tasks (this may be safely interrupted)...
+135398292 build (rawhide, /rpms/libfonts.git:55498004e388d26e64376f1a632977d5cc3e8e45): free
+135398292 build (rawhide, /rpms/libfonts.git:55498004e388d26e64376f1a632977d5cc3e8e45): free -> open (buildvm-a64-28.rdu3.fedoraproject.org)
+  135398331 buildSRPMFromSCM (/rpms/libfonts.git:55498004e388d26e64376f1a632977d5cc3e8e45): free
+  135398331 buildSRPMFromSCM (/rpms/libfonts.git:55498004e388d26e64376f1a632977d5cc3e8e45): free -> assigned (buildvm-x86-24.rdu3.fedoraproject.org)
+  135398331 buildSRPMFromSCM (/rpms/libfonts.git:55498004e388d26e64376f1a632977d5cc3e8e45): assigned (buildvm-x86-24.rdu3.fedoraproject.org) -> open (buildvm-x86-24.rdu3.fedoraproject.org)
+  135398331 buildSRPMFromSCM (/rpms/libfonts.git:55498004e388d26e64376f1a632977d5cc3e8e45): open (buildvm-x86-24.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135398367 buildArch (libfonts-1.1.3-50.fc43.src.rpm, noarch): free
+  135398367 buildArch (libfonts-1.1.3-50.fc43.src.rpm, noarch): free -> assigned (buildvm-x86-31.rdu3.fedoraproject.org)
+  135398367 buildArch (libfonts-1.1.3-50.fc43.src.rpm, noarch): assigned (buildvm-x86-31.rdu3.fedoraproject.org) -> open (buildvm-x86-31.rdu3.fedoraproject.org)
+  135398367 buildArch (libfonts-1.1.3-50.fc43.src.rpm, noarch): open (buildvm-x86-31.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  135398407 tagBuild (noarch): free
+  135398407 tagBuild (noarch): free -> assigned (buildvm-x86-31.rdu3.fedoraproject.org)
+  135398407 tagBuild (noarch): assigned (buildvm-x86-31.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+135398292 build (rawhide, /rpms/libfonts.git:55498004e388d26e64376f1a632977d5cc3e8e45): open (buildvm-a64-28.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135398292 build (rawhide, /rpms/libfonts.git:55498004e388d26e64376f1a632977d5cc3e8e45) completed successfully

@@ -1,0 +1,29 @@
+RPMAutoSpec usage detected, not changing the spec file.
+[rawhide fbcc062] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Found a gating.yaml file in the repo and it is properly configured
+Building regexp-1.5-61.fc43 for rawhide
+Created task: 135398544
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135398544
+Watching tasks (this may be safely interrupted)...
+135398544 build (rawhide, /rpms/regexp.git:fbcc062372bba21e8277e982c85f4c56c09ea471): free
+135398544 build (rawhide, /rpms/regexp.git:fbcc062372bba21e8277e982c85f4c56c09ea471): free -> assigned (buildvm-x86-25.rdu3.fedoraproject.org)
+135398544 build (rawhide, /rpms/regexp.git:fbcc062372bba21e8277e982c85f4c56c09ea471): assigned (buildvm-x86-25.rdu3.fedoraproject.org) -> open (buildvm-x86-25.rdu3.fedoraproject.org)
+  135398577 buildSRPMFromSCM (/rpms/regexp.git:fbcc062372bba21e8277e982c85f4c56c09ea471): free
+  135398577 buildSRPMFromSCM (/rpms/regexp.git:fbcc062372bba21e8277e982c85f4c56c09ea471): free -> assigned (buildvm-s390x-07.s390.fedoraproject.org)
+  135398577 buildSRPMFromSCM (/rpms/regexp.git:fbcc062372bba21e8277e982c85f4c56c09ea471): assigned (buildvm-s390x-07.s390.fedoraproject.org) -> open (buildvm-s390x-07.s390.fedoraproject.org)
+  135398609 buildArch (regexp-1.5-61.fc43.src.rpm, noarch): free
+  135398577 buildSRPMFromSCM (/rpms/regexp.git:fbcc062372bba21e8277e982c85f4c56c09ea471): open (buildvm-s390x-07.s390.fedoraproject.org) -> closed
+  1 free  1 open  1 done  0 failed
+  135398609 buildArch (regexp-1.5-61.fc43.src.rpm, noarch): free -> assigned (buildvm-ppc64le-25.rdu3.fedoraproject.org)
+  135398609 buildArch (regexp-1.5-61.fc43.src.rpm, noarch): assigned (buildvm-ppc64le-25.rdu3.fedoraproject.org) -> open (buildvm-ppc64le-25.rdu3.fedoraproject.org)
+  135398668 tagBuild (noarch): free
+  135398609 buildArch (regexp-1.5-61.fc43.src.rpm, noarch): open (buildvm-ppc64le-25.rdu3.fedoraproject.org) -> closed
+  1 free  1 open  2 done  0 failed
+  135398668 tagBuild (noarch): free -> assigned (buildvm-a64-33.rdu3.fedoraproject.org)
+135398544 build (rawhide, /rpms/regexp.git:fbcc062372bba21e8277e982c85f4c56c09ea471): open (buildvm-x86-25.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+  135398668 tagBuild (noarch): assigned (buildvm-a64-33.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135398544 build (rawhide, /rpms/regexp.git:fbcc062372bba21e8277e982c85f4c56c09ea471) completed successfully

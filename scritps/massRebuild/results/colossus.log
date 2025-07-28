@@ -1,0 +1,25 @@
+[rawhide cc4e889] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 7 insertions(+), 4 deletions(-)
+Building colossus-0.14.0-32.fc43 for rawhide
+Created task: 135397760
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135397760
+Watching tasks (this may be safely interrupted)...
+135397760 build (rawhide, /rpms/colossus.git:cc4e8894d7b9c3e4e8fd690c42bf1998c5688c34): free
+135397760 build (rawhide, /rpms/colossus.git:cc4e8894d7b9c3e4e8fd690c42bf1998c5688c34): free -> assigned (buildvm-a64-27.rdu3.fedoraproject.org)
+135397760 build (rawhide, /rpms/colossus.git:cc4e8894d7b9c3e4e8fd690c42bf1998c5688c34): assigned (buildvm-a64-27.rdu3.fedoraproject.org) -> open (buildvm-a64-27.rdu3.fedoraproject.org)
+  135397772 buildSRPMFromSCM (/rpms/colossus.git:cc4e8894d7b9c3e4e8fd690c42bf1998c5688c34): free
+  135397772 buildSRPMFromSCM (/rpms/colossus.git:cc4e8894d7b9c3e4e8fd690c42bf1998c5688c34): free -> open (buildvm-s390x-05.s390.fedoraproject.org)
+  135397772 buildSRPMFromSCM (/rpms/colossus.git:cc4e8894d7b9c3e4e8fd690c42bf1998c5688c34): open (buildvm-s390x-05.s390.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135397839 buildArch (colossus-0.14.0-32.fc43.src.rpm, noarch): assigned (buildvm-x86-31.rdu3.fedoraproject.org)
+  135397839 buildArch (colossus-0.14.0-32.fc43.src.rpm, noarch): assigned (buildvm-x86-31.rdu3.fedoraproject.org) -> open (buildvm-x86-31.rdu3.fedoraproject.org)
+  135397839 buildArch (colossus-0.14.0-32.fc43.src.rpm, noarch): open (buildvm-x86-31.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  135397912 tagBuild (noarch): free
+  135397912 tagBuild (noarch): free -> assigned (buildvm-s390x-18.s390.fedoraproject.org)
+  135397912 tagBuild (noarch): assigned (buildvm-s390x-18.s390.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+135397760 build (rawhide, /rpms/colossus.git:cc4e8894d7b9c3e4e8fd690c42bf1998c5688c34): open (buildvm-a64-27.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135397760 build (rawhide, /rpms/colossus.git:cc4e8894d7b9c3e4e8fd690c42bf1998c5688c34) completed successfully

@@ -1,0 +1,26 @@
+[rawhide 66e9821] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 6 insertions(+), 3 deletions(-)
+Building librepository-1.1.3-47.fc43 for rawhide
+Created task: 135398343
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135398343
+Watching tasks (this may be safely interrupted)...
+135398343 build (rawhide, /rpms/librepository.git:66e98215de8dd6a1b2213d225d32df0d77e110e4): free
+135398343 build (rawhide, /rpms/librepository.git:66e98215de8dd6a1b2213d225d32df0d77e110e4): free -> assigned (buildvm-a64-23.rdu3.fedoraproject.org)
+135398343 build (rawhide, /rpms/librepository.git:66e98215de8dd6a1b2213d225d32df0d77e110e4): assigned (buildvm-a64-23.rdu3.fedoraproject.org) -> open (buildvm-a64-23.rdu3.fedoraproject.org)
+  135398369 buildSRPMFromSCM (/rpms/librepository.git:66e98215de8dd6a1b2213d225d32df0d77e110e4): free
+  135398369 buildSRPMFromSCM (/rpms/librepository.git:66e98215de8dd6a1b2213d225d32df0d77e110e4): free -> open (buildvm-s390x-08.s390.fedoraproject.org)
+  135398369 buildSRPMFromSCM (/rpms/librepository.git:66e98215de8dd6a1b2213d225d32df0d77e110e4): open (buildvm-s390x-08.s390.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135398403 buildArch (librepository-1.1.3-47.fc43.src.rpm, noarch): free
+  135398403 buildArch (librepository-1.1.3-47.fc43.src.rpm, noarch): free -> assigned (buildvm-a64-25.rdu3.fedoraproject.org)
+  135398403 buildArch (librepository-1.1.3-47.fc43.src.rpm, noarch): assigned (buildvm-a64-25.rdu3.fedoraproject.org) -> open (buildvm-a64-25.rdu3.fedoraproject.org)
+  135398403 buildArch (librepository-1.1.3-47.fc43.src.rpm, noarch): open (buildvm-a64-25.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  135398437 tagBuild (noarch): free
+  135398437 tagBuild (noarch): free -> assigned (buildvm-a64-41.rdu3.fedoraproject.org)
+135398343 build (rawhide, /rpms/librepository.git:66e98215de8dd6a1b2213d225d32df0d77e110e4): open (buildvm-a64-23.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+  135398437 tagBuild (noarch): assigned (buildvm-a64-41.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135398343 build (rawhide, /rpms/librepository.git:66e98215de8dd6a1b2213d225d32df0d77e110e4) completed successfully

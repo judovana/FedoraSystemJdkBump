@@ -1,0 +1,42 @@
+[rawhide d950333] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 5 insertions(+), 2 deletions(-)
+Building mp-20240319-15.20240319git9646be4.fc43 for rawhide
+Created task: 135398408
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135398408
+Watching tasks (this may be safely interrupted)...
+135398408 build (rawhide, /rpms/mp.git:d9503336290198ca8bc268dea9232a77b7dfc9e3): free
+135398408 build (rawhide, /rpms/mp.git:d9503336290198ca8bc268dea9232a77b7dfc9e3): free -> assigned (buildvm-s390x-08.s390.fedoraproject.org)
+135398408 build (rawhide, /rpms/mp.git:d9503336290198ca8bc268dea9232a77b7dfc9e3): assigned (buildvm-s390x-08.s390.fedoraproject.org) -> open (buildvm-s390x-08.s390.fedoraproject.org)
+  135398433 buildSRPMFromSCM (/rpms/mp.git:d9503336290198ca8bc268dea9232a77b7dfc9e3): free
+  135398433 buildSRPMFromSCM (/rpms/mp.git:d9503336290198ca8bc268dea9232a77b7dfc9e3): free -> assigned (buildvm-ppc64le-30.rdu3.fedoraproject.org)
+  135398433 buildSRPMFromSCM (/rpms/mp.git:d9503336290198ca8bc268dea9232a77b7dfc9e3): assigned (buildvm-ppc64le-30.rdu3.fedoraproject.org) -> open (buildvm-ppc64le-30.rdu3.fedoraproject.org)
+  135398433 buildSRPMFromSCM (/rpms/mp.git:d9503336290198ca8bc268dea9232a77b7dfc9e3): open (buildvm-ppc64le-30.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135398524 buildArch (mp-20240319-15.20240319git9646be4.fc43.src.rpm, aarch64): free
+  135398523 buildArch (mp-20240319-15.20240319git9646be4.fc43.src.rpm, x86_64): free
+  135398525 buildArch (mp-20240319-15.20240319git9646be4.fc43.src.rpm, ppc64le): free
+  135398526 buildArch (mp-20240319-15.20240319git9646be4.fc43.src.rpm, s390x): free
+  135398524 buildArch (mp-20240319-15.20240319git9646be4.fc43.src.rpm, aarch64): free -> assigned (buildvm-a64-22.rdu3.fedoraproject.org)
+  135398523 buildArch (mp-20240319-15.20240319git9646be4.fc43.src.rpm, x86_64): free -> assigned (buildvm-x86-24.rdu3.fedoraproject.org)
+  135398525 buildArch (mp-20240319-15.20240319git9646be4.fc43.src.rpm, ppc64le): free -> assigned (buildvm-ppc64le-14.rdu3.fedoraproject.org)
+  135398526 buildArch (mp-20240319-15.20240319git9646be4.fc43.src.rpm, s390x): free -> assigned (buildvm-s390x-15.s390.fedoraproject.org)
+  135398524 buildArch (mp-20240319-15.20240319git9646be4.fc43.src.rpm, aarch64): assigned (buildvm-a64-22.rdu3.fedoraproject.org) -> open (buildvm-a64-22.rdu3.fedoraproject.org)
+  135398523 buildArch (mp-20240319-15.20240319git9646be4.fc43.src.rpm, x86_64): assigned (buildvm-x86-24.rdu3.fedoraproject.org) -> open (buildvm-x86-24.rdu3.fedoraproject.org)
+  135398525 buildArch (mp-20240319-15.20240319git9646be4.fc43.src.rpm, ppc64le): assigned (buildvm-ppc64le-14.rdu3.fedoraproject.org) -> open (buildvm-ppc64le-14.rdu3.fedoraproject.org)
+  135398526 buildArch (mp-20240319-15.20240319git9646be4.fc43.src.rpm, s390x): assigned (buildvm-s390x-15.s390.fedoraproject.org) -> open (buildvm-s390x-15.s390.fedoraproject.org)
+  135398523 buildArch (mp-20240319-15.20240319git9646be4.fc43.src.rpm, x86_64): open (buildvm-x86-24.rdu3.fedoraproject.org) -> closed
+  0 free  4 open  2 done  0 failed
+  135398524 buildArch (mp-20240319-15.20240319git9646be4.fc43.src.rpm, aarch64): open (buildvm-a64-22.rdu3.fedoraproject.org) -> closed
+  0 free  3 open  3 done  0 failed
+  135398525 buildArch (mp-20240319-15.20240319git9646be4.fc43.src.rpm, ppc64le): open (buildvm-ppc64le-14.rdu3.fedoraproject.org) -> closed
+  0 free  2 open  4 done  0 failed
+  135398526 buildArch (mp-20240319-15.20240319git9646be4.fc43.src.rpm, s390x): open (buildvm-s390x-15.s390.fedoraproject.org) -> closed
+  0 free  1 open  5 done  0 failed
+  135398834 tagBuild (noarch): free
+  135398834 tagBuild (noarch): free -> assigned (buildhw-x86-03.rdu3.fedoraproject.org)
+  135398834 tagBuild (noarch): assigned (buildhw-x86-03.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  6 done  0 failed
+135398408 build (rawhide, /rpms/mp.git:d9503336290198ca8bc268dea9232a77b7dfc9e3): open (buildvm-s390x-08.s390.fedoraproject.org) -> closed
+  0 free  0 open  7 done  0 failed
+
+135398408 build (rawhide, /rpms/mp.git:d9503336290198ca8bc268dea9232a77b7dfc9e3) completed successfully

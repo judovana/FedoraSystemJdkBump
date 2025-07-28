@@ -1,0 +1,25 @@
+[rawhide 4296b97] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 6 insertions(+), 3 deletions(-)
+Building hid4java-0.7.0-12.fc43 for rawhide
+Created task: 135397968
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135397968
+Watching tasks (this may be safely interrupted)...
+135397968 build (rawhide, /rpms/hid4java.git:4296b97704fb3250f1229a6be0d2ad9e0a0fe95b): free
+135397968 build (rawhide, /rpms/hid4java.git:4296b97704fb3250f1229a6be0d2ad9e0a0fe95b): free -> assigned (buildvm-x86-13.rdu3.fedoraproject.org)
+135397968 build (rawhide, /rpms/hid4java.git:4296b97704fb3250f1229a6be0d2ad9e0a0fe95b): assigned (buildvm-x86-13.rdu3.fedoraproject.org) -> open (buildvm-x86-13.rdu3.fedoraproject.org)
+  135397991 buildSRPMFromSCM (/rpms/hid4java.git:4296b97704fb3250f1229a6be0d2ad9e0a0fe95b): free
+  135397991 buildSRPMFromSCM (/rpms/hid4java.git:4296b97704fb3250f1229a6be0d2ad9e0a0fe95b): free -> open (buildvm-x86-31.rdu3.fedoraproject.org)
+  135398011 buildArch (hid4java-0.7.0-12.fc43.src.rpm, noarch): free
+  135397991 buildSRPMFromSCM (/rpms/hid4java.git:4296b97704fb3250f1229a6be0d2ad9e0a0fe95b): open (buildvm-x86-31.rdu3.fedoraproject.org) -> closed
+  1 free  1 open  1 done  0 failed
+  135398011 buildArch (hid4java-0.7.0-12.fc43.src.rpm, noarch): free -> assigned (buildvm-s390x-18.s390.fedoraproject.org)
+  135398011 buildArch (hid4java-0.7.0-12.fc43.src.rpm, noarch): assigned (buildvm-s390x-18.s390.fedoraproject.org) -> open (buildvm-s390x-18.s390.fedoraproject.org)
+  135398011 buildArch (hid4java-0.7.0-12.fc43.src.rpm, noarch): open (buildvm-s390x-18.s390.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  135398050 tagBuild (noarch): free
+135397968 build (rawhide, /rpms/hid4java.git:4296b97704fb3250f1229a6be0d2ad9e0a0fe95b): open (buildvm-x86-13.rdu3.fedoraproject.org) -> closed
+  1 free  0 open  3 done  0 failed
+  135398050 tagBuild (noarch): free -> closed
+  0 free  0 open  4 done  0 failed
+
+135397968 build (rawhide, /rpms/hid4java.git:4296b97704fb3250f1229a6be0d2ad9e0a0fe95b) completed successfully

@@ -1,0 +1,18 @@
+Building freemarker-2.3.31-17.fc43 for rawhide
+Created task: 135398397
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135398397
+Watching tasks (this may be safely interrupted)...
+135398397 build (rawhide, /rpms/freemarker.git:662ffb97b9da489002224efd12e331b73777a5f4): free
+135398397 build (rawhide, /rpms/freemarker.git:662ffb97b9da489002224efd12e331b73777a5f4): free -> open (buildvm-a64-41.rdu3.fedoraproject.org)
+  135398405 buildSRPMFromSCM (/rpms/freemarker.git:662ffb97b9da489002224efd12e331b73777a5f4): free
+  135398405 buildSRPMFromSCM (/rpms/freemarker.git:662ffb97b9da489002224efd12e331b73777a5f4): free -> open (buildvm-a64-18.rdu3.fedoraproject.org)
+  135398455 buildArch (freemarker-2.3.31-17.fc43.src.rpm, noarch): free
+  135398405 buildSRPMFromSCM (/rpms/freemarker.git:662ffb97b9da489002224efd12e331b73777a5f4): open (buildvm-a64-18.rdu3.fedoraproject.org) -> closed
+  1 free  1 open  1 done  0 failed
+  135398455 buildArch (freemarker-2.3.31-17.fc43.src.rpm, noarch): free -> open (buildvm-x86-08.rdu3.fedoraproject.org)
+135398397 build (rawhide, /rpms/freemarker.git:662ffb97b9da489002224efd12e331b73777a5f4): open (buildvm-a64-41.rdu3.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
+  0 free  1 open  1 done  1 failed
+  135398455 buildArch (freemarker-2.3.31-17.fc43.src.rpm, noarch): open (buildvm-x86-08.rdu3.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
+  0 free  0 open  1 done  2 failed
+
+135398397 build (rawhide, /rpms/freemarker.git:662ffb97b9da489002224efd12e331b73777a5f4) failed

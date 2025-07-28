@@ -1,0 +1,26 @@
+[rawhide 932931a] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 5 insertions(+), 2 deletions(-)
+Building jcip-annotations-1.0.1-4.fc43 for rawhide
+Created task: 135398039
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135398039
+Watching tasks (this may be safely interrupted)...
+135398039 build (rawhide, /rpms/jcip-annotations.git:932931a2ea5045b504bf9249a5083cc2ef519cf6): free
+135398039 build (rawhide, /rpms/jcip-annotations.git:932931a2ea5045b504bf9249a5083cc2ef519cf6): free -> assigned (buildvm-x86-23.rdu3.fedoraproject.org)
+135398039 build (rawhide, /rpms/jcip-annotations.git:932931a2ea5045b504bf9249a5083cc2ef519cf6): assigned (buildvm-x86-23.rdu3.fedoraproject.org) -> open (buildvm-x86-23.rdu3.fedoraproject.org)
+  135398072 buildSRPMFromSCM (/rpms/jcip-annotations.git:932931a2ea5045b504bf9249a5083cc2ef519cf6): free
+  135398072 buildSRPMFromSCM (/rpms/jcip-annotations.git:932931a2ea5045b504bf9249a5083cc2ef519cf6): free -> assigned (buildvm-s390x-20.s390.fedoraproject.org)
+  135398072 buildSRPMFromSCM (/rpms/jcip-annotations.git:932931a2ea5045b504bf9249a5083cc2ef519cf6): assigned (buildvm-s390x-20.s390.fedoraproject.org) -> open (buildvm-s390x-20.s390.fedoraproject.org)
+  135398072 buildSRPMFromSCM (/rpms/jcip-annotations.git:932931a2ea5045b504bf9249a5083cc2ef519cf6): open (buildvm-s390x-20.s390.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135398159 buildArch (jcip-annotations-1.0.1-4.fc43.src.rpm, noarch): free
+  135398159 buildArch (jcip-annotations-1.0.1-4.fc43.src.rpm, noarch): free -> open (buildvm-a64-24.rdu3.fedoraproject.org)
+  135398159 buildArch (jcip-annotations-1.0.1-4.fc43.src.rpm, noarch): open (buildvm-a64-24.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  135398257 tagBuild (noarch): free
+  135398257 tagBuild (noarch): free -> assigned (buildvm-s390x-20.s390.fedoraproject.org)
+  135398257 tagBuild (noarch): assigned (buildvm-s390x-20.s390.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+135398039 build (rawhide, /rpms/jcip-annotations.git:932931a2ea5045b504bf9249a5083cc2ef519cf6): open (buildvm-x86-23.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135398039 build (rawhide, /rpms/jcip-annotations.git:932931a2ea5045b504bf9249a5083cc2ef519cf6) completed successfully

@@ -1,0 +1,28 @@
+RPMAutoSpec usage detected, not changing the spec file.
+[rawhide d17abed] Rebuilt for java-25-openjdk as preffered jdk
+Found a gating.yaml file in the repo and it is properly configured
+Building javapackages-bootstrap-1.24.0-4.fc43 for rawhide
+Created task: 135398012
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135398012
+Watching tasks (this may be safely interrupted)...
+135398012 build (rawhide, /rpms/javapackages-bootstrap.git:d17abed1c0fd667b3ec88c87a7f297ea4c7b1c53): free
+135398012 build (rawhide, /rpms/javapackages-bootstrap.git:d17abed1c0fd667b3ec88c87a7f297ea4c7b1c53): free -> assigned (buildhw-a64-01.rdu3.fedoraproject.org)
+135398012 build (rawhide, /rpms/javapackages-bootstrap.git:d17abed1c0fd667b3ec88c87a7f297ea4c7b1c53): assigned (buildhw-a64-01.rdu3.fedoraproject.org) -> open (buildhw-a64-01.rdu3.fedoraproject.org)
+  135398042 buildSRPMFromSCM (/rpms/javapackages-bootstrap.git:d17abed1c0fd667b3ec88c87a7f297ea4c7b1c53): free
+  135398042 buildSRPMFromSCM (/rpms/javapackages-bootstrap.git:d17abed1c0fd667b3ec88c87a7f297ea4c7b1c53): free -> assigned (buildvm-x86-10.rdu3.fedoraproject.org)
+  135398042 buildSRPMFromSCM (/rpms/javapackages-bootstrap.git:d17abed1c0fd667b3ec88c87a7f297ea4c7b1c53): assigned (buildvm-x86-10.rdu3.fedoraproject.org) -> open (buildvm-x86-10.rdu3.fedoraproject.org)
+  135398042 buildSRPMFromSCM (/rpms/javapackages-bootstrap.git:d17abed1c0fd667b3ec88c87a7f297ea4c7b1c53): open (buildvm-x86-10.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135398139 buildArch (javapackages-bootstrap-1.24.0-4.fc43.src.rpm, noarch): free
+  135398139 buildArch (javapackages-bootstrap-1.24.0-4.fc43.src.rpm, noarch): free -> assigned (buildvm-a64-41.rdu3.fedoraproject.org)
+  135398139 buildArch (javapackages-bootstrap-1.24.0-4.fc43.src.rpm, noarch): assigned (buildvm-a64-41.rdu3.fedoraproject.org) -> open (buildvm-a64-41.rdu3.fedoraproject.org)
+  135398139 buildArch (javapackages-bootstrap-1.24.0-4.fc43.src.rpm, noarch): open (buildvm-a64-41.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  135398386 tagBuild (noarch): free
+  135398386 tagBuild (noarch): free -> assigned (buildvm-a64-45.rdu3.fedoraproject.org)
+135398012 build (rawhide, /rpms/javapackages-bootstrap.git:d17abed1c0fd667b3ec88c87a7f297ea4c7b1c53): open (buildhw-a64-01.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+  135398386 tagBuild (noarch): assigned (buildvm-a64-45.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135398012 build (rawhide, /rpms/javapackages-bootstrap.git:d17abed1c0fd667b3ec88c87a7f297ea4c7b1c53) completed successfully

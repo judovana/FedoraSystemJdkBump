@@ -1,0 +1,26 @@
+[rawhide 0727aa2] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 7 insertions(+), 4 deletions(-)
+Building rsyntaxtextarea-3.1.3-16.fc43 for rawhide
+Created task: 135398589
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135398589
+Watching tasks (this may be safely interrupted)...
+135398589 build (rawhide, /rpms/rsyntaxtextarea.git:0727aa24a4b2fd61413e6f750d4840a0e117b972): free
+135398589 build (rawhide, /rpms/rsyntaxtextarea.git:0727aa24a4b2fd61413e6f750d4840a0e117b972): free -> open (buildvm-a64-43.rdu3.fedoraproject.org)
+  135398596 buildSRPMFromSCM (/rpms/rsyntaxtextarea.git:0727aa24a4b2fd61413e6f750d4840a0e117b972): free
+  135398596 buildSRPMFromSCM (/rpms/rsyntaxtextarea.git:0727aa24a4b2fd61413e6f750d4840a0e117b972): free -> assigned (buildvm-a64-11.rdu3.fedoraproject.org)
+  135398596 buildSRPMFromSCM (/rpms/rsyntaxtextarea.git:0727aa24a4b2fd61413e6f750d4840a0e117b972): assigned (buildvm-a64-11.rdu3.fedoraproject.org) -> open (buildvm-a64-11.rdu3.fedoraproject.org)
+  135398596 buildSRPMFromSCM (/rpms/rsyntaxtextarea.git:0727aa24a4b2fd61413e6f750d4840a0e117b972): open (buildvm-a64-11.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135398625 buildArch (rsyntaxtextarea-3.1.3-16.fc43.src.rpm, noarch): free
+  135398625 buildArch (rsyntaxtextarea-3.1.3-16.fc43.src.rpm, noarch): free -> assigned (buildvm-a64-11.rdu3.fedoraproject.org)
+  135398625 buildArch (rsyntaxtextarea-3.1.3-16.fc43.src.rpm, noarch): assigned (buildvm-a64-11.rdu3.fedoraproject.org) -> open (buildvm-a64-11.rdu3.fedoraproject.org)
+  135398625 buildArch (rsyntaxtextarea-3.1.3-16.fc43.src.rpm, noarch): open (buildvm-a64-11.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  135398667 tagBuild (noarch): free
+  135398667 tagBuild (noarch): free -> assigned (buildvm-a64-06.rdu3.fedoraproject.org)
+  135398667 tagBuild (noarch): assigned (buildvm-a64-06.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+135398589 build (rawhide, /rpms/rsyntaxtextarea.git:0727aa24a4b2fd61413e6f750d4840a0e117b972): open (buildvm-a64-43.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135398589 build (rawhide, /rpms/rsyntaxtextarea.git:0727aa24a4b2fd61413e6f750d4840a0e117b972) completed successfully

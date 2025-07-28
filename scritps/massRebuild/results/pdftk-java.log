@@ -1,0 +1,27 @@
+[rawhide 25eed8f] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 7 insertions(+), 4 deletions(-)
+Building pdftk-java-3.3.3-10.fc43 for rawhide
+Created task: 135398485
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135398485
+Watching tasks (this may be safely interrupted)...
+135398485 build (rawhide, /rpms/pdftk-java.git:25eed8f8219a42f9d2e6f5c560f07a077cc2dd46): free
+135398485 build (rawhide, /rpms/pdftk-java.git:25eed8f8219a42f9d2e6f5c560f07a077cc2dd46): free -> assigned (buildvm-a64-45.rdu3.fedoraproject.org)
+135398485 build (rawhide, /rpms/pdftk-java.git:25eed8f8219a42f9d2e6f5c560f07a077cc2dd46): assigned (buildvm-a64-45.rdu3.fedoraproject.org) -> open (buildvm-a64-45.rdu3.fedoraproject.org)
+  135398490 buildSRPMFromSCM (/rpms/pdftk-java.git:25eed8f8219a42f9d2e6f5c560f07a077cc2dd46): free
+  135398490 buildSRPMFromSCM (/rpms/pdftk-java.git:25eed8f8219a42f9d2e6f5c560f07a077cc2dd46): free -> assigned (buildvm-a64-12.rdu3.fedoraproject.org)
+  135398490 buildSRPMFromSCM (/rpms/pdftk-java.git:25eed8f8219a42f9d2e6f5c560f07a077cc2dd46): assigned (buildvm-a64-12.rdu3.fedoraproject.org) -> open (buildvm-a64-12.rdu3.fedoraproject.org)
+  135398490 buildSRPMFromSCM (/rpms/pdftk-java.git:25eed8f8219a42f9d2e6f5c560f07a077cc2dd46): open (buildvm-a64-12.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135398546 buildArch (pdftk-java-3.3.3-10.fc43.src.rpm, noarch): free
+  135398546 buildArch (pdftk-java-3.3.3-10.fc43.src.rpm, noarch): free -> assigned (buildvm-ppc64le-30.rdu3.fedoraproject.org)
+  135398546 buildArch (pdftk-java-3.3.3-10.fc43.src.rpm, noarch): assigned (buildvm-ppc64le-30.rdu3.fedoraproject.org) -> open (buildvm-ppc64le-30.rdu3.fedoraproject.org)
+  135398616 tagBuild (noarch): free
+  135398546 buildArch (pdftk-java-3.3.3-10.fc43.src.rpm, noarch): open (buildvm-ppc64le-30.rdu3.fedoraproject.org) -> closed
+  1 free  1 open  2 done  0 failed
+  135398616 tagBuild (noarch): free -> assigned (buildvm-x86-08.rdu3.fedoraproject.org)
+  135398616 tagBuild (noarch): assigned (buildvm-x86-08.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+135398485 build (rawhide, /rpms/pdftk-java.git:25eed8f8219a42f9d2e6f5c560f07a077cc2dd46): open (buildvm-a64-45.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135398485 build (rawhide, /rpms/pdftk-java.git:25eed8f8219a42f9d2e6f5c560f07a077cc2dd46) completed successfully

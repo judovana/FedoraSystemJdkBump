@@ -1,0 +1,27 @@
+[rawhide efc4a55] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 6 insertions(+), 3 deletions(-)
+Building freerouting-1.3.1-22.fc43 for rawhide
+Created task: 135397961
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135397961
+Watching tasks (this may be safely interrupted)...
+135397961 build (rawhide, /rpms/freerouting.git:efc4a551b38a70229c96f75fcf212ffbfd4a67c6): free
+135397961 build (rawhide, /rpms/freerouting.git:efc4a551b38a70229c96f75fcf212ffbfd4a67c6): free -> assigned (buildvm-a64-32.rdu3.fedoraproject.org)
+135397961 build (rawhide, /rpms/freerouting.git:efc4a551b38a70229c96f75fcf212ffbfd4a67c6): assigned (buildvm-a64-32.rdu3.fedoraproject.org) -> open (buildvm-a64-32.rdu3.fedoraproject.org)
+  135397969 buildSRPMFromSCM (/rpms/freerouting.git:efc4a551b38a70229c96f75fcf212ffbfd4a67c6): free
+  135397969 buildSRPMFromSCM (/rpms/freerouting.git:efc4a551b38a70229c96f75fcf212ffbfd4a67c6): free -> assigned (buildvm-s390x-20.s390.fedoraproject.org)
+  135397969 buildSRPMFromSCM (/rpms/freerouting.git:efc4a551b38a70229c96f75fcf212ffbfd4a67c6): assigned (buildvm-s390x-20.s390.fedoraproject.org) -> open (buildvm-s390x-20.s390.fedoraproject.org)
+  135397969 buildSRPMFromSCM (/rpms/freerouting.git:efc4a551b38a70229c96f75fcf212ffbfd4a67c6): open (buildvm-s390x-20.s390.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135398007 buildArch (freerouting-1.3.1-22.fc43.src.rpm, noarch): free
+  135398007 buildArch (freerouting-1.3.1-22.fc43.src.rpm, noarch): free -> assigned (buildvm-s390x-07.s390.fedoraproject.org)
+  135398007 buildArch (freerouting-1.3.1-22.fc43.src.rpm, noarch): assigned (buildvm-s390x-07.s390.fedoraproject.org) -> open (buildvm-s390x-07.s390.fedoraproject.org)
+  135398007 buildArch (freerouting-1.3.1-22.fc43.src.rpm, noarch): open (buildvm-s390x-07.s390.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  135398047 tagBuild (noarch): free
+  135398047 tagBuild (noarch): free -> assigned (buildvm-a64-45.rdu3.fedoraproject.org)
+  135398047 tagBuild (noarch): assigned (buildvm-a64-45.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+135397961 build (rawhide, /rpms/freerouting.git:efc4a551b38a70229c96f75fcf212ffbfd4a67c6): open (buildvm-a64-32.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135397961 build (rawhide, /rpms/freerouting.git:efc4a551b38a70229c96f75fcf212ffbfd4a67c6) completed successfully

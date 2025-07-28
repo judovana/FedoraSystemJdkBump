@@ -1,0 +1,27 @@
+[rawhide 9e6b6cf] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 5 insertions(+), 2 deletions(-)
+Building dom4j-2.1.4-3.fc43 for rawhide
+Created task: 135397844
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135397844
+Watching tasks (this may be safely interrupted)...
+135397844 build (rawhide, /rpms/dom4j.git:9e6b6cf012b8bf8bfa7720b5963421be994c66af): free
+135397844 build (rawhide, /rpms/dom4j.git:9e6b6cf012b8bf8bfa7720b5963421be994c66af): free -> assigned (buildvm-a64-46.rdu3.fedoraproject.org)
+135397844 build (rawhide, /rpms/dom4j.git:9e6b6cf012b8bf8bfa7720b5963421be994c66af): assigned (buildvm-a64-46.rdu3.fedoraproject.org) -> open (buildvm-a64-46.rdu3.fedoraproject.org)
+  135397911 buildSRPMFromSCM (/rpms/dom4j.git:9e6b6cf012b8bf8bfa7720b5963421be994c66af): free
+  135397911 buildSRPMFromSCM (/rpms/dom4j.git:9e6b6cf012b8bf8bfa7720b5963421be994c66af): free -> assigned (buildvm-ppc64le-28.rdu3.fedoraproject.org)
+  135397911 buildSRPMFromSCM (/rpms/dom4j.git:9e6b6cf012b8bf8bfa7720b5963421be994c66af): assigned (buildvm-ppc64le-28.rdu3.fedoraproject.org) -> open (buildvm-ppc64le-28.rdu3.fedoraproject.org)
+  135397911 buildSRPMFromSCM (/rpms/dom4j.git:9e6b6cf012b8bf8bfa7720b5963421be994c66af): open (buildvm-ppc64le-28.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135397962 buildArch (dom4j-2.1.4-3.fc43.src.rpm, noarch): free
+  135397962 buildArch (dom4j-2.1.4-3.fc43.src.rpm, noarch): free -> assigned (buildvm-s390x-05.s390.fedoraproject.org)
+  135397962 buildArch (dom4j-2.1.4-3.fc43.src.rpm, noarch): assigned (buildvm-s390x-05.s390.fedoraproject.org) -> open (buildvm-s390x-05.s390.fedoraproject.org)
+  135397962 buildArch (dom4j-2.1.4-3.fc43.src.rpm, noarch): open (buildvm-s390x-05.s390.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  135397995 tagBuild (noarch): free
+  135397995 tagBuild (noarch): free -> assigned (buildvm-a64-04.rdu3.fedoraproject.org)
+  135397995 tagBuild (noarch): assigned (buildvm-a64-04.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+135397844 build (rawhide, /rpms/dom4j.git:9e6b6cf012b8bf8bfa7720b5963421be994c66af): open (buildvm-a64-46.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135397844 build (rawhide, /rpms/dom4j.git:9e6b6cf012b8bf8bfa7720b5963421be994c66af) completed successfully

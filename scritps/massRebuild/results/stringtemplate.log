@@ -1,0 +1,27 @@
+[rawhide 4f564b0] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 6 insertions(+), 3 deletions(-)
+Building stringtemplate-3.2.1-40.fc43 for rawhide
+Created task: 135398619
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135398619
+Watching tasks (this may be safely interrupted)...
+135398619 build (rawhide, /rpms/stringtemplate.git:4f564b0c25c524e379296840a8881508bcf3b5f1): free
+135398619 build (rawhide, /rpms/stringtemplate.git:4f564b0c25c524e379296840a8881508bcf3b5f1): free -> assigned (buildvm-ppc64le-30.rdu3.fedoraproject.org)
+135398619 build (rawhide, /rpms/stringtemplate.git:4f564b0c25c524e379296840a8881508bcf3b5f1): assigned (buildvm-ppc64le-30.rdu3.fedoraproject.org) -> open (buildvm-ppc64le-30.rdu3.fedoraproject.org)
+  135398624 buildSRPMFromSCM (/rpms/stringtemplate.git:4f564b0c25c524e379296840a8881508bcf3b5f1): free
+  135398624 buildSRPMFromSCM (/rpms/stringtemplate.git:4f564b0c25c524e379296840a8881508bcf3b5f1): free -> assigned (buildvm-x86-24.rdu3.fedoraproject.org)
+  135398624 buildSRPMFromSCM (/rpms/stringtemplate.git:4f564b0c25c524e379296840a8881508bcf3b5f1): assigned (buildvm-x86-24.rdu3.fedoraproject.org) -> open (buildvm-x86-24.rdu3.fedoraproject.org)
+  135398624 buildSRPMFromSCM (/rpms/stringtemplate.git:4f564b0c25c524e379296840a8881508bcf3b5f1): open (buildvm-x86-24.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135398663 buildArch (stringtemplate-3.2.1-40.fc43.src.rpm, noarch): free
+  135398663 buildArch (stringtemplate-3.2.1-40.fc43.src.rpm, noarch): free -> assigned (buildvm-a64-22.rdu3.fedoraproject.org)
+  135398663 buildArch (stringtemplate-3.2.1-40.fc43.src.rpm, noarch): assigned (buildvm-a64-22.rdu3.fedoraproject.org) -> open (buildvm-a64-22.rdu3.fedoraproject.org)
+  135398663 buildArch (stringtemplate-3.2.1-40.fc43.src.rpm, noarch): open (buildvm-a64-22.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  135398708 tagBuild (noarch): free
+  135398708 tagBuild (noarch): free -> assigned (buildvm-a64-43.rdu3.fedoraproject.org)
+135398619 build (rawhide, /rpms/stringtemplate.git:4f564b0c25c524e379296840a8881508bcf3b5f1): open (buildvm-ppc64le-30.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+  135398708 tagBuild (noarch): assigned (buildvm-a64-43.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135398619 build (rawhide, /rpms/stringtemplate.git:4f564b0c25c524e379296840a8881508bcf3b5f1) completed successfully

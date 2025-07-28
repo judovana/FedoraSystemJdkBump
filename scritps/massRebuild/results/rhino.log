@@ -1,0 +1,25 @@
+[rawhide 71c6f19] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 5 insertions(+), 2 deletions(-)
+Building rhino-1.7.14-16.fc43 for rawhide
+Created task: 135398547
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135398547
+Watching tasks (this may be safely interrupted)...
+135398547 build (rawhide, /rpms/rhino.git:71c6f19986ff7e9becf2a6e6cd888ed5affa9cdf): free
+135398547 build (rawhide, /rpms/rhino.git:71c6f19986ff7e9becf2a6e6cd888ed5affa9cdf): free -> assigned (buildvm-s390x-19.s390.fedoraproject.org)
+135398547 build (rawhide, /rpms/rhino.git:71c6f19986ff7e9becf2a6e6cd888ed5affa9cdf): assigned (buildvm-s390x-19.s390.fedoraproject.org) -> open (buildvm-s390x-19.s390.fedoraproject.org)
+  135398569 buildSRPMFromSCM (/rpms/rhino.git:71c6f19986ff7e9becf2a6e6cd888ed5affa9cdf): free
+  135398569 buildSRPMFromSCM (/rpms/rhino.git:71c6f19986ff7e9becf2a6e6cd888ed5affa9cdf): free -> open (buildvm-x86-10.rdu3.fedoraproject.org)
+  135398569 buildSRPMFromSCM (/rpms/rhino.git:71c6f19986ff7e9becf2a6e6cd888ed5affa9cdf): open (buildvm-x86-10.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135398607 buildArch (rhino-1.7.14-16.fc43.src.rpm, noarch): assigned (buildvm-x86-30.rdu3.fedoraproject.org)
+  135398607 buildArch (rhino-1.7.14-16.fc43.src.rpm, noarch): assigned (buildvm-x86-30.rdu3.fedoraproject.org) -> open (buildvm-x86-30.rdu3.fedoraproject.org)
+  135398607 buildArch (rhino-1.7.14-16.fc43.src.rpm, noarch): open (buildvm-x86-30.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  135398632 tagBuild (noarch): free
+  135398632 tagBuild (noarch): free -> assigned (buildvm-a64-30.rdu3.fedoraproject.org)
+  135398632 tagBuild (noarch): assigned (buildvm-a64-30.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+135398547 build (rawhide, /rpms/rhino.git:71c6f19986ff7e9becf2a6e6cd888ed5affa9cdf): open (buildvm-s390x-19.s390.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135398547 build (rawhide, /rpms/rhino.git:71c6f19986ff7e9becf2a6e6cd888ed5affa9cdf) completed successfully

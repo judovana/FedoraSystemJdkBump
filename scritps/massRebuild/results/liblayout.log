@@ -1,0 +1,26 @@
+[rawhide 804057c] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 6 insertions(+), 3 deletions(-)
+Building liblayout-0.2.10-40.fc43 for rawhide
+Created task: 135398330
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135398330
+Watching tasks (this may be safely interrupted)...
+135398330 build (rawhide, /rpms/liblayout.git:804057cc2c6643e3d498beba4b3d52968c619424): free
+135398330 build (rawhide, /rpms/liblayout.git:804057cc2c6643e3d498beba4b3d52968c619424): free -> assigned (buildvm-s390x-19.s390.fedoraproject.org)
+135398330 build (rawhide, /rpms/liblayout.git:804057cc2c6643e3d498beba4b3d52968c619424): assigned (buildvm-s390x-19.s390.fedoraproject.org) -> open (buildvm-s390x-19.s390.fedoraproject.org)
+  135398355 buildSRPMFromSCM (/rpms/liblayout.git:804057cc2c6643e3d498beba4b3d52968c619424): free
+  135398355 buildSRPMFromSCM (/rpms/liblayout.git:804057cc2c6643e3d498beba4b3d52968c619424): free -> open (buildvm-s390x-05.s390.fedoraproject.org)
+  135398379 buildArch (liblayout-0.2.10-40.fc43.src.rpm, noarch): free
+  135398355 buildSRPMFromSCM (/rpms/liblayout.git:804057cc2c6643e3d498beba4b3d52968c619424): open (buildvm-s390x-05.s390.fedoraproject.org) -> closed
+  1 free  1 open  1 done  0 failed
+  135398379 buildArch (liblayout-0.2.10-40.fc43.src.rpm, noarch): free -> assigned (buildvm-a64-07.rdu3.fedoraproject.org)
+  135398379 buildArch (liblayout-0.2.10-40.fc43.src.rpm, noarch): assigned (buildvm-a64-07.rdu3.fedoraproject.org) -> open (buildvm-a64-07.rdu3.fedoraproject.org)
+  135398379 buildArch (liblayout-0.2.10-40.fc43.src.rpm, noarch): open (buildvm-a64-07.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  135398417 tagBuild (noarch): free
+  135398417 tagBuild (noarch): free -> assigned (buildvm-a64-46.rdu3.fedoraproject.org)
+  135398417 tagBuild (noarch): assigned (buildvm-a64-46.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+135398330 build (rawhide, /rpms/liblayout.git:804057cc2c6643e3d498beba4b3d52968c619424): open (buildvm-s390x-19.s390.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135398330 build (rawhide, /rpms/liblayout.git:804057cc2c6643e3d498beba4b3d52968c619424) completed successfully

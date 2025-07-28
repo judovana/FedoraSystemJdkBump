@@ -1,0 +1,18 @@
+Building apache-ivy-2.5.3-1.fc43 for rawhide
+Created task: 135399717
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135399717
+Watching tasks (this may be safely interrupted)...
+135399717 build (rawhide, /rpms/apache-ivy.git:2d9ffb29ba8f8ff9324fa5d2900bb17abcd9e3fc): free
+135399717 build (rawhide, /rpms/apache-ivy.git:2d9ffb29ba8f8ff9324fa5d2900bb17abcd9e3fc): free -> open (buildvm-a64-41.rdu3.fedoraproject.org)
+  135399718 buildSRPMFromSCM (/rpms/apache-ivy.git:2d9ffb29ba8f8ff9324fa5d2900bb17abcd9e3fc): free
+  135399718 buildSRPMFromSCM (/rpms/apache-ivy.git:2d9ffb29ba8f8ff9324fa5d2900bb17abcd9e3fc): free -> open (buildvm-x86-06.rdu3.fedoraproject.org)
+  135399721 buildArch (apache-ivy-2.5.3-1.fc43.src.rpm, noarch): free
+  135399718 buildSRPMFromSCM (/rpms/apache-ivy.git:2d9ffb29ba8f8ff9324fa5d2900bb17abcd9e3fc): open (buildvm-x86-06.rdu3.fedoraproject.org) -> closed
+  1 free  1 open  1 done  0 failed
+  135399721 buildArch (apache-ivy-2.5.3-1.fc43.src.rpm, noarch): free -> open (buildvm-a64-43.rdu3.fedoraproject.org)
+135399717 build (rawhide, /rpms/apache-ivy.git:2d9ffb29ba8f8ff9324fa5d2900bb17abcd9e3fc): open (buildvm-a64-41.rdu3.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
+  0 free  1 open  1 done  1 failed
+  135399721 buildArch (apache-ivy-2.5.3-1.fc43.src.rpm, noarch): open (buildvm-a64-43.rdu3.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
+  0 free  0 open  1 done  2 failed
+
+135399717 build (rawhide, /rpms/apache-ivy.git:2d9ffb29ba8f8ff9324fa5d2900bb17abcd9e3fc) failed

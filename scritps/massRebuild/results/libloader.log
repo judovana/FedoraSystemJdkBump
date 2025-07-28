@@ -1,0 +1,26 @@
+[rawhide 868c7c6] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 6 insertions(+), 3 deletions(-)
+Building libloader-1.1.3-48.fc43 for rawhide
+Created task: 135398340
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135398340
+Watching tasks (this may be safely interrupted)...
+135398340 build (rawhide, /rpms/libloader.git:868c7c6b777ef34cafa18d4bc34f4c2347545dd3): free
+135398340 build (rawhide, /rpms/libloader.git:868c7c6b777ef34cafa18d4bc34f4c2347545dd3): free -> assigned (buildvm-s390x-06.s390.fedoraproject.org)
+135398340 build (rawhide, /rpms/libloader.git:868c7c6b777ef34cafa18d4bc34f4c2347545dd3): assigned (buildvm-s390x-06.s390.fedoraproject.org) -> open (buildvm-s390x-06.s390.fedoraproject.org)
+  135398345 buildSRPMFromSCM (/rpms/libloader.git:868c7c6b777ef34cafa18d4bc34f4c2347545dd3): free
+  135398345 buildSRPMFromSCM (/rpms/libloader.git:868c7c6b777ef34cafa18d4bc34f4c2347545dd3): free -> open (buildvm-s390x-18.s390.fedoraproject.org)
+  135398345 buildSRPMFromSCM (/rpms/libloader.git:868c7c6b777ef34cafa18d4bc34f4c2347545dd3): open (buildvm-s390x-18.s390.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135398383 buildArch (libloader-1.1.3-48.fc43.src.rpm, noarch): free
+  135398383 buildArch (libloader-1.1.3-48.fc43.src.rpm, noarch): free -> assigned (buildvm-ppc64le-27.rdu3.fedoraproject.org)
+  135398383 buildArch (libloader-1.1.3-48.fc43.src.rpm, noarch): assigned (buildvm-ppc64le-27.rdu3.fedoraproject.org) -> open (buildvm-ppc64le-27.rdu3.fedoraproject.org)
+  135398383 buildArch (libloader-1.1.3-48.fc43.src.rpm, noarch): open (buildvm-ppc64le-27.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  135398449 tagBuild (noarch): free
+  135398449 tagBuild (noarch): free -> assigned (buildvm-s390x-15.s390.fedoraproject.org)
+  135398449 tagBuild (noarch): assigned (buildvm-s390x-15.s390.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+135398340 build (rawhide, /rpms/libloader.git:868c7c6b777ef34cafa18d4bc34f4c2347545dd3): open (buildvm-s390x-06.s390.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135398340 build (rawhide, /rpms/libloader.git:868c7c6b777ef34cafa18d4bc34f4c2347545dd3) completed successfully

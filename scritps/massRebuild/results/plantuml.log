@@ -1,0 +1,27 @@
+RPMAutoSpec usage detected, not changing the spec file.
+[rawhide a3abcaf] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+Building plantuml-1.2025.4-3.fc43 for rawhide
+Created task: 135398519
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135398519
+Watching tasks (this may be safely interrupted)...
+135398519 build (rawhide, /rpms/plantuml.git:a3abcafb66b93784ddb5040bcba929c510b0ac5e): free
+135398519 build (rawhide, /rpms/plantuml.git:a3abcafb66b93784ddb5040bcba929c510b0ac5e): free -> assigned (buildvm-a64-24.rdu3.fedoraproject.org)
+135398519 build (rawhide, /rpms/plantuml.git:a3abcafb66b93784ddb5040bcba929c510b0ac5e): assigned (buildvm-a64-24.rdu3.fedoraproject.org) -> open (buildvm-a64-24.rdu3.fedoraproject.org)
+  135398542 buildSRPMFromSCM (/rpms/plantuml.git:a3abcafb66b93784ddb5040bcba929c510b0ac5e): free
+  135398542 buildSRPMFromSCM (/rpms/plantuml.git:a3abcafb66b93784ddb5040bcba929c510b0ac5e): free -> assigned (buildvm-ppc64le-25.rdu3.fedoraproject.org)
+  135398542 buildSRPMFromSCM (/rpms/plantuml.git:a3abcafb66b93784ddb5040bcba929c510b0ac5e): assigned (buildvm-ppc64le-25.rdu3.fedoraproject.org) -> open (buildvm-ppc64le-25.rdu3.fedoraproject.org)
+  135398617 buildArch (plantuml-1.2025.4-3.fc43.src.rpm, noarch): free
+  135398542 buildSRPMFromSCM (/rpms/plantuml.git:a3abcafb66b93784ddb5040bcba929c510b0ac5e): open (buildvm-ppc64le-25.rdu3.fedoraproject.org) -> closed
+  1 free  1 open  1 done  0 failed
+  135398617 buildArch (plantuml-1.2025.4-3.fc43.src.rpm, noarch): free -> open (buildvm-a64-12.rdu3.fedoraproject.org)
+  135398617 buildArch (plantuml-1.2025.4-3.fc43.src.rpm, noarch): open (buildvm-a64-12.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  135398651 tagBuild (noarch): free
+  135398651 tagBuild (noarch): free -> assigned (buildvm-s390x-20.s390.fedoraproject.org)
+135398519 build (rawhide, /rpms/plantuml.git:a3abcafb66b93784ddb5040bcba929c510b0ac5e): open (buildvm-a64-24.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+  135398651 tagBuild (noarch): assigned (buildvm-s390x-20.s390.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135398519 build (rawhide, /rpms/plantuml.git:a3abcafb66b93784ddb5040bcba929c510b0ac5e) completed successfully

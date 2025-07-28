@@ -1,0 +1,21 @@
+Building javapoet-1.7.0-27.fc43 for rawhide
+Created task: 135398963
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135398963
+Watching tasks (this may be safely interrupted)...
+135398963 build (rawhide, /rpms/javapoet.git:65fe14f0b6a0196a8516ce4a3b170c367ab69c9e): free
+135398963 build (rawhide, /rpms/javapoet.git:65fe14f0b6a0196a8516ce4a3b170c367ab69c9e): free -> open (buildvm-a64-22.rdu3.fedoraproject.org)
+  135398965 buildSRPMFromSCM (/rpms/javapoet.git:65fe14f0b6a0196a8516ce4a3b170c367ab69c9e): free
+  135398965 buildSRPMFromSCM (/rpms/javapoet.git:65fe14f0b6a0196a8516ce4a3b170c367ab69c9e): free -> open (buildvm-s390x-15.s390.fedoraproject.org)
+  135398992 buildArch (javapoet-1.7.0-27.fc43.src.rpm, noarch): free
+  135398965 buildSRPMFromSCM (/rpms/javapoet.git:65fe14f0b6a0196a8516ce4a3b170c367ab69c9e): open (buildvm-s390x-15.s390.fedoraproject.org) -> closed
+  1 free  1 open  1 done  0 failed
+  135398992 buildArch (javapoet-1.7.0-27.fc43.src.rpm, noarch): free -> open (buildvm-a64-18.rdu3.fedoraproject.org)
+  135399054 tagBuild (noarch): free
+  135398992 buildArch (javapoet-1.7.0-27.fc43.src.rpm, noarch): open (buildvm-a64-18.rdu3.fedoraproject.org) -> closed
+  1 free  1 open  2 done  0 failed
+135398963 build (rawhide, /rpms/javapoet.git:65fe14f0b6a0196a8516ce4a3b170c367ab69c9e): open (buildvm-a64-22.rdu3.fedoraproject.org) -> closed
+  1 free  0 open  3 done  0 failed
+  135399054 tagBuild (noarch): free -> closed
+  0 free  0 open  4 done  0 failed
+
+135398963 build (rawhide, /rpms/javapoet.git:65fe14f0b6a0196a8516ce4a3b170c367ab69c9e) completed successfully

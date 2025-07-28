@@ -1,0 +1,27 @@
+[rawhide 73807b2] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 6 insertions(+), 3 deletions(-)
+Building libformula-1.1.3-47.fc43 for rawhide
+Created task: 135398316
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135398316
+Watching tasks (this may be safely interrupted)...
+135398316 build (rawhide, /rpms/libformula.git:73807b23b225d2a5ef01b3c3d4b1cdeb02475a79): free
+135398316 build (rawhide, /rpms/libformula.git:73807b23b225d2a5ef01b3c3d4b1cdeb02475a79): free -> assigned (buildvm-a64-30.rdu3.fedoraproject.org)
+135398316 build (rawhide, /rpms/libformula.git:73807b23b225d2a5ef01b3c3d4b1cdeb02475a79): assigned (buildvm-a64-30.rdu3.fedoraproject.org) -> open (buildvm-a64-30.rdu3.fedoraproject.org)
+  135398336 buildSRPMFromSCM (/rpms/libformula.git:73807b23b225d2a5ef01b3c3d4b1cdeb02475a79): free
+  135398336 buildSRPMFromSCM (/rpms/libformula.git:73807b23b225d2a5ef01b3c3d4b1cdeb02475a79): free -> assigned (buildvm-a64-04.rdu3.fedoraproject.org)
+  135398336 buildSRPMFromSCM (/rpms/libformula.git:73807b23b225d2a5ef01b3c3d4b1cdeb02475a79): assigned (buildvm-a64-04.rdu3.fedoraproject.org) -> open (buildvm-a64-04.rdu3.fedoraproject.org)
+  135398336 buildSRPMFromSCM (/rpms/libformula.git:73807b23b225d2a5ef01b3c3d4b1cdeb02475a79): open (buildvm-a64-04.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135398375 buildArch (libformula-1.1.3-47.fc43.src.rpm, noarch): free
+  135398375 buildArch (libformula-1.1.3-47.fc43.src.rpm, noarch): free -> assigned (buildvm-s390x-05.s390.fedoraproject.org)
+  135398375 buildArch (libformula-1.1.3-47.fc43.src.rpm, noarch): assigned (buildvm-s390x-05.s390.fedoraproject.org) -> open (buildvm-s390x-05.s390.fedoraproject.org)
+  135398375 buildArch (libformula-1.1.3-47.fc43.src.rpm, noarch): open (buildvm-s390x-05.s390.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  135398413 tagBuild (noarch): free
+  135398413 tagBuild (noarch): free -> assigned (buildvm-ppc64le-29.rdu3.fedoraproject.org)
+  135398413 tagBuild (noarch): assigned (buildvm-ppc64le-29.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+135398316 build (rawhide, /rpms/libformula.git:73807b23b225d2a5ef01b3c3d4b1cdeb02475a79): open (buildvm-a64-30.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135398316 build (rawhide, /rpms/libformula.git:73807b23b225d2a5ef01b3c3d4b1cdeb02475a79) completed successfully
