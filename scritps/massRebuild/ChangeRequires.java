@@ -20,6 +20,7 @@ public class ChangeRequires {
         bump21to25Table.put("java", "java-25");
         bump21to25Table.put("java-devel", "java-25-devel");
         bump21to25Table.put("maven-local", "maven-local-openjdk25");
+        bump21to25Table.put("maven", "maven-openjdk25 ");
         bump21to25Table.put("ivy-local", "ivy-local, ant-openjdk25 "); //?
         bump21to25Table.put("ant", "ant-openjdk25 ");
         bump21to25Table.put("ant-openjdk21", "ant-openjdk25 ");
@@ -33,6 +34,7 @@ public class ChangeRequires {
         rest25to21Table.put("java-25", "java-21");
         rest25to21Table.put("java-25-devel", "java-21-devel");
         rest25to21Table.put("maven-local-openjdk25", "maven-local-openjdk21");
+        rest25to21Table.put("maven-openjdk25", "maven-openjdk21");
         rest25to21Table.put("ant-openjdk25 ", "ant-openjdk21");
         rest25to21Table.put("java-25-headless", "java-21-headless");
         rest25to21Table.put("java-25", "java-21");
