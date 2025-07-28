@@ -20,9 +20,6 @@ public class ChangeRequires {
         bump21to25Table.put("java", "java-25");
         bump21to25Table.put("java-devel", "java-25-devel");
         bump21to25Table.put("maven-local", "maven-local-openjdk25");
-        bump21to25Table.put("maven", "maven-local-openjdk25");
-        bump21to25Table.put("mvn", "maven-local-openjdk25");
-        bump21to25Table.put("xmvn", "maven-local-openjdk25");
         bump21to25Table.put("ivy-local", "ivy-local, ant-openjdk25 "); //?
         bump21to25Table.put("ant", "ant-openjdk25 ");
         bump21to25Table.put("ant-openjdk21", "ant-openjdk25 ");
