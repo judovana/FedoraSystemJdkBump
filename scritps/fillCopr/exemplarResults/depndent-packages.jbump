@@ -25,9 +25,6 @@ hid4java
 icedtea-web
 imagej
 IPAddress
-java-21-openjdk
-javapackages-bootstrap
-javapackages-tools
 javapoet
 jcip-annotations
 jcuber
@@ -74,5 +71,3 @@ t-digest
 tomcat
 vecmath1.2
 voms-clients-java
-xmvn
-xmvn-generator
