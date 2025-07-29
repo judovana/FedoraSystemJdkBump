@@ -45,6 +45,7 @@ cat $FILE_WITH_PKGS | grep  -v $regex | grep "$targettedSelection" | wc -l
 echo "dont forget to handle following packages manually!"
 echo " * " ${!pkgs[@]}
 RESULTS_DIR="$SCRIPT_DIR/results"
+echo "CLONE=$CLONE COMMITED=$COMMITED"
 echo "DO=$DO targettedSelection=$targettedSelection TAG=$TAG"
 echo "Are you kinit into FEDORAPROJECT.ORG? Are you proven packager? Do you really wish to run in branch $branch?"
 echo "type yes and enter. If you are not proven packager, it will fail on foreign pkgs. This will discard all old results $RESULTS_DIR"
@@ -72,8 +73,12 @@ https://fedoraproject.org/wiki/Changes/Java25AndNoMoreSystemJdk
 Note, that since f43, you should be always explicit on what jdk to use.
 This commit should do exactly that.
 "
-    rpmdev-bumpspec -c "$MSG_TITLE" $pkg.spec | tee -a $RESULTS_DIR/${pkg}.log
-    git commit --allow-empty ${pkg}.spec -m "$MSG" | tee -a $RESULTS_DIR/${pkg}.log
+    if [ "x$COMMITED" == "xtrue" ] ; then
+      echo "Skipping commit on demand"
+    else
+      rpmdev-bumpspec -c "$MSG_TITLE" $pkg.spec | tee -a $RESULTS_DIR/${pkg}.log
+      git commit --allow-empty ${pkg}.spec -m "$MSG" | tee -a $RESULTS_DIR/${pkg}.log
+    fi
     if [ "x$DO" == "xtrue" -o "x$DO" == "xscratch" ] ; then
       if [ "x$DO" == "xscratch" ] ; then
         fedpkg build  --target $TAG --fail-fast --nowait --background --scratch --srpm 2>&1 | tee -a $RESULTS_DIR/${pkg}.log

@@ -74,3 +74,5 @@ tomcat
 vecmath1.2
 voms-clients-java
 xmvn-generator
+kawa
+ongres-scram

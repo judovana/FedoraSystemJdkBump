@@ -1,0 +1,41 @@
+[rawhide 734388e] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 7 insertions(+), 4 deletions(-)
+Building kawa-3.1.1-24.fc43 for rawhide
+Created task: 135428548
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135428548
+Watching tasks (this may be safely interrupted)...
+135428548 build (rawhide, /rpms/kawa.git:734388e6b92054bcfc6ab6abf81ac3a36ad3de7d): free
+135428548 build (rawhide, /rpms/kawa.git:734388e6b92054bcfc6ab6abf81ac3a36ad3de7d): free -> assigned (buildvm-a64-22.rdu3.fedoraproject.org)
+135428548 build (rawhide, /rpms/kawa.git:734388e6b92054bcfc6ab6abf81ac3a36ad3de7d): assigned (buildvm-a64-22.rdu3.fedoraproject.org) -> open (buildvm-a64-22.rdu3.fedoraproject.org)
+  135428564 buildSRPMFromSCM (/rpms/kawa.git:734388e6b92054bcfc6ab6abf81ac3a36ad3de7d): free
+  135428564 buildSRPMFromSCM (/rpms/kawa.git:734388e6b92054bcfc6ab6abf81ac3a36ad3de7d): free -> assigned (buildvm-ppc64le-29.rdu3.fedoraproject.org)
+  135428564 buildSRPMFromSCM (/rpms/kawa.git:734388e6b92054bcfc6ab6abf81ac3a36ad3de7d): assigned (buildvm-ppc64le-29.rdu3.fedoraproject.org) -> open (buildvm-ppc64le-29.rdu3.fedoraproject.org)
+  135428564 buildSRPMFromSCM (/rpms/kawa.git:734388e6b92054bcfc6ab6abf81ac3a36ad3de7d): open (buildvm-ppc64le-29.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135428579 buildArch (kawa-3.1.1-24.fc43.src.rpm, ppc64le): free
+  135428577 buildArch (kawa-3.1.1-24.fc43.src.rpm, x86_64): free
+  135428578 buildArch (kawa-3.1.1-24.fc43.src.rpm, aarch64): free
+  135428580 buildArch (kawa-3.1.1-24.fc43.src.rpm, s390x): free
+  135428580 buildArch (kawa-3.1.1-24.fc43.src.rpm, s390x): free -> assigned (buildvm-s390x-06.s390.fedoraproject.org)
+  135428579 buildArch (kawa-3.1.1-24.fc43.src.rpm, ppc64le): free -> open (buildvm-ppc64le-25.rdu3.fedoraproject.org)
+  135428577 buildArch (kawa-3.1.1-24.fc43.src.rpm, x86_64): free -> assigned (buildvm-x86-23.rdu3.fedoraproject.org)
+  135428578 buildArch (kawa-3.1.1-24.fc43.src.rpm, aarch64): free -> assigned (buildvm-a64-24.rdu3.fedoraproject.org)
+  135428580 buildArch (kawa-3.1.1-24.fc43.src.rpm, s390x): assigned (buildvm-s390x-06.s390.fedoraproject.org) -> open (buildvm-s390x-06.s390.fedoraproject.org)
+  135428577 buildArch (kawa-3.1.1-24.fc43.src.rpm, x86_64): assigned (buildvm-x86-23.rdu3.fedoraproject.org) -> open (buildvm-x86-23.rdu3.fedoraproject.org)
+  135428578 buildArch (kawa-3.1.1-24.fc43.src.rpm, aarch64): assigned (buildvm-a64-24.rdu3.fedoraproject.org) -> open (buildvm-a64-24.rdu3.fedoraproject.org)
+  135428577 buildArch (kawa-3.1.1-24.fc43.src.rpm, x86_64): open (buildvm-x86-23.rdu3.fedoraproject.org) -> closed
+  0 free  4 open  2 done  0 failed
+  135428578 buildArch (kawa-3.1.1-24.fc43.src.rpm, aarch64): open (buildvm-a64-24.rdu3.fedoraproject.org) -> closed
+  0 free  3 open  3 done  0 failed
+  135428579 buildArch (kawa-3.1.1-24.fc43.src.rpm, ppc64le): open (buildvm-ppc64le-25.rdu3.fedoraproject.org) -> closed
+  0 free  2 open  4 done  0 failed
+  135428580 buildArch (kawa-3.1.1-24.fc43.src.rpm, s390x): open (buildvm-s390x-06.s390.fedoraproject.org) -> closed
+  0 free  1 open  5 done  0 failed
+  135428647 tagBuild (noarch): free
+  135428647 tagBuild (noarch): free -> assigned (buildvm-a64-43.rdu3.fedoraproject.org)
+135428548 build (rawhide, /rpms/kawa.git:734388e6b92054bcfc6ab6abf81ac3a36ad3de7d): open (buildvm-a64-22.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  6 done  0 failed
+  135428647 tagBuild (noarch): assigned (buildvm-a64-43.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  7 done  0 failed
+
+135428548 build (rawhide, /rpms/kawa.git:734388e6b92054bcfc6ab6abf81ac3a36ad3de7d) completed successfully

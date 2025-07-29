@@ -1,0 +1,28 @@
+RPMAutoSpec usage detected, not changing the spec file.
+[rawhide f55f8b1] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Found a gating.yaml file in the repo and it is properly configured
+Building ongres-scram-3.1-8.fc43 for rawhide
+Created task: 135428556
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135428556
+Watching tasks (this may be safely interrupted)...
+135428556 build (rawhide, /rpms/ongres-scram.git:f55f8b1583ba031b9068aea774df931f3c3c4154): free
+135428556 build (rawhide, /rpms/ongres-scram.git:f55f8b1583ba031b9068aea774df931f3c3c4154): free -> assigned (buildvm-a64-25.rdu3.fedoraproject.org)
+135428556 build (rawhide, /rpms/ongres-scram.git:f55f8b1583ba031b9068aea774df931f3c3c4154): assigned (buildvm-a64-25.rdu3.fedoraproject.org) -> open (buildvm-a64-25.rdu3.fedoraproject.org)
+  135428563 buildSRPMFromSCM (/rpms/ongres-scram.git:f55f8b1583ba031b9068aea774df931f3c3c4154): free
+  135428563 buildSRPMFromSCM (/rpms/ongres-scram.git:f55f8b1583ba031b9068aea774df931f3c3c4154): free -> assigned (buildvm-ppc64le-18.rdu3.fedoraproject.org)
+  135428563 buildSRPMFromSCM (/rpms/ongres-scram.git:f55f8b1583ba031b9068aea774df931f3c3c4154): assigned (buildvm-ppc64le-18.rdu3.fedoraproject.org) -> open (buildvm-ppc64le-18.rdu3.fedoraproject.org)
+  135428582 buildArch (ongres-scram-3.1-8.fc43.src.rpm, noarch): free
+  135428563 buildSRPMFromSCM (/rpms/ongres-scram.git:f55f8b1583ba031b9068aea774df931f3c3c4154): open (buildvm-ppc64le-18.rdu3.fedoraproject.org) -> closed
+  1 free  1 open  1 done  0 failed
+  135428582 buildArch (ongres-scram-3.1-8.fc43.src.rpm, noarch): free -> open (buildvm-ppc64le-29.rdu3.fedoraproject.org)
+  135428592 tagBuild (noarch): free
+  135428582 buildArch (ongres-scram-3.1-8.fc43.src.rpm, noarch): open (buildvm-ppc64le-29.rdu3.fedoraproject.org) -> closed
+  1 free  1 open  2 done  0 failed
+  135428592 tagBuild (noarch): free -> assigned (buildvm-a64-24.rdu3.fedoraproject.org)
+  135428592 tagBuild (noarch): assigned (buildvm-a64-24.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+135428556 build (rawhide, /rpms/ongres-scram.git:f55f8b1583ba031b9068aea774df931f3c3c4154): open (buildvm-a64-25.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135428556 build (rawhide, /rpms/ongres-scram.git:f55f8b1583ba031b9068aea774df931f3c3c4154) completed successfully
