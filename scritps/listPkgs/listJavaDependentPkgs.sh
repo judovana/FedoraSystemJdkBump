@@ -24,7 +24,7 @@ IFS_BACKUP="$IFS"
 
 function listAllRepos() {
   # warning, localised
-  LANG=en_US.UTF-8 dnf repolist all
+  LANG=en_US.UTF-8 dnf repolist --all
 }
 
 function listAllReposNames() {
