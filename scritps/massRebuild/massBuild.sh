@@ -19,8 +19,17 @@ branch=rawhide
 TAG=rawhide
 ##targettedSelection="CFR"
 
-
 FILE_WITH_PKGS="$SCRIPT_DIR/../fillCopr/exemplarResults/depndent-packages.jbump"
+
+function compileAndRun() {
+  if [ "x$cp" == "x" ] ; then
+    cp=`mktemp -d`
+    javac -d $cp $SCRIPT_DIR/ChangeRequires.java
+  fi
+  if [ ! "x$1" == "x" ] ; then
+    java -cp $cp ChangeRequires $1
+  fi
+}
 
 # this gives us aray of packages which needs manual treatment.
 # they have to soak into side tag before everything else
@@ -44,8 +53,9 @@ echo -n " * "
 cat $FILE_WITH_PKGS | grep  -v $regex | grep "$targettedSelection" | wc -l
 echo "dont forget to handle following packages manually!"
 echo " * " ${!pkgs[@]}
+compileAndRun
 RESULTS_DIR="$SCRIPT_DIR/results"
-echo "CLONE=$CLONE COMMITED=$COMMITED"
+echo "CLONE=$CLONE COMMITED=$COMMITED KEEP=$KEEP"
 echo "DO=$DO targettedSelection=$targettedSelection TAG=$TAG"
 echo "Are you kinit into FEDORAPROJECT.ORG? Are you proven packager? Do you really wish to run in branch $branch?"
 echo "type yes and enter. If you are not proven packager, it will fail on foreign pkgs. This will discard all old results $RESULTS_DIR"
@@ -76,7 +86,9 @@ This commit should do exactly that.
     if [ "x$COMMITED" == "xtrue" ] ; then
       echo "Skipping commit on demand"
     else
+      compileAndRun $pkg.spec
       rpmdev-bumpspec -c "$MSG_TITLE" $pkg.spec | tee -a $RESULTS_DIR/${pkg}.log
+      git diff
       git commit --allow-empty ${pkg}.spec -m "$MSG" | tee -a $RESULTS_DIR/${pkg}.log
     fi
     if [ "x$DO" == "xtrue" -o "x$DO" == "xscratch" ] ; then
@@ -97,10 +109,14 @@ This commit should do exactly that.
   if [ "x$CLONE" == "xfalse" ] ; then
     ls -l -d $pkg
   else
-    rm -rf $pkg
+    if [ "x$KEEP" == "xtrue" ] ; then
+      ls -l -d $pkg
+    else
+      rm -rf $pkg
+    fi
   fi
   processes=`ps | wc -l`
-  while [ $processes -gt 100 ] ; do 
+  while [ $processes -gt 50 ] ; do 
     processes=`ps | wc -l`
     echo "to much processes - $processes, waiting"
     sleep 10

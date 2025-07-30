@@ -1,0 +1,43 @@
+Cloning into 'plexus-io'...
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the RSA key sent by the remote host is
+SHA256:dJN0nFWBcWK7SFs2k0nnsO+XNA9+aEDY4FWO7uhxTN8.
+Please contact your system administrator.
+Add correct host key in /home/jvanek/.ssh/known_hosts to get rid of this message.
+Offending RSA key in /home/jvanek/.ssh/known_hosts:2
+Password authentication is disabled to avoid man-in-the-middle attacks.
+Keyboard-interactive authentication is disabled to avoid man-in-the-middle attacks.
+UpdateHostkeys is disabled because the host key is not trusted.
+RPMAutoSpec usage detected, not changing the spec file.
+[rawhide b18bfe8] Rebuilt for java-25-openjdk as preffered jdk
+Found a gating.yaml file in the repo and it is properly configured
+Building plexus-io-3.5.0-11.fc43 for rawhide
+Created task: 135457386
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135457386
+Watching tasks (this may be safely interrupted)...
+135457386 build (rawhide, /rpms/plexus-io.git:b18bfe825f50aaf5820cb1f736635d758466fe82): free
+135457386 build (rawhide, /rpms/plexus-io.git:b18bfe825f50aaf5820cb1f736635d758466fe82): free -> assigned (buildvm-x86-31.rdu3.fedoraproject.org)
+135457386 build (rawhide, /rpms/plexus-io.git:b18bfe825f50aaf5820cb1f736635d758466fe82): assigned (buildvm-x86-31.rdu3.fedoraproject.org) -> open (buildvm-x86-31.rdu3.fedoraproject.org)
+  135457399 buildSRPMFromSCM (/rpms/plexus-io.git:b18bfe825f50aaf5820cb1f736635d758466fe82): free
+  135457399 buildSRPMFromSCM (/rpms/plexus-io.git:b18bfe825f50aaf5820cb1f736635d758466fe82): free -> assigned (buildvm-a64-07.rdu3.fedoraproject.org)
+  135457399 buildSRPMFromSCM (/rpms/plexus-io.git:b18bfe825f50aaf5820cb1f736635d758466fe82): assigned (buildvm-a64-07.rdu3.fedoraproject.org) -> open (buildvm-a64-07.rdu3.fedoraproject.org)
+  135457399 buildSRPMFromSCM (/rpms/plexus-io.git:b18bfe825f50aaf5820cb1f736635d758466fe82): open (buildvm-a64-07.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135457484 buildArch (plexus-io-3.5.0-11.fc43.src.rpm, noarch): free
+  135457484 buildArch (plexus-io-3.5.0-11.fc43.src.rpm, noarch): free -> assigned (buildvm-ppc64le-14.rdu3.fedoraproject.org)
+  135457484 buildArch (plexus-io-3.5.0-11.fc43.src.rpm, noarch): assigned (buildvm-ppc64le-14.rdu3.fedoraproject.org) -> open (buildvm-ppc64le-14.rdu3.fedoraproject.org)
+  135457484 buildArch (plexus-io-3.5.0-11.fc43.src.rpm, noarch): open (buildvm-ppc64le-14.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  135457556 tagBuild (noarch): free
+  135457556 tagBuild (noarch): free -> assigned (buildvm-a64-48.rdu3.fedoraproject.org)
+135457386 build (rawhide, /rpms/plexus-io.git:b18bfe825f50aaf5820cb1f736635d758466fe82): open (buildvm-x86-31.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+  135457556 tagBuild (noarch): assigned (buildvm-a64-48.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135457386 build (rawhide, /rpms/plexus-io.git:b18bfe825f50aaf5820cb1f736635d758466fe82) completed successfully

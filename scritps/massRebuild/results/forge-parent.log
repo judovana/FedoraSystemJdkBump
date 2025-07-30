@@ -1,0 +1,27 @@
+Cloning into 'forge-parent'...
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the RSA key sent by the remote host is
+SHA256:dJN0nFWBcWK7SFs2k0nnsO+XNA9+aEDY4FWO7uhxTN8.
+Please contact your system administrator.
+Add correct host key in /home/jvanek/.ssh/known_hosts to get rid of this message.
+Offending RSA key in /home/jvanek/.ssh/known_hosts:2
+Password authentication is disabled to avoid man-in-the-middle attacks.
+Keyboard-interactive authentication is disabled to avoid man-in-the-middle attacks.
+UpdateHostkeys is disabled because the host key is not trusted.
+[rawhide 8ea7586] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 5 insertions(+), 2 deletions(-)
+Building forge-parent-38-33.fc43 for rawhide
+Created task: 135450400
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135450400
+Watching tasks (this may be safely interrupted)...
+135450400 build (rawhide, /rpms/forge-parent.git:8ea75868af8b72776ed88cae19f648380f475009): free
+135450400 build (rawhide, /rpms/forge-parent.git:8ea75868af8b72776ed88cae19f648380f475009): free -> assigned (buildvm-a64-19.rdu3.fedoraproject.org)
+135450400 build (rawhide, /rpms/forge-parent.git:8ea75868af8b72776ed88cae19f648380f475009): assigned (buildvm-a64-19.rdu3.fedoraproject.org) -> open (buildvm-a64-19.rdu3.fedoraproject.org)
+  135450410 buildSRPMFromSCM (/rpms/forge-parent.git:8ea75868af8b72776ed88cae19f648380f475009): free
+
+build (rawhide, /rpms/) completed successfully

@@ -1,0 +1,42 @@
+Cloning into 'jboss-logging-tools'...
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the RSA key sent by the remote host is
+SHA256:dJN0nFWBcWK7SFs2k0nnsO+XNA9+aEDY4FWO7uhxTN8.
+Please contact your system administrator.
+Add correct host key in /home/jvanek/.ssh/known_hosts to get rid of this message.
+Offending RSA key in /home/jvanek/.ssh/known_hosts:2
+Password authentication is disabled to avoid man-in-the-middle attacks.
+Keyboard-interactive authentication is disabled to avoid man-in-the-middle attacks.
+UpdateHostkeys is disabled because the host key is not trusted.
+[rawhide 2cd99d2] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 5 insertions(+), 2 deletions(-)
+Building jboss-logging-tools-2.2.1-20.fc43 for rawhide
+Created task: 135451901
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135451901
+Watching tasks (this may be safely interrupted)...
+135451901 build (rawhide, /rpms/jboss-logging-tools.git:2cd99d2aaae18ede8c030cc22227f528a7534bf5): free
+135451901 build (rawhide, /rpms/jboss-logging-tools.git:2cd99d2aaae18ede8c030cc22227f528a7534bf5): free -> assigned (buildvm-a64-45.rdu3.fedoraproject.org)
+135451901 build (rawhide, /rpms/jboss-logging-tools.git:2cd99d2aaae18ede8c030cc22227f528a7534bf5): assigned (buildvm-a64-45.rdu3.fedoraproject.org) -> open (buildvm-a64-45.rdu3.fedoraproject.org)
+  135451940 buildSRPMFromSCM (/rpms/jboss-logging-tools.git:2cd99d2aaae18ede8c030cc22227f528a7534bf5): free
+  135451940 buildSRPMFromSCM (/rpms/jboss-logging-tools.git:2cd99d2aaae18ede8c030cc22227f528a7534bf5): free -> assigned (buildvm-ppc64le-13.rdu3.fedoraproject.org)
+  135451940 buildSRPMFromSCM (/rpms/jboss-logging-tools.git:2cd99d2aaae18ede8c030cc22227f528a7534bf5): assigned (buildvm-ppc64le-13.rdu3.fedoraproject.org) -> open (buildvm-ppc64le-13.rdu3.fedoraproject.org)
+  135451940 buildSRPMFromSCM (/rpms/jboss-logging-tools.git:2cd99d2aaae18ede8c030cc22227f528a7534bf5): open (buildvm-ppc64le-13.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135452045 buildArch (jboss-logging-tools-2.2.1-20.fc43.src.rpm, noarch): free
+  135452045 buildArch (jboss-logging-tools-2.2.1-20.fc43.src.rpm, noarch): free -> assigned (buildvm-s390x-04.s390.fedoraproject.org)
+  135452045 buildArch (jboss-logging-tools-2.2.1-20.fc43.src.rpm, noarch): assigned (buildvm-s390x-04.s390.fedoraproject.org) -> open (buildvm-s390x-04.s390.fedoraproject.org)
+  135452045 buildArch (jboss-logging-tools-2.2.1-20.fc43.src.rpm, noarch): open (buildvm-s390x-04.s390.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  135454899 tagBuild (noarch): free
+  135454899 tagBuild (noarch): free -> assigned (buildvm-ppc64le-30.rdu3.fedoraproject.org)
+  135454899 tagBuild (noarch): assigned (buildvm-ppc64le-30.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+135451901 build (rawhide, /rpms/jboss-logging-tools.git:2cd99d2aaae18ede8c030cc22227f528a7534bf5): open (buildvm-a64-45.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135451901 build (rawhide, /rpms/jboss-logging-tools.git:2cd99d2aaae18ede8c030cc22227f528a7534bf5) completed successfully

@@ -1,0 +1,42 @@
+Cloning into 'guava'...
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the RSA key sent by the remote host is
+SHA256:dJN0nFWBcWK7SFs2k0nnsO+XNA9+aEDY4FWO7uhxTN8.
+Please contact your system administrator.
+Add correct host key in /home/jvanek/.ssh/known_hosts to get rid of this message.
+Offending RSA key in /home/jvanek/.ssh/known_hosts:2
+Password authentication is disabled to avoid man-in-the-middle attacks.
+Keyboard-interactive authentication is disabled to avoid man-in-the-middle attacks.
+UpdateHostkeys is disabled because the host key is not trusted.
+RPMAutoSpec usage detected, not changing the spec file.
+[rawhide 37548ef] Rebuilt for java-25-openjdk as preffered jdk
+Found a gating.yaml file in the repo and it is properly configured
+Building guava-33.3.0-12.fc43 for rawhide
+Created task: 135450519
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135450519
+Watching tasks (this may be safely interrupted)...
+135450519 build (rawhide, /rpms/guava.git:37548ef7540696133a6dcf13e11fe1dff241c212): free
+135450519 build (rawhide, /rpms/guava.git:37548ef7540696133a6dcf13e11fe1dff241c212): free -> assigned (buildvm-x86-11.rdu3.fedoraproject.org)
+135450519 build (rawhide, /rpms/guava.git:37548ef7540696133a6dcf13e11fe1dff241c212): assigned (buildvm-x86-11.rdu3.fedoraproject.org) -> open (buildvm-x86-11.rdu3.fedoraproject.org)
+  135450535 buildSRPMFromSCM (/rpms/guava.git:37548ef7540696133a6dcf13e11fe1dff241c212): free
+  135450535 buildSRPMFromSCM (/rpms/guava.git:37548ef7540696133a6dcf13e11fe1dff241c212): free -> assigned (buildvm-ppc64le-20.rdu3.fedoraproject.org)
+  135450535 buildSRPMFromSCM (/rpms/guava.git:37548ef7540696133a6dcf13e11fe1dff241c212): assigned (buildvm-ppc64le-20.rdu3.fedoraproject.org) -> open (buildvm-ppc64le-20.rdu3.fedoraproject.org)
+  135450535 buildSRPMFromSCM (/rpms/guava.git:37548ef7540696133a6dcf13e11fe1dff241c212): open (buildvm-ppc64le-20.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135450924 buildArch (guava-33.3.0-12.fc43.src.rpm, noarch): free
+  135450924 buildArch (guava-33.3.0-12.fc43.src.rpm, noarch): free -> assigned (buildvm-x86-31.rdu3.fedoraproject.org)
+  135450924 buildArch (guava-33.3.0-12.fc43.src.rpm, noarch): assigned (buildvm-x86-31.rdu3.fedoraproject.org) -> open (buildvm-x86-31.rdu3.fedoraproject.org)
+  135450924 buildArch (guava-33.3.0-12.fc43.src.rpm, noarch): open (buildvm-x86-31.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  135450947 tagBuild (noarch): free
+  135450947 tagBuild (noarch): free -> closed
+  0 free  1 open  3 done  0 failed
+135450519 build (rawhide, /rpms/guava.git:37548ef7540696133a6dcf13e11fe1dff241c212): open (buildvm-x86-11.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135450519 build (rawhide, /rpms/guava.git:37548ef7540696133a6dcf13e11fe1dff241c212) completed successfully

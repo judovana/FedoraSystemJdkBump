@@ -1,0 +1,44 @@
+Cloning into 'lucene'...
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the RSA key sent by the remote host is
+SHA256:dJN0nFWBcWK7SFs2k0nnsO+XNA9+aEDY4FWO7uhxTN8.
+Please contact your system administrator.
+Add correct host key in /home/jvanek/.ssh/known_hosts to get rid of this message.
+Offending RSA key in /home/jvanek/.ssh/known_hosts:2
+Password authentication is disabled to avoid man-in-the-middle attacks.
+Keyboard-interactive authentication is disabled to avoid man-in-the-middle attacks.
+UpdateHostkeys is disabled because the host key is not trusted.
+RPMAutoSpec usage detected, not changing the spec file.
+[rawhide b539dc4] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Found a gating.yaml file in the repo and it is properly configured
+Building lucene-10.2.0-4.fc43 for rawhide
+Created task: 135455193
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135455193
+Watching tasks (this may be safely interrupted)...
+135455193 build (rawhide, /rpms/lucene.git:b539dc49bad69137b32cdc955150918daa8245b1): free
+135455193 build (rawhide, /rpms/lucene.git:b539dc49bad69137b32cdc955150918daa8245b1): free -> assigned (buildvm-x86-24.rdu3.fedoraproject.org)
+135455193 build (rawhide, /rpms/lucene.git:b539dc49bad69137b32cdc955150918daa8245b1): assigned (buildvm-x86-24.rdu3.fedoraproject.org) -> open (buildvm-x86-24.rdu3.fedoraproject.org)
+  135455210 buildSRPMFromSCM (/rpms/lucene.git:b539dc49bad69137b32cdc955150918daa8245b1): free
+  135455210 buildSRPMFromSCM (/rpms/lucene.git:b539dc49bad69137b32cdc955150918daa8245b1): free -> assigned (buildvm-a64-38.rdu3.fedoraproject.org)
+  135455210 buildSRPMFromSCM (/rpms/lucene.git:b539dc49bad69137b32cdc955150918daa8245b1): assigned (buildvm-a64-38.rdu3.fedoraproject.org) -> open (buildvm-a64-38.rdu3.fedoraproject.org)
+  135455210 buildSRPMFromSCM (/rpms/lucene.git:b539dc49bad69137b32cdc955150918daa8245b1): open (buildvm-a64-38.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135455304 buildArch (lucene-10.2.0-4.fc43.src.rpm, noarch): free
+  135455304 buildArch (lucene-10.2.0-4.fc43.src.rpm, noarch): free -> assigned (buildvm-ppc64le-17.rdu3.fedoraproject.org)
+  135455304 buildArch (lucene-10.2.0-4.fc43.src.rpm, noarch): assigned (buildvm-ppc64le-17.rdu3.fedoraproject.org) -> open (buildvm-ppc64le-17.rdu3.fedoraproject.org)
+  135455304 buildArch (lucene-10.2.0-4.fc43.src.rpm, noarch): open (buildvm-ppc64le-17.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  135455428 tagBuild (noarch): free
+  135455428 tagBuild (noarch): free -> assigned (buildvm-x86-20.rdu3.fedoraproject.org)
+135455193 build (rawhide, /rpms/lucene.git:b539dc49bad69137b32cdc955150918daa8245b1): open (buildvm-x86-24.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+  135455428 tagBuild (noarch): assigned (buildvm-x86-20.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135455193 build (rawhide, /rpms/lucene.git:b539dc49bad69137b32cdc955150918daa8245b1) completed successfully

@@ -1,0 +1,41 @@
+Cloning into 'fasterxml-oss-parent'...
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the RSA key sent by the remote host is
+SHA256:dJN0nFWBcWK7SFs2k0nnsO+XNA9+aEDY4FWO7uhxTN8.
+Please contact your system administrator.
+Add correct host key in /home/jvanek/.ssh/known_hosts to get rid of this message.
+Offending RSA key in /home/jvanek/.ssh/known_hosts:2
+Password authentication is disabled to avoid man-in-the-middle attacks.
+Keyboard-interactive authentication is disabled to avoid man-in-the-middle attacks.
+UpdateHostkeys is disabled because the host key is not trusted.
+[rawhide ccf750e] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 5 insertions(+), 2 deletions(-)
+Building fasterxml-oss-parent-62-4.fc43 for rawhide
+Created task: 135450295
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135450295
+Watching tasks (this may be safely interrupted)...
+135450295 build (rawhide, /rpms/fasterxml-oss-parent.git:ccf750e3c573c1799bc332b988765e5c6052077b): free
+135450295 build (rawhide, /rpms/fasterxml-oss-parent.git:ccf750e3c573c1799bc332b988765e5c6052077b): free -> assigned (buildvm-a64-14.rdu3.fedoraproject.org)
+135450295 build (rawhide, /rpms/fasterxml-oss-parent.git:ccf750e3c573c1799bc332b988765e5c6052077b): assigned (buildvm-a64-14.rdu3.fedoraproject.org) -> open (buildvm-a64-14.rdu3.fedoraproject.org)
+  135450330 buildSRPMFromSCM (/rpms/fasterxml-oss-parent.git:ccf750e3c573c1799bc332b988765e5c6052077b): free
+  135450330 buildSRPMFromSCM (/rpms/fasterxml-oss-parent.git:ccf750e3c573c1799bc332b988765e5c6052077b): free -> assigned (buildvm-a64-48.rdu3.fedoraproject.org)
+  135450330 buildSRPMFromSCM (/rpms/fasterxml-oss-parent.git:ccf750e3c573c1799bc332b988765e5c6052077b): assigned (buildvm-a64-48.rdu3.fedoraproject.org) -> open (buildvm-a64-48.rdu3.fedoraproject.org)
+  135450330 buildSRPMFromSCM (/rpms/fasterxml-oss-parent.git:ccf750e3c573c1799bc332b988765e5c6052077b): open (buildvm-a64-48.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135450418 buildArch (fasterxml-oss-parent-62-4.fc43.src.rpm, noarch): free
+  135450418 buildArch (fasterxml-oss-parent-62-4.fc43.src.rpm, noarch): free -> open (buildvm-s390x-04.s390.fedoraproject.org)
+  135450418 buildArch (fasterxml-oss-parent-62-4.fc43.src.rpm, noarch): open (buildvm-s390x-04.s390.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  135454236 tagBuild (noarch): free
+  135454236 tagBuild (noarch): free -> assigned (buildvm-x86-10.rdu3.fedoraproject.org)
+  135454236 tagBuild (noarch): assigned (buildvm-x86-10.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+135450295 build (rawhide, /rpms/fasterxml-oss-parent.git:ccf750e3c573c1799bc332b988765e5c6052077b): open (buildvm-a64-14.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135450295 build (rawhide, /rpms/fasterxml-oss-parent.git:ccf750e3c573c1799bc332b988765e5c6052077b) completed successfully

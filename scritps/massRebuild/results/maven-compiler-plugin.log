@@ -1,0 +1,43 @@
+Cloning into 'maven-compiler-plugin'...
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the RSA key sent by the remote host is
+SHA256:dJN0nFWBcWK7SFs2k0nnsO+XNA9+aEDY4FWO7uhxTN8.
+Please contact your system administrator.
+Add correct host key in /home/jvanek/.ssh/known_hosts to get rid of this message.
+Offending RSA key in /home/jvanek/.ssh/known_hosts:2
+Password authentication is disabled to avoid man-in-the-middle attacks.
+Keyboard-interactive authentication is disabled to avoid man-in-the-middle attacks.
+UpdateHostkeys is disabled because the host key is not trusted.
+RPMAutoSpec usage detected, not changing the spec file.
+[rawhide 340f2cd] Rebuilt for java-25-openjdk as preffered jdk
+Found a gating.yaml file in the repo and it is properly configured
+Building maven-compiler-plugin-3.12.1-17.fc43 for rawhide
+Created task: 135455406
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135455406
+Watching tasks (this may be safely interrupted)...
+135455406 build (rawhide, /rpms/maven-compiler-plugin.git:340f2cdcd4d97770fd248b3c41a7aa94d1c0c108): free
+135455406 build (rawhide, /rpms/maven-compiler-plugin.git:340f2cdcd4d97770fd248b3c41a7aa94d1c0c108): free -> assigned (buildvm-a64-43.rdu3.fedoraproject.org)
+135455406 build (rawhide, /rpms/maven-compiler-plugin.git:340f2cdcd4d97770fd248b3c41a7aa94d1c0c108): assigned (buildvm-a64-43.rdu3.fedoraproject.org) -> open (buildvm-a64-43.rdu3.fedoraproject.org)
+  135455447 buildSRPMFromSCM (/rpms/maven-compiler-plugin.git:340f2cdcd4d97770fd248b3c41a7aa94d1c0c108): free
+  135455447 buildSRPMFromSCM (/rpms/maven-compiler-plugin.git:340f2cdcd4d97770fd248b3c41a7aa94d1c0c108): free -> assigned (buildvm-x86-16.rdu3.fedoraproject.org)
+  135455447 buildSRPMFromSCM (/rpms/maven-compiler-plugin.git:340f2cdcd4d97770fd248b3c41a7aa94d1c0c108): assigned (buildvm-x86-16.rdu3.fedoraproject.org) -> open (buildvm-x86-16.rdu3.fedoraproject.org)
+  135455510 buildArch (maven-compiler-plugin-3.12.1-17.fc43.src.rpm, noarch): free
+  135455447 buildSRPMFromSCM (/rpms/maven-compiler-plugin.git:340f2cdcd4d97770fd248b3c41a7aa94d1c0c108): open (buildvm-x86-16.rdu3.fedoraproject.org) -> closed
+  1 free  1 open  1 done  0 failed
+  135455510 buildArch (maven-compiler-plugin-3.12.1-17.fc43.src.rpm, noarch): free -> assigned (buildvm-x86-10.rdu3.fedoraproject.org)
+  135455510 buildArch (maven-compiler-plugin-3.12.1-17.fc43.src.rpm, noarch): assigned (buildvm-x86-10.rdu3.fedoraproject.org) -> open (buildvm-x86-10.rdu3.fedoraproject.org)
+  135455584 tagBuild (noarch): free
+  135455510 buildArch (maven-compiler-plugin-3.12.1-17.fc43.src.rpm, noarch): open (buildvm-x86-10.rdu3.fedoraproject.org) -> closed
+  1 free  1 open  2 done  0 failed
+  135455584 tagBuild (noarch): free -> assigned (buildvm-a64-04.rdu3.fedoraproject.org)
+  135455584 tagBuild (noarch): assigned (buildvm-a64-04.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+135455406 build (rawhide, /rpms/maven-compiler-plugin.git:340f2cdcd4d97770fd248b3c41a7aa94d1c0c108): open (buildvm-a64-43.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135455406 build (rawhide, /rpms/maven-compiler-plugin.git:340f2cdcd4d97770fd248b3c41a7aa94d1c0c108) completed successfully

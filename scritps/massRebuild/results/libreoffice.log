@@ -1,0 +1,56 @@
+Cloning into 'libreoffice'...
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the RSA key sent by the remote host is
+SHA256:dJN0nFWBcWK7SFs2k0nnsO+XNA9+aEDY4FWO7uhxTN8.
+Please contact your system administrator.
+Add correct host key in /home/jvanek/.ssh/known_hosts to get rid of this message.
+Offending RSA key in /home/jvanek/.ssh/known_hosts:2
+Password authentication is disabled to avoid man-in-the-middle attacks.
+Keyboard-interactive authentication is disabled to avoid man-in-the-middle attacks.
+UpdateHostkeys is disabled because the host key is not trusted.
+RPMAutoSpec usage detected, not changing the spec file.
+[rawhide 5eaa6b1] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+Building libreoffice-25.8.0.2-0.2.fc43 for rawhide
+Created task: 135455159
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135455159
+Watching tasks (this may be safely interrupted)...
+135455159 build (rawhide, /rpms/libreoffice.git:5eaa6b1221a1f4151660fd8b70779175c6cfffc2): free
+135455159 build (rawhide, /rpms/libreoffice.git:5eaa6b1221a1f4151660fd8b70779175c6cfffc2): free -> open (buildvm-a64-29.rdu3.fedoraproject.org)
+  135455189 buildSRPMFromSCM (/rpms/libreoffice.git:5eaa6b1221a1f4151660fd8b70779175c6cfffc2): free
+  135455189 buildSRPMFromSCM (/rpms/libreoffice.git:5eaa6b1221a1f4151660fd8b70779175c6cfffc2): free -> assigned (buildvm-s390x-10.s390.fedoraproject.org)
+  135455189 buildSRPMFromSCM (/rpms/libreoffice.git:5eaa6b1221a1f4151660fd8b70779175c6cfffc2): assigned (buildvm-s390x-10.s390.fedoraproject.org) -> open (buildvm-s390x-10.s390.fedoraproject.org)
+  135455189 buildSRPMFromSCM (/rpms/libreoffice.git:5eaa6b1221a1f4151660fd8b70779175c6cfffc2): open (buildvm-s390x-10.s390.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135456699 buildArch (libreoffice-25.8.0.2-0.2.fc43.src.rpm, aarch64): free
+  135456698 buildArch (libreoffice-25.8.0.2-0.2.fc43.src.rpm, x86_64): free
+  135456700 buildArch (libreoffice-25.8.0.2-0.2.fc43.src.rpm, ppc64le): free
+  135456701 buildArch (libreoffice-25.8.0.2-0.2.fc43.src.rpm, s390x): free
+  135456698 buildArch (libreoffice-25.8.0.2-0.2.fc43.src.rpm, x86_64): free -> assigned (buildvm-x86-28.rdu3.fedoraproject.org)
+  135456700 buildArch (libreoffice-25.8.0.2-0.2.fc43.src.rpm, ppc64le): free -> assigned (buildvm-ppc64le-32.rdu3.fedoraproject.org)
+  135456699 buildArch (libreoffice-25.8.0.2-0.2.fc43.src.rpm, aarch64): free -> open (buildvm-a64-05.rdu3.fedoraproject.org)
+  135456698 buildArch (libreoffice-25.8.0.2-0.2.fc43.src.rpm, x86_64): assigned (buildvm-x86-28.rdu3.fedoraproject.org) -> open (buildvm-x86-28.rdu3.fedoraproject.org)
+  135456700 buildArch (libreoffice-25.8.0.2-0.2.fc43.src.rpm, ppc64le): assigned (buildvm-ppc64le-32.rdu3.fedoraproject.org) -> open (buildvm-ppc64le-32.rdu3.fedoraproject.org)
+  135456701 buildArch (libreoffice-25.8.0.2-0.2.fc43.src.rpm, s390x): free -> assigned (buildvm-s390x-07.s390.fedoraproject.org)
+  135456701 buildArch (libreoffice-25.8.0.2-0.2.fc43.src.rpm, s390x): assigned (buildvm-s390x-07.s390.fedoraproject.org) -> open (buildvm-s390x-07.s390.fedoraproject.org)
+  135456698 buildArch (libreoffice-25.8.0.2-0.2.fc43.src.rpm, x86_64): open (buildvm-x86-28.rdu3.fedoraproject.org) -> closed
+  0 free  4 open  2 done  0 failed
+  135456699 buildArch (libreoffice-25.8.0.2-0.2.fc43.src.rpm, aarch64): open (buildvm-a64-05.rdu3.fedoraproject.org) -> closed
+  0 free  3 open  3 done  0 failed
+  135456700 buildArch (libreoffice-25.8.0.2-0.2.fc43.src.rpm, ppc64le): open (buildvm-ppc64le-32.rdu3.fedoraproject.org) -> closed
+  0 free  2 open  4 done  0 failed
+  135456701 buildArch (libreoffice-25.8.0.2-0.2.fc43.src.rpm, s390x): open (buildvm-s390x-07.s390.fedoraproject.org) -> closed
+  0 free  1 open  5 done  0 failed
+  135470562 tagBuild (noarch): free
+  135470562 tagBuild (noarch): free -> assigned (buildvm-s390x-07.s390.fedoraproject.org)
+135455159 build (rawhide, /rpms/libreoffice.git:5eaa6b1221a1f4151660fd8b70779175c6cfffc2): open (buildvm-a64-29.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  6 done  0 failed
+  135470562 tagBuild (noarch): assigned (buildvm-s390x-07.s390.fedoraproject.org) -> closed
+  0 free  0 open  7 done  0 failed
+
+135455159 build (rawhide, /rpms/libreoffice.git:5eaa6b1221a1f4151660fd8b70779175c6cfffc2) completed successfully

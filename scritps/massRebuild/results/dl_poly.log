@@ -1,0 +1,28 @@
+Building dl_poly-1.10-25.fc43 for rawhide
+Created task: 135479565
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135479565
+Watching tasks (this may be safely interrupted)...
+135479565 build (rawhide, /rpms/dl_poly.git:b7ce2eaa6132fef2fe833f77d56e2331f67703e3): free
+135479565 build (rawhide, /rpms/dl_poly.git:b7ce2eaa6132fef2fe833f77d56e2331f67703e3): free -> open (buildvm-a64-44.rdu3.fedoraproject.org)
+  135479576 buildSRPMFromSCM (/rpms/dl_poly.git:b7ce2eaa6132fef2fe833f77d56e2331f67703e3): free
+  135479576 buildSRPMFromSCM (/rpms/dl_poly.git:b7ce2eaa6132fef2fe833f77d56e2331f67703e3): free -> open (buildvm-ppc64le-15.rdu3.fedoraproject.org)
+  135479614 buildArch (dl_poly-1.10-25.fc43.src.rpm, ppc64le): open (buildvm-ppc64le-12.rdu3.fedoraproject.org)
+  135479612 buildArch (dl_poly-1.10-25.fc43.src.rpm, x86_64): open (buildvm-x86-05.rdu3.fedoraproject.org)
+  135479615 buildArch (dl_poly-1.10-25.fc43.src.rpm, s390x): open (buildvm-s390x-18.s390.fedoraproject.org)
+  135479613 buildArch (dl_poly-1.10-25.fc43.src.rpm, aarch64): open (buildvm-a64-19.rdu3.fedoraproject.org)
+  135479576 buildSRPMFromSCM (/rpms/dl_poly.git:b7ce2eaa6132fef2fe833f77d56e2331f67703e3): open (buildvm-ppc64le-15.rdu3.fedoraproject.org) -> closed
+  0 free  5 open  1 done  0 failed
+  135479612 buildArch (dl_poly-1.10-25.fc43.src.rpm, x86_64): open (buildvm-x86-05.rdu3.fedoraproject.org) -> closed
+  0 free  4 open  2 done  0 failed
+  135479613 buildArch (dl_poly-1.10-25.fc43.src.rpm, aarch64): open (buildvm-a64-19.rdu3.fedoraproject.org) -> closed
+  0 free  3 open  3 done  0 failed
+  135479615 buildArch (dl_poly-1.10-25.fc43.src.rpm, s390x): open (buildvm-s390x-18.s390.fedoraproject.org) -> closed
+  0 free  2 open  4 done  0 failed
+135479565 build (rawhide, /rpms/dl_poly.git:b7ce2eaa6132fef2fe833f77d56e2331f67703e3): open (buildvm-a64-44.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  5 done  0 failed
+  135479813 tagBuild (noarch): closed
+  135479614 buildArch (dl_poly-1.10-25.fc43.src.rpm, ppc64le): open (buildvm-ppc64le-12.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  7 done  0 failed
+
+
+135450422 build (rawhide, /rpms/frysk.git:b1e8523956648e7a961d9d7967a89bff6554a64e) completed successfully

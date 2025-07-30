@@ -1,0 +1,42 @@
+Cloning into 'string-template-maven-plugin'...
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the RSA key sent by the remote host is
+SHA256:dJN0nFWBcWK7SFs2k0nnsO+XNA9+aEDY4FWO7uhxTN8.
+Please contact your system administrator.
+Add correct host key in /home/jvanek/.ssh/known_hosts to get rid of this message.
+Offending RSA key in /home/jvanek/.ssh/known_hosts:2
+Password authentication is disabled to avoid man-in-the-middle attacks.
+Keyboard-interactive authentication is disabled to avoid man-in-the-middle attacks.
+UpdateHostkeys is disabled because the host key is not trusted.
+[rawhide b2e581a] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 5 insertions(+), 2 deletions(-)
+Building string-template-maven-plugin-1.1-18.fc43 for rawhide
+Created task: 135457804
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135457804
+Watching tasks (this may be safely interrupted)...
+135457804 build (rawhide, /rpms/string-template-maven-plugin.git:b2e581a5e53dc90220019ec9d3dc3c56387275fd): free
+135457804 build (rawhide, /rpms/string-template-maven-plugin.git:b2e581a5e53dc90220019ec9d3dc3c56387275fd): free -> assigned (buildvm-a64-30.rdu3.fedoraproject.org)
+135457804 build (rawhide, /rpms/string-template-maven-plugin.git:b2e581a5e53dc90220019ec9d3dc3c56387275fd): assigned (buildvm-a64-30.rdu3.fedoraproject.org) -> open (buildvm-a64-30.rdu3.fedoraproject.org)
+  135457812 buildSRPMFromSCM (/rpms/string-template-maven-plugin.git:b2e581a5e53dc90220019ec9d3dc3c56387275fd): free
+  135457812 buildSRPMFromSCM (/rpms/string-template-maven-plugin.git:b2e581a5e53dc90220019ec9d3dc3c56387275fd): free -> assigned (buildvm-a64-04.rdu3.fedoraproject.org)
+  135457812 buildSRPMFromSCM (/rpms/string-template-maven-plugin.git:b2e581a5e53dc90220019ec9d3dc3c56387275fd): assigned (buildvm-a64-04.rdu3.fedoraproject.org) -> open (buildvm-a64-04.rdu3.fedoraproject.org)
+  135457812 buildSRPMFromSCM (/rpms/string-template-maven-plugin.git:b2e581a5e53dc90220019ec9d3dc3c56387275fd): open (buildvm-a64-04.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135457850 buildArch (string-template-maven-plugin-1.1-18.fc43.src.rpm, noarch): free
+  135457850 buildArch (string-template-maven-plugin-1.1-18.fc43.src.rpm, noarch): free -> assigned (buildvm-a64-44.rdu3.fedoraproject.org)
+  135457850 buildArch (string-template-maven-plugin-1.1-18.fc43.src.rpm, noarch): assigned (buildvm-a64-44.rdu3.fedoraproject.org) -> open (buildvm-a64-44.rdu3.fedoraproject.org)
+  135457850 buildArch (string-template-maven-plugin-1.1-18.fc43.src.rpm, noarch): open (buildvm-a64-44.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  135457921 tagBuild (noarch): free
+  135457921 tagBuild (noarch): free -> assigned (buildvm-ppc64le-04.rdu3.fedoraproject.org)
+  135457921 tagBuild (noarch): assigned (buildvm-ppc64le-04.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+135457804 build (rawhide, /rpms/string-template-maven-plugin.git:b2e581a5e53dc90220019ec9d3dc3c56387275fd): open (buildvm-a64-30.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135457804 build (rawhide, /rpms/string-template-maven-plugin.git:b2e581a5e53dc90220019ec9d3dc3c56387275fd) completed successfully

@@ -1,0 +1,42 @@
+Cloning into 'jetty'...
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the RSA key sent by the remote host is
+SHA256:dJN0nFWBcWK7SFs2k0nnsO+XNA9+aEDY4FWO7uhxTN8.
+Please contact your system administrator.
+Add correct host key in /home/jvanek/.ssh/known_hosts to get rid of this message.
+Offending RSA key in /home/jvanek/.ssh/known_hosts:2
+Password authentication is disabled to avoid man-in-the-middle attacks.
+Keyboard-interactive authentication is disabled to avoid man-in-the-middle attacks.
+UpdateHostkeys is disabled because the host key is not trusted.
+[rawhide 120903c] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 6 insertions(+), 3 deletions(-)
+Building jetty-9.4.40-17.fc43 for rawhide
+Created task: 135452171
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135452171
+Watching tasks (this may be safely interrupted)...
+135452171 build (rawhide, /rpms/jetty.git:120903cd510cd8a7f7ab2793d3611591b78075e5): free
+135452171 build (rawhide, /rpms/jetty.git:120903cd510cd8a7f7ab2793d3611591b78075e5): free -> assigned (buildhw-x86-13.rdu3.fedoraproject.org)
+135452171 build (rawhide, /rpms/jetty.git:120903cd510cd8a7f7ab2793d3611591b78075e5): assigned (buildhw-x86-13.rdu3.fedoraproject.org) -> open (buildhw-x86-13.rdu3.fedoraproject.org)
+  135452190 buildSRPMFromSCM (/rpms/jetty.git:120903cd510cd8a7f7ab2793d3611591b78075e5): free
+  135452190 buildSRPMFromSCM (/rpms/jetty.git:120903cd510cd8a7f7ab2793d3611591b78075e5): free -> assigned (buildvm-s390x-05.s390.fedoraproject.org)
+  135452190 buildSRPMFromSCM (/rpms/jetty.git:120903cd510cd8a7f7ab2793d3611591b78075e5): assigned (buildvm-s390x-05.s390.fedoraproject.org) -> open (buildvm-s390x-05.s390.fedoraproject.org)
+  135452190 buildSRPMFromSCM (/rpms/jetty.git:120903cd510cd8a7f7ab2793d3611591b78075e5): open (buildvm-s390x-05.s390.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135455066 buildArch (jetty-9.4.40-17.fc43.src.rpm, noarch): free
+  135455066 buildArch (jetty-9.4.40-17.fc43.src.rpm, noarch): free -> assigned (buildvm-x86-13.rdu3.fedoraproject.org)
+  135455066 buildArch (jetty-9.4.40-17.fc43.src.rpm, noarch): assigned (buildvm-x86-13.rdu3.fedoraproject.org) -> open (buildvm-x86-13.rdu3.fedoraproject.org)
+  135455066 buildArch (jetty-9.4.40-17.fc43.src.rpm, noarch): open (buildvm-x86-13.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  135455198 tagBuild (noarch): free
+  135455198 tagBuild (noarch): free -> assigned (buildvm-ppc64le-27.rdu3.fedoraproject.org)
+  135455198 tagBuild (noarch): assigned (buildvm-ppc64le-27.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+135452171 build (rawhide, /rpms/jetty.git:120903cd510cd8a7f7ab2793d3611591b78075e5): open (buildhw-x86-13.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135452171 build (rawhide, /rpms/jetty.git:120903cd510cd8a7f7ab2793d3611591b78075e5) completed successfully

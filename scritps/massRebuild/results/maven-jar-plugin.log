@@ -1,0 +1,42 @@
+Cloning into 'maven-jar-plugin'...
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the RSA key sent by the remote host is
+SHA256:dJN0nFWBcWK7SFs2k0nnsO+XNA9+aEDY4FWO7uhxTN8.
+Please contact your system administrator.
+Add correct host key in /home/jvanek/.ssh/known_hosts to get rid of this message.
+Offending RSA key in /home/jvanek/.ssh/known_hosts:2
+Password authentication is disabled to avoid man-in-the-middle attacks.
+Keyboard-interactive authentication is disabled to avoid man-in-the-middle attacks.
+UpdateHostkeys is disabled because the host key is not trusted.
+RPMAutoSpec usage detected, not changing the spec file.
+[rawhide 5ca1b4f] Rebuilt for java-25-openjdk as preffered jdk
+Found a gating.yaml file in the repo and it is properly configured
+Building maven-jar-plugin-3.3.0-21.fc43 for rawhide
+Created task: 135455637
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135455637
+Watching tasks (this may be safely interrupted)...
+135455637 build (rawhide, /rpms/maven-jar-plugin.git:5ca1b4f9a2a508643c344fe9f4c67a0dff5927e8): free
+135455637 build (rawhide, /rpms/maven-jar-plugin.git:5ca1b4f9a2a508643c344fe9f4c67a0dff5927e8): free -> assigned (buildvm-ppc64le-21.rdu3.fedoraproject.org)
+135455637 build (rawhide, /rpms/maven-jar-plugin.git:5ca1b4f9a2a508643c344fe9f4c67a0dff5927e8): assigned (buildvm-ppc64le-21.rdu3.fedoraproject.org) -> open (buildvm-ppc64le-21.rdu3.fedoraproject.org)
+  135455653 buildSRPMFromSCM (/rpms/maven-jar-plugin.git:5ca1b4f9a2a508643c344fe9f4c67a0dff5927e8): free
+  135455653 buildSRPMFromSCM (/rpms/maven-jar-plugin.git:5ca1b4f9a2a508643c344fe9f4c67a0dff5927e8): free -> assigned (buildvm-ppc64le-04.rdu3.fedoraproject.org)
+  135455653 buildSRPMFromSCM (/rpms/maven-jar-plugin.git:5ca1b4f9a2a508643c344fe9f4c67a0dff5927e8): assigned (buildvm-ppc64le-04.rdu3.fedoraproject.org) -> open (buildvm-ppc64le-04.rdu3.fedoraproject.org)
+  135455743 buildArch (maven-jar-plugin-3.3.0-21.fc43.src.rpm, noarch): free
+  135455653 buildSRPMFromSCM (/rpms/maven-jar-plugin.git:5ca1b4f9a2a508643c344fe9f4c67a0dff5927e8): open (buildvm-ppc64le-04.rdu3.fedoraproject.org) -> closed
+  1 free  1 open  1 done  0 failed
+  135455743 buildArch (maven-jar-plugin-3.3.0-21.fc43.src.rpm, noarch): free -> assigned (buildvm-x86-17.rdu3.fedoraproject.org)
+  135455743 buildArch (maven-jar-plugin-3.3.0-21.fc43.src.rpm, noarch): assigned (buildvm-x86-17.rdu3.fedoraproject.org) -> open (buildvm-x86-17.rdu3.fedoraproject.org)
+  135455801 tagBuild (noarch): free
+  135455743 buildArch (maven-jar-plugin-3.3.0-21.fc43.src.rpm, noarch): open (buildvm-x86-17.rdu3.fedoraproject.org) -> closed
+  1 free  1 open  2 done  0 failed
+  135455801 tagBuild (noarch): free -> closed
+  0 free  1 open  3 done  0 failed
+135455637 build (rawhide, /rpms/maven-jar-plugin.git:5ca1b4f9a2a508643c344fe9f4c67a0dff5927e8): open (buildvm-ppc64le-21.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135455637 build (rawhide, /rpms/maven-jar-plugin.git:5ca1b4f9a2a508643c344fe9f4c67a0dff5927e8) completed successfully

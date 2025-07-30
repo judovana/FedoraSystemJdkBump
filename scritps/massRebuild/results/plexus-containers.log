@@ -1,0 +1,42 @@
+Cloning into 'plexus-containers'...
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the RSA key sent by the remote host is
+SHA256:dJN0nFWBcWK7SFs2k0nnsO+XNA9+aEDY4FWO7uhxTN8.
+Please contact your system administrator.
+Add correct host key in /home/jvanek/.ssh/known_hosts to get rid of this message.
+Offending RSA key in /home/jvanek/.ssh/known_hosts:2
+Password authentication is disabled to avoid man-in-the-middle attacks.
+Keyboard-interactive authentication is disabled to avoid man-in-the-middle attacks.
+UpdateHostkeys is disabled because the host key is not trusted.
+RPMAutoSpec usage detected, not changing the spec file.
+[rawhide a43effb] Rebuilt for java-25-openjdk as preffered jdk
+Found a gating.yaml file in the repo and it is properly configured
+Building plexus-containers-2.2.0-17.fc43 for rawhide
+Created task: 135457310
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135457310
+Watching tasks (this may be safely interrupted)...
+135457310 build (rawhide, /rpms/plexus-containers.git:a43effbf08b8b2b46bc3810e9ca2c0e3bafa1f00): free
+135457310 build (rawhide, /rpms/plexus-containers.git:a43effbf08b8b2b46bc3810e9ca2c0e3bafa1f00): free -> assigned (buildvm-a64-46.rdu3.fedoraproject.org)
+135457310 build (rawhide, /rpms/plexus-containers.git:a43effbf08b8b2b46bc3810e9ca2c0e3bafa1f00): assigned (buildvm-a64-46.rdu3.fedoraproject.org) -> open (buildvm-a64-46.rdu3.fedoraproject.org)
+  135457337 buildSRPMFromSCM (/rpms/plexus-containers.git:a43effbf08b8b2b46bc3810e9ca2c0e3bafa1f00): free
+  135457337 buildSRPMFromSCM (/rpms/plexus-containers.git:a43effbf08b8b2b46bc3810e9ca2c0e3bafa1f00): free -> assigned (buildvm-s390x-09.s390.fedoraproject.org)
+  135457337 buildSRPMFromSCM (/rpms/plexus-containers.git:a43effbf08b8b2b46bc3810e9ca2c0e3bafa1f00): assigned (buildvm-s390x-09.s390.fedoraproject.org) -> open (buildvm-s390x-09.s390.fedoraproject.org)
+  135457337 buildSRPMFromSCM (/rpms/plexus-containers.git:a43effbf08b8b2b46bc3810e9ca2c0e3bafa1f00): open (buildvm-s390x-09.s390.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135457551 buildArch (plexus-containers-2.2.0-17.fc43.src.rpm, noarch): free
+  135457551 buildArch (plexus-containers-2.2.0-17.fc43.src.rpm, noarch): free -> open (buildvm-a64-47.rdu3.fedoraproject.org)
+  135457551 buildArch (plexus-containers-2.2.0-17.fc43.src.rpm, noarch): open (buildvm-a64-47.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  135457630 tagBuild (noarch): free
+  135457630 tagBuild (noarch): free -> assigned (buildvm-x86-09.rdu3.fedoraproject.org)
+  135457630 tagBuild (noarch): assigned (buildvm-x86-09.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+135457310 build (rawhide, /rpms/plexus-containers.git:a43effbf08b8b2b46bc3810e9ca2c0e3bafa1f00): open (buildvm-a64-46.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135457310 build (rawhide, /rpms/plexus-containers.git:a43effbf08b8b2b46bc3810e9ca2c0e3bafa1f00) completed successfully

@@ -1,0 +1,46 @@
+Cloning into 'stringtemplate4'...
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the RSA key sent by the remote host is
+SHA256:dJN0nFWBcWK7SFs2k0nnsO+XNA9+aEDY4FWO7uhxTN8.
+Please contact your system administrator.
+Add correct host key in /home/jvanek/.ssh/known_hosts to get rid of this message.
+Offending RSA key in /home/jvanek/.ssh/known_hosts:2
+Password authentication is disabled to avoid man-in-the-middle attacks.
+Keyboard-interactive authentication is disabled to avoid man-in-the-middle attacks.
+UpdateHostkeys is disabled because the host key is not trusted.
+[rawhide e2d45a3] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 5 insertions(+), 2 deletions(-)
+Building stringtemplate4-4.3.4-8.fc43 for rawhide
+Created task: 135457793
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135457793
+Watching tasks (this may be safely interrupted)...
+135457793 build (rawhide, /rpms/stringtemplate4.git:e2d45a32995c912be32c21babfdf31bb90e3c724): free
+135457793 build (rawhide, /rpms/stringtemplate4.git:e2d45a32995c912be32c21babfdf31bb90e3c724): free -> assigned (buildvm-ppc64le-18.rdu3.fedoraproject.org)
+135457793 build (rawhide, /rpms/stringtemplate4.git:e2d45a32995c912be32c21babfdf31bb90e3c724): assigned (buildvm-ppc64le-18.rdu3.fedoraproject.org) -> open (buildvm-ppc64le-18.rdu3.fedoraproject.org)
+  135457801 buildSRPMFromSCM (/rpms/stringtemplate4.git:e2d45a32995c912be32c21babfdf31bb90e3c724): free
+  135457801 buildSRPMFromSCM (/rpms/stringtemplate4.git:e2d45a32995c912be32c21babfdf31bb90e3c724): free -> assigned (buildvm-s390x-18.s390.fedoraproject.org)
+  135457801 buildSRPMFromSCM (/rpms/stringtemplate4.git:e2d45a32995c912be32c21babfdf31bb90e3c724): assigned (buildvm-s390x-18.s390.fedoraproject.org) -> open (buildvm-s390x-18.s390.fedoraproject.org)
+  135457843 buildArch (stringtemplate4-4.3.4-8.fc43.src.rpm, noarch): free
+  135457801 buildSRPMFromSCM (/rpms/stringtemplate4.git:e2d45a32995c912be32c21babfdf31bb90e3c724): open (buildvm-s390x-18.s390.fedoraproject.org) -> closed
+  1 free  1 open  1 done  0 failed
+  135457843 buildArch (stringtemplate4-4.3.4-8.fc43.src.rpm, noarch): free -> assigned (buildhw-x86-02.rdu3.fedoraproject.org)
+  135457843 buildArch (stringtemplate4-4.3.4-8.fc43.src.rpm, noarch): assigned (buildhw-x86-02.rdu3.fedoraproject.org) -> open (buildhw-x86-02.rdu3.fedoraproject.org)
+135457793 build (rawhide, /rpms/stringtemplate4.git:e2d45a32995c912be32c21babfdf31bb90e3c724): open (buildvm-ppc64le-18.rdu3.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
+  0 free  1 open  1 done  1 failed
+  135457843 buildArch (stringtemplate4-4.3.4-8.fc43.src.rpm, noarch): open (buildhw-x86-02.rdu3.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 1; see build.log or root.log for more information
+  Relevant logs:
+  https://kojipkgs.fedoraproject.org/work/tasks/7843/135457843/mock_config.log
+  https://kojipkgs.fedoraproject.org/work/tasks/7843/135457843/state.log
+  https://kojipkgs.fedoraproject.org/work/tasks/7843/135457843/build.log
+  https://kojipkgs.fedoraproject.org/work/tasks/7843/135457843/root.log
+  https://kojipkgs.fedoraproject.org/work/tasks/7843/135457843/mock_output.log
+  https://kojipkgs.fedoraproject.org/work/tasks/7843/135457843/hw_info.log
+  https://kojipkgs.fedoraproject.org/work/tasks/7843/135457843/dnf5.log
+  0 free  0 open  1 done  2 failed
+
+135457793 build (rawhide, /rpms/stringtemplate4.git:e2d45a32995c912be32c21babfdf31bb90e3c724) failed

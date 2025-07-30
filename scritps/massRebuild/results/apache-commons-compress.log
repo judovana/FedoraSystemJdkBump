@@ -1,0 +1,42 @@
+Cloning into 'apache-commons-compress'...
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the RSA key sent by the remote host is
+SHA256:dJN0nFWBcWK7SFs2k0nnsO+XNA9+aEDY4FWO7uhxTN8.
+Please contact your system administrator.
+Add correct host key in /home/jvanek/.ssh/known_hosts to get rid of this message.
+Offending RSA key in /home/jvanek/.ssh/known_hosts:2
+Password authentication is disabled to avoid man-in-the-middle attacks.
+Keyboard-interactive authentication is disabled to avoid man-in-the-middle attacks.
+UpdateHostkeys is disabled because the host key is not trusted.
+RPMAutoSpec usage detected, not changing the spec file.
+[rawhide bdaf66e] Rebuilt for java-25-openjdk as preffered jdk
+Found a gating.yaml file in the repo and it is properly configured
+Building apache-commons-compress-1.27.1-12.fc43 for rawhide
+Created task: 135446153
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135446153
+Watching tasks (this may be safely interrupted)...
+135446153 build (rawhide, /rpms/apache-commons-compress.git:bdaf66ef9ff399da1630157e23cdad5cd4f37b17): free
+135446153 build (rawhide, /rpms/apache-commons-compress.git:bdaf66ef9ff399da1630157e23cdad5cd4f37b17): free -> assigned (buildvm-x86-15.rdu3.fedoraproject.org)
+135446153 build (rawhide, /rpms/apache-commons-compress.git:bdaf66ef9ff399da1630157e23cdad5cd4f37b17): assigned (buildvm-x86-15.rdu3.fedoraproject.org) -> open (buildvm-x86-15.rdu3.fedoraproject.org)
+  135448734 buildSRPMFromSCM (/rpms/apache-commons-compress.git:bdaf66ef9ff399da1630157e23cdad5cd4f37b17): free
+  135448734 buildSRPMFromSCM (/rpms/apache-commons-compress.git:bdaf66ef9ff399da1630157e23cdad5cd4f37b17): free -> assigned (buildvm-a64-36.rdu3.fedoraproject.org)
+  135448734 buildSRPMFromSCM (/rpms/apache-commons-compress.git:bdaf66ef9ff399da1630157e23cdad5cd4f37b17): assigned (buildvm-a64-36.rdu3.fedoraproject.org) -> open (buildvm-a64-36.rdu3.fedoraproject.org)
+  135448734 buildSRPMFromSCM (/rpms/apache-commons-compress.git:bdaf66ef9ff399da1630157e23cdad5cd4f37b17): open (buildvm-a64-36.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135448877 buildArch (apache-commons-compress-1.27.1-12.fc43.src.rpm, noarch): free
+  135448877 buildArch (apache-commons-compress-1.27.1-12.fc43.src.rpm, noarch): free -> open (buildvm-x86-24.rdu3.fedoraproject.org)
+  135448877 buildArch (apache-commons-compress-1.27.1-12.fc43.src.rpm, noarch): open (buildvm-x86-24.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  135448977 tagBuild (noarch): free
+  135448977 tagBuild (noarch): free -> assigned (buildvm-a64-14.rdu3.fedoraproject.org)
+  135448977 tagBuild (noarch): assigned (buildvm-a64-14.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+135446153 build (rawhide, /rpms/apache-commons-compress.git:bdaf66ef9ff399da1630157e23cdad5cd4f37b17): open (buildvm-x86-15.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135446153 build (rawhide, /rpms/apache-commons-compress.git:bdaf66ef9ff399da1630157e23cdad5cd4f37b17) completed successfully

@@ -1,0 +1,46 @@
+Cloning into 'aqute-bnd'...
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the RSA key sent by the remote host is
+SHA256:dJN0nFWBcWK7SFs2k0nnsO+XNA9+aEDY4FWO7uhxTN8.
+Please contact your system administrator.
+Add correct host key in /home/jvanek/.ssh/known_hosts to get rid of this message.
+Offending RSA key in /home/jvanek/.ssh/known_hosts:2
+Password authentication is disabled to avoid man-in-the-middle attacks.
+Keyboard-interactive authentication is disabled to avoid man-in-the-middle attacks.
+UpdateHostkeys is disabled because the host key is not trusted.
+RPMAutoSpec usage detected, not changing the spec file.
+[rawhide 9c5343f] Rebuilt for java-25-openjdk as preffered jdk
+Found a gating.yaml file in the repo and it is properly configured
+Building aqute-bnd-6.3.1-28.fc43 for rawhide
+Created task: 135448825
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135448825
+Watching tasks (this may be safely interrupted)...
+135448825 build (rawhide, /rpms/aqute-bnd.git:9c5343ff3d76b25478e747d8c7c893c02bd0ea6a): free
+135448825 build (rawhide, /rpms/aqute-bnd.git:9c5343ff3d76b25478e747d8c7c893c02bd0ea6a): free -> open (buildvm-a64-20.rdu3.fedoraproject.org)
+  135448836 buildSRPMFromSCM (/rpms/aqute-bnd.git:9c5343ff3d76b25478e747d8c7c893c02bd0ea6a): free
+  135448836 buildSRPMFromSCM (/rpms/aqute-bnd.git:9c5343ff3d76b25478e747d8c7c893c02bd0ea6a): free -> assigned (buildvm-s390x-15.s390.fedoraproject.org)
+  135448836 buildSRPMFromSCM (/rpms/aqute-bnd.git:9c5343ff3d76b25478e747d8c7c893c02bd0ea6a): assigned (buildvm-s390x-15.s390.fedoraproject.org) -> open (buildvm-s390x-15.s390.fedoraproject.org)
+  135448836 buildSRPMFromSCM (/rpms/aqute-bnd.git:9c5343ff3d76b25478e747d8c7c893c02bd0ea6a): open (buildvm-s390x-15.s390.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135453386 buildArch (aqute-bnd-6.3.1-28.fc43.src.rpm, noarch): free
+  135453386 buildArch (aqute-bnd-6.3.1-28.fc43.src.rpm, noarch): free -> assigned (buildvm-s390x-05.s390.fedoraproject.org)
+  135453386 buildArch (aqute-bnd-6.3.1-28.fc43.src.rpm, noarch): assigned (buildvm-s390x-05.s390.fedoraproject.org) -> free
+  135453386 buildArch (aqute-bnd-6.3.1-28.fc43.src.rpm, noarch): free -> assigned (buildvm-s390x-07.s390.fedoraproject.org)
+  135453386 buildArch (aqute-bnd-6.3.1-28.fc43.src.rpm, noarch): assigned (buildvm-s390x-07.s390.fedoraproject.org) -> free
+  135453386 buildArch (aqute-bnd-6.3.1-28.fc43.src.rpm, noarch): free -> assigned (buildvm-s390x-10.s390.fedoraproject.org)
+  135453386 buildArch (aqute-bnd-6.3.1-28.fc43.src.rpm, noarch): assigned (buildvm-s390x-10.s390.fedoraproject.org) -> open (buildvm-s390x-10.s390.fedoraproject.org)
+  135453386 buildArch (aqute-bnd-6.3.1-28.fc43.src.rpm, noarch): open (buildvm-s390x-10.s390.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  135456301 tagBuild (noarch): free
+  135456301 tagBuild (noarch): free -> assigned (buildvm-ppc64le-17.rdu3.fedoraproject.org)
+  135456301 tagBuild (noarch): assigned (buildvm-ppc64le-17.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  3 done  0 failed
+135448825 build (rawhide, /rpms/aqute-bnd.git:9c5343ff3d76b25478e747d8c7c893c02bd0ea6a): open (buildvm-a64-20.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  4 done  0 failed
+
+135448825 build (rawhide, /rpms/aqute-bnd.git:9c5343ff3d76b25478e747d8c7c893c02bd0ea6a) completed successfully

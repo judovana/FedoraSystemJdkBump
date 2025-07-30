@@ -1,0 +1,57 @@
+Cloning into 'jansi-native'...
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the RSA key sent by the remote host is
+SHA256:dJN0nFWBcWK7SFs2k0nnsO+XNA9+aEDY4FWO7uhxTN8.
+Please contact your system administrator.
+Add correct host key in /home/jvanek/.ssh/known_hosts to get rid of this message.
+Offending RSA key in /home/jvanek/.ssh/known_hosts:2
+Password authentication is disabled to avoid man-in-the-middle attacks.
+Keyboard-interactive authentication is disabled to avoid man-in-the-middle attacks.
+UpdateHostkeys is disabled because the host key is not trusted.
+[rawhide 128a2cb] Rebuilt for java-25-openjdk as preffered jdk
+ 1 file changed, 5 insertions(+), 2 deletions(-)
+Building jansi-native-1.8-23.fc43 for rawhide
+Created task: 135451140
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135451140
+Watching tasks (this may be safely interrupted)...
+135451140 build (rawhide, /rpms/jansi-native.git:128a2cb53232e878f435ea15888fb4ce16dc4f04): free
+135451140 build (rawhide, /rpms/jansi-native.git:128a2cb53232e878f435ea15888fb4ce16dc4f04): free -> assigned (buildvm-a64-20.rdu3.fedoraproject.org)
+135451140 build (rawhide, /rpms/jansi-native.git:128a2cb53232e878f435ea15888fb4ce16dc4f04): assigned (buildvm-a64-20.rdu3.fedoraproject.org) -> open (buildvm-a64-20.rdu3.fedoraproject.org)
+  135451163 buildSRPMFromSCM (/rpms/jansi-native.git:128a2cb53232e878f435ea15888fb4ce16dc4f04): free
+  135451163 buildSRPMFromSCM (/rpms/jansi-native.git:128a2cb53232e878f435ea15888fb4ce16dc4f04): free -> assigned (buildvm-s390x-04.s390.fedoraproject.org)
+  135451163 buildSRPMFromSCM (/rpms/jansi-native.git:128a2cb53232e878f435ea15888fb4ce16dc4f04): assigned (buildvm-s390x-04.s390.fedoraproject.org) -> open (buildvm-s390x-04.s390.fedoraproject.org)
+  135451163 buildSRPMFromSCM (/rpms/jansi-native.git:128a2cb53232e878f435ea15888fb4ce16dc4f04): open (buildvm-s390x-04.s390.fedoraproject.org) -> closed
+  0 free  1 open  1 done  0 failed
+  135454558 buildArch (jansi-native-1.8-23.fc43.src.rpm, aarch64): free
+  135454560 buildArch (jansi-native-1.8-23.fc43.src.rpm, s390x): free
+  135454559 buildArch (jansi-native-1.8-23.fc43.src.rpm, ppc64le): free
+  135454557 buildArch (jansi-native-1.8-23.fc43.src.rpm, x86_64): free
+  135454558 buildArch (jansi-native-1.8-23.fc43.src.rpm, aarch64): free -> assigned (buildvm-a64-43.rdu3.fedoraproject.org)
+  135454559 buildArch (jansi-native-1.8-23.fc43.src.rpm, ppc64le): free -> assigned (buildvm-ppc64le-10.rdu3.fedoraproject.org)
+  135454557 buildArch (jansi-native-1.8-23.fc43.src.rpm, x86_64): free -> assigned (buildvm-x86-21.rdu3.fedoraproject.org)
+  135454558 buildArch (jansi-native-1.8-23.fc43.src.rpm, aarch64): assigned (buildvm-a64-43.rdu3.fedoraproject.org) -> open (buildvm-a64-43.rdu3.fedoraproject.org)
+  135454559 buildArch (jansi-native-1.8-23.fc43.src.rpm, ppc64le): assigned (buildvm-ppc64le-10.rdu3.fedoraproject.org) -> open (buildvm-ppc64le-10.rdu3.fedoraproject.org)
+  135454557 buildArch (jansi-native-1.8-23.fc43.src.rpm, x86_64): assigned (buildvm-x86-21.rdu3.fedoraproject.org) -> open (buildvm-x86-21.rdu3.fedoraproject.org)
+  135454557 buildArch (jansi-native-1.8-23.fc43.src.rpm, x86_64): open (buildvm-x86-21.rdu3.fedoraproject.org) -> closed
+  1 free  3 open  2 done  0 failed
+  135454558 buildArch (jansi-native-1.8-23.fc43.src.rpm, aarch64): open (buildvm-a64-43.rdu3.fedoraproject.org) -> closed
+  1 free  2 open  3 done  0 failed
+  135454559 buildArch (jansi-native-1.8-23.fc43.src.rpm, ppc64le): open (buildvm-ppc64le-10.rdu3.fedoraproject.org) -> closed
+  1 free  1 open  4 done  0 failed
+  135454560 buildArch (jansi-native-1.8-23.fc43.src.rpm, s390x): free -> assigned (buildvm-s390x-10.s390.fedoraproject.org)
+  135454560 buildArch (jansi-native-1.8-23.fc43.src.rpm, s390x): assigned (buildvm-s390x-10.s390.fedoraproject.org) -> open (buildvm-s390x-10.s390.fedoraproject.org)
+  135454560 buildArch (jansi-native-1.8-23.fc43.src.rpm, s390x): open (buildvm-s390x-10.s390.fedoraproject.org) -> closed
+  0 free  1 open  5 done  0 failed
+  135456312 tagBuild (noarch): free
+  135456312 tagBuild (noarch): free -> assigned (buildvm-ppc64le-10.rdu3.fedoraproject.org)
+  135456312 tagBuild (noarch): assigned (buildvm-ppc64le-10.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  6 done  0 failed
+135451140 build (rawhide, /rpms/jansi-native.git:128a2cb53232e878f435ea15888fb4ce16dc4f04): open (buildvm-a64-20.rdu3.fedoraproject.org) -> closed
+  0 free  0 open  7 done  0 failed
+
+135451140 build (rawhide, /rpms/jansi-native.git:128a2cb53232e878f435ea15888fb4ce16dc4f04) completed successfully
