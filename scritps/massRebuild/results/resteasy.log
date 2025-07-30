@@ -13,34 +13,39 @@ Offending RSA key in /home/jvanek/.ssh/known_hosts:2
 Password authentication is disabled to avoid man-in-the-middle attacks.
 Keyboard-interactive authentication is disabled to avoid man-in-the-middle attacks.
 UpdateHostkeys is disabled because the host key is not trusted.
-[rawhide b8ff7c4] Rebuilt for java-25-openjdk as preffered jdk
+[rawhide ebe56f3] Rrevert to jdk21
  1 file changed, 5 insertions(+), 2 deletions(-)
-Building resteasy-3.0.26-35.fc43 for rawhide
-Created task: 135457709
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135457709
+Building resteasy-3.0.26-36.fc43 for rawhide
+Created task: 135483427
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135483427
 Watching tasks (this may be safely interrupted)...
-135457709 build (rawhide, /rpms/resteasy.git:b8ff7c453a965c787fa6a19178eab054c12270ad): free
-135457709 build (rawhide, /rpms/resteasy.git:b8ff7c453a965c787fa6a19178eab054c12270ad): free -> assigned (buildvm-x86-09.rdu3.fedoraproject.org)
-135457709 build (rawhide, /rpms/resteasy.git:b8ff7c453a965c787fa6a19178eab054c12270ad): assigned (buildvm-x86-09.rdu3.fedoraproject.org) -> open (buildvm-x86-09.rdu3.fedoraproject.org)
-  135457712 buildSRPMFromSCM (/rpms/resteasy.git:b8ff7c453a965c787fa6a19178eab054c12270ad): free
-  135457712 buildSRPMFromSCM (/rpms/resteasy.git:b8ff7c453a965c787fa6a19178eab054c12270ad): free -> assigned (buildvm-s390x-06.s390.fedoraproject.org)
-  135457712 buildSRPMFromSCM (/rpms/resteasy.git:b8ff7c453a965c787fa6a19178eab054c12270ad): assigned (buildvm-s390x-06.s390.fedoraproject.org) -> open (buildvm-s390x-06.s390.fedoraproject.org)
-  135457712 buildSRPMFromSCM (/rpms/resteasy.git:b8ff7c453a965c787fa6a19178eab054c12270ad): open (buildvm-s390x-06.s390.fedoraproject.org) -> closed
-  0 free  1 open  1 done  0 failed
-  135457774 buildArch (resteasy-3.0.26-35.fc43.src.rpm, noarch): free
-  135457774 buildArch (resteasy-3.0.26-35.fc43.src.rpm, noarch): free -> assigned (buildhw-x86-03.rdu3.fedoraproject.org)
-  135457774 buildArch (resteasy-3.0.26-35.fc43.src.rpm, noarch): assigned (buildhw-x86-03.rdu3.fedoraproject.org) -> open (buildhw-x86-03.rdu3.fedoraproject.org)
-  135457774 buildArch (resteasy-3.0.26-35.fc43.src.rpm, noarch): open (buildhw-x86-03.rdu3.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 30; see root.log for more information
+135483427 build (rawhide, /rpms/resteasy.git:ebe56f37b2fda99bffb86a7df917175e49df4975): free
+135483427 build (rawhide, /rpms/resteasy.git:ebe56f37b2fda99bffb86a7df917175e49df4975): free -> assigned (buildvm-a64-46.rdu3.fedoraproject.org)
+135483427 build (rawhide, /rpms/resteasy.git:ebe56f37b2fda99bffb86a7df917175e49df4975): assigned (buildvm-a64-46.rdu3.fedoraproject.org) -> open (buildvm-a64-46.rdu3.fedoraproject.org)
+  135483465 waitrepo (f43-build, ): free
+  135483465 waitrepo (f43-build, ): free -> assigned (buildvm-x86-19.rdu3.fedoraproject.org)
+  135483465 waitrepo (f43-build, ): assigned (buildvm-x86-19.rdu3.fedoraproject.org) -> open (buildvm-x86-19.rdu3.fedoraproject.org)
+  135483532 buildSRPMFromSCM (/rpms/resteasy.git:ebe56f37b2fda99bffb86a7df917175e49df4975): free
+  135483465 waitrepo (f43-build, ): open (buildvm-x86-19.rdu3.fedoraproject.org) -> closed
+  1 free  1 open  1 done  0 failed
+  135483532 buildSRPMFromSCM (/rpms/resteasy.git:ebe56f37b2fda99bffb86a7df917175e49df4975): free -> assigned (buildvm-a64-48.rdu3.fedoraproject.org)
+  135483532 buildSRPMFromSCM (/rpms/resteasy.git:ebe56f37b2fda99bffb86a7df917175e49df4975): assigned (buildvm-a64-48.rdu3.fedoraproject.org) -> open (buildvm-a64-48.rdu3.fedoraproject.org)
+  135483532 buildSRPMFromSCM (/rpms/resteasy.git:ebe56f37b2fda99bffb86a7df917175e49df4975): open (buildvm-a64-48.rdu3.fedoraproject.org) -> closed
+  0 free  1 open  2 done  0 failed
+  135483627 buildArch (resteasy-3.0.26-36.fc43.src.rpm, noarch): free
+  135483627 buildArch (resteasy-3.0.26-36.fc43.src.rpm, noarch): free -> assigned (buildvm-x86-06.rdu3.fedoraproject.org)
+  135483627 buildArch (resteasy-3.0.26-36.fc43.src.rpm, noarch): assigned (buildvm-x86-06.rdu3.fedoraproject.org) -> open (buildvm-x86-06.rdu3.fedoraproject.org)
+  135483627 buildArch (resteasy-3.0.26-36.fc43.src.rpm, noarch): open (buildvm-x86-06.rdu3.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 30; see root.log for more information
   Relevant logs:
-  https://kojipkgs.fedoraproject.org/work/tasks/7774/135457774/mock_config.log
-  https://kojipkgs.fedoraproject.org/work/tasks/7774/135457774/state.log
-  https://kojipkgs.fedoraproject.org/work/tasks/7774/135457774/build.log
-  https://kojipkgs.fedoraproject.org/work/tasks/7774/135457774/root.log
-  https://kojipkgs.fedoraproject.org/work/tasks/7774/135457774/mock_output.log
-  https://kojipkgs.fedoraproject.org/work/tasks/7774/135457774/hw_info.log
-  https://kojipkgs.fedoraproject.org/work/tasks/7774/135457774/dnf5.log
-  0 free  1 open  1 done  1 failed
-135457709 build (rawhide, /rpms/resteasy.git:b8ff7c453a965c787fa6a19178eab054c12270ad): open (buildvm-x86-09.rdu3.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 30; see root.log for more information
-  0 free  0 open  1 done  2 failed
+  https://kojipkgs.fedoraproject.org/work/tasks/3627/135483627/mock_config.log
+  https://kojipkgs.fedoraproject.org/work/tasks/3627/135483627/mock_output.log
+  https://kojipkgs.fedoraproject.org/work/tasks/3627/135483627/state.log
+  https://kojipkgs.fedoraproject.org/work/tasks/3627/135483627/build.log
+  https://kojipkgs.fedoraproject.org/work/tasks/3627/135483627/root.log
+  https://kojipkgs.fedoraproject.org/work/tasks/3627/135483627/hw_info.log
+  https://kojipkgs.fedoraproject.org/work/tasks/3627/135483627/dnf5.log
+  0 free  1 open  2 done  1 failed
+135483427 build (rawhide, /rpms/resteasy.git:ebe56f37b2fda99bffb86a7df917175e49df4975): open (buildvm-a64-46.rdu3.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 30; see root.log for more information
+  0 free  0 open  2 done  2 failed
 
-135457709 build (rawhide, /rpms/resteasy.git:b8ff7c453a965c787fa6a19178eab054c12270ad) failed
+135483427 build (rawhide, /rpms/resteasy.git:ebe56f37b2fda99bffb86a7df917175e49df4975) failed

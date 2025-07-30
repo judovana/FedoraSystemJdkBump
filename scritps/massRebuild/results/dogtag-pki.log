@@ -13,16 +13,49 @@ Offending RSA key in /home/jvanek/.ssh/known_hosts:2
 Password authentication is disabled to avoid man-in-the-middle attacks.
 Keyboard-interactive authentication is disabled to avoid man-in-the-middle attacks.
 UpdateHostkeys is disabled because the host key is not trusted.
-[rawhide cce2685] Rebuilt for java-25-openjdk as preffered jdk
+[rawhide 7c64e68] Rrevert to jdk21
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building dogtag-pki-11.8.0-0.2.beta2.fc43.2 for rawhide
-Created task: 135449649
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135449649
+Building dogtag-pki-11.8.0-0.2.beta2.fc43.3 for rawhide
+Created task: 135483200
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135483200
 Watching tasks (this may be safely interrupted)...
-135449649 build (rawhide, /rpms/dogtag-pki.git:cce2685a3c29f931c453b8538ab657b2564a4a8b): free
-135449649 build (rawhide, /rpms/dogtag-pki.git:cce2685a3c29f931c453b8538ab657b2564a4a8b): free -> open (buildvm-a64-39.rdu3.fedoraproject.org)
-  135449654 buildSRPMFromSCM (/rpms/dogtag-pki.git:cce2685a3c29f931c453b8538ab657b2564a4a8b): free
+135483200 build (rawhide, /rpms/dogtag-pki.git:7c64e68d3676cbe74363ce7c619fc29c7abfde83): free
+135483200 build (rawhide, /rpms/dogtag-pki.git:7c64e68d3676cbe74363ce7c619fc29c7abfde83): free -> assigned (buildvm-a64-48.rdu3.fedoraproject.org)
+135483200 build (rawhide, /rpms/dogtag-pki.git:7c64e68d3676cbe74363ce7c619fc29c7abfde83): assigned (buildvm-a64-48.rdu3.fedoraproject.org) -> open (buildvm-a64-48.rdu3.fedoraproject.org)
+  135483215 buildSRPMFromSCM (/rpms/dogtag-pki.git:7c64e68d3676cbe74363ce7c619fc29c7abfde83): free
+  135483215 buildSRPMFromSCM (/rpms/dogtag-pki.git:7c64e68d3676cbe74363ce7c619fc29c7abfde83): free -> assigned (buildvm-x86-22.rdu3.fedoraproject.org)
+  135483215 buildSRPMFromSCM (/rpms/dogtag-pki.git:7c64e68d3676cbe74363ce7c619fc29c7abfde83): assigned (buildvm-x86-22.rdu3.fedoraproject.org) -> open (buildvm-x86-22.rdu3.fedoraproject.org)
+  135483285 buildArch (dogtag-pki-11.8.0-0.2.beta2.fc43.3.src.rpm, x86_64): free
+  135483286 buildArch (dogtag-pki-11.8.0-0.2.beta2.fc43.3.src.rpm, aarch64): free
+  135483287 buildArch (dogtag-pki-11.8.0-0.2.beta2.fc43.3.src.rpm, ppc64le): free
+  135483288 buildArch (dogtag-pki-11.8.0-0.2.beta2.fc43.3.src.rpm, s390x): free
+  135483215 buildSRPMFromSCM (/rpms/dogtag-pki.git:7c64e68d3676cbe74363ce7c619fc29c7abfde83): open (buildvm-x86-22.rdu3.fedoraproject.org) -> closed
+  4 free  1 open  1 done  0 failed
+  135483285 buildArch (dogtag-pki-11.8.0-0.2.beta2.fc43.3.src.rpm, x86_64): free -> assigned (buildhw-x86-03.rdu3.fedoraproject.org)
+  135483286 buildArch (dogtag-pki-11.8.0-0.2.beta2.fc43.3.src.rpm, aarch64): free -> assigned (buildvm-a64-36.rdu3.fedoraproject.org)
+  135483287 buildArch (dogtag-pki-11.8.0-0.2.beta2.fc43.3.src.rpm, ppc64le): free -> assigned (buildvm-ppc64le-05.rdu3.fedoraproject.org)
+  135483288 buildArch (dogtag-pki-11.8.0-0.2.beta2.fc43.3.src.rpm, s390x): free -> assigned (buildvm-s390x-10.s390.fedoraproject.org)
+  135483285 buildArch (dogtag-pki-11.8.0-0.2.beta2.fc43.3.src.rpm, x86_64): assigned (buildhw-x86-03.rdu3.fedoraproject.org) -> open (buildhw-x86-03.rdu3.fedoraproject.org)
+  135483286 buildArch (dogtag-pki-11.8.0-0.2.beta2.fc43.3.src.rpm, aarch64): assigned (buildvm-a64-36.rdu3.fedoraproject.org) -> open (buildvm-a64-36.rdu3.fedoraproject.org)
+  135483287 buildArch (dogtag-pki-11.8.0-0.2.beta2.fc43.3.src.rpm, ppc64le): assigned (buildvm-ppc64le-05.rdu3.fedoraproject.org) -> open (buildvm-ppc64le-05.rdu3.fedoraproject.org)
+  135483288 buildArch (dogtag-pki-11.8.0-0.2.beta2.fc43.3.src.rpm, s390x): assigned (buildvm-s390x-10.s390.fedoraproject.org) -> open (buildvm-s390x-10.s390.fedoraproject.org)
+  135483285 buildArch (dogtag-pki-11.8.0-0.2.beta2.fc43.3.src.rpm, x86_64): open (buildhw-x86-03.rdu3.fedoraproject.org) -> FAILED: BuildError: error building package (arch x86_64), mock exited with status 30; see root.log for more information
+  Relevant logs:
+  https://kojipkgs.fedoraproject.org/work/tasks/3285/135483285/mock_config.log
+  https://kojipkgs.fedoraproject.org/work/tasks/3285/135483285/state.log
+  https://kojipkgs.fedoraproject.org/work/tasks/3285/135483285/build.log
+  https://kojipkgs.fedoraproject.org/work/tasks/3285/135483285/root.log
+  https://kojipkgs.fedoraproject.org/work/tasks/3285/135483285/mock_output.log
+  https://kojipkgs.fedoraproject.org/work/tasks/3285/135483285/hw_info.log
+  https://kojipkgs.fedoraproject.org/work/tasks/3285/135483285/dnf5.log
+  0 free  4 open  1 done  1 failed
+135483200 build (rawhide, /rpms/dogtag-pki.git:7c64e68d3676cbe74363ce7c619fc29c7abfde83): open (buildvm-a64-48.rdu3.fedoraproject.org) -> FAILED: BuildError: error building package (arch x86_64), mock exited with status 30; see root.log for more information
+  0 free  3 open  1 done  2 failed
+  135483286 buildArch (dogtag-pki-11.8.0-0.2.beta2.fc43.3.src.rpm, aarch64): open (buildvm-a64-36.rdu3.fedoraproject.org) -> canceled
+  0 free  2 open  2 done  2 failed
+  135483287 buildArch (dogtag-pki-11.8.0-0.2.beta2.fc43.3.src.rpm, ppc64le): open (buildvm-ppc64le-05.rdu3.fedoraproject.org) -> canceled
+  0 free  1 open  3 done  2 failed
+  135483288 buildArch (dogtag-pki-11.8.0-0.2.beta2.fc43.3.src.rpm, s390x): open (buildvm-s390x-10.s390.fedoraproject.org) -> canceled
+  0 free  0 open  4 done  2 failed
 
- 2 failed
-
-build (rawhide, /rpms/) failed
+135483200 build (rawhide, /rpms/dogtag-pki.git:7c64e68d3676cbe74363ce7c619fc29c7abfde83) failed

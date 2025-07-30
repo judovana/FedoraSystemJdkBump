@@ -13,34 +13,33 @@ Offending RSA key in /home/jvanek/.ssh/known_hosts:2
 Password authentication is disabled to avoid man-in-the-middle attacks.
 Keyboard-interactive authentication is disabled to avoid man-in-the-middle attacks.
 UpdateHostkeys is disabled because the host key is not trusted.
-[rawhide 4149f6a] Rebuilt for java-25-openjdk as preffered jdk
+[rawhide ee8be08] Rrevert to jdk21
  1 file changed, 6 insertions(+), 3 deletions(-)
-Building nekohtml-1.9.22-31.fc43 for rawhide
-Created task: 135456704
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135456704
+Building nekohtml-1.9.22-32.fc43 for rawhide
+Created task: 135483334
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135483334
 Watching tasks (this may be safely interrupted)...
-135456704 build (rawhide, /rpms/nekohtml.git:4149f6a6f51915edef7f0f5523777509650f9d6d): free
-135456704 build (rawhide, /rpms/nekohtml.git:4149f6a6f51915edef7f0f5523777509650f9d6d): free -> assigned (buildvm-x86-25.rdu3.fedoraproject.org)
-135456704 build (rawhide, /rpms/nekohtml.git:4149f6a6f51915edef7f0f5523777509650f9d6d): assigned (buildvm-x86-25.rdu3.fedoraproject.org) -> open (buildvm-x86-25.rdu3.fedoraproject.org)
-  135456738 buildSRPMFromSCM (/rpms/nekohtml.git:4149f6a6f51915edef7f0f5523777509650f9d6d): free
-  135456738 buildSRPMFromSCM (/rpms/nekohtml.git:4149f6a6f51915edef7f0f5523777509650f9d6d): free -> assigned (buildvm-a64-28.rdu3.fedoraproject.org)
-  135456738 buildSRPMFromSCM (/rpms/nekohtml.git:4149f6a6f51915edef7f0f5523777509650f9d6d): assigned (buildvm-a64-28.rdu3.fedoraproject.org) -> open (buildvm-a64-28.rdu3.fedoraproject.org)
-  135456738 buildSRPMFromSCM (/rpms/nekohtml.git:4149f6a6f51915edef7f0f5523777509650f9d6d): open (buildvm-a64-28.rdu3.fedoraproject.org) -> closed
+135483334 build (rawhide, /rpms/nekohtml.git:ee8be089427d56f3d124b0a41a74b0618cec5c32): free
+135483334 build (rawhide, /rpms/nekohtml.git:ee8be089427d56f3d124b0a41a74b0618cec5c32): free -> open (buildvm-a64-39.rdu3.fedoraproject.org)
+  135483357 buildSRPMFromSCM (/rpms/nekohtml.git:ee8be089427d56f3d124b0a41a74b0618cec5c32): free
+  135483357 buildSRPMFromSCM (/rpms/nekohtml.git:ee8be089427d56f3d124b0a41a74b0618cec5c32): free -> assigned (buildhw-x86-02.rdu3.fedoraproject.org)
+  135483357 buildSRPMFromSCM (/rpms/nekohtml.git:ee8be089427d56f3d124b0a41a74b0618cec5c32): assigned (buildhw-x86-02.rdu3.fedoraproject.org) -> open (buildhw-x86-02.rdu3.fedoraproject.org)
+  135483357 buildSRPMFromSCM (/rpms/nekohtml.git:ee8be089427d56f3d124b0a41a74b0618cec5c32): open (buildhw-x86-02.rdu3.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  135456818 buildArch (nekohtml-1.9.22-31.fc43.src.rpm, noarch): free
-  135456818 buildArch (nekohtml-1.9.22-31.fc43.src.rpm, noarch): free -> assigned (buildvm-x86-16.rdu3.fedoraproject.org)
-  135456818 buildArch (nekohtml-1.9.22-31.fc43.src.rpm, noarch): assigned (buildvm-x86-16.rdu3.fedoraproject.org) -> open (buildvm-x86-16.rdu3.fedoraproject.org)
-  135456818 buildArch (nekohtml-1.9.22-31.fc43.src.rpm, noarch): open (buildvm-x86-16.rdu3.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 30; see root.log for more information
+  135483474 buildArch (nekohtml-1.9.22-32.fc43.src.rpm, noarch): free
+  135483474 buildArch (nekohtml-1.9.22-32.fc43.src.rpm, noarch): free -> assigned (buildvm-a64-34.rdu3.fedoraproject.org)
+  135483474 buildArch (nekohtml-1.9.22-32.fc43.src.rpm, noarch): assigned (buildvm-a64-34.rdu3.fedoraproject.org) -> open (buildvm-a64-34.rdu3.fedoraproject.org)
+  135483474 buildArch (nekohtml-1.9.22-32.fc43.src.rpm, noarch): open (buildvm-a64-34.rdu3.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 30; see root.log for more information
   Relevant logs:
-  https://kojipkgs.fedoraproject.org/work/tasks/6818/135456818/mock_config.log
-  https://kojipkgs.fedoraproject.org/work/tasks/6818/135456818/state.log
-  https://kojipkgs.fedoraproject.org/work/tasks/6818/135456818/build.log
-  https://kojipkgs.fedoraproject.org/work/tasks/6818/135456818/root.log
-  https://kojipkgs.fedoraproject.org/work/tasks/6818/135456818/mock_output.log
-  https://kojipkgs.fedoraproject.org/work/tasks/6818/135456818/hw_info.log
-  https://kojipkgs.fedoraproject.org/work/tasks/6818/135456818/dnf5.log
+  https://kojipkgs.fedoraproject.org/work/tasks/3474/135483474/mock_config.log
+  https://kojipkgs.fedoraproject.org/work/tasks/3474/135483474/state.log
+  https://kojipkgs.fedoraproject.org/work/tasks/3474/135483474/build.log
+  https://kojipkgs.fedoraproject.org/work/tasks/3474/135483474/root.log
+  https://kojipkgs.fedoraproject.org/work/tasks/3474/135483474/mock_output.log
+  https://kojipkgs.fedoraproject.org/work/tasks/3474/135483474/hw_info.log
+  https://kojipkgs.fedoraproject.org/work/tasks/3474/135483474/dnf5.log
   0 free  1 open  1 done  1 failed
-135456704 build (rawhide, /rpms/nekohtml.git:4149f6a6f51915edef7f0f5523777509650f9d6d): open (buildvm-x86-25.rdu3.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 30; see root.log for more information
+135483334 build (rawhide, /rpms/nekohtml.git:ee8be089427d56f3d124b0a41a74b0618cec5c32): open (buildvm-a64-39.rdu3.fedoraproject.org) -> FAILED: BuildError: error building package (arch noarch), mock exited with status 30; see root.log for more information
   0 free  0 open  1 done  2 failed
 
-135456704 build (rawhide, /rpms/nekohtml.git:4149f6a6f51915edef7f0f5523777509650f9d6d) failed
+135483334 build (rawhide, /rpms/nekohtml.git:ee8be089427d56f3d124b0a41a74b0618cec5c32) failed

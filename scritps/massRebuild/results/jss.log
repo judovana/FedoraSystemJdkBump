@@ -13,46 +13,46 @@ Offending RSA key in /home/jvanek/.ssh/known_hosts:2
 Password authentication is disabled to avoid man-in-the-middle attacks.
 Keyboard-interactive authentication is disabled to avoid man-in-the-middle attacks.
 UpdateHostkeys is disabled because the host key is not trusted.
-[rawhide 6b95178] Rebuilt for java-25-openjdk as preffered jdk
+[rawhide 574fd44] Rrevert to jdk21
  1 file changed, 4 insertions(+), 1 deletion(-)
-Building jss-5.8.0-0.3.beta3.fc43.2 for rawhide
-Created task: 135454879
-Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135454879
+Building jss-5.8.0-0.3.beta3.fc43.3 for rawhide
+Created task: 135483278
+Task info: https://koji.fedoraproject.org/koji/taskinfo?taskID=135483278
 Watching tasks (this may be safely interrupted)...
-135454879 build (rawhide, /rpms/jss.git:6b95178e1edf7854ddf71f5fbe476db9c8eafcba): free
-135454879 build (rawhide, /rpms/jss.git:6b95178e1edf7854ddf71f5fbe476db9c8eafcba): free -> assigned (buildvm-a64-29.rdu3.fedoraproject.org)
-135454879 build (rawhide, /rpms/jss.git:6b95178e1edf7854ddf71f5fbe476db9c8eafcba): assigned (buildvm-a64-29.rdu3.fedoraproject.org) -> open (buildvm-a64-29.rdu3.fedoraproject.org)
-  135454958 buildSRPMFromSCM (/rpms/jss.git:6b95178e1edf7854ddf71f5fbe476db9c8eafcba): free
-  135454958 buildSRPMFromSCM (/rpms/jss.git:6b95178e1edf7854ddf71f5fbe476db9c8eafcba): free -> assigned (buildvm-ppc64le-18.rdu3.fedoraproject.org)
-  135454958 buildSRPMFromSCM (/rpms/jss.git:6b95178e1edf7854ddf71f5fbe476db9c8eafcba): assigned (buildvm-ppc64le-18.rdu3.fedoraproject.org) -> open (buildvm-ppc64le-18.rdu3.fedoraproject.org)
-  135454958 buildSRPMFromSCM (/rpms/jss.git:6b95178e1edf7854ddf71f5fbe476db9c8eafcba): open (buildvm-ppc64le-18.rdu3.fedoraproject.org) -> closed
+135483278 build (rawhide, /rpms/jss.git:574fd4442eaedad7bbf56137edeb22ede75671d1): free
+135483278 build (rawhide, /rpms/jss.git:574fd4442eaedad7bbf56137edeb22ede75671d1): free -> assigned (buildvm-a64-27.rdu3.fedoraproject.org)
+135483278 build (rawhide, /rpms/jss.git:574fd4442eaedad7bbf56137edeb22ede75671d1): assigned (buildvm-a64-27.rdu3.fedoraproject.org) -> open (buildvm-a64-27.rdu3.fedoraproject.org)
+  135483317 buildSRPMFromSCM (/rpms/jss.git:574fd4442eaedad7bbf56137edeb22ede75671d1): free
+  135483317 buildSRPMFromSCM (/rpms/jss.git:574fd4442eaedad7bbf56137edeb22ede75671d1): free -> open (buildvm-x86-19.rdu3.fedoraproject.org)
+  135483317 buildSRPMFromSCM (/rpms/jss.git:574fd4442eaedad7bbf56137edeb22ede75671d1): open (buildvm-x86-19.rdu3.fedoraproject.org) -> closed
   0 free  1 open  1 done  0 failed
-  135455138 buildArch (jss-5.8.0-0.3.beta3.fc43.2.src.rpm, aarch64): free
-  135455137 buildArch (jss-5.8.0-0.3.beta3.fc43.2.src.rpm, x86_64): free
-  135455139 buildArch (jss-5.8.0-0.3.beta3.fc43.2.src.rpm, ppc64le): free
-  135455140 buildArch (jss-5.8.0-0.3.beta3.fc43.2.src.rpm, s390x): free
-  135455138 buildArch (jss-5.8.0-0.3.beta3.fc43.2.src.rpm, aarch64): free -> open (buildvm-a64-43.rdu3.fedoraproject.org)
-  135455137 buildArch (jss-5.8.0-0.3.beta3.fc43.2.src.rpm, x86_64): free -> assigned (buildvm-x86-10.rdu3.fedoraproject.org)
-  135455139 buildArch (jss-5.8.0-0.3.beta3.fc43.2.src.rpm, ppc64le): free -> assigned (buildvm-ppc64le-15.rdu3.fedoraproject.org)
-  135455137 buildArch (jss-5.8.0-0.3.beta3.fc43.2.src.rpm, x86_64): assigned (buildvm-x86-10.rdu3.fedoraproject.org) -> open (buildvm-x86-10.rdu3.fedoraproject.org)
-  135455139 buildArch (jss-5.8.0-0.3.beta3.fc43.2.src.rpm, ppc64le): assigned (buildvm-ppc64le-15.rdu3.fedoraproject.org) -> open (buildvm-ppc64le-15.rdu3.fedoraproject.org)
-  135455138 buildArch (jss-5.8.0-0.3.beta3.fc43.2.src.rpm, aarch64): open (buildvm-a64-43.rdu3.fedoraproject.org) -> FAILED: BuildError: error building package (arch aarch64), mock exited with status 30; see root.log for more information
+  135483402 buildArch (jss-5.8.0-0.3.beta3.fc43.3.src.rpm, aarch64): free
+  135483404 buildArch (jss-5.8.0-0.3.beta3.fc43.3.src.rpm, s390x): free
+  135483401 buildArch (jss-5.8.0-0.3.beta3.fc43.3.src.rpm, x86_64): free
+  135483403 buildArch (jss-5.8.0-0.3.beta3.fc43.3.src.rpm, ppc64le): free
+  135483402 buildArch (jss-5.8.0-0.3.beta3.fc43.3.src.rpm, aarch64): free -> open (buildvm-a64-09.rdu3.fedoraproject.org)
+  135483404 buildArch (jss-5.8.0-0.3.beta3.fc43.3.src.rpm, s390x): free -> open (buildvm-s390x-07.s390.fedoraproject.org)
+  135483401 buildArch (jss-5.8.0-0.3.beta3.fc43.3.src.rpm, x86_64): free -> assigned (buildhw-x86-13.rdu3.fedoraproject.org)
+  135483403 buildArch (jss-5.8.0-0.3.beta3.fc43.3.src.rpm, ppc64le): free -> assigned (buildvm-ppc64le-12.rdu3.fedoraproject.org)
+  135483401 buildArch (jss-5.8.0-0.3.beta3.fc43.3.src.rpm, x86_64): assigned (buildhw-x86-13.rdu3.fedoraproject.org) -> open (buildhw-x86-13.rdu3.fedoraproject.org)
+  135483403 buildArch (jss-5.8.0-0.3.beta3.fc43.3.src.rpm, ppc64le): assigned (buildvm-ppc64le-12.rdu3.fedoraproject.org) -> open (buildvm-ppc64le-12.rdu3.fedoraproject.org)
+  135483404 buildArch (jss-5.8.0-0.3.beta3.fc43.3.src.rpm, s390x): open (buildvm-s390x-07.s390.fedoraproject.org) -> FAILED: BuildError: error building package (arch s390x), mock exited with status 30; see root.log for more information
   Relevant logs:
-  https://kojipkgs.fedoraproject.org/work/tasks/5138/135455138/mock_config.log
-  https://kojipkgs.fedoraproject.org/work/tasks/5138/135455138/state.log
-  https://kojipkgs.fedoraproject.org/work/tasks/5138/135455138/build.log
-  https://kojipkgs.fedoraproject.org/work/tasks/5138/135455138/root.log
-  https://kojipkgs.fedoraproject.org/work/tasks/5138/135455138/mock_output.log
-  https://kojipkgs.fedoraproject.org/work/tasks/5138/135455138/hw_info.log
-  https://kojipkgs.fedoraproject.org/work/tasks/5138/135455138/dnf5.log
-  1 free  3 open  1 done  1 failed
-  135455137 buildArch (jss-5.8.0-0.3.beta3.fc43.2.src.rpm, x86_64): open (buildvm-x86-10.rdu3.fedoraproject.org) -> canceled
-  1 free  2 open  2 done  1 failed
-  135455139 buildArch (jss-5.8.0-0.3.beta3.fc43.2.src.rpm, ppc64le): open (buildvm-ppc64le-15.rdu3.fedoraproject.org) -> canceled
-  1 free  1 open  3 done  1 failed
-  135455140 buildArch (jss-5.8.0-0.3.beta3.fc43.2.src.rpm, s390x): free -> canceled
-  0 free  1 open  4 done  1 failed
-135454879 build (rawhide, /rpms/jss.git:6b95178e1edf7854ddf71f5fbe476db9c8eafcba): open (buildvm-a64-29.rdu3.fedoraproject.org) -> FAILED: BuildError: error building package (arch aarch64), mock exited with status 30; see root.log for more information
+  https://kojipkgs.fedoraproject.org/work/tasks/3404/135483404/mock_config.log
+  https://kojipkgs.fedoraproject.org/work/tasks/3404/135483404/state.log
+  https://kojipkgs.fedoraproject.org/work/tasks/3404/135483404/build.log
+  https://kojipkgs.fedoraproject.org/work/tasks/3404/135483404/root.log
+  https://kojipkgs.fedoraproject.org/work/tasks/3404/135483404/mock_output.log
+  https://kojipkgs.fedoraproject.org/work/tasks/3404/135483404/hw_info.log
+  https://kojipkgs.fedoraproject.org/work/tasks/3404/135483404/dnf5.log
+  0 free  4 open  1 done  1 failed
+135483278 build (rawhide, /rpms/jss.git:574fd4442eaedad7bbf56137edeb22ede75671d1): open (buildvm-a64-27.rdu3.fedoraproject.org) -> FAILED: BuildError: error building package (arch s390x), mock exited with status 30; see root.log for more information
+  0 free  3 open  1 done  2 failed
+  135483402 buildArch (jss-5.8.0-0.3.beta3.fc43.3.src.rpm, aarch64): open (buildvm-a64-09.rdu3.fedoraproject.org) -> canceled
+  0 free  2 open  2 done  2 failed
+  135483401 buildArch (jss-5.8.0-0.3.beta3.fc43.3.src.rpm, x86_64): open (buildhw-x86-13.rdu3.fedoraproject.org) -> canceled
+  0 free  1 open  3 done  2 failed
+  135483403 buildArch (jss-5.8.0-0.3.beta3.fc43.3.src.rpm, ppc64le): open (buildvm-ppc64le-12.rdu3.fedoraproject.org) -> canceled
   0 free  0 open  4 done  2 failed
 
-135454879 build (rawhide, /rpms/jss.git:6b95178e1edf7854ddf71f5fbe476db9c8eafcba) failed
+135483278 build (rawhide, /rpms/jss.git:574fd4442eaedad7bbf56137edeb22ede75671d1) failed
