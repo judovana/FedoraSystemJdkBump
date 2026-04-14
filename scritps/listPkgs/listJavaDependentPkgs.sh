@@ -16,7 +16,7 @@ readonly srcRepos="fedora-modular-source fedora-source updates-modular-source up
 if [ ! -z "${1}" ] ; then
   readonly interestingDeps=$(echo $(cat ${1})) #to put it to one line
 else
-  readonly interestingDeps="java-headless java java-devel maven-local maven mvn xmvn ivy-local ant java-21-openjdk-headless java-21-openjdk java-21-openjdk-devel javapackages-local-openjdk21 javapackages-local ant ant-local-openjdk21"
+  readonly interestingDeps="maven-local-openjdk25 java-25-openjdk-headless java-25-openjdk java-25-openjdk-devel javapackages-local-openjdk25 ant-openjdk25"
 fi
 
 #to allow work with repos with spaces in names, IFS is affected manytimes
